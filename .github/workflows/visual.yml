@@ -5,6 +5,10 @@ on:
     paths:
       - '.github/workflows/visual.yml'
       - 'scripts/visual.mjs'
+      - 'index.html'
+      - 'styles.css'
+      - 'src/**'
+      - 'public/data/archive.json'
   workflow_dispatch:
 permissions:
   contents: write
