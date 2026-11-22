@@ -1,0 +1,43 @@
+name: Temporary Netlify preview (claim within 1 hour)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/netlify-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify and produce full archival edition
+        run: |
+          npm run check
+          python3 scripts/build.py
+      - name: Deploy publicly accessible one-hour-claim Netlify preview
+        run: |
+          npm install --global netlify-cli@latest
+          netlify deploy --allow-anonymous --dir dist --no-build --prod --json | tee /tmp/netlify-anonymous.json
+          node - <<'JS'
+          const fs=require('node:fs');
+          const raw=fs.readFileSync('/tmp/netlify-anonymous.json','utf8');
+          const data=JSON.parse(raw.slice(raw.indexOf('{')));
+          console.log('NETLIFY_PREVIEW',JSON.stringify(data));
+          const lines=['## Complete 104-story Netlify preview', '',
+            'Temporary URL: '+(data.deploy_url||data.url||data.ssl_url||'see CLI output'),
+            '',
+            'Claim this anonymous preview within one hour or Netlify automatically removes it.',
+            'The permanent Netlify project can instead be connected to GitHub in its dashboard.'];
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
+          JS
