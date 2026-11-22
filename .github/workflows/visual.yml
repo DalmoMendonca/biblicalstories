@@ -44,7 +44,7 @@ jobs:
       - name: Preserve visual review screenshots on separate branch
         if: always()
         run: |
-          if test -f qa/home-desktop.jpg; then
+          if test -f qa/new-index-desktop.jpg; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git switch -C visual-review
