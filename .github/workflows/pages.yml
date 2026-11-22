@@ -1,0 +1,59 @@
+name: Publish illustrated edition to GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pages.yml'
+      - 'src/**'
+      - 'index.html'
+      - 'styles.css'
+      - 'scripts/build.py'
+      - 'public/art/**'
+      - 'public/folios/**'
+      - 'public/data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages-illustrated-edition
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build independently hosted preview from complete source archive
+        run: |
+          BASE_PATH=/biblicalstories python3 scripts/build.py
+          python3 - <<'PY'
+          import json, pathlib
+          d=pathlib.Path('dist')
+          archive=json.loads((d/'data/archive.json').read_text())
+          assert len(archive['images']) == 104
+          assert archive['images'][0]['image'] == '/biblicalstories/art/001.webp'
+          assert len(list((d/'folios').glob('*.webp'))) >= 300
+          html=(d/'index.html').read_text()
+          js=(d/'src/app.js').read_text()
+          assert 'src="/biblicalstories/src/app.js"' in html
+          assert '"/biblicalstories/data/archive.json"' in js
+          print('PASS: 104 plates, German folios, subpath URLs and static build')
+          PY
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+      - id: deployment
+        uses: actions/deploy-pages@v4
