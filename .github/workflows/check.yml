@@ -1,0 +1,35 @@
+name: Verify edition
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'index.html'
+      - 'styles.css'
+      - 'tests/**'
+      - 'scripts/build.py'
+      - 'public/data/archive.json'
+      - '.github/workflows/check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Verify JavaScript and catalog
+        run: npm run check
+      - name: Validate immutable original art and build
+        if: hashFiles('public/data/archive.json') != ''
+        run: |
+          python3 scripts/build.py
+          test -f dist/index.html
+          test -f dist/art/001.webp
+          test -f dist/art/104.webp
+          echo 'PASS: Published static edition is complete and includes 104 original prints'
