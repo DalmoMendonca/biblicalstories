@@ -65,4 +65,21 @@ try{
  await mobile.locator("#lightbox-close").click();
  assert.equal(mobileErrors.length,0,mobileErrors.join("; "));
  console.log("MOBILE PASSED: 104 engravings, image-led responsive story, original German pages, working language selector, no overflow or JS errors");
+ if(fs.existsSync("public/texts/001.json")){
+   const chapter=await browser.newPage({viewport:{width:1024,height:820}});
+   await chapter.goto(base+"/?view=story&id=1",{waitUntil:"domcontentloaded"});
+   for(const [code,script] of [["de","Latin"],["en","Latin"],["ru","Cyrillic"]]){
+     await chapter.locator('[data-reader-lang="'+code+'"]').click();
+     const pane=chapter.locator(".edition-prose");
+     await pane.waitFor({timeout:20000});
+     const writing=await pane.textContent();
+     assert.ok(writing.length>150,code+" chapter 1 lacks full source-derived text");
+     if(code==="ru") assert.ok(/[\u0400-\u04ff]/.test(writing),"Russian rendering lacks Cyrillic");
+     console.log("TEXT PASS",code,"length",writing.length,"script",script);
+   }
+   assert.equal(await chapter.locator(".source-facsimile").count(),1);
+   assert.ok(await chapter.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),"translated reader overflow");
+   await chapter.close();
+ }
+
 }finally{await browser.close();}
