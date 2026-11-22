@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta name="description" content="One hundred and four biblical histories by Johann Hübner, with all 104 original 1768 engravings, archival facsimiles, and an open scholarly edition in German, English and Russian.">
+  <meta property="og:title" content="104 Sacred Histories · Johann Hübner">
+  <meta property="og:description" content="104 stories. 104 original eighteenth-century engravings. A trilingual illustrated archive.">
+  <meta property="og:type" content="website">
+  <title>104 Sacred Histories — Johann Hübner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;600;650;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header" class="site-header">
+    <a href="/" class="brand" data-nav="home" aria-label="104 Sacred Histories, home">
+      <span class="brand-mark" aria-hidden="true">H</span>
+      <span class="brand-type"><strong>HÜBNER</strong><small>104 SACRED HISTORIES</small></span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="/?view=collection" data-nav="collection" id="nav-library">The collection</a>
+      <a href="/?view=story&id=1" data-nav="story" id="nav-read">Read</a>
+      <a href="/?view=about" data-nav="about" id="nav-about">The edition</a>
+    </nav>
+    <div class="header-tools">
+      <div class="site-languages" role="group" aria-label="Interface language">
+        <button data-lang="en" class="language active" type="button" aria-pressed="true" lang="en">EN</button>
+        <button data-lang="de" class="language" type="button" aria-pressed="false" lang="de">DE</button>
+        <button data-lang="ru" class="language" type="button" aria-pressed="false" lang="ru">RU</button>
+      </div>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-header" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="loading-shell" aria-live="polite">
+      <span class="loading-ornament">H</span>
+      <p>Opening the archive…</p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-heading">104 <em>Sacred Histories</em></div>
+    <div class="footer-bottom">
+      <span>Johann Hübner · first published 1714</span>
+      <span>Artwork: Universitätsbibliothek Heidelberg, Giessen edition, 1768.</span>
+      <a href="/?view=about" data-nav="about">Editorial principles & source credits</a>
+    </div>
+  </footer>
+  <dialog id="art-dialog" aria-label="Historical engraving at full size">
+    <div class="dialog-inner">
+      <div class="dialog-heading">
+        <div id="dialog-title"></div>
+        <button id="dialog-close" type="button" class="icon-button" aria-label="Close enlarged image">×</button>
+      </div>
+      <div class="dialog-image-wrap"><img id="dialog-image" alt=""></div>
+      <p class="dialog-credit" id="dialog-credit"></p>
+    </div>
+  </dialog>
+</body>
+</html>
