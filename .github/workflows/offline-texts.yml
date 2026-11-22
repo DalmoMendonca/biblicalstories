@@ -1,0 +1,50 @@
+name: Offline source-text translation fallback (review branch)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/translate_offline_backup.py'
+      - '.github/workflows/offline-texts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: offline-huebner-trilingual-texts
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - name: Set up German Fraktur recognition and local translation models
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-frk
+          python3 -m pip install --disable-pip-version-check 'argostranslate>=1.9,<2'
+      - name: Transcribe original German pages and translate 104 stories offline
+        run: python3 scripts/translate_offline_backup.py
+      - name: Verify all 312 source-linked texts
+        run: |
+          python3 - <<'PY'
+          import json,pathlib
+          files=sorted(pathlib.Path('public/texts').glob('*.json'))
+          assert len(files)==104
+          for n,p in enumerate(files,1):
+            d=json.loads(p.read_text())
+            assert d['id']==n
+            assert all(len(d[z]['text'])>150 for z in ('de','en','ru'))
+            assert d['editorial']['proofread'] is False
+          print('PASS 104 chapters × German, English, Russian')
+          PY
+      - name: Preserve independently reproducible translation on an isolated review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -C offline-text-review
+          git add public/texts public/data/text-coverage.json
+          git commit -m 'Backup 104-source-chapter full trilingual edition using offline Argos Translate [skip ci]'
+          git push -f origin offline-text-review
