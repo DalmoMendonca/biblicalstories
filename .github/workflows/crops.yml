@@ -1,0 +1,42 @@
+name: Build and review 104 original engraving crops
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/crops.yml'
+      - 'scripts/crop_plates.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: crop-originals
+  cancel-in-progress: true
+jobs:
+  extract:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python3 -m pip install Pillow
+      - name: Extract all 104, preserving full scan source
+        run: python3 scripts/crop_plates.py
+      - name: Commit cropped images and provenance
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git reset --mixed origin/main
+          git add public/engravings public/data/crop-provenance.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add 104 original engraving-only crops with per-plate provenance [skip ci]"
+            git push origin HEAD:main
+          fi
+      - name: Preserve review contact sheet
+        run: |
+          git switch -C crop-review
+          git add -f qa/crop-contact.jpg
+          git commit -m "Review the actual 104 original engraving crops [skip ci]"
+          git push -f origin crop-review
