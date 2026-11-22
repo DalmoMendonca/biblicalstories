@@ -63,7 +63,7 @@ try{
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth <= innerWidth + 2),true,"Reader horizontal overflow");
   await mobile.locator(".folio-grid [data-zoom-folio]").first().click();
   assert.equal(await mobile.locator("#art-dialog").evaluate(el=>el.open),true,"Original German folio modal not open");
-  assert.match(await mobile.locator("#dialog-image").getAttribute("src"),/^\\/folios\\//,"Source leaf should be a local archival image");
+  assert.ok((await mobile.locator("#dialog-image").getAttribute("src")).startsWith("/folios/"),"Source leaf should be a local archival image");
   await mobile.locator("#dialog-zoom-in").click();
   await mobile.locator("#dialog-close").click();
   await mobile.locator(".menu-toggle").click();
