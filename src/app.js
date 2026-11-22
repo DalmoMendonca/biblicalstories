@@ -8,10 +8,14 @@ const languages = ["en","de","ru"];
 const text = {
   en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"Original pages",none:"Historical English transcription not yet available.",edition:"English · Hamburg, 1765",book:"Source edition",original:"Original scan",about:"Edition"},
   de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Kritisch geprüfter deutscher Volltext noch nicht verfügbar.",edition:"Deutsch · Gießen, 1768",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
-  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Страницы оригинала",none:"Проверенная транскрипция русского перевода 1815 года пока недоступна.",edition:"Русский · Санкт-Петербург, 1815",book:"Оригинальное издание",original:"Оригинальный скан",about:"Издание"}
+  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Страницы оригинала",none:"Проверенная транскрипция русского перевода пока недоступна.",edition:"Русский · Москва, 1825",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
 };
 const sourceEnglish = "https://books.google.com/books?id=5elUAAAAcAAJ";
-const sourceRussian = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
+const sourceRussian1815 = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
+const sourceRussian1825 = [
+  "https://kp.rusneb.ru/item/material/5fcf8bb3991f3b91423439b5",
+  "https://kp.rusneb.ru/item/material/sto-chetyre-svyashchennyya-istorii-pyatdesyat-dve-svyashchennyya-istorii-iz-novago-zaveta--ch2"
+];
 const sourceGerman = "https://digi.ub.uni-heidelberg.de/diglit/huebner1768";
 const stored = (key, fallback) => { try{return localStorage.getItem(key) ?? fallback;}catch{return fallback;} };
 const save = (key, value) => { try{localStorage.setItem(key,value);}catch{} };
@@ -102,7 +106,7 @@ function editionText(p){
     // These are source photographs, preserving the 1768 printed text verbatim.
     return `<div class="source-heading">${esc(m.edition)} · <a href="${sourceGerman}" rel="noopener" target="_blank">${esc(m.original)}</a></div>${folios(p)}`;
   }
-  const link=s.lang==="en"?sourceEnglish:sourceRussian;
+  const link=s.lang==="en"?sourceEnglish:sourceRussian1825[p.book==="old"?0:1];
   return `<div class="source-heading">${esc(m.edition)}</div><div class="source-absence">${esc(m.none)} <a href="${link}" target="_blank" rel="noopener">${esc(m.book)} ↗</a></div>`;
 }
 function renderStory(id){
@@ -149,7 +153,7 @@ function renderAbout() {
   <li><strong>Deutsch</strong><span>Gießen, 1768. Original printed pages and 104 engraved plates. <a href="https://digi.ub.uni-heidelberg.de/diglit/huebner1768" target="_blank" rel="noopener">Universitätsbibliothek Heidelberg ↗</a></span></li>
   <li><strong>Deutsch</strong><span>Zürich, ca. 1775. Complete facsimile and uncorrected OCR. <a href="https://www.e-rara.ch/zuz/doi/10.3931/e-rara-85573" target="_blank" rel="noopener">Zentralbibliothek Zürich ↗</a></span></li>
   <li><strong>English</strong><span>Hamburg, 1765. Historic English translation. <a href="${sourceEnglish}" target="_blank" rel="noopener">British Library / Google Books ↗</a></span></li>
-  <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian}" target="_blank" rel="noopener">Library record ↗</a></span></li>
+  <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian1815}" target="_blank" rel="noopener">Library record ↗</a>. Moscow, 1825: <a href="${sourceRussian1825[0]}" target="_blank" rel="noopener">Old Testament ↗</a> · <a href="${sourceRussian1825[1]}" target="_blank" rel="noopener">New Testament ↗</a> digitized original-language volumes.</span></li>
   </ul>
   <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English and Russian original text is not supplied without a verified source.</p>
   <p class="short"><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Source code and crop provenance ↗</a></p>
