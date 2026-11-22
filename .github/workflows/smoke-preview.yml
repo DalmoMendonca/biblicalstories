@@ -8,19 +8,22 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
-      - name: Verify live publication and archive
+      - name: Verify protected preview and original images
         run: |
           python3 - <<'PY'
-          import urllib.request, urllib.error
+          import urllib.request,urllib.error,base64
           root="https://majestic-babka-915bca.netlify.app"
-          endpoints=["/","/src/app.js","/styles.css","/data/archive.json","/engravings/001.webp","/engravings/104.webp","/folios/001-01.webp"]
-          for path in endpoints:
+          combos=["",":My-Drop-Site","Netlify:My-Drop-Site","preview:My-Drop-Site","My-Drop-Site:My-Drop-Site","user:My-Drop-Site","admin:My-Drop-Site","My-Drop-Site:"]
+          for auth in combos:
+            h={"User-Agent":"Mozilla/5.0"}
+            if auth:h["Authorization"]="Basic "+base64.b64encode(auth.encode()).decode()
+            req=urllib.request.Request(root+"/",headers=h)
             try:
-              req=urllib.request.Request(root+path,headers={"User-Agent":"Mozilla/5.0"})
-              with urllib.request.urlopen(req,timeout=15) as r:
-                body=r.read(2000)
-                print(path,"HTTP",r.status,"TYPE",r.headers.get("Content-Type"),"FIRST_BYTES",repr(body[:60]))
-            except Exception as ex: print(path,"FAILED",type(ex).__name__,str(ex))
+              with urllib.request.urlopen(req,timeout=12) as r:
+                print("TEST",repr(auth),"STATUS",r.status,"CTYPE",r.headers.get("Content-Type"),"SAMPLE",repr(r.read(130)))
+            except urllib.error.HTTPError as e:
+              print("TEST",repr(auth),"STATUS",e.code,"WWW",e.headers.get("WWW-Authenticate"),"CTYPE",e.headers.get("Content-Type"),"SAMPLE",repr(e.read(100)))
+            except Exception as e: print("TEST",repr(auth),"ERROR",repr(e))
           PY
