@@ -60,4 +60,9 @@ jobs:
             with urllib.request.urlopen(req,timeout=25) as f:
               b=f.read(100)
               print('IMAGE FETCH',f.status, f.headers.get('content-type'),f.headers.get('content-length'),b[:20])
+
+          for i in range(545,min(565,len(cc))):
+            c=cc[i]
+            a=c.get('images',[{}])[0].get('resource',{})
+            print('END-LEAF',i,repr(c.get('label')),a.get('@id',''))
           PY
