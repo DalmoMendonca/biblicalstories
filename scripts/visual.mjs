@@ -13,10 +13,12 @@ try{
   await desktop.locator(".hero-art .plate-frame img").waitFor();
   await desktop.locator(".hero-art .plate-frame img").evaluate(img=>img.decode());
   assert.match(await desktop.title(),/104 Sacred Histories/);
+  await desktop.locator(".featured-grid img").evaluateAll(async images=>{for(const img of images)img.loading="eager";await Promise.all(images.map(img=>img.decode().catch(()=>{})));});
   await desktop.screenshot({path:"qa/home-desktop.jpg",type:"jpeg",quality:84,fullPage:true});
   await desktop.locator("a[data-nav='collection']").first().click();
   await desktop.locator(".collection-grid .art-card").first().waitFor();
   assert.equal(await desktop.locator(".collection-grid .art-card").count(),104);
+  await desktop.locator(".collection-grid img").first().evaluate(img=>img.decode());
   await desktop.screenshot({path:"qa/gallery-desktop.jpg",type:"jpeg",quality:76,fullPage:false});
   await desktop.locator("#gallery-search").fill("Job");
   assert.equal(await desktop.locator(".collection-grid .art-card").count(),1);
@@ -43,6 +45,7 @@ try{
   await mobile.goto(base+"/",{waitUntil:"domcontentloaded"});
   await mobile.locator(".hero-art .plate-frame img").waitFor();
   await mobile.locator(".hero-art .plate-frame img").evaluate(img=>img.decode());
+  await mobile.locator(".featured-grid img").evaluateAll(async images=>{for(const img of images)img.loading="eager";await Promise.all(images.map(img=>img.decode().catch(()=>{})));});
   await mobile.screenshot({path:"qa/home-mobile.jpg",type:"jpeg",quality:86,fullPage:true});
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth <= innerWidth + 2),true,"Home horizontal overflow");
   await mobile.goto(base+"/?view=collection",{waitUntil:"domcontentloaded"});
@@ -52,8 +55,17 @@ try{
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth <= innerWidth + 2),true,"Gallery horizontal overflow");
   await mobile.goto(base+"/?view=story&id=84",{waitUntil:"domcontentloaded"});
   await mobile.locator(".main-plate img").evaluate(img=>img.decode());
+  const imageBox=await mobile.locator(".reader-image-pane").boundingBox();
+  const textBox=await mobile.locator(".reader-copy-pane").boundingBox();
+  assert.ok(imageBox.y<textBox.y,"Original image must lead the story on phones");
+  await mobile.locator(".folio-grid img").evaluateAll(async images=>{for(const img of images)img.loading="eager";await Promise.all(images.map(img=>img.decode().catch(()=>{})));});
   await mobile.screenshot({path:"qa/reader-mobile.jpg",type:"jpeg",quality:86,fullPage:true});
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth <= innerWidth + 2),true,"Reader horizontal overflow");
+  await mobile.locator(".folio-grid [data-zoom-folio]").first().click();
+  assert.equal(await mobile.locator("#art-dialog").evaluate(el=>el.open),true,"Original German folio modal not open");
+  assert.match(await mobile.locator("#dialog-image").getAttribute("src"),/^\\/folios\\//,"Source leaf should be a local archival image");
+  await mobile.locator("#dialog-zoom-in").click();
+  await mobile.locator("#dialog-close").click();
   await mobile.locator(".menu-toggle").click();
   assert.equal(await mobile.locator(".primary-nav").isVisible(),true,"Mobile menu does not open");
   assert.equal(mobileErrors.length,0,"Mobile errors: "+mobileErrors.join(" | "));
