@@ -27,8 +27,8 @@ jobs:
             d=json.loads(m)
             print('MANIFEST keys',list(d.keys()),flush=True)
             print('SEQUENCES',len(d.get('sequences',[])),'CANVASES',len(d.get('sequences',[{}])[0].get('canvases',[])),'STRUCTURES',len(d.get('structures',[])),flush=True)
-            for st in d.get('structures',[])[:18]:
-              print('STRUCT',json.dumps(st,ensure_ascii=False)[:3000],flush=True)
+            for st in d.get('structures',[])[:3]:
+              print('STRUCT',str(st.get('label'))[:140],len(st.get('canvases',[])),flush=True)
             for c in d.get('sequences',[{}])[0].get('canvases',[])[180:187]:
               print('CANVAS',str(c.get('label')),c.get('@id'),flush=True)
           h=get('https://www.e-rara.ch/zuz/content/structure/24283792',400000)
@@ -36,6 +36,24 @@ jobs:
             tx=h.decode('utf-8','replace')
             print('TOC TEXT',re.sub('<[^>]+>',' ',tx)[-4500:],flush=True)
             print('TOC LINKS',re.findall(r'<a[^>]*href="([^"]+)"[^>]*>([^<]{4,120})</a>',tx)[-60:],flush=True)
+
+          if m:
+            allrange=d.get('structures',[])
+            print('RANGE_SUMMARY',len(allrange),[(str(x.get('label'))[:85],len(x.get('canvases',[])),len(x.get('ranges',[]))) for x in allrange][:125],flush=True)
+            print('CHAPTER_RANGES',len([x for x in allrange if re.search(r'historie',str(x.get('label','')),re.I)]),flush=True)
+          alt=get('https://www.e-rara.ch/zuz/download/ftpack/alto/24283792',15000000)
+          if alt:
+            import xml.etree.ElementTree as ET
+            try:
+              a=ET.fromstring(alt)
+              ns={'a':'http://www.loc.gov/standards/alto/ns-v3#'}
+              pages=a.findall('.//a:Page',ns)
+              print('ALTO_PAGES',len(pages),flush=True)
+              for page in pages[:3]+pages[90:93]+pages[-3:]:
+                words=[z.get('CONTENT','') for z in page.findall('.//a:String',ns)]
+                print('ALTO_PAGE',page.get('ID'),page.get('PHYSICAL_IMG_NR'),len(words),' '.join(words[:100])[:850],flush=True)
+            except Exception as e:print('ALTO_PARSE_ERROR',repr(e),flush=True)
+
           for url in [
           'https://www.e-rara.ch/zuz/download/ftpack/alto/24283792',
           'https://www.e-rara.ch/zuz/download/ftpack/xml/24283792',
