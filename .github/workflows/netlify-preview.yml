@@ -1,4 +1,4 @@
-name: Temporary Netlify preview (claim within 1 hour)
+name: Preview redesigned historical engraving collection on Netlify
 on:
   push:
     branches: [main]
@@ -35,9 +35,11 @@ jobs:
           const data=JSON.parse(raw.slice(raw.indexOf('{')));
           console.log('NETLIFY_PREVIEW',JSON.stringify(data));
           const lines=['## Complete 104-story Netlify preview', '',
-            'Temporary URL: '+(data.deploy_url||data.url||data.ssl_url||'see CLI output'),
+            'Temporary URL: '+(data.site_url||data.deploy_url||data.url||data.ssl_url||'see CLI output'),
+            'Preview password: '+(data.password||'(none)'),
             '',
             'Claim this anonymous preview within one hour or Netlify automatically removes it.',
-            'The permanent Netlify project can instead be connected to GitHub in its dashboard.'];
+            'Historic English and Russian per-chapter transcriptions remain unverified.',
+            'The permanent Netlify project can be connected to GitHub in its dashboard.'];
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
           JS
