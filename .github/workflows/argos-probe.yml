@@ -1,0 +1,30 @@
+name: Check offline translation fallback model availability
+on:
+  push:
+    paths: ['.github/workflows/argos-probe.yml']
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - run: |
+          python3 - <<'PY'
+          import json,urllib.request
+          link="https://raw.githubusercontent.com/argosopentech/argospm-index/main/index.json"
+          try:
+            with urllib.request.urlopen(link,timeout=20) as f:all=json.load(f)
+            pairs=(("de","en"),("de","ru"),("en","ru"))
+            for src,dst in pairs:
+              packages=[p for p in all if p.get("from_code")==src and p.get("to_code")==dst]
+              print("PAIR",src,dst,"MODELS",len(packages),flush=True)
+              for p in packages[:3]:
+                print("PACKAGE",p.get("code"),p.get("links",[])[:2],flush=True)
+                for url in p.get("links",[])[:1]:
+                  try:
+                    req=urllib.request.Request(url,method="HEAD")
+                    with urllib.request.urlopen(req,timeout=12) as r:print("REMOTE",r.status,r.headers.get("Content-Length"),flush=True)
+                  except Exception as e:print("REMOTE ERROR",str(e)[:160],flush=True)
+          except Exception as e:print("INDEX ERROR",str(e),flush=True)
+          PY
