@@ -58,7 +58,7 @@ def find_border(image):
                          minLineLength=int(w*.29),maxLineGap=24)
     vertical=[[],[]];horizontal=[[],[]]
     if seg is not None:
-        for x1,y1,x2,y2 in seg[:,0]:
+        for x1,y1,x2,y2 in seg.reshape(-1,4):
             dx=float(x2-x1);dy=float(y2-y1)
             length=math.hypot(dx,dy)
             if length<min(w,h)*.26:continue
