@@ -6,6 +6,9 @@ on:
       - 'scripts/harvest.py'
       - '.github/workflows/harvest.yml'
   workflow_dispatch:
+concurrency:
+  group: archival-harvest
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
