@@ -10,6 +10,9 @@ on:
       - 'scripts/build.py'
       - 'public/data/archive.json'
       - 'public/folios/**'
+      - 'public/texts/**'
+      - 'public/data/text-coverage.json'
+      - 'public/data/crop-provenance.json'
       - '.github/workflows/check.yml'
   workflow_dispatch:
 permissions:
