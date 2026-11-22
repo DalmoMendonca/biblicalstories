@@ -50,4 +50,14 @@ jobs:
             print('HB',i,str(c.get('label'))[:120],str(a.get('@id'))[:190])
           print('RANGES',len(doc.get('structures',[])))
           for s in doc.get('structures',[])[:30]:print('RANGE',str(s.get('label'))[:100],'canvases',len(s.get('canvases',[])), 'ranges',len(s.get('ranges',[])))
+          import re, collections
+          plates=[(i,str(c.get('label')),str(c.get('images',[{}])[0].get('resource',{}).get('@id',''))) for i,c in enumerate(cc) if re.search(r'(Tafel|Kupfer)',str(c.get('label')),re.I)]
+          print('PLATES',len(plates))
+          print('SAMPLE PLATES',plates[:9],plates[48:58],plates[-10:])
+          print('PLATE LABELS DUPLICATE',collections.Counter(label for _,label,_ in plates).most_common(10))
+          if plates:
+            req=urllib.request.Request(plates[0][2],headers={'User-Agent':'HuebnerDigitalEdition/0.1'})
+            with urllib.request.urlopen(req,timeout=25) as f:
+              b=f.read(100)
+              print('IMAGE FETCH',f.status, f.headers.get('content-type'),f.headers.get('content-length'),b[:20])
           PY
