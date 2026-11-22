@@ -16,6 +16,9 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import urllib.request
+import shutil
+import tempfile
 
 import argostranslate.package
 import argostranslate.translate
@@ -32,8 +35,20 @@ def setup_models():
         if not candidates:raise RuntimeError(f"No offline Argos model for {from_code}→{to_code}")
         pkg=candidates[0]
         print("DOWNLOADING MODEL",from_code,to_code,flush=True)
-        file=pkg.download()
-        print("INSTALLING MODEL",file,flush=True)
+        link=next((u for u in pkg.links if u.startswith("https://")),None)
+        if not link:raise RuntimeError("No HTTPS model download URL")
+        # Argos' default urllib user-agent is rejected by the model CDN (403).
+        # A standards-compliant ranged GET is accepted and delivers the complete ZIP.
+        req=urllib.request.Request(link,headers={
+            "User-Agent":"Mozilla/5.0 (Huebner public-domain textual research)",
+            "Range":"bytes=0-"
+        })
+        file=Path(tempfile.gettempdir())/f"argos-{from_code}_{to_code}.argosmodel"
+        with urllib.request.urlopen(req,timeout=120) as response:
+            with file.open("wb") as out:shutil.copyfileobj(response,out,1024*1024)
+        if file.stat().st_size<1024*1024:
+            raise RuntimeError(f"Downloaded model too small: {file}")
+        print("INSTALLING MODEL",file,file.stat().st_size,flush=True)
         argostranslate.package.install_from_path(file)
     probe=argostranslate.translate.translate("Gott erschuf Himmel und Erde.","de","en")
     if len(probe)<10:raise RuntimeError("Offline language model failed")
