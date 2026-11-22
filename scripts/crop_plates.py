@@ -24,7 +24,7 @@ SAMPLES=[1,2,3,4,6,15,26,32,43,52,53,60,70,84,90,100,104]
 # Fallback is evaluated per scan only when frame detection is underconstrained.
 # It is always applied AFTER automatic deskew, never blindly on the raw photo.
 FALLBACK=(.101,.086,.869,.728)
-MAX_ANGLE=8.0
+MAX_ANGLE=2.75
 
 def scaled(image, max_dim=1500):
     h,w=image.shape[:2]
@@ -115,20 +115,28 @@ def find_border(image):
 
     lx,ls,ln,lw=left;rx,rs,rn,rw=right
     ty,ts,tn,tw=top
-    if rx-lx < w*.45:
+    if rx-lx < w*.55:
         raise ValueError("Detected plate borders are implausibly narrow")
+    # Do not mistake a strong *interior* building/tree edge for the copperplate.
+    # These publisher's plates occupy a consistent area on the photographed page.
+    if not (.045*w<lx<.155*w and .765*w<rx<.925*w
+            and .05*h<ty<.132*h
+            and abs(ls)<.047 and abs(rs)<.047
+            and abs(rx-lx)>.58*w):
+        raise ValueError("Ambiguous border; interior line mistaken for exterior frame")
+
 
     # The bottom edge borders the engraved scene, before the letterpress caption.
     # A bottom line is accepted only near the historical 1.5:1 image proportion.
     by_expected=ty+1.49*(rx-lx)
-    if bottom and abs(bottom[0]-by_expected)<.065*h:
+    if bottom and abs(bottom[0]-by_expected)<.026*h:
         by,bs,bn,bw=bottom
         bottom_used=True
     else:
         by=float(by_expected);bs=ts
         bottom_used=False
-    by=min(by,.83*h)
-    if by-ty<.39*h:
+    by=min(by,.778*h)
+    if by-ty<.52*h:
         raise ValueError("Detected picture too short")
 
     def vline(x0,slope,y):return x0+slope*(y-h*.39)
@@ -157,7 +165,7 @@ def find_border(image):
     src=np.float32(points)
     width=int(round((np.linalg.norm(src[1]-src[0])+np.linalg.norm(src[2]-src[3]))/2))
     height=int(round((np.linalg.norm(src[3]-src[0])+np.linalg.norm(src[2]-src[1]))/2))
-    if width<w*.44 or height<h*.40 or width>w*.94 or height>h*.82:
+    if width<w*.56 or height<h*.50 or width>w*.93 or height>h*.76:
         raise ValueError(f"Implausible rectified size {width}x{height} from {w}x{h}")
     dest=np.float32([[0,0],[width-1,0],[width-1,height-1],[0,height-1]])
     H=cv2.getPerspectiveTransform(src,dest)
@@ -186,9 +194,9 @@ def emergency_crop(image):
     if lines is not None:
         for x1,y1,x2,y2 in lines.reshape(-1,4):
             dx=x2-x1;dy=y2-y1
-            if abs(dy)>h*.26 and abs(dx)<abs(dy)*.15:
+            if abs(dy)>h*.30 and abs(dx)<abs(dy)*.052:
                 center=(x1+x2)/2
-                if .05*w<center<.25*w or .72*w<center<.94*w:
+                if .065*w<center<.16*w or .76*w<center<.90*w:
                     slopes.append(float(dx/dy))
     slope=float(np.median(slopes)) if slopes else 0.
     angle=max(-MAX_ANGLE,min(MAX_ANGLE,-math.degrees(math.atan(slope))))
@@ -202,15 +210,15 @@ def emergency_crop(image):
         scores=ink[y1:y2,xs].mean(axis=0)
         scores-=.13*np.abs(xs-ideal)/max(w*.2,1)
         return int(xs[np.argmax(scores)])
-    left=getx(.06,.23,w*.103)
-    right=getx(.71,.94,w*.849)
-    if right-left<w*.50:
-        left=int(FALLBACK[0]*w);right=int(FALLBACK[2]*w)
-    top=int(FALLBACK[1]*h)
-    bottom=min(int(h*.813),int(top+(right-left)*1.49))
-    if bottom-top<h*.43:
-        top=int(FALLBACK[1]*h)
-        bottom=int(FALLBACK[3]*h)
+    left=getx(.065,.15,w*.095)
+    right=getx(.775,.895,w*.842)
+    if right-left<w*.64:
+        left=int(.087*w);right=int(.849*w)
+    top=int(.085*h)
+    bottom=min(int(h*.778),int(top+(right-left)*1.515))
+    if bottom-top<h*.52:
+        top=int(.085*h)
+        bottom=int(.751*h)
     pad=round(w*.006)
     box=(max(0,left+pad),max(0,top+pad),
          min(w,right-pad),min(h,bottom-pad))
