@@ -25,7 +25,7 @@ try{
   await desktop.locator("[data-reader-lang=ru]").click();
   assert.equal(await desktop.locator(".reader-copy-pane h1").textContent(),"Иов");
   await desktop.locator("[data-reader-lang=de]").click();
-  assert.equal(await desktop.locator(".reader-copy-pane h1").textContent(),"Hiob");
+  assert.equal(await desktop.locator(".reader-copy-pane h1").textContent(),"Von Hiob");
   await desktop.locator(".main-plate img").evaluate(img=>img.decode());
   await desktop.screenshot({path:"qa/reader-desktop.jpg",type:"jpeg",quality:84,fullPage:false});
   await desktop.locator("[data-zoom]").click();
