@@ -113,7 +113,7 @@ def translate_chunk(content,lang):
             time.sleep(pause)
     raise RuntimeError(f"{lang} translation unavailable after retries: {error}")
 
-def chunks(s,cap=1800):
+def chunks(s,cap=3200):
     """Split at human-readable paragraph/sentence boundaries; never truncate."""
     text=normalize_fraktur(s)
     result=[]
