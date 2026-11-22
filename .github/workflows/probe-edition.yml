@@ -1,0 +1,49 @@
+name: Investigate source text and translation pipeline
+on:
+  push:
+    paths: ['.github/workflows/probe-edition.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: |
+          python3 - <<'PY'
+          import json,urllib.request,urllib.parse,re
+          H={'User-Agent':'Mozilla/5.0 (public domain book research)'}
+          def get(url,limit=8000000):
+            try:
+              with urllib.request.urlopen(urllib.request.Request(url,headers=H),timeout=22) as r:
+                b=r.read(limit); print("FETCH",url,"status",r.status,"type",r.headers.get('Content-Type'),"bytes",len(b),flush=True)
+                return b
+            except Exception as e: print("ERROR",url,str(e),flush=True); return b''
+          m=get('https://www.e-rara.ch/i3f/v20/24283792/manifest')
+          if m:
+            d=json.loads(m)
+            print('MANIFEST keys',list(d.keys()),flush=True)
+            print('SEQUENCES',len(d.get('sequences',[])),'CANVASES',len(d.get('sequences',[{}])[0].get('canvases',[])),'STRUCTURES',len(d.get('structures',[])),flush=True)
+            for st in d.get('structures',[])[:18]:
+              print('STRUCT',json.dumps(st,ensure_ascii=False)[:3000],flush=True)
+            for c in d.get('sequences',[{}])[0].get('canvases',[])[180:187]:
+              print('CANVAS',str(c.get('label')),c.get('@id'),flush=True)
+          h=get('https://www.e-rara.ch/zuz/content/structure/24283792',400000)
+          if h:
+            tx=h.decode('utf-8','replace')
+            print('TOC TEXT',re.sub('<[^>]+>',' ',tx)[-4500:],flush=True)
+            print('TOC LINKS',re.findall(r'<a[^>]*href="([^"]+)"[^>]*>([^<]{4,120})</a>',tx)[-60:],flush=True)
+          for url in [
+          'https://www.e-rara.ch/zuz/download/ftpack/alto/24283792',
+          'https://www.e-rara.ch/zuz/download/ftpack/xml/24283792',
+          'https://opendigi.ub.uni-tuebingen.de/opendigi/Gi1824ab',
+          'https://digi.ub.uni-heidelberg.de/diglitData/ocr/huebner1768.xml',
+          'https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=en&dt=t&q='+urllib.parse.quote('Es war einmal ein Mann, der hatte zwei Söhne.'),
+          'https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=ru&dt=t&q='+urllib.parse.quote('Es war einmal ein Mann, der hatte zwei Söhne.')
+          ]:
+            b=get(url,1300)
+            if b: print('SAMPLE',url,repr(b[:500]),flush=True)
+          PY
