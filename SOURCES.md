@@ -50,3 +50,15 @@ An original-text milestone is complete only when:
 3. every passage has bibliographic source and page reference;
 4. uncertain OCR recognized as uncertain, not silently “corrected” by generation;
 5. translations and changes between editions remain distinguished.
+
+## Full-text production pipeline (2026)
+
+The application can serve one chapter-level JSON for each of 104 stories. The text generator is `scripts/produce_texts.py`, launched by `.github/workflows/produce-texts.yml`:
+
+- **German** (`de`): an **uncorrected transcription by Fraktur-specific OCR of the actual 1768 Giessen pages** in `public/folios/`. A transcription error is *not* a historical variant. This is not yet a proofread critical text.
+- **English** (`en`): a new **machine translation of the German OCR transcription**, not the published 1765 English edition. Labelled `modern-machine-translation-of-1768-ocr` in every JSON record.
+- **Russian** (`ru`): a new **machine translation of the German OCR transcription**, not Bogorodsky's historical 1815 translation, nor the 1825 Russian printed witness. Same source/quality distinction as English.
+
+Original full German folios are preserved as independently inspectable source images. Each generated German text record keeps the original page URLs and `editorial.proofread:false`. The special case of chapter 69 (New Testament XVII), where the Heidelberg numbering attaches no text leaves immediately to its engraving, uses adjacent source folios with an explicit collation warning. Machine translation can magnify OCR errors; those outputs must not be represented as historic original translations or quoted as verified literary sources.
+
+The generator checks every language for nonempty content and the production build refuses a partial import (1–103 of 104 JSON files). The generated `public/data/text-coverage.json` records actual coverage rather than promising completeness before verification.
