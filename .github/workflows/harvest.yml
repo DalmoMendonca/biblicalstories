@@ -48,11 +48,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Preserve downloaded images while moving the base to the latest branch.
+          # A rebase would conflict with concurrent changes to the generated archive.json.
+          git fetch origin main
+          git reset --mixed origin/main
           git add public/art public/folios public/data
-          if git diff --staged --quiet; then
-            echo "Nothing to commit"
+          if git diff --cached --quiet; then
+            echo "No changes to source facsimiles"
           else
-            git commit -m "Archive 104 original 1768 engravings and German OCR [skip ci]"
-            git pull --rebase origin main
+            git commit -m "Archive 104 engravings and 324 German original folios [skip ci]"
             git push origin HEAD:main
           fi
