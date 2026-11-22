@@ -18,6 +18,7 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 ART = PUBLIC / "art"
+FOLIO_DIR = PUBLIC / "folios"
 DATA = PUBLIC / "data"
 ORIGINAL = "https://digi.ub.uni-heidelberg.de/diglit/iiif/huebner1768/manifest.json"
 ZURICH = "https://www.e-rara.ch/i3f/v20/24283792/manifest"
@@ -76,10 +77,27 @@ def process_image(item):
         thumb_im.save(thumb, format="WEBP", quality=79, method=5)
     return n, dest.stat().st_size, "downloaded"
 
+
+def process_folio(item):
+    name, original_url = item
+    dest = FOLIO_DIR / f"{name}.webp"
+    if dest.exists() and dest.stat().st_size > 1500:
+        return name, dest.stat().st_size, "cached"
+    raw = download(original_url)
+    if not raw.startswith(b"\\xff\\xd8"):
+        raise ValueError(f"German folio {name} is not a JPEG: {original_url}")
+    with Image.open(io.BytesIO(raw)) as im:
+        im = ImageOps.exif_transpose(im).convert("RGB")
+        # Full source page and marginalia, no text redrawing or artificial restoration.
+        im.thumbnail((1600, 2500), Image.Resampling.LANCZOS)
+        im.save(dest, format="WEBP", quality=82, method=4)
+    return name, dest.stat().st_size, "downloaded"
+
 def main():
     ART.mkdir(parents=True, exist_ok=True)
     (ART / "thumb").mkdir(parents=True, exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
+    FOLIO_DIR.mkdir(parents=True, exist_ok=True)
     hb = json.loads(download(ORIGINAL))
     canvases = hb["sequences"][0]["canvases"]
     plates = plate_info(canvases)
@@ -126,6 +144,25 @@ def main():
     for story in stories:
         if not (PUBLIC / story["image"].lstrip("/")).exists():
             raise AssertionError(f"Missing image: {story['image']}")
+
+    folio_jobs = []
+    for story in stories:
+        for ix, folio in enumerate(story["folios"], 1):
+            key = f"{story['id']:03d}-{ix:02d}"
+            original = folio["image"]
+            folio["original_image"] = original
+            folio["image"] = f"/folios/{key}.webp"
+            folio_jobs.append((key, original))
+    print(f"GERMAN ORIGINAL: {len(folio_jobs)} story text leaves to preserve", flush=True)
+    folio_results = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        for result in concurrent.futures.as_completed([pool.submit(process_folio, item) for item in folio_jobs]):
+            name, size, status = result.result()
+            folio_results.append((name, size, status))
+            if len(folio_results) % 40 == 0 or len(folio_results) == len(folio_jobs):
+                print(f"FOLIOS STORED {len(folio_results)}/{len(folio_jobs)}", flush=True)
+    if len(folio_results) < 300:
+        raise AssertionError("Too few original German text folios to claim an archival edition.")
     output = {
         "version": 1,
         "issued": datetime.now(timezone.utc).isoformat(),
@@ -152,7 +189,7 @@ def main():
         }, ensure_ascii=False, indent=2), encoding="utf-8")
     except Exception as exc:
         print("ZURICH METADATA unavailable:", exc, flush=True)
-    print(f"SUCCESS: 104 archival JPEGs imported as WebP; bytes {sum(r[1] for r in results)}",flush=True)
+    print(f"SUCCESS: 104 archival plates plus {len(folio_results)} original-language text folios; bytes {sum(r[1] for r in results) + sum(r[1] for r in folio_results)}",flush=True)
 
 if __name__ == "__main__":
     main()
