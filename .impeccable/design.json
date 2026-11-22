@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "name": "104 Sacred Histories",
+  "world": "Antiquarian museum reading room",
+  "palette": {
+    "paper": "#f3f0e8",
+    "paperDeep": "#e9e5db",
+    "paperLight": "#faf8f2",
+    "ink": "#1d2a26",
+    "inkSoft": "#526059",
+    "line": "#d0cbbf",
+    "gold": "#ad8250",
+    "goldDeep": "#80633e"
+  },
+  "typography": {
+    "display": "Libre Baskerville",
+    "body": "DM Sans"
+  },
+  "modes": [
+    "experience",
+    "read"
+  ],
+  "assetPolicy": "original historical engravings only; 1768 Heidelberg attribution per image",
+  "signatureInteraction": "artwork-first browsing, original chapter folios and trilingual controls"
+}
