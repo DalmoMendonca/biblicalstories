@@ -1,0 +1,41 @@
+name: Investigate original-text sources
+on:
+  push:
+    paths: [.github/workflows/text-sources.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  examine:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - name: Probe archival OCR and scanned editions
+        run: |
+          python3 - <<'PY'
+          import urllib.request, urllib.error, gzip
+          urls = [
+            'https://digi.ub.uni-heidelberg.de/diglit/huebner1768/0027/text_ocr',
+            'https://digi.ub.uni-heidelberg.de/diglit/huebner1768/0257/text_ocr',
+            'https://digi.ub.uni-heidelberg.de/diglitData/ocr/huebner1768/0027.txt',
+            'https://digi.ub.uni-heidelberg.de/diglitData/ocr/huebner1768/0_001.txt',
+            'https://books.google.com/books/download/Zweimal_zwei_und_funfzig_biblische_Histo.epub?id=5elUAAAAcAAJ&output=epub',
+            'https://books.google.com/books/download/Zweimal_zwei_und_funfzig_biblische_Histo.pdf?id=5elUAAAAcAAJ&output=pdf',
+            'https://books.google.com/books?id=5elUAAAAcAAJ&jscmd=SearchWithinVolume2&q=History',
+            'https://books.google.com/books?vid=5elUAAAAcAAJ&jscmd=SearchWithinVolume2&q=God',
+            'https://www.e-rara.ch/zuz/download/ftpack/plain/24283792',
+            'https://search.rsl.ru/ru/record/01008044637',
+            'https://kp.rusneb.ru/item/material/5fcf8bb3991f3b91423439b5',
+            'https://viewer.rusneb.ru/ru/000199_000009_011511257?page=1',
+            'https://api.wellcomecollection.org/catalogue/v2/works/bj39jxdz'
+          ]
+          for url in urls:
+            print('PROBE',url,flush=True)
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; HistoricalSourceResearch/1.0)','Accept':'*/*'})
+              with urllib.request.urlopen(req,timeout=14) as r:
+                body=r.read(1500)
+                print('RESULT',r.status,r.headers.get('content-type'),r.headers.get('content-length'),'sample:',repr(body[:220]),flush=True)
+            except Exception as ex:
+              print('FAILED',type(ex).__name__,str(ex)[:300],flush=True)
+          PY
