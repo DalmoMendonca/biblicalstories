@@ -1,429 +1,220 @@
-import { stories, dictionary } from "./catalog.js";
+import { stories } from "./catalog.js";
 
 const main = document.querySelector("#main");
-const header = document.querySelector("#site-header");
-const dialog = document.querySelector("#art-dialog");
-const dialogImage = document.querySelector("#dialog-image");
-const dialogTitle = document.querySelector("#dialog-title");
-const dialogCredit = document.querySelector("#dialog-credit");
-const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const lightbox = document.querySelector("#lightbox");
+const lightboxImage = document.querySelector("#lightbox-image");
+const lightboxSource = document.querySelector("#lightbox-source");
+const languages = ["en","de","ru"];
+const text = {
+  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"Original pages",none:"Historical English transcription not yet available.",edition:"English · Hamburg, 1765",book:"Source edition",original:"Original scan",about:"Edition"},
+  de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Kritisch geprüfter deutscher Volltext noch nicht verfügbar.",edition:"Deutsch · Gießen, 1768",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
+  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Страницы оригинала",none:"Проверенная транскрипция русского перевода 1815 года пока недоступна.",edition:"Русский · Санкт-Петербург, 1815",book:"Оригинальное издание",original:"Оригинальный скан",about:"Издание"}
+};
+const sourceEnglish = "https://books.google.com/books?id=5elUAAAAcAAJ";
+const sourceRussian = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
+const sourceGerman = "https://digi.ub.uni-heidelberg.de/diglit/huebner1768";
+const stored = (key, fallback) => { try{return localStorage.getItem(key) ?? fallback;}catch{return fallback;} };
+const save = (key, value) => { try{localStorage.setItem(key,value);}catch{} };
+const s = {
+  lang: languages.includes(stored("huebner-language","en")) ? stored("huebner-language","en") : "en",
+  filter: "all", search: "", plates: [], byId: new Map(), content: {}
+};
+const esc = (value) => String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const item = id => s.byId.get(id);
+const story = id => stories[id-1];
+const title = id => story(id)?.[s.lang] || "";
+const messages = () => text[s.lang];
+const number = n => String(n).padStart(3,"0");
+const url = id => "/?view=story&id="+id;
+const view = () => new URLSearchParams(location.search).get("view") || "collection";
+const idParam = () => Math.min(104,Math.max(1,Number(new URLSearchParams(location.search).get("id"))||1));
 
-const safelyStored = (key, fallback) => {
-  try { return localStorage.getItem(key) ?? fallback; }
-  catch { return fallback; }
-};
-const safelySave = (key, value) => {
-  try { localStorage.setItem(key, value); } catch { /* private browsing */ }
-};
-const state = {
-  lang: ["en", "de", "ru"].includes(safelyStored("huebner-language", "en"))
-    ? safelyStored("huebner-language", "en") : "en",
-  saved: new Set(JSON.parse(safelyStored("huebner-saved", "[]"))),
-  testament: "all",
-  search: "",
-  images: [],
-  byId: new Map(),
-  germanOcr: null,
-};
-const q = (key) => new URLSearchParams(location.search).get(key);
-const ui = () => dictionary[state.lang];
-const roman = (number) => {
-  const digits = [[50,"L"],[40,"XL"],[10,"X"],[9,"IX"],[5,"V"],[4,"IV"],[1,"I"]];
-  let out = "";
-  for (const [value, symbol] of digits) while (number >= value) { out += symbol; number -= value; }
-  return out;
-};
-const title = (s) => s[state.lang];
-const esc = (s) => String(s ?? "").replace(/[&<>"']/g, ch => ({ "&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;" })[ch]);
-const storyURL = (id) => "/?view=story&id=" + id;
-const collectionURL = "/?view=collection";
-const anchor = (s) => s?.plate_source || "https://digi.ub.uni-heidelberg.de/diglit/huebner1768";
-const record = (id) => state.byId.get(id);
-const art = (s, useThumb = false) => useThumb ? s?.thumb : s?.image;
-const textOf = (t) => esc(t);
+function updateLanguage(){
+  document.documentElement.lang=s.lang;
+  document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lang===s.lang)));
+  document.querySelector("#about-link").textContent=messages().about;
+}
+function navigate(dest,id=null){
+  const path=dest==="story"?url(id??1):dest==="about"?"/?view=about":"/";
+  history.pushState({},"",path);
+  render();
+  scrollTo({top:0,behavior:"instant"});
+}
 function setLanguage(lang) {
-  if (!dictionary[lang]) return;
-  state.lang = lang;
-  safelySave("huebner-language", lang);
-  document.documentElement.lang = lang;
+  if(!languages.includes(lang)) return;
+  s.lang=lang;
+  save("huebner-language",lang);
   render();
 }
-function setNavigation(view, id = undefined, replace = false) {
-  let url = "/";
-  if (view === "story") url = storyURL(id ?? 1);
-  else if (view === "collection") url = collectionURL;
-  else if (view === "about") url = "/?view=about";
-  history[replace ? "replaceState" : "pushState"]({}, "", url);
-  render();
-  window.scrollTo({ top: 0, behavior: "instant" });
-  header.classList.remove("menu-open");
-  document.querySelector("#menu-toggle").setAttribute("aria-expanded", "false");
+function imageURL(id,thumb=false) {
+  return "/engravings/"+(thumb?"thumb/":"")+number(id)+".webp";
 }
-function syncHeader(view) {
-  document.documentElement.lang = state.lang;
-  document.querySelector("#nav-library").textContent = ui().library;
-  document.querySelector("#nav-read").textContent = ui().read;
-  document.querySelector("#nav-about").textContent = ui().about;
-  for (const el of document.querySelectorAll("[data-nav]")) {
-    const active = el.dataset.nav === view;
-    el.classList.toggle("active", active);
-    if (active) el.setAttribute("aria-current", "page");
-    else el.removeAttribute("aria-current");
-  }
-  for (const button of document.querySelectorAll("[data-lang]")) {
-    const active = button.dataset.lang === state.lang;
-    button.classList.toggle("active", active);
-    button.setAttribute("aria-pressed", String(active));
-  }
+function caption(id) {
+  return `<span class="plate-number">${number(id)}</span><span class="plate-title">${esc(title(id))}</span>`;
 }
-function imageTag(s, thumb = false, lazy = true, extra = "") {
-  return `<img src="${esc(art(s,thumb))}" data-fallback="${esc(s.original_image)}" alt="${esc(title(stories[s.id-1]))} — original engraving, Giessen 1768" loading="${lazy?"lazy":"eager"}" decoding="async" ${extra}>`;
+function plate(id) {
+  const src=imageURL(id,true);
+  return `<figure class="plate"><a class="plate-link" href="${url(id)}" data-story="${id}" aria-label="${esc(title(id))}">
+    <span class="plate-image"><img src="${src}" alt="${esc(title(id))}" loading="${id<9?"eager":"lazy"}" decoding="async" width="370" height="585"></span>
+    <figcaption>${caption(id)}</figcaption></a></figure>`;
 }
-function card(s, bookmark = true) {
-  const st = stories[s.id-1];
-  const bookmarked = state.saved.has(s.id);
-  const label = (st.testament === "old" ? ui().old : ui().new) + " · " + String(st.number).padStart(2,"0");
-  return `<article class="art-card" data-story-id="${s.id}">
-    <div class="art-frame">${imageTag(s,true)}</div>
-    <div class="art-meta">
-      <div class="art-number">${esc(label)}</div>
-      <h3>${textOf(title(st))}</h3>
-      <p>Johann Hübner · 1768</p>
-    </div>
-    <a class="card-hit" href="${storyURL(s.id)}" data-open-story="${s.id}" aria-label="${esc(title(st))}"></a>
-    ${bookmark ? `<button class="bookmark ${bookmarked?"is-saved":""}" type="button" data-save="${s.id}" aria-label="${bookmarked?"Remove saved story":"Save story"}" aria-pressed="${bookmarked}">${bookmarked?"◆":"◇"}</button>` : ""}
-  </article>`;
-}
-function renderHome() {
-  const t = ui();
-  const hero = record(1);
-  const picks = [43, 6, 32, 84, 100].map(record);
-  return `<section class="hero">
-    <div class="hero-copy">
-      <div>
-        <div class="hero-epigraph">Johann Hübner · 1714 / 1768</div>
-        <h1 class="hero-title">${state.lang==="en"?"One hundred and four <em>sacred histories.</em>":state.lang==="de"?"Hundertvier <em>biblische Historien.</em>":"Сто четыре <em>священные истории.</em>"}</h1>
-        <p class="hero-description">${esc(t.strap)} ${state.lang==="en"?"The complete 104-engraving series, preserved as it appeared in an eighteenth-century printing.":state.lang==="de"?"Alle 104 Originalkupferstiche aus einer historischen Ausgabe.":"Все 104 подлинные гравюры исторического издания."}</p>
-        <div class="hero-actions">
-          <a href="${collectionURL}" class="action-primary" data-nav="collection">${esc(t.explore)} <span aria-hidden="true">↗</span></a>
-          <a href="${storyURL(1)}" class="action-secondary" data-open-story="1">${esc(t.begin)}</a>
-        </div>
-      </div>
-      <div class="hero-colophon"><span>52 ${esc(t.old)}</span><span>52 ${esc(t.new)}</span><span>104 original copperplates</span></div>
-    </div>
-    <div class="hero-art">
-      <div class="plate-frame">${imageTag(hero,false,false)}</div>
-      <div class="hero-art-caption"><span>${esc(t.old)} / I</span><span>Giessen, 1768</span></div>
-    </div>
-  </section>
-  <section class="section-wrap" aria-labelledby="highlights-title">
-    <div class="section-header">
-      <div><div class="small-label">${esc(t.origin)}</div><h2 id="highlights-title">${state.lang==="en"?"An entire <em>world in engravings.</em>":state.lang==="de"?"Eine Welt <em>in Kupferstichen.</em>":"Целый мир <em>в гравюрах.</em>"}</h2><p>${state.lang==="en"?"Every image here belongs to the historical Hübner edition—not an AI re-creation, not a modern substitute.":state.lang==="de"?"Jedes Bild stammt aus der historischen Hübner-Ausgabe – keine KI-Rekonstruktion.":"Все изображения взяты из исторического издания Гюбнера, а не созданы искусственным интеллектом."}</p></div>
-      <a href="${collectionURL}" class="text-link" data-nav="collection">${esc(t.browse)} ↗</a>
-    </div>
-    <div class="featured-grid">${picks.map(s=>card(s,false)).join("")}</div>
-  </section>
-  <section class="museum-strip" aria-label="Edition summary">
-    <div><strong>104</strong><p>${state.lang==="en"?"Every plate individually numbered and checked against Heidelberg's archival manifest.":state.lang==="de"?"Jede Tafel nummeriert und gegen das Heidelberger Archiv geprüft.":"Каждая гравюра сверена с каталогом Гейдельбергского университета."}</p></div>
-    <div><strong>1768</strong><p>${state.lang==="en"?"A complete German illustrated printing: Giessen, Johann Christoph Schröder.":state.lang==="de"?"Vollständige illustrierte deutsche Ausgabe aus Gießen.":"Полное иллюстрированное немецкое издание из Гиссена."}</p></div>
-    <div><strong>3</strong><p>${state.lang==="en"?"Language-aware navigation with historical texts kept separate from editorial translations.":state.lang==="de"?"Dreisprachige Navigation mit streng getrennten Quellentexten.":"Навигация на трёх языках с чётким разделением оригиналов и переводов."}</p></div>
-  </section>`;
-}
-function galleryItems() {
-  let list = state.images;
-  if (state.testament !== "all") list = list.filter(s => s.book === state.testament);
-  const term = state.search.trim().toLocaleLowerCase();
-  if (term) list = list.filter(s => {
-    const catalog = stories[s.id-1];
-    return [catalog.en,catalog.de,catalog.ru,String(s.id),String(catalog.number)].some(v => v.toLocaleLowerCase().includes(term));
+function filtered(){
+  const search=s.search.trim().toLocaleLowerCase();
+  return s.plates.filter(p=>{
+    if(s.filter!=="all" && p.book!==s.filter)return false;
+    if(search && ![story(p.id).en,story(p.id).de,story(p.id).ru,String(p.id),String(p.number)].some(x=>String(x).toLocaleLowerCase().includes(search)))return false;
+    return true;
   });
-  return list;
 }
-function renderGrid() {
-  const root = document.querySelector("#collection-results");
-  if (!root) return;
-  const list = galleryItems();
-  const count = document.querySelector("#collection-count");
-  if (count) count.textContent = list.length + " / 104 " + ui().stories;
-  if (!list.length) {
-    root.innerHTML = `<div class="empty-search"><h2>${state.lang==="en"?"No stories found":state.lang==="de"?"Keine Historien gefunden":"Истории не найдены"}</h2><p>${state.lang==="en"?"Try a different name or clear the testament filter.":state.lang==="de"?"Versuchen Sie einen anderen Begriff.":"Попробуйте другой запрос."}</p></div>`;
-    return;
-  }
-  root.innerHTML = `<div class="collection-grid">${list.map(x=>card(x)).join("")}</div>`;
+function renderPlateGrid(){
+  const root=document.querySelector("#plates");
+  if(!root)return;
+  const results=filtered();
+  root.innerHTML=results.length?results.map(p=>plate(p.id)).join(""):`<p class="catalogue-empty">—</p>`;
+  const counter=document.querySelector("#catalogue-count");
+  if(counter)counter.textContent=String(results.length).padStart(3,"0")+" / 104";
 }
-function renderCollection() {
-  const t = ui();
-  return `<section class="collection-hero">
-    <span class="small-label">Johann Hübner · Giessen 1768</span>
-    <h1>${esc(t.intro)}.</h1>
-    <p>${state.lang==="en"?"A complete visual atlas of the Old and New Testaments. Explore 104 surviving engravings in their original narrative sequence.":state.lang==="de"?"Die vollständige Bilderwelt des Alten und Neuen Testaments. 104 Originalkupferstiche in ihrer Reihenfolge.":"Полная иллюстрированная коллекция Ветхого и Нового Заветов: 104 гравюры в исходном порядке."}</p>
-  </section>
-  <div class="collection-tools">
-    <div class="filters" role="group" aria-label="Filter by testament">
-      ${[["all",t.all],["old",t.old],["new",t.new]].map(([key,label])=>`<button class="filter ${state.testament===key?"active":""}" data-filter="${key}" type="button" aria-pressed="${state.testament===key}">${esc(label)}</button>`).join("")}
+function renderIndex(){
+  const m=messages();
+  main.innerHTML=`<section class="container catalogue">
+    <div class="catalogue-head"><div><h1 class="catalogue-heading">104 Biblische Historien</h1><p class="catalogue-date">Johann Hübner · 1714</p></div><p class="index-count" id="catalogue-count">104 / 104</p></div>
+    <div class="collection-bar">
+      <nav class="testament-nav" aria-label="Testament">
+        <button type="button" data-filter="all" aria-pressed="${s.filter==="all"}">${esc(m.all)}</button>
+        <button type="button" data-filter="old" aria-pressed="${s.filter==="old"}">${esc(m.old)}</button>
+        <button type="button" data-filter="new" aria-pressed="${s.filter==="new"}">${esc(m.new)}</button>
+      </nav>
+      <label class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15 15l5.5 5.5"></path></svg><input type="search" id="plate-search" aria-label="${esc(m.search)}" placeholder="${esc(m.search)}" value="${esc(s.search)}" autocomplete="off"></label>
     </div>
-    <label class="search-box"><input id="gallery-search" type="search" placeholder="${esc(t.search)}" value="${esc(state.search)}" autocomplete="off" aria-label="${esc(t.search)}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><circle cx="10.6" cy="10.6" r="6.4"/><path d="m15.5 15.5 5.4 5.4"/></svg></label>
-    <div class="collection-count" id="collection-count" aria-live="polite"></div>
-  </div>
-  <section class="collection-section" id="collection-results" aria-label="Illustrated story gallery"></section>`;
+    <div class="plates" id="plates"></div>
+  </section>`;
+  renderPlateGrid();
 }
-function renderDocument(s) {
-  const t=ui();
-  const german = state.lang==="de";
-  let body = "";
-  if (german) {
-    body = `<h2>Deutscher Originaltext · 1768</h2>
-      <p>Die gedruckten Originalseiten dieser Historie sind unten als Faksimiles zugänglich. Die Texte werden nicht durch ungeprüfte, automatisch erzeugte Transkriptionen ersetzt.</p>
-      <div class="document-alert"><p>Die OCR der Zürcher Ausgabe (um 1775) ist als vollständiges, <strong>unkorrigiertes</strong> Dokument verfügbar. Sie stammt nicht aus der hier abgebildeten Gießener Ausgabe von 1768.</p></div>
-      <a class="document-link" href="/data/german-ocr.txt" target="_blank" rel="noopener">Zürcher OCR im Original ansehen ↗</a>`;
-  } else if (state.lang==="en") {
-    body = `<h2>English historical text</h2>
-      <div class="document-alert"><p><strong>Not yet verified against the printed translation.</strong> An English version was published in 1765, but a complete, correctly segmented transcription has not been verified. Rather than display an invented translation as eighteenth-century English, this reader keeps the historical German folios available below.</p></div>
-      <a class="document-link" href="https://books.google.com/books?id=5elUAAAAcAAJ" target="_blank" rel="noopener">Examine the 1765 English edition ↗</a>`;
-  } else {
-    body = `<h2>Исторический русский текст</h2>
-      <div class="document-alert"><p><strong>Текст перевода Василия Богородского 1815 года пока не прошёл сверку.</strong> Сохранившиеся русские издания имеют собственную историю иллюстраций. Мы не подменяем оригинальный перевод современным пересказом.</p></div>
-      <a class="document-link" href="https://kp.rusneb.ru/item/material/5fcf8bb3991f3b91423439b5" target="_blank" rel="noopener">Изучить русский выпуск 1825 года ↗</a>`;
-  }
-  return `<div class="document-panel" aria-live="polite">${body}<p style="margin-top:25px"><strong>${esc(t.note)}</strong></p></div>`;
-}
-function renderStory(id) {
-  const t=ui(); const s=record(id), st=stories[id-1];
-  if (!s || !st) return `<div class="error-state"><h1>History not found.</h1><a href="${collectionURL}" data-nav="collection">${t.back}</a></div>`;
-  const label = st.testament === "old" ? t.old : t.new;
-  const prev = id > 1 ? stories[id-2] : null;
-  const next = id < 104 ? stories[id] : null;
-  const folios = s.folios || [];
-  return `<article class="reader">
-    <div class="reader-top">
-      <div class="breadcrumb"><a href="${collectionURL}" data-nav="collection">${esc(t.back)}</a><i aria-hidden="true"></i><span>${esc(label)} · ${roman(st.number)}</span></div>
-      <div class="reader-arrows">
-        <button class="arrow-button" type="button" aria-label="${esc(t.prev)}" ${prev?`data-next-story="${prev.id}"`:"disabled"}>←</button>
-        <button class="arrow-button" type="button" aria-label="${esc(t.next)}" ${next?`data-next-story="${next.id}"`:"disabled"}>→</button>
-      </div>
-    </div>
-    <div class="reader-layout">
-      <section class="reader-image-pane" aria-label="Original historical engraving">
-        <div class="reader-kicker"><span>${esc(t.original)}</span><span>${esc(s.plate_label)} · 1768</span></div>
-        <div class="main-plate"><button data-zoom="${id}" type="button" aria-label="Enlarge original engraving">${imageTag(s,false,false)}</button><span class="image-zoom-label">${state.lang==="en"?"Tap to enlarge":state.lang==="de"?"Zum Vergrößern berühren":"Нажмите для увеличения"} ↗</span></div>
-        <div class="image-attribution"><p>Johann Hübner · ${esc(s.edition)}<br>Universitätsbibliothek Heidelberg · VD18 14362627</p><a href="${esc(anchor(s))}" target="_blank" rel="noopener">${esc(t.source)} ↗</a></div>
-      </section>
-      <div class="reader-copy-pane">
-        <span class="reader-number">${esc(label)} · ${roman(st.number)} / LII</span>
-        <h1>${textOf(title(st))}</h1>
-        <p class="reader-de-title" lang="de">${textOf(st.de)}</p>
-        <div class="reader-language-selector" role="group" aria-label="${esc(t.language)}">
-          ${[["en","English"],["de","Deutsch"],["ru","Русский"]].map(([lng,lab])=>`<button type="button" data-reader-lang="${lng}" class="${state.lang===lng?"active":""}" aria-pressed="${state.lang===lng}">${lab}</button>`).join("")}
-        </div>
-        ${renderDocument(s)}
-        <div class="reader-save"><button class="bookmark-large ${state.saved.has(id)?"is-saved":""}" data-save="${id}" type="button" aria-pressed="${state.saved.has(id)}">${state.saved.has(id)?esc(t.saved):esc(t.save)} ${state.saved.has(id)?"◆":"◇"}</button></div>
-      </div>
-    </div>
-    <section class="reader-folios" aria-label="Original book pages">
-      <span class="small-label">Giessen · 1768 · Originaldruck</span>
-      <h2>${esc(t.scan)}</h2>
-      <p>${state.lang==="en"?"The printed German pages immediately following this numbered engraving in Heidelberg's historical copy. Open any leaf to inspect the precise historical wording.":state.lang==="de"?"Die Originalseiten der Gießener Ausgabe von 1768, unmittelbar nach der entsprechenden Kupfertafel.":"Оригинальные страницы немецкого издания 1768 года, следующие за этой гравюрой."}</p>
-      <div class="folio-grid">${folios.length?folios.map((f,i)=>`<button class="folio" type="button" data-zoom-folio="${id}:${i}"><figure style="margin:0"><img src="${esc(f.image)}" loading="lazy" alt="Original German page ${esc(f.label)}"><figcaption>${state.lang==="en"?"Printed page":state.lang==="de"?"Druckseite":"Страница"} ${esc(f.label)} ↗</figcaption></figure></button>`).join(""):`<p><a class="document-link" href="${esc(anchor(s))}" target="_blank" rel="noopener">${esc(t.archive)} ↗</a></p>`}</div>
-    </section>
-    <nav class="reader-footer-nav" aria-label="Adjacent stories">
-      ${prev?`<a href="${storyURL(prev.id)}" data-open-story="${prev.id}"><small>← ${esc(t.prev)}</small><strong>${textOf(title(prev))}</strong></a>`:"<div></div>"}
-      ${next?`<a href="${storyURL(next.id)}" data-open-story="${next.id}"><small>${esc(t.next)} →</small><strong>${textOf(title(next))}</strong></a>`:"<div></div>"}
-    </nav>
-  </article>`;
-}
-function renderAbout() {
-  const hero=record(43);
-  const copy = state.lang==="de" ? {
-    headline:"Ein Buch. Drei Sprachen. <em>Ein historisches Gewissen.</em>",
-    intro:"Johann Hübner veröffentlichte seine 104 Biblischen Historien erstmals 1714. Die eindrucksvollen Kupfertafeln aus der Gießener Ausgabe von 1768 sind das Herzstück dieses digitalen Projekts.",
-    note:"Diese Edition unterscheidet sorgfältig zwischen historischen Textzeugen, moderner Navigation und unkorrigierter Texterkennung.",
-    history:"Das Buch und Dostojewski",historyText:"In den Brüdern Karamasow erinnert sich Starez Sossima an ein Buch der 104 heiligen Geschichten mit schönen Bildern. Eine russische Ausgabe von 1815 mit 35 Bildtafeln und einem Frontispiz ist bibliographisch belegt. Bis ihre Bilder nachgewiesen und verglichen werden können, bleiben sie getrennt von den deutschen Kupferstichen.",
-    policy:"Editionsprinzipien",policyText:"Keine fiktiven alten Texte. Keine KI-Kupferstiche. Jede Abbildung ist mit ihrer nachgewiesenen Quellausgabe verknüpft; maschinell erkannte Texte bleiben als solche gekennzeichnet."
-  } : state.lang==="ru" ? {
-    headline:"Одна книга. Три языка. <em>Историческая точность.</em>",
-    intro:"Иоганн Гюбнер впервые издал 104 библейские истории в 1714 году. Все 104 гравюры из немецкого издания 1768 года составляют основу нашего цифрового архива.",
-    note:"Мы отделяем исторические первоисточники от современных названий и непроверенного распознавания текста.",
-    history:"Достоевский и эта книга",historyText:"В «Братьях Карамазовых» старец Зосима вспоминает книгу «Сто четыре священные истории» с прекрасными картинками. Для русского издания 1815 года документированы 35 иллюстраций и фронтиспис. Пока они не сопоставлены с оригиналом, мы не выдаём немецкие гравюры за русские.",
-    policy:"Принципы издания",policyText:"Без вымышленных исторических текстов и искусственно созданных «старинных» гравюр. Каждое изображение снабжено указанием источника; OCR не выдаётся за проверенную транскрипцию."
-  } : {
-    headline:"One book. Three languages. <em>One obligation to the original.</em>",
-    intro:"Johann Hübner first published his 104 selected biblical histories in 1714. This project restores their remarkable pictorial life through every surviving engraving of the fully illustrated Giessen printing of 1768.",
-    note:"We distinguish source manuscripts, printed editions, modern editorial navigation, and uncorrected machine transcription. They are not interchangeable.",
-    history:"The book Dostoevsky remembered",historyText:"In The Brothers Karamazov, Elder Zosima recalls an illustrated book of 104 biblical histories. Dostoevsky's family also remembered it as a childhood reading book. The Russian 1815 edition has been catalogued with 35 plates and a separate frontispiece. We have not yet established that those images are identical to the German engraving series. They will remain separately attributed until verified.",
-    policy:"Editorial principles",policyText:"No invented old texts. No AI-generated engravings passed off as antiques. Every plate is linked to its source, and OCR is labeled uncorrected. The 1765 English translation and the 1815 Russian translation are documented but their complete, verified transcriptions are not yet integrated."
-  };
-  return `<div class="about-main">
-    <section class="about-cover">
-      <div class="about-copy"><div class="small-label">Johann Hübner · An open edition</div><h1>${copy.headline}</h1><p>${esc(copy.intro)}</p></div>
-      <div class="about-visual">${imageTag(hero,false,false)}</div>
-    </section>
-    <div class="prose">
-      <p>${esc(copy.note)}</p>
-      <blockquote>“One hundred and four sacred histories of the Old and New Testament, with beautiful pictures.”</blockquote>
-      <h2>${esc(copy.history)}</h2><p>${esc(copy.historyText)}</p>
-      <h2>${esc(copy.policy)}</h2><p>${esc(copy.policyText)}</p>
-      <hr>
-      <h2>Historical witnesses and source credits</h2>
-      <table class="source-table"><thead><tr><th>Edition</th><th>Evidence</th><th>Digital source</th></tr></thead><tbody>
-        <tr><td><strong>German · Giessen 1768</strong><br>Johann Christoph Schröder. Historical plates associated with Georg Peter Monath.</td><td>All 104 explicitly numbered engravings, 52 per Testament; original German text preserved as page images.</td><td><a href="https://digi.ub.uni-heidelberg.de/diglit/huebner1768" target="_blank" rel="noopener">Heidelberg University Library ↗</a></td></tr>
-        <tr><td><strong>German · Zürich c.1775</strong><br>Bürklische Druckerei.</td><td>Additional illustrated facsimile and uncorrected machine OCR. PDM license.</td><td><a href="https://www.e-rara.ch/zuz/doi/10.3931/e-rara-85573" target="_blank" rel="noopener">Zentralbibliothek Zürich, AWZ 727 ↗</a></td></tr>
-        <tr><td><strong>Russian · St Petersburg 1815</strong><br>Translation by Vasily Bogorodsky.</td><td>35 engraved leaves and one frontispiece documented; complete image and text scans not yet verified.</td><td><a href="https://search.rsl.ru/ru/search#q=%D0%B3%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815" target="_blank" rel="noopener">Russian State Library catalog ↗</a></td></tr>
-        <tr><td><strong>English · Hamburg 1765</strong><br>German–French–English parallel edition.</td><td>Publication identified. Complete verified transcription not yet incorporated.</td><td><a href="https://books.google.com/books?id=5elUAAAAcAAJ" target="_blank" rel="noopener">Google Books facsimile ↗</a></td></tr>
-      </tbody></table>
-      <p>This edition is an evolving open-access archival project. Source pages and historical image files are public-domain works; reproductions are credited to the libraries that preserve them. Original eighteenth-century spellings are retained in facsimile; navigation labels are modern editorial interpretations.</p>
-      <p><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Browse the open-source repository and provenance data ↗</a></p>
-    </div>
+function folios(p) {
+  if(!p.folios?.length)return "";
+  return `<h2 class="folio-heading">${esc(messages().folio)}</h2><div class="folios">
+    ${p.folios.map((leaf,i)=>`<button type="button" class="folio-btn" data-folio="${p.id}:${i}" aria-label="Page ${esc(leaf.label)}"><img src="${esc(leaf.image)}" alt="Printed German page ${esc(leaf.label)}" loading="lazy" width="500"><small>${esc(leaf.label)}</small></button>`).join("")}
   </div>`;
 }
-function render() {
-  const view=q("view") || "home";
-  syncHeader(view);
-  if (view==="story") {
-    const id=Math.min(104,Math.max(1,parseInt(q("id")||"1",10)||1));
-    main.innerHTML=renderStory(id);
-    document.title=title(stories[id-1])+" — 104 Sacred Histories";
-  } else if (view==="collection") {
-    main.innerHTML=renderCollection();
-    renderGrid();
-    document.title=ui().library+" — 104 Sacred Histories";
-  } else if (view==="about") {
-    main.innerHTML=renderAbout();
-    document.title=ui().about+" — 104 Sacred Histories";
-  } else {
-    main.innerHTML=renderHome();
-    document.title="104 Sacred Histories — Johann Hübner";
+function editionText(p){
+  const m=messages();
+  if(s.lang==="de"){
+    // These are source photographs, preserving the 1768 printed text verbatim.
+    return `<div class="source-heading">${esc(m.edition)} · <a href="${sourceGerman}" rel="noopener" target="_blank">${esc(m.original)}</a></div>${folios(p)}`;
   }
+  const link=s.lang==="en"?sourceEnglish:sourceRussian;
+  return `<div class="source-heading">${esc(m.edition)}</div><div class="source-absence">${esc(m.none)} <a href="${link}" target="_blank" rel="noopener">${esc(m.book)} ↗</a></div>`;
 }
-function toggleSaved(id) {
-  if (state.saved.has(id)) state.saved.delete(id);
-  else state.saved.add(id);
-  safelySave("huebner-saved",JSON.stringify([...state.saved]));
-  const current = q("view") || "home";
-  if (current === "collection") { renderGrid(); }
-  else { render(); }
+function renderStory(id){
+  const p=item(id),t=story(id),m=messages();
+  if(!p||!t){main.innerHTML=`<section class="container error-view"><h1>404</h1></section>`;return}
+  const isOld=id<=52;
+  const book=isOld?m.old:m.new;
+  const prev=id>1?id-1:null,next=id<104?id+1:null;
+  main.innerHTML=`<div class="story-shell container">
+    <nav class="story-toolbar" aria-label="Story navigation">
+     <a class="back-link" href="/" data-route="collection"><span aria-hidden="true">←</span>${esc(m.back)}</a>
+     <span class="story-progress">${number(id)} / 104</span>
+     <div class="story-nav">
+      ${prev?`<a href="${url(prev)}" data-story="${prev}" aria-label="Previous">←</a>`:`<a aria-disabled="true">←</a>`}
+      ${next?`<a href="${url(next)}" data-story="${next}" aria-label="Next">→</a>`:`<a aria-disabled="true">→</a>`}
+     </div>
+    </nav>
+    <article class="reader">
+     <div class="reader-art">
+      <figure class="figure-art"><button type="button" class="figure-enlarge" data-zoom="${id}" aria-label="Enlarge engraving"><img src="${imageURL(id)}" alt="${esc(title(id))}" width="740" height="1130"></button></figure>
+      <div class="figure-meta"><span>${esc(book)} · ${String(p.number).padStart(2,"0")}</span><a href="${esc(p.plate_source)}" rel="noopener" target="_blank">${esc(m.original)} ↗</a></div>
+     </div>
+     <div class="reader-text">
+       <div class="chapter-book">${esc(book)} · ${String(p.number).padStart(2,"0")} / 52</div>
+       <h1 class="chapter-title">${esc(title(id))}</h1>
+       <div class="edition-tabs" role="group" aria-label="Source language">
+       ${languages.map(code=>`<button type="button" data-reader-lang="${code}" aria-pressed="${s.lang===code}">${code==="en"?"English":code==="de"?"Deutsch":"Русский"}</button>`).join("")}
+       </div>
+       <div class="source-content" id="source-content">${editionText(p)}</div>
+     </div>
+    </article>
+    <nav class="reader-bottom" aria-label="Adjacent stories">
+      <span>${prev?`<a href="${url(prev)}" data-story="${prev}">← ${esc(title(prev))}</a>`:""}</span>
+      <span>${next?`<a href="${url(next)}" data-story="${next}">${esc(title(next))} →</a>`:""}</span>
+    </nav>
+  </div>`;
 }
-const dialogWrap = document.querySelector(".dialog-image-wrap");
-const dialogSource = document.querySelector("#dialog-source");
-let viewerBaseWidth = 0;
-let viewerZoom = 1;
-function applyViewerZoom() {
-  if (!viewerBaseWidth || !dialog.open) return;
-  dialogImage.style.maxWidth = "none";
-  dialogImage.style.maxHeight = "none";
-  dialogImage.style.width = Math.round(viewerBaseWidth * viewerZoom) + "px";
-  dialogImage.style.height = "auto";
+function renderAbout() {
+  main.innerHTML=`<section class="container about-page">
+  <h1>Biblische Historien</h1>
+  <p>Johann Hübner, <em>Zweymal zwey und fünfzig auserlesene Biblische Historien aus dem Alten und Neuen Testamente.</em> First published 1714.</p>
+  <h2>Text witnesses</h2>
+  <ul>
+  <li><strong>Deutsch</strong><span>Gießen, 1768. Original printed pages and 104 engraved plates. <a href="https://digi.ub.uni-heidelberg.de/diglit/huebner1768" target="_blank" rel="noopener">Universitätsbibliothek Heidelberg ↗</a></span></li>
+  <li><strong>Deutsch</strong><span>Zürich, ca. 1775. Complete facsimile and uncorrected OCR. <a href="https://www.e-rara.ch/zuz/doi/10.3931/e-rara-85573" target="_blank" rel="noopener">Zentralbibliothek Zürich ↗</a></span></li>
+  <li><strong>English</strong><span>Hamburg, 1765. Historic English translation. <a href="${sourceEnglish}" target="_blank" rel="noopener">British Library / Google Books ↗</a></span></li>
+  <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian}" target="_blank" rel="noopener">Library record ↗</a></span></li>
+  </ul>
+  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English and Russian original text is not supplied without a verified source.</p>
+  <p class="short"><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Source code and crop provenance ↗</a></p>
+  </section>`;
 }
-function viewerAdjust(factor) {
-  viewerZoom = Math.min(4, Math.max(.75, viewerZoom * factor));
-  applyViewerZoom();
+function render(){
+  updateLanguage();
+  const v=view();
+  if(v==="story")renderStory(idParam());
+  else if(v==="about")renderAbout();
+  else renderIndex();
+  document.title=(v==="story"?title(idParam())+" · ":"")+"Biblische Historien — Johann Hübner";
 }
-function openViewer({src,fallback,source,label,credit,alt}) {
-  dialogTitle.textContent = label;
-  dialogCredit.textContent = credit;
-  dialogSource.href = source;
-  dialogImage.alt = alt;
-  dialogImage.dataset.fallback = fallback || "";
-  viewerBaseWidth = 0;
-  viewerZoom = 1;
-  dialogImage.style.width = "auto";
-  dialogImage.style.height = "auto";
-  dialogImage.style.maxWidth = "100%";
-  dialogImage.style.maxHeight = "calc(94vh - 160px)";
-  dialogImage.onload = () => {
-    if (!dialogImage.naturalWidth) return;
-    const availableWidth = Math.max(100, dialogWrap.clientWidth - 36);
-    const availableHeight = Math.max(150, dialogWrap.clientHeight - 36);
-    viewerBaseWidth = Math.min(dialogImage.naturalWidth, availableWidth, availableHeight * dialogImage.naturalWidth / dialogImage.naturalHeight);
-    viewerZoom = 1;
-    applyViewerZoom();
-  };
-  if (!dialog.open) dialog.showModal();
-  dialogImage.src = src;
+function openImage(src,alt,original){
+  lightboxImage.src=src;
+  lightboxImage.alt=alt;
+  lightboxSource.href=original;
+  lightbox.showModal();
 }
-function showArt(id) {
-  const s=record(id), st=stories[id-1];
-  if (!s) return;
-  openViewer({src:s.image,fallback:s.original_image,source:anchor(s),
-    label:title(st)+" · "+s.plate_label,
-    alt:title(st)+" — original engraved illustration, 1768",
-    credit:"Giessen, 1768 · Universitätsbibliothek Heidelberg · "+s.plate_label+" · historical engraving"});
-}
-function showFolio(id,index) {
-  const s=record(id), folio=s?.folios?.[index];
-  if (!folio) return;
-  const st=stories[id-1];
-  openViewer({src:folio.image,fallback:folio.original_image,source:folio.source,
-    label:title(st)+" · page "+folio.label,
-    alt:"Original German printed page "+folio.label+" of the 1768 Giessen edition",
-    credit:"Hübner, Giessen 1768 · Original German page "+folio.label+" · Universitätsbibliothek Heidelberg"});
-}
-document.addEventListener("click",event=>{
-  const lang=event.target.closest("[data-lang],[data-reader-lang]");
-  if (lang) { setLanguage(lang.dataset.lang || lang.dataset.readerLang); return; }
-  const save=event.target.closest("[data-save]");
-  if (save) { toggleSaved(Number(save.dataset.save)); return; }
-  const filter=event.target.closest("[data-filter]");
-  if (filter) {
-    state.testament=filter.dataset.filter;
-    document.querySelectorAll("[data-filter]").forEach(x=>{
-      const active=x===filter;x.classList.toggle("active",active);x.setAttribute("aria-pressed",String(active));
-    });
-    renderGrid();return;
+document.addEventListener("click",e=>{
+  const language=e.target.closest("[data-lang],[data-reader-lang]");
+  if(language){setLanguage(language.dataset.lang||language.dataset.readerLang);return}
+  const filter=e.target.closest("[data-filter]");
+  if(filter){
+    s.filter=filter.dataset.filter;
+    document.querySelectorAll("[data-filter]").forEach(b=>b.setAttribute("aria-pressed",String(b===filter)));
+    renderPlateGrid();return;
   }
-  const next=event.target.closest("[data-next-story]");
-  if (next) { setNavigation("story",Number(next.dataset.nextStory));return; }
-  const folio=event.target.closest("[data-zoom-folio]");
-  if (folio) { const [id,index]=folio.dataset.zoomFolio.split(":").map(Number); showFolio(id,index); return; }
-  const zoom=event.target.closest("[data-zoom]");
-  if (zoom) { showArt(Number(zoom.dataset.zoom));return; }
-  const chapter=event.target.closest("[data-open-story]");
-  if (chapter) { event.preventDefault();setNavigation("story",Number(chapter.dataset.openStory));return; }
-  const nav=event.target.closest("[data-nav]");
-  if (nav) { event.preventDefault();setNavigation(nav.dataset.nav);return; }
+  const chapter=e.target.closest("[data-story]");
+  if(chapter){e.preventDefault();navigate("story",Number(chapter.dataset.story));return}
+  const route=e.target.closest("[data-route]");
+  if(route){e.preventDefault();navigate(route.dataset.route);return}
+  const zoom=e.target.closest("[data-zoom]");
+  if(zoom){const p=item(Number(zoom.dataset.zoom));openImage(imageURL(p.id),title(p.id),p.plate_source);return}
+  const leaf=e.target.closest("[data-folio]");
+  if(leaf){
+    const [id,index]=leaf.dataset.folio.split(":").map(Number);
+    const p=item(id);const f=p.folios[index];if(f)openImage(f.image,`Hübner · printed page ${f.label}`,f.source);
+  }
 });
-document.addEventListener("input",event=>{
-  if (event.target.id==="gallery-search") { state.search=event.target.value;renderGrid(); }
+document.addEventListener("input",e=>{
+  if(e.target.id==="plate-search"){s.search=e.target.value;renderPlateGrid()}
 });
 window.addEventListener("popstate",render);
-document.addEventListener("keydown",event=>{
-  if (dialog.open || event.altKey || event.ctrlKey || event.metaKey || /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName||"")) return;
-  if(q("view")!=="story") return;
-  const id=Math.min(104,Math.max(1,Number(q("id"))||1));
-  if(event.key==="ArrowRight" && id<104){event.preventDefault();setNavigation("story",id+1);}
-  if(event.key==="ArrowLeft" && id>1){event.preventDefault();setNavigation("story",id-1);}
+document.querySelector("#lightbox-close").addEventListener("click",()=>lightbox.close());
+lightbox.addEventListener("click",e=>{if(e.target===lightbox)lightbox.close()});
+document.addEventListener("keydown",e=>{
+  if(e.key==="Escape"&&lightbox.open){lightbox.close();return}
+  if(lightbox.open||view()!=="story"||e.altKey||e.ctrlKey||e.metaKey||/^(INPUT|TEXTAREA|BUTTON)$/.test(document.activeElement?.tagName||""))return;
+  const id=idParam();
+  if(e.key==="ArrowLeft"&&id>1)navigate("story",id-1);
+  if(e.key==="ArrowRight"&&id<104)navigate("story",id+1);
 });
-document.querySelector("#dialog-close").addEventListener("click",()=>dialog.close());
-document.querySelector("#dialog-zoom-in").addEventListener("click",()=>viewerAdjust(1.5));
-document.querySelector("#dialog-zoom-out").addEventListener("click",()=>viewerAdjust(1/1.5));
-dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close();});
-document.querySelector("#menu-toggle").addEventListener("click",event=>{
-  const expanded=header.classList.toggle("menu-open");
-  event.currentTarget.setAttribute("aria-expanded",String(expanded));
-});
-document.addEventListener("error",event=>{
-  if(event.target.tagName!=="IMG")return;
-  const el=event.target;
-  if(el.dataset.fallback && el.src!==el.dataset.fallback){el.src=el.dataset.fallback;return;}
-  if(el.closest(".folio")) el.style.visibility="hidden";
-},true);
-
-async function init() {
-  try {
-    const response=await fetch("/data/archive.json",{cache:"no-store"});
-    if(!response.ok) throw new Error("Archival data not yet published (HTTP "+response.status+")");
-    const archive=await response.json();
-    if (!Array.isArray(archive.images)||archive.images.length!==104) throw new Error("The collection failed the 104-plate integrity check.");
-    for (let i=0;i<104;i++) {
-      const im=archive.images[i];
-      if(im.id!==i+1||im.number!==i%52+1||!im.verified||!im.original_image) throw new Error("An illustration's provenance record is incomplete.");
-    }
-    state.images=archive.images;
-    state.byId=new Map(state.images.map(r=>[r.id,r]));
-    document.documentElement.lang=state.lang;
+async function init(){
+  try{
+    const response=await fetch("/data/archive.json");
+    if(!response.ok)throw Error("Missing original archive");
+    const data=await response.json();
+    if(!Array.isArray(data.images)||data.images.length!==104)throw Error("Incomplete historical sequence");
+    for(let i=0;i<104;i++)if(data.images[i].id!==i+1)throw Error("Plate sequence mismatch");
+    s.plates=data.images;s.byId=new Map(data.images.map(p=>[p.id,p]));
     render();
-  } catch(error) {
-    console.error("Archival data failed to load:",error);
-    main.innerHTML=`<div class="error-state"><span class="small-label">The source archive</span><h1>The illustrated archive is temporarily unavailable.</h1><p>The site requires the 104 verified plate files to render correctly. Its contents are being preserved from Heidelberg's original 1768 edition, and we will not display substitute imagery.</p><p><a href="https://digi.ub.uni-heidelberg.de/diglit/huebner1768" target="_blank" rel="noopener">View the original digital book at Heidelberg ↗</a></p></div>`;
+  }catch(err){
+    main.innerHTML=`<div class="container error-view"><h1>Archive unavailable</h1><p>The historical image archive could not be loaded.</p><a href="${sourceGerman}">Heidelberg source ↗</a></div>`;
+    console.error(err);
   }
 }
 init();
