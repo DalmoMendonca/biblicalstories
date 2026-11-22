@@ -9,6 +9,7 @@ on:
       - 'tests/**'
       - 'scripts/build.py'
       - 'public/data/archive.json'
+      - 'public/folios/**'
       - '.github/workflows/check.yml'
   workflow_dispatch:
 permissions:
