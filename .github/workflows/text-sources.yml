@@ -27,6 +27,13 @@ jobs:
             'https://search.rsl.ru/ru/record/01008044637',
             'https://kp.rusneb.ru/item/material/5fcf8bb3991f3b91423439b5',
             'https://viewer.rusneb.ru/ru/000199_000009_011511257?page=1',
+            'https://www.e-rara.ch/zuz/download/ftpack/plain/24283820',
+            'https://www.e-rara.ch/zuz/download/ftpack/plain/24284000',
+            'https://www.e-rara.ch/zuz/download/ftpack/plain/24284425',
+            'https://www.e-rara.ch/i3f/v20/24283792/manifest',
+            'https://www.googleapis.com/books/v1/volumes/5elUAAAAcAAJ',
+            'https://books.google.com/books/download/Zweimal_zwei_und_funfzig_biblische_Histo.epub?hl=de&id=5elUAAAAcAAJ&output=epub',
+            'https://books.google.com/books?jscmd=SearchWithinVolume2&q=creation&vid=5elUAAAAcAAJ',
             'https://api.wellcomecollection.org/catalogue/v2/works/bj39jxdz'
           ]
           for url in urls:
