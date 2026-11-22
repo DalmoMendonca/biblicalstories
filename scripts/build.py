@@ -37,10 +37,12 @@ for i, story in enumerate(archive["images"], 1):
     assert story["verified"] and story["original_image"]
     assert (PUBLIC / story["image"].lstrip("/")).is_file(), story
     assert (PUBLIC / story["thumb"].lstrip("/")).is_file(), story
+    assert (PUBLIC / "engravings" / f"{i:03d}.webp").is_file(), story
+    assert (PUBLIC / "engravings" / "thumb" / f"{i:03d}.webp").is_file(), story
     for leaf in story.get("folios", []):
         assert (PUBLIC / leaf["image"].lstrip("/")).is_file(), leaf
 
-for directory in ("data", "art", "folios"):
+for directory in ("data", "art", "folios", "engravings"):
     shutil.copytree(PUBLIC / directory, DIST / directory)
 
 if BASE_PATH:
