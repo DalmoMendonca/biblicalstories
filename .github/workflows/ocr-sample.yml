@@ -1,0 +1,29 @@
+name: Test historic German Fraktur OCR
+on:
+  push:
+    paths: ['.github/workflows/ocr-sample.yml']
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  sample:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Fraktur OCR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-deu tesseract-ocr-frk
+          tesseract --list-langs
+      - name: Compare OCR on original German text leaves
+        run: |
+          python3 - <<'PY'
+          import subprocess, pathlib
+          for name in ['001-01','015-02','043-02','069-01','070-01','103-01','104-02']:
+            path=pathlib.Path('public/folios')/(name+'.webp')
+            if not path.exists():print('MISSING',path);continue
+            for lang in ('frk','deu'):
+              p=subprocess.run(['tesseract',str(path),'stdout','-l',lang,'--psm','3'],capture_output=True,text=True)
+              print('PAGE',name,'LANG',lang,'CHARS',len(p.stdout),'ERROR',p.stderr[:150],flush=True)
+              print(p.stdout[:1400].replace('\n',' | '),flush=True)
+          PY
