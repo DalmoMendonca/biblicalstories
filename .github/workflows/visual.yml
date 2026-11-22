@@ -9,6 +9,8 @@ on:
       - 'styles.css'
       - 'src/**'
       - 'public/data/archive.json'
+      - 'public/texts/**'
+      - 'public/data/text-coverage.json'
   workflow_dispatch:
 concurrency:
   group: huebner-visual-review
