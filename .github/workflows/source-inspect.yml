@@ -39,4 +39,15 @@ jobs:
                 print('structures',str(data.get('structures',[]))[:1500])
               else: print('sample',body[:400].decode('utf8','replace'))
             except Exception as e: print('ERROR',type(e).__name__,str(e)[:600])
+          print("\\nHEIDELBERG ANALYSIS")
+          url='https://digi.ub.uni-heidelberg.de/diglit/iiif/huebner1768/manifest.json'
+          req=urllib.request.Request(url,headers={'User-Agent':'HuebnerDigitalEdition/0.1'})
+          doc=json.load(urllib.request.urlopen(req,timeout=40))
+          cc=doc.get('sequences',[{}])[0].get('canvases',[])
+          print('COUNT',len(cc))
+          for i,c in enumerate(cc[:95]):
+            a=c.get('images',[{}])[0].get('resource',{})
+            print('HB',i,str(c.get('label'))[:120],str(a.get('@id'))[:190])
+          print('RANGES',len(doc.get('structures',[])))
+          for s in doc.get('structures',[])[:30]:print('RANGE',str(s.get('label'))[:100],'canvases',len(s.get('canvases',[])), 'ranges',len(s.get('ranges',[])))
           PY
