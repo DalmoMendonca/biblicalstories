@@ -27,9 +27,9 @@ try{
  assert.ok((await desktop.locator(".figure-art img").getAttribute("src")).startsWith("/engravings/"));
  await desktop.locator('[data-reader-lang="de"]').click();
  assert.equal(await desktop.locator(".folio-btn").count(),6);
+ await desktop.locator(".source-facsimile summary").click();
  await desktop.locator(".folio-btn img").first().evaluate(i=>i.decode());
  await desktop.screenshot({path:"qa/new-reader-desktop.jpg",type:"jpeg",quality:82});
- await desktop.locator(".source-facsimile summary").click();
  await desktop.locator(".folio-btn").first().click();
  assert.ok(await desktop.locator("#lightbox").evaluate(el=>el.open));
  await desktop.locator("#lightbox-close").click();
