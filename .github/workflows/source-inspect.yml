@@ -1,0 +1,42 @@
+name: Inspect archival source
+on:
+  push:
+    paths:
+      - '.github/workflows/source-inspect.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Inspect source APIs
+        run: |
+          python3 - <<'PY'
+          import json,urllib.request,traceback
+          urls=[
+            'https://www.e-rara.ch/i3f/v20/24283792/manifest',
+            'https://www.e-rara.ch/zuz/download/ftpack/plain/24283792',
+            'https://digi.ub.uni-heidelberg.de/diglit/iiif/huebner1768/manifest.json',
+          ]
+          for url in urls:
+            print('\nSOURCE',url,flush=True)
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'HuebnerDigitalEdition/0.1 research contact via github.com/DalmoMendonca/biblicalstories'})
+              with urllib.request.urlopen(req,timeout=24) as f:
+                body=f.read(5000000)
+                print('status',f.status,'bytes',len(body),'type',f.headers.get('content-type'))
+              if 'manifest' in url:
+                data=json.loads(body)
+                print('keys',list(data))
+                seq=data.get('sequences',[{}])[0]
+                canvases=seq.get('canvases',data.get('items',[]))
+                print('CANVASES',len(canvases))
+                for idx in [*range(min(12,len(canvases))), *range(max(12,len(canvases)//2-4),min(len(canvases),len(canvases)//2+4)), *range(max(12,len(canvases)-8),len(canvases))]:
+                  c=canvases[idx]
+                  print('C',idx,'label',c.get('label'),'id',c.get('@id',c.get('id')),'image',str(c.get('images',c.get('items',[])))[:450])
+                print('structures',str(data.get('structures',[]))[:1500])
+              else: print('sample',body[:400].decode('utf8','replace'))
+            except Exception as e: print('ERROR',type(e).__name__,str(e)[:600])
+          PY
