@@ -6,9 +6,9 @@ const lightboxImage = document.querySelector("#lightbox-image");
 const lightboxSource = document.querySelector("#lightbox-source");
 const languages = ["en","de","ru"];
 const text = {
-  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"Original pages",none:"Text not yet imported for this chapter.",edition:"English · modern translation from 1768 German OCR",book:"1765 historical edition",original:"Original scan",about:"Edition"},
+  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"Text not yet imported for this chapter.",edition:"English · modern translation from 1768 German OCR",book:"1765 historical edition",original:"Original scan",about:"Edition"},
   de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Text dieser Historie noch nicht importiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
-  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Страницы оригинала",none:"Проверенная транскрипция русского перевода пока недоступна.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
+  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Немецкие страницы · 1768",none:"Проверенная транскрипция русского перевода пока недоступна.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
 };
 const sourceEnglish = "https://books.google.com/books?id=5elUAAAAcAAJ";
 const sourceRussian1815 = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
