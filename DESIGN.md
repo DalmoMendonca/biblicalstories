@@ -1,51 +1,47 @@
-# Design system · 104 Sacred Histories
+# Design direction — HISTORIEN / an eighteenth-century image index
+
+## A replacement, not a refinement
+
+The former site’s two-panel promotional hero, invented marketing descriptions, badges, sample prose, image-card frames, faux-library ornament, and oversized footers are discarded. This application is an **edition of a historic book**, not a modern promotional site.
+
+## Core
+Every one of Hübner’s 104 engravings, extracted cleanly from its archival photograph, is the visual unit. Art is not a thumbnail inside a graphic card. The historical ink itself provides color, texture and character. No AI-generated illustrations, altered engraved scenes or substitute page images.
 
 ## World
-An eighteenth-century antiquarian book translated into an exquisite contemporary editorial gallery. The visitor encounters a historic engraving, not a hero stock photograph, decorative SVG, or icon card. The historical artifact is the content and the visual identity.
-
-## Concept
-A **museum reading room** with the editorial confidence of a refined art monograph. The paper is quietly warm, the ink deep green-black, and the only ornamental color aged gilt. All graphic energy comes from the 104 genuine copperplates and their facsimile pages.
+A rigorously typeset antiquarian catalogue meets a contemporary art-book reader. Ivory uncoated paper, deepest near-black ink, tiny functional sans navigation, and generous EB Garamond titles. A muted oxblood selection line is the sole accent. No gradients, floating cards, bevels, shadows, badges, hype copy, or decorative panels.
 
 ## Modes
-- Gallery: **Experience**. Artwork is the subject and entry point.
-- Individual story: **Read**. Engraving and text-folio pairs; historical evidence labeled at point of use.
+- Index: Experience. One engraving per story, in original numbered order.
+- Reader: Read. Engraving leads, original edition text follows. Language choice does not change the story number or the artwork.
 
-## Tokens
-| Token | Value | Role |
-| --- | --- | --- |
-| `--paper` | `#f3f0e8` | Warm book paper |
-| `--paper-deep` | `#e9e5db` | Alternate reading surface |
-| `--paper-light` | `#faf8f2` | Highlighted archival mat |
-| `--ink` | `#1d2a26` | Deep green-black body and hero |
-| `--ink-soft` | `#526059` | Secondary type |
-| `--line` | `#d0cbbf` | Hairline division |
-| `--gold` | `#ad8250` | Aged gilt |
-| `--gold-deep` | `#80633e` | Small accent |
-| `--serif` | Libre Baskerville | Quiet historical display and narrative |
-| `--sans` | DM Sans | Contemporary clear navigation |
+## Typography
+- EB Garamond for story headings and historical text, suitable for Cyrillic and Latin.
+- Inter for controls; comfortable touch targets and active-state clarity.
+- No ornamental title invented by marketing: the book’s authentic name *Biblische Historien* is the masthead.
 
-## Layout
-An asymmetrical archival hero: dark folio colophon at left and isolated ancient engraving at right. Deliberately varied image sizes in the featured gallery. Full library uses a responsive four-column grid; story pages use a large original art sheet beside the reading controls; mobile stacks native artwork and story.
+## Structure
+- **No landing page.** Root opens the visual 104-plate catalogue immediately.
+- Top bar: Biblische Historien on left, one simple EN / DE / RU switch and a search control on right.
+- Testament selectors are plain text, with counts 52 + 52.
+- Gallery: four columns desktop, three tablet, two mobile. Engravings occupy the cell with almost no surrounding frame; original numbering and scene title below. The full historical scan is accessible separately.
+- Reader: large, uncropped **engraved artwork** (not a scanned sheet) next to the edition text. One visible language choice. Quiet previous/next arrows and source links.
+- Original printed folio pages live in an unobtrusive image viewer. The source citations are functional, never poetic.
+- No footer slogan, marketing statistics, invented explanatory paragraphs, badges, favorites gamification, or generic callouts.
 
-## Navigation
-- Persistent language selection `EN / DE / RU`.
-- Complete library with testament toggles and searchable editorial labels.
-- Chapter detail has neighboring-story controls, library breadcrumb, and visible source witness.
-- Reader language selector changes story context and editorial commentary without silently rewriting historical source texts.
-- Originals lead to institution-hosted page images; readers can verify the source without trusting this site's interpretation.
+## Actual text, not simulations
+- German reader can show verbatim source OCR *only if chapter boundaries are verified*; always label OCR as such and retain the 1768 photographic original.
+- English is the 1765 translation where text can be verified. Russian is the Bogorodsky translation associated with the 1815 edition where verified.
+- Never replace missing original English or Russian copy with summaries, new biblical retellings, or machine translation presented as historical fact.
+- Wherever precise text is unavailable, show only the factual source and direct facsimile link. Never pretend that selecting a language is a complete translation if it is not.
 
-## Editorial safeguards
-- Original engraving number and edition shown on every story.
-- No images generated by AI or sourced from modern web stock.
-- Historic engravings from Giessen 1768 are not asserted to be Russian 1815 engravings.
-- Full German printed text available by source facsimile; OCR explicitly attributed to a different edition and labeled uncorrected.
-- Unverified English/Russian source texts have transparent unavailable states, not plausible-sounding invented passages.
+## Colors
+Paper #f4f2ec; surface #ebe8df; ink #191916; secondary #5f615b; faint rule #d3d0c7; accent #872f27.
 
-## Interaction
-Zoomable original plates, chapter arrows, testament filter, search, browser-local favorites. Avoid login, badges, decorative parallax, spinning counters or casual animations.
+## Spatial rules
+Columns correspond to the numbered books; the sequence is readable in English and still coherent across German/Russian. The gallery’s first visible row is artwork, not an illustrated “hero.” Reader image is fully visible at all breakpoints, never cropped by CSS.
 
-## Responsive
-Semantic HTML, visible focus, keyboard arrows for chapter changes, carefully limited line lengths, reduced-motion support, phone-safe horizontal spacing. Artwork remains fully visible with `object-fit:contain` rather than destructive cover cropping.
+## Motion
+Only the image viewer transition, restrained and reduced-motion aware. Do not animate the whole gallery into view.
 
-## Assets
-All artwork from **Heidelberg University Library's 1768 Giessen digitization**, exactly 104 plates verified by IIIF manifest. Downloaded as local WebP for reliability; original JPEG links retained per plate. Archival watermark retained, not removed.
+## Source/provenance
+Public-domain 1768 Giessen 104 engravings via Heidelberg IIIF, cropped without synthesis from the photographic originals. Keep original full page and digital source URLs for every plate, plus crop coordinates in the machine-readable provenance file.
