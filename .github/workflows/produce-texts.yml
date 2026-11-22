@@ -1,0 +1,62 @@
+name: Produce complete trilingual chapter texts
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/produce_texts.py'
+      - '.github/workflows/produce-texts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: transcribe-and-translate-huebner
+  cancel-in-progress: false
+jobs:
+  texts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install original Gothic German text recognition
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-frk
+          tesseract --list-langs
+      - name: OCR all 324 historical pages and translate all 104 complete chapters
+        id: produce
+        continue-on-error: true
+        run: python3 scripts/produce_texts.py
+      - name: Preserve generated texts and explicit source notes even if incomplete
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git reset --mixed origin/main
+          git add public/texts public/data/text-coverage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add source-backed historical German OCR and attributed translations [skip ci]"
+            git push origin HEAD:main
+          fi
+      - name: Verify complete 104 x 3 text coverage
+        run: |
+          python3 - <<'PY'
+          import json,pathlib
+          root=pathlib.Path('public')
+          files=sorted((root/'texts').glob('*.json'))
+          assert len(files)==104, f'Only {len(files)} stories exist'
+          for i,p in enumerate(files,1):
+            x=json.loads(p.read_text())
+            assert x['id']==i
+            for lang in ('de','en','ru'):
+              assert len(x[lang]['text'])>150, f'{lang} story {i} empty'
+            assert x['de']['kind']=='uncorrected-fraktur-ocr'
+            assert x['ru']['kind'].startswith('modern-machine-translation')
+            assert x['en']['kind'].startswith('modern-machine-translation')
+          print('PASS: all 104 chapters populated in de/en/ru; 312 complete records')
+          PY
