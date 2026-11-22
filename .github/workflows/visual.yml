@@ -1,0 +1,53 @@
+name: Visual and interaction quality assurance
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/visual.yml'
+      - 'scripts/visual.mjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Verify and build site
+        run: |
+          npm run check
+          npm run build
+      - name: Install actual Chromium browser
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Start local web server
+        run: |
+          nohup python3 -m http.server 8123 --bind 127.0.0.1 --directory dist > /tmp/site.log 2>&1 &
+          sleep 2
+          curl --fail http://127.0.0.1:8123/data/archive.json -o /dev/null
+      - name: Test real interactions on desktop and mobile
+        run: node scripts/visual.mjs
+      - name: Preserve visual review screenshots on separate branch
+        if: always()
+        run: |
+          if test -f qa/home-desktop.jpg; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git switch -C visual-review
+            git add qa
+            git commit -m "Save actual Chromium render captures [skip ci]"
+            git push -f origin visual-review
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: visual-quality-review
+          path: qa/*.jpg
+          if-no-files-found: ignore
