@@ -18,9 +18,9 @@ SAMPLE_IDS=[1,2,3,4,6,15,26,32,43,52,53,60,70,84,90,100,104]
 # Coordinates deliberately cut away all outer book leaves, archival watermarks,
 # captions and the page-number strip. Composition stays uncropped inside engraving.
 # These are within the engraved *picture* rather than the title cartouche.
-BASE_CROP=(0.108,0.103,0.837,0.759)
+BASE_CROP=(0.108,0.103,0.837,0.724)
 # One-off overrides can be introduced only after visual comparison with full scans.
-OVERRIDES={}
+OVERRIDES={1:(0.108,0.103,0.837,0.713),100:(0.108,0.103,0.837,0.708)}
 
 def crop_image(image, number):
     im=ImageOps.exif_transpose(image).convert("RGB")
