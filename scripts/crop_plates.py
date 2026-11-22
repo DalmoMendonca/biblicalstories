@@ -6,7 +6,7 @@ The full unmodified scan remains in public/art and is linked from provenance.
 This is a separate, explicitly cropped reproduction for readers.
 """
 from pathlib import Path
-from PIL import Image, ImageOps, ImageDraw, ImageFont
+from PIL import Image, ImageOps, ImageDraw, ImageFont, ImageStat
 import json
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -39,6 +39,10 @@ def main():
         source=SOURCE/f"{number:03d}.webp"
         with Image.open(source) as image:
             cropped,bounds=crop_image(image,number)
+            # Fail the publication if Heidelberg metadata points to a blank verso.
+            darkness=sum(1 for p in cropped.convert('L').resize((90,140)).getdata() if p<115)/(90*140)
+            if darkness<.07:
+                raise AssertionError(f'Engraving {number} appears blank ({darkness:.1%} dark): inspect archival recto/verso')
             cropped.save(OUT/f"{number:03d}.webp",format="WEBP",quality=89,method=5)
             reduced=cropped.copy()
             reduced.thumbnail((540,900),Image.Resampling.LANCZOS)
