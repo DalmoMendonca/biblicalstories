@@ -148,3 +148,16 @@ img{display:block;max-width:100%}
 }
 @media (max-width:375px){.identity-title{font-size:22px}.mast-actions{gap:8px}.about-link{font-size:10px}.language-nav button{padding:8px 6px}.catalogue-heading{font-size:41px}.plate-title{font-size:15px}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+/* Original-language reading: the actual chapter is the main content, not a card. */
+.edition-prose{font-family:var(--serif);font-size:clamp(19px,1.66vw,23px);line-height:1.68;max-width:68ch;text-wrap:pretty;hyphens:auto}
+.edition-prose p{font:inherit;color:var(--ink);margin:0 0 1.1em;overflow-wrap:anywhere}
+.edition-prose[lang="ru"]{font-size:clamp(18px,1.6vw,22px)}
+.source-facsimile{margin:42px 0 26px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:17px 0}
+.source-facsimile summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;font:500 13px var(--sans);padding:4px 0}
+.source-facsimile summary::-webkit-details-marker{display:none}
+.source-facsimile summary::after{content:"+";font:400 21px var(--serif)}
+.source-facsimile[open] summary::after{content:"−"}
+.source-facsimile .folio-heading{display:none}
+.source-facsimile .folios{margin:22px 0 10px}
+@media(max-width:720px){.edition-prose{font-size:21px;line-height:1.7}.edition-prose[lang="ru"]{font-size:20px}}
