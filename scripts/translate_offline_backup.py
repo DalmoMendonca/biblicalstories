@@ -67,7 +67,7 @@ def main():
     for n,book in enumerate(core.ARCHIVE["images"],1):
         path=core.DEST/f"{n:03d}.json"
         record=core.process_story(book,pages)
-        record["en"]["kind"]="modern-offline-machine-translation-of-1768-ocr"
+        record["en"]["kind"]="modern-machine-translation-of-1768-ocr-offline"
         record["ru"]["kind"]="modern-offline-machine-translation-of-1768-ocr"
         record["editorial"]["translation_engine"]="Argos Translate, de→en→ru (English pivot for Russian)"
         if any(len(record[lang]["text"])<150 for lang in ("de","en","ru")):
