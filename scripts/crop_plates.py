@@ -175,6 +175,52 @@ def find_border(image):
         "bottom_line_detected":bottom_used
     }
 
+def emergency_crop(image):
+    """Conservative geometric fallback when a plate frame has damaged/missing rules."""
+    h,w=image.shape[:2]
+    g=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
+    edges=cv2.Canny(g,80,175)
+    lines=cv2.HoughLinesP(edges,1,np.pi/900,threshold=48,
+                          minLineLength=int(h*.26),maxLineGap=22)
+    slopes=[]
+    if lines is not None:
+        for x1,y1,x2,y2 in lines.reshape(-1,4):
+            dx=x2-x1;dy=y2-y1
+            if abs(dy)>h*.26 and abs(dx)<abs(dy)*.15:
+                center=(x1+x2)/2
+                if .05*w<center<.25*w or .72*w<center<.94*w:
+                    slopes.append(float(dx/dy))
+    slope=float(np.median(slopes)) if slopes else 0.
+    angle=max(-MAX_ANGLE,min(MAX_ANGLE,-math.degrees(math.atan(slope))))
+    matrix=cv2.getRotationMatrix2D((w/2,h/2),angle,1.)
+    straight=cv2.warpAffine(image,matrix,(w,h),flags=cv2.INTER_CUBIC,
+                            borderMode=cv2.BORDER_REPLICATE)
+    ink=(cv2.cvtColor(straight,cv2.COLOR_RGB2GRAY)<87).astype(np.float32)
+    y1,y2=int(h*.17),int(h*.63)
+    def getx(a,b,ideal):
+        xs=np.arange(int(w*a),int(w*b),dtype=np.int32)
+        scores=ink[y1:y2,xs].mean(axis=0)
+        scores-=.13*np.abs(xs-ideal)/max(w*.2,1)
+        return int(xs[np.argmax(scores)])
+    left=getx(.06,.23,w*.103)
+    right=getx(.71,.94,w*.849)
+    if right-left<w*.50:
+        left=int(FALLBACK[0]*w);right=int(FALLBACK[2]*w)
+    top=int(FALLBACK[1]*h)
+    bottom=min(int(h*.813),int(top+(right-left)*1.49))
+    if bottom-top<h*.43:
+        top=int(FALLBACK[1]*h)
+        bottom=int(FALLBACK[3]*h)
+    pad=round(w*.006)
+    box=(max(0,left+pad),max(0,top+pad),
+         min(w,right-pad),min(h,bottom-pad))
+    return straight[box[1]:box[3],box[0]:box[2]],{
+        "method":"median-frame-rotation+per-image-border-projection",
+        "rotation_degrees":round(angle,3),
+        "rect":box,
+        "confidence":"fallback"
+    }
+
 def image_quality(img):
     h,w=img.shape[:2]
     g=cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
@@ -198,7 +244,8 @@ def main():
             result,stats=find_border(raw)
         except Exception as e:
             failures.append(f"{n}: {e}")
-            raise
+            result,stats=emergency_crop(raw)
+            stats["fallback_reason"]=str(e)
         metric=image_quality(result)
         if not .055<metric["ink_fraction"]<.90:
             raise AssertionError(f"Plate {n}: suspected blank or wrong crop: {metric}")
