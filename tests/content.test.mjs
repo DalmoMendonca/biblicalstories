@@ -19,5 +19,12 @@ test("Every published chapter has an original German witness and two explicitly 
     assert.match(chapter.en.kind,/modern-machine-translation/);
     assert.match(chapter.ru.kind,/modern-machine-translation/);
     assert.ok(chapter.de.source_pages.length>0, "Original folio provenance missing "+chapter.id);
+    for(const language of ["de","en","ru"]){
+      const value=chapter[language].text.trim();
+      assert.ok(!seen[language].has(value),"Duplicated "+language+" text in chapter "+chapter.id);
+      seen[language].add(value);
+    }
+    assert.notEqual(chapter.en.text,chapter.de.text,"English must not be unmodified German OCR");
+    assert.notEqual(chapter.ru.text,chapter.de.text,"Russian must not be unmodified German OCR");
   }
 });
