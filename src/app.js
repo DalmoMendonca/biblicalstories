@@ -223,7 +223,7 @@ function renderStory(id) {
       <span class="small-label">Giessen · 1768 · Originaldruck</span>
       <h2>${esc(t.scan)}</h2>
       <p>${state.lang==="en"?"The printed German pages immediately following this numbered engraving in Heidelberg's historical copy. Open any leaf to inspect the precise historical wording.":state.lang==="de"?"Die Originalseiten der Gießener Ausgabe von 1768, unmittelbar nach der entsprechenden Kupfertafel.":"Оригинальные страницы немецкого издания 1768 года, следующие за этой гравюрой."}</p>
-      <div class="folio-grid">${folios.length?folios.map((f,i)=>`<a class="folio" href="${esc(f.source)}" target="_blank" rel="noopener"><figure style="margin:0"><img src="${esc(f.image)}" loading="lazy" alt="Original German page ${esc(f.label)}"><figcaption>${state.lang==="en"?"Printed page":state.lang==="de"?"Druckseite":"Страница"} ${esc(f.label)} ↗</figcaption></figure></a>`).join(""):`<p><a class="document-link" href="${esc(anchor(s))}" target="_blank" rel="noopener">${esc(t.archive)} ↗</a></p>`}</div>
+      <div class="folio-grid">${folios.length?folios.map((f,i)=>`<a class="folio" type="button" data-zoom-folio="${id}:${i}"><figure style="margin:0"><img src="${esc(f.image)}" loading="lazy" alt="Original German page ${esc(f.label)}"><figcaption>${state.lang==="en"?"Printed page":state.lang==="de"?"Druckseite":"Страница"} ${esc(f.label)} ↗</figcaption></figure></button>`).join(""):`<p><a class="document-link" href="${esc(anchor(s))}" target="_blank" rel="noopener">${esc(t.archive)} ↗</a></p>`}</div>
     </section>
     <nav class="reader-footer-nav" aria-label="Adjacent stories">
       ${prev?`<a href="${storyURL(prev.id)}" data-open-story="${prev.id}"><small>← ${esc(t.prev)}</small><strong>${textOf(title(prev))}</strong></a>`:"<div></div>"}
@@ -302,14 +302,60 @@ function toggleSaved(id) {
   if (current === "collection") { renderGrid(); }
   else { render(); }
 }
+const dialogWrap = document.querySelector(".dialog-image-wrap");
+const dialogSource = document.querySelector("#dialog-source");
+let viewerBaseWidth = 0;
+let viewerZoom = 1;
+function applyViewerZoom() {
+  if (!viewerBaseWidth || !dialog.open) return;
+  dialogImage.style.maxWidth = "none";
+  dialogImage.style.maxHeight = "none";
+  dialogImage.style.width = Math.round(viewerBaseWidth * viewerZoom) + "px";
+  dialogImage.style.height = "auto";
+}
+function viewerAdjust(factor) {
+  viewerZoom = Math.min(4, Math.max(.75, viewerZoom * factor));
+  applyViewerZoom();
+}
+function openViewer({src,fallback,source,label,credit,alt}) {
+  dialogTitle.textContent = label;
+  dialogCredit.textContent = credit;
+  dialogSource.href = source;
+  dialogImage.alt = alt;
+  dialogImage.dataset.fallback = fallback || "";
+  viewerBaseWidth = 0;
+  viewerZoom = 1;
+  dialogImage.style.width = "auto";
+  dialogImage.style.height = "auto";
+  dialogImage.style.maxWidth = "100%";
+  dialogImage.style.maxHeight = "calc(94vh - 160px)";
+  dialogImage.onload = () => {
+    if (!dialogImage.naturalWidth) return;
+    const availableWidth = Math.max(100, dialogWrap.clientWidth - 36);
+    const availableHeight = Math.max(150, dialogWrap.clientHeight - 36);
+    viewerBaseWidth = Math.min(dialogImage.naturalWidth, availableWidth, availableHeight * dialogImage.naturalWidth / dialogImage.naturalHeight);
+    viewerZoom = 1;
+    applyViewerZoom();
+  };
+  if (!dialog.open) dialog.showModal();
+  dialogImage.src = src;
+}
 function showArt(id) {
   const s=record(id), st=stories[id-1];
   if (!s) return;
-  dialogTitle.textContent=title(st)+" · "+s.plate_label;
-  dialogImage.src=s.original_image;
-  dialogImage.alt=title(st)+" — original engraved illustration, 1768";
-  dialogCredit.textContent="Giessen, 1768 · Universitätsbibliothek Heidelberg · "+s.plate_label+" · public-domain historical artwork";
-  if (!dialog.open) dialog.showModal();
+  openViewer({src:s.image,fallback:s.original_image,source:anchor(s),
+    label:title(st)+" · "+s.plate_label,
+    alt:title(st)+" — original engraved illustration, 1768",
+    credit:"Giessen, 1768 · Universitätsbibliothek Heidelberg · "+s.plate_label+" · historical engraving"});
+}
+function showFolio(id,index) {
+  const s=record(id), folio=s?.folios?.[index];
+  if (!folio) return;
+  const st=stories[id-1];
+  openViewer({src:folio.image,fallback:folio.original_image,source:folio.source,
+    label:title(st)+" · page "+folio.label,
+    alt:"Original German printed page "+folio.label+" of the 1768 Giessen edition",
+    credit:"Hübner, Giessen 1768 · Original German page "+folio.label+" · Universitätsbibliothek Heidelberg"});
 }
 document.addEventListener("click",event=>{
   const lang=event.target.closest("[data-lang],[data-reader-lang]");
@@ -326,6 +372,8 @@ document.addEventListener("click",event=>{
   }
   const next=event.target.closest("[data-next-story]");
   if (next) { setNavigation("story",Number(next.dataset.nextStory));return; }
+  const folio=event.target.closest("[data-zoom-folio]");
+  if (folio) { const [id,index]=folio.dataset.zoomFolio.split(":").map(Number); showFolio(id,index); return; }
   const zoom=event.target.closest("[data-zoom]");
   if (zoom) { showArt(Number(zoom.dataset.zoom));return; }
   const chapter=event.target.closest("[data-open-story]");
@@ -345,6 +393,8 @@ document.addEventListener("keydown",event=>{
   if(event.key==="ArrowLeft" && id>1){event.preventDefault();setNavigation("story",id-1);}
 });
 document.querySelector("#dialog-close").addEventListener("click",()=>dialog.close());
+document.querySelector("#dialog-zoom-in").addEventListener("click",()=>viewerAdjust(1.5));
+document.querySelector("#dialog-zoom-out").addEventListener("click",()=>viewerAdjust(1/1.5));
 dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close();});
 document.querySelector("#menu-toggle").addEventListener("click",event=>{
   const expanded=header.classList.toggle("menu-open");
