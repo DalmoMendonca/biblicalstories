@@ -101,6 +101,18 @@ def main():
     hb = json.loads(download(ORIGINAL))
     canvases = hb["sequences"][0]["canvases"]
     plates = plate_info(canvases)
+    # Heidelberg's final leaf is mislabelled: canvas 'Tafel 52' is the blank
+    # verso; the engraved recto is the immediately preceding canvas 'dz'.
+    last_index, last_number, last_canvas = plates[-1]
+    if (last_number == 52 and
+        image_url(last_canvas).endswith('0_320_Tafel_52dz.jpg') and
+        canvases[last_index-1].get('label') == 'dz'):
+        recto = dict(last_canvas)
+        recto['images'] = canvases[last_index-1]['images']
+        plates[-1] = (last_index - 1, last_number, recto)
+        for path in [ART/'104.webp', ART/'thumb'/'104.webp']:
+            path.unlink(missing_ok=True)
+        print('CORRECTED: Tafel 52 read from illustrated recto, not blank verso',flush=True)
     print(f"ARCHIVE: {len(canvases)} leaves; verified {len(plates)} plates: 52 OT + 52 NT.", flush=True)
     stories = []
     images = []
