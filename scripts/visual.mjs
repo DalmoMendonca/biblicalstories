@@ -61,6 +61,12 @@ try{
   await mobile.locator(".folio-grid img").evaluateAll(async images=>{for(const img of images)img.loading="eager";await Promise.all(images.map(img=>img.decode().catch(()=>{})));});
   await mobile.screenshot({path:"qa/reader-mobile.jpg",type:"jpeg",quality:86,fullPage:true});
   assert.equal(await mobile.evaluate(()=>document.documentElement.scrollWidth <= innerWidth + 2),true,"Reader horizontal overflow");
+  assert.ok((await mobile.locator(".folio-grid > button.folio").count())>0,"Original folios must be real buttons, not malformed nested markup");
+  const navLinks=mobile.locator(".reader-footer-nav > a");
+  assert.equal(await navLinks.count(),2,"Both neighboring chapters must have intact navigation links");
+  const prevBox=await navLinks.nth(0).boundingBox();
+  const nextBox=await navLinks.nth(1).boundingBox();
+  assert.ok(Math.abs(prevBox.y-nextBox.y)<4 && prevBox.x<nextBox.x,"Chapter navigation must align on the same row");
   await mobile.locator(".folio-grid [data-zoom-folio]").first().click();
   assert.equal(await mobile.locator("#art-dialog").evaluate(el=>el.open),true,"Original German folio modal not open");
   assert.ok((await mobile.locator("#dialog-image").getAttribute("src")).startsWith("/folios/"),"Source leaf should be a local archival image");
