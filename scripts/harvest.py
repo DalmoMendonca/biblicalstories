@@ -84,7 +84,7 @@ def process_folio(item):
     if dest.exists() and dest.stat().st_size > 1500:
         return name, dest.stat().st_size, "cached"
     raw = download(original_url)
-    if not raw.startswith(b"\\xff\\xd8"):
+    if not raw.startswith(bytes((0xff, 0xd8))):
         raise ValueError(f"German folio {name} is not a JPEG: {original_url}")
     with Image.open(io.BytesIO(raw)) as im:
         im = ImageOps.exif_transpose(im).convert("RGB")
