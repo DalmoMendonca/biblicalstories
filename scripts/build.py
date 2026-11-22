@@ -21,6 +21,9 @@ for i,story in enumerate(archive["images"],1):
     assert story["verified"] and story["original_image"]
     assert (PUBLIC/story["image"].lstrip("/")).is_file(),story
     assert (PUBLIC/story["thumb"].lstrip("/")).is_file(),story
+    for folio in story.get("folios", []):
+        assert (PUBLIC/folio["image"].lstrip("/")).is_file(),folio
 shutil.copytree(PUBLIC/"data",DIST/"data")
 shutil.copytree(PUBLIC/"art",DIST/"art")
+shutil.copytree(PUBLIC/"folios",DIST/"folios")
 print(f"Built {DIST}, 104 verified plates, {len(list((DIST/'art').glob('*.webp')))} full-resolution WebP images")
