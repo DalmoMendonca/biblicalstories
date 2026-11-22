@@ -24,6 +24,6 @@ jobs:
               with urllib.request.urlopen(req,timeout=12) as r:
                 print("TEST",repr(auth),"STATUS",r.status,"CTYPE",r.headers.get("Content-Type"),"SAMPLE",repr(r.read(130)))
             except urllib.error.HTTPError as e:
-              print("TEST",repr(auth),"STATUS",e.code,"WWW",e.headers.get("WWW-Authenticate"),"CTYPE",e.headers.get("Content-Type"),"SAMPLE",repr(e.read(100)))
+              print("TEST",repr(auth),"STATUS",e.code,"WWW",e.headers.get("WWW-Authenticate"),"CTYPE",e.headers.get("Content-Type"),"HTML",repr(e.read(2300)) if not auth else "")
             except Exception as e: print("TEST",repr(auth),"ERROR",repr(e))
           PY
