@@ -20,7 +20,7 @@ jobs:
         with: {fetch-depth: 0}
       - uses: actions/setup-python@v5
         with: {python-version: '3.11'}
-      - run: python3 -m pip install Pillow
+      - run: python3 -m pip install Pillow opencv-python-headless
       - name: Extract all 104, preserving full scan source
         run: python3 scripts/crop_plates.py
       - name: Commit cropped images and provenance
@@ -37,6 +37,6 @@ jobs:
       - name: Preserve review contact sheet
         run: |
           git switch -C crop-review
-          git add -f qa/crop-contact.jpg
-          git commit -m "Review the actual 104 original engraving crops [skip ci]"
+          git add -f qa/crop-audit-all-104.jpg
+          git commit -m "Visual audit of all 104 rectified original engravings [skip ci]"
           git push -f origin crop-review
