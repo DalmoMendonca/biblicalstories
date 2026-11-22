@@ -10,6 +10,9 @@ on:
       - 'src/**'
       - 'public/data/archive.json'
   workflow_dispatch:
+concurrency:
+  group: huebner-visual-review
+  cancel-in-progress: true
 permissions:
   contents: write
 jobs:
