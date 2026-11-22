@@ -45,6 +45,18 @@ for i, story in enumerate(archive["images"], 1):
 for directory in ("data", "art", "folios", "engravings"):
     shutil.copytree(PUBLIC / directory, DIST / directory)
 
+text_root=PUBLIC/"texts"
+if text_root.exists():
+    all_texts=sorted(text_root.glob("*.json"))
+    if len(all_texts) not in (0,104):
+        print(f"WARNING: {len(all_texts)}/104 text records; incomplete source extraction.")
+    for path in all_texts:
+        data=json.loads(path.read_text(encoding="utf-8"))
+        if any(not isinstance(data.get(lang,{}).get("text"),str) or not data[lang]["text"].strip()
+               for lang in ("de","en","ru")):
+            raise ValueError(f"Incomplete three-language original-source text: {path}")
+    shutil.copytree(text_root,DIST/"texts")
+
 if BASE_PATH:
     index = (DIST / "index.html").read_text(encoding="utf-8")
     index = index.replace('href="/styles.css"', f'href="{BASE_PATH}/styles.css"')
@@ -59,6 +71,7 @@ if BASE_PATH:
     app = app.replace('href="/?view=', f'href="{BASE_PATH}/?view=')
     app = app.replace('let url = "/";', f'let url = "{BASE_PATH}/";')
     app = app.replace('"/data/', f'"{BASE_PATH}/data/')
+    app = app.replace('"/texts/', f'"{BASE_PATH}/texts/')
     app = app.replace('href="/data/', f'href="{BASE_PATH}/data/')
     path.write_text(app, encoding="utf-8")
 
