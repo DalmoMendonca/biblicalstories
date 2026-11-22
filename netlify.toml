@@ -15,6 +15,11 @@
     Cache-Control = "public, max-age=604800, immutable"
 
 [[headers]]
+  for = "/engravings/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, immutable"
+
+[[headers]]
   for = "/folios/*"
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"
