@@ -29,6 +29,7 @@ try{
  assert.equal(await desktop.locator(".folio-btn").count(),6);
  await desktop.locator(".folio-btn img").first().evaluate(i=>i.decode());
  await desktop.screenshot({path:"qa/new-reader-desktop.jpg",type:"jpeg",quality:82});
+ await desktop.locator(".source-facsimile summary").click();
  await desktop.locator(".folio-btn").first().click();
  assert.ok(await desktop.locator("#lightbox").evaluate(el=>el.open));
  await desktop.locator("#lightbox-close").click();
@@ -58,6 +59,7 @@ try{
  await mobile.screenshot({path:"qa/new-reader-mobile.jpg",type:"jpeg",quality:84,fullPage:true});
  await mobile.locator('[data-reader-lang="de"]').click();
  assert.ok(await mobile.locator(".folio-btn").count()>=1);
+ await mobile.locator(".source-facsimile summary").click();
  await mobile.locator('[data-zoom="104"]').click();
  assert.ok(await mobile.locator("#lightbox").evaluate(el=>el.open));
  await mobile.locator("#lightbox-close").click();
