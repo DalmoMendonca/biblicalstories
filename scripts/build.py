@@ -49,7 +49,7 @@ text_root=PUBLIC/"texts"
 if text_root.exists():
     all_texts=sorted(text_root.glob("*.json"))
     if len(all_texts) not in (0,104):
-        print(f"WARNING: {len(all_texts)}/104 text records; incomplete source extraction.")
+        raise SystemExit(f"Refusing partial publication: {len(all_texts)}/104 trilingual chapters.")
     for path in all_texts:
         data=json.loads(path.read_text(encoding="utf-8"))
         if any(not isinstance(data.get(lang,{}).get("text"),str) or not data[lang]["text"].strip()
