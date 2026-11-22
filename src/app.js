@@ -6,9 +6,9 @@ const lightboxImage = document.querySelector("#lightbox-image");
 const lightboxSource = document.querySelector("#lightbox-source");
 const languages = ["en","de","ru"];
 const text = {
-  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"Original pages",none:"Historical English transcription not yet available.",edition:"English · Hamburg, 1765",book:"Source edition",original:"Original scan",about:"Edition"},
-  de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Kritisch geprüfter deutscher Volltext noch nicht verfügbar.",edition:"Deutsch · Gießen, 1768",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
-  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Страницы оригинала",none:"Проверенная транскрипция русского перевода пока недоступна.",edition:"Русский · Москва, 1825",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
+  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"Original pages",none:"Text not yet imported for this chapter.",edition:"English · modern translation from 1768 German OCR",book:"1765 historical edition",original:"Original scan",about:"Edition"},
+  de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Text dieser Historie noch nicht importiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
+  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Страницы оригинала",none:"Проверенная транскрипция русского перевода пока недоступна.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
 };
 const sourceEnglish = "https://books.google.com/books?id=5elUAAAAcAAJ";
 const sourceRussian1815 = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
@@ -100,14 +100,49 @@ function folios(p) {
     ${p.folios.map((leaf,i)=>`<button type="button" class="folio-btn" data-folio="${p.id}:${i}" aria-label="Page ${esc(leaf.label)}"><img src="${esc(leaf.image)}" alt="Printed German page ${esc(leaf.label)}" loading="lazy" width="500"><small>${esc(leaf.label)}</small></button>`).join("")}
   </div>`;
 }
+function textParagraphs(value){
+  const blocks=String(value||"").trim().split(/\n\s*\n/).filter(Boolean);
+  return blocks.map(p=>"<p>"+esc(p.replace(/\n/g," ").replace(/ {2,}/g," "))+"</p>").join("");
+}
+function chapterContent(p){
+  const data=s.content[p.id];
+  const lang=s.lang;
+  const m=messages();
+  if(data && data[lang] && data[lang].text && data[lang].text.length>150){
+    const witness=lang==="de" ? "Giessen, 1768 · Fraktur OCR, uncorrected"
+      : lang==="en" ? "Modern English translation of uncorrected German OCR · 1768"
+      : "Современный перевод с непроверенного немецкого OCR · 1768";
+    return '<div class="source-heading">'+esc(witness)+'</div>'
+      +'<div class="edition-prose" lang="'+lang+'">'+textParagraphs(data[lang].text)+'</div>';
+  }
+  return '<p class="source-absence">'+esc(m.none)+'</p>';
+}
 function editionText(p){
   const m=messages();
-  if(s.lang==="de"){
-    // These are source photographs, preserving the 1768 printed text verbatim.
-    return `<div class="source-heading">${esc(m.edition)} · <a href="${sourceGerman}" rel="noopener" target="_blank">${esc(m.original)}</a></div>${folios(p)}`;
+  const archivalLink=s.lang==="en"?sourceEnglish:(s.lang==="ru"?sourceRussian1825[p.book==="old"?0:1]:sourceGerman);
+  return '<div id="story-prose" aria-live="polite">'+chapterContent(p)+'</div>'
+    +'<details class="source-facsimile"><summary>'+esc(m.folio)+'</summary>'
+    +'<p class="source-heading">Giessen 1768 · <a href="'+esc(p.plate_source)+'" target="_blank" rel="noopener">'+esc(m.original)+'</a></p>'
+    +folios(p)+'</details>'
+    +(s.lang==="de"?'':'<p class="source-heading"><a href="'+esc(archivalLink)+'" target="_blank" rel="noopener">'+esc(m.book)+' ↗</a></p>');
+}
+async function loadChapter(id){
+  const p=item(id);
+  if(!p || s.content[id])return;
+  try{
+    const response=await fetch("/texts/"+number(id)+".json");
+    if(!response.ok)throw new Error("Text not yet available");
+    const data=await response.json();
+    if(data.id!==id)throw new Error("Mismatched source chapter");
+    s.content[id]=data;
+    if(view()==="story" && idParam()===id){
+      const pane=document.querySelector("#story-prose");
+      if(pane)pane.innerHTML=chapterContent(p);
+    }
+  }catch(e){
+    // Source image facsimiles remain fully readable, even when a text import fails.
+    console.warn("Source text unavailable for chapter",id);
   }
-  const link=s.lang==="en"?sourceEnglish:sourceRussian1825[p.book==="old"?0:1];
-  return `<div class="source-heading">${esc(m.edition)}</div><div class="source-absence">${esc(m.none)} <a href="${link}" target="_blank" rel="noopener">${esc(m.book)} ↗</a></div>`;
 }
 function renderStory(id){
   const p=item(id),t=story(id),m=messages();
@@ -143,6 +178,7 @@ function renderStory(id){
       <span>${next?`<a href="${url(next)}" data-story="${next}">${esc(title(next))} →</a>`:""}</span>
     </nav>
   </div>`;
+  loadChapter(id);
 }
 function renderAbout() {
   main.innerHTML=`<section class="container about-page">
@@ -155,7 +191,7 @@ function renderAbout() {
   <li><strong>English</strong><span>Hamburg, 1765. Historic English translation. <a href="${sourceEnglish}" target="_blank" rel="noopener">British Library / Google Books ↗</a></span></li>
   <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian1815}" target="_blank" rel="noopener">Library record ↗</a>. Moscow, 1825: <a href="${sourceRussian1825[0]}" target="_blank" rel="noopener">Old Testament ↗</a> · <a href="${sourceRussian1825[1]}" target="_blank" rel="noopener">New Testament ↗</a> digitized original-language volumes.</span></li>
   </ul>
-  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English and Russian original text is not supplied without a verified source.</p>
+  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English and Russian chapter texts, when available, are modern translations of uncorrected German source OCR and are not identical to the eighteenth- or nineteenth-century historical translations.</p>
   <p class="short"><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Source code and crop provenance ↗</a></p>
   </section>`;
 }
