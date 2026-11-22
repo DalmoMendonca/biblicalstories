@@ -1,0 +1,43 @@
+name: Visual audit every straightened historical engraving
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/crop-audit-rows.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python3 -m pip install Pillow
+      - name: Split all-104 review mosaic into eight inspectable plates
+        run: |
+          git fetch origin crop-review
+          git show origin/crop-review:qa/crop-audit-all-104.jpg > /tmp/all-104.jpg
+          python3 - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          im=Image.open('/tmp/all-104.jpg')
+          assert im.width==216*13 and im.height==314*8
+          p=Path('qa/rows');p.mkdir(parents=True,exist_ok=True)
+          for i in range(8):
+            strip=im.crop((0,314*i,im.width,314*(i+1)))
+            strip.save(p/f'row-{i+1:02d}.jpg',quality=85,optimize=True)
+            print('Saved',p/f'row-{i+1:02d}.jpg')
+          PY
+      - name: Keep review slices on archival crop review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -C crop-review origin/crop-review
+          git add -f qa/rows
+          if ! git diff --cached --quiet;then
+            git commit -m 'Eight image rows for verification of all 104 deskewed engravings [skip ci]'
+            git push origin crop-review
+          fi
