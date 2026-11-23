@@ -67,13 +67,14 @@ try{
  console.log("MOBILE PASSED: 104 engravings, image-led responsive story, original German pages, working language selector, no overflow or JS errors");
  if(fs.existsSync("public/texts/001.json")){
    const chapter=await browser.newPage({viewport:{width:1024,height:820}});
-   for(const id of [1,3,71,87,104]){
+   for(const id of [1,3,69,71,87,104]){
      await chapter.goto(base+"/?view=story&id="+id,{waitUntil:"domcontentloaded"});
      for(const lang of ["de","en","ru"]){
        await chapter.locator('[data-reader-lang="'+lang+'"]').click();
        await chapter.locator(".source-absence").waitFor({timeout:20000});
        assert.equal(await chapter.locator(".edition-prose").count(),0,`Unreviewed OCR displayed as ${lang} original for story ${id}`);
-       assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
+       if(id===69) assert.match(await chapter.locator(".source-facsimile").textContent(),/Heidelberg/,"Chapter 69 requires an explicit archival collation warning");
+       else assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
        assert.ok(await chapter.locator(".source-facsimile").evaluate(el=>el.open),"Facsimiles must open by default");
        if(lang!=="de") assert.ok(await chapter.locator('#source-content a[href^="http"]').count()>=2,"Historic edition/source links missing");
        assert.ok(chapter.url().includes("id="+id),"Language changed story");
