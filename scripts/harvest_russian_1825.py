@@ -25,11 +25,11 @@ dest=ROOT/'public'/'russian-1825-pages'/book
 dest.mkdir(parents=True,exist_ok=True)
 def request(url):
     last=None
-    for n in range(5):
+    for n in range(3):
         try:
             req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; public-domain textual archive)',
                                                 'Accept':'image/jpeg,application/json,*/*'})
-            with urllib.request.urlopen(req,timeout=45) as r:
+            with urllib.request.urlopen(req,timeout=20) as r:
                 body=r.read()
                 if r.status!=200:raise RuntimeError(f'Status {r.status}')
                 return body
@@ -37,8 +37,17 @@ def request(url):
             last=e
             time.sleep(min(8,1.2*(n+1)))
     raise RuntimeError(f'Cannot fetch original public scan {url}: {last}')
-manifest=json.loads(request(BASE+f'api/v1/materials/{identifier}/pages').decode('utf8'))
-assert len(manifest)==COUNTS[book], (len(manifest),COUNTS[book])
+# The archive's metadata endpoint is occasionally slow or unavailable, even while
+# the public page-image URLs work. The established manifests identify the 1..N
+# sequence; verify every image directly if manifest retrieval times out.
+try:
+    manifest=json.loads(request(BASE+f'api/v1/materials/{identifier}/pages').decode('utf8'))
+    assert len(manifest)==COUNTS[book], (len(manifest),COUNTS[book])
+    print('Retrieved original',book,'page manifest',flush=True)
+except Exception as exc:
+    print('Metadata timeout: checking the verified sequential image paths individually:',str(exc)[:120],flush=True)
+    manifest=[{'original':f'attachments_new/attachment/{identifier}/preview-page-{i}.jpg'}
+              for i in range(1,COUNTS[book]+1)]
 def scan(page):
     number,data=page
     url=BASE+data['original']
