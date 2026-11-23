@@ -8,20 +8,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.224,
-      "rect": [
-        103,
-        156,
-        838,
-        1275
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.70999908447266,
+          123.22000122070312
+        ],
+        [
+          826.3099975585938,
+          123.20999908447266
+        ],
+        [
+          842.1699829101562,
+          1241.6400146484375
+        ],
+        [
+          72.30999755859375,
+          1241.6600341796875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5453,
-      "aspect": 0.6568,
-      "width": 735,
-      "height": 1119
+      "rectified_size": [
+        749,
+        1118
+      ],
+      "left_border_lines": 26,
+      "right_border_lines": 26,
+      "left_tilt_degrees": -1.247,
+      "right_tilt_degrees": 0.81,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5494,
+      "aspect": 0.6699,
+      "width": 749,
+      "height": 1118
     },
     "2": {
       "source_original": "/art/002.webp",
@@ -29,20 +48,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.594,
-      "rect": [
-        91,
-        156,
-        847,
-        1307
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          86.66000366210938,
+          167.13999938964844
+        ],
+        [
+          804.9299926757812,
+          167.2899932861328
+        ],
+        [
+          865.4199829101562,
+          1264.449951171875
+        ],
+        [
+          110.44000244140625,
+          1264.300048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5335,
-      "aspect": 0.6568,
-      "width": 756,
-      "height": 1151
+      "rectified_size": [
+        736,
+        1098
+      ],
+      "left_border_lines": 20,
+      "right_border_lines": 22,
+      "left_tilt_degrees": 1.239,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5235,
+      "aspect": 0.6703,
+      "width": 736,
+      "height": 1098
     },
     "3": {
       "source_original": "/art/003.webp",
@@ -50,20 +88,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.967,
-      "rect": [
-        89,
-        156,
-        839,
-        1298
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          84.02999877929688,
+          159.17999267578125
+        ],
+        [
+          833.6400146484375,
+          159.19000244140625
+        ],
+        [
+          837.4000244140625,
+          1278.8399658203125
+        ],
+        [
+          84.02999877929688,
+          1278.8399658203125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5373,
-      "aspect": 0.6567,
-      "width": 750,
-      "height": 1142
+      "rectified_size": [
+        751,
+        1119
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 39,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": 0.192,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5415,
+      "aspect": 0.6711,
+      "width": 751,
+      "height": 1119
     },
     "4": {
       "source_original": "/art/004.webp",
@@ -71,20 +128,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.964,
-      "rect": [
-        95,
-        156,
-        853,
-        1310
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          91.9000015258789,
+          162.16000366210938
+        ],
+        [
+          839.3300170898438,
+          162.1699981689453
+        ],
+        [
+          834.1599731445312,
+          1261.27001953125
+        ],
+        [
+          106.44000244140625,
+          1261.25
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6441,
-      "aspect": 0.6568,
-      "width": 758,
-      "height": 1154
+      "rectified_size": [
+        737,
+        1099
+      ],
+      "left_border_lines": 25,
+      "right_border_lines": 35,
+      "left_tilt_degrees": 0.756,
+      "right_tilt_degrees": -0.269,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.636,
+      "aspect": 0.6706,
+      "width": 737,
+      "height": 1099
     },
     "5": {
       "source_original": "/art/005.webp",
@@ -92,20 +168,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 2.165,
-      "rect": [
-        115,
-        156,
-        829,
-        1243
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          116.55999755859375,
+          153.17999267578125
+        ],
+        [
+          848.969970703125,
+          153.19000244140625
+        ],
+        [
+          854.5800170898438,
+          1248.719970703125
+        ],
+        [
+          116.55999755859375,
+          1248.7099609375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5917,
-      "aspect": 0.6569,
-      "width": 714,
-      "height": 1087
+      "rectified_size": [
+        735,
+        1095
+      ],
+      "left_border_lines": 24,
+      "right_border_lines": 9,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": 0.292,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5996,
+      "aspect": 0.6712,
+      "width": 735,
+      "height": 1095
     },
     "6": {
       "source_original": "/art/006.webp",
@@ -139,20 +234,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.959,
-      "rect": [
-        86,
-        156,
-        831,
-        1290
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          80.44000244140625,
+          183.13999938964844
+        ],
+        [
+          791.469970703125,
+          183.2899932861328
+        ],
+        [
+          851.3400268554688,
+          1269.219970703125
+        ],
+        [
+          103.48999786376953,
+          1269.0699462890625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5666,
-      "aspect": 0.657,
-      "width": 745,
-      "height": 1134
+      "rectified_size": [
+        729,
+        1086
+      ],
+      "left_border_lines": 22,
+      "right_border_lines": 17,
+      "left_tilt_degrees": 1.213,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5639,
+      "aspect": 0.6713,
+      "width": 729,
+      "height": 1086
     },
     "8": {
       "source_original": "/art/008.webp",
@@ -160,20 +274,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.608,
-      "rect": [
-        102,
-        156,
-        807,
-        1230
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.41000366210938,
+          167.2899932861328
+        ],
+        [
+          888.6699829101562,
+          167.07000732421875
+        ],
+        [
+          823.6099853515625,
+          1347.530029296875
+        ],
+        [
+          31.34000015258789,
+          1347.739990234375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6216,
-      "aspect": 0.6564,
-      "width": 705,
-      "height": 1074
+      "rectified_size": [
+        792,
+        1182
+      ],
+      "left_border_lines": 20,
+      "right_border_lines": 28,
+      "left_tilt_degrees": -3.148,
+      "right_tilt_degrees": -3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5822,
+      "aspect": 0.6701,
+      "width": 792,
+      "height": 1182
     },
     "9": {
       "source_original": "/art/009.webp",
@@ -207,20 +340,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.7,
-      "rect": [
-        103,
-        156,
-        892,
-        1357
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          109.19999694824219,
+          177.16000366210938
+        ],
+        [
+          841.4600219726562,
+          177.22000122070312
+        ],
+        [
+          864.6300048828125,
+          1276.8399658203125
+        ],
+        [
+          120.47000122070312,
+          1276.780029296875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5556,
-      "aspect": 0.657,
-      "width": 789,
-      "height": 1201
+      "rectified_size": [
+        738,
+        1099
+      ],
+      "left_border_lines": 24,
+      "right_border_lines": 40,
+      "left_tilt_degrees": 0.586,
+      "right_tilt_degrees": 1.204,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5526,
+      "aspect": 0.6715,
+      "width": 738,
+      "height": 1099
     },
     "11": {
       "source_original": "/art/011.webp",
@@ -228,20 +380,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.809,
-      "rect": [
-        97,
-        156,
-        833,
-        1277
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          97.70999908447266,
+          163.19000244140625
+        ],
+        [
+          791.1400146484375,
+          163.2899932861328
+        ],
+        [
+          850.8699951171875,
+          1246.5899658203125
+        ],
+        [
+          90.52999877929688,
+          1246.5
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6481,
-      "aspect": 0.6566,
-      "width": 736,
-      "height": 1121
+      "rectified_size": [
+        726,
+        1084
+      ],
+      "left_border_lines": 22,
+      "right_border_lines": 14,
+      "left_tilt_degrees": -0.379,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6389,
+      "aspect": 0.6697,
+      "width": 726,
+      "height": 1084
     },
     "12": {
       "source_original": "/art/012.webp",
@@ -301,20 +472,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -2.746,
-      "rect": [
-        115,
-        156,
-        816,
-        1224
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          77.83000183105469,
+          163.1300048828125
+        ],
+        [
+          865.22998046875,
+          163.17999267578125
+        ],
+        [
+          865.22998046875,
+          1314.5
+        ],
+        [
+          108.9000015258789,
+          1314.449951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6375,
-      "aspect": 0.6564,
-      "width": 701,
-      "height": 1068
+      "rectified_size": [
+        771,
+        1151
+      ],
+      "left_border_lines": 28,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.542,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6265,
+      "aspect": 0.6699,
+      "width": 771,
+      "height": 1151
     },
     "15": {
       "source_original": "/art/015.webp",
@@ -322,20 +512,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.188,
-      "rect": [
-        115,
-        156,
-        838,
-        1257
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          100.4800033569336,
+          175.1699981689453
+        ],
+        [
+          816.3499755859375,
+          175.27999877929688
+        ],
+        [
+          872.72998046875,
+          1278.1500244140625
+        ],
+        [
+          106.5,
+          1278.0400390625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.7052,
-      "aspect": 0.6567,
-      "width": 723,
-      "height": 1101
+      "rectified_size": [
+        741,
+        1103
+      ],
+      "left_border_lines": 16,
+      "right_border_lines": 24,
+      "left_tilt_degrees": 0.312,
+      "right_tilt_degrees": 2.919,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.7174,
+      "aspect": 0.6718,
+      "width": 741,
+      "height": 1103
     },
     "16": {
       "source_original": "/art/016.webp",
@@ -343,20 +552,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.538,
-      "rect": [
-        96,
-        156,
-        831,
-        1275
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          84.16999816894531,
+          163.10000610351562
+        ],
+        [
+          814.6599731445312,
+          163.22000122070312
+        ],
+        [
+          837.1699829101562,
+          1234.5799560546875
+        ],
+        [
+          129.22000122070312,
+          1234.4599609375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6309,
-      "aspect": 0.6568,
-      "width": 735,
-      "height": 1119
+      "rectified_size": [
+        719,
+        1071
+      ],
+      "left_border_lines": 34,
+      "right_border_lines": 26,
+      "left_tilt_degrees": 2.402,
+      "right_tilt_degrees": 1.201,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6218,
+      "aspect": 0.6713,
+      "width": 719,
+      "height": 1071
     },
     "17": {
       "source_original": "/art/017.webp",
@@ -364,20 +592,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.742,
-      "rect": [
-        92,
-        156,
-        825,
-        1272
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          77.05000305175781,
+          164.1300048828125
+        ],
+        [
+          865.22998046875,
+          164.17999267578125
+        ],
+        [
+          865.22998046875,
+          1315.6300048828125
+        ],
+        [
+          109.6500015258789,
+          1315.5799560546875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6732,
-      "aspect": 0.6568,
-      "width": 733,
-      "height": 1116
+      "rectified_size": [
+        771,
+        1151
+      ],
+      "left_border_lines": 26,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.618,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6421,
+      "aspect": 0.6699,
+      "width": 771,
+      "height": 1151
     },
     "18": {
       "source_original": "/art/018.webp",
@@ -385,20 +632,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.953,
-      "rect": [
-        93,
-        156,
-        828,
-        1275
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          88.38999938964844,
+          163.13999938964844
+        ],
+        [
+          814.4199829101562,
+          163.2100067138672
+        ],
+        [
+          829.9400024414062,
+          1238.3399658203125
+        ],
+        [
+          112.72000122070312,
+          1238.27001953125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6271,
-      "aspect": 0.6568,
-      "width": 735,
-      "height": 1119
+      "rectified_size": [
+        721,
+        1075
+      ],
+      "left_border_lines": 30,
+      "right_border_lines": 30,
+      "left_tilt_degrees": 1.293,
+      "right_tilt_degrees": 0.825,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6263,
+      "aspect": 0.6707,
+      "width": 721,
+      "height": 1075
     },
     "19": {
       "source_original": "/art/019.webp",
@@ -406,20 +672,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.512,
-      "rect": [
-        105,
-        156,
-        821,
-        1246
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          101.47000122070312,
+          180.1699981689453
+        ],
+        [
+          825.219970703125,
+          180.17999267578125
+        ],
+        [
+          823.1699829101562,
+          1253.719970703125
+        ],
+        [
+          106.04000091552734,
+          1253.719970703125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6621,
-      "aspect": 0.6569,
-      "width": 716,
-      "height": 1090
+      "rectified_size": [
+        720,
+        1073
+      ],
+      "left_border_lines": 16,
+      "right_border_lines": 18,
+      "left_tilt_degrees": 0.243,
+      "right_tilt_degrees": -0.109,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6639,
+      "aspect": 0.671,
+      "width": 720,
+      "height": 1073
     },
     "20": {
       "source_original": "/art/020.webp",
@@ -427,20 +712,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.0,
-      "rect": [
-        102,
-        156,
-        811,
-        1236
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          107.44000244140625,
+          170.17999267578125
+        ],
+        [
+          865.22998046875,
+          170.17999267578125
+        ],
+        [
+          865.22998046875,
+          1299.2900390625
+        ],
+        [
+          107.44000244140625,
+          1299.2900390625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6805,
-      "aspect": 0.6565,
-      "width": 709,
-      "height": 1080
+      "rectified_size": [
+        757,
+        1129
+      ],
+      "left_border_lines": 30,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6486,
+      "aspect": 0.6705,
+      "width": 757,
+      "height": 1129
     },
     "21": {
       "source_original": "/art/021.webp",
@@ -448,20 +752,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.371,
-      "rect": [
-        103,
-        156,
-        812,
-        1236
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          101.01000213623047,
+          183.16000366210938
+        ],
+        [
+          865.22998046875,
+          183.17999267578125
+        ],
+        [
+          865.22998046875,
+          1311.0999755859375
+        ],
+        [
+          116.54000091552734,
+          1311.0799560546875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Detected plate borders are implausibly narrow",
-      "ink_fraction": 0.5456,
-      "aspect": 0.6565,
-      "width": 709,
-      "height": 1080
+      "rectified_size": [
+        756,
+        1127
+      ],
+      "left_border_lines": 29,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.787,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Detected plate borders are implausibly narrow",
+      "ink_fraction": 0.5322,
+      "aspect": 0.6708,
+      "width": 756,
+      "height": 1127
     },
     "22": {
       "source_original": "/art/022.webp",
@@ -469,20 +792,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.224,
-      "rect": [
-        113,
-        156,
-        794,
-        1193
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          102.18000030517578,
+          182.22000122070312
+        ],
+        [
+          865.22998046875,
+          182.17999267578125
+        ],
+        [
+          865.22998046875,
+          1333.800048828125
+        ],
+        [
+          80.5999984741211,
+          1333.8399658203125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6349,
-      "aspect": 0.6567,
-      "width": 681,
-      "height": 1037
+      "rectified_size": [
+        773,
+        1151
+      ],
+      "left_border_lines": 36,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -1.071,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6154,
+      "aspect": 0.6716,
+      "width": 773,
+      "height": 1151
     },
     "23": {
       "source_original": "/art/023.webp",
@@ -490,20 +832,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.614,
-      "rect": [
-        99,
-        156,
-        807,
-        1234
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          103.91999816894531,
+          165.19000244140625
+        ],
+        [
+          865.22998046875,
+          165.17999267578125
+        ],
+        [
+          865.22998046875,
+          1303.18994140625
+        ],
+        [
+          98.7699966430664,
+          1303.199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.7044,
-      "aspect": 0.6568,
-      "width": 708,
-      "height": 1078
+      "rectified_size": [
+        763,
+        1138
+      ],
+      "left_border_lines": 21,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -0.259,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6656,
+      "aspect": 0.6705,
+      "width": 763,
+      "height": 1138
     },
     "24": {
       "source_original": "/art/024.webp",
@@ -511,20 +872,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.486,
-      "rect": [
-        87,
-        156,
-        810,
-        1257
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.06999969482422,
+          155.1699981689453
+        ],
+        [
+          865.22998046875,
+          155.17999267578125
+        ],
+        [
+          865.22998046875,
+          1295.9000244140625
+        ],
+        [
+          103.44999694824219,
+          1295.8900146484375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6405,
-      "aspect": 0.6567,
-      "width": 723,
-      "height": 1101
+      "rectified_size": [
+        765,
+        1140
+      ],
+      "left_border_lines": 24,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.37,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6167,
+      "aspect": 0.6711,
+      "width": 765,
+      "height": 1140
     },
     "25": {
       "source_original": "/art/025.webp",
@@ -532,20 +912,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.014,
-      "rect": [
-        104,
-        156,
-        791,
-        1202
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          116.22000122070312,
+          181.17999267578125
+        ],
+        [
+          865.22998046875,
+          181.17999267578125
+        ],
+        [
+          865.22998046875,
+          1297.199951171875
+        ],
+        [
+          116.22000122070312,
+          1297.199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6866,
-      "aspect": 0.6568,
-      "width": 687,
-      "height": 1046
+      "rectified_size": [
+        749,
+        1116
+      ],
+      "left_border_lines": 27,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6583,
+      "aspect": 0.6711,
+      "width": 749,
+      "height": 1116
     },
     "26": {
       "source_original": "/art/026.webp",
@@ -596,20 +995,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.37,
-      "rect": [
-        109,
-        156,
-        818,
-        1236
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          125.6500015258789,
+          180.19000244140625
+        ],
+        [
+          827.2000122070312,
+          180.17999267578125
+        ],
+        [
+          827.2000122070312,
+          1228.02001953125
+        ],
+        [
+          122.2699966430664,
+          1228.030029296875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6482,
-      "aspect": 0.6565,
-      "width": 709,
-      "height": 1080
+      "rectified_size": [
+        703,
+        1047
+      ],
+      "left_border_lines": 29,
+      "right_border_lines": 23,
+      "left_tilt_degrees": -0.185,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6577,
+      "aspect": 0.6714,
+      "width": 703,
+      "height": 1047
     },
     "28": {
       "source_original": "/art/028.webp",
@@ -617,20 +1035,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.39,
-      "rect": [
-        104,
-        156,
-        825,
-        1254
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          98.55999755859375,
+          178.1699981689453
+        ],
+        [
+          822.8200073242188,
+          178.19000244140625
+        ],
+        [
+          826.719970703125,
+          1255.6800537109375
+        ],
+        [
+          104.70999908447266,
+          1255.6600341796875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6304,
-      "aspect": 0.6566,
-      "width": 721,
-      "height": 1098
+      "rectified_size": [
+        723,
+        1077
+      ],
+      "left_border_lines": 19,
+      "right_border_lines": 18,
+      "left_tilt_degrees": 0.326,
+      "right_tilt_degrees": 0.207,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6352,
+      "aspect": 0.6713,
+      "width": 723,
+      "height": 1077
     },
     "29": {
       "source_original": "/art/029.webp",
@@ -638,20 +1075,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -2.295,
-      "rect": [
-        106,
-        156,
-        818,
-        1240
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          88.80999755859375,
+          165.14999389648438
+        ],
+        [
+          865.22998046875,
+          165.17999267578125
+        ],
+        [
+          865.22998046875,
+          1308.8599853515625
+        ],
+        [
+          107.47000122070312,
+          1308.8199462890625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6109,
-      "aspect": 0.6568,
-      "width": 712,
-      "height": 1084
+      "rectified_size": [
+        767,
+        1143
+      ],
+      "left_border_lines": 27,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.933,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5986,
+      "aspect": 0.671,
+      "width": 767,
+      "height": 1143
     },
     "30": {
       "source_original": "/art/030.webp",
@@ -659,20 +1115,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.986,
-      "rect": [
-        94,
-        156,
-        807,
-        1242
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          83.05000305175781,
+          170.14999389648438
+        ],
+        [
+          865.22998046875,
+          170.17999267578125
+        ],
+        [
+          865.22998046875,
+          1320.9599609375
+        ],
+        [
+          104.12000274658203,
+          1320.9200439453125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4939,
-      "aspect": 0.6565,
-      "width": 713,
-      "height": 1086
+      "rectified_size": [
+        771,
+        1150
+      ],
+      "left_border_lines": 34,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.046,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4776,
+      "aspect": 0.6704,
+      "width": 771,
+      "height": 1150
     },
     "31": {
       "source_original": "/art/031.webp",
@@ -680,20 +1155,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.183,
-      "rect": [
-        106,
-        156,
-        814,
-        1234
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.51000213623047,
+          173.16000366210938
+        ],
+        [
+          818.4000244140625,
+          173.2100067138672
+        ],
+        [
+          835.2000122070312,
+          1252.739990234375
+        ],
+        [
+          108.0,
+          1252.68994140625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6011,
-      "aspect": 0.6568,
-      "width": 708,
-      "height": 1078
+      "rectified_size": [
+        724,
+        1079
+      ],
+      "left_border_lines": 21,
+      "right_border_lines": 22,
+      "left_tilt_degrees": 0.608,
+      "right_tilt_degrees": 0.89,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5995,
+      "aspect": 0.671,
+      "width": 724,
+      "height": 1079
     },
     "32": {
       "source_original": "/art/032.webp",
@@ -701,20 +1195,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.498,
-      "rect": [
-        106,
-        156,
-        838,
-        1271
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          46.630001068115234,
+          168.16000366210938
+        ],
+        [
+          845.5599975585938,
+          168.1199951171875
+        ],
+        [
+          806.22998046875,
+          1323.4200439453125
+        ],
+        [
+          57.709999084472656,
+          1323.469970703125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5773,
-      "aspect": 0.6565,
-      "width": 732,
-      "height": 1115
+      "rectified_size": [
+        773,
+        1155
+      ],
+      "left_border_lines": 10,
+      "right_border_lines": 28,
+      "left_tilt_degrees": 0.548,
+      "right_tilt_degrees": -1.945,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5534,
+      "aspect": 0.6693,
+      "width": 773,
+      "height": 1155
     },
     "33": {
       "source_original": "/art/033.webp",
@@ -722,20 +1235,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.977,
-      "rect": [
-        90,
-        156,
-        774,
-        1198
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          70.68000030517578,
+          173.1300048828125
+        ],
+        [
+          865.22998046875,
+          173.17999267578125
+        ],
+        [
+          865.22998046875,
+          1335.2099609375
+        ],
+        [
+          102.54000091552734,
+          1335.1600341796875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Detected plate borders are implausibly narrow",
-      "ink_fraction": 0.5356,
-      "aspect": 0.6564,
-      "width": 684,
-      "height": 1042
+      "rectified_size": [
+        778,
+        1162
+      ],
+      "left_border_lines": 25,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.567,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Detected plate borders are implausibly narrow",
+      "ink_fraction": 0.497,
+      "aspect": 0.6695,
+      "width": 778,
+      "height": 1162
     },
     "34": {
       "source_original": "/art/034.webp",
@@ -743,20 +1275,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.612,
-      "rect": [
-        115,
-        156,
-        805,
-        1207
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          127.47000122070312,
+          163.27999877929688
+        ],
+        [
+          865.219970703125,
+          163.17999267578125
+        ],
+        [
+          865.219970703125,
+          1305.050048828125
+        ],
+        [
+          67.48999786376953,
+          1305.1500244140625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5549,
-      "aspect": 0.6565,
-      "width": 690,
-      "height": 1051
+      "rectified_size": [
+        767,
+        1142
+      ],
+      "left_border_lines": 33,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -3.0,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5467,
+      "aspect": 0.6716,
+      "width": 767,
+      "height": 1142
     },
     "35": {
       "source_original": "/art/035.webp",
@@ -764,20 +1315,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.998,
-      "rect": [
-        112,
-        156,
-        820,
-        1234
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          97.68000030517578,
+          188.13999938964844
+        ],
+        [
+          817.6300048828125,
+          188.19000244140625
+        ],
+        [
+          821.6300048828125,
+          1247.72998046875
+        ],
+        [
+          119.70999908447266,
+          1247.68994140625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5793,
-      "aspect": 0.6568,
-      "width": 708,
-      "height": 1078
+      "rectified_size": [
+        710,
+        1059
+      ],
+      "left_border_lines": 20,
+      "right_border_lines": 27,
+      "left_tilt_degrees": 1.188,
+      "right_tilt_degrees": 0.216,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5849,
+      "aspect": 0.6704,
+      "width": 710,
+      "height": 1059
     },
     "36": {
       "source_original": "/art/036.webp",
@@ -785,20 +1355,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.0,
-      "rect": [
-        105,
-        156,
-        818,
-        1242
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          85.69000244140625,
+          168.10000610351562
+        ],
+        [
+          805.4199829101562,
+          168.22999572753906
+        ],
+        [
+          833.5,
+          1228.260009765625
+        ],
+        [
+          130.0800018310547,
+          1228.1199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5269,
-      "aspect": 0.6565,
-      "width": 713,
-      "height": 1086
+      "rectified_size": [
+        711,
+        1060
+      ],
+      "left_border_lines": 24,
+      "right_border_lines": 25,
+      "left_tilt_degrees": 2.392,
+      "right_tilt_degrees": 1.514,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5324,
+      "aspect": 0.6708,
+      "width": 711,
+      "height": 1060
     },
     "37": {
       "source_original": "/art/037.webp",
@@ -806,20 +1395,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 2.064,
-      "rect": [
-        101,
-        156,
-        795,
-        1213
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          94.62999725341797,
+          172.16000366210938
+        ],
+        [
+          865.22998046875,
+          172.17999267578125
+        ],
+        [
+          865.22998046875,
+          1311.06005859375
+        ],
+        [
+          107.91999816894531,
+          1311.0400390625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5701,
-      "aspect": 0.6566,
-      "width": 694,
-      "height": 1057
+      "rectified_size": [
+        763,
+        1138
+      ],
+      "left_border_lines": 22,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.667,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5476,
+      "aspect": 0.6705,
+      "width": 763,
+      "height": 1138
     },
     "38": {
       "source_original": "/art/038.webp",
@@ -827,20 +1435,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.379,
-      "rect": [
-        102,
-        156,
-        809,
-        1233
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          115.4800033569336,
+          168.27999877929688
+        ],
+        [
+          865.219970703125,
+          168.17999267578125
+        ],
+        [
+          865.219970703125,
+          1329.6199951171875
+        ],
+        [
+          51.459999084472656,
+          1329.72998046875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.636,
-      "aspect": 0.6565,
-      "width": 707,
-      "height": 1077
+      "rectified_size": [
+        781,
+        1162
+      ],
+      "left_border_lines": 9,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -3.148,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5835,
+      "aspect": 0.6721,
+      "width": 781,
+      "height": 1162
     },
     "39": {
       "source_original": "/art/039.webp",
@@ -874,20 +1501,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.763,
-      "rect": [
-        109,
-        156,
-        835,
-        1262
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          80.3499984741211,
+          175.17999267578125
+        ],
+        [
+          803.5900268554688,
+          175.24000549316406
+        ],
+        [
+          838.8300170898438,
+          1278.219970703125
+        ],
+        [
+          80.3499984741211,
+          1278.1600341796875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5507,
-      "aspect": 0.6564,
-      "width": 726,
-      "height": 1106
+      "rectified_size": [
+        740,
+        1103
+      ],
+      "left_border_lines": 0,
+      "right_border_lines": 24,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": 1.825,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5487,
+      "aspect": 0.6709,
+      "width": 740,
+      "height": 1103
     },
     "41": {
       "source_original": "/art/041.webp",
@@ -895,20 +1541,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.092,
-      "rect": [
-        102,
-        156,
-        828,
-        1262
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          102.36000061035156,
+          178.2100067138672
+        ],
+        [
+          865.22998046875,
+          178.17999267578125
+        ],
+        [
+          865.22998046875,
+          1326.47998046875
+        ],
+        [
+          85.44000244140625,
+          1326.510009765625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5417,
-      "aspect": 0.6564,
-      "width": 726,
-      "height": 1106
+      "rectified_size": [
+        771,
+        1148
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -0.843,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5274,
+      "aspect": 0.6716,
+      "width": 771,
+      "height": 1148
     },
     "42": {
       "source_original": "/art/042.webp",
@@ -916,20 +1581,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.146,
-      "rect": [
-        103,
-        156,
-        822,
-        1251
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          100.01000213623047,
+          157.17999267578125
+        ],
+        [
+          796.8800048828125,
+          157.2899932861328
+        ],
+        [
+          856.6300048828125,
+          1241.1099853515625
+        ],
+        [
+          99.62999725341797,
+          1241.0
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6071,
-      "aspect": 0.6566,
-      "width": 719,
-      "height": 1095
+      "rectified_size": [
+        726,
+        1084
+      ],
+      "left_border_lines": 10,
+      "right_border_lines": 28,
+      "left_tilt_degrees": -0.02,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.604,
+      "aspect": 0.6697,
+      "width": 726,
+      "height": 1084
     },
     "43": {
       "source_original": "/art/043.webp",
@@ -937,20 +1621,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.313,
-      "rect": [
-        112,
-        156,
-        847,
-        1275
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.51000213623047,
+          164.1300048828125
+        ],
+        [
+          833.760009765625,
+          164.2100067138672
+        ],
+        [
+          852.8499755859375,
+          1257.3900146484375
+        ],
+        [
+          122.80999755859375,
+          1257.31005859375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5726,
-      "aspect": 0.6568,
-      "width": 735,
-      "height": 1119
+      "rectified_size": [
+        733,
+        1093
+      ],
+      "left_border_lines": 19,
+      "right_border_lines": 31,
+      "left_tilt_degrees": 1.375,
+      "right_tilt_degrees": 0.998,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5723,
+      "aspect": 0.6706,
+      "width": 733,
+      "height": 1093
     },
     "44": {
       "source_original": "/art/044.webp",
@@ -958,20 +1661,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.202,
-      "rect": [
-        110,
-        156,
-        841,
-        1269
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          52.22999954223633,
+          164.16000366210938
+        ],
+        [
+          833.4600219726562,
+          164.2100067138672
+        ],
+        [
+          851.75,
+          1332.2900390625
+        ],
+        [
+          64.69000244140625,
+          1332.239990234375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6076,
-      "aspect": 0.6568,
-      "width": 731,
-      "height": 1113
+      "rectified_size": [
+        784,
+        1168
+      ],
+      "left_border_lines": 15,
+      "right_border_lines": 18,
+      "left_tilt_degrees": 0.61,
+      "right_tilt_degrees": 0.895,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.58,
+      "aspect": 0.6712,
+      "width": 784,
+      "height": 1168
     },
     "45": {
       "source_original": "/art/045.webp",
@@ -979,20 +1701,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.388,
-      "rect": [
-        119,
-        156,
-        834,
-        1245
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          115.7699966430664,
+          182.17999267578125
+        ],
+        [
+          823.1799926757812,
+          182.1699981689453
+        ],
+        [
+          816.0800170898438,
+          1229.719970703125
+        ],
+        [
+          117.3499984741211,
+          1229.72998046875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.7484,
-      "aspect": 0.6566,
-      "width": 715,
-      "height": 1089
+      "rectified_size": [
+        703,
+        1047
+      ],
+      "left_border_lines": 26,
+      "right_border_lines": 27,
+      "left_tilt_degrees": 0.086,
+      "right_tilt_degrees": -0.387,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.7557,
+      "aspect": 0.6714,
+      "width": 703,
+      "height": 1047
     },
     "46": {
       "source_original": "/art/046.webp",
@@ -1052,20 +1793,39 @@
         1029,
         1797
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.392,
-      "rect": [
-        104,
-        158,
-        839,
-        1277
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          117.7300033569336,
+          172.30999755859375
+        ],
+        [
+          829.260009765625,
+          172.32000732421875
+        ],
+        [
+          855.780029296875,
+          1265.949951171875
+        ],
+        [
+          99.33000183105469,
+          1265.93994140625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5474,
-      "aspect": 0.6568,
-      "width": 735,
-      "height": 1119
+      "rectified_size": [
+        733,
+        1093
+      ],
+      "left_border_lines": 31,
+      "right_border_lines": 23,
+      "left_tilt_degrees": -0.962,
+      "right_tilt_degrees": 1.386,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5439,
+      "aspect": 0.6706,
+      "width": 733,
+      "height": 1093
     },
     "49": {
       "source_original": "/art/049.webp",
@@ -1073,20 +1833,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.363,
-      "rect": [
-        120,
-        156,
-        838,
-        1249
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          111.77999877929688,
+          168.13999938964844
+        ],
+        [
+          841.3099975585938,
+          168.17999267578125
+        ],
+        [
+          841.3099975585938,
+          1237.8499755859375
+        ],
+        [
+          134.83999633789062,
+          1237.800048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6081,
-      "aspect": 0.6569,
-      "width": 718,
-      "height": 1093
+      "rectified_size": [
+        717,
+        1069
+      ],
+      "left_border_lines": 26,
+      "right_border_lines": 17,
+      "left_tilt_degrees": 1.232,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6094,
+      "aspect": 0.6707,
+      "width": 717,
+      "height": 1069
     },
     "50": {
       "source_original": "/art/050.webp",
@@ -1120,20 +1899,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.885,
-      "rect": [
-        106,
-        156,
-        844,
-        1280
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          79.44999694824219,
+          159.1199951171875
+        ],
+        [
+          810.3699951171875,
+          159.25999450683594
+        ],
+        [
+          857.219970703125,
+          1258.3499755859375
+        ],
+        [
+          112.83000183105469,
+          1258.199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5168,
-      "aspect": 0.6566,
-      "width": 738,
-      "height": 1124
+      "rectified_size": [
+        737,
+        1099
+      ],
+      "left_border_lines": 15,
+      "right_border_lines": 29,
+      "left_tilt_degrees": 1.736,
+      "right_tilt_degrees": 2.435,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5236,
+      "aspect": 0.6706,
+      "width": 737,
+      "height": 1099
     },
     "52": {
       "source_original": "/art/052.webp",
@@ -1141,20 +1939,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.813,
-      "rect": [
-        107,
-        156,
-        828,
-        1254
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          101.47000122070312,
+          171.17999267578125
+        ],
+        [
+          816.5999755859375,
+          171.27000427246094
+        ],
+        [
+          867.25,
+          1275.010009765625
+        ],
+        [
+          99.37000274658203,
+          1274.9300537109375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6389,
-      "aspect": 0.6566,
-      "width": 721,
-      "height": 1098
+      "rectified_size": [
+        741,
+        1104
+      ],
+      "left_border_lines": 18,
+      "right_border_lines": 18,
+      "left_tilt_degrees": -0.109,
+      "right_tilt_degrees": 2.621,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6402,
+      "aspect": 0.6712,
+      "width": 741,
+      "height": 1104
     },
     "53": {
       "source_original": "/art/053.webp",
@@ -1162,20 +1979,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.799,
-      "rect": [
-        120,
-        156,
-        858,
-        1280
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          126.18000030517578,
+          156.19000244140625
+        ],
+        [
+          841.8599853515625,
+          156.2100067138672
+        ],
+        [
+          860.7899780273438,
+          1239.6400146484375
+        ],
+        [
+          122.5999984741211,
+          1239.6199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6278,
-      "aspect": 0.6566,
-      "width": 738,
-      "height": 1124
+      "rectified_size": [
+        726,
+        1083
+      ],
+      "left_border_lines": 30,
+      "right_border_lines": 24,
+      "left_tilt_degrees": -0.188,
+      "right_tilt_degrees": 0.999,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6276,
+      "aspect": 0.6704,
+      "width": 726,
+      "height": 1083
     },
     "54": {
       "source_original": "/art/054.webp",
@@ -1183,20 +2019,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.236,
-      "rect": [
-        89,
-        156,
-        823,
-        1274
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          85.0199966430664,
+          167.14999389648438
+        ],
+        [
+          865.22998046875,
+          167.17999267578125
+        ],
+        [
+          865.22998046875,
+          1318.4300537109375
+        ],
+        [
+          101.11000061035156,
+          1318.4100341796875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5819,
-      "aspect": 0.6565,
-      "width": 734,
-      "height": 1118
+      "rectified_size": [
+        772,
+        1151
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.799,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5702,
+      "aspect": 0.6707,
+      "width": 772,
+      "height": 1151
     },
     "55": {
       "source_original": "/art/055.webp",
@@ -1230,20 +2085,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.0,
-      "rect": [
-        104,
-        156,
-        845,
-        1284
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          116.54000091552734,
+          144.17999267578125
+        ],
+        [
+          845.4400024414062,
+          144.1699981689453
+        ],
+        [
+          841.5499877929688,
+          1227.219970703125
+        ],
+        [
+          116.54000091552734,
+          1227.22998046875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.7896,
-      "aspect": 0.6569,
-      "width": 741,
-      "height": 1128
+      "rectified_size": [
+        726,
+        1083
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 31,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": -0.205,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.7848,
+      "aspect": 0.6704,
+      "width": 726,
+      "height": 1083
     },
     "57": {
       "source_original": "/art/057.webp",
@@ -1294,20 +2168,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.388,
-      "rect": [
-        104,
-        156,
-        808,
-        1228
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          78.26000213623047,
+          150.0800018310547
+        ],
+        [
+          814.8400268554688,
+          150.2899932861328
+        ],
+        [
+          875.3900146484375,
+          1248.47998046875
+        ],
+        [
+          137.8800048828125,
+          1248.27001953125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6146,
-      "aspect": 0.6567,
-      "width": 704,
-      "height": 1072
+      "rectified_size": [
+        737,
+        1099
+      ],
+      "left_border_lines": 20,
+      "right_border_lines": 8,
+      "left_tilt_degrees": 3.1,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6167,
+      "aspect": 0.6706,
+      "width": 737,
+      "height": 1099
     },
     "59": {
       "source_original": "/art/059.webp",
@@ -1384,20 +2277,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.981,
-      "rect": [
-        103,
-        156,
-        807,
-        1228
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          122.69000244140625,
+          138.25999450683594
+        ],
+        [
+          865.22998046875,
+          138.17999267578125
+        ],
+        [
+          865.22998046875,
+          1279.8199462890625
+        ],
+        [
+          75.23999786376953,
+          1279.9000244140625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.68,
-      "aspect": 0.6567,
-      "width": 704,
-      "height": 1072
+      "rectified_size": [
+        766,
+        1142
+      ],
+      "left_border_lines": 27,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -2.375,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6451,
+      "aspect": 0.6708,
+      "width": 766,
+      "height": 1142
     },
     "62": {
       "source_original": "/art/062.webp",
@@ -1405,20 +2317,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.777,
-      "rect": [
-        101,
-        156,
-        834,
-        1272
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          129.64999389648438,
+          156.2899932861328
+        ],
+        [
+          808.6199951171875,
+          156.22000122070312
+        ],
+        [
+          831.0499877929688,
+          1230.31005859375
+        ],
+        [
+          70.44000244140625,
+          1230.3800048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6387,
-      "aspect": 0.6568,
-      "width": 733,
-      "height": 1116
+      "rectified_size": [
+        719,
+        1075
+      ],
+      "left_border_lines": 37,
+      "right_border_lines": 24,
+      "left_tilt_degrees": -3.148,
+      "right_tilt_degrees": 1.194,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6294,
+      "aspect": 0.6688,
+      "width": 719,
+      "height": 1075
     },
     "63": {
       "source_original": "/art/063.webp",
@@ -1426,20 +2357,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.137,
-      "rect": [
-        95,
-        156,
-        837,
-        1286
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          125.63999938964844,
+          159.27999877929688
+        ],
+        [
+          833.9000244140625,
+          159.17999267578125
+        ],
+        [
+          833.9000244140625,
+          1255.68994140625
+        ],
+        [
+          70.3499984741211,
+          1255.780029296875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6604,
-      "aspect": 0.6566,
-      "width": 742,
-      "height": 1130
+      "rectified_size": [
+        735,
+        1097
+      ],
+      "left_border_lines": 34,
+      "right_border_lines": 21,
+      "left_tilt_degrees": -2.88,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6546,
+      "aspect": 0.67,
+      "width": 735,
+      "height": 1097
     },
     "64": {
       "source_original": "/art/064.webp",
@@ -1447,20 +2397,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.544,
-      "rect": [
-        116,
-        156,
-        833,
-        1248
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          106.97000122070312,
+          167.1999969482422
+        ],
+        [
+          828.0,
+          167.1699981689453
+        ],
+        [
+          824.75,
+          1247.1700439453125
+        ],
+        [
+          96.12000274658203,
+          1247.199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6821,
-      "aspect": 0.6566,
-      "width": 717,
-      "height": 1092
+      "rectified_size": [
+        724,
+        1080
+      ],
+      "left_border_lines": 25,
+      "right_border_lines": 26,
+      "left_tilt_degrees": -0.574,
+      "right_tilt_degrees": -0.172,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6839,
+      "aspect": 0.6704,
+      "width": 724,
+      "height": 1080
     },
     "65": {
       "source_original": "/art/065.webp",
@@ -1468,20 +2437,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.461,
-      "rect": [
-        139,
-        156,
-        858,
-        1251
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          51.619998931884766,
+          173.14999389648438
+        ],
+        [
+          844.0800170898438,
+          173.2100067138672
+        ],
+        [
+          861.280029296875,
+          1354.739990234375
+        ],
+        [
+          67.69000244140625,
+          1354.6800537109375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4568,
-      "aspect": 0.6566,
-      "width": 719,
-      "height": 1095
+      "rectified_size": [
+        793,
+        1181
+      ],
+      "left_border_lines": 14,
+      "right_border_lines": 30,
+      "left_tilt_degrees": 0.777,
+      "right_tilt_degrees": 0.833,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4757,
+      "aspect": 0.6715,
+      "width": 793,
+      "height": 1181
     },
     "66": {
       "source_original": "/art/066.webp",
@@ -1489,20 +2477,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.999,
-      "rect": [
-        117,
-        156,
-        842,
-        1260
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          59.4900016784668,
+          164.19000244140625
+        ],
+        [
+          818.8400268554688,
+          164.24000549316406
+        ],
+        [
+          853.0900268554688,
+          1323.0899658203125
+        ],
+        [
+          54.5099983215332,
+          1323.050048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4238,
-      "aspect": 0.6567,
-      "width": 725,
-      "height": 1104
+      "rectified_size": [
+        778,
+        1159
+      ],
+      "left_border_lines": 16,
+      "right_border_lines": 26,
+      "left_tilt_degrees": -0.246,
+      "right_tilt_degrees": 1.689,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4195,
+      "aspect": 0.6713,
+      "width": 778,
+      "height": 1159
     },
     "67": {
       "source_original": "/art/067.webp",
@@ -1510,20 +2517,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.367,
-      "rect": [
-        99,
-        156,
-        822,
-        1257
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          116.62999725341797,
+          168.25999450683594
+        ],
+        [
+          827.9500122070312,
+          168.1699981689453
+        ],
+        [
+          823.8800048828125,
+          1256.81005859375
+        ],
+        [
+          73.58999633789062,
+          1256.8900146484375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.56,
-      "aspect": 0.6567,
-      "width": 723,
-      "height": 1101
+      "rectified_size": [
+        730,
+        1089
+      ],
+      "left_border_lines": 12,
+      "right_border_lines": 19,
+      "left_tilt_degrees": -2.259,
+      "right_tilt_degrees": -0.214,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5616,
+      "aspect": 0.6703,
+      "width": 730,
+      "height": 1089
     },
     "68": {
       "source_original": "/art/068.webp",
@@ -1531,20 +2557,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.797,
-      "rect": [
-        100,
-        156,
-        816,
-        1246
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          108.26000213623047,
+          166.19000244140625
+        ],
+        [
+          865.22998046875,
+          166.17999267578125
+        ],
+        [
+          865.22998046875,
+          1297.5400390625
+        ],
+        [
+          103.37999725341797,
+          1297.550048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4748,
-      "aspect": 0.6569,
-      "width": 716,
-      "height": 1090
+      "rectified_size": [
+        759,
+        1131
+      ],
+      "left_border_lines": 31,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -0.247,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4526,
+      "aspect": 0.6711,
+      "width": 759,
+      "height": 1131
     },
     "69": {
       "source_original": "/art/069.webp",
@@ -1552,20 +2597,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.413,
-      "rect": [
-        108,
-        156,
-        843,
-        1275
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          91.77999877929688,
+          137.14999389648438
+        ],
+        [
+          854.3900146484375,
+          137.14999389648438
+        ],
+        [
+          834.9299926757812,
+          1243.6800537109375
+        ],
+        [
+          111.05999755859375,
+          1243.6800537109375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5616,
-      "aspect": 0.6568,
-      "width": 735,
-      "height": 1119
+      "rectified_size": [
+        743,
+        1106
+      ],
+      "left_border_lines": 12,
+      "right_border_lines": 17,
+      "left_tilt_degrees": 0.996,
+      "right_tilt_degrees": -1.005,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5605,
+      "aspect": 0.6718,
+      "width": 743,
+      "height": 1106
     },
     "70": {
       "source_original": "/art/070.webp",
@@ -1573,20 +2637,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.055,
-      "rect": [
-        104,
-        156,
-        835,
-        1269
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          125.72000122070312,
+          134.25
+        ],
+        [
+          828.469970703125,
+          134.17999267578125
+        ],
+        [
+          828.469970703125,
+          1209.4599609375
+        ],
+        [
+          90.2300033569336,
+          1209.52001953125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Detected plate borders are implausibly narrow",
-      "ink_fraction": 0.436,
-      "aspect": 0.6568,
-      "width": 731,
-      "height": 1113
+      "rectified_size": [
+        720,
+        1075
+      ],
+      "left_border_lines": 49,
+      "right_border_lines": 20,
+      "left_tilt_degrees": -1.886,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "primary_detector_note": "Detected plate borders are implausibly narrow",
+      "ink_fraction": 0.4142,
+      "aspect": 0.6698,
+      "width": 720,
+      "height": 1075
     },
     "71": {
       "source_original": "/art/071.webp",
@@ -1594,20 +2677,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.417,
-      "rect": [
-        101,
-        156,
-        829,
-        1265
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          90.93000030517578,
+          150.14999389648438
+        ],
+        [
+          790.3499755859375,
+          150.27999877929688
+        ],
+        [
+          847.1300048828125,
+          1221.93994140625
+        ],
+        [
+          109.5999984741211,
+          1221.800048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6464,
-      "aspect": 0.6564,
-      "width": 728,
-      "height": 1109
+      "rectified_size": [
+        718,
+        1072
+      ],
+      "left_border_lines": 18,
+      "right_border_lines": 12,
+      "left_tilt_degrees": 0.996,
+      "right_tilt_degrees": 3.025,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.638,
+      "aspect": 0.6698,
+      "width": 718,
+      "height": 1072
     },
     "72": {
       "source_original": "/art/072.webp",
@@ -1615,20 +2717,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.0,
-      "rect": [
-        93,
-        156,
-        822,
-        1266
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          87.1500015258789,
+          163.14999389648438
+        ],
+        [
+          865.22998046875,
+          163.17999267578125
+        ],
+        [
+          865.22998046875,
+          1309.800048828125
+        ],
+        [
+          105.12000274658203,
+          1309.77001953125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5375,
-      "aspect": 0.6568,
-      "width": 729,
-      "height": 1110
+      "rectified_size": [
+        769,
+        1146
+      ],
+      "left_border_lines": 6,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.896,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.531,
+      "aspect": 0.671,
+      "width": 769,
+      "height": 1146
     },
     "73": {
       "source_original": "/art/073.webp",
@@ -1636,20 +2757,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.872,
-      "rect": [
-        103,
-        156,
-        826,
-        1257
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          90.5199966430664,
+          152.14999389648438
+        ],
+        [
+          803.25,
+          152.22999572753906
+        ],
+        [
+          833.1699829101562,
+          1223.3399658203125
+        ],
+        [
+          108.5999984741211,
+          1223.260009765625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4445,
-      "aspect": 0.6567,
-      "width": 723,
-      "height": 1101
+      "rectified_size": [
+        718,
+        1071
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 12,
+      "left_tilt_degrees": 0.965,
+      "right_tilt_degrees": 1.596,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.442,
+      "aspect": 0.6704,
+      "width": 718,
+      "height": 1071
     },
     "74": {
       "source_original": "/art/074.webp",
@@ -1657,20 +2797,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.99,
-      "rect": [
-        95,
-        156,
-        831,
-        1277
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          110.33999633789062,
+          163.22000122070312
+        ],
+        [
+          816.3800048828125,
+          163.19000244140625
+        ],
+        [
+          823.7000122070312,
+          1236.56005859375
+        ],
+        [
+          89.37999725341797,
+          1236.5799560546875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6816,
-      "aspect": 0.6566,
-      "width": 736,
-      "height": 1121
+      "rectified_size": [
+        720,
+        1073
+      ],
+      "left_border_lines": 40,
+      "right_border_lines": 30,
+      "left_tilt_degrees": -1.116,
+      "right_tilt_degrees": 0.39,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6761,
+      "aspect": 0.671,
+      "width": 720,
+      "height": 1073
     },
     "75": {
       "source_original": "/art/075.webp",
@@ -1704,20 +2863,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.596,
-      "rect": [
-        97,
-        156,
-        809,
-        1240
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          74.29000091552734,
+          138.1199951171875
+        ],
+        [
+          865.22998046875,
+          138.17999267578125
+        ],
+        [
+          865.22998046875,
+          1289.800048828125
+        ],
+        [
+          110.76000213623047,
+          1289.739990234375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Detected plate borders are implausibly narrow",
-      "ink_fraction": 0.6503,
-      "aspect": 0.6568,
-      "width": 712,
-      "height": 1084
+      "rectified_size": [
+        772,
+        1151
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.809,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Detected plate borders are implausibly narrow",
+      "ink_fraction": 0.5898,
+      "aspect": 0.6707,
+      "width": 772,
+      "height": 1151
     },
     "77": {
       "source_original": "/art/077.webp",
@@ -1725,20 +2903,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.979,
-      "rect": [
-        101,
-        156,
-        821,
-        1252
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.25,
+          138.13999938964844
+        ],
+        [
+          865.22998046875,
+          138.17999267578125
+        ],
+        [
+          865.22998046875,
+          1266.1800537109375
+        ],
+        [
+          119.88999938964844,
+          1266.1400146484375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5852,
-      "aspect": 0.6569,
-      "width": 720,
-      "height": 1096
+      "rectified_size": [
+        757,
+        1128
+      ],
+      "left_border_lines": 22,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.198,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5629,
+      "aspect": 0.6711,
+      "width": 757,
+      "height": 1128
     },
     "78": {
       "source_original": "/art/078.webp",
@@ -1746,20 +2943,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 2.186,
-      "rect": [
-        113,
-        156,
-        809,
-        1216
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          109.33999633789062,
+          143.16000366210938
+        ],
+        [
+          802.8599853515625,
+          143.2899932861328
+        ],
+        [
+          861.9099731445312,
+          1214.280029296875
+        ],
+        [
+          120.41999816894531,
+          1214.1500244140625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.552,
-      "aspect": 0.6566,
-      "width": 696,
-      "height": 1060
+      "rectified_size": [
+        717,
+        1071
+      ],
+      "left_border_lines": 22,
+      "right_border_lines": 25,
+      "left_tilt_degrees": 0.591,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5519,
+      "aspect": 0.6695,
+      "width": 717,
+      "height": 1071
     },
     "79": {
       "source_original": "/art/079.webp",
@@ -1793,20 +3009,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.626,
-      "rect": [
-        110,
-        156,
-        829,
-        1251
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          111.44999694824219,
+          168.16000366210938
+        ],
+        [
+          857.77001953125,
+          168.07000732421875
+        ],
+        [
+          799.2899780273438,
+          1228.6800537109375
+        ],
+        [
+          120.80999755859375,
+          1228.77001953125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4962,
-      "aspect": 0.6566,
-      "width": 719,
-      "height": 1095
+      "rectified_size": [
+        712,
+        1061
+      ],
+      "left_border_lines": 10,
+      "right_border_lines": 18,
+      "left_tilt_degrees": 0.504,
+      "right_tilt_degrees": -3.148,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4934,
+      "aspect": 0.6711,
+      "width": 712,
+      "height": 1061
     },
     "81": {
       "source_original": "/art/081.webp",
@@ -1814,20 +3049,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.0,
-      "rect": [
-        95,
-        156,
-        831,
-        1277
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          131.2899932861328,
+          176.2899932861328
+        ],
+        [
+          827.3800048828125,
+          176.17999267578125
+        ],
+        [
+          826.3800048828125,
+          1256.27001953125
+        ],
+        [
+          71.73999786376953,
+          1256.3699951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4392,
-      "aspect": 0.6566,
-      "width": 736,
-      "height": 1121
+      "rectified_size": [
+        725,
+        1080
+      ],
+      "left_border_lines": 19,
+      "right_border_lines": 24,
+      "left_tilt_degrees": -3.148,
+      "right_tilt_degrees": -0.053,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4456,
+      "aspect": 0.6713,
+      "width": 725,
+      "height": 1080
     },
     "82": {
       "source_original": "/art/082.webp",
@@ -1835,20 +3089,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.349,
-      "rect": [
-        77,
-        156,
-        814,
-        1278
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          87.2699966430664,
+          150.22000122070312
+        ],
+        [
+          865.22998046875,
+          150.17999267578125
+        ],
+        [
+          865.22998046875,
+          1325.1600341796875
+        ],
+        [
+          64.88999938964844,
+          1325.199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4762,
-      "aspect": 0.6569,
-      "width": 737,
-      "height": 1122
+      "rectified_size": [
+        789,
+        1175
+      ],
+      "left_border_lines": 43,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -1.089,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4418,
+      "aspect": 0.6715,
+      "width": 789,
+      "height": 1175
     },
     "83": {
       "source_original": "/art/083.webp",
@@ -1856,20 +3129,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.369,
-      "rect": [
-        102,
-        156,
-        833,
-        1269
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          88.44999694824219,
+          168.13999938964844
+        ],
+        [
+          824.3099975585938,
+          168.1999969482422
+        ],
+        [
+          832.4000244140625,
+          1253.3800048828125
+        ],
+        [
+          111.72000122070312,
+          1253.3199462890625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6928,
-      "aspect": 0.6568,
-      "width": 731,
-      "height": 1113
+      "rectified_size": [
+        728,
+        1085
+      ],
+      "left_border_lines": 27,
+      "right_border_lines": 24,
+      "left_tilt_degrees": 1.225,
+      "right_tilt_degrees": 0.426,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6976,
+      "aspect": 0.671,
+      "width": 728,
+      "height": 1085
     },
     "84": {
       "source_original": "/art/084.webp",
@@ -1877,20 +3169,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.192,
-      "rect": [
-        93,
-        156,
-        806,
-        1242
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          78.62999725341797,
+          152.16000366210938
+        ],
+        [
+          865.22998046875,
+          152.17999267578125
+        ],
+        [
+          865.22998046875,
+          1315.719970703125
+        ],
+        [
+          90.55999755859375,
+          1315.699951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5591,
-      "aspect": 0.6565,
-      "width": 713,
-      "height": 1086
+      "rectified_size": [
+        780,
+        1163
+      ],
+      "left_border_lines": 24,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.586,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5539,
+      "aspect": 0.6707,
+      "width": 780,
+      "height": 1163
     },
     "85": {
       "source_original": "/art/085.webp",
@@ -1898,20 +3209,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.391,
-      "rect": [
-        90,
-        156,
-        803,
-        1242
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          90.83000183105469,
+          156.14999389648438
+        ],
+        [
+          865.22998046875,
+          156.17999267578125
+        ],
+        [
+          865.22998046875,
+          1298.0400390625
+        ],
+        [
+          107.48999786376953,
+          1298.010009765625
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.67,
-      "aspect": 0.6565,
-      "width": 713,
-      "height": 1086
+      "rectified_size": [
+        766,
+        1141
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.834,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6345,
+      "aspect": 0.6713,
+      "width": 766,
+      "height": 1141
     },
     "86": {
       "source_original": "/art/086.webp",
@@ -1919,20 +3249,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.428,
-      "rect": [
-        98,
-        156,
-        826,
-        1265
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          98.87000274658203,
+          157.1999969482422
+        ],
+        [
+          865.22998046875,
+          157.17999267578125
+        ],
+        [
+          865.22998046875,
+          1307.8499755859375
+        ],
+        [
+          86.52999877929688,
+          1307.8699951171875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6043,
-      "aspect": 0.6564,
-      "width": 728,
-      "height": 1109
+      "rectified_size": [
+        772,
+        1150
+      ],
+      "left_border_lines": 18,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -0.613,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5812,
+      "aspect": 0.6713,
+      "width": 772,
+      "height": 1150
     },
     "87": {
       "source_original": "/art/087.webp",
@@ -1940,20 +3289,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.172,
-      "rect": [
-        95,
-        156,
-        817,
-        1256
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          85.7300033569336,
+          161.1300048828125
+        ],
+        [
+          817.4600219726562,
+          161.19000244140625
+        ],
+        [
+          820.72998046875,
+          1234.3499755859375
+        ],
+        [
+          111.55999755859375,
+          1234.300048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6161,
-      "aspect": 0.6564,
-      "width": 722,
-      "height": 1100
+      "rectified_size": [
+        720,
+        1073
+      ],
+      "left_border_lines": 30,
+      "right_border_lines": 19,
+      "left_tilt_degrees": 1.376,
+      "right_tilt_degrees": 0.174,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6172,
+      "aspect": 0.671,
+      "width": 720,
+      "height": 1073
     },
     "88": {
       "source_original": "/art/088.webp",
@@ -1961,20 +3329,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 1.375,
-      "rect": [
-        106,
-        156,
-        790,
-        1198
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          88.97000122070312,
+          148.1999969482422
+        ],
+        [
+          865.22998046875,
+          148.17999267578125
+        ],
+        [
+          865.22998046875,
+          1311.9000244140625
+        ],
+        [
+          79.05999755859375,
+          1311.9200439453125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.653,
-      "aspect": 0.6564,
-      "width": 684,
-      "height": 1042
+      "rectified_size": [
+        781,
+        1163
+      ],
+      "left_border_lines": 36,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -0.487,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6175,
+      "aspect": 0.6715,
+      "width": 781,
+      "height": 1163
     },
     "89": {
       "source_original": "/art/089.webp",
@@ -1982,20 +3369,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.981,
-      "rect": [
-        86,
-        156,
-        819,
-        1272
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          61.2400016784668,
+          151.07000732421875
+        ],
+        [
+          811.0,
+          151.1999969482422
+        ],
+        [
+          822.9500122070312,
+          1231.81005859375
+        ],
+        [
+          120.80999755859375,
+          1231.6800537109375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6372,
-      "aspect": 0.6568,
-      "width": 733,
-      "height": 1116
+      "rectified_size": [
+        725,
+        1081
+      ],
+      "left_border_lines": 34,
+      "right_border_lines": 14,
+      "left_tilt_degrees": 3.148,
+      "right_tilt_degrees": 0.632,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6416,
+      "aspect": 0.6707,
+      "width": 725,
+      "height": 1081
     },
     "90": {
       "source_original": "/art/090.webp",
@@ -2055,20 +3461,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.417,
-      "rect": [
-        98,
-        156,
-        830,
-        1271
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          122.29000091552734,
+          146.25999450683594
+        ],
+        [
+          833.8200073242188,
+          146.17999267578125
+        ],
+        [
+          833.8200073242188,
+          1240.25
+        ],
+        [
+          77.95999908447266,
+          1240.3299560546875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4435,
-      "aspect": 0.6565,
-      "width": 732,
-      "height": 1115
+      "rectified_size": [
+        733,
+        1094
+      ],
+      "left_border_lines": 29,
+      "right_border_lines": 14,
+      "left_tilt_degrees": -2.315,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4394,
+      "aspect": 0.67,
+      "width": 733,
+      "height": 1094
     },
     "93": {
       "source_original": "/art/093.webp",
@@ -2223,20 +3648,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.844,
-      "rect": [
-        96,
-        156,
-        807,
-        1239
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          101.1500015258789,
+          170.16000366210938
+        ],
+        [
+          865.22998046875,
+          170.17999267578125
+        ],
+        [
+          865.22998046875,
+          1298.27001953125
+        ],
+        [
+          115.79000091552734,
+          1298.239990234375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Detected plate borders are implausibly narrow",
-      "ink_fraction": 0.5907,
-      "aspect": 0.6565,
-      "width": 711,
-      "height": 1083
+      "rectified_size": [
+        756,
+        1128
+      ],
+      "left_border_lines": 38,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.742,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Detected plate borders are implausibly narrow",
+      "ink_fraction": 0.5713,
+      "aspect": 0.6702,
+      "width": 756,
+      "height": 1128
     },
     "99": {
       "source_original": "/art/099.webp",
@@ -2270,20 +3714,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.57,
-      "rect": [
-        88,
-        156,
-        803,
-        1245
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          118.5199966430664,
+          146.25
+        ],
+        [
+          865.22998046875,
+          146.17999267578125
+        ],
+        [
+          865.22998046875,
+          1287.4100341796875
+        ],
+        [
+          79.44999694824219,
+          1287.47998046875
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5512,
-      "aspect": 0.6566,
-      "width": 715,
-      "height": 1089
+      "rectified_size": [
+        766,
+        1141
+      ],
+      "left_border_lines": 25,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -1.956,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5044,
+      "aspect": 0.6713,
+      "width": 766,
+      "height": 1141
     },
     "101": {
       "source_original": "/art/101.webp",
@@ -2291,20 +3754,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -0.0,
-      "rect": [
-        86,
-        156,
-        831,
-        1290
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          90.22000122070312,
+          182.1699981689453
+        ],
+        [
+          819.4500122070312,
+          182.17999267578125
+        ],
+        [
+          819.4500122070312,
+          1262.510009765625
+        ],
+        [
+          98.80999755859375,
+          1262.489990234375
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.4846,
-      "aspect": 0.657,
-      "width": 745,
-      "height": 1134
+      "rectified_size": [
+        724,
+        1080
+      ],
+      "left_border_lines": 23,
+      "right_border_lines": 21,
+      "left_tilt_degrees": 0.455,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.4892,
+      "aspect": 0.6704,
+      "width": 724,
+      "height": 1080
     },
     "102": {
       "source_original": "/art/102.webp",
@@ -2355,20 +3837,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": 0.996,
-      "rect": [
-        85,
-        156,
-        868,
-        1348
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          88.4800033569336,
+          174.16000366210938
+        ],
+        [
+          885.0800170898438,
+          174.1199951171875
+        ],
+        [
+          848.3300170898438,
+          1327.9599609375
+        ],
+        [
+          99.73999786376953,
+          1328.0
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.661,
-      "aspect": 0.6569,
-      "width": 783,
-      "height": 1192
+      "rectified_size": [
+        772,
+        1154
+      ],
+      "left_border_lines": 11,
+      "right_border_lines": 33,
+      "left_tilt_degrees": 0.558,
+      "right_tilt_degrees": -1.82,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.6599,
+      "aspect": 0.669,
+      "width": 772,
+      "height": 1154
     },
     "104": {
       "source_original": "/art/104.webp",
@@ -2376,20 +3877,39 @@
         1007,
         1769
       ],
-      "method": "median-frame-rotation+per-image-border-projection",
-      "rotation_degrees": -1.348,
-      "rect": [
-        85,
-        156,
-        842,
-        1309
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          42.349998474121094,
+          135.08999633789062
+        ],
+        [
+          815.010009765625,
+          135.1999969482422
+        ],
+        [
+          826.760009765625,
+          1256.9000244140625
+        ],
+        [
+          92.97000122070312,
+          1256.800048828125
+        ]
       ],
-      "confidence": "fallback",
-      "fallback_reason": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.6003,
-      "aspect": 0.6565,
-      "width": 757,
-      "height": 1153
+      "rectified_size": [
+        753,
+        1122
+      ],
+      "left_border_lines": 12,
+      "right_border_lines": 17,
+      "left_tilt_degrees": 2.578,
+      "right_tilt_degrees": 0.599,
+      "confidence": "border-detected",
+      "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
+      "ink_fraction": 0.5849,
+      "aspect": 0.6711,
+      "width": 753,
+      "height": 1122
     }
   }
 }
