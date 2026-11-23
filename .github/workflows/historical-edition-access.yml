@@ -29,13 +29,13 @@ jobs:
           print('NUXT ASSETS',assets[:15],flush=True)
           js=get('https://kp.rusneb.ru/_nuxt/entry.6514eb91.js').decode('utf8','replace')
           print('JS SIZE',len(js),flush=True)
-          for pat in [r'https?[^\\s\\\"\\']{6,140}',r'/api/[^\\s\\\"\\']{1,100}',r'(?:getBook|getFile|getPage|getDocument|getPdf|iiif|manifest|imageUrl|bookId|pageCount|images|bookInfo)[^\\s]{0,160}',r'\\./[^\\s\\\"\\']+\\.js']:
+          for pat in [r'https?\S{6,140}',r'/api/\S{1,100}',r'(?:getBook|getFile|getPage|getDocument|getPdf|iiif|manifest|imageUrl|bookId|pageCount|images|bookInfo)\S{0,160}',r'\./\S+\.js']:
             print('JS MATCH',pat,list(dict.fromkeys(re.findall(pat,js,re.I)))[:40],flush=True)
           url='https://books.google.com/books?id=5elUAAAAcAAJ&pg=PA1'
           g=get(url).decode('utf8','replace')
           print('GOOGLE SIZE',len(g),flush=True)
           for needle in ['pageImage','pageImageUrl','pageInfo','PAGE_IMAGE','img=1','_OC_Hooks','imageUrl','isRestricted','pageInfoMap','SearchWithinVolume']:
             pos=g.find(needle);print('GOOGLE HIT',needle,pos,g[max(0,pos-200):pos+360] if pos>=0 else '',flush=True)
-          for pat in [r'https?[^\\s\\\"<>]{6,180}books/content[^\\s\\\"<>]{0,150}',r'https?[^\\s\\\"<>]{6,150}(?:pageimg|pageimage)[^\\s\\\"<>]{0,150}']:
+          for pat in [r'https?\S{6,180}books/content\S{0,150}',r'https?\S{6,150}(?:pageimg|pageimage)\S{0,150}']:
             print('GOOGLE URLS',list(dict.fromkeys(re.findall(pat,g,re.I)))[:10],flush=True)
           PY
