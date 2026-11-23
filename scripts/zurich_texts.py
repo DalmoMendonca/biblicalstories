@@ -76,8 +76,21 @@ def boundaries(text,start,end,book):
                     m["pos"] < earlier+18000]
             choose=(romans or pool)[0]
             anchors[n]=choose["pos"]
-    # Fill missing numbers by weighted interpolation between actual surviving headings.
-    # No content is invented: the original OCR bytes are partitioned exactly once.
+    # OCR may misread "49" as "42" in a running page header.
+    # Discard anchors that leave implausibly little space for several missing
+    # stories and that follow an unusually large preceding gap.
+    known=sorted(anchors)
+    for n in known[1:-1]:
+        below=max(k for k in known if k<n)
+        above=min(k for k in known if k>n)
+        before=(anchors[n]-anchors[below])/(n-below)
+        after=(anchors[above]-anchors[n])/(above-n)
+        if before>9000 and after<900 and above-n>=2:
+            print("REJECT FALSE OCR HEADING",book,n,anchors[n],
+                  "previous-per-chapter",round(before),"next-per-chapter",round(after),flush=True)
+            del anchors[n]
+    # Fill missing numbers by interpolation between surviving source headings.
+    # The OCR text is partitioned without creating or omitting content.
     found=sorted(anchors)
     missing=[i for i in range(1,53) if i not in anchors]
     for i in missing:
