@@ -79,8 +79,9 @@ def boundaries(text,start,end,book):
     # OCR may misread "49" as "42" in a running page header.
     # Discard anchors that leave implausibly little space for several missing
     # stories and that follow an unusually large preceding gap.
-    known=sorted(anchors)
-    for n in known[1:-1]:
+    for n in sorted(anchors)[1:-1]:
+        if n not in anchors:continue
+        known=sorted(anchors)
         below=max(k for k in known if k<n)
         above=min(k for k in known if k>n)
         before=(anchors[n]-anchors[below])/(n-below)
