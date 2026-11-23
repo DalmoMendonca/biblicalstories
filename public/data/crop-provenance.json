@@ -208,25 +208,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 2.75,
-      "rect": [
-        164,
-        152,
-        815,
-        1115
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          108.80999755859375,
+          158.2100067138672
+        ],
+        [
+          826.7999877929688,
+          158.24000549316406
+        ],
+        [
+          861.1300048828125,
+          1265.3800048828125
+        ],
+        [
+          92.66000366210938,
+          1265.3399658203125
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        114,
-        119,
-        0,
-        8
+      "rectified_size": [
+        743,
+        1107
       ],
-      "ink_fraction": 0.699,
-      "aspect": 0.676,
-      "width": 651,
-      "height": 963
+      "left_border_lines": 29,
+      "right_border_lines": 26,
+      "left_tilt_degrees": -0.834,
+      "right_tilt_degrees": 1.772,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": 2.75,
+      "ink_fraction": 0.6968,
+      "aspect": 0.6712,
+      "width": 743,
+      "height": 1107
     },
     "7": {
       "source_original": "/art/007.webp",
@@ -314,25 +328,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        132,
-        152,
-        863,
-        1233
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          76.6500015258789,
+          174.08999633789062
+        ],
+        [
+          827.7000122070312,
+          174.27999877929688
+        ],
+        [
+          888.5599975585938,
+          1300.050048828125
+        ],
+        [
+          128.00999450683594,
+          1299.8599853515625
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        228,
-        132,
-        0,
-        16
+      "rectified_size": [
+        755,
+        1127
       ],
-      "ink_fraction": 0.7572,
-      "aspect": 0.6762,
-      "width": 731,
-      "height": 1081
+      "left_border_lines": 27,
+      "right_border_lines": 8,
+      "left_tilt_degrees": 2.607,
+      "right_tilt_degrees": 3.087,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.7649,
+      "aspect": 0.6699,
+      "width": 755,
+      "height": 1127
     },
     "10": {
       "source_original": "/art/010.webp",
@@ -420,25 +448,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        97,
-        152,
-        815,
-        1214
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          95.62999725341797,
+          187.22999572753906
+        ],
+        [
+          865.219970703125,
+          187.17999267578125
+        ],
+        [
+          865.219970703125,
+          1352.8299560546875
+        ],
+        [
+          67.16999816894531,
+          1352.8699951171875
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        156,
-        103,
-        0,
-        12
+      "rectified_size": [
+        783,
+        1165
       ],
-      "ink_fraction": 0.7341,
-      "aspect": 0.6761,
-      "width": 718,
-      "height": 1062
+      "left_border_lines": 20,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -1.396,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.6771,
+      "aspect": 0.6721,
+      "width": 783,
+      "height": 1165
     },
     "13": {
       "source_original": "/art/013.webp",
@@ -446,25 +488,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 2.75,
-      "rect": [
-        113,
-        152,
-        781,
-        1140
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          96.77999877929688,
+          166.1999969482422
+        ],
+        [
+          845.8400268554688,
+          166.10000610351562
+        ],
+        [
+          800.9099731445312,
+          1254.93994140625
+        ],
+        [
+          88.63999938964844,
+          1255.030029296875
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        39,
-        171,
-        0,
-        9
+      "rectified_size": [
+        730,
+        1089
       ],
-      "ink_fraction": 0.6067,
-      "aspect": 0.6761,
-      "width": 668,
-      "height": 988
+      "left_border_lines": 13,
+      "right_border_lines": 20,
+      "left_tilt_degrees": -0.428,
+      "right_tilt_degrees": -2.357,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": 2.75,
+      "ink_fraction": 0.6352,
+      "aspect": 0.6703,
+      "width": 730,
+      "height": 1089
     },
     "14": {
       "source_original": "/art/014.webp",
@@ -1475,25 +1531,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 2.75,
-      "rect": [
-        128,
-        152,
-        770,
-        1102
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          89.72000122070312,
+          168.14999389648438
+        ],
+        [
+          865.22998046875,
+          168.17999267578125
+        ],
+        [
+          865.22998046875,
+          1309.489990234375
+        ],
+        [
+          109.87999725341797,
+          1309.449951171875
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        176,
-        152,
-        0,
-        1
+      "rectified_size": [
+        765,
+        1141
       ],
-      "ink_fraction": 0.6744,
-      "aspect": 0.6758,
-      "width": 642,
-      "height": 950
+      "left_border_lines": 4,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 1.01,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": 2.75,
+      "ink_fraction": 0.6469,
+      "aspect": 0.6705,
+      "width": 765,
+      "height": 1141
     },
     "40": {
       "source_original": "/art/040.webp",
@@ -1741,25 +1811,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        115,
-        152,
-        829,
-        1208
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          88.7699966430664,
+          151.13999938964844
+        ],
+        [
+          809.2000122070312,
+          151.2899932861328
+        ],
+        [
+          869.8400268554688,
+          1251.27001953125
+        ],
+        [
+          114.18000030517578,
+          1251.1199951171875
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        92,
-        108,
-        0,
-        14
+      "rectified_size": [
+        738,
+        1100
       ],
-      "ink_fraction": 0.5292,
-      "aspect": 0.6761,
-      "width": 714,
-      "height": 1056
+      "left_border_lines": 33,
+      "right_border_lines": 22,
+      "left_tilt_degrees": 1.32,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.5263,
+      "aspect": 0.6709,
+      "width": 738,
+      "height": 1100
     },
     "47": {
       "source_original": "/art/047.webp",
@@ -1767,25 +1851,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        115,
-        152,
-        824,
-        1201
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          109.77999877929688,
+          155.17999267578125
+        ],
+        [
+          865.22998046875,
+          155.17999267578125
+        ],
+        [
+          865.22998046875,
+          1280.7900390625
+        ],
+        [
+          109.77999877929688,
+          1280.7900390625
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        167,
-        111,
-        0,
-        5
+      "rectified_size": [
+        755,
+        1125
       ],
-      "ink_fraction": 0.6466,
-      "aspect": 0.6759,
-      "width": 709,
-      "height": 1049
+      "left_border_lines": 24,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.0,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.6292,
+      "aspect": 0.6711,
+      "width": 755,
+      "height": 1125
     },
     "48": {
       "source_original": "/art/048.webp",
@@ -1873,25 +1971,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -1.219,
-      "rect": [
-        97,
-        152,
-        823,
-        1226
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          78.11000061035156,
+          154.1199951171875
+        ],
+        [
+          809.5800170898438,
+          154.22999572753906
+        ],
+        [
+          837.8300170898438,
+          1240.0999755859375
+        ],
+        [
+          111.66000366210938,
+          1239.989990234375
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        159,
-        111,
-        0,
-        20
+      "rectified_size": [
+        728,
+        1086
       ],
-      "ink_fraction": 0.6388,
-      "aspect": 0.676,
-      "width": 726,
-      "height": 1074
+      "left_border_lines": 23,
+      "right_border_lines": 14,
+      "left_tilt_degrees": 1.765,
+      "right_tilt_degrees": 1.487,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -1.219,
+      "ink_fraction": 0.638,
+      "aspect": 0.6703,
+      "width": 728,
+      "height": 1086
     },
     "51": {
       "source_original": "/art/051.webp",
@@ -2059,25 +2171,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -0.575,
-      "rect": [
-        95,
-        152,
-        844,
-        1260
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          105.36000061035156,
+          142.19000244140625
+        ],
+        [
+          818.5599975585938,
+          142.2100067138672
+        ],
+        [
+          833.3300170898438,
+          1221.9599609375
+        ],
+        [
+          98.22000122070312,
+          1221.93994140625
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        161,
-        157,
-        0,
-        14
+      "rectified_size": [
+        724,
+        1079
       ],
-      "ink_fraction": 0.544,
-      "aspect": 0.676,
-      "width": 749,
-      "height": 1108
+      "left_border_lines": 28,
+      "right_border_lines": 22,
+      "left_tilt_degrees": -0.378,
+      "right_tilt_degrees": 0.782,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -0.575,
+      "ink_fraction": 0.5551,
+      "aspect": 0.671,
+      "width": 724,
+      "height": 1079
     },
     "56": {
       "source_original": "/art/056.webp",
@@ -2208,25 +2334,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        140,
-        152,
-        833,
-        1177
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          121.4800033569336,
+          153.1699981689453
+        ],
+        [
+          826.6599731445312,
+          153.2899932861328
+        ],
+        [
+          886.8699951171875,
+          1245.449951171875
+        ],
+        [
+          126.87999725341797,
+          1245.3299560546875
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        66,
-        156,
-        0,
-        4
+      "rectified_size": [
+        732,
+        1092
       ],
-      "ink_fraction": 0.7499,
-      "aspect": 0.6761,
-      "width": 693,
-      "height": 1025
+      "left_border_lines": 24,
+      "right_border_lines": 12,
+      "left_tilt_degrees": 0.283,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.745,
+      "aspect": 0.6703,
+      "width": 732,
+      "height": 1092
     },
     "60": {
       "source_original": "/art/060.webp",
@@ -2837,25 +2977,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 2.314,
-      "rect": [
-        98,
-        152,
-        775,
-        1153
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          103.94000244140625,
+          154.25
+        ],
+        [
+          865.22998046875,
+          154.17999267578125
+        ],
+        [
+          865.22998046875,
+          1318.6800537109375
+        ],
+        [
+          61.31999969482422,
+          1318.75
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        149,
-        123,
-        0,
-        9
+      "rectified_size": [
+        782,
+        1164
       ],
-      "ink_fraction": 0.5582,
-      "aspect": 0.6763,
-      "width": 677,
-      "height": 1001
+      "left_border_lines": 53,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -2.091,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": 2.314,
+      "ink_fraction": 0.5552,
+      "aspect": 0.6718,
+      "width": 782,
+      "height": 1164
     },
     "76": {
       "source_original": "/art/076.webp",
@@ -2983,25 +3137,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 2.75,
-      "rect": [
-        144,
-        152,
-        792,
-        1111
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          127.91000366210938,
+          165.25
+        ],
+        [
+          865.22998046875,
+          165.17999267578125
+        ],
+        [
+          865.22998046875,
+          1294.8800048828125
+        ],
+        [
+          84.44000244140625,
+          1294.9599609375
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        12,
-        78,
-        0,
-        4
+      "rectified_size": [
+        759,
+        1130
       ],
-      "ink_fraction": 0.5216,
-      "aspect": 0.6757,
-      "width": 648,
-      "height": 959
+      "left_border_lines": 38,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -2.199,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": 2.75,
+      "ink_fraction": 0.5155,
+      "aspect": 0.6717,
+      "width": 759,
+      "height": 1130
     },
     "80": {
       "source_original": "/art/080.webp",
@@ -3409,25 +3577,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        116,
-        152,
-        780,
-        1134
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          59.939998626708984,
+          138.07000732421875
+        ],
+        [
+          793.0399780273438,
+          138.2899932861328
+        ],
+        [
+          853.260009765625,
+          1230.5899658203125
+        ],
+        [
+          120.16000366210938,
+          1230.3800048828125
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        82,
-        97,
-        0,
-        5
+      "rectified_size": [
+        733,
+        1093
       ],
-      "ink_fraction": 0.5883,
-      "aspect": 0.6762,
-      "width": 664,
-      "height": 982
+      "left_border_lines": 17,
+      "right_border_lines": 19,
+      "left_tilt_degrees": 3.148,
+      "right_tilt_degrees": 3.148,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.5972,
+      "aspect": 0.6706,
+      "width": 733,
+      "height": 1093
     },
     "91": {
       "source_original": "/art/091.webp",
@@ -3435,25 +3617,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        107,
-        152,
-        775,
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          94.11000061035156,
+          144.16000366210938
+        ],
+        [
+          865.22998046875,
+          144.17999267578125
+        ],
+        [
+          865.22998046875,
+          1284.6300048828125
+        ],
+        [
+          105.68000030517578,
+          1284.6099853515625
+        ]
+      ],
+      "rectified_size": [
+        765,
         1140
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        205,
-        158,
-        0,
-        6
-      ],
-      "ink_fraction": 0.6453,
-      "aspect": 0.6761,
-      "width": 668,
-      "height": 988
+      "left_border_lines": 25,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.58,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.6192,
+      "aspect": 0.6711,
+      "width": 765,
+      "height": 1140
     },
     "92": {
       "source_original": "/art/092.webp",
@@ -3544,25 +3740,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 0.0,
-      "rect": [
-        86,
-        152,
-        805,
-        1216
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          110.94000244140625,
+          154.27999877929688
+        ],
+        [
+          865.219970703125,
+          154.17999267578125
+        ],
+        [
+          865.219970703125,
+          1323.530029296875
+        ],
+        [
+          46.47999954223633,
+          1323.6400146484375
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        73,
-        104,
-        0,
-        5
+      "rectified_size": [
+        786,
+        1170
       ],
-      "ink_fraction": 0.6304,
-      "aspect": 0.6758,
-      "width": 719,
-      "height": 1064
+      "left_border_lines": 18,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -3.148,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": 0.0,
+      "ink_fraction": 0.5897,
+      "aspect": 0.6718,
+      "width": 786,
+      "height": 1170
     },
     "95": {
       "source_original": "/art/095.webp",
@@ -3570,25 +3780,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": 2.75,
-      "rect": [
-        115,
-        152,
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          110.5,
+          163.24000549316406
+        ],
+        [
+          865.22998046875,
+          163.17999267578125
+        ],
+        [
+          865.22998046875,
+          1315.239990234375
+        ],
+        [
+          71.43000030517578,
+          1315.300048828125
+        ]
+      ],
+      "rectified_size": [
         774,
-        1127
+        1152
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        140,
-        54,
-        0,
-        19
-      ],
-      "ink_fraction": 0.7278,
-      "aspect": 0.6759,
-      "width": 659,
-      "height": 975
+      "left_border_lines": 27,
+      "right_border_lines": 0,
+      "left_tilt_degrees": -1.938,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": 2.75,
+      "ink_fraction": 0.6762,
+      "aspect": 0.6719,
+      "width": 774,
+      "height": 1152
     },
     "96": {
       "source_original": "/art/096.webp",
@@ -3596,25 +3820,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        123,
-        152,
-        756,
-        1088
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          63.630001068115234,
+          166.0800018310547
+        ],
+        [
+          865.22998046875,
+          166.17999267578125
+        ],
+        [
+          865.22998046875,
+          1316.0699462890625
+        ],
+        [
+          127.0199966430664,
+          1315.9599609375
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        114,
-        77,
-        0,
-        20
+      "rectified_size": [
+        769,
+        1150
       ],
-      "ink_fraction": 0.6089,
-      "aspect": 0.6763,
-      "width": 633,
-      "height": 936
+      "left_border_lines": 22,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 3.148,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.5591,
+      "aspect": 0.6687,
+      "width": 769,
+      "height": 1150
     },
     "97": {
       "source_original": "/art/097.webp",
@@ -3622,25 +3860,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        113,
-        152,
-        818,
-        1195
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          108.19000244140625,
+          180.2100067138672
+        ],
+        [
+          827.3699951171875,
+          180.17999267578125
+        ],
+        [
+          827.3699951171875,
+          1264.31005859375
+        ],
+        [
+          90.87000274658203,
+          1264.3399658203125
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        143,
-        44,
-        0,
-        14
+      "rectified_size": [
+        727,
+        1084
       ],
-      "ink_fraction": 0.5588,
-      "aspect": 0.6759,
-      "width": 705,
-      "height": 1043
+      "left_border_lines": 37,
+      "right_border_lines": 4,
+      "left_tilt_degrees": -0.913,
+      "right_tilt_degrees": 0.0,
+      "confidence": "border-detected",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.5577,
+      "aspect": 0.6707,
+      "width": 727,
+      "height": 1084
     },
     "98": {
       "source_original": "/art/098.webp",
@@ -3688,25 +3940,39 @@
         1007,
         1769
       ],
-      "method": "rotation+per-page-ink-projection",
-      "rotation_degrees": -2.75,
-      "rect": [
-        120,
-        152,
-        774,
-        1119
+      "method": "four-corner-engraving-frame-rectification",
+      "source_corners": [
+        [
+          98.87000274658203,
+          156.1699981689453
+        ],
+        [
+          865.22998046875,
+          156.17999267578125
+        ],
+        [
+          865.22998046875,
+          1294.9300537109375
+        ],
+        [
+          103.20999908447266,
+          1294.9200439453125
+        ]
       ],
-      "confidence": "fallback",
-      "border_candidates": [
-        59,
-        119,
-        0,
-        16
+      "rectified_size": [
+        764,
+        1138
       ],
-      "ink_fraction": 0.7114,
-      "aspect": 0.6763,
-      "width": 654,
-      "height": 967
+      "left_border_lines": 24,
+      "right_border_lines": 0,
+      "left_tilt_degrees": 0.218,
+      "right_tilt_degrees": 0.0,
+      "confidence": "bounded-frame-prior",
+      "supersedes_ambiguous_rotation": -2.75,
+      "ink_fraction": 0.6755,
+      "aspect": 0.6714,
+      "width": 764,
+      "height": 1138
     },
     "100": {
       "source_original": "/art/100.webp",
