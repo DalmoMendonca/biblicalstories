@@ -1,0 +1,33 @@
+name: Investigate Russian 1825 printed-edition page-source API
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/russian1825-api.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - name: Look for historical Russian edition images and readable transcript endpoints
+        run: |
+          python3 - <<'PY'
+          import urllib.request,urllib.error,re,json
+          base='https://kp.rusneb.ru'
+          files=['/_nuxt/useApi.2d5821ad.js','/_nuxt/useSectionsApi.bba38220.js','/_nuxt/page.e669525d.js','/_nuxt/index.bbc08067.js','/_nuxt/index.fc7983c1.css','/_nuxt/index.2d32613c.js','/_nuxt/useSearchApi.2396b4cc.js']
+          headers={'User-Agent':'Mozilla/5.0','Accept':'*/*'}
+          for f in files:
+            print('=== FILE',f,flush=True)
+            try:
+              req=urllib.request.Request(base+f,headers=headers)
+              with urllib.request.urlopen(req,timeout=12) as r:s=r.read(180000).decode('utf8','replace')
+              print('CHARS',len(s),'START',s[:1000],flush=True)
+              for word in ['material','page','reader','scan','iiif','image','content','getBook','GetMaterial','books','items','pdf','document','ocr','API','api/']:
+                matches=list(re.finditer(word,s,re.I))
+                if matches:
+                  sample=[s[max(0,m.start()-140):m.end()+180] for m in matches[:4]]
+                  print('MATCH',word,len(matches),sample,flush=True)
+            except Exception as ex:print('ERROR',type(ex).__name__,str(ex)[:180],flush=True)
+          PY
