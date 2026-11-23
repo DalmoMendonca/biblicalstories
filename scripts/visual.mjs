@@ -79,6 +79,21 @@ try{
    }
    assert.equal(await chapter.locator(".source-facsimile").count(),1);
    assert.ok(await chapter.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),"translated reader overflow");
+   // Directly exercise every language in the three previously missing
+   // histories plus the final history, not just the original example.
+   for (const id of [3,71,87,104]) {
+     await chapter.goto(base+"/?view=story&id="+id,{waitUntil:"domcontentloaded"});
+     for (const lang of ["de","en","ru"]) {
+       await chapter.locator('[data-reader-lang="'+lang+'"]').click();
+       const pane=chapter.locator(".edition-prose");
+       await pane.waitFor({timeout:20000});
+       const writing=await pane.textContent();
+       assert.ok(writing.length>200,`Story ${id} ${lang} text not loaded`);
+       if(lang==="ru")assert.ok(/[\u0400-\u04ff]/.test(writing),`Story ${id} is not Russian`);
+       assert.ok(chapter.url().includes("id="+id),"Language changed story");
+       console.log("LIVE-DATA READER PASS",id,lang,writing.length);
+     }
+   }
    await chapter.close();
  }
 
