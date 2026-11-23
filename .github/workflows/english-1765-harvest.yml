@@ -1,0 +1,78 @@
+name: Recover authentic English 1765 printed page images
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/english-1765-harvest.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  harvest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Download accessible public-domain English edition pages
+        env:
+          SHARD: ${{ matrix.shard }}
+          SHARDS: '8'
+        run: node scripts/harvest_english_1765.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: english1765-page-${{ matrix.shard }}
+          path: public/english-1765-pages/*.jpg
+          if-no-files-found: error
+          retention-days: 7
+  archive:
+    runs-on: ubuntu-24.04
+    needs: harvest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: english1765-page-*
+          path: public/english-1765-pages
+          merge-multiple: true
+      - name: Verify original 1765 page collection and provenance
+        run: |
+          python3 - <<'PY'
+          import pathlib,json
+          root=pathlib.Path('public')
+          directory=root/'english-1765-pages'
+          expected={f'PA{i}.jpg' for i in range(1,252)}
+          actual={f.name for f in directory.glob('*.jpg')}
+          assert expected==actual, ('missing',sorted(expected-actual),'unexpected',sorted(actual-expected))
+          assert all(f.stat().st_size>3500 for f in directory.glob('*.jpg'))
+          data={'edition':'Johann Hübner, Hubner\'s Historys of the Bible, Hamburg 1765, English/French/German polyglot',
+                'source':'https://books.google.com/books?id=5elUAAAAcAAJ',
+                'original':'British Library, digitized February 14 2013',
+                'source_page_identifiers':['PA'+str(i) for i in range(1,252)],
+                'page_count':251,
+                'method':'Original browser-served Google Books page images without modification',
+                'status':'PUBLIC-DOMAIN FACSIMILE; no verified text transcription or chapter alignment yet',
+                'access_warning':'Page numbering and edition collation require editorial checking; page count does not alone prove that all histories are textually complete.'}
+          (root/'data/english-1765-provenance.json').write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n','utf8')
+          print('PASS: 251 English-edition page facsimiles with source provenance')
+          PY
+      - name: Commit source scans without changing published-text status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --ff-only origin main
+          git add public/english-1765-pages public/data/english-1765-provenance.json
+          git commit -m "Archive original English 1765 edition scanned page images [skip ci]"
+          git push origin HEAD:main
