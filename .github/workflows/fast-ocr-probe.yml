@@ -1,0 +1,30 @@
+name: Benchmark source-faithful German OCR with controlled Tesseract CPU
+on:
+  push:
+    paths: [.github/workflows/fast-ocr-probe.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-frk >/dev/null
+      - run: |
+          python3 - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor,as_completed
+          from pathlib import Path
+          import subprocess,time,os
+          paths=[Path('public/folios')/n for n in ('001-01.webp','001-02.webp','043-01.webp','043-02.webp','052-01.webp','104-01.webp')]
+          def run(p):
+            t=time.monotonic()
+            env=os.environ.copy();env['OMP_THREAD_LIMIT']='1';env['OMP_NUM_THREADS']='1'
+            x=subprocess.run(['tesseract',str(p),'stdout','-l','frk','--psm','3'],capture_output=True,text=True,env=env,timeout=70)
+            return {'page':p.name,'secs':round(time.monotonic()-t,2),'chars':len(x.stdout),'excerpt':x.stdout[:180].replace(chr(10),' '),'code':x.returncode}
+          start=time.monotonic()
+          with ThreadPoolExecutor(max_workers=4) as pool:
+            for r in as_completed([pool.submit(run,p) for p in paths]):
+              print('BENCH',r.result(),flush=True)
+          print('TOTAL_SECONDS',round(time.monotonic()-start,2),flush=True)
+          PY
