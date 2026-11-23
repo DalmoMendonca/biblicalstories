@@ -333,6 +333,16 @@ def main():
         # Work at original source resolution. Images do not need inferred content.
         try:
             result,stats=find_border(raw)
+            if stats.get("method")=="rotation+per-page-ink-projection":
+                # This early-return fallback can overrotate strongly textured
+                # scenes. Revisit it with independent four-corner frame geometry.
+                earlier=result,stats
+                try:
+                    result,stats=warp_from_page_frame(raw)
+                    stats["supersedes_ambiguous_rotation"]=earlier[1]["rotation_degrees"]
+                except Exception as geometry_error:
+                    result,stats=earlier
+                    stats["geometry_detector_note"]=str(geometry_error)
         except Exception as e:
             failures.append(f"{n}: {e}")
             try:
