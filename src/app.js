@@ -95,7 +95,14 @@ function renderIndex(){
   renderPlateGrid();
 }
 function folios(p) {
-  if(!p.folios?.length)return "";
+  if(!p.folios?.length){
+    const note={
+      en:"The printed text pages for this story have not been securely identified.",
+      de:"Die gedruckten Textseiten dieser Historie sind noch nicht sicher zugeordnet.",
+      ru:"Страницы печатного текста этой истории пока не установлены."
+    }[s.lang];
+    return '<p class="source-absence">'+esc(note)+' <a href="'+sourceGerman+'" target="_blank" rel="noopener">Heidelberg ↗</a></p>';
+  }
   return `<h2 class="folio-heading">${esc(messages().folio)}</h2><div class="folios">
     ${p.folios.map((leaf,i)=>`<button type="button" class="folio-btn" data-folio="${p.id}:${i}" aria-label="Page ${esc(leaf.label)}"><img src="${esc(leaf.image)}" alt="Printed German page ${esc(leaf.label)}" loading="lazy" width="500"><small>${esc(leaf.label)}</small></button>`).join("")}
   </div>`;
