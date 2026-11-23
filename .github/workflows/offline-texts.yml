@@ -26,6 +26,9 @@ jobs:
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-frk
           python3 -m pip install --disable-pip-version-check 'argostranslate>=1.9,<2'
       - name: Transcribe original German pages and translate 104 stories offline
+        env:
+          OMP_THREAD_LIMIT: '1'
+          OMP_NUM_THREADS: '1'
         run: python3 scripts/translate_offline_backup.py
       - name: Verify all 312 source-linked texts
         run: |
