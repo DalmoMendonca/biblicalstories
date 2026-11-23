@@ -1,11 +1,18 @@
 {
   "total": 104,
   "text_complete": 104,
-  "witness": "Giessen 1768, Universit\u00e4tsbibliothek Heidelberg",
+  "witness": "Giessen 1768, Universitätsbibliothek Heidelberg",
   "german_kind": "uncorrected Fraktur OCR of printed originals",
   "english_kind": "modern machine translation of uncorrected German OCR; NOT the historical 1765 text",
   "russian_kind": "modern machine translation of uncorrected German OCR; NOT the historical 1815 or 1825 text",
   "proofread": false,
   "source": "https://digi.ub.uni-heidelberg.de/diglit/huebner1768",
-  "exceptions": []
+  "exceptions": [],
+  "machine_generated_draft_chapters": 104,
+  "authenticated_historical_transcriptions": {
+    "de": 0,
+    "en": 0,
+    "ru": 0
+  },
+  "reader_policy": "Uncorrected OCR and machine translations are archived but not shown as authenticated editions; original Giessen source facsimiles and edition links are preferred."
 }
