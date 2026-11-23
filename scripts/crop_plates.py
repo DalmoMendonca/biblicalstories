@@ -183,6 +183,89 @@ def find_border(image):
         "bottom_line_detected":bottom_used
     }
 
+
+def warp_from_page_frame(image):
+    """Detect two independent exterior frame edges and rectify their trapezoid.
+
+    Unlike a uniform rectangle or whole-image rotation, this fits each engraving's
+    left/right border separately; top and bottom are tied to the plate's historic
+    image aspect. Missing/noisy edges use tightly bounded physical-page priors.
+    """
+    h,w=image.shape[:2]
+    gray=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
+    edges=cv2.Canny(gray,65,155)
+    detected=cv2.HoughLinesP(edges,1,np.pi/900,threshold=35,
+                             minLineLength=int(h*.13),maxLineGap=48)
+    sides={"left":[],"right":[]}
+    if detected is not None:
+        for x1,y1,x2,y2 in detected.reshape(-1,4):
+            dx=float(x2-x1);dy=float(y2-y1)
+            if abs(dy)<h*.125 or abs(dx/dy)>.085:continue
+            xpos=(x1+x2)/2+(dx/dy)*(h*.40-(y1+y2)/2)
+            if .042*w<xpos<.19*w:sides["left"].append((xpos,dx/dy,abs(dy)))
+            if .73*w<xpos<.94*w:sides["right"].append((xpos,dx/dy,abs(dy)))
+    def choose(name,expected):
+        rows=[z for z in sides[name] if abs(z[0]-expected)<w*.073]
+        if not rows:return float(expected),0.,0
+        groups={}
+        for pos,slope,length in rows:
+            bucket=round(pos/8)
+            # A true border is almost always close to the prior in this binding.
+            distance=abs(pos-expected)/(w*.029)
+            groups[bucket]=groups.get(bucket,0.)+length/(1+distance*distance)
+        winner=max(groups,key=groups.get)
+        cluster=[z for z in rows if abs(z[0]-winner*8)<12]
+        if not cluster:return float(expected),0.,0
+        weight=[z[2] for z in cluster]
+        pos=float(np.average([z[0] for z in cluster],weights=weight))
+        slope=float(np.median([z[1] for z in cluster]))
+        if abs(pos-expected)>w*.049:return float(expected),0.,0
+        return pos,max(-.055,min(.055,slope)),len(cluster)
+    l,ls,ln=choose("left",w*.077)
+    r,rs,rn=choose("right",w*.862)
+    if r-l<w*.68:raise ValueError("Art frame not wide enough")
+    # Detect the upper printer's ruled line, not an interior scene horizon.
+    x1=int(max(l+w*.08,w*.17));x2=int(min(r-w*.07,w*.78))
+    ya=int(h*.065);yb=int(h*.119)
+    scores=[]
+    for y in range(ya,yb):
+        section=gray[y,x1:x2]
+        ink=float(np.mean(section<93))
+        penalty=.10*abs(y-.09*h)/(.04*h)
+        scores.append(ink-penalty)
+    top=float(ya+int(np.argmax(scores)))
+    # The engraved scene's 3:2 height-to-width is stable across 104 sheets.
+    bottom=min(.792*h,top+1.49*(r-l))
+    if bottom-top<.53*h:raise ValueError("Implausibly short printed picture")
+    def edge(x,slope,y):return x+slope*(y-h*.40)
+    corners=np.float32([
+        [edge(l,ls,top),top],
+        [edge(r,rs,top),top],
+        [edge(r,rs,bottom),bottom],
+        [edge(l,ls,bottom),bottom]
+    ])
+    # Inset slightly to exclude only the engraved rectangle rule.
+    center=np.mean(corners,axis=0)
+    for k in range(4):
+        d=center-corners[k]
+        corners[k]+=d/max(1.,np.linalg.norm(d))*max(3,w*.005)
+    width=int((np.linalg.norm(corners[1]-corners[0])+np.linalg.norm(corners[2]-corners[3]))/2)
+    height=int((np.linalg.norm(corners[3]-corners[0])+np.linalg.norm(corners[2]-corners[1]))/2)
+    if width<.64*w or height<.51*h:raise ValueError("Perspective crop bounds invalid")
+    dest=np.float32([[0,0],[width-1,0],[width-1,height-1],[0,height-1]])
+    warp=cv2.getPerspectiveTransform(corners,dest)
+    img=cv2.warpPerspective(image,warp,(width,height),flags=cv2.INTER_CUBIC,
+                            borderMode=cv2.BORDER_REPLICATE)
+    return img,{
+       "method":"four-corner-engraving-frame-rectification",
+       "source_corners":corners.round(2).tolist(),
+       "rectified_size":[width,height],
+       "left_border_lines":ln,"right_border_lines":rn,
+       "left_tilt_degrees":round(math.degrees(math.atan(ls)),3),
+       "right_tilt_degrees":round(math.degrees(math.atan(rs)),3),
+       "confidence":"border-detected" if ln>=2 and rn>=2 else "bounded-frame-prior"
+    }
+
 def emergency_crop(image):
     """Conservative geometric fallback when a plate frame has damaged/missing rules."""
     h,w=image.shape[:2]
@@ -252,8 +335,12 @@ def main():
             result,stats=find_border(raw)
         except Exception as e:
             failures.append(f"{n}: {e}")
-            result,stats=emergency_crop(raw)
-            stats["fallback_reason"]=str(e)
+            try:
+                result,stats=warp_from_page_frame(raw)
+                stats["primary_detector_note"]=str(e)
+            except Exception as e2:
+                result,stats=emergency_crop(raw)
+                stats["fallback_reason"]=f"{e}; geometry detector: {e2}"
         metric=image_quality(result)
         if not .055<metric["ink_fraction"]<.90:
             raise AssertionError(f"Plate {n}: suspected blank or wrong crop: {metric}")
