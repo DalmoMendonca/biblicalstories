@@ -15,7 +15,7 @@ for(const pg of ["PA1","PA10","PA30","PA60","PA100","PA150","PA200","PA240"]){
   let u="https://books.google.com/books?id=5elUAAAAcAAJ&pg="+pg;
   let r=await page.goto(u,{waitUntil:"domcontentloaded",timeout:35000});
   await page.waitForTimeout(2300);
-  console.log("PAGE",pg,"HTML",r?.status(),"URL",page.url(),"IMAGES",JSON.stringify(found.splice(0)),flush=true);
+  console.log("PAGE",pg,"HTML",r?.status(),"URL",page.url(),"IMAGES",JSON.stringify(found.splice(0)));
  }catch(e){console.log("ERROR",pg,String(e).slice(0,300));}
 }
 await browser.close();
