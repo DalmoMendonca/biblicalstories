@@ -7,6 +7,7 @@ BASE_PATH is optional: unset for root Netlify deployment, or set to
 import json
 import os
 import shutil
+import subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -55,6 +56,9 @@ if text_root.exists():
         if any(not isinstance(data.get(lang,{}).get("text"),str) or not data[lang]["text"].strip()
                for lang in ("de","en","ru")):
             raise ValueError(f"Incomplete three-language original-source text: {path}")
+    if len(all_texts)==104:
+        subprocess.run(["python3",str(ROOT/"scripts"/"check_texts.py")],
+                       cwd=ROOT,check=True)
     shutil.copytree(text_root,DIST/"texts")
 
 if BASE_PATH:
