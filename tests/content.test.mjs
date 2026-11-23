@@ -7,6 +7,7 @@ test("Every published chapter has an original German witness and two explicitly 
   if(!existsSync(location))return; // historical archive may precede text import
   const files=readdirSync(location).filter(x=>x.endsWith(".json")).sort();
   assert.equal(files.length,104,"Partial trilingual edition must never ship.");
+  const seen={de:new Set(),en:new Set(),ru:new Set()};
   for(let index=0;index<104;index++){
     const chapter=JSON.parse(readFileSync(location+"/"+files[index],"utf8"));
     assert.equal(chapter.id,index+1);
