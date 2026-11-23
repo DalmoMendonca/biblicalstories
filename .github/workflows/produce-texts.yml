@@ -30,17 +30,35 @@ jobs:
       - name: OCR all 324 historical pages and translate all 104 complete chapters
         id: produce
         continue-on-error: true
+        env:
+          OMP_THREAD_LIMIT: '1'
+          OMP_NUM_THREADS: '1'
         run: python3 scripts/produce_texts.py
-      - name: Preserve generated texts and explicit source notes even if incomplete
-        if: always()
+      - name: Preserve partial transcriptions on an isolated branch
+        if: steps.produce.outcome != 'success'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git reset --mixed origin/main
+          git switch -C text-progress
+          git add public/texts public/data/text-coverage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Resume-friendly historical text progress [skip ci]"
+            git push -f origin HEAD:text-progress
+          fi
+      - name: Publish 104 complete German, English and Russian texts
+        if: steps.produce.outcome == 'success'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git fetch origin main
           git reset --mixed origin/main
           git add public/texts public/data/text-coverage.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Add source-backed historical German OCR and attributed translations [skip ci]"
+          if git diff --cached --quiet; then
+            echo "No newly imported texts"
+          else
+            git commit -m "Publish all 312 attributed historic and translated story texts [skip ci]"
             git push origin HEAD:main
           fi
       - name: Verify complete 104 x 3 text coverage
