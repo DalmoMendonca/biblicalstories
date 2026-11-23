@@ -1,0 +1,15 @@
+name: Validate all 104 Zürich German source-text chapters
+on:
+  push:
+    paths: [.github/workflows/zurich-segment.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: SEGMENT_ONLY=1 python scripts/zurich_texts.py
