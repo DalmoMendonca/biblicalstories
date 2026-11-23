@@ -1,0 +1,46 @@
+name: Repair three incomplete Hübner source translations
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/repair_texts.py'
+      - '.github/workflows/repair-texts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: repair-three-huebner-texts
+  cancel-in-progress: false
+jobs:
+  repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install German original-print OCR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-frk
+      - name: Recover only missing histories
+        env:
+          OMP_THREAD_LIMIT: '1'
+          OMP_NUM_THREADS: '1'
+        run: python3 scripts/repair_texts.py
+      - name: Verify every history in all three languages
+        run: python3 scripts/check_texts.py
+      - name: Publish only complete, provenance-marked 104-story edition
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          git reset --mixed origin/main
+          git add public/texts public/data/text-coverage.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Complete all 312 source-attributed Hübner chapter texts [skip ci]'
+            git push origin HEAD:main
+          fi
