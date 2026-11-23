@@ -1,0 +1,28 @@
+name: Check historical edition readers in a real browser
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/original-readers.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Capture reader API requests and page availability
+        run: node scripts/original_reader_probe.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: historical-reader-captures
+          path: qa/archive-readers/*.png
+          if-no-files-found: ignore
