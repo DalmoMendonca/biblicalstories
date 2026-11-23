@@ -27,7 +27,7 @@ try{
  assert.ok((await desktop.locator(".figure-art img").getAttribute("src")).startsWith("/engravings/"));
  await desktop.locator('[data-reader-lang="de"]').click();
  assert.equal(await desktop.locator(".folio-btn").count(),6);
- await desktop.locator(".source-facsimile summary").click();
+ assert.ok(await desktop.locator(".source-facsimile").evaluate(el=>el.open),"original pages should be visible by default");
  await desktop.locator(".folio-btn img").first().evaluate(i=>i.decode());
  await desktop.screenshot({path:"qa/new-reader-desktop.jpg",type:"jpeg",quality:82});
  await desktop.locator(".folio-btn").first().click();
@@ -59,7 +59,7 @@ try{
  await mobile.screenshot({path:"qa/new-reader-mobile.jpg",type:"jpeg",quality:84,fullPage:true});
  await mobile.locator('[data-reader-lang="de"]').click();
  assert.ok(await mobile.locator(".folio-btn").count()>=1);
- await mobile.locator(".source-facsimile summary").click();
+ assert.ok(await mobile.locator(".source-facsimile").evaluate(el=>el.open),"original pages should be visible on mobile");
  await mobile.locator('[data-zoom="104"]').click();
  assert.ok(await mobile.locator("#lightbox").evaluate(el=>el.open));
  await mobile.locator("#lightbox-close").click();
@@ -67,31 +67,17 @@ try{
  console.log("MOBILE PASSED: 104 engravings, image-led responsive story, original German pages, working language selector, no overflow or JS errors");
  if(fs.existsSync("public/texts/001.json")){
    const chapter=await browser.newPage({viewport:{width:1024,height:820}});
-   await chapter.goto(base+"/?view=story&id=1",{waitUntil:"domcontentloaded"});
-   for(const [code,script] of [["de","Latin"],["en","Latin"],["ru","Cyrillic"]]){
-     await chapter.locator('[data-reader-lang="'+code+'"]').click();
-     const pane=chapter.locator(".edition-prose");
-     await pane.waitFor({timeout:20000});
-     const writing=await pane.textContent();
-     assert.ok(writing.length>150,code+" chapter 1 lacks full source-derived text");
-     if(code==="ru") assert.ok(/[\u0400-\u04ff]/.test(writing),"Russian rendering lacks Cyrillic");
-     console.log("TEXT PASS",code,"length",writing.length,"script",script);
-   }
-   assert.equal(await chapter.locator(".source-facsimile").count(),1);
-   assert.ok(await chapter.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),"translated reader overflow");
-   // Directly exercise every language in the three previously missing
-   // histories plus the final history, not just the original example.
-   for (const id of [3,71,87,104]) {
+   for(const id of [1,3,71,87,104]){
      await chapter.goto(base+"/?view=story&id="+id,{waitUntil:"domcontentloaded"});
-     for (const lang of ["de","en","ru"]) {
+     for(const lang of ["de","en","ru"]){
        await chapter.locator('[data-reader-lang="'+lang+'"]').click();
-       const pane=chapter.locator(".edition-prose");
-       await pane.waitFor({timeout:20000});
-       const writing=await pane.textContent();
-       assert.ok(writing.length>200,`Story ${id} ${lang} text not loaded`);
-       if(lang==="ru")assert.ok(/[\u0400-\u04ff]/.test(writing),`Story ${id} is not Russian`);
+       await chapter.locator(".source-absence").waitFor({timeout:20000});
+       assert.equal(await chapter.locator(".edition-prose").count(),0,`Unreviewed OCR displayed as ${lang} original for story ${id}`);
+       assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
+       assert.ok(await chapter.locator(".source-facsimile").evaluate(el=>el.open),"Facsimiles must open by default");
+       if(lang!=="de") assert.ok(await chapter.locator('#source-content a[href^="http"]').count()>=2,"Historic edition/source links missing");
        assert.ok(chapter.url().includes("id="+id),"Language changed story");
-       console.log("LIVE-DATA READER PASS",id,lang,writing.length);
+       console.log("EDITORIAL INTEGRITY PASS",id,lang);
      }
    }
    await chapter.close();
