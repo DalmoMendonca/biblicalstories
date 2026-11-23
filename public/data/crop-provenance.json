@@ -317,10 +317,12 @@
       "right_tilt_degrees": -3.148,
       "confidence": "border-detected",
       "primary_detector_note": "Ambiguous border; interior line mistaken for exterior frame",
-      "ink_fraction": 0.5822,
-      "aspect": 0.6701,
+      "title_band_excluded": true,
+      "title_band_bottom_fraction": 0.955,
+      "ink_fraction": 0.5921,
+      "aspect": 0.7015,
       "width": 792,
-      "height": 1182
+      "height": 1129
     },
     "9": {
       "source_original": "/art/009.webp",
@@ -477,10 +479,12 @@
       "right_tilt_degrees": 0.0,
       "confidence": "bounded-frame-prior",
       "supersedes_ambiguous_rotation": -2.75,
-      "ink_fraction": 0.6771,
-      "aspect": 0.6721,
+      "title_band_excluded": true,
+      "title_band_bottom_fraction": 0.959,
+      "ink_fraction": 0.698,
+      "aspect": 0.701,
       "width": 783,
-      "height": 1165
+      "height": 1117
     },
     "13": {
       "source_original": "/art/013.webp",
@@ -3769,10 +3773,12 @@
       "right_tilt_degrees": 0.0,
       "confidence": "bounded-frame-prior",
       "supersedes_ambiguous_rotation": 0.0,
-      "ink_fraction": 0.5897,
-      "aspect": 0.6718,
+      "title_band_excluded": true,
+      "title_band_bottom_fraction": 0.95,
+      "ink_fraction": 0.5988,
+      "aspect": 0.7068,
       "width": 786,
-      "height": 1170
+      "height": 1112
     },
     "95": {
       "source_original": "/art/095.webp",
