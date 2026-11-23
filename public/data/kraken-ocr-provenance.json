@@ -1,0 +1,9 @@
+{
+  "edition": "Giessen 1768; Heidelberg University Library",
+  "source": "https://digi.ub.uni-heidelberg.de/diglit/huebner1768",
+  "model": "german_print.mlmodel; zenodo.org/records/10519596",
+  "method": "Neural Kraken print OCR, page by page",
+  "status": "UNCORRECTED MACHINE OCR; NOT an authenticated historical transcription",
+  "page_count": 324,
+  "notes": "Per-page draft recognition only. Pages can include segments of adjoining chapters; never treat a folio as a perfectly aligned story."
+}
