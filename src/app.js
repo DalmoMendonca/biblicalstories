@@ -6,9 +6,9 @@ const lightboxImage = document.querySelector("#lightbox-image");
 const lightboxSource = document.querySelector("#lightbox-source");
 const languages = ["en","de","ru"];
 const text = {
-  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"Text not yet imported for this chapter.",edition:"English · modern translation from 1768 German OCR",book:"1765 historical edition",original:"Original scan",about:"Edition"},
-  de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Text dieser Historie noch nicht importiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
-  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Немецкие страницы · 1768",none:"Проверенная транскрипция русского перевода пока недоступна.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
+  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"The historical English text has not been authenticated or transcribed.",edition:"English · modern translation from 1768 German OCR",book:"1765 historical edition",original:"Original scan",about:"Edition"},
+  de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Der historische Text ist noch nicht geprüft und transkribiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
+  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Немецкие страницы · 1768",none:"Подлинный русский текст пока не проверен и не расшифрован.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
 };
 const sourceEnglish = "https://books.google.com/books?id=5elUAAAAcAAJ";
 const sourceRussian1815 = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
@@ -107,24 +107,30 @@ function textParagraphs(value){
 function chapterContent(p){
   const data=s.content[p.id];
   const lang=s.lang;
-  const m=messages();
-  if(data && data[lang] && data[lang].text && data[lang].text.length>150){
-    const witness=lang==="de" ? "Giessen, 1768 · Fraktur OCR, uncorrected"
-      : lang==="en" ? "Modern English translation of uncorrected German OCR · 1768"
-      : "Современный перевод с непроверенного немецкого OCR · 1768";
-    return '<div class="source-heading">'+esc(witness)+'</div>'
-      +'<div class="edition-prose" lang="'+lang+'">'+textParagraphs(data[lang].text)+'</div>';
+  const witness=data?.[lang];
+  // Never mistake a machine-generated field for an authenticated printed edition.
+  // A future checked transcription must carry both explicit editorial review
+  // and independently verifiable, edition-specific page provenance.
+  const verified=data?.editorial?.proofread===true
+    && witness?.kind==="verified-historical-transcription"
+    && Array.isArray(witness?.source_pages) && witness.source_pages.length>0
+    && typeof witness.text==="string" && witness.text.trim().length>150;
+  if(verified){
+    return '<div class="edition-prose" lang="'+lang+'">'+textParagraphs(witness.text)+'</div>';
   }
-  return '<p class="source-absence">'+esc(m.none)+'</p>';
+  return '<p class="source-absence">'+esc(messages().none)+'</p>';
 }
 function editionText(p){
   const m=messages();
   const archivalLink=s.lang==="en"?sourceEnglish:(s.lang==="ru"?sourceRussian1825[p.book==="old"?0:1]:sourceGerman);
+  const editionLink=s.lang==="de"?'':'<p class="source-heading"><a href="'+esc(archivalLink)+'" target="_blank" rel="noopener">'+esc(m.book)+' ↗</a></p>';
+  // The original Giessen pages are the only complete, chapter-aligned source
+  // facsimiles currently present in this archive. Always expose them directly.
   return '<div id="story-prose" aria-live="polite">'+chapterContent(p)+'</div>'
-    +'<details class="source-facsimile"><summary>'+esc(m.folio)+'</summary>'
+    +editionLink
+    +'<details class="source-facsimile" open><summary>'+esc(m.folio)+'</summary>'
     +'<p class="source-heading">Giessen 1768 · <a href="'+esc(p.plate_source)+'" target="_blank" rel="noopener">'+esc(m.original)+'</a></p>'
-    +folios(p)+'</details>'
-    +(s.lang==="de"?'':'<p class="source-heading"><a href="'+esc(archivalLink)+'" target="_blank" rel="noopener">'+esc(m.book)+' ↗</a></p>');
+    +folios(p)+'</details>';
 }
 async function loadChapter(id){
   const p=item(id);
