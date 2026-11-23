@@ -1,7 +1,7 @@
 name: Validate all 104 Zürich German source-text chapters
 on:
   push:
-    paths: [.github/workflows/zurich-segment.yml]
+    paths: [.github/workflows/zurich-segment.yml, scripts/zurich_texts.py]
   workflow_dispatch:
 permissions: {contents: read}
 jobs:
