@@ -1,4 +1,4 @@
-name: Visual audit every straightened historical engraving
+name: Audit all 104 four-corner-rectified engravings
 on:
   push:
     branches: [main]
