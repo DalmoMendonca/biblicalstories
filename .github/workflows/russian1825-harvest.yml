@@ -1,0 +1,71 @@
+name: Archive original Russian 1825 Old and New Testament book images
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/russian1825-harvest.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  acquire:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 26
+    strategy:
+      fail-fast: false
+      matrix:
+        book: [ot,nt]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -q Pillow
+      - name: Download and verify source-original archival photographs
+        run: python scripts/harvest_russian_1825.py --book ${{ matrix.book }} --workers 6
+      - uses: actions/upload-artifact@v4
+        with:
+          name: russian1825-volume-${{ matrix.book }}
+          path: |
+            public/russian-1825-pages/${{ matrix.book }}/*.webp
+            public/data/russian-1825-${{ matrix.book }}-provenance.json
+          if-no-files-found: error
+          retention-days: 7
+  archive:
+    needs: acquire
+    runs-on: ubuntu-24.04
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: russian1825-volume-*
+          path: public
+          merge-multiple: true
+      - name: Validate complete Old and New Testament source folios
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          root=Path('public')
+          for book,size in [('ot',260),('nt',196)]:
+            folder=root/'russian-1825-pages'/book
+            pages=sorted(folder.glob('*.webp'))
+            provenance=root/'data'/f'russian-1825-{book}-provenance.json'
+            assert len(pages)==size,(book,len(pages),size)
+            assert all(p.is_file() and p.stat().st_size>8000 for p in pages)
+            assert provenance.is_file(),str(provenance)
+            data=json.loads(provenance.read_text('utf8'))
+            assert len(data['images'])==size
+            assert set(p.name for p in pages)=={f'{i:03d}.webp' for i in range(1,size+1)}
+            print('PASS',book,size,'facsimiles')
+          PY
+      - name: Archive 456 Russian original pages without making false transcriptions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --ff-only origin main
+          git add public/russian-1825-pages public/data/russian-1825-ot-provenance.json public/data/russian-1825-nt-provenance.json
+          git commit -m "Archive 456 Russian 1825 original pages with edition provenance [skip ci]"
+          git push origin HEAD:main
