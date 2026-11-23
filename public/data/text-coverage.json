@@ -1,11 +1,23 @@
 {
+  "witness": "Giessen 1768, Universitätsbibliothek Heidelberg",
+  "german_kind": "uncorrected Fraktur OCR of original printed pages",
+  "english_kind": "modern machine translation from German OCR; not the 1765 translation",
+  "russian_kind": "modern machine translation from German OCR; not the 1815/1825 translations",
+  "text_complete": 101,
   "total": 104,
-  "text_complete": 104,
-  "witness": "Giessen 1768, Universit\u00e4tsbibliothek Heidelberg",
-  "german_kind": "uncorrected Fraktur OCR of printed originals",
-  "english_kind": "modern machine translation of uncorrected German OCR; NOT the historical 1765 text",
-  "russian_kind": "modern machine translation of uncorrected German OCR; NOT the historical 1815 or 1825 text",
-  "proofread": false,
-  "source": "https://digi.ub.uni-heidelberg.de/diglit/huebner1768",
-  "exceptions": []
+  "provenance": "/data/archive.json",
+  "exceptions": [
+    [
+      3,
+      "en translation unavailable after retries: Translation unexpectedly short"
+    ],
+    [
+      71,
+      "en translation unavailable after retries: Translation unexpectedly short"
+    ],
+    [
+      87,
+      "en translation unavailable after retries: Translation unexpectedly short"
+    ]
+  ]
 }
