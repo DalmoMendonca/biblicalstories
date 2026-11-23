@@ -1,0 +1,16 @@
+{
+  "edition": "Hübner: Hubner's Historys of the Bible (Hamburg, 1765); trilingual English/French/German",
+  "source_images": "public/english-1765-pages/PA{page}.jpg",
+  "printed_language": "Original historical English wording from the RIGHT column",
+  "method": "Tesseract English OCR on the rightmost third of each source scan",
+  "page_count": 251,
+  "status": "UNCORRECTED OCR; NOT VERIFIED or manually proofread",
+  "coverage_warning": "No automatic story segmentation or proofread historical accuracy is claimed.",
+  "ocr_characters_total": 123602,
+  "ocr_page_nonempty": 250,
+  "sample_characters": {
+    "10": 543,
+    "100": 647,
+    "240": 411
+  }
+}
