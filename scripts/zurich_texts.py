@@ -69,7 +69,7 @@ def boundaries(text,start,end,book):
     # Prefer the earliest heading for a chapter, unless it would precede chapter n-1.
     anchors={1:start}
     for n in range(2,53):
-        earlier=anchors[n-1]
+        earlier=anchors[max(anchors)]
         pool=[m for m in matches.get(n,[]) if m["pos"]>earlier+650]
         if pool:
             romans=[m for m in pool if m["roman"] and
