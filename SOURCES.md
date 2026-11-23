@@ -15,8 +15,8 @@
 ## Verified publication status (November 2026)
 
 - **104/104** illustration crops have been individually perspective-normalized. The final pass used 99 automatically estimated four-corner engraving frames and five earlier four-edge perspective transforms. Each crop's geometry and method are recorded in `public/data/crop-provenance.json`. Manual inspection also identified and removed residual printed-caption bands from plates 8, 12, and 94.
-- **104/104** chapter-level JSON records are present in `public/texts/`, yielding **312** nonempty German/English/Russian text fields. Automated validation checks alignment, distinctness, length, source attribution, and the uncorrected/modern-translation labels.
-- **Live site:** https://biblicalstories.dalmo.ai. A production-domain smoke test successfully requested all 104 text records, tested their three languages, and retrieved original plate crops. Chromium desktop/mobile tests confirmed language selection and text rendering for samples including chapters 3, 71, 87 and 104.
+- **104/104** chapter-level JSON draft records are present in `public/texts/`, yielding **312** nonempty but unverified German/English/Russian machine-generated fields. None of these drafts meets the historical transcription standard. Automated validation checks alignment, distinctness, length, source attribution, and the uncorrected/modern-translation labels.
+- **Live site:** https://biblicalstories.dalmo.ai. A production-domain smoke test successfully requested all 104 text records, tested their three languages, and retrieved original plate crops. Earlier Chromium tests confirmed language selection and draft text rendering for sample chapters; these tests checked delivery, **not scholarly correctness**. Unverified drafts are now excluded from the reader.
 - **Important limitation:** the mechanical completion tests do not make Fraktur OCR or machine translation proofread or certify the 1765 and 1815 historic translations. Those historical editions and the original Russian engraving set remain independent scholarly work.
 
 ## German witness: Zürich, c. 1775
