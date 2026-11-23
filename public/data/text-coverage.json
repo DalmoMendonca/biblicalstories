@@ -1,0 +1,23 @@
+{
+  "witness": "Giessen 1768, Universitätsbibliothek Heidelberg",
+  "german_kind": "uncorrected Fraktur OCR of original printed pages",
+  "english_kind": "modern machine translation from German OCR; not the 1765 translation",
+  "russian_kind": "modern machine translation from German OCR; not the 1815/1825 translations",
+  "text_complete": 101,
+  "total": 104,
+  "provenance": "/data/archive.json",
+  "exceptions": [
+    [
+      3,
+      "en translation unavailable after retries: Translation unexpectedly short"
+    ],
+    [
+      71,
+      "en translation unavailable after retries: Translation unexpectedly short"
+    ],
+    [
+      87,
+      "en translation unavailable after retries: Translation unexpectedly short"
+    ]
+  ]
+}
