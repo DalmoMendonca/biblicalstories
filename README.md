@@ -9,7 +9,7 @@ An open-access reader for Johann Hübner's *Zweymal zwey und fünfzig auserlesen
 - **104 original eighteenth-century engravings**, one per history, 52 Old Testament and 52 New Testament. The artworks are from the Giessen **1768** printing digitized by Heidelberg University Library.
 - **Per-sheet perspective correction:** the original photographed leaves remain under `public/art/`. `scripts/crop_plates.py` detects the engraved frame on each scan and applies a four-corner rectification, preserving genuine engraved pixels without generative alteration. The 104 corrected images and thumbnails are in `public/engravings/`, with per-image geometry in `public/data/crop-provenance.json`.
 - **324 locally archived German page facsimiles** from the same 1768 printing in `public/folios/`.
-- **312 readable text records:** all 104 numbered histories each have German, English, and Russian text in `public/texts/001.json` through `104.json`; `public/data/text-coverage.json` records their source and status. The site loads the selected language without changing the chapter.
+- **312 unverified machine-generated drafts are archived**, not authenticated historical transcriptions. The reader does **not** render those corrupted texts as finished editions. It links to the historical English and Russian sources and opens the genuine German page facsimiles for each story.
 
 ## Textual provenance — essential
 
@@ -21,7 +21,7 @@ The three available texts are **not three independently verified historical edit
 | English | Modern machine translation from the above German OCR | **Not** the historical 1765 English translation; not proofread |
 | Russian | Modern machine translation from the above German OCR | **Not** the Bogorodsky 1815/1825 historical Russian translation; not proofread |
 
-Every chapter preserves source-page references and a link to the scanned original. Mechanical completeness validation confirms 104 × 3 text records; it does **not** establish transcription accuracy or original-edition equivalence. The historical 1765 English and 1815 Russian editions remain future scholarly transcription witnesses. The separate 35+1 illustrations of the Dostoevsky-related Russian edition are not conflated with our German plate series.
+Every chapter preserves source-page references and a link to the scanned original. Mechanical completeness validation confirms 104 × 3 **draft** records; verified historical transcription coverage is currently **zero** for each language. The reader hides those drafts rather than suggesting they are readable originals. The historical 1765 English and 1815 Russian editions remain future scholarly transcription witnesses. The separate 35+1 illustrations of the Dostoevsky-related Russian edition are not conflated with our German plate series.
 
 ## Run locally
 
