@@ -2,7 +2,7 @@ name: Visual audit every straightened historical engraving
 on:
   push:
     branches: [main]
-    paths: ['.github/workflows/crop-audit-rows.yml']
+    paths: ['.github/workflows/crop-audit-rows.yml', 'public/data/crop-provenance.json']
   workflow_dispatch:
 permissions:
   contents: write
