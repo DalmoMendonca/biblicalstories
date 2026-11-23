@@ -1,0 +1,57 @@
+name: Discover Russian historical folio delivery endpoints
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/russian-source-endpoints.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 7
+    steps:
+      - name: Read Nuxt reader source modules and query public archive metadata API
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,re,urllib.request,urllib.parse,json,time
+          B='https://kp.rusneb.ru'
+          uri=B+'/item/reader/sto-chetyre-svyashchennyya-istorii-pyatdesyat-dve-svyashchennyya-istorii-iz-vethago-zaveta--ch1'
+          head={'User-Agent':'Mozilla/5.0','Accept':'*/*'}
+          def fetch(u):
+            req=urllib.request.Request(u,headers=head)
+            with urllib.request.urlopen(req,timeout=9) as r:
+              b=r.read(220000);return r.status,r.headers.get('content-type'),b.decode('utf8','replace')
+          try:
+            status,typ,page=fetch(uri)
+            files=sorted(set(re.findall(r'/_nuxt/[A-Za-z0-9._-]+\\.js',page)))
+            print('HTML',status,len(page),'JS files',len(files),flush=True)
+          except Exception as ex:
+            print('HTML FAILED',str(ex),flush=True)
+            files=[]
+          files=[f for f in files if not any(x in f for x in ['entry.','sentry.client.'])]
+          def inspect(f):
+            try:
+              status,typ,s=fetch(B+f)
+              routes=list(dict.fromkeys(re.findall(r'route:([^,}]{1,140})',s)))
+              tags=list(dict.fromkeys(re.findall(r'/(?:materials|documents|reader|books|items|facsimile|api/v1)[a-zA-Z0-9/_.$\\-{}]{0,100}',s)))
+              return f,status,len(s),routes[:25],tags[:15]
+            except Exception as ex:return f,'error',0,[],[str(ex)[:100]]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+            for item in pool.map(inspect,files):
+              if item[3] or item[4] or item[1]=='error':
+                print('MODULE',*item,flush=True)
+          endpoints=[
+            '/api/v1/search-v2/documents?query='+urllib.parse.quote('Сто четыре священныя истории'),
+            '/api/v1/search-v2/documents?query='+urllib.parse.quote('Гибнер'),
+            '/api/v1/documents',
+            '/api/v1/reader',
+            '/api/v1/materials'
+          ]
+          for e in endpoints:
+            try:
+              code,ct,s=fetch(B+e)
+              print('API',e,code,ct,len(s),s[:1800].replace('\\n',' '),flush=True)
+            except Exception as ex: print('API FAILED',e,type(ex).__name__,str(ex)[:150],flush=True)
+          PY
