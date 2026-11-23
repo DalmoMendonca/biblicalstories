@@ -1,0 +1,84 @@
+name: Preserve higher-fidelity 1768 German page OCR drafts
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/kraken-1768.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recognise:
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install historic German print recognizer and public model
+        run: |
+          python -m pip install -q kraken==7.2.0
+          curl -fLsS --retry 3 --max-time 180 'https://zenodo.org/records/10519596/files/german_print.mlmodel?download=1' -o /tmp/german_print.mlmodel
+          test $(stat -c%s /tmp/german_print.mlmodel) -gt 1000000
+      - name: Transcribe corresponding original 1768 facsimiles only
+        env:
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+          MKL_NUM_THREADS: '1'
+        run: python scripts/kraken_transcribe.py --model /tmp/german_print.mlmodel --shards 8 --shard ${{ matrix.shard }} --workers 2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kraken-leaves-${{ matrix.shard }}
+          path: public/ocr-1768/*.txt
+          if-no-files-found: error
+          retention-days: 7
+  archive:
+    needs: recognise
+    runs-on: ubuntu-24.04
+    timeout-minutes: 9
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: kraken-leaves-*
+          path: public/ocr-1768
+          merge-multiple: true
+      - name: Verify every 1768 source leaf is accounted for and explicitly unproofread
+        run: |
+          python3 - <<'PY'
+          import json,pathlib,re
+          root=pathlib.Path('public')
+          source=json.loads((root/'data/archive.json').read_text('utf8'))
+          expected={f"{item['id']:03d}-{i:02d}.txt" for item in source['images'] for i,_ in enumerate(item['folios'],1)}
+          actual={x.name for x in (root/'ocr-1768').glob('*.txt')}
+          assert len(expected)==324, len(expected)
+          assert actual==expected,(len(actual),sorted(expected-actual)[:12],sorted(actual-expected)[:12])
+          counts={x.name:len(x.read_text('utf8').strip()) for x in (root/'ocr-1768').glob('*.txt')}
+          assert all(v>=80 for v in counts.values())
+          index={'edition':'Giessen 1768; Heidelberg University Library',
+                 'source':'https://digi.ub.uni-heidelberg.de/diglit/huebner1768',
+                 'model':'german_print.mlmodel; zenodo.org/records/10519596',
+                 'method':'Neural Kraken print OCR, page by page',
+                 'status':'UNCORRECTED MACHINE OCR; NOT an authenticated historical transcription',
+                 'page_count':len(expected),
+                 'notes':'Per-page draft recognition only. Pages can include segments of adjoining chapters; never treat a folio as a perfectly aligned story.'}
+          (root/'data/kraken-ocr-provenance.json').write_text(json.dumps(index,indent=2,ensure_ascii=False)+'\n','utf8')
+          print('PASS',len(expected),'original-page OCR drafts; min chars',min(counts.values()))
+          PY
+      - name: Preserve source-linked drafts without altering verified-text status
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git pull --ff-only origin main
+          git add public/ocr-1768 public/data/kraken-ocr-provenance.json
+          git commit -m "Archive 324 better German source-page OCR drafts; no authentication claim [skip ci]"
+          git push origin HEAD:main
