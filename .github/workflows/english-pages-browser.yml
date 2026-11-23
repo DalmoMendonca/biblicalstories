@@ -1,0 +1,21 @@
+name: Verify 1765 English page access throughout original volume
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/english-pages-browser.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - run: node scripts/english_page_probe.mjs
