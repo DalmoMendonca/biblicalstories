@@ -31,7 +31,7 @@ DEST=PUBLIC/"texts"
 DATA=PUBLIC/"data"
 ARCHIVE=json.loads((DATA/"archive.json").read_text("utf-8"))
 HEADERS={"User-Agent":"Mozilla/5.0 (compatible; historical-public-domain-edition/1.0)"}
-GTRANS="https://translate.googleapis.com/translate_a/single"
+GTRANS="https://clients5.google.com/translate_a/t"
 LANGS=("en","ru")
 
 def roman(n):
@@ -55,7 +55,7 @@ def ocr_one(item):
         raise FileNotFoundError(str(path))
     p=subprocess.run(
         ["tesseract",str(path),"stdout","-l","frk","--psm","3"],
-        capture_output=True,text=True,timeout=65)
+        capture_output=True,text=True,timeout=120,env={**os.environ,"OMP_THREAD_LIMIT":"1","OMP_NUM_THREADS":"1"})
     if p.returncode:
         raise RuntimeError(f"{key} OCR failed: {p.stderr[-500:]}")
     result=p.stdout.strip()
@@ -91,7 +91,7 @@ def scrub_watermarks(s):
 
 def translate_chunk(content,lang):
     query=urllib.parse.urlencode(
-        [("client","gtx"),("sl","de"),("tl",lang),("dt","t"),("q",content)])
+        [("client","dict-chrome-ex"),("sl","de"),("tl",lang),("q",content)])
     target=GTRANS+"?"+query
     # service supports HTTP GET; honor request-size limits through small chunks.
     if len(target)>9100:
@@ -102,8 +102,12 @@ def translate_chunk(content,lang):
             req=urllib.request.Request(target,headers=HEADERS)
             with urllib.request.urlopen(req,timeout=35) as r:
                 data=json.load(r)
-            parts=data[0]
-            result="".join(str(part[0]) for part in parts if part and part[0])
+            if isinstance(data,list) and data and isinstance(data[0],str):
+                result=data[0]
+            elif isinstance(data,list) and data and isinstance(data[0],list):
+                result="".join(str(part[0]) for part in data[0] if part and part[0])
+            else:
+                raise RuntimeError("Unrecognized translation format")
             if len(result)<max(40,len(content)*.16):
                 raise RuntimeError("Translation unexpectedly short")
             return result.strip()
