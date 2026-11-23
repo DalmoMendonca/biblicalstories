@@ -1,0 +1,29 @@
+name: Probe source translation services
+on:
+  push:
+    paths: [.github/workflows/translation-probe.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check small German to English and Russian translations
+        run: |
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,time
+          source="Die erste Historie. Im Anfang schuf Gott Himmel und Erde. Er sprach: Es werde Licht."
+          for lang in ["en","ru"]:
+            data=urllib.parse.urlencode({"client":"gtx","sl":"de","tl":lang,"dt":"t","q":source})
+            t=time.time()
+            for method,uri in [("GET","https://translate.googleapis.com/translate_a/single?"+data),
+              ("GET","https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=de&tl="+lang+"&q="+urllib.parse.quote(source))]:
+              try:
+                req=urllib.request.Request(uri,headers={"User-Agent":"Mozilla/5.0"})
+                with urllib.request.urlopen(req,timeout=12) as r:
+                  body=r.read(1000)
+                  print("TRANSLATION",lang,method,r.status,"elapsed",round(time.time()-t,2),"sample",repr(body[:250]),flush=True)
+              except Exception as e:print("ERROR",lang,method,type(e).__name__,str(e),flush=True)
+          PY
