@@ -1,44 +1,51 @@
 # Biblische Historien — Johann Hübner
 
-An illustrated, open-access edition of Johann Hübner's *Zweymal zwey und fünfzig auserlesene Biblische Historien* (1714), presenting archival engravings, facsimile sources, and a multilingual scholarly reading interface.
+**Live illustrated edition:** https://biblicalstories.dalmo.ai
 
-## Editorial policy
+An open-access reader for Johann Hübner's *Zweymal zwey und fünfzig auserlesene Biblische Historien*, first published in 1714.
 
-- Every reproduced historical image is attributed to the edition that supplies it.
-- German, Russian, and English texts are versioned **separately**; no text is presented as a verified historical transcription unless it has been checked against its source.
-- The 1815 Russian illustration set associated with Dostoevsky is distinct from German plates until a match is demonstrated.
-- Machine OCR is labeled and never silently passed off as proofread copy.
+## Contents
 
+- **104 original eighteenth-century engravings**, one per history, 52 Old Testament and 52 New Testament. The artworks are from the Giessen **1768** printing digitized by Heidelberg University Library.
+- **Per-sheet perspective correction:** the original photographed leaves remain under `public/art/`. `scripts/crop_plates.py` detects the engraved frame on each scan and applies a four-corner rectification, preserving genuine engraved pixels without generative alteration. The 104 corrected images and thumbnails are in `public/engravings/`, with per-image geometry in `public/data/crop-provenance.json`.
+- **324 locally archived German page facsimiles** from the same 1768 printing in `public/folios/`.
+- **312 readable text records:** all 104 numbered histories each have German, English, and Russian text in `public/texts/001.json` through `104.json`; `public/data/text-coverage.json` records their source and status. The site loads the selected language without changing the chapter.
 
-## Experience
+## Textual provenance — essential
 
-The rebuilt application presents **104 individually cropped eighteenth-century engravings** as the art, not full-page photographs. View the complete 52+52 plate index, filter by Testament, search, switch English/German/Russian navigation without losing the current story, and examine the original German text on the 324 archived 1768 book folios. The visual design is an editorial index without promotional hero, image cards, artificial copy, or decorative ornaments.
+The three available texts are **not three independently verified historical editions**:
 
-The **complete historical English (1765)** and **Russian (1815)** story transcriptions are still outstanding editorial work, and so are the distinct 35+1 Russian engraved illustrations. An **1825 Russian edition** with digitized Old and New Testament volumes is linked as a later original-language witness. These are transparently represented as source gaps, rather than filled by invented text or AI drawings.
+| Language | Actual text supplied | Verification |
+|---|---|---|
+| German | Automated Fraktur OCR of the Giessen 1768 **original German printed pages** | **Uncorrected**; may include recognition errors, running headers, and two-column ordering artifacts |
+| English | Modern machine translation from the above German OCR | **Not** the historical 1765 English translation; not proofread |
+| Russian | Modern machine translation from the above German OCR | **Not** the Bogorodsky 1815/1825 historical Russian translation; not proofread |
 
-## Reproduce locally
+Every chapter preserves source-page references and a link to the scanned original. Mechanical completeness validation confirms 104 × 3 text records; it does **not** establish transcription accuracy or original-edition equivalence. The historical 1765 English and 1815 Russian editions remain future scholarly transcription witnesses. The separate 35+1 illustrations of the Dostoevsky-related Russian edition are not conflated with our German plate series.
+
+## Run locally
 
 ```bash
 git clone https://github.com/DalmoMendonca/biblicalstories.git
 cd biblicalstories
 npm run check
+python3 scripts/check_texts.py
 npm run build
 python3 -m http.server 8123 --directory dist
 ```
 
-Open http://localhost:8123. The source images and original German folios are versioned in the repository; reading images does not require a live library image server. Re-import source facsimiles with `python3 scripts/harvest.py` and regenerate all individual illustrations with `python3 scripts/crop_plates.py` (Pillow required). Crop coordinates and per-image provenance live in `public/data/crop-provenance.json`.
+Open http://localhost:8123. All publication images and all 312 texts are committed to GitHub; the deployed site does not depend on runtime requests to Heidelberg or external translation services.
 
-## Netlify publication
+## Deploy
 
-The reserved Netlify project is [biblicalstories-ytdf](https://app.netlify.com/projects/biblicalstories-ytdf) (the short name biblicalstories was already taken).
+[Netlify: 104biblicalstories](https://app.netlify.com/projects/104biblicalstories) is connected to the GitHub `main` branch, publishing automatically to **https://biblicalstories.dalmo.ai**. `netlify.toml` defines the static `dist` build.
 
-To turn on continuous deployment, connect the GitHub repository `DalmoMendonca/biblicalstories` to that existing Netlify project, with production branch `main`. The checked-in `netlify.toml` already specifies the static build and `dist` output directory. No secret environment variables or paid services are required.
+## Historical sources
 
-## Primary sources
+- [Giessen 1768, Heidelberg University Library](https://digi.ub.uni-heidelberg.de/diglit/huebner1768) — original plates and original-text page facsimiles used in this app.
+- [Zürich ca. 1775, Zentralbibliothek Zürich](https://www.e-rara.ch/zuz/doi/10.3931/e-rara-85573) — alternative illustrated public-domain printing and uncorrected OCR for comparison, not silently substituted for Giessen.
+- [St Petersburg 1815 Russian edition](https://search.rsl.ru) — Vasily Bogorodsky translation, edition related to Dostoevsky; historically documented 35 plates and a frontispiece, complete digital plates not yet obtained.
+- [1825 Russian Old Testament](https://kp.rusneb.ru/item/material/5fcf8bb3991f3b91423439b5) — later Russian source facsimile.
+- [1765 German–French–English parallel edition](https://books.google.com/books?id=5elUAAAAcAAJ) — historical English translation bibliographic record.
 
-- [Zürich ca. 1775, Zentralbibliothek Zürich](https://www.e-rara.ch/zuz/doi/10.3931/e-rara-85573) — [IIIF manifest](https://www.e-rara.ch/i3f/v20/24283792/manifest) and [uncorrected OCR](https://www.e-rara.ch/zuz/download/ftpack/plain/24283792), Public Domain Mark.
-- [Giessen 1768, Heidelberg University Library](https://digi.ub.uni-heidelberg.de/diglit/huebner1768) — 104 accompanying engravings in historical edition.
-- [Russian illustrated edition, St Petersburg 1815](https://search.rsl.ru) — Vasily Bogorodsky translation; its original image plates remain unverified. The [1825 Old Testament](https://kp.rusneb.ru/item/material/5fcf8bb3991f3b91423439b5) and [1825 New Testament](https://kp.rusneb.ru/item/material/sto-chetyre-svyashchennyya-istorii-pyatdesyat-dve-svyashchennyya-istorii-iz-novago-zaveta--ch2) have digitized historic book scans.
-- [1765 trilingual historical edition](https://books.google.com/books?id=5elUAAAAcAAJ) — German, French, English, complete digitization under investigation.
-
-The project uses a static-first frontend with progressive enhancement. See `SOURCES.md` for source-by-source evidence, provenance, and outstanding textual research.
+See [SOURCES.md](./SOURCES.md) for image, facsimile and text provenance details.
