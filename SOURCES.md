@@ -12,6 +12,13 @@
 - The original Heidelberg scans contain paper margins, caption cartouches, and archival marks; these are retained intact in the source facsimiles and only **excluded by spatial cropping** from the displayed artwork. No drawing, retouching, or generative alterations are performed. Heidelberg's final plate was mislabelled in the manifest: `Tafel 52` at canvas 551 points to blank verso. The correct engraved recto is canvas 550 labelled `dz`; `scripts/harvest.py` fixes this and rejects blank crops.
 - Reproductions are of public-domain eighteenth-century artwork; archive attribution is retained for scholarly ethics.
 
+## Verified publication status (November 2026)
+
+- **104/104** illustration crops have been individually perspective-normalized. The final pass used 99 automatically estimated four-corner engraving frames and five earlier four-edge perspective transforms. Each crop's geometry and method are recorded in `public/data/crop-provenance.json`. Manual inspection also identified and removed residual printed-caption bands from plates 8, 12, and 94.
+- **104/104** chapter-level JSON records are present in `public/texts/`, yielding **312** nonempty German/English/Russian text fields. Automated validation checks alignment, distinctness, length, source attribution, and the uncorrected/modern-translation labels.
+- **Live site:** https://biblicalstories.dalmo.ai. A production-domain smoke test successfully requested all 104 text records, tested their three languages, and retrieved original plate crops. Chromium desktop/mobile tests confirmed language selection and text rendering for samples including chapters 3, 71, 87 and 104.
+- **Important limitation:** the mechanical completion tests do not make Fraktur OCR or machine translation proofread or certify the 1765 and 1815 historic translations. Those historical editions and the original Russian engraving set remain independent scholarly work.
+
 ## German witness: Zürich, c. 1775
 
 **Johann Hübner.** Zürich: Bürklische Druckerei, circa 1775. Zentralbibliothek Zürich, AWZ 727. DOI [10.3931/e-rara-85573](https://doi.org/10.3931/e-rara-85573).
