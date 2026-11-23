@@ -71,7 +71,7 @@ try{
      await chapter.goto(base+"/?view=story&id="+id,{waitUntil:"domcontentloaded"});
      for(const lang of ["de","en","ru"]){
        await chapter.locator('[data-reader-lang="'+lang+'"]').click();
-       await chapter.locator(".source-absence").waitFor({timeout:20000});
+       await chapter.locator("#story-prose .source-absence").waitFor({timeout:20000});
        assert.equal(await chapter.locator(".edition-prose").count(),0,`Unreviewed OCR displayed as ${lang} original for story ${id}`);
        if(id===69) assert.match(await chapter.locator(".source-facsimile").textContent(),/Heidelberg/,"Chapter 69 requires an explicit archival collation warning");
        else assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
