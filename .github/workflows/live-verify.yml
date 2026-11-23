@@ -1,0 +1,61 @@
+name: Verify published 104-story trilingual site
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-verify.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - name: Test the actual custom-domain publication
+        run: |
+          python3 - <<'PY'
+          import urllib.request,urllib.error,json,concurrent.futures,time
+          root="https://biblicalstories.dalmo.ai"
+          HEAD={"User-Agent":"Mozilla/5.0 HuebnerPublicationVerification/1.0"}
+          def get(path):
+            req=urllib.request.Request(root+path,headers=HEAD)
+            with urllib.request.urlopen(req,timeout=25) as r:
+              if r.status != 200:raise AssertionError((path,r.status))
+              return r.read()
+          # Netlify builds may lag the latest GitHub commit. Never report
+          # success until all 104 texts really exist on the public domain.
+          deadline=time.monotonic()+180
+          while True:
+            try:
+              cover=json.loads(get("/data/text-coverage.json"))
+              sample=json.loads(get("/texts/087.json"))
+              if cover.get("text_complete")==104 and len(sample.get("ru",{}).get("text",""))>200:
+                break
+            except Exception as e:
+              print("Deploy not ready:",str(e)[:160],flush=True)
+            if time.monotonic()>deadline:raise RuntimeError("Live deployment still lacks 104 chapters")
+            time.sleep(7)
+          print("LIVE COVERAGE",cover,flush=True)
+          assert len(get("/"))>500
+          assert b"loadChapter" in get("/src/app.js")
+          assert len(get("/styles.css"))>2000
+          archive=json.loads(get("/data/archive.json"))
+          assert len(archive["images"])==104
+          def check_chapter(n):
+            data=json.loads(get(f"/texts/{n:03d}.json"))
+            assert data.get("id")==n
+            sizes=[len(data[c]["text"]) for c in ("de","en","ru")]
+            assert min(sizes)>200,(n,sizes)
+            assert data["editorial"]["proofread"] is False
+            return n,sizes
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
+            chapters=list(pool.map(check_chapter,range(1,105)))
+          print("LIVE TEXT PASS: 104 x DE/EN/RU; combined characters",[
+            sum(s[i] for _,s in chapters) for i in range(3)],flush=True)
+          for n in (1,3,6,8,12,43,52,71,87,94,100,104):
+            image=get(f"/engravings/{n:03d}.webp")
+            assert image[:4]==b"RIFF" and b"WEBP" in image[:20],(n,image[:20])
+            assert len(image)>10000
+          print("LIVE ART PASS: primary cropped engravings serve 200 WebP for sampled image plates",flush=True)
+          PY
