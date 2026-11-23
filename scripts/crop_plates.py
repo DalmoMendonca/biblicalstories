@@ -20,6 +20,9 @@ THUMBS=OUT/"thumb"
 DATA=ROOT/"public"/"data"
 PREVIEW=ROOT/"qa"
 SAMPLES=[1,2,3,4,6,15,26,32,43,52,53,60,70,84,90,100,104]
+# Three scans carry a printed title below the artwork at an unusually high
+# location. These visual-audit-specific trims discard only that title band.
+TITLE_BAND_LIMITS={8:.955,12:.959,94:.950}
 
 # Fallback is evaluated per scan only when frame detection is underconstrained.
 # It is always applied AFTER automatic deskew, never blindly on the raw photo.
@@ -351,6 +354,11 @@ def main():
             except Exception as e2:
                 result,stats=emergency_crop(raw)
                 stats["fallback_reason"]=f"{e}; geometry detector: {e2}"
+        if n in TITLE_BAND_LIMITS:
+            cutoff=max(20,round(result.shape[0]*TITLE_BAND_LIMITS[n]))
+            result=result[:cutoff,:,:]
+            stats["title_band_excluded"]=True
+            stats["title_band_bottom_fraction"]=TITLE_BAND_LIMITS[n]
         metric=image_quality(result)
         if not .055<metric["ink_fraction"]<.90:
             raise AssertionError(f"Plate {n}: suspected blank or wrong crop: {metric}")
