@@ -1,4 +1,5 @@
 import { stories } from "./catalog.js";
+import { english1765 } from "./english1765.js";
 
 const main = document.querySelector("#main");
 const lightbox = document.querySelector("#lightbox");
@@ -6,7 +7,7 @@ const lightboxImage = document.querySelector("#lightbox-image");
 const lightboxSource = document.querySelector("#lightbox-source");
 const languages = ["en","de","ru"];
 const text = {
-  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"The historical English text has not been authenticated or transcribed.",edition:"English · modern translation from 1768 German OCR",book:"1765 historical edition",original:"Original scan",about:"Edition"},
+  en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"The historical English text for this story has not yet been transcribed.",edition:"English · Hamburg, 1765",book:"1765 historical edition",original:"Original scan",about:"Edition"},
   de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Der historische Text ist noch nicht geprüft und transkribiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
   ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Немецкие страницы · 1768",none:"Подлинный русский текст пока не проверен и не расшифрован.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
 };
@@ -114,6 +115,13 @@ function textParagraphs(value){
 function chapterContent(p){
   const data=s.content[p.id];
   const lang=s.lang;
+  const historical=lang==="en" ? english1765[p.id] : null;
+  if(historical){
+    const links=historical.pages.map(n=>'<a href="https://books.google.com/books?id=5elUAAAAcAAJ&amp;pg=PA'+n+'" target="_blank" rel="noopener">p. '+n+'</a>').join(" · ");
+    return '<p class="source-heading">Hamburg, 1765 · Historical English narrative · '+links+'</p>'
+      +'<div class="edition-prose" lang="en"><p><em>'+esc(historical.title)+'</em></p><p>'+esc(historical.reference)+'</p>'+textParagraphs(historical.text)+'</div>'
+      +'<p class="source-heading">Transcribed from the printed source; not independently proofread. This edition omits the questions and reflections.</p>';
+  }
   const witness=data?.[lang];
   // Never mistake a machine-generated field for an authenticated printed edition.
   // A future checked transcription must carry both explicit editorial review
@@ -204,7 +212,7 @@ function renderAbout() {
   <li><strong>English</strong><span>Hamburg, 1765. Historic English translation. <a href="${sourceEnglish}" target="_blank" rel="noopener">British Library / Google Books ↗</a></span></li>
   <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian1815}" target="_blank" rel="noopener">Library record ↗</a>. Moscow, 1825: <a href="${sourceRussian1825[0]}" target="_blank" rel="noopener">Old Testament ↗</a> · <a href="${sourceRussian1825[1]}" target="_blank" rel="noopener">New Testament ↗</a> digitized original-language volumes.</span></li>
   </ul>
-  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English and Russian chapter texts, when available, are modern translations of uncorrected German source OCR and are not identical to the eighteenth- or nineteenth-century historical translations.</p>
+  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English histories 1–6 are directly transcribed from the Hamburg 1765 edition (narrative only; not independently proofread). Other historical English and Russian chapter texts are not yet available in this reader. Unverified machine translations are not displayed.</p>
   <p class="short"><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Source code and crop provenance ↗</a></p>
   </section>`;
 }
