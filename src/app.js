@@ -1,5 +1,6 @@
 import { stories } from "./catalog.js";
 import { english1765 } from "./english1765.js";
+import { german1768 } from "./german1768.js";
 
 const main = document.querySelector("#main");
 const lightbox = document.querySelector("#lightbox");
@@ -115,6 +116,19 @@ function textParagraphs(value){
 function chapterContent(p){
   const data=s.content[p.id];
   const lang=s.lang;
+  const german=lang==="de" ? german1768[p.id] : null;
+  if(german){
+    const links=german.pages.map(n=>'<a href="'+sourceGerman+'/'+String(n).padStart(4,"0")+'" target="_blank" rel="noopener">↗ '+String(n).padStart(4,"0")+'</a>').join(" · ");
+    const verses=v=>esc(v).replace(/\n/g,"<br>");
+    return '<p class="source-heading">Gießen 1768 · S. '+esc(german.printed)+' · '+links+'</p>'
+      +'<div class="edition-prose" lang="de"><p><em>'+esc(german.title)+'</em></p><p>'+esc(german.reference)+'</p>'
+      +textParagraphs(german.narrative)
+      +'<h2>Deutliche Fragen</h2><ol>'+german.questions.map(q=>'<li>'+esc(q)+'</li>').join("")+'</ol>'
+      +'<h2>Nützliche Lehren</h2>'+german.teachings.map(t=>'<p>'+verses(t)+'</p>').join("")
+      +'<h2>Gottselige Gedancken</h2><p>'+verses(german.reflection)+'</p>'
+      +'<h2>Lateinisch</h2><p lang="la">'+verses(german.latin)+'</p></div>'
+      +'<p class="source-heading">Direkt von den Originalseiten übertragen; noch nicht unabhängig korrekturgelesen. Randverweise im Faksimile.</p>';
+  }
   const historical=lang==="en" ? english1765[p.id] : null;
   if(historical){
     const links=historical.pages.map(n=>'<a href="https://books.google.com/books?id=5elUAAAAcAAJ&amp;pg=PA'+n+'" target="_blank" rel="noopener">p. '+n+'</a>').join(" · ");
@@ -138,7 +152,7 @@ function chapterContent(p){
 function editionText(p){
   const m=messages();
   const archivalLink=s.lang==="en"?sourceEnglish:(s.lang==="ru"?sourceRussian1825[p.book==="old"?0:1]:sourceGerman);
-  const editionLink=s.lang==="de"?'':'<p class="source-heading"><a href="'+esc(archivalLink)+'" target="_blank" rel="noopener">'+esc(m.book)+' ↗</a></p>';
+  const editionLink=s.lang==="de"?'<p class="source-heading"><a href="/data/german-ocr.txt" target="_blank" rel="noopener">Zürich ca. 1775 · Vollständiger OCR-Text (unkorrigiert) ↗</a> · <a href="https://doi.org/10.3931/e-rara-85573" target="_blank" rel="noopener">Zentralbibliothek Zürich</a></p>':'<p class="source-heading"><a href="'+esc(archivalLink)+'" target="_blank" rel="noopener">'+esc(m.book)+' ↗</a></p>';
   // The original Giessen pages are the only complete, chapter-aligned source
   // facsimiles currently present in this archive. Always expose them directly.
   return '<div id="story-prose" aria-live="polite">'+chapterContent(p)+'</div>'
@@ -212,7 +226,7 @@ function renderAbout() {
   <li><strong>English</strong><span>Hamburg, 1765. Historic English translation. <a href="${sourceEnglish}" target="_blank" rel="noopener">British Library / Google Books ↗</a></span></li>
   <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian1815}" target="_blank" rel="noopener">Library record ↗</a>. Moscow, 1825: <a href="${sourceRussian1825[0]}" target="_blank" rel="noopener">Old Testament ↗</a> · <a href="${sourceRussian1825[1]}" target="_blank" rel="noopener">New Testament ↗</a> digitized original-language volumes.</span></li>
   </ul>
-  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. English histories 1–6 are directly transcribed from the Hamburg 1765 edition (narrative only; not independently proofread). Other historical English and Russian chapter texts are not yet available in this reader. Unverified machine translations are not displayed.</p>
+  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. German histories 1, 2 and 6 include the original questions, teachings and reflections, directly transcribed from Gießen 1768; the complete uncorrected Zürich library OCR is separately available. English histories 1–6 are directly transcribed from the Hamburg 1765 edition (narrative only; not independently proofread). Other historical English and Russian chapter texts are not yet available in this reader. Unverified machine translations are not displayed.</p>
   <p class="short"><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Source code and crop provenance ↗</a></p>
   </section>`;
 }
