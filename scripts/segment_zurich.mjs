@@ -83,6 +83,23 @@ function fixEmbeddedMarkers(raw,draft){
  return draft;
 }
 
+function restoreShortTextPages(raw,draft){
+ for(const rec of draft.records){
+  const pageCharacters=new Map();
+  for(const [page,start,end] of rec.segments)pageCharacters.set(page,(pageCharacters.get(page)||0)+end-start);
+  let phase=null;
+  for(const s of rec.segments){
+   const [page,start,end,section,reason,marker]=s;
+   if(marker==="teachings"||marker==="reflection")phase=marker;
+   if(section==="unassigned"&&phase&&pageCharacters.get(page)>350&&raw.slice(start,end).trim()){
+     s[3]=phase;s[4]="short-text-page-after-explicit-heading";
+   }
+  }
+  rec.counts={};for(const [page,start,end,section] of rec.segments)if(raw.slice(start,end).trim())rec.counts[section]=(rec.counts[section]||0)+1;
+  rec.flags=rec.flags.filter(f=>!f.startsWith("missing-candidate"));for(const k of ["narrative","questions","teachings","reflection"])if(!rec.counts[k])rec.flags.push("missing-candidate-"+k);
+ }
+ return draft;
+}
 const root=process.cwd();
 const read=p=>fs.readFileSync(path.join(root,p),"utf8");
 const raw=read("public/data/german-ocr.txt"),idx=JSON.parse(read("public/data/zurich-chapters.json")),manifest=JSON.parse(read("sources/zurich-layout/manifest.json"));
@@ -92,6 +109,7 @@ const draft=buildDraft(raw,idx,manifest);
 for(const rec of draft.records)rec.segments=rec.segments.map(({page,start,end,section,reason,marker})=>[page,start,end,section,reason||null,marker||null]);
 draft.segment_columns=["page","start","end","section","reason","marker"];
 fixEmbeddedMarkers(raw,draft);
+restoreShortTextPages(raw,draft);
 const dest=path.join(root,"sources/zurich-editorial");fs.mkdirSync(dest,{recursive:true});
 for(const rec of draft.records){fs.writeFileSync(path.join(dest,String(rec.id).padStart(3,"0")+".json"),JSON.stringify(rec)+"\n");}
 const {records,...meta}=draft;fs.writeFileSync(path.join(dest,"manifest.json"),JSON.stringify({...meta,records:records.map(({segments,...r})=>r)},null,2)+"\n");
