@@ -1,13 +1,13 @@
 {
   "base": "http://127.0.0.1:4173",
-  "commit": "cc7ab3269ca125058e1526ade1538331f285a18d",
+  "commit": "1ac21e51a502d87a596373ead6abcc658be536b2",
   "routes": 104,
   "language_selections": 312,
   "structured_chapters": {
-    "de": 6,
-    "en": 6,
-    "ru": 3
+    "de": 8,
+    "en": 8,
+    "ru": 8
   },
   "errors": [],
-  "run_id": "45553012687"
+  "run_id": "45554067112"
 }

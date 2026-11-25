@@ -1,0 +1,13 @@
+{
+  "base": "https://biblicalstories.dalmo.ai",
+  "commit": "1ac21e51a502d87a596373ead6abcc658be536b2",
+  "routes": 104,
+  "language_selections": 312,
+  "structured_chapters": {
+    "de": 8,
+    "en": 8,
+    "ru": 8
+  },
+  "errors": [],
+  "run_id": "45554067112"
+}
