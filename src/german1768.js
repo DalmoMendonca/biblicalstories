@@ -709,5 +709,65 @@ export const german1768 = {
       "III. Nichts ist in der Welt so starck, als der Glaube.\nDenn durch den Glauben hat Jacob mit GOtt gekämpfet, und den Sieg davon getragen."
     ],
     "reflection": "Es muste Jacob dort mit einem Manne ringen.\nWer war denn dieser Mann? wahrhaftig GOtt der Sohn.\nUnd siehe da / GOtt ließ von Jacob sich bezwingen;\nDer trug den Segen auch auf diesen Kampf davon.\nMein GOtt! Ich will dich auch mit starkem Glauben fassen /\nUnd will dich eher nicht / bis du mich segnest / lassen."
+  },
+  "16": {
+    "pages": [
+      99,
+      100,
+      101,
+      102,
+      105
+    ],
+    "printed": "43–47",
+    "latin": "In foveam fratres insontem mittere fratrem,\nIndeque protractum vendere non dubitant.\nSed cur hoc faciunt? Respondent Biblia sacra:\nPropterea, cultor quod pietatis erat.\nO Pietas! a te nunquam mea vita recedat,\nSi vel Josephi fata ferenda forent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 32,
+      "teachings": 3
+    },
+    "title": "Wie Joseph von seinen Brüdern verkauft wird.",
+    "reference": "1. Mose XXXVII. Capitel.",
+    "narrative": "1. Jacob hatte zusammen zwölf Söhne. 2. Der liebste darunter war Joseph, 3. weil er denselben im Alter mit der schönen Rahel gezeuget hatte, 4. deswegen er ihm auch einen schönen bunten Rock hatte machen lassen. 5. Es waren ihm aber seine Brüder feind, und kunten ihm kein freundlich Wort zusprechen. 6. Die Hauptursache war wohl diese, weil Joseph seine Brüder bey dem Vater verrieth, wann sie dann und wann was böses gestiftet hatten. 7. Ueber dieses hatte Joseph auch zwey Träume gehabt, welche seinen Brüdern nicht anstunden. 8. Den ersten Traum erzehlte Joseph seinen Brüdern mit diesen Worten: Mich däuchte, wir bunden Garben auf dem Felde, und meine Garbe richtete sich auf und stund, und eure Garben neigten sich gegen meiner Garben. 9. Da sprachen seine Brüder zu ihm: Solst du unser König werden, und über uns herrschen? und wurden ihm noch feinder. 10. Zum andernmal träumte Josephen, als wenn die Sonne, der Mond und eilf Sterne sich vor ihm neigten. 11. Darüber strafte ihn zwar der Vater mit diesen Worten: Was ist das für ein Traum, der dir geträumet hat? Soll ich und deine Mutter, und deine Brüder kommen, und dich anbeten? Er behielt aber doch den Traum in seinem Herzen. 12. Nach diesem weideten Josephs Brüder das Vieh ihres Vaters zu Sichem. 13. Da sagte Jacob zu seinem Sohne Joseph: Gehe hin, und siehe zu, ob es wohl stehet um deine Brüder und um das Vieh, und sage mirs wieder. 14. Wie sie nun Josephen von ferne kommen sahen, so sagten sie gleich: Da kommt der Träumer her, 15. kommt laßt uns ihn erwürgen. 16. Hiermit war der älteste Bruder Ruben nicht zufrieden, 17. sondern sagte: Vergiesset nicht Blut, sondern werffet ihn in die Gruben, die in der Wüsten ist. 18. Das that aber Ruben in guter Meynung, daß er ihn darnach aus der Gruben heimlich heraus ziehen, und wieder zu seinem Vater bringen wolte. 19. Die Brüder waren es zufrieden, und zogen Josephen den bunten Rock aus, 20. und wurfen ihn in eine Gruben, darinnen kein Wasser war. 21. Hierauf setzten sie sich nieder zu essen, gleich als wenn sie alles gar wohl ausgerichtet hätten. 22. Ungefehr reiseten einige Kaufleute mit Cameelen vorbey. 23. Da sprach Juda zu seinen Brüdern: Kommt, laßt uns unsern Bruder verkauffen. 24. Die Brüder gehorchten seiner Stimme, zogen Josephen aus der Grube, 25. und verkaufften ihn vor zwanzig Silberlinge. 26. Der älteste Bruder Ruben wuste davon nichts, sondern gieng heimlich zur Gruben, und wolte Josephen herausziehen; Wie er nun den Knaben nicht fand, so zerriß er seine Kleider, und sagte: der Knabe ist nicht da, wo soll ich hin? 27. Da nahmen sie Josephs Rock, und schlachteten einen Ziegenbock, und tuncketen den Rock in das Blut. 28. Darnach schickten sie dieses blutige Kleid zu dem alten Vater, und liessen ihm sagen: Diesen haben wir funden, siehe obs deines Sohnes Rock sey? 29. Der gute Vater kannte den Rock alsobald, und rief laut: Es ist meines Sohnes Rock, ein böses Thier hat ihn gefressen, ein reissend Thier hat Joseph zerrissen. 30. Es traten zwar alle seine Söhne und Töchter auf, und wolten ihn trösten; aber er wolte sich nicht trösten lassen, sondern sprach: 31. Ich werde mit Leide hinunterfahren in die Grube zu meinem Sohne. 32. Die Kaufleute brachten unterdessen Josephen nach Egypten, und verkauften ihn dem Potiphar, welcher ein Hofmeister des Königs in Egypten war.",
+    "questions": [
+      "Wie viel Söhne hatte Jacob?",
+      "Welcher war ihm der liebste?",
+      "Was war die Ursache?",
+      "Woran konte man es merken?",
+      "Wie waren denn seine Brüder gegen ihn gesinnet?",
+      "Warum waren ihm die Brüder so gram?",
+      "Was kam noch mehr darzu?",
+      "Wie erzehlte Joseph den ersten Traum?",
+      "Was machten die Brüder vor eine Deutung darüber?",
+      "Was träumte Josephen zum andern mal?",
+      "Was sagte der Vater zu diesem Traume?",
+      "Wo hielten sich nach diesem seine Brüder auf?",
+      "Was sagte Jacob zu seinem Sohne Joseph?",
+      "Was sagten die Brüder, wie sie ihn kommen sahen?",
+      "Was beschlossen sie vor einen Rath über ihn?",
+      "Wer war mit diesem Blut-Rathe nicht zufrieden?",
+      "Was that denn Ruben vor einen andern Vorschlag?",
+      "Was hatte Ruben vor ein Absehen dabey?",
+      "Was sagten die Brüder darzu?",
+      "Wie giengen sie also mit Josephen um?",
+      "Was thaten sie darnach?",
+      "Was reiseten vor Leute vorbey?",
+      "Was hatte Juda hierbey vor einen Einfall?",
+      "Wie gefiel den Brüdern dieser Vorschlag?",
+      "Wie theuer war Joseph verkaufft?",
+      "Was sagte denn Ruben darzu?",
+      "Wie betrogen sie den alten Vater?",
+      "Was liessen ihm die bösen Buben sagen?",
+      "Was sagte Jacob darauf?",
+      "Wer wolte denn Jacob trösten?",
+      "Was prophezeyte sich Jacob selber?",
+      "Wie giengs unterdessen Josephen?"
+    ],
+    "teachings": [
+      "I. Was Josephen geträumet hat, das ist ihm auch nach diesem begegnet.\nMan siehet daraus, daß nicht alle Träume schlechterdings zu verwerffen sind.",
+      "II. Josephs Brüder thaten erst böse Dinge, hernach verkauften sie den Bruder, und endlich betrogen sie den Vater.\nMan siehet daraus, wie immer eine Sünde aus der andern kömmt, wenn ihr im Anfange nicht widerstanden wird.",
+      "III. Jacob war ein frommer Mann, und seine Söhne waren doch meistens böse Buben.\nMan siehet daraus, daß auch fromme Eltern böse Kinder haben können, und deswegen hat man sich in seinem Urtheile nicht zu übereilen."
+    ],
+    "reflection": "Seht doch / wie Joseph dort die bösen Buben hassen!\nHört doch / wie kläglich er in seiner Grube schreyet!\nDenckt doch / wie er zuletzt sich muß verkauffen lassen!\nWas war denn Schuld daran? nichts als die Frömmigkeit.\nDu liebe Frömmigkeit! nichts soll mich von dir scheiden /\nUnd solt ich auch so viel als Joseph drüber leiden."
   }
 };

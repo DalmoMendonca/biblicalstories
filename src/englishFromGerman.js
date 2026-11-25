@@ -732,5 +732,66 @@ export const englishFromGerman = {
       "III. Nothing in the world is so strong as faith.\nFor through faith Jacob fought with God and carried away the victory."
     ],
     "reflection": "There Jacob had to wrestle with a man.\nWho, then, was this man? Truly God the Son.\nAnd behold, God let himself be overcome by Jacob;\nWho carried away the blessing from this struggle also.\nMy God! I too will grasp you with strong faith,\nAnd will not let you go before you bless me."
+  },
+  "16": {
+    "pages": [
+      99,
+      100,
+      101,
+      102,
+      105
+    ],
+    "printed": "43–47",
+    "latin": "In foveam fratres insontem mittere fratrem,\nIndeque protractum vendere non dubitant.\nSed cur hoc faciunt? Respondent Biblia sacra:\nPropterea, cultor quod pietatis erat.\nO Pietas! a te nunquam mea vita recedat,\nSi vel Josephi fata ferenda forent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 32,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Joseph Was Sold by His Brothers",
+    "reference": "Genesis, chapter XXXVII.",
+    "narrative": "1. Jacob had twelve sons in all. 2. His dearest among them was Joseph, 3. because he had begotten him in his old age with the beautiful Rachel, 4. for which reason he had also had a beautiful multicolored coat made for him. 5. But his brothers were hostile to him and could not speak a friendly word to him. 6. The chief reason was probably that Joseph reported his brothers to their father whenever they had done something evil. 7. Besides this, Joseph had also had two dreams which displeased his brothers. 8. Joseph told his brothers the first dream in these words: It seemed to me that we were binding sheaves in the field, and my sheaf rose and stood upright, and your sheaves bowed toward my sheaf. 9. Then his brothers said to him: Are you to become our king and reign over us? And they became still more hostile to him. 10. The second time Joseph dreamed that the sun, the moon, and eleven stars bowed before him. 11. His father rebuked him for this with these words: What sort of dream is this that you have dreamed? Shall I and your mother and your brothers come and bow down before you? Yet he kept the dream in his heart. 12. After this Joseph's brothers tended their father's livestock at Shechem. 13. Then Jacob said to his son Joseph: Go and see whether all is well with your brothers and the livestock, and report back to me. 14. When they saw Joseph coming from afar, they said at once: Here comes the dreamer; 15. come, let us kill him. 16. The eldest brother Reuben did not agree to this, 17. but said: Shed no blood, but throw him into the pit that is in the wilderness. 18. Reuben did this with good intentions, so that he might afterward secretly draw him out of the pit and bring him back to his father. 19. The brothers agreed and stripped Joseph of his multicolored coat, 20. and threw him into a pit in which there was no water. 21. Thereupon they sat down to eat, as though they had accomplished everything very well. 22. Some merchants happened to travel past with camels. 23. Then Judah said to his brothers: Come, let us sell our brother. 24. The brothers obeyed his voice and drew Joseph out of the pit, 25. and sold him for twenty pieces of silver. 26. The eldest brother Reuben knew nothing of this, but went secretly to the pit and wished to draw Joseph out; when he did not find the boy, he tore his clothes and said: The boy is not there; where shall I go? 27. Then they took Joseph's coat, slaughtered a goat, and dipped the coat in the blood. 28. Afterward they sent this bloody garment to their old father and had them say to him: We have found this; see whether it is your son's coat. 29. The good father recognized the coat at once and cried aloud: It is my son's coat; an evil beast has devoured him, a wild beast has torn Joseph apart. 30. All his sons and daughters came forward and wished to comfort him; but he would not allow himself to be comforted, and said: 31. I shall go down in sorrow into the grave to my son. 32. Meanwhile the merchants brought Joseph to Egypt and sold him to Potiphar, who was a steward of the king in Egypt.",
+    "questions": [
+      "How many sons did Jacob have?",
+      "Which was dearest to him?",
+      "What was the reason?",
+      "By what could one recognize it?",
+      "How, then, were his brothers disposed toward him?",
+      "Why were his brothers so resentful toward him?",
+      "What else was added to this?",
+      "How did Joseph tell the first dream?",
+      "What interpretation did his brothers make of it?",
+      "What did Joseph dream the second time?",
+      "What did his father say about this dream?",
+      "Where did his brothers stay after this?",
+      "What did Jacob say to his son Joseph?",
+      "What did the brothers say when they saw him coming?",
+      "What counsel did they resolve upon concerning him?",
+      "Who did not agree to this murderous counsel?",
+      "What other proposal did Reuben make?",
+      "What intention did Reuben have in this?",
+      "What did the brothers say to this?",
+      "How, then, did they deal with Joseph?",
+      "What did they do afterward?",
+      "What sort of people traveled past?",
+      "What idea occurred to Judah on this occasion?",
+      "How did the brothers like this proposal?",
+      "For how much was Joseph sold?",
+      "What did Reuben say to this?",
+      "How did they deceive their old father?",
+      "What did the wicked boys have said to him?",
+      "What did Jacob say in response?",
+      "Who wanted to comfort Jacob?",
+      "What did Jacob prophesy concerning himself?",
+      "How did Joseph fare in the meantime?"
+    ],
+    "teachings": [
+      "I. What Joseph dreamed also happened to him afterward.\nFrom this we see that not all dreams are to be rejected outright.",
+      "II. Joseph's brothers first did evil things, afterward sold their brother, and finally deceived their father.\nFrom this we see how one sin continually arises from another when it is not resisted at the beginning.",
+      "III. Jacob was a godly man, and yet his sons were mostly wicked boys.\nFrom this we see that even godly parents can have wicked children, and therefore one should not be hasty in one's judgment."
+    ],
+    "reflection": "See how the wicked boys there hate Joseph!\nHear how plaintively he cries out in his pit!\nThink how at last he must allow himself to be sold!\nWhat was the cause of it? Nothing but godliness.\nDear godliness! Nothing shall separate me from you,\nEven if I should suffer as much for it as Joseph."
   }
 };
