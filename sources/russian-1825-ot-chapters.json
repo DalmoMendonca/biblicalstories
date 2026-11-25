@@ -222,7 +222,10 @@
       "printed_start": 75,
       "scan_start": 87,
       "scan_end_candidate": 94,
-      "scan_start_candidate": 86
+      "scan_start_candidate": 86,
+      "scan_start_verified": 87,
+      "scan_end_verified": 93,
+      "printed_verified": "75–81"
     },
     {
       "id": 21,

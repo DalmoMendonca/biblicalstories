@@ -960,5 +960,70 @@ export const englishFromGerman = {
       "III. The best expressions of courtesy are surely those in which we sincerely wish one another something good.\nJoseph received his brother Benjamin with these words: God be gracious to you, my son!"
     ],
     "reflection": "Joseph's brotherly heart begins to burn,\nAs he speaks with Benjamin for the first time.\nLord Jesus! I too may call you my brother,\nBut I do not yet know you by sight;\nHelp me, God! How blessed I shall be at that time,\nWhen I shall see you visibly in heaven."
+  },
+  "20": {
+    "pages": [
+      123,
+      124,
+      125,
+      126,
+      129
+    ],
+    "printed": "59–63",
+    "latin": "Vix possunt nati bis sex nutrire parentem.\nCum totidem natos vel pater unus alat.\nSoli Josepho licuit sic esse beato,\nFratribus ut cunctis cum patre ferret opem.\nO me felicem! simili ratione parentes\nGrandaevos potero si recreare meos.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "editorial_note": "Narrative marker 23 is absent in the German printing; supplied at the passage corresponding to printed question 23.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Joseph Made Himself Known to His Brothers",
+    "reference": "Genesis, chapters XLIV and XLV.",
+    "narrative": "1. When Joseph's brothers wished to travel home for the second time, Joseph commanded his steward to fill their sacks with food and put each man's money at the top of his sack. 2. Afterward he was to lay Joseph's silver table cup at the top of the youngest man's sack; 3. and the steward did this the evening before. 4. When they had scarcely left the city in the morning, he commanded his steward to pursue them. 5. When he had caught up with them, he called them to account for why they had repaid good with evil and taken away Joseph's silver table cup. 6. Jacob's sons were sure of themselves and said immediately: Whoever is found with the cup shall surely die, and all the others shall be Joseph's servants. 7. But when the steward searched everything, to their great misfortune the cup was found in Benjamin's sack of grain. 8. The good people did not know how this had happened, but tore their garments and returned to the city. 9. When they came back and lay upon their knees, Joseph addressed them and said: How dared you do this? Do you not know that a man such as I can divine? 10. His brothers could say nothing in response, but Judah spoke in the name of all: God has found out the iniquity of your servants; behold, both we and the one with whom the cup was found are my lord's servants. 11. Joseph answered: Far be it from me! The man with whom the cup was found shall be my servant; but you may go up in peace to your father. 12. No one was so frightened at this as Judah, because he had pledged himself for Benjamin. 13. He therefore begged earnestly that Joseph would keep him as a servant in place of the youngest brother: 14. for otherwise, if they came home and did not bring Benjamin with them, they would bring their father's gray hairs down to the grave with sorrow. 15. At last Joseph could restrain himself no longer, but had everyone go out, and afterward said to his brothers when they were quite alone with him: 16. I am Joseph your brother; is my father still alive? 17. His brothers could not answer him a word, so greatly were they terrified before his face. 18. But he told them to come nearer, and said to them that they should not grieve over having sold him, for God had sent him ahead of them to preserve their lives. 19. There were still five years of famine ahead, so they should travel home and come to Egypt with their father without delay. 20. There they should live in the land of Goshen and be richly provided for by him. 21. Thereupon he fell upon his brother Benjamin's neck, and Benjamin also wept upon his neck. 22. Afterward he gave each of his brothers a festive garment, 23. but to Benjamin he gave five festive garments and three hundred pieces of silver besides. 24. At the same time Joseph sent his old father ten donkeys with grain. 25. Finally he gave them a good rule for their journey, saying at parting: Do not quarrel on the way. 26. When they came home, they said to their old father: Your son Joseph is still alive and is lord over all the land of Egypt. 27. But Jacob did not believe it until he saw the wagons that his son Joseph had sent him. 28. Then his spirit revived entirely, and he said: It is enough that my son Joseph is still alive; I will go and see him. 29. He also set out with his whole household, 30. which consisted of seventy-two souls. 31. When Joseph came to meet him, his father said to him: Now I will gladly die, since I have seen your face and that you are still alive. 32. King Pharaoh commanded that Joseph should have his father and his brothers dwell in the best part of the land. 33. Joseph did this and gave them the land of Goshen, 34. in which they were very well provided for during the prolonged famine. 35. Nor did he take revenge upon his brothers afterward, but said to them: You intended to do evil to me, but God intended to make it good.",
+    "questions": [
+      "What did Joseph have put into his brothers' sacks?",
+      "But what especially for the youngest brother Benjamin?",
+      "When did Joseph's steward have to do this?",
+      "What happened when they had left?",
+      "What did he have them accused of?",
+      "What did the brothers offer to undergo?",
+      "But where was the cup found?",
+      "What did the good people say to this?",
+      "How were they addressed by Joseph?",
+      "How did they defend themselves in the matter?",
+      "Did Joseph accept the proposal?",
+      "Who was in the worst predicament?",
+      "What did Judah ask of Joseph?",
+      "Why did he do this?",
+      "How did Joseph feel about this?",
+      "How did he finally reveal himself?",
+      "What did the brothers say to this?",
+      "How were they comforted by Joseph?",
+      "What did Joseph advise on account of the famine?",
+      "In what land was Jacob to live?",
+      "How did he take leave of Benjamin?",
+      "What gifts did Joseph give his brothers?",
+      "What did Benjamin receive?",
+      "What did Joseph send his old father?",
+      "What good instruction did he give them at last?",
+      "What news did they bring their old father?",
+      "Did Jacob believe it?",
+      "What were his words on this occasion?",
+      "Who went along to Egypt?",
+      "How numerous was Jacob's household?",
+      "What words did Jacob address to Joseph?",
+      "What did King Pharaoh command?",
+      "What land did they receive for their dwelling?",
+      "How did they fare there?",
+      "Did Joseph not take revenge on his brothers?"
+    ],
+    "teachings": [
+      "I. By that with which a person has sinned, he is commonly punished.\nJoseph was in great anguish when he was thrown into the pit; now in turn his brothers did not know where to turn for anguish when they were accused of theft.",
+      "II. God cares for the godly even in the greatest calamities of a country.\nWhen famine was everywhere, Jacob with his entire household was well provided for in the land of Goshen.",
+      "III. The Lord God can turn everything to the best, however wickedly it may have been intended.\nThus Joseph said to his brothers who had sold him: You intended to do evil to me, but God intended to make it good."
+    ],
+    "reflection": "Twelve children can otherwise scarcely feed one father,\nYet one father often feeds and gives drink to twelve children;\nTherefore one must call you blessed, my Joseph,\nWho have given your father house and home.\nHow blessed I too shall consider myself in my own station,\nIf someday I can bring joy to my parents in their old age."
   }
 };

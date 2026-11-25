@@ -934,5 +934,69 @@ export const german1768 = {
       "III. Die besten Complimenten sind wohl, wenn man einander aus treuem Herzen was Gutes anwünschet.\nJoseph empfieng seinen Bruder Benjamin mit diesen Worten: GOtt sey dir gnädig, mein Sohn!"
     ],
     "reflection": "Es fängt bey Joseph an sein Bruder-Herz zu brennen /\nAls er mit Benjamin zum ersten male spricht.\nHErr JEsu! dich darff ich auch meinen Bruder nennen /\nAllein ich kenne dich noch nicht von Angesicht:\nHilf GOtt! wie wohl wird mir zur selben Zeit geschehen /\nWenn ich dich sichtbarlich im Himmel werde sehen."
+  },
+  "20": {
+    "pages": [
+      123,
+      124,
+      125,
+      126,
+      129
+    ],
+    "printed": "59–63",
+    "latin": "Vix possunt nati bis sex nutrire parentem.\nCum totidem natos vel pater unus alat.\nSoli Josepho licuit sic esse beato,\nFratribus ut cunctis cum patre ferret opem.\nO me felicem! simili ratione parentes\nGrandaevos potero si recreare meos.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "editorial_note": "Narrative marker 23 is absent in the German printing; supplied at the passage corresponding to printed question 23.",
+    "title": "Wie sich Joseph seinen Brüdern zu erkennen gegeben hat.",
+    "reference": "1. Mose XLIV. und XLV. Capitel.",
+    "narrative": "1. Wie Josephs Brüder zum andern mal nach Hause ziehen wolten, so befahl Joseph seinem Haushalter, daß er ihnen die Säcke mit Speise füllen, und einem jeglichen sein Geld oben in seinen Sack stecken solte. 2. Darnach solt er Josephs silbernen Tafel-Becher oben in des Jüngsten Sack legen; 3. und das that der Haushalter den Abend vorher. 4. Als sie nun des Morgens nur zur Stadt hinaus waren, so befahl er seinem Haushalter, daß er ihnen nachjagen solte. 5. Wie er sie nun eingeholet hatte, so satzte er sie zur Rede, warum sie das Gute mit Bösem vergolten, und Josephen seinen silbernen Tafel-Becher mitgenommen hätten? 6. Die Söhne Jacobs wusten sich gewiß, und sagten gleich: Bey wem der Becher gefunden würde, der solte des Todes sterben, und die andern alle solten Josephs Knechte seyn. 7. Als aber der Haushalter alles durchsuchte, so fand sich zu allem Unglücke der Becher in Benjamins Korn-Sacke. 8. Die guten Leute wusten nicht, wie das zugieng, sondern sie zerrissen ihre Kleider, und zogen wieder in die Stadt. 9. Wie sie zurücke kamen, und auf ihren Knien lagen, so redete sie Joseph an, und sprach: Wie habt ihr das thun dürffen? Wisset ihr nicht, daß ein solcher Mann, wie ich bin, errathen könne? 10. Seine Brüder konnten nichts darauf sagen, sondern Juda sprach: im Namen aller: GOtt hat die Missethat deiner Knechte funden, siehe, wir und bey dem der Becher funden ist, sind meines Herrn Knechte. 11. Joseph sagte darauf: Das sey ferne von mir! der Mann, bey dem der Becher funden ist, der soll mein Knecht seyn; ihr aber ziehet hinauf mit Frieden zu eurem Vater. 12. Darüber erschrack nun niemand so sehr als Juda, weil er vor Benjamin gut gesaget hatte. 13. Er bat deswegen gar sehr, Joseph möchte doch ihn an statt des jüngsten Bruders zum Knechte behalten: 14. Denn sonsten, wo sie nach Hause kämen, und Benjamin nicht mitbrächten, so würden sie die grauen Haare ihres Vaters mit Herzeleid in die Grube bringen. 15. Endlich konnte sich Joseph nicht länger halten, sondern ließ jederman hinausgehen, und sagte darnach zu seinen Brüdern, wie sie ganz alleine bey ihm waren: 16. Ich bin Joseph euer Bruder, lebet mein Vater noch? 17. Seine Brüder konnten ihm kein Wort darauf antworten, so sehr waren sie vor seinem Angesichte erschrocken. 18. Er aber hieß sie näher zu sich treten, und sagte zu ihnen: Sie solten sich darum nicht bekümmern, daß sie ihn verkauffet hätten, denn um ihres Lebens willen hätte ihn GOtt vor ihnen hergesand. 19. Es wären noch fünf theure Jahre vor der Thüre, also solten sie nach Hause reisen, und mit ihrem Vater ohne Verzug nach Egypten kommen, 20. da solten sie im Lande Gosen wohnen, und reichlich von ihm versorget werden. 21. Darauf fiel er seinem Bruder Benjamin um den Hals, und Benjamin weinete auch an seinem Halse. 22. Er beschenkte darnach seine Brüder einen jedweden mit einem Feyer-Kleide, 23. Benjamin aber gab er fünf Feyer-Kleider, und noch darzu dreyhundert Silberlinge. 24. Seinem alten Vater schickte Joseph zugleich zehen Esel mit Getreide. 25. Zuletzt gab er ihnen eine gute Regel mit auf die Reise, und sagte zum Abschiede: Zanket nicht auf dem Wege. 26. Wie sie nach Hause kamen, so sagten sie zu ihrem alten Vater: Dein Sohn Joseph lebet noch, und ist ein Herr über ganz Egyptenland. 27. Jacob aber glaubte es nicht eher, bis er die Wagen sahe, die ihm sein Sohn Joseph zugesendet hatte. 28. Darauf ward sein Geist ganz lebendig, und sagte: Ich habe genug, daß mein Sohn Joseph noch lebet, ich will hin, und will ihn sehen. 29. Er machte sich auch mit seinem ganzen Hause auf den Weg, 30. welches in zwey und siebenzig Seelen bestund. 31. Als ihm Joseph entgegen kam, sagte der Vater zu ihm: Ich will nun gerne sterben, nachdem ich dein Angesicht gesehen habe, daß du noch lebest. 32. Der König Pharao befahl, daß Joseph seinen Vater und seine Brüder in dem besten Orte des Landes solte wohnen lassen. 33. Das that Joseph und gab ihnen das Land Gosen ein, 34. darinnen sie in der langwierigen Theurung gar wohl versorget waren. 35. Er rächte sich auch weiter an seinen Brüdern nicht, sondern sagte ihnen: Ihr gedachtet es böse mit mir zu machen, aber GOtt gedachte es gut zu machen.",
+    "questions": [
+      "Was ließ Joseph seinen Brüdern in die Säcke stecken?",
+      "Was aber insonderheit dem jüngsten Bruder Benjamin?",
+      "Wenn muste das Josephs Haushalter thun?",
+      "Was trug sich zu wie sie fort waren?",
+      "Was ließ er ihnen Schuld geben?",
+      "Worzu erboten sich die Brüder?",
+      "Aber wo befand sich der Becher?",
+      "Was sagten die guten Leute darzu?",
+      "Wie wurden sie von Joseph angelassen?",
+      "Wie entschuldigten sie die Sache?",
+      "Nahm Joseph den Vorschlag an?",
+      "Wer war am übelsten daran?",
+      "Was bat denn Juda von Joseph?",
+      "Warum that er das?",
+      "Wie ward Josephen darbey zu muthe?",
+      "Wie gab er sich endlich zu erkennen?",
+      "Was sagten die Brüder darzu?",
+      "Wie wurden sie von Joseph getröstet?",
+      "Was rieth Joseph wegen der Theurung?",
+      "In was vor einem Lande solte Jacob wohnen?",
+      "Wie nahm er von Benjamin Abschied?",
+      "Womit beschenkte Joseph seine Brüder?",
+      "Was bekam Benjamin?",
+      "Was schickte Joseph seinem alten Vater?",
+      "Was gab er ihnen zuletzt vor eine gute Lehre?",
+      "Was brachten sie dem alten Vater vor Zeitung?",
+      "Glaubte es denn Jacob?",
+      "Was waren dabey seine Worte?",
+      "Wer zog mit in Egypten?",
+      "Wie starck war das Haus Jacob?",
+      "Was brauchte Jacob gegen Josephen vor Worte?",
+      "Was befahl der König Pharao?",
+      "Was bekamen sie vor ein Land zu ihrer Wohnung?",
+      "Wie giengs ihnen daselbst?",
+      "Rächte sich Joseph nicht an seinen Brüdern?"
+    ],
+    "teachings": [
+      "I. Womit einer gesündiget, damit wird er gemeiniglich gestraft.\nJoseph war in grossen Aengsten, als er in die Grube geworffen ward; jetzo wusten hingegen seine Brüder nicht, wo sie vor Angst bleiben solten, als sie eines Diebstahls beschuldiget worden.",
+      "II. GOtt sorget vor die Frommen, auch in den grösten Land-Plagen.\nDa aller Orten Hungers-Noth war, so war Jacob mit seinem ganzen Hause im Lande Gosen wohl versorget.",
+      "III. GOtt der HErr kan alles zum besten wenden, wenn es gleich noch so böse gemeinet ist.\nSo sagte Joseph zu seinen Brüdern, die ihn verkauffet hatten: Ihr gedachtet es böse mit mir zu machen, aber GOtt gedachte es gut zu machen."
+    ],
+    "reflection": "Zwölff Kinder können sonst kaum einen Vater speisen /\nDa doch ein Vater oft zwölff Kinder speist und träncket;\nDeswegen muß man dich / mein Joseph / glücklich preisen /\nDer du den Vater hast mit Haus und Hoff beschencket.\nWie selig will ich mich auch meines Ortes schätzen /\nWenn ich die Eltern einst im Alter kan ergötzen."
   }
 };
