@@ -53,7 +53,7 @@ if os.environ.get("COMPLETE_EDITION_RELEASE")=="1":
     audit_command.append("--release")
 subprocess.run(audit_command,cwd=ROOT,check=True)
 commit=os.environ.get("COMMIT_REF") or os.environ.get("GITHUB_SHA") or ""
-(DIST/"data"/"build-receipt.json").write_text(json.dumps({"commit":commit,"coverage":"data/corpus-audit.json"})+"\\n","utf8")
+(DIST/"data"/"build-receipt.json").write_text(json.dumps({"commit":commit,"coverage":"data/corpus-audit.json"})+"\n","utf8")
 
 if BASE_PATH:
     index = (DIST / "index.html").read_text(encoding="utf-8")
