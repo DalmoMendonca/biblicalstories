@@ -1709,5 +1709,71 @@ export const englishFromGerman = {
       "III. What has been done out of necessity must not be imitated without necessity.\nMichal lied to her father King Saul, but it happened in the utmost emergency; therefore no willful liar may appeal to this example."
     ],
     "reflection": "Devout David was far from taking revenge himself,\nThough his bitterest enemy came into his hands;\nRather, he entrusted to God the outcome of his cause,\nWhich finally came to a good end.\nMy God, I too will avenge myself on no enemy;\nYou as judge will surely pronounce a righteous judgment."
+  },
+  "32": {
+    "pages": [
+      195,
+      196,
+      197,
+      198,
+      201
+    ],
+    "printed": "107–111",
+    "latin": "David adulterio socialia foedera frangit,\nEt simul haud dubitat tingere caede manus,\nAmborum scelerum si causam forte requiris:\nLuminibus culpa est attribuenda vagis.\nHinc ego cum propriis oculis hoc foedus inibo,\nTalia ne spectent, quae Deus ipse vetat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "editorial_note": "German question 27 misprinted as 25; sequence restored. Russian witness gives sevenfold restitution and Psalm 50; German gives fourfold and Psalm 51.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Bathsheba.",
+    "reference": "2 Samuel XI and XII.",
+    "narrative": "1. King David had the city of Rabbah besieged by his commander Joab. 2. Meanwhile the king once walked upon the roof of his house, 3. and from there saw a beautiful woman bathing in a garden. 4. When David inquired about the woman, he learned that she was named Bathsheba and her husband Uriah. 5. Then the king had the woman brought to court and slept with her, so that she became pregnant. 6. But her husband Uriah was not at home; he was in the field with the king's army. 7. Then David had her husband summoned home from the camp, 8. so that people would believe Bathsheba had become pregnant by her husband. 9. But Uriah did not go home, and slept at court with the king's other servants. 10. The next day David had this Uriah made thoroughly drunk. 11. For he thought the man would at least go home to his wife when drunk. 12. But Uriah did not do so, and remained at court that night also. 13. Then David wrote a letter to the commander, in which stood these words: 14. Place Uriah where the fighting is fiercest, and withdraw from behind him, that he may die. 15. Uriah himself had to deliver this letter, but he did not know what stood in it. 16. Joab did as the king had commanded him, and thus innocent Uriah was slain. 17. His wife Bathsheba mourned her husband as long as was customary. 18. And when she had finished mourning, the king took her as his wife. 19. Some time afterward the Lord God sent the prophet Nathan to King David. 20. He told the king a story about a rich man and a poor man who had lived together in one city. 21. The rich man had many sheep and cattle; 22. but the poor man had only a single little lamb, which he had bought and raised. 23. This little lamb had eaten from his morsel, drunk from his cup, and slept in his bosom. 24. Meanwhile a guest had come to the rich man, 25. and the rich man had spared his own sheep and cattle and taken and slaughtered the poor man's only little lamb. 26. When David heard this, he immediately said in his anger: As surely as the Lord lives, the man who has done this deserves death; and he shall repay the sheep fourfold. 27. Then the prophet Nathan said to David: You are the man. 28. Thus by the rich man the prophet meant King David; 29. by the king's many sheep, his wives; 30. by the poor man, honorable Uriah; 31. and by the single little lamb, beautiful Bathsheba. 32. The prophet Nathan then announced to King David various punishments from God. 33. David immediately came to himself and said: I have sinned against the Lord. 34. Thereupon Nathan said to David: The Lord has also taken away your sin; you shall not die. 35. But because by this deed you have caused the enemies of the Lord to blaspheme, the son who has been born to you shall surely die. 36. At that time David composed the fifty-first Psalm, which begins: God, be gracious to me according to your goodness.",
+    "questions": [
+      "What city did David have besieged?",
+      "What did David do meanwhile?",
+      "What did David see in the garden?",
+      "Who was this woman?",
+      "What folly did David commit?",
+      "Where was her husband Uriah?",
+      "What command did Uriah receive in the camp?",
+      "Why did David do this?",
+      "But did Uriah go to his wife?",
+      "What other means did David employ?",
+      "Why did he have him made drunk?",
+      "Did Uriah go home when drunk?",
+      "What letter did David write?",
+      "What stood in this letter?",
+      "Who had to carry this letter?",
+      "What did the commander Joab do?",
+      "What did Bathsheba say to this?",
+      "What became of Bathsheba after Uriah's death?",
+      "Whom did God send to David?",
+      "What story did Nathan tell David?",
+      "How did Nathan describe the rich man?",
+      "And how the poor man?",
+      "How did the poor man keep his little lamb?",
+      "What happened to the rich man?",
+      "With what did the rich man entertain his guest?",
+      "What judgment did David pronounce upon this man?",
+      "What did Nathan then say to David?",
+      "Whom did Nathan mean by the rich man?",
+      "What did he mean by the rich man's many sheep?",
+      "Whom did he mean by the poor man?",
+      "And what by his only little lamb?",
+      "What else did Nathan say to David?",
+      "How did David make his confession?",
+      "With what words was he absolved?",
+      "But what did God reserve to himself?",
+      "What penitential Psalm did David compose at that time?"
+    ],
+    "teachings": [
+      "I. Women should take care that they give no one occasion for stumbling.\nHad Bathsheba not exposed herself in her garden, would David have committed neither adultery nor murder?",
+      "II. Sermons that come from the heart go back to the heart.\nWhen the prophet Nathan had diligently prepared his penitential sermon, David's heart was thereby touched and won.",
+      "III. If one has not been ashamed to commit sin, one must not be ashamed to confess sin either.\nWhen Nathan had said to David: You are the man deserving death, David did not wish to deny his sin, but confessed plainly: I have sinned against the Lord."
+    ],
+    "reflection": "Adultery and murder were the two sins\nThat David committed against God at once.\nIf one would find the first cause of both vices,\nIt was indeed David's eyes that were at fault.\nTherefore I will make a covenant with my eyes,\nSo that they may never again look upon forbidden things."
   }
 };

@@ -1671,5 +1671,70 @@ export const german1768 = {
       "III. Was aus Noth geschehen ist, das muß man ohne Noth nicht nachmachen.\nMichael belog ihren Vater den König Saul; aber es geschah in dem äussersten Nothfalle; Und also darf sich kein muthwilliger Lügner auf dieses Exempel berufen."
     ],
     "reflection": "Der fromme David war entfernt von eigner Rache /\nOb ihm sein ärgster Feind gleich in die Hände kam:\nVielmehr befahl er GOtt den Ausgang seiner Sache /\nDie endlich auch zuletzt ein gutes Ende nahm.\nMein GOtt / ich will mich auch an keinem Feinde rächen /\nDu wirst als Richter schon ein rechtes Urtheil sprechen."
+  },
+  "32": {
+    "pages": [
+      195,
+      196,
+      197,
+      198,
+      201
+    ],
+    "printed": "107–111",
+    "latin": "David adulterio socialia foedera frangit,\nEt simul haud dubitat tingere caede manus,\nAmborum scelerum si causam forte requiris:\nLuminibus culpa est attribuenda vagis.\nHinc ego cum propriis oculis hoc foedus inibo,\nTalia ne spectent, quae Deus ipse vetat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "editorial_note": "German question 27 misprinted as 25; sequence restored. Russian witness gives sevenfold restitution and Psalm 50; German gives fourfold and Psalm 51.",
+    "title": "Von der Bathseba.",
+    "reference": "2. Sam. XI. und XII. Capitel.",
+    "narrative": "1. Der König David ließ die Stadt Rabba durch seinen Feld-Hauptmann Joab belagern. 2. Unterdessen gieng der König einsten auf dem Dache seines Hauses spaziren, 3. und sahe von demselben ein schönes Weib, die sich in einem Garten badete. 4. Wie nun David nach dem Weibe fragen ließ, so hieß sie Bathseba, und ihr Mann hieß Urias. 5. Da ließ der König das Weib nach Hofe holen, und schlief bey ihr, daß sie schwanger ward. 6. Ihr Mann Urias aber war nicht zu Hause, sondern er lag mit des Königs Armee zu Felde. 7. Da ließ David ihren Mann aus dem Lager nach Hause kommen, 8. damit die Leute glauben solten, Bathseba wäre von ihrem Manne schwanger worden. 9. Aber Urias gieng nicht nach Hause, sondern schlief zu Hofe bey den andern Knechten des Königes. 10. Den andern Tag ließ David diesem Urias einen guten Rausch zubringen. 11. Denn er dachte, der Mann würde zum wenigsten in voller Weise zu seiner Frauen nach Hause gehen. 12. Aber Urias that es nicht, sondern blieb auch diese Nacht bey Hofe. 13. Da schrieb David einen Brief an den Feld-Hauptmann, darinnen stunden diese Worte: 14. Stellet Uriam an den Streit, da er am härtesten ist, und wendet euch hinter ihm ab, daß er sterbe. 15. Diesen Brief muste Urias selber überbringen, er wuste aber nicht was darinnen stund. 16. Joab that wie ihm der König befohlen hatte, und Urias ward solcher gestalt unschuldig erschlagen. 17. Sein Weib Bathseba traurete um ihren Mann, so lange sichs geziemte. 18. Und wie sie ausgetrauret hatte, so nahm sie der König zu seiner Gemahlin. 19. Einige Zeit darnach sandte GOtt der HErr den Propheten Nathan zum Könige David. 20. Derselbe erzählte dem Könige eine Historie von einem reichen und armen Manne, die in einer Stadt beysammen gewohnet hätten. 21. Der reiche Mann hätte viel Schafe und Rinder; 22. der arme aber nur ein eintziges Schäflein gehabt, das er sich gekauft und erzogen hätte. 23. Dieses Schäflein hätte von seinem Bissen gegessen, aus seinem Becher getrunken, und in seinem Schooße geschlafen. 24. Unterdessen wäre ein Gast zu dem reichen Manne gekommen, 25. da hätte der reiche Mann seine Schafe und Rinder geschonet, und hätte dem armen Menschen sein eintziges Schäflein genommen und geschlachtet. 26. Wie David dieses hörte, so sprach er gleich in seinem Zorne: So wahr der HErr lebet, der Mann ist ein Kind des Todes, der das gethan hat; und das Schaf soll er vierfältig bezahlen. 27. Da sprach der Prophet Nathan zu David: Du bist der Mann. 28. Also verstund der Prophet unter dem reichen Manne den König David; 29. unter den vielen Schafen des Königes seine Weiber; 30. unter dem armen Manne den ehrlichen Urias; 31. und unter dem einzigen Schäflein die schöne Bathseba. 32. Der Prophet Nathan kündigte darauf dem Könige David allerhand Strafen GOttes an. 33. Da schlug David gleich in sich, und sagte: Ich habe gesündiget wider den HErrn. 34. Darauf sagte Nathan zu David: So hat auch der HErr deine Sünde weggenommen, du wirst nicht sterben. 35. Aber weil du die Feinde des HErrn durch diese Geschichte hast lästern gemacht, so wird der Sohn, der dir gebohren ist, des Todes sterben. 36. Damals hat David den Ein und Funfzigsten Psalm gemacht, welcher sich anhebt: GOtt, sey mir gnädig nach deiner Güte.",
+    "questions": [
+      "Was ließ David vor eine Stadt belagern?",
+      "Was machte David unterdessen?",
+      "Was sahe David in dem Garten?",
+      "Was war das vor ein Weib?",
+      "Was begieng David vor eine Thorheit?",
+      "Wo war denn ihr Mann Urias?",
+      "Was bekam Urias vor einen Befehl ins Lager?",
+      "Warum that solches David?",
+      "Aber hielt sich Urias auch zu seinem Weibe?",
+      "Was brauchte David vor ein ander Mittel?",
+      "Warum ließ er ihm einen Rausch zubringen?",
+      "Gieng denn Urias in voller Weise nach Hause?",
+      "Was schrieb David vor einen Brief?",
+      "Was stund denn in diesem Briefe?",
+      "Wer muste diesen Brief mitnehmen?",
+      "Was that der Feld-Hauptmann Joab?",
+      "Was sagte Bathseba darzu?",
+      "Wo blieb diese Bathseba nach Uriä Tode?",
+      "Wen schickte GOtt an David?",
+      "Was vor eine Historie erzählte Nathan dem David?",
+      "Wie beschrieb Nathan den reichen Mann?",
+      "Wie aber den armen Mann?",
+      "Wie hielt der arme Mann sein Schäflein?",
+      "Was trug sich mit dem reichen Manne zu?",
+      "Womit tractirte der Reiche seinen Gast?",
+      "Was fällte David vor ein Urtheil über diesen Mann?",
+      "Was sagte Nathan hierauf zu David?",
+      "Was verstund also Nathan unter dem reichen Manne?",
+      "Was denn unter den vielen Schafen des reichen Mannes?",
+      "Was aber unter dem armen Mann?",
+      "Und was denn unter seinem einzigen Schäflein?",
+      "Was redete Nathan weiter mit David?",
+      "Wie legte David seine Beichte ab?",
+      "Mit was vor Worten ward er absolviret?",
+      "Aber was behielt sich GOtt voraus?",
+      "Was hat David dazumahl vor einen Buß-Psalm gemacht?"
+    ],
+    "teachings": [
+      "I. Frauens-Personen sollen sich in acht nehmen, daß sie niemand Aergerniß geben.\nHätte sich Bathseba nicht in ihrem Garten entblösset, so hätte David keinen Ehebruch und auch keinen Mord begangen?",
+      "II. Die Predigten, die von Herzen kommen, die gehen auch wieder zu Herzen.\nWie der Prophet Nathan recht auf seine Buß-Predigt studirt hatte, so ward auch das Hertze Davids dadurch gerühret und gewonnen.",
+      "III. Wenn man sich nicht geschämet hat, Sünde zu begehen, so muß man sich auch nicht schämen, Sünde zu bekennen.\nWie Nathan zu David gesprochen hatte: Du bist der Mann des Todes; so begehrte David seine Sünde nicht zu leugnen, sondern er beichtete gerade heraus: Ich habe gesündiget wider den HErrn."
+    ],
+    "reflection": "Ein Ehbruch und ein Mord / das waren die zwey Sünden /\nDie David wider GOtt auf einmal hat gethan.\nWill man den ersten Grund von beyden Lastern finden /\nSo kam es in der That auf Davids Augen an.\nDrum will ich einen Bund mit meinen Augen machen /\nDamit sie nimmermehr sehn nach verbotnen Sachen."
   }
 };
