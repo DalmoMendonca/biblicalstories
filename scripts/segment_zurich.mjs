@@ -53,13 +53,47 @@ function buildDraft(raw,index,manifest){
   }
   return {schema:1,status:"unreviewed-editorial-segmentation-not-publication",source:index.source,source_git_blob:index.source_git_blob,offset_units:"UTF-16",page_alignment:{text_pages:pages.length,nonempty_alto_pages:nonempty.length,method:"order and count; verify individual ALTO line correspondence before editorial acceptance"},records:result};
 }
+
+function fixEmbeddedMarkers(raw,draft){
+ const patterns={questions:/Deutliche\s+[FK8][rvt][aä][gctz][eä][n»!.]*/gi,teachings:/N[üu]tzliche\s+Lehr[eä][nstr.!»]*/gi,reflection:/Gottselige\s+Geda[nm][ck]{0,2}[eä][n»]?[\s.,!]*/gi};
+ for(const rec of draft.records){
+  let phase=null,out=[];
+  for(const s of rec.segments){
+   let [page,start,end,section,reason,marker]=s;
+   const matches=[];const line=raw.slice(start,end);
+   for(const [k,p] of Object.entries(patterns))for(const m of line.matchAll(p))matches.push({k,a:start+m.index,b:start+m.index+m[0].length});
+   matches.sort((a,b)=>a.a-b.a);
+   if(matches.length){
+    let at=start;
+    for(const m of matches){
+     if(m.a>at)out.push([page,at,m.a,phase||section,reason,null]);
+     out.push([page,m.a,m.b,"section-heading","embedded-or-exact-heading",m.k]);
+     at=m.b;phase=m.k==="questions"?null:m.k;
+    }
+    if(at<end)out.push([page,at,end,phase||matches.at(-1).k,"same-line-section-content",null]);
+   } else {
+    if(marker==="teachings"||marker==="reflection")phase=marker;
+    if(section!=="section-heading"&&section!=="running-header-candidate"&&section!=="unassigned"&&phase)section=phase;
+    out.push([page,start,end,section,reason,marker]);
+   }
+  }
+  rec.segments=out;rec.counts={};for(const [page,start,end,section] of out)if(raw.slice(start,end).trim())rec.counts[section]=(rec.counts[section]||0)+1;
+  rec.flags=rec.flags.filter(f=>!f.startsWith("missing-candidate"));for(const k of ["narrative","questions","teachings","reflection"])if(!rec.counts[k])rec.flags.push("missing-candidate-"+k);
+ }
+ return draft;
+}
+
 const root=process.cwd();
 const read=p=>fs.readFileSync(path.join(root,p),"utf8");
 const raw=read("public/data/german-ocr.txt"),idx=JSON.parse(read("public/data/zurich-chapters.json")),manifest=JSON.parse(read("sources/zurich-layout/manifest.json"));
 const blob=crypto.createHash("sha1").update("blob "+Buffer.byteLength(raw)+"\0").update(raw).digest("hex");
 if(blob!==idx.source_git_blob)throw Error("Source checksum mismatch");
 const draft=buildDraft(raw,idx,manifest);
+for(const rec of draft.records)rec.segments=rec.segments.map(({page,start,end,section,reason,marker})=>[page,start,end,section,reason||null,marker||null]);
+draft.segment_columns=["page","start","end","section","reason","marker"];
+fixEmbeddedMarkers(raw,draft);
 const dest=path.join(root,"sources/zurich-editorial");fs.mkdirSync(dest,{recursive:true});
 for(const rec of draft.records){fs.writeFileSync(path.join(dest,String(rec.id).padStart(3,"0")+".json"),JSON.stringify(rec)+"\n");}
 const {records,...meta}=draft;fs.writeFileSync(path.join(dest,"manifest.json"),JSON.stringify({...meta,records:records.map(({segments,...r})=>r)},null,2)+"\n");
+fs.writeFileSync(path.join(dest,"index.json"),JSON.stringify(draft)+"\n");
 console.log("Draft chapter records:",records.length,"all four candidate sections:",records.filter(r=>!r.flags.some(x=>x.startsWith("missing"))).length);
