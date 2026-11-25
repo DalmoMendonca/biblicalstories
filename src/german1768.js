@@ -66,6 +66,42 @@ export const german1768 = {
     "reflection": "Aus Erde ward von GOtt der erste Mensch erschaffen /\nDem GOtt sein Ebenbild aus Gnaden hat geschenckt:\nWie kan doch nun ein Mensch sich in sich selbst vergaffen?\nWann er nur dann und wann an seinen Ursprung denckt?\nMir soll der Erden-Klos allzeit vor Augen schweben /\nSo oft mein Hertze will nach hohen Dingen streben.",
     "latin": "Adam primus homo, de quo descendimus omnes,\nEx gleba terrae factus imago Dei est.\nCur igitur fastu turgentia corda geramus,\nHumani generis cum sit origo lutum?\nAudebit quoties mea mens extollere cristas,\nAnte oculos aderit terrea gleba meos."
   },
+  "3": {
+    "title": "Von dem Stand der Unschuld im Paradiese.",
+    "reference": "1. Mose II. und III. Capitel.",
+    "pages": [
+      35,
+      36,
+      39
+    ],
+    "printed": "5–7",
+    "narrative": "1. Adam und Eva lebten anfangs im Stande der Unschuld. 2. In diesem Stande hatten sie das Ebenbild Gottes an sich. 3. Sie waren also ohne Sünde in rechtschaffener Gerechtigkeit und Heiligkeit. 4. Damals war der Tod noch nicht in der Welt, sondern Adam und Eva waren unsterblich. 5. Vor den wilden Thieren durften sie sich nicht fürchten, denn sie musten dem Menschen alle gehorsam seyn. 6. Zur selben Zeit hatten sie auch keine Kleider nöthig, sondern im Stande der Unschuld giengen sie nackend. 7. Ihre Wohnung war das Paradies. 8. Das war ein schöner Garten, welchen GOtt selber angeleget hatte. 9. In demselben stunden allerhand schöne Bäume, die lustig anzusehen waren. 10. Es begiengen aber die ersten zwey Menschen eine schwere Sünde: 11. Darüber ward GOtt der HERR zornig, und jagte sie aus dem Paradiese. 12. Er satzte auch einen Engel mit einem blossen hauenden Schwerdte vor die Thüre, damit sie nicht wieder hinein konten. 13. Durch diesen Sünden-Fall haben die Menschen das Ebenbild GOttes verlohren. 14. An dessen Stelle ist die Sünde in die Welt gekommen, und durch die Sünde der Tod. 15. Adam zeugte darauf Kinder, die seinem Bilde ähnlich waren: 16. Und bis auf diesen Tag werden alle seine Nachkommen in Sünden empfangen und gebohren.",
+    "questions": [
+      "In was vor einem Stande lebten die ersten Menschen?",
+      "Was hatten die ersten Menschen im Stande der Unschuld an sich?",
+      "Hatten die ersten Menschen keine Sünde an sich?",
+      "War denn der Tod auch im Paradiese?",
+      "Musten sie sich nicht für den wilden Thieren fürchten?",
+      "Wie gieng denn Adam und Eva gekleidet?",
+      "Wo wohneten die ersten Menschen?",
+      "Was war denn das Paradies?",
+      "Was stund denn im Paradiese?",
+      "Wie führten sich die Menschen auf im Paradiese?",
+      "Was sagte GOtt darzu?",
+      "Konten sie nicht wieder hinein gehen?",
+      "Was verlohren die Menschen durch den Sünden-Fall?",
+      "Was ist denn davor in die Welt gekommen?",
+      "Was zeugte Adam nach dem Falle vor Kinder?",
+      "Wie sind denn Adams Nachkommen von Natur beschaffen?"
+    ],
+    "teachings": [
+      "Aus dieser Geschichte kan man den grossen Unterschied des menschlichen Geschlechts vor dem Sünden-Fall und nach dem Sünden-Fall erkennen.\n\nI. In dem Stande der Unschuld waren die Menschen gerecht und heilig.\nNach dem Sünden-Fall aber muß ein jeder singen: Sieh, HERR! in Sünden bin ich gebohrn, in Sünden empfieng mich meine Mutter.",
+      "II. In dem Stande der Unschuld waren die Menschen unsterblich.\nNach dem Sünden-Fall aber heist es leider: Ach HErr, lehr uns bedencken wohl, daß wir sind sterblich allzumal.",
+      "III. In dem Stande der Unschuld wohnten die Menschen in einem Paradiese.\nNach dem Sünden-Fall aber müssen wir Menschen ausrufen: Es ist allhier ein Jammerthal, Angst, Noth und Trübsal überall."
+    ],
+    "reflection": "Wo ist das Paradies mit seinen schönen Bäumen /\nDarein GOtt hat gesetzt das allererste Paar?\nAch Adam hat es bald mit Eva müssen räumen /\nAls Gottes Ebenbild einmal verscherzet war.\nWas ist dann nun zu thun? ich werde mich bemühen /\nIns andre Paradies / wo Christus wohnt / zu ziehen.",
+    "latin": "Heu mihi! primorum sedes peramoena parentum,\nDicitur in sacris qui Paradisus, ubi est?\nAh! fuit, ah! periit! postquam fatalia pomae\nArbore de vetita carpserat Eva parens?\nQuid superest nobis? Paradisus scilicet alter,\nIn quo cum Christo, tu latro dexter, agis."
+  },
   "6": {
     "title": "Von der Sündfluth.",
     "reference": "1. Mose VI. VII. VIII. und IX. Capitel.",
