@@ -1611,5 +1611,65 @@ export const german1768 = {
       "III. Ein tugendhaffter Mensch findet aller Orten Liebe, Gunst und Gewogenheit.\nMit David machte der Königliche Printz Jonathan einen Bund, und die Königliche Printzessin, Michal, gewann ihn lieb."
     ],
     "reflection": "Mehr als sechs Ellen hoch ist Goliath gewesen /\nDen David hat erlegt durch einen Schleuder-Stein.\nIch hatte dieses nur in GOttes Wort gelesen /\nSo dacht ich / ob das nicht ein Vorbild möchte seyn?\nJa / Goliath bedeut den Teufel in der Hölle /\nUnd JEsus Christus steht an Davids seiner Stelle."
+  },
+  "31": {
+    "pages": [
+      189,
+      190,
+      191,
+      192,
+      195
+    ],
+    "printed": "103–107",
+    "latin": "Non fovet ultrices David sub pectore flammas,\nHostem jure potest dum jugulare suum:\nQuin Domino potius statuit committere causam;\nQuam Deus optato denique fine beat.\nSic quoque privatam vindictam sumere nolo,\nTu, DEUS omnipotens, arbiter aequus eris.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 31,
+      "teachings": 3
+    },
+    "editorial_note": "Printed narrative repeats number 7 at item 8; restored to match questions. Heading prints 4. Sam.; retained as printed.",
+    "title": "Von dem verfolgten David.",
+    "reference": "4. Sam. XIX. XXI. XXIV. und XXVI. Capitel.",
+    "narrative": "1. Der König Saul redte mit seinem Sohne Jonathan, daß er David tödten solte. 2. Jonathan aber warnete David, und bat vor ihn bey seinem Vater. 3. Nicht lange darnach kam der böse Geist über den König Saul: 4. Da muste David abermal auf seiner Harffe vor ihm spielen. 5. Da schoß Saul einen Spieß nach ihm, und gedachte Daviden an die Wand zu spiessen. 6. Aber der Spieß fuhr in die Wand, und David entrann aus seinen Händen. 7. Darauf ließ ihn Saul in seinem eigenen Hause bewahren. 8. Aber Michal, seine Gemahlin, ließ ihn durchs Fenster herunter. 9. An seine Stelle aber legte sie ein hölzern Bild ins Bette, und gab vor, David wäre kranck. 10. Saul befahl alsobald, daß sie den krancken David zusammt dem Bette vor ihn bringen solten. 11. Aber wie die Boten kamen, siehe so lag ein hölzern Bild im Bette. 12. Michal gab unterdessen vor, David hätte sie ermorden wollen, wofern sie ihn nicht hätte gehen lassen. 13. David muste hierauf seine Zuflucht zu dem Könige Achis zu Gath nehmen. 14. Er merckte aber bald, daß er bey dem Könige Achis nicht würde sicher seyn. 15. Deswegen stellte er sich närrisch, und lief mit dem Kopffe wider die Wand, und sein Geifer floß in seinen Bart. 16. Da sagte der König Achis, ob der Unsinnigen zu wenig in seinem Lande wären, sie solten den rasenden Menschen fortschaffen. 17. Wie nun David nirgend sicher war, so verkroch er sich in eine Höle mit seinen Männern. 18. In eben dieselbe Höle kam Saul, und wolte seine Nothdurft darinnen verrichten. 19. Da riethen dem David zwar seine Männer, er solte sich der Gelegenheit bedienen und seinen Feind umbringen. 20. David aber wolte seine Hand nicht an den Gesalbten des HErrn legen. 21. Doch schnitte er einen Zipffel von dem Rocke Sauls, welchen er etwa von sich geleget hatte. 22. Wie sie darnach beyde aus der Höle heraus gegangen waren, so wieß ihm David von weiten den Zippel von seinem Rocke, und sagte darzu: 23. Der HErr sey Richter zwischen mir und dir. Da hub Saul seine Stimme auf und weinte, 24. und sprach: Du bist gerechter, denn ich. 25. Dem ohngeachtet zog Saul nochmals wider David zu Felde und schlief in seinem Lager. 26. Da gieng David hin, und nahm Sauls Spieß und Becher zu seinen Häupten hinweg. 27. Es wachte niemand in Sauls Lager auf, denn es war ein tiefer Schlaf vom HErrn auf sie gefallen. 28. Des Morgens trat David auf die Spitze des Berges, und zeigte den Spieß und den Becher von ferne. 29. Da sagte Saul: Siehe, ich habe sehr thörlich und unweißlich gethan. 30. Ja er gab ihm gar einen Segen, und sagte: Gesegnet seyst du, mein Sohn David, du wirst es thun, und hinaus führen. 31. Nicht lange darnach erstach sich Saul mit seinem eignen Schwerdt, und David ward König an seine Statt.",
+    "questions": [
+      "Was redte Saul mit seinem Sohne Jonathan?",
+      "Was that aber Jonathan?",
+      "Was kam darnach über den König Saul?",
+      "Was muste David darbey vornehmen?",
+      "Wie führte sich Saul in der Raserey auf?",
+      "Ward David getroffen?",
+      "Wo wurde David bewacht?",
+      "Wer ließ ihn zum Fenster hinunter?",
+      "Was legte Michal davor ins Bette?",
+      "Was stellte Saul vor Ordre?",
+      "Was funden sie denn im Bette?",
+      "Wie entschuldigte sich Michal gegen ihren Vater?",
+      "Wo muste sich David hin retiriren?",
+      "Wie sahe es daselbst für den guten David aus?",
+      "Was muste David aus Noth thun?",
+      "Was sagte der König Achis darzu?",
+      "Wo muste sich endlich David hin verkriechen?",
+      "Wer kam denn in dieselbe Höhle?",
+      "Was wurde David gerathen?",
+      "Aber ließ sich David den Rath gefallen?",
+      "Was machte David mit dem Rocke des Königes?",
+      "Was nahm er mit dem Zipffel des Rocks vor?",
+      "Was brauchte David dabey vor Worte?",
+      "Was sagte Saul, wie er den Zippel von seinem Rocke sahe?",
+      "Gab sich denn Saul nunmehr zufrieden?",
+      "Was nahm David aus dem Lager hinweg?",
+      "Wachte denn niemand im Lager auf?",
+      "Was machte David mit dem Spiesse und mit dem Becher?",
+      "Was sagte Saul darzu?",
+      "Was gab er dem David vor einen Segen?",
+      "Was hatte die Verfolgung Davids endlich vor einen Ausgang?"
+    ],
+    "teachings": [
+      "I. Wenn Eltern ihren Kindern etwas sündliches befehlen, so müssen sie es nicht thun, sondern sie müssen GOtt mehr gehorchen, als ihren Eltern.\nDas that Jonathan: Denn als ihm sein Vater Saul befohlen hatte, daß er den unschuldigen David tödten solte: so ließ er David warnen, damit er sich in Zeiten aus dem Staube machen konte.",
+      "II. Man muß seine Hand an keinen Gesalbten des Herrn legen.\nDas that David: der konte seinen König Saul mehr als einmal erwürgen; aber David ließ solches ferne von ihm seyn.",
+      "III. Was aus Noth geschehen ist, das muß man ohne Noth nicht nachmachen.\nMichael belog ihren Vater den König Saul; aber es geschah in dem äussersten Nothfalle; Und also darf sich kein muthwilliger Lügner auf dieses Exempel berufen."
+    ],
+    "reflection": "Der fromme David war entfernt von eigner Rache /\nOb ihm sein ärgster Feind gleich in die Hände kam:\nVielmehr befahl er GOtt den Ausgang seiner Sache /\nDie endlich auch zuletzt ein gutes Ende nahm.\nMein GOtt / ich will mich auch an keinem Feinde rächen /\nDu wirst als Richter schon ein rechtes Urtheil sprechen."
   }
 };

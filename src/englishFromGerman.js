@@ -1648,5 +1648,66 @@ export const englishFromGerman = {
       "III. A virtuous person finds love, favor, and goodwill everywhere.\nThe royal prince Jonathan made a covenant with David, and the royal princess Michal fell in love with him."
     ],
     "reflection": "More than six cubits tall was Goliath,\nWhom David struck down with a sling stone.\nI had scarcely read this in God's word,\nWhen I thought: might this not be a type?\nYes, Goliath signifies the devil in hell,\nAnd Jesus Christ stands in David's place."
+  },
+  "31": {
+    "pages": [
+      189,
+      190,
+      191,
+      192,
+      195
+    ],
+    "printed": "103–107",
+    "latin": "Non fovet ultrices David sub pectore flammas,\nHostem jure potest dum jugulare suum:\nQuin Domino potius statuit committere causam;\nQuam Deus optato denique fine beat.\nSic quoque privatam vindictam sumere nolo,\nTu, DEUS omnipotens, arbiter aequus eris.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 31,
+      "teachings": 3
+    },
+    "editorial_note": "Printed narrative repeats number 7 at item 8; restored to match questions. Heading prints 4. Sam.; retained as printed.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of David Persecuted.",
+    "reference": "1 Samuel XIX, XXI, XXIV, and XXVI (German heading misprints 4).",
+    "narrative": "1. King Saul spoke with his son Jonathan about putting David to death. 2. But Jonathan warned David and pleaded for him with his father. 3. Not long afterward the evil spirit came upon King Saul. 4. Then David had to play his harp before him again. 5. Saul hurled a spear at him, intending to pin David to the wall. 6. But the spear went into the wall, and David escaped from his hands. 7. Thereupon Saul had him guarded in his own house. 8. But Michal, his wife, let him down through the window. 9. In his place she put a wooden image in the bed and pretended that David was ill. 10. Saul immediately commanded that they bring sick David before him together with the bed. 11. But when the messengers came, behold, a wooden image lay in the bed. 12. Meanwhile Michal claimed that David would have murdered her had she not let him go. 13. David then had to take refuge with King Achish at Gath. 14. But he soon perceived that he would not be safe with King Achish. 15. Therefore he pretended to be mad, ran his head against the wall, and his saliva flowed into his beard. 16. King Achish then asked whether there were too few madmen in his land, and told them to take the raving man away. 17. Now since David was safe nowhere, he hid in a cave with his men. 18. Saul came into that very cave and wished to relieve himself there. 19. David's men advised him to use the opportunity and kill his enemy. 20. But David would not lay his hand upon the Lord's anointed. 21. Yet he cut a corner from Saul's robe, which he had apparently laid aside. 22. When both had afterward gone out of the cave, David showed him from afar the corner of his robe, and said: 23. The Lord be judge between me and you. Then Saul lifted up his voice and wept, 24. and said: You are more righteous than I. 25. Notwithstanding this, Saul once again went to battle against David and slept in his camp. 26. Then David went and took away Saul's spear and cup from beside his head. 27. No one in Saul's camp awoke, for a deep sleep from the Lord had fallen upon them. 28. In the morning David stood on the summit of the mountain and showed the spear and cup from afar. 29. Then Saul said: Behold, I have acted very foolishly and unwisely. 30. Indeed, he even gave him a blessing and said: Blessed be you, my son David; you will do it and accomplish it. 31. Not long afterward Saul killed himself with his own sword, and David became king in his place.",
+    "questions": [
+      "What did Saul say to his son Jonathan?",
+      "But what did Jonathan do?",
+      "What afterward came upon King Saul?",
+      "What did David have to do on this occasion?",
+      "How did Saul behave in his fury?",
+      "Was David struck?",
+      "Where was David guarded?",
+      "Who let him down through the window?",
+      "What did Michal put in the bed in his place?",
+      "What order did Saul give?",
+      "What did they find in the bed?",
+      "How did Michal excuse herself to her father?",
+      "Where did David have to withdraw?",
+      "How did things look there for good David?",
+      "What did David have to do out of necessity?",
+      "What did King Achish say to this?",
+      "Where did David finally have to hide?",
+      "Who came into that same cave?",
+      "What advice was given to David?",
+      "But did David accept the advice?",
+      "What did David do with the king's robe?",
+      "What did he do with the corner of the robe?",
+      "What words did David use on this occasion?",
+      "What did Saul say when he saw the corner of his robe?",
+      "Was Saul now satisfied?",
+      "What did David take away from the camp?",
+      "Did no one in the camp wake up?",
+      "What did David do with the spear and cup?",
+      "What did Saul say to this?",
+      "What blessing did he give David?",
+      "What was the final outcome of David's persecution?"
+    ],
+    "teachings": [
+      "I. When parents command their children to do something sinful, they must not do it, but must obey God rather than their parents.\nJonathan did this: when his father Saul commanded him to kill innocent David, he had David warned so that he might escape in time.",
+      "II. One must not lay one's hand upon any of the Lord's anointed.\nDavid did this: he could have killed his king Saul more than once, but David kept such a thing far from him.",
+      "III. What has been done out of necessity must not be imitated without necessity.\nMichal lied to her father King Saul, but it happened in the utmost emergency; therefore no willful liar may appeal to this example."
+    ],
+    "reflection": "Devout David was far from taking revenge himself,\nThough his bitterest enemy came into his hands;\nRather, he entrusted to God the outcome of his cause,\nWhich finally came to a good end.\nMy God, I too will avenge myself on no enemy;\nYou as judge will surely pronounce a righteous judgment."
   }
 };
