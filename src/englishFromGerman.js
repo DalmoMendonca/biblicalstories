@@ -1591,5 +1591,62 @@ export const englishFromGerman = {
       "III. The Lord God does not forsake people until they forsake him.\nThus God had King Saul told: Because you have rejected the word of the Lord, the Lord has also rejected you."
     ],
     "reflection": "Through disobedience Saul first transgressed;\nThen hypocrisy and bloodshed followed;\nAnd finally he sought counsel through sorcery,\nUntil at last he killed himself with his own hand.\nHelp, heaven! Can one go so far in sin?\nThen I would rather resist the very first sin at once."
+  },
+  "30": {
+    "pages": [
+      182,
+      185,
+      186,
+      189
+    ],
+    "printed": "100–103",
+    "latin": "Immanis Goliath sex ulnis longior exstat,\nQuem David funda saxa pluente necat.\nHaec mihi dum narrat codex, qui fallere nescit,\nSuspicor his verbis posse subesse typum.\nSic est: Te Satanam licet appellare Gigantem;\nDavidem vero tu, PIE CHRISTE! refers.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 29,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Giant Goliath.",
+    "reference": "1 Samuel XVII.",
+    "narrative": "1. King Saul entered into war with the Philistines. 2. As they lay encamped against one another, a giant named Goliath came forth from the Philistine camp. 3. This man was six cubits and a handbreadth tall. 4. His armor weighed five thousand shekels of brass; 5. and the shaft of his spear was like a weaver's beam. 6. This giant taunted the children of Israel and said they should choose someone to come down to him. 7. If that man killed the giant, the Philistines should serve the Israelites. 8. But if Goliath prevailed, the Israelites should be servants of the Philistines. 9. When Saul and Israel heard this, they were dismayed and greatly afraid. 10. The giant Goliath made such boasts for forty days in succession. 11. Finally Saul said that whoever killed the giant should have Saul's daughter for his wife. 12. Young David heard this and was quite willing to engage the giant. 13. When this came before King Saul, he had a helmet put upon young David and armor put on him. 14. David tried this armor, but could not manage with it. 15. Therefore he took off the armor again and took only his shepherd's staff and his sling in his hand. 16. But into his shepherd's bag he put five smooth stones from the brook. 17. When he went toward the giant, Goliath said: Am I a dog, that you come to me with a stick? 18. But David said: You come to me with sword, spear, and shield; but I come to you in the name of the Lord of hosts. 19. Then David took a stone from his bag and slung it against the giant's forehead, so that he fell to the ground. 20. Afterward he drew Goliath's sword from its sheath and cut off his head. 21. When the Philistines saw this, they fled, and the children of Israel gained a glorious victory. 22. When Saul came home again from the war, the women sang: Saul has slain a thousand, but David ten thousand. 23. This vexed King Saul, so that from that hour he hated David. 24. Nor did David receive Saul's daughter as his wife; she was given to another. 25. Meanwhile Saul's son Jonathan made a covenant with David. 26. And Saul's other daughter, named Michal, fell in love with David. 27. Then Saul had David told that he must bring a hundred foreskins from the Philistines if he wished to have his daughter. 28. For Saul thought David might perhaps be killed by the Philistines. 29. But David went and slew two hundred Philistines, and thereupon Saul's daughter Michal was given to him as his wife.",
+    "questions": [
+      "With whom did Saul enter into war?",
+      "What giant was among the Philistines?",
+      "How tall was this Goliath?",
+      "How many thousand shekels did his armor weigh?",
+      "How large was the shaft of his spear?",
+      "What boasts did this giant make?",
+      "What was to happen if someone killed this giant?",
+      "What was to happen instead if the giant prevailed?",
+      "How did the Israelites feel about this?",
+      "How long did this Goliath taunt them?",
+      "What did Saul have promised to whoever killed the giant?",
+      "Who wished to fight this Goliath?",
+      "What did Saul say to this?",
+      "How did the armor suit David?",
+      "What did he take in his hand instead?",
+      "And what did he put into his shepherd's bag?",
+      "What compliment did Goliath pay him?",
+      "But what answer did David give him?",
+      "How did the combat turn out?",
+      "With what did David cut off the giant's head?",
+      "What did the Philistines do afterward?",
+      "What song did the women sing afterward?",
+      "How did King Saul like the music?",
+      "Did David also receive the king's daughter?",
+      "Who made a covenant with David?",
+      "Who fell in love with David?",
+      "What did David have to bring King Saul?",
+      "What was Saul's intention in this?",
+      "How did David's marriage finally turn out?"
+    ],
+    "teachings": [
+      "I. A strong man should not rely upon his strength.\nThe giant Goliath was almost twice as tall as young David; yet he received such a blow on the forehead that he forgot to get up.",
+      "II. Among soldiers there are sometimes devout people too.\nDavid did not go toward his enemy with curses and insults, but instead said: I come to you in the name of the Lord of hosts.",
+      "III. A virtuous person finds love, favor, and goodwill everywhere.\nThe royal prince Jonathan made a covenant with David, and the royal princess Michal fell in love with him."
+    ],
+    "reflection": "More than six cubits tall was Goliath,\nWhom David struck down with a sling stone.\nI had scarcely read this in God's word,\nWhen I thought: might this not be a type?\nYes, Goliath signifies the devil in hell,\nAnd Jesus Christ stands in David's place."
   }
 };

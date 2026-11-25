@@ -1555,5 +1555,61 @@ export const german1768 = {
       "III. GOtt der HErr verläßt die Menschen nicht eher bis die Menschen ihn verlassen.\nAlso ließ GOtt dem Könige Saul sagen: Weil du des HErrn Wort verworffen hast, so hat dich der HErr auch verworffen."
     ],
     "reflection": "Durch Ungehorsam hat sich Saul zuerst vergangen /\nDrauf folgte Heucheley und Blutvergiessen nach:\nUnd endlich wolt’ er Rath durch Zauberey erlangen /\nBis er sich auf die letzt mit eigner Hand erstach:\nHilf Himmel! kan man sich in Sünden so vergehen /\nSo will ich lieber flugs der ersten widerstehen."
+  },
+  "30": {
+    "pages": [
+      182,
+      185,
+      186,
+      189
+    ],
+    "printed": "100–103",
+    "latin": "Immanis Goliath sex ulnis longior exstat,\nQuem David funda saxa pluente necat.\nHaec mihi dum narrat codex, qui fallere nescit,\nSuspicor his verbis posse subesse typum.\nSic est: Te Satanam licet appellare Gigantem;\nDavidem vero tu, PIE CHRISTE! refers.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 29,
+      "teachings": 3
+    },
+    "title": "Von dem Riesen Goliath.",
+    "reference": "1. Sam. XVII.",
+    "narrative": "1. Der König Saul gerieth in einen Krieg mit den Philistern, 2. Wie sie nun gegen einander zu Felde lagen, so trat aus dem Lager der Philister ein Riese hervor, mit Namen Goliath. 3. Dieser Mann war sechs Ellen und eine Hand breit hoch. 4. Sein Panzer wog fünftausend Seckel Ertz; 5. und der Schaft seines Spiesses war wie ein Weberbaum. 6. Dieser Riese schimpfte die Kinder Israel, und sagte, sie solten einen erwehlen, der zu ihm hinab käme. 7. Würde derselbe den Riesen todtschlagen, so solten die Philister den Israeliten dienen. 8. Würde aber Goliath den Platz behalten, so solten die Israeliten Knechte der Philister seyn. 9. Da Saul und Israel solches hörten, so entsatzten sie sich, und furchten sich sehr. 10. Dergleichen Bravaden machte der Riese Goliath viertzig Tage nach einander. 11. Endlich sagte Saul, wenn jemand den Riesen todtschlagen würde, der solte Sauls Tochter zur Gemahlin haben. 12. Dieses hörte der kleine David, und hatte nicht übel Lust, mit dem Riesen anzubinden. 13. Wie solches vor den König Saul kam, so ließ er dem kleinen David einen Helm aufsetzen, und einen Panzer anlegen. 14. David probirte diese Rüstung, aber er konte sich nicht damit behelffen. 15. Er legte deswegen den Harnisch wieder ab, und nahm nur seinen Schäfer-Stock und seine Schleuder in seine Hand. 16. In seine Hirten-Tasche aber steckte er fünf glatte Steine aus dem Bache. 17. Wie er nun auf den Riesen los gieng, so sagte Goliath: Bin ich denn ein Hund, daß du mit einem Stecken zu mir kömmst. 18. David aber sprach: Du kommst zu mir mit Schwerdt, Spieß und Schild; ich aber komme zu dir im Namen des HErrn Zebaoth. 19. Drauf nahm David einen Stein aus seiner Taschen, und schleuderte damit dem Riesen an die Stirne, daß er zu Boden fiel. 20. Darnach zog er das Schwerdt Goliats aus der Scheide, und hieb ihm den Kopf ab. 21. Da die Philister solches sahen, so flohen sie, und die Kinder Israel erhielten einen herrlichen Sieg. 22. Wie Saul aus dem Kriege wieder nach Hause kam, so sungen die Weiber: Saul hat tausend geschlagen, aber David zehen tausend. 23. Das verdroß den König Saul, daß er David von Stund an gram ward. 24. David bekam auch die Tochter Sauls nicht zum Weibe, sondern sie ward einem andern gegeben. 25. Unterdessen machte Sauls Sohn Jonathan einen Bund mit David. 26. Und die andere Tochter Sauls, mit Namen Michal, gewann den David lieb. 27. Da ließ Saul dem David sagen, er müste hundert Vorhäute von den Philistern bringen, wofern er seine Tochter haben wolte. 28. Denn Saul gedachte, David würde vielleicht von den Philistern erschlagen werden. 29. David aber gieng hin, und erschlug zweyhundert Philister, und hierauf ward ihm Sauls Tochter, Michal, zum Weibe gegeben.",
+    "questions": [
+      "Mit wem gerieth Saul in einen Krieg?",
+      "Was war unter den Philistern vor ein Riese?",
+      "Wie lang war dieser Goliath?",
+      "Wie viel tausend Seckel wog sein Panzer?",
+      "Wie groß war der Schaft an seinem Spiesse?",
+      "Was machte dieser Riese vor Bravaden?",
+      "Was solte daraus werden, wenn jemand diesen Riesen todtschlüge?",
+      "Was solte hingegen geschehen, wenn der Riese den Platz behielte?",
+      "Wie ward den Israeliten darbey zu muthe?",
+      "Wie lange bravirte sie dieser Goliath?",
+      "Was ließ Saul demjenigen versprechen, der den Riesen todtschlagen würde?",
+      "Wer bekam Lust mit diesem Goliath zu streiten?",
+      "Was sagte Saul darzu?",
+      "Wie stund Daviden die Rüstung an?",
+      "Was nahm er davor in seine Hand?",
+      "Und was that er in seine Hirten-Tasche?",
+      "Was machte ihm Goliath vor ein Compliment?",
+      "Aber was gab ihm David vor eine Antwort darauf?",
+      "Wie lief der Kampf ab?",
+      "Womit hieb David dem Riesen den Kopf ab?",
+      "Was thaten hierauf die Philister?",
+      "Was sungen die Weiber vor ein Lied darauf?",
+      "Wie gefiel dem Könige Saul die Music?",
+      "Bekam denn David auch des Königs Tochter?",
+      "Wer machte denn einen Bund mit David?",
+      "Wer verliebte sich in David?",
+      "Was muste David dem Könige Saul bringen?",
+      "Was hatte Saul vor ein Absehen darbey?",
+      "Wie lief es endlich mit Davids Heyrath ab?"
+    ],
+    "teachings": [
+      "I. Ein Starcker soll sich nicht auf seine Stärcke verlassen.\nDer Riese Goliath war fast noch einmal so groß, als der kleine David: und bekam doch eins an die Stirne, daß er das Aufstehens vergaß.",
+      "II. Unter den Soldaten giebt es auch bisweilen fromme Leute.\nDavid gieng nicht mit Fluchen und Schelten auf seinen Feind los, sondern er sagte vielmehr: Ich komme zu dir im Namen des HErrn Zebaoth.",
+      "III. Ein tugendhaffter Mensch findet aller Orten Liebe, Gunst und Gewogenheit.\nMit David machte der Königliche Printz Jonathan einen Bund, und die Königliche Printzessin, Michal, gewann ihn lieb."
+    ],
+    "reflection": "Mehr als sechs Ellen hoch ist Goliath gewesen /\nDen David hat erlegt durch einen Schleuder-Stein.\nIch hatte dieses nur in GOttes Wort gelesen /\nSo dacht ich / ob das nicht ein Vorbild möchte seyn?\nJa / Goliath bedeut den Teufel in der Hölle /\nUnd JEsus Christus steht an Davids seiner Stelle."
   }
 };
