@@ -26,14 +26,14 @@ def job(page):
     sha=hashlib.sha256(page.read_bytes()).hexdigest()
     if receipt.exists() and txt.exists() and tsv.exists():
         r=json.loads(receipt.read_text("utf8"))
-        if r["image_sha256"]==sha and r["model_sha256"]==model_sha and r["text_sha256"]==hashlib.sha256(txt.read_bytes()).hexdigest():return r
+        if r["image_sha256"]==sha and r["model_sha256"]==model_sha and r["text_sha256"]==hashlib.sha256(txt.read_bytes()).hexdigest() and r.get("tsv_sha256")==hashlib.sha256(tsv.read_bytes()).hexdigest():return r
     base=out/(name+".pending")
-    subprocess.run(["tesseract",str(page),str(base),"--tessdata-dir",str(model.parent),"-l",lang,"--psm","3","txt","tsv"],check=True,timeout=180,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+    subprocess.run(["tesseract",str(page),str(base),"--tessdata-dir",str(model.parent),"-l",lang,"--psm","3","-c","tessedit_create_txt=1","-c","tessedit_create_tsv=1"],check=True,timeout=180,env=env,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
     (out/(name+".pending.txt")).replace(txt)
     (out/(name+".pending.tsv")).replace(tsv)
     r={"page":int(name),"image":str(page.relative_to(ROOT)),"image_sha256":sha,"model_sha256":model_sha,
        "model":"https://github.com/AButon-8/iskra_ocr (Apache-2.0; pre-reform Russian; trained on Iskra 1900–1905)",
-       "text_sha256":hashlib.sha256(txt.read_bytes()).hexdigest(),"characters":len(txt.read_text("utf8")),"status":"unreviewed historical OCR"}
+       "text_sha256":hashlib.sha256(txt.read_bytes()).hexdigest(),"tsv_sha256":hashlib.sha256(tsv.read_bytes()).hexdigest(),"characters":len(txt.read_text("utf8")),"status":"unreviewed historical OCR"}
     receipt.write_text(json.dumps(r,ensure_ascii=False,indent=2)+"\n","utf8")
     return r
 records=[];errors=[]
