@@ -2212,5 +2212,59 @@ export const englishFromGerman = {
       "III. Happy is the one who grows wise through other people's misfortunes.\nThus the house of Judah should have taken warning from the house of Israel, and the city of Jerusalem from her sister Samaria."
     ],
     "reflection": "O city of Jerusalem! How has it gone with you\nAfter the wrath of the Lord was kindled against you!\nYour temple was destroyed! Your king was taken captive;\nYour people were carried away into a distant land.\nYou Christians, take warning from this example of wrath,\nAnd do not presume upon the words: Here is the temple of the Lord."
+  },
+  "41": {
+    "pages": [
+      242,
+      245,
+      246,
+      249
+    ],
+    "printed": "138–141",
+    "latin": "Ejicitur thalamo Vasthi regina superba,\nEsther succedens ambitione caret.\nSic est! Sic Deus est, humiles qui tollit in altum;\nRursu & elatos deprimit ille Deus.\nErgo humilis cultus sit corporis atque modestus,\nSit simul a fastu mens aliena mihi.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "editorial_note": "Russian has 24 questions, including the chronicle entry in the preceding account rather than making it a separate question. Russian narrative numbering around the summons to Vashti is irregular; preserved as printed. The historic moral teachings are reproduced as written, not editorial endorsements.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Esther.",
+    "reference": "The Book of Esther, I and II.",
+    "narrative": "1. King Ahasuerus was lord over one hundred and twenty-seven countries. 2. This great potentate had a great feast prepared at the palace of Susa for all his princes and servants. 3. This banquet lasted for one hundred and eighty whole days in succession. 4. The king did this because he wished to display his splendor and magnificence. 5. When the king was in good spirits, he sent for Queen Vashti to come to him wearing the royal crown. 6. This was done so that he might show her extraordinary beauty to all the princes and peoples. 7. But Queen Vashti was too proud for this and would not come to her husband. 8. Then the king asked his counselors what punishment his consort had deserved. 9. The counselors said that Vashti had offended not only against the king but also against the whole country; 10. for henceforth all women would follow this example and despise their husbands. 11. Thereupon the king repudiated his proud consort so that she might no longer come before his face. 12. At the same time Ahasuerus sent a command into all the countries that every man should be master in his own house. 13. Then all beautiful maidens were sought out so that the king might choose a new consort from among them. 14. Among these maidens was also a beautiful Jewess named Esther. 15. She was an orphan who had neither father nor mother; 16. but her cousin and guardian was Mordecai, a captive Jew. 17. When one maiden after another was brought to the king, none pleased him more than Esther. 18. Ahasuerus chose this poor child for his consort and set upon her head the crown that Vashti had formerly worn. 19. At first, however, the king did not know that she was a Jewess by birth, for her guardian Mordecai had forbidden her to disclose this. 20. Meanwhile Mordecai walked every day before the royal court to learn whether Esther was doing well. 21. About that time two chamberlains conspired together to put King Ahasuerus to death. 22. Mordecai learned of this, told Esther, and she informed the king. 23. When the king had the matter investigated, the treachery was discovered, and both chamberlains were hanged. 24. By the king's command this event was written in the chronicles. 25. The reward, however, which Mordecai had very well deserved, was not forthcoming.",
+    "questions": [
+      "Over how many countries did King Ahasuerus have authority?",
+      "What did he have prepared at the palace of Susa?",
+      "How long was this banquet to last?",
+      "Why did the king do this?",
+      "What did the king require of his consort?",
+      "Why was Vashti to come to the king?",
+      "How did the queen conduct herself?",
+      "What question did the king put to his counselors?",
+      "What offense did the counselors impute to the queen?",
+      "Why was she said to have offended against the whole kingdom?",
+      "What sentence did the proud Vashti finally receive?",
+      "What command did the king send into all the countries?",
+      "Where did the king obtain a new consort?",
+      "What Jewess was among them?",
+      "What parents did this Esther have?",
+      "But who was her guardian?",
+      "Which maiden pleased the king best?",
+      "What honor thus befell poor Esther?",
+      "Did the king know that she was a Jewess?",
+      "Where did her guardian Mordecai remain meanwhile?",
+      "What treachery occurred at court at that time?",
+      "How did the king discover it?",
+      "How was the treachery punished?",
+      "Where was this recorded?",
+      "And what did Mordecai receive as a reward?"
+    ],
+    "teachings": [
+      "I. When a person is to fall, he first becomes proud.\nThis is clearly seen in the beautiful Vashti, who out of pride would not come to the king and thereby lost her royal dignity.",
+      "II. God often raises the lowly out of the dust.\nThis is proved by the example of Esther, who had neither father nor mother and who from being a captive slave became a Persian queen.",
+      "III. Wives should be subject to their husbands.\nNot only did King Ahasuerus command this, but God himself has said to all women: Your will shall be subject to your husband, and he shall be your lord."
+    ],
+    "reflection": "The proud Vashti is cast off as queen,\nAnd poor Esther comes instead into her place.\nSee how pride overthrows the small and the great,\nAnd how humility, on the contrary, finds grace!\nNow that I know this, I will hate pride,\nAnd have a garment of humility made for me instead."
   }
 };

@@ -2165,5 +2165,58 @@ export const german1768 = {
       "III. Wohl dem, der mit anderer Leute Schaden klug wird.\nSo hätte sich das Haus Juda an dem Hause Israel; und die Stadt Jerusalem an ihrer Schwester Samaria spiegeln sollen."
     ],
     "reflection": "O Stadt Jerusalem! wie ist es dir ergangen /\nNachdem des HErren Zorn war wider dich entbrannt!\nDein Tempel ward zerstört! dein König ward gefangen;\nDein Volk ward weggeführ't in ein entfernetes Land /\nIhr Christen spiegelt euch an diesem Zorn-Exempel /\nUnd trotzt nicht auf das Wort: Hier ist des HErren Tempel."
+  },
+  "41": {
+    "pages": [
+      242,
+      245,
+      246,
+      249
+    ],
+    "printed": "138–141",
+    "latin": "Ejicitur thalamo Vasthi regina superba,\nEsther succedens ambitione caret.\nSic est! Sic Deus est, humiles qui tollit in altum;\nRursu & elatos deprimit ille Deus.\nErgo humilis cultus sit corporis atque modestus,\nSit simul a fastu mens aliena mihi.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "editorial_note": "Russian has 24 questions, including the chronicle entry in the preceding account rather than making it a separate question. Russian narrative numbering around the summons to Vashti is irregular; preserved as printed. The historic moral teachings are reproduced as written, not editorial endorsements.",
+    "title": "Von der Esther.",
+    "reference": "Im Buch Esther im I. und II. Capitel.",
+    "narrative": "1. Der König Ahasveros war ein Herr über hundert und sieben und zwanzig Länder. 2. Dieser grosse Potentate ließ auf dem Schlosse Susan allen seinen Fürsten und Bedienten ein grosses Mahl bereiten. 3. Dieses Gastmahl währete gantzer hundert und achtzig Tage nach einander. 4. Und solches that der König darum, daß er seine Pracht und Herrlichkeit wolte sehen lassen. 5. Als nun der König gutes Muthes war, so schickte er nach der Königin Vasthi, daß sie mit der Königlichen Crone zu ihm kommen solte. 6. Das geschah zu dem Ende, daß er ihre sonderbare Schönheit allen Fürsten und Völckern zeigen wolte. 7. Aber die Königin Vasthi war zu stolz darzu, und wolte nicht zu ihrem Gemahl kommen. 8. Da fragte der König seine Räthe, was seine Gemahlin vor eine Strafe verdienet hätte? 9. Die Räthe sagten, es hätte sich Vasthi nicht nur am Könige, sondern zugleich am gantzen Lande versündiget: 10. Denn künftighin würden alle Frauen diesem Exempel nachfolgen, und ihre Männer verachten. 11. Darauf verstieß der König die stolze Gemahlin, daß sie nicht mehr vor sein Gesichte kommen durfte. 12. Und zu gleicher Zeit ließ Ahasveros ein Gebot in alle Länder ausgehen, daß ein jeder Mann Ober-Herr in seinem Hause seyn solte. 13. Es wurden darauf alle schöne Jungfrauen aufgesucht, damit sich der König eine neue Gemahlin darunter auslesen könte. 14. Unter solchen Jungfrauen war auch eine schöne Jüdin, mit Namen Esther. 15. Sie war aber eine Wayse, die weder Vater noch Mutter hatte: 16. Ihr Vetter und Vormund aber war Mardachai, ein gefangener Jude. 17. Wie nun eine Jungfer nach der andern zum Könige gebracht wurde, so gefiel ihm keine besser als Esther. 18. Dieses arme Kind erwählte Ahasveros zu seiner Gemahlin, und setzte die Crone auf ihr Haupt, die Vasthi sonst getragen hatte. 19. Es wuste aber der König anfangs nicht, daß sie eine gebohrne Jüdin wäre, denn ihr Vormund Mardachai hatte ihr solches verboten. 20. Unterdessen wandelte Mardachai alle Tage vor dem Königlichen Hofe, um zu erfahren, ob es der Esther wohl gienge. 21. Um selbige Zeit verschworen sich zwey Cämmerer zusammen, daß sie den König Ahasveros umbringen wolten. 22. Das erfuhr Mardachai, der sagts an der Esther, und diese gab dem König Nachricht davon. 23. Wie der König nachforschen ließ, so fand sich die Verrätherey, und die Cämmerer wurden beyde gehangen. 24. Diese Begebenheit ward auf Befehl des Königes in die Chronica geschrieben. 25. Die Belohnung aber, die Mardachai gar wohl verdienet hatte, blieb aussen.",
+    "questions": [
+      "Ueber wie viel Länder hatte der König Ahasveros zu gebieten?",
+      "Was ließ er auf dem Schlosse Susan zubereiten?",
+      "Wie lange solte denn dieses Gastmahl währen?",
+      "Warum that solches der König?",
+      "Was verlangte der König von seiner Gemahlin?",
+      "Warum solte Vasthi zum Könige kommen?",
+      "Wie führte sich die Königin auf?",
+      "Was legte der König seinen Räthen vor eine Frage vor?",
+      "Was gaben die Räthe der Königin Schuld?",
+      "Warum solte sie sich an dem gantzen Königreiche versündiget haben?",
+      "Was bekam die stolze Vasthi endlich vor ein Urtheil?",
+      "Was ließ der König vor einen Befehl in alle Länder ausgehen?",
+      "Wo nahm der König eine neue Gemahlin her?",
+      "Was war denn vor eine Jüdin mit darunter?",
+      "Was hatte diese Esther vor Eltern?",
+      "Aber wer war ihr Vormund?",
+      "Welche gefiel dem Könige am besten?",
+      "Was hatte also die arme Esther vor eine Ehre?",
+      "Wuste es denn der König, daß sie eine Jüdin wäre?",
+      "Wo hielt sich unterdessen ihr Vormund Mardachai auf?",
+      "Was war damals vor eine Verrätherey bey Hofe?",
+      "Wie kam der König dahinter?",
+      "Wie ward die Verrätherey gestraft?",
+      "Wohin ward dieses aufgezeichnet?",
+      "Und was bekam Mardachai zur Belohnung?"
+    ],
+    "teachings": [
+      "I. Wenn ein Mensch fallen soll, so wird er zuvor stolz.\nDas siehet man wohl an der schönen Vasthi, die wolte vor Hochmuth nicht zum Könige kommen, und verlohr darüber die Königliche Hoheit.",
+      "II. GOtt erhebet oftmals die Niedrigen aus dem Staube.\nDas beweiset die Vater- und Mutterlose Esther mit ihrem Exempel, welche aus einer gefangenen Sclavin eine Persianische Königin worden ist.",
+      "III. Die Weiber sollen ihren Männern unterthan seyn.\nDas hat nicht nur König Ahasveros befohlen, sondern GOtt hat selber zu allen Frauen gesagt: Dein Wille soll deinem Manne unterworffen seyn, und er soll dein Herr seyn."
+    ],
+    "reflection": "Die stolze Vasthi wird als Königin verstossen /\nDie arme Esther kömmt davor an ihre Statt:\nSeht wie der Hochmuth stürzt die Kleinen und die Grossen /\nUnd wie im Gegentheil die Demuth Gnade hat!\nNun da ich dieses weiß / so will ich Hochmuth hassen /\nUnd mir davor ein Kleid von Demuth machen lassen."
   }
 };
