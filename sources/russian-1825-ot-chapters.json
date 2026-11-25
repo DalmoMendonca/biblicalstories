@@ -7,371 +7,447 @@
     11
   ],
   "printed_page_one_scan": 13,
-  "method": "Original printed table of contents visually transcribed; each next start page is included as a possible shared page; final page requires inspection.",
+  "method": "Original printed table of contents visually transcribed; each next start page is included as a possible shared page; final page requires inspection. Original chapter headings may occur one page before the TOC entry; preserve both a one-page opening buffer and the next-start-page closing buffer. Verified ranges supersede candidates only for source-compared records.",
   "records": [
     {
       "id": 1,
       "title": "О сотвореніи міра",
       "printed_start": 1,
       "scan_start": 13,
-      "scan_end_candidate": 15
+      "scan_end_candidate": 15,
+      "scan_start_verified": 13,
+      "scan_end_verified": 15,
+      "printed_verified": "1–3",
+      "scan_start_candidate": 13
     },
     {
       "id": 2,
       "title": "О созданіи человѣка",
       "printed_start": 3,
       "scan_start": 15,
-      "scan_end_candidate": 17
+      "scan_end_candidate": 17,
+      "scan_start_verified": 15,
+      "scan_end_verified": 17,
+      "printed_verified": "3–5",
+      "scan_start_candidate": 14
     },
     {
       "id": 3,
       "title": "О невинномъ состояніи въ раю",
       "printed_start": 5,
       "scan_start": 17,
-      "scan_end_candidate": 20
+      "scan_end_candidate": 20,
+      "scan_start_verified": 17,
+      "scan_end_verified": 19,
+      "printed_verified": "5–7",
+      "scan_start_candidate": 16
     },
     {
       "id": 4,
       "title": "О грѣхопаденіи прародителей",
       "printed_start": 8,
       "scan_start": 20,
-      "scan_end_candidate": 24
+      "scan_end_candidate": 24,
+      "scan_start_verified": 20,
+      "scan_end_verified": 23,
+      "printed_verified": "8–11",
+      "scan_start_candidate": 19
     },
     {
       "id": 5,
       "title": "О Каинѣ, убившемъ брата своего Авеля",
       "printed_start": 12,
       "scan_start": 24,
-      "scan_end_candidate": 27
+      "scan_end_candidate": 27,
+      "scan_start_verified": 23,
+      "scan_end_verified": 27,
+      "printed_verified": "11–15",
+      "scan_start_candidate": 23
     },
     {
       "id": 6,
       "title": "О потопѣ",
       "printed_start": 15,
       "scan_start": 27,
-      "scan_end_candidate": 32
+      "scan_end_candidate": 32,
+      "scan_start_verified": 27,
+      "scan_end_verified": 31,
+      "printed_verified": "15–19",
+      "scan_start_candidate": 26
     },
     {
       "id": 7,
       "title": "О столпотвореніи Вавилонскомъ",
       "printed_start": 20,
       "scan_start": 32,
-      "scan_end_candidate": 34
+      "scan_end_candidate": 34,
+      "scan_start_verified": 31,
+      "scan_end_verified": 33,
+      "printed_verified": "19–21",
+      "scan_start_candidate": 31
     },
     {
       "id": 8,
       "title": "О Авраамѣ и Саррѣ",
       "printed_start": 22,
       "scan_start": 34,
-      "scan_end_candidate": 37
+      "scan_end_candidate": 37,
+      "scan_start_verified": 33,
+      "scan_end_verified": 36,
+      "printed_verified": "21–24",
+      "scan_start_candidate": 33
     },
     {
       "id": 9,
       "title": "О Содомѣ и Гоморрѣ",
       "printed_start": 25,
       "scan_start": 37,
-      "scan_end_candidate": 41
+      "scan_end_candidate": 41,
+      "scan_start_candidate": 36
     },
     {
       "id": 10,
       "title": "О принесеніи Исаака въ жертву",
       "printed_start": 29,
       "scan_start": 41,
-      "scan_end_candidate": 44
+      "scan_end_candidate": 44,
+      "scan_start_candidate": 40
     },
     {
       "id": 11,
       "title": "О женитьбѣ Исааковой",
       "printed_start": 32,
       "scan_start": 44,
-      "scan_end_candidate": 48
+      "scan_end_candidate": 48,
+      "scan_start_candidate": 43
     },
     {
       "id": 12,
       "title": "О Исаакѣ, благословляющемъ дѣтей своихъ",
       "printed_start": 36,
       "scan_start": 48,
-      "scan_end_candidate": 55
+      "scan_end_candidate": 55,
+      "scan_start_candidate": 47
     },
     {
       "id": 13,
       "title": "О лѣствицѣ, во снѣ видѣнной Іаковомъ",
       "printed_start": 43,
       "scan_start": 55,
-      "scan_end_candidate": 58
+      "scan_end_candidate": 58,
+      "scan_start_candidate": 54
     },
     {
       "id": 14,
       "title": "О двоекратной женитьбѣ Іакова",
       "printed_start": 46,
       "scan_start": 58,
-      "scan_end_candidate": 63
+      "scan_end_candidate": 63,
+      "scan_start_candidate": 57
     },
     {
       "id": 15,
       "title": "О Іаковѣ, боровшемся съ Богомъ",
       "printed_start": 51,
       "scan_start": 63,
-      "scan_end_candidate": 67
+      "scan_end_candidate": 67,
+      "scan_start_candidate": 62
     },
     {
       "id": 16,
       "title": "О Іосифѣ, проданномъ братьями своими",
       "printed_start": 55,
       "scan_start": 67,
-      "scan_end_candidate": 72
+      "scan_end_candidate": 72,
+      "scan_start_candidate": 66
     },
     {
       "id": 17,
       "title": "О Іосифѣ, вверженномъ въ темницу за цѣломудріе свое",
       "printed_start": 60,
       "scan_start": 72,
-      "scan_end_candidate": 76
+      "scan_end_candidate": 76,
+      "scan_start_candidate": 71
     },
     {
       "id": 18,
       "title": "Освобожденіе Іосифа изъ темницы",
       "printed_start": 64,
       "scan_start": 76,
-      "scan_end_candidate": 82
+      "scan_end_candidate": 82,
+      "scan_start_candidate": 75
     },
     {
       "id": 19,
       "title": "О братіяхъ Іосифовыхъ, во время голода пріѣхавшихъ въ Египетъ",
       "printed_start": 70,
       "scan_start": 82,
-      "scan_end_candidate": 87
+      "scan_end_candidate": 87,
+      "scan_start_candidate": 81
     },
     {
       "id": 20,
       "title": "О томъ, какъ Іосифъ открылся братіямъ своимъ",
       "printed_start": 75,
       "scan_start": 87,
-      "scan_end_candidate": 94
+      "scan_end_candidate": 94,
+      "scan_start_candidate": 86
     },
     {
       "id": 21,
       "title": "О Египетскомъ рабствѣ",
       "printed_start": 82,
       "scan_start": 94,
-      "scan_end_candidate": 98
+      "scan_end_candidate": 98,
+      "scan_start_candidate": 93
     },
     {
       "id": 22,
       "title": "О Фараонѣ, ожесточившемъ сердце свое",
       "printed_start": 86,
       "scan_start": 98,
-      "scan_end_candidate": 104
+      "scan_end_candidate": 104,
+      "scan_start_candidate": 97
     },
     {
       "id": 23,
       "title": "О томъ, какъ Моисей вывелъ Израильтянъ изъ Египта",
       "printed_start": 92,
       "scan_start": 104,
-      "scan_end_candidate": 110
+      "scan_end_candidate": 110,
+      "scan_start_candidate": 103
     },
     {
       "id": 24,
       "title": "О томъ, какимъ образомъ Богъ велъ дѣтей Израилевыхъ чрезъ пустыню въ Обѣтованную землю",
       "printed_start": 98,
       "scan_start": 110,
-      "scan_end_candidate": 116
+      "scan_end_candidate": 116,
+      "scan_start_candidate": 109
     },
     {
       "id": 25,
       "title": "О десяти заповѣдяхъ, данныхъ на горѣ Синайской",
       "printed_start": 104,
       "scan_start": 116,
-      "scan_end_candidate": 122
+      "scan_end_candidate": 122,
+      "scan_start_candidate": 115
     },
     {
       "id": 26,
       "title": "О Сампсонѣ",
       "printed_start": 110,
       "scan_start": 122,
-      "scan_end_candidate": 129
+      "scan_end_candidate": 129,
+      "scan_start_candidate": 121
     },
     {
       "id": 27,
       "title": "О Самуилѣ",
       "printed_start": 117,
       "scan_start": 129,
-      "scan_end_candidate": 133
+      "scan_end_candidate": 133,
+      "scan_start_candidate": 128
     },
     {
       "id": 28,
       "title": "О Священникѣ Иліи",
       "printed_start": 121,
       "scan_start": 133,
-      "scan_end_candidate": 137
+      "scan_end_candidate": 137,
+      "scan_start_candidate": 132
     },
     {
       "id": 29,
       "title": "О Царѣ Саулѣ",
       "printed_start": 125,
       "scan_start": 137,
-      "scan_end_candidate": 142
+      "scan_end_candidate": 142,
+      "scan_start_candidate": 136
     },
     {
       "id": 30,
       "title": "О Голіаѳѣ",
       "printed_start": 130,
       "scan_start": 142,
-      "scan_end_candidate": 147
+      "scan_end_candidate": 147,
+      "scan_start_candidate": 141
     },
     {
       "id": 31,
       "title": "О Давидѣ, гонимомъ отъ Саула",
       "printed_start": 135,
       "scan_start": 147,
-      "scan_end_candidate": 152
+      "scan_end_candidate": 152,
+      "scan_start_candidate": 146
     },
     {
       "id": 32,
       "title": "О Вирсавіи",
       "printed_start": 140,
       "scan_start": 152,
-      "scan_end_candidate": 157
+      "scan_end_candidate": 157,
+      "scan_start_candidate": 151
     },
     {
       "id": 33,
       "title": "О Авессаломѣ",
       "printed_start": 145,
       "scan_start": 157,
-      "scan_end_candidate": 163
+      "scan_end_candidate": 163,
+      "scan_start_candidate": 156
     },
     {
       "id": 34,
       "title": "О моровой язвѣ, при Давидѣ бывшей",
       "printed_start": 151,
       "scan_start": 163,
-      "scan_end_candidate": 166
+      "scan_end_candidate": 166,
+      "scan_start_candidate": 162
     },
     {
       "id": 35,
       "title": "О Царѣ Соломонѣ",
       "printed_start": 154,
       "scan_start": 166,
-      "scan_end_candidate": 171
+      "scan_end_candidate": 171,
+      "scan_start_candidate": 165
     },
     {
       "id": 36,
       "title": "О пророкахъ Вааловыхъ",
       "printed_start": 159,
       "scan_start": 171,
-      "scan_end_candidate": 176
+      "scan_end_candidate": 176,
+      "scan_start_candidate": 170
     },
     {
       "id": 37,
       "title": "О Навуѳеевомъ виноградѣ",
       "printed_start": 164,
       "scan_start": 176,
-      "scan_end_candidate": 181
+      "scan_end_candidate": 181,
+      "scan_start_candidate": 175
     },
     {
       "id": 38,
       "title": "О взятіи Иліи на небо",
       "printed_start": 169,
       "scan_start": 181,
-      "scan_end_candidate": 185
+      "scan_end_candidate": 185,
+      "scan_start_candidate": 180
     },
     {
       "id": 39,
       "title": "О сосудѣ елея нѣкоторой вдовицы",
       "printed_start": 173,
       "scan_start": 185,
-      "scan_end_candidate": 188
+      "scan_end_candidate": 188,
+      "scan_start_candidate": 184
     },
     {
       "id": 40,
       "title": "О плѣненіи Вавилонскомъ",
       "printed_start": 176,
       "scan_start": 188,
-      "scan_end_candidate": 192
+      "scan_end_candidate": 192,
+      "scan_start_candidate": 187
     },
     {
       "id": 41,
       "title": "О Есѳири",
       "printed_start": 180,
       "scan_start": 192,
-      "scan_end_candidate": 197
+      "scan_end_candidate": 197,
+      "scan_start_candidate": 191
     },
     {
       "id": 42,
       "title": "О Аманѣ",
       "printed_start": 185,
       "scan_start": 197,
-      "scan_end_candidate": 204
+      "scan_end_candidate": 204,
+      "scan_start_candidate": 196
     },
     {
       "id": 43,
       "title": "О Іовѣ",
       "printed_start": 192,
       "scan_start": 204,
-      "scan_end_candidate": 211
+      "scan_end_candidate": 211,
+      "scan_start_candidate": 203
     },
     {
       "id": 44,
       "title": "О трехъ отрокахъ, въ пещь горящую вверженныхъ",
       "printed_start": 199,
       "scan_start": 211,
-      "scan_end_candidate": 215
+      "scan_end_candidate": 215,
+      "scan_start_candidate": 210
     },
     {
       "id": 45,
       "title": "О Даніилѣ, вверженномъ въ ровъ львиной",
       "printed_start": 203,
       "scan_start": 215,
-      "scan_end_candidate": 221
+      "scan_end_candidate": 221,
+      "scan_start_candidate": 214
     },
     {
       "id": 46,
       "title": "О градѣ Ниневіи",
       "printed_start": 209,
       "scan_start": 221,
-      "scan_end_candidate": 226
+      "scan_end_candidate": 226,
+      "scan_start_candidate": 220
     },
     {
       "id": 47,
       "title": "О Іудиѳѣ",
       "printed_start": 214,
       "scan_start": 226,
-      "scan_end_candidate": 232
+      "scan_end_candidate": 232,
+      "scan_start_candidate": 225
     },
     {
       "id": 48,
       "title": "О бѣдствіи старшаго Товита",
       "printed_start": 220,
       "scan_start": 232,
-      "scan_end_candidate": 237
+      "scan_end_candidate": 237,
+      "scan_start_candidate": 231
     },
     {
       "id": 49,
       "title": "О путешествіи младаго Товита",
       "printed_start": 225,
       "scan_start": 237,
-      "scan_end_candidate": 242
+      "scan_end_candidate": 242,
+      "scan_start_candidate": 236
     },
     {
       "id": 50,
       "title": "О женитьбѣ младаго Товита",
       "printed_start": 230,
       "scan_start": 242,
-      "scan_end_candidate": 248
+      "scan_end_candidate": 248,
+      "scan_start_candidate": 241
     },
     {
       "id": 51,
       "title": "О возвращеніи въ домъ младаго Товита",
       "printed_start": 236,
       "scan_start": 248,
-      "scan_end_candidate": 254
+      "scan_end_candidate": 254,
+      "scan_start_candidate": 247
     },
     {
       "id": 52,
       "title": "О Сосаннѣ",
       "printed_start": 242,
       "scan_start": 254,
-      "scan_end_candidate": 260
+      "scan_end_candidate": 260,
+      "scan_start_candidate": 253
     }
   ]
 }
