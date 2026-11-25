@@ -2416,5 +2416,53 @@ export const englishFromGerman = {
       "III. God the Lord comforts the godly.\nThus God the Lord restored to the godly Job twice everything that he had lost in the trial of his cross."
     ],
     "reflection": "Poor Job would plead his case against his Maker,\nBut when he would contend, he cannot stand:\nFor God indeed remains in the right when with his servants\nHe would enter into judgment according to justice.\nTherefore I would rather not dispute with God at all;\nI leave the Lord Christ to plead my case."
+  },
+  "44": {
+    "pages": [
+      262,
+      265,
+      266
+    ],
+    "printed": "152–154",
+    "latin": "Tres juvenes malunt fornace perire calente,\nPræceptum primum violare Dei.\nDic mihi, quid faceres, Christum quicunque fateris,\nAnte oculos fornax si foret ista tuos?\nAbjuraturos vereor sua dogmata multos;\nNe nos inducas! hinc ego sæpe precor.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 20,
+      "teachings": 3
+    },
+    "editorial_note": "German opening shares the preceding story's archived folio; the Russian witness has 19 questions.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Three Men in the Fiery Furnace.",
+    "reference": "Daniel III.",
+    "narrative": "1. Nebuchadnezzar, king of Babylon, had a golden image made. 2. It was sixty cubits high and six cubits wide; 3. and he had it set up on a beautiful meadow in the land of Babylon. 4. Thereupon all his subjects were commanded to worship the image. 5. And whoever would not do so was immediately to be cast into the glowing furnace. 6. Now when the signal was given with trumpets and other instruments, all the peoples fell down before this image. 7. But three distinguished Jews, named Shadrach, Meshach, and Abednego, would not worship the image. 8. The king summoned them before him and again commanded them, on pain of the glowing furnace, to fall down before the image. 9. Indeed, he added these blasphemous words: Let us see who is the God who shall deliver you out of my hand! 10. The men said: Our God can indeed deliver us; but even if he will not do so, thou shalt nevertheless know that we will not worship the golden image. 11. Then the king was angry and had the furnace made seven times hotter. 12. Thereupon the soldiers came and cast the three men bound into the fiery furnace, in their clothes as they were. 13. But the fire was so dreadful that the men who had to cast the three Jews into the fire were themselves consumed by the flame. 14. The three men, however, not only walked about unharmed in the fire; 15. there was also an angel with them in the furnace who turned the flame away from them. 16. Indeed, in the midst of the flame they sang a beautiful song of praise to the true God. 17. Meanwhile Nebuchadnezzar perceived that four men were walking about in the furnace, although he had had only three cast into it. 18. At this the king was exceedingly astonished and bade the three men come out of the furnace. 19. When they came out, their hair was not even singed, and no smell of burning could be detected upon their clothes. 20. Thereupon Nebuchadnezzar issued a decree that no one should blaspheme the God of Shadrach, Meshach, and Abednego.",
+    "questions": [
+      "What did King Nebuchadnezzar have made?",
+      "How large was the golden image?",
+      "Where was this image erected?",
+      "What were the subjects commanded to do?",
+      "What punishment was appointed for disobedience?",
+      "How did the subjects conduct themselves?",
+      "But who would not worship the image?",
+      "What did the king say to these three men?",
+      "What blasphemous words did Nebuchadnezzar use?",
+      "But what answer did the three men give him?",
+      "What did the king say to this?",
+      "What did the soldiers do to the three men?",
+      "What befell the soldiers?",
+      "What did the three men do in the fiery furnace?",
+      "Who was with them in the fiery furnace?",
+      "What did they sing in the fire?",
+      "What did Nebuchadnezzar perceive?",
+      "What did Nebuchadnezzar say to this?",
+      "How did the three men look when they came out of the furnace?",
+      "What decree did Nebuchadnezzar issue?"
+    ],
+    "teachings": [
+      "I. One must defend the truth even unto death.\nThe three men did this: they would rather let themselves be cast into the fiery furnace than have denied the first commandment.",
+      "II. The good angels guard and preserve the godly.\nSuch a good angel was with the three men in the fiery furnace and preserved them from the flame.",
+      "III. No one must be compelled to profess a religion.\nOne must not do as Nebuchadnezzar did, who had the idol and the glowing fiery furnace set beside one another."
+    ],
+    "reflection": "The three would rather burn within the furnace\nThan practice idolatry against God's word.\nAh! Would we also thus confess the truth,\nWere such a furnace standing before our eyes?\nI fear that many would turn to false doctrine;\nTherefore day and night I will pray the sixth petition."
   }
 };

@@ -2366,5 +2366,52 @@ export const german1768 = {
       "III. GOtt der HErr tröstet die Frommen.\nAlso gab GOtt der HErr dem frommen Hiob alles gedoppelt wieder, was er in seiner Creutz-Probe verlohren hatte."
     ],
     "reflection": "Der arme Hiob will mit seinem Schöpfer rechten /\nUnd da er rechten will / so kan er nicht bestehn:\nDenn GOtt behält wohl recht / wenn er mit seinen Knechten\nNach der Gerechtigkeit will ins Gerichte gehn.\nDrum mag ich lieber gar mit GOtt nicht disputiren /\nIch lasse den Proceß den HErren Christum führen."
+  },
+  "44": {
+    "pages": [
+      262,
+      265,
+      266
+    ],
+    "printed": "152–154",
+    "latin": "Tres juvenes malunt fornace perire calente,\nPræceptum primum violare Dei.\nDic mihi, quid faceres, Christum quicunque fateris,\nAnte oculos fornax si foret ista tuos?\nAbjuraturos vereor sua dogmata multos;\nNe nos inducas! hinc ego sæpe precor.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 20,
+      "teachings": 3
+    },
+    "editorial_note": "German opening shares the preceding story's archived folio; the Russian witness has 19 questions.",
+    "title": "Von den drey Männern im Feuer-Ofen.",
+    "reference": "Daniel III. Capitel.",
+    "narrative": "1. Nebucadnezar, der König zu Babel, ließ ein güldenes Bild machen, 2. das war sechzig Ellen hoch und sechs Ellen breit; 3. und ließ es setzen im Lande zu Babel auf einen schönen Anger. 4. Darauf ward allen seinen Unterthanen befohlen, daß sie das Bild anbäten solten. 5. Und wer das nicht thun würde, der solte von Stund an in den glüenden Ofen geworfen werden. 6. Wie nun das Zeichen mit den Trommeten und andern Instrumenten gegeben ward, so fielen alle Völker vor diesem Bilde nieder. 7. Aber drey vornehme Jüden, mit Namen Sadrach, Mesach und Abednego, wolten das Bild nicht anbäten. 8. Der König ließ sie vor sich fodern, und befahl ihnen nochmals bey Strafe des glüenden Ofens, daß sie vor dem Bilde niederfallen solten. 9. Ja er brauchte die lästerlichen Worte darzu: Laß sehen, wer der GOtt sey, der euch aus meiner Hand erretten werde? 10. Die Männer sagten: Unser GOtt kan uns wohl erretten: wenn er es aber auch nicht thun will, so solst du dennoch wissen, daß wir das güldene Bild nicht anbäten wollen. 11. Da war der König zornig, und ließ den Ofen noch sieben mal heisser machen. 12. Darauf kamen die Soldaten, und schmissen die drey Männer gebunden in den Feuer-Ofen, in ihren Kleidern, wie sie waren. 13. Es war aber das Feuer so entsetzlich, daß die Männer selber von der Flamme verzehret wurden, welche die drey Jüden ins Feuer werffen musten. 14. Es giengen aber die drey Männer nicht allein unversehrt in dem Feuer herum; 15. sondern es war auch ein Engel bey ihnen im Ofen, der die Flamme von ihnen abwandte. 16. Ja sie sungen mitten in der Flamme dem wahren GOtt einen schönen Lob-Gesang. 17. Indem ward Nebucadnezar inne, daß vier Männer im Ofen herum giengen, da er doch nur drey hatte lassen hinein schmeissen. 18. Darüber entsetzte sich der König aus der massen, und hieß die drey Männer aus dem Ofen heraus gehen. 19. Wie sie nun heraus kamen, so waren ihre Haare nicht einmal versenget, und an ihren Kleidern konte man keinen Brand riechen. 20. Darauf ließ Nebucadnezar einen Befehl ausgehen, daß niemand den GOtt Sadrach, Mesach und Abednego lästern solte.",
+    "questions": [
+      "Was ließ der König Nebucadnezar machen?",
+      "Wie groß war das güldene Bild?",
+      "Wo wurde dieses Bild aufgerichtet?",
+      "Was ward den Unterthanen befohlen?",
+      "Was ward vor eine Strafe darauf gesetzt?",
+      "Wie bezeigten sich die Unterthanen?",
+      "Aber wer wolte das Bild nicht anbäten?",
+      "Was sagte der König zu diesen drey Männern?",
+      "Was brauchte Nebucadnezar vor lästerliche Worte?",
+      "Aber was gaben ihm die drey Männer zur Antwort?",
+      "Was sagte der König darzu?",
+      "Was thaten die Soldaten mit den drey Männern?",
+      "Was wiederfuhr den Soldaten?",
+      "Was machten die drey Männer im Feuer-Ofen?",
+      "Wer war bey ihnen im Feuer-Ofen?",
+      "Was sungen sie im Feuer?",
+      "Was wurde Nebucadnezar gewahr?",
+      "Was sagte Nebucadnezar darzu?",
+      "Wie sahen die drey Männer aus, wie sie aus dem Ofen kamen?",
+      "Was ließ Nebucadnezar vor einen Befehl ausgehen?"
+    ],
+    "teachings": [
+      "I. Die Wahrheit muß man vertheidigen bis in den Tod.\nDas thaten die drey Männer, die liessen sich eher in den Feuer-Ofen werffen, als daß sie das erste Gebot verläugnet hätten.",
+      "II. Die guten Engel behüten und bewahren die Frommen.\nEin solcher guter Engel war bey den dreyen Männern im Feuer-Ofen, und bewahrte sie vor der Flamme.",
+      "III. Zu einer Religion muß niemand gezwungen werden.\nMan muß es nicht machen wie Nebucadnezar, der das Götzenbild und den glüenden Feuer-Ofen neben einander setzen ließ."
+    ],
+    "reflection": "Es wollen ihrer drey im Ofen lieber brennen /\nAls wider Gottes Wort Abgötterey begehn.\nAch! würden wir denn auch die Wahrheit so bekennen?\nWenn uns der Ofen auch vor Augen solte stehn?\nIch sorg es würden viel zur falschen Lehre treten /\nDrum will ich Tag und Nacht die sechste Bitte beten."
   }
 };
