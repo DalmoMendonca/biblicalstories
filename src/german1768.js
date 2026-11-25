@@ -1846,5 +1846,61 @@ export const german1768 = {
       "III. Wenn die Sünde begangen ist, so wachet das Gewissen auf.\nWie David das Volck hatte zählen lassen, so schlug ihm das Hertz."
     ],
     "reflection": "Der König David läßt das Volck aus Hochmuth zählen /\nWomit der grosse GOtt gar nicht zufrieden ist;\nAus dreyen Uebeln muß sich David eins erwählen /\nDrauf folgte eine Pest / die siebzig tausend frißt.\nO darum laßt uns ja vor Obrigkeiten bitten /\nDaß sie der liebe GOtt vor Thorheit mag behüten."
+  },
+  "35": {
+    "pages": [
+      210,
+      213,
+      214,
+      215
+    ],
+    "printed": "118–121",
+    "latin": "Consideras templum, quo non augustius ullum\nIn terris, Salomon! non habiture parem.\nÆdem marmoream vellem quoque condere, JESU!\nSed majus nostris viribus illud opus.\nAccipe salvifico conspersum sanguine pectus:\nHoc Tibi sit templum! sit Tibi gratia domus!",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    },
+    "editorial_note": "Russian witness gives seven days instead of fourteen for the feast and omits the number of wives and concubines, hence 27 questions. German teaching III prints 'Alter oder Thorheit' and is retained.",
+    "title": "Von dem Könige Salamo.",
+    "reference": "1. Könige II. III. VI. VIII. IX. und XII. Capitel.",
+    "narrative": "1. Wie David gestorben war, so kam sein Sohn Salamo zur Regierung. 2. Demselben erschien der HErr im Traum, und sprach: Bitte, was ich dir geben soll. 3. Da bat Salamo um ein weises und verständiges Hertz, damit er wohl regieren möchte. 4. Das gefiel GOtt wohl, und gab ihm ein weises Hertz, das seines gleichen vor ihm nicht gewesen ist, und auch nach ihm nicht kommen wird. 5. Darzu gab ihm GOtt, worum er nicht gebeten hatte, nemlich Reichthum, Ehre und langes Leben. 6. Es gaben ihm auch bald im Anfange seiner Regierung zwey Huren eine Gelegenheit, daß er seine Weißheit konnte sehen lassen. 7. Dieselben hatten bißhero bey einander gewohnet, und eine unter ihnen hatte des Nachts ungefehr ihr Kind erdruckt. 8. Des Morgens zanckten sie sich um das lebendige Kind mit einander, und wolten es alle beyde haben. 9. Weil nun niemand errathen konnte, welcher Mutter das lebendige Kind gehörte, so sagte Salomo: Holet mir ein Schwerdt, und theilet das lebendige Kind. 10. Da sprach die eine Hure: Ach! mein Herr, gebet ihr das Kind lebendig, und tödtet es nicht. 11. Hingegen die andere sprach: Es sey weder mein noch dein, laß es theilen. 12. Damit war es leicht zu errathen, welches die rechte Mutter zu dem lebendigen Kinde war. 13. Nach diesem bauete Salomo dem Namen des HErrn den prächtigen Tempel zu Jerusalem. 14. Ueber diesem kostbaren Bau brachte man gantzer sieben Jahre zu. 15. Wie Salomo diesen Tempel einweihete, so erschien die Herrlichkeit des HErrn in einer Wolcken, und erfüllete das Hauß. 16. Da trat Salomo vor den Altar, und breitete seine Hände gen Himmel, und that ein trefliches Gebet. 17. Insonderheit bat er GOtt, daß er doch alles Gebet erhören wolte, das in diesem Tempel geschehen würde, wenn etwa Krieg, Hunger oder Pestilenz ins Land käme. 18. Darauf opfferte Salomo zwey und zwantzig tausend Ochsen, und hundert und zwantzig tausend Schafe. 19. Zum Beschluß ließ Salomo das gantze Volck viertzehn Tage nach einander herrlich tractiren. 20. Es liebte aber dieser weise König Salomo viel ausländische Weiber. 21. Denn er hatte siebenhundert Weiber zu Frauen, und dreyhundert Kebs-Weiber. 22. Wie nun Salomo alt war, so verführten ihn diese heidnischen Weiber zur Abgötterey. 23. Deswegen ward nach seinem Tode das Königreich zertheilet. 24. Denn sein unweiser Sohn Rehabeam behielt nicht mehr als zwey Stämme, nemlich Juda und Benjamin. 25. Und die andern zehen Stämme erwehlten Jerobeam zu ihrem Könige. 26. Von der Zeit an sind zwey Königreiche im Volcke GOttes gewesen, nemlich das Königreich Juda, und das Königreich Israel. 27. Die Könige über Juda residirten in der Stadt Jerusalem. 28. Und hingegen die Könige über Israel hatten ihre Residenz zu Samaria.",
+    "questions": [
+      "Wer war Davids Nachfolger?",
+      "Was sagte GOtt im Traume zu ihm?",
+      "Was bat Salamo von dem HErrn?",
+      "Wie gefiel dem HErrn diese Bitte?",
+      "Was gab ihm GOtt noch darzu?",
+      "Wer gab ihm Gelegenheit, daß er seine Weißheit konte sehen lassen?",
+      "Was war unter den zwey Huren vorgegangen?",
+      "Warum zanckten sie sich mit einander?",
+      "Was fällete Salomo vor ein Urtheil?",
+      "Was sagte die eine Hure darzu?",
+      "Was sagte die andere Hure?",
+      "Was konnte man sich daraus nehmen?",
+      "Was nahm Salamo vor einen Bau vor?",
+      "Wie lange bauete Salomo über dem Tempel?",
+      "Was trug sich bey der Einweihung zu?",
+      "Wie führte sich Salomo dabey auf?",
+      "Was bat er insonderheit von dem lieben GOtte?",
+      "Was that Salomo darnach vor ein Opffer?",
+      "Wie lange ward das Volck tractiret?",
+      "Was hatte Salomo vor eine Schwachheit an sich?",
+      "Wie viel hatte denn Salomo Weiber?",
+      "Worzu verführten ihn die Weiber im Alter?",
+      "Wie straffte GOtt diese Abgötterey?",
+      "Wie viel Stämme behielt Salomons Sohn Rehabeam?",
+      "Wen erwehlten die andern zehen Stämme zu ihrem Könige?",
+      "Wie viel Königreiche sind hierauf entstanden?",
+      "Wo haben die Könige in Juda residiret?",
+      "Wo haben die Könige in Israel residiret?"
+    ],
+    "teachings": [
+      "I. Der Tempel Salomonis war das allgemeine Bet-Haus des Jüdischen Volckes.\nSolche Bet-Häuser sind auch unsere Kirchen; und das sind keine gute Christen, die ohne Noth unter dem Kirchen-Gebete heraus gehen.",
+      "II. Salomo bat nur um das Vornehmste, und GOtt gab ihm das geringe darzu.\nAlso laßt uns doch nur um die geistliche Gaben, als Glaube, Liebe und Hoffnung bitten: Die leiblichen Dinge, als Essen, Trincken, Kleidung und dergleichen, werden uns wol von sich selber zufallen.",
+      "III. Salomo ließ sich im Alter die Weiber zur Abgötterey verführen.\nAlso hilft Alter oder Thorheit nicht, und wenn man gleich die Lüste der Jugend überstanden hat, so fehlt es dem Teufel an andern Stricken nicht, damit er uns, wenn wir nicht allezeit auf guter Hut sind, auch im Alter fangen kan."
+    ],
+    "reflection": "Der Tempel Salomo war prächtig anzuschauen /\nKein König hat es ihm auf Erden gleich gethan.\nMein GOtt! ich wolte dir auch einen Tempel bauen /\nDoch meine Dürftigkeit verhindert mich daran.\nNun / was ich nicht vermag / das wirst du mir verzeihen /\nIndessen will ich dir mein Hertz zum Tempel weihen!"
   }
 };

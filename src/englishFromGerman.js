@@ -1887,5 +1887,62 @@ export const englishFromGerman = {
       "III. When sin has been committed, the conscience awakens.\nWhen David had had the people numbered, his heart smote him."
     ],
     "reflection": "King David has the people numbered out of pride,\nWith which the great God is not at all pleased;\nFrom three evils David must choose one,\nThere followed a plague that devours seventy thousand.\nO therefore let us indeed pray for those in authority,\nThat the dear God may preserve them from folly."
+  },
+  "35": {
+    "pages": [
+      210,
+      213,
+      214,
+      215
+    ],
+    "printed": "118–121",
+    "latin": "Consideras templum, quo non augustius ullum\nIn terris, Salomon! non habiture parem.\nÆdem marmoream vellem quoque condere, JESU!\nSed majus nostris viribus illud opus.\nAccipe salvifico conspersum sanguine pectus:\nHoc Tibi sit templum! sit Tibi gratia domus!",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    },
+    "editorial_note": "Russian witness gives seven days instead of fourteen for the feast and omits the number of wives and concubines, hence 27 questions. German teaching III prints 'Alter oder Thorheit' and is retained.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of King Solomon.",
+    "reference": "1 Kings II, III, VI, VIII, IX, and XII.",
+    "narrative": "1. When David had died, his son Solomon came to the throne. 2. The Lord appeared to him in a dream and said: Ask what I shall give you. 3. Then Solomon asked for a wise and understanding heart, that he might govern well. 4. This pleased God, and he gave him a wise heart, the like of which had not existed before him and would not come after him. 5. God gave him in addition what he had not asked for, namely riches, honor, and long life. 6. Early in his reign two prostitutes gave him an opportunity to display his wisdom. 7. They had been living together, and one of them had accidentally smothered her child during the night. 8. In the morning they quarreled with each other over the living child, and both wanted to have it. 9. Since no one could determine to which mother the living child belonged, Solomon said: Bring me a sword and divide the living child. 10. Then one of the prostitutes said: Ah, my lord! Give her the child alive, and do not kill it. 11. The other, however, said: Let it be neither mine nor yours; let it be divided. 12. From this it was easy to determine which was the true mother of the living child. 13. After this Solomon built the magnificent temple at Jerusalem to the name of the Lord. 14. Seven whole years were spent on this costly building. 15. When Solomon dedicated this temple, the glory of the Lord appeared in a cloud and filled the house. 16. Then Solomon stood before the altar, spread his hands toward heaven, and offered an excellent prayer. 17. In particular he asked God to hear every prayer that should be made in this temple if war, famine, or pestilence should come upon the land. 18. Thereupon Solomon sacrificed twenty-two thousand oxen and one hundred and twenty thousand sheep. 19. In conclusion Solomon had the whole people splendidly entertained for fourteen successive days. 20. But this wise King Solomon loved many foreign women. 21. For he had seven hundred wives and three hundred concubines. 22. When Solomon was old, these pagan women seduced him into idolatry. 23. For this reason the kingdom was divided after his death. 24. For his unwise son Rehoboam retained no more than two tribes, namely Judah and Benjamin. 25. And the other ten tribes chose Jeroboam as their king. 26. From that time there were two kingdoms among the people of God, namely the kingdom of Judah and the kingdom of Israel. 27. The kings over Judah resided in the city of Jerusalem. 28. The kings over Israel, on the other hand, had their residence at Samaria.",
+    "questions": [
+      "Who succeeded David?",
+      "What did God say to him in the dream?",
+      "What did Solomon ask of the Lord?",
+      "How did this request please the Lord?",
+      "What did God give him in addition?",
+      "Who gave him an opportunity to display his wisdom?",
+      "What had happened between the two prostitutes?",
+      "Why did they quarrel with each other?",
+      "What judgment did Solomon pronounce?",
+      "What did one of the prostitutes say to this?",
+      "What did the other prostitute say?",
+      "What could be inferred from this?",
+      "What building did Solomon undertake?",
+      "How long did Solomon spend building the temple?",
+      "What happened at its dedication?",
+      "How did Solomon conduct himself on that occasion?",
+      "What in particular did he ask of our dear God?",
+      "What sacrifice did Solomon offer afterward?",
+      "How long were the people entertained?",
+      "What weakness did Solomon have?",
+      "How many women did Solomon have?",
+      "Into what did the women seduce him in his old age?",
+      "How did God punish this idolatry?",
+      "How many tribes did Solomon's son Rehoboam retain?",
+      "Whom did the other ten tribes choose as their king?",
+      "How many kingdoms arose as a result?",
+      "Where did the kings of Judah reside?",
+      "Where did the kings of Israel reside?"
+    ],
+    "teachings": [
+      "I. Solomon's temple was the common house of prayer of the Jewish people.\nOur churches are likewise such houses of prayer; and those who leave without necessity during the church prayers are not good Christians.",
+      "II. Solomon asked only for the most excellent thing, and God gave him the lesser things in addition.\nLet us therefore ask only for spiritual gifts, such as faith, love, and hope: bodily things, such as food, drink, clothing, and the like, will surely fall to us of themselves.",
+      "III. In old age Solomon allowed the women to seduce him into idolatry.\nThus neither age nor folly helps, and even when one has overcome the desires of youth, the devil does not lack other snares with which he can catch us even in old age, if we are not always on our guard."
+    ],
+    "reflection": "Solomon's temple was magnificent to behold;\nNo king on earth has equaled him in this.\nMy God! I too would build a temple for you,\nBut my poverty prevents me from doing so.\nNow, what I cannot accomplish, you will forgive me;\nMeanwhile I will dedicate my heart to you as a temple!"
   }
 };
