@@ -2,6 +2,7 @@ import { stories } from "./catalog.js";
 import { english1765 } from "./english1765.js";
 import { german1768 } from "./german1768.js";
 import { englishFromGerman } from "./englishFromGerman.js";
+import { russianHistorical } from "./russianHistorical.js";
 
 const main = document.querySelector("#main");
 const lightbox = document.querySelector("#lightbox");
@@ -11,7 +12,7 @@ const languages = ["en","de","ru"];
 const text = {
   en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"The historical English text for this story has not yet been transcribed.",edition:"English · Hamburg, 1765",book:"1765 historical edition",original:"Original scan",about:"Edition"},
   de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Der historische Text ist noch nicht geprüft und transkribiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
-  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Немецкие страницы · 1768",none:"Подлинный русский текст пока не проверен и не расшифрован.",edition:"Русский · новый перевод с немецкого OCR 1768 года",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
+  ru:{all:"Все 104",old:"Ветхий Завет",new:"Новый Завет",search:"Поиск",back:"Все истории",folio:"Немецкие страницы · 1768",none:"Подлинный русский текст пока не проверен и не расшифрован.",edition:"Русский · Москва, 1825",book:"Цифровая копия · 1825",original:"Оригинальный скан",about:"Издание"}
 };
 const sourceEnglish = "https://books.google.com/books?id=5elUAAAAcAAJ";
 const sourceRussian1815 = "https://search.rsl.ru/ru/search#q=%D0%93%D0%B8%D0%B1%D0%BD%D0%B5%D1%80%201815";
@@ -144,6 +145,20 @@ function chapterContent(p){
       +'<h2>Latin</h2><p lang="la">'+verses(translated.latin)+'</p></div>'
       +'<p class="source-heading">New translation of the transcribed German edition, not a historical English witness; not independently proofread.</p>'
       +(historical?'<details class="source-facsimile"><summary>Historical English narrative · Hamburg, 1765</summary><div class="edition-prose" lang="en">'+textParagraphs(historical.text)+'</div><p class="source-heading">The 1765 edition omits questions and reflections. '+historical.pages.map(n=>'<a href="'+sourceEnglish+'&amp;pg=PA'+n+'" target="_blank" rel="noopener">p. '+n+'</a>').join(" · ")+'</p></details>':'');
+  }
+  const russian=lang==="ru" ? russianHistorical[p.id] : null;
+  if(russian){
+    const links=russian.source_pages.map(n=>'<a href="https://kp.rusneb.ru/attachments_new/attachment/'+esc(russian.document_id)+'/preview-page-'+n+'.jpg" target="_blank" rel="noopener">↗ '+n+'</a>').join(" · ");
+    const verses=v=>esc(v).replace(/\n/g,"<br>");
+    const originalLatin=german1768[p.id]?.latin;
+    return '<p class="source-heading">'+esc(russian.edition)+' · с. '+esc(russian.printed)+' · '+links+'</p>'
+      +'<div class="edition-prose" lang="ru"><p><em>'+esc(russian.title)+'</em></p><p>'+esc(russian.reference)+'</p>'
+      +textParagraphs(russian.narrative)
+      +'<h2>Вопросы</h2><ol>'+russian.questions.map(q=>'<li>'+esc(q)+'</li>').join("")+'</ol>'
+      +'<h2>Полезныя нравоученія</h2>'+textParagraphs(russian.teaching_preamble)+russian.teachings.map(t=>'<p>'+verses(t)+'</p>').join("")
+      +'<h2>Благочестивыя размышленія</h2>'+textParagraphs(russian.reflection)
+      +(russian.latin?'<h2>Латинскій текстъ</h2><p lang="la">'+verses(russian.latin)+'</p>':originalLatin?'<h2>Latin · Gießen 1768</h2><p lang="la">'+verses(originalLatin)+'</p>':'')+'</div>'
+      +'<p class="source-heading">Текстъ историческаго русскаго изданія; независимая корректура ещё не проведена.</p>';
   }
   const historical=lang==="en" ? english1765[p.id] : null;
   if(historical){
