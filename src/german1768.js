@@ -484,5 +484,75 @@ export const german1768 = {
       "III. Die Eltern aber sollen die Kinder zu keiner Heyrath zwingen.\nDenn hier ward die Rebecca erst gefraget, ob sie auch mit ihm ziehen wolte?"
     ],
     "reflection": "Wie Elieser soll ein wichtig Werck vollbringen /\nSo läßt er das Gebet sein allererstes seyn:\nUnd wie er sieht / daß GOtt ihm läßt sein Werck gelingen /\nSo giebt er auch davor die Ehre GOtt allein;\nSo will ich ebenfalls in allen meinen Sachen\nDen Anfang mit Gebet / den Schluß mit Lobe machen."
+  },
+  "12": {
+    "pages": [
+      76,
+      79,
+      80,
+      81,
+      82
+    ],
+    "printed": "30–34",
+    "latin": "Irrita nemo facit, rata vult quaecunque Jehova,\nHoc rerum exemplo comprobat esse Jacob.\nQuem fortunatum fecit benedictio patris,\nInfortunatum reddere nemo potest.\nSic, quae decrevisti, num qui cuncta gubernas,\nUt ringat mundus, me quoque fata manent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 41,
+      "teachings": 3
+    },
+    "title": "Wie Isaac seine Kinder gesegnet hat.",
+    "reference": "1. Mose XXVII. Capitel.",
+    "narrative": "1. Isaac hatte mit Rebecca zwey Söhne gezeuget, die waren Zwillinge. 2. Der Erstgebohrne hieß Esau, 3. und war rauch; der jüngste aber hatte eine glatte Haut, 4. und hieß Jacob. 5. Esau ward ein Jäger und Ackermann; 6. Jacob aber ward ein frommer Mann, und blieb in seiner Hütten. 7. Bey dem Vater war Esau der liebe Sohn; 8. Und hingegen bey der Mutter stund Jacob in grossen Gnaden. 9. Wie nun Isaac alt war, so waren seine Augen dunkel worden, daß er nicht mehr sehen konte. 10. Er nahm sich deswegen vor, seine Kinder zu segnen. 11. Und zwar so hatte er den besten Seegen nicht dem frommen Jacob, sondern dem gottlosen Esau zugedacht. 12. In diesem Vorsatze sprach er zu Esau: Gehe aufs Feld, fahe mir ein Wildpret, und mache mir ein Essen, wie ichs gerne habe, und bringe mirs herein, daß ich esse, daß dich meine Seele segne, ehe denn ich sterbe. 13. Dieses hörete Rebecca, 14. und dachte gleich darauf, wie sie den Seegen ihrem jüngsten Sohne zuwenden wolte. 15. Sie sagte demnach zu Jacob, er solte zwey Böcklein von der Heerde holen, daraus wolte sie ein Essen machen, das solte Jacob dem Vater bringen, und sich vor seinen Bruder Esau ausgeben. 16. Jacob sagte zwar zu seiner Mutter: Siehe, mein Bruder ist rauch, und ich bin glatt, mein Vater möchte mir, als einem Betrüger, den Fluch vor den Segen geben. 17. Die Mutter aber sprach: Der Fluch sey auf mir, mein Sohn, gehorche nur meiner Stimme. 18. Wie das Essen fertig war, so zog sie dem Jacob die Kleider seines Bruders Esau an, 19. und darnach band sie ihm die Felle von den Böcklein um die Hände und um den Hals. 20. Wie er nun hinein kam, so sagte der alte Vater: Wer bist du, mein Sohn? 21. Jacob gab zur Antwort: Ich bin Esau dein Erstgebohrner Sohn, stehe auf und iß von meinem Wildpret. 22. Isaac fragte weiter: Wie hast du so bald funden, mein Sohn? 23. Jacob sprach: Der HErr dein GOtt bescherte mirs. 24. Isaac merckte wohl, daß es nicht recht zugieng; deswegen muste ihm Jacob erstlich die Hände geben. 25. Da nun dieselben rauch waren, wie Esaus Hände, so sagte der alte Vater: Die Stimme ist Jacobs Stimme, aber die Hände sind Esaus Hände. 26. Er fragte darauf nochmals: Bist du mein Sohn Esau? 27. Jacob antwortete: Ja, ich bins. 28. Hierauf aß Isaac von dem Essen, und tranck von dem Weine, den ihm Jacob vorsetzte. 29. Als er gegessen hatte so sagte er zu Jacob: Komm her, mein Sohn, und küsse mich. 30. Wie Jacob das that, so roch der Vater den Geruch seiner Kleider, und glaubte nunmehro gewiß, daß es Esau wäre. 31. Darauf gab er ihm einen schönen Segen, und gebrauchte sich unter andern dieser Worte: Sey ein Herr über deine Brüder, und deiner Mutter Kinder müssen dir zu Fusse fallen! Verflucht sey, wer dir fluchet, gesegnet sey, wer dich segnet. 32. Wie Jacob kaum hinaus gegangen war, so kam Esau von der Jagd, und brachte dem Vater auch ein Essen. 33. Isaac fragte alsobald, wer bist du? 34. Esau gab zur Antwort: Ich bin Esau, dein erstgebohrner Sohn: 35. Darüber erschrack der Vater heftig, und sagte: Dein Bruder ist kommen mit List, und hat den Seegen hinweg, und wird auch wohl gesegnet bleiben. 36. Esau betrübte sich anfangs herzlich darüber, fieng an zu weinen, und sagte unter andern: Hast du denn nur einen Segen? mein Vater, segne mich doch auch! 37. Hierauf bekam er zwar auch einen Segen: aber was Jacob einmal voraus hatte, das konte der Vater nunmehro nicht widerruffen. 38. Nun geschahe hierinnen zwar dem Esau kein grosses Unrecht: Denn er hatte das Recht der ersten Geburt seinem Bruder Jacob um ein schnödes Linsen-Gerichte verkauffet: 39. GOtt hatte es auch der Mutter zuvor gesagt, daß ihr grösserer Sohn dem kleinern dienen würde: 40. Aber er wurde doch seinem Bruder gram deswegen, und sprach in seinem Herzen: 41. Es wird die Zeit bald kommen, daß mein Vater Leide tragen muß, denn ich will meinen Bruder Jacob erwürgen.",
+    "questions": [
+      "Wie viel Kinder hatte Isaac?",
+      "Wie hieß der erste?",
+      "Wie waren sie an der Haut unterschieden?",
+      "Wie hieß der andere?",
+      "Woran hatte Esau seine Lust?",
+      "Was hatte Jacob vor eine Lebensart?",
+      "Welchen hatte der Vater lieb?",
+      "Welcher stund bey der Mutter in Gnaden?",
+      "Wie befand sich Isaac im hohen Alter?",
+      "Was that er noch vor seinem Ende?",
+      "Welchem Sohn war der Segen zugedacht?",
+      "Was befahl er seinem Sohne Esau?",
+      "Wer hatte das gehöret?",
+      "Was gedachte Rebecca dabey?",
+      "Was gab sie ihrem Sohne Jacob vor Anschläge?",
+      "Was hatte Jacob darwider einzuwenden?",
+      "Was gab ihm die Mutter vor eine Versicherung?",
+      "Was nahm sie mit den Kleidern vor?",
+      "Womit machte sie Jacoben rauch?",
+      "Was sagte Isaac, wie Jacob zu ihm kam?",
+      "Was gab Jacob zur Antwort?",
+      "Was fragte Isaac weiter?",
+      "Was wandte Jacob vor?",
+      "Wie probirte der Vater den Sohn?",
+      "Was sagte der Vater zu den rauchen Händen?",
+      "Was war Isaacs letzte Frage?",
+      "Und was war Jacobs Antwort?",
+      "Was that hierauf der alte Vater?",
+      "Wie sagte Isaac nach dem Essen zu Jacob?",
+      "Was trug sich bey dem Kusse zu?",
+      "Was gab er ihm hierauf für einen Segen?",
+      "Wenn kam Esau wieder von der Jagd?",
+      "Wie fragte Isaac?",
+      "Was gab Esau zur Antwort?",
+      "Was sagte der Vater darzu?",
+      "Wie that Esau darbey?",
+      "Gab ihm der Vater nicht auch einen Segen?",
+      "Geschahe denn Esau hieran Unrecht?",
+      "Was war ihm prophezeiet worden?",
+      "Wie führte sich Esau gegen Jacob auf?",
+      "Was ließ Esau vor Dräuungen von sich hören?"
+    ],
+    "teachings": [
+      "I. Der Seegen der Eltern hat eine grosse Krafft.\nIsaac sagte: Jacob ist einmal gesegnet, und wird auch wohl gesegnet bleiben.",
+      "II. Die Frömmigkeit bleibt nicht unbelohnet.\nJacob war ein frommer Mann, davor bekam er den Segen, auch wider des Vaters Willen.",
+      "III. Was GOtt beschlossen hat, das muß ergehen.\nGOtt sagte: Der Grösseste solte dem Kleinern dienen; und so muste es auch geschehen."
+    ],
+    "reflection": "Was einem GOtt beschert / das bleibet unverwehret.\nDiß alte Sprichwort trifft bey Jacob richtig ein;\nEs ist der Segen ihm einmal von GOtt bescheret /\nDeswegen soll er auch / und muß gesegnet seyn.\nWas mir GOtt zugedacht / das wird mir auch wohl bleiben /\nUnd niemand auf der Welt wird solches hintertreiben.",
+    "editorial_note": "Latin line 5 requires independent collation."
   }
 };

@@ -505,5 +505,75 @@ export const englishFromGerman = {
       "III. Parents, however, should not force their children into any marriage.\nFor here Rebecca was first asked whether she was willing to go with him."
     ],
     "reflection": "When Eliezer is to accomplish an important work,\nHe makes prayer his very first concern;\nAnd when he sees that God makes his work succeed,\nHe gives the glory for it to God alone;\nThus I likewise will, in all my affairs,\nMake the beginning with prayer and the ending with praise."
+  },
+  "12": {
+    "pages": [
+      76,
+      79,
+      80,
+      81,
+      82
+    ],
+    "printed": "30–34",
+    "latin": "Irrita nemo facit, rata vult quaecunque Jehova,\nHoc rerum exemplo comprobat esse Jacob.\nQuem fortunatum fecit benedictio patris,\nInfortunatum reddere nemo potest.\nSic, quae decrevisti, num qui cuncta gubernas,\nUt ringat mundus, me quoque fata manent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 41,
+      "teachings": 3
+    },
+    "title": "How Isaac Blessed His Children",
+    "reference": "Genesis, chapter XXVII.",
+    "kind": "new-translation-from-transcribed-german",
+    "narrative": "1. Isaac had begotten two sons with Rebecca; they were twins. 2. The firstborn was named Esau, 3. and was hairy; but the younger had smooth skin, 4. and was named Jacob. 5. Esau became a hunter and farmer; 6. but Jacob became a godly man and remained in his tent. 7. With the father, Esau was the beloved son; 8. but Jacob, on the other hand, was greatly favored by his mother. 9. When Isaac was old, his eyes had grown dim so that he could no longer see. 10. He therefore resolved to bless his children. 11. He had intended the best blessing not for godly Jacob but for ungodly Esau. 12. With this intention he said to Esau: Go out into the field, catch me some game, make me a meal such as I like, and bring it in to me that I may eat, so that my soul may bless you before I die. 13. Rebecca heard this, 14. and immediately considered how she might turn the blessing to her younger son. 15. Accordingly she told Jacob to fetch two young goats from the herd; she would make a meal from them, which Jacob should bring to his father, passing himself off as his brother Esau. 16. Jacob said to his mother: Behold, my brother is hairy and I am smooth; my father might give me a curse instead of a blessing, as a deceiver. 17. But his mother said: Let the curse be upon me, my son; only obey my voice. 18. When the meal was ready, she put the clothes of his brother Esau on Jacob, 19. and afterward bound the skins of the young goats around his hands and neck. 20. When he came in, the old father said: Who are you, my son? 21. Jacob answered: I am Esau your firstborn son; rise and eat of my game. 22. Isaac asked further: How have you found it so soon, my son? 23. Jacob said: The Lord your God provided it for me. 24. Isaac noticed well that something was not right; therefore Jacob first had to give him his hands. 25. As these were hairy like Esau's hands, the old father said: The voice is Jacob's voice, but the hands are Esau's hands. 26. He then asked once more: Are you my son Esau? 27. Jacob answered: Yes, I am. 28. Isaac thereupon ate of the meal and drank of the wine that Jacob set before him. 29. When he had eaten, he said to Jacob: Come here, my son, and kiss me. 30. When Jacob did so, the father smelled the scent of his clothes and now believed certainly that it was Esau. 31. He then gave him a beautiful blessing, using among others these words: Be lord over your brothers, and let your mother's children fall at your feet! Cursed be whoever curses you, and blessed be whoever blesses you. 32. When Jacob had scarcely gone out, Esau came from the hunt and brought his father a meal as well. 33. Isaac immediately asked: Who are you? 34. Esau answered: I am Esau, your firstborn son. 35. The father was greatly alarmed at this and said: Your brother has come with cunning and has taken away the blessing, and he will indeed remain blessed. 36. Esau was at first deeply distressed over this, began to weep, and said among other things: Have you only one blessing? My father, bless me also! 37. He then received a blessing too; but what Jacob had once received in advance, the father could now no longer revoke. 38. Now no great wrong was done to Esau in this matter, for he had sold his birthright to his brother Jacob for a paltry dish of lentils. 39. God had also told the mother beforehand that her elder son would serve the younger. 40. Nevertheless he became resentful toward his brother on account of it and said in his heart: 41. The time will soon come when my father must bear sorrow, for I will kill my brother Jacob.",
+    "questions": [
+      "How many children did Isaac have?",
+      "What was the first named?",
+      "How did their skin differ?",
+      "What was the other named?",
+      "In what did Esau delight?",
+      "What manner of life did Jacob lead?",
+      "Whom did the father love?",
+      "Which was favored by the mother?",
+      "How was Isaac in his advanced age?",
+      "What did he do before his end?",
+      "For which son was the blessing intended?",
+      "What did he command his son Esau?",
+      "Who had heard this?",
+      "What did Rebecca think about it?",
+      "What plans did she propose to her son Jacob?",
+      "What objection did Jacob have?",
+      "What assurance did his mother give him?",
+      "What did she do with the clothes?",
+      "With what did she make Jacob hairy?",
+      "What did Isaac say when Jacob came to him?",
+      "What answer did Jacob give?",
+      "What did Isaac ask further?",
+      "What did Jacob allege?",
+      "How did the father test the son?",
+      "What did the father say about the hairy hands?",
+      "What was Isaac's last question?",
+      "And what was Jacob's answer?",
+      "What did the old father do thereupon?",
+      "What did Isaac say to Jacob after the meal?",
+      "What happened at the kiss?",
+      "What blessing did he then give him?",
+      "When did Esau return from the hunt?",
+      "What did Isaac ask?",
+      "What answer did Esau give?",
+      "What did the father say to this?",
+      "How did Esau act in response?",
+      "Did the father not give him a blessing as well?",
+      "Was Esau wronged in this matter?",
+      "What had been prophesied to him?",
+      "How did Esau conduct himself toward Jacob?",
+      "What threats did Esau utter?"
+    ],
+    "teachings": [
+      "I. The blessing of parents has great power.\nIsaac said: Jacob is once blessed, and will indeed remain blessed.",
+      "II. Godliness does not remain unrewarded.\nJacob was a godly man; for this he received the blessing, even against his father's will.",
+      "III. What God has decreed must come to pass.\nGod said: The elder should serve the younger; and so it had to happen."
+    ],
+    "reflection": "What God bestows upon one remains unimpeded.\nThis old proverb is rightly fulfilled in Jacob;\nThe blessing has once been bestowed upon him by God,\nTherefore he shall and must be blessed.\nWhat God has intended for me will likewise remain mine,\nAnd no one in the world will thwart it."
   }
 };
