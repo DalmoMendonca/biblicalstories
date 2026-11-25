@@ -1,0 +1,1361 @@
+{
+  "edition": "Zürich, ca. 1775",
+  "source": "https://doi.org/10.3931/e-rara-85573",
+  "source_file": "public/data/german-ocr.txt",
+  "source_git_blob": "5d4bcb5faf287cb3453c05c5761ed2c22e31a8c3",
+  "method": "Manually identified actual chapter headings in existing library OCR, including corrupted numerals. Source character offsets in JS UTF-16 units. Includes uncorrected OCR, running headers and occasional illustration-caption noise; section marker tests are diagnostic only, not proof of complete transcription.",
+  "records": [
+    {
+      "id": 1,
+      "book": "old",
+      "number": 1,
+      "start": 23360,
+      "end": 25682,
+      "heading": "Die 1. Historie. Von dem wDe der Schöpfung i. B. Mf. I. und II. Eap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 2,
+      "book": "old",
+      "number": 2,
+      "start": 25682,
+      "end": 28632,
+      "heading": "Die II. Historie. Von derGchöpfung des Menschen. i. B. Mof. I. und ll. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 3,
+      "book": "old",
+      "number": 3,
+      "start": 28632,
+      "end": 32070,
+      "heading": "Die III. Historie. Vom Stande der Unschuld, im Paradeise. i. Buch Mol. II. und III. Cap. ' und Eva lebten anfangs im",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 4,
+      "book": "old",
+      "number": 4,
+      "start": 32070,
+      "end": 36632,
+      "heading": "Die IV. Historie. Von dem Sünden - Fall der ersten Eltern, i. Buch Mos. II. und III. Cap. ZMM Paroderse ffuhnd r. der Baum des Erkännmisses Gutes und Böses, s. Auf demselben wuchsen zwar Frü",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 5,
+      "book": "old",
+      "number": 5,
+      "start": 36632,
+      "end": 40803,
+      "heading": "Die V. Historie. Wie Lain seinen Bruder Abel erschlagen hat. r. Buch Mof. IV. Cap. r. ÄWDam hatte zwey Söhne: 2. Der DW älteste hieß Cain, z. und war ein Ackermann: 4. Der jüngere aber hieß ",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": false
+      }
+    },
+    {
+      "id": 6,
+      "book": "old",
+      "number": 6,
+      "start": 40803,
+      "end": 45671,
+      "heading": "Die VI. Historie. Von der Sündfluth. r. Buch Mof. VI. VII. Vlll. und IX. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 7,
+      "book": "old",
+      "number": 7,
+      "start": 45671,
+      "end": 48026,
+      "heading": "Die VIII. Historie. Vom Thum-Dau zu Babel. i. Buch Mos. XL Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 8,
+      "book": "old",
+      "number": 8,
+      "start": 48026,
+      "end": 52002,
+      "heading": "Die VIII. Historie. Von Abraham und Sarah. i. Buch Mof. XVIII. Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 9,
+      "book": "old",
+      "number": 9,
+      "start": 52002,
+      "end": 57025,
+      "heading": "Die IX. Historie. Von Sodom undGomorra. i. Buch Mof. XIX. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 10,
+      "book": "old",
+      "number": 10,
+      "start": 57025,
+      "end": 60655,
+      "heading": "Die X. Historie. Von Jsaacs Opferung. ' r. B. Mof. XXII. Cap. ^",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 11,
+      "book": "old",
+      "number": 11,
+      "start": 60655,
+      "end": 65160,
+      "heading": "Die XI. Historie. Von Jsaacs Vermählung. i. B. Mos. XXIV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 12,
+      "book": "old",
+      "number": 12,
+      "start": 65160,
+      "end": 71674,
+      "heading": "Die Xil. Historie. wie Jsaac seine Rinder gesegnet hat.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 13,
+      "book": "old",
+      "number": 13,
+      "start": 71674,
+      "end": 75258,
+      "heading": "Die XIII. Historie. Von der Himmels - Leiter im Traume.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 14,
+      "book": "old",
+      "number": 14,
+      "start": 75258,
+      "end": 80748,
+      "heading": "Die XIV. Historie. Von Jacobs doppelter Heurath. r. Buch Mof. XXIX. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 15,
+      "book": "old",
+      "number": 15,
+      "start": 80748,
+      "end": 85676,
+      "heading": "Die X V. Historie. Me Jacob mit Gott gerungen hat. Buch Mof. XXXII. und XXXIII. Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 16,
+      "book": "old",
+      "number": 16,
+      "start": 85676,
+      "end": 91702,
+      "heading": "Die XVI. Historie. wie Joseph von seinen Brüdern verkauft wird. i. Buch Mos. XXXVII. Cap. r. AMAcob hatte zusammen zwölf Söh- WK ne. 2 . Der liebste darunter war Io^ feyh, z. weil er denselb",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 17,
+      "book": "old",
+      "number": 17,
+      "start": 91702,
+      "end": 95782,
+      "heading": "Die XVII. Historie. Wie Joseph wegen seiner Keuschheit ins Gefängnuß kommen ist. r. B. Mvs. XXXIX. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 18,
+      "book": "old",
+      "number": 18,
+      "start": 95782,
+      "end": 101968,
+      "heading": "Die XVIII. Historie. Wie Joseph aus der Gefängnuß erlöset worden. i^Buch Mos. XU und Xl.1. Cap. 1. Joseph im Gefängnuß war, so KW fielen zwey Bedienten des Königs",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 19,
+      "book": "old",
+      "number": 19,
+      "start": 101968,
+      "end": 108827,
+      "heading": "Die XIX. Historie. Wie Josephs Brüder zur Feit der Theurung nach Eg^pten gerettet sind. r. Buch Mos. Xl.II. und XI.III. Cap. i. grosse Theurung erstrecke sich",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 20,
+      "book": "old",
+      "number": 20,
+      "start": 108827,
+      "end": 116288,
+      "heading": "Die XX. Historie. Wie sich Joseph seinen Brudern zuerkennen gegeben hat.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": false
+      }
+    },
+    {
+      "id": 21,
+      "book": "old",
+      "number": 21,
+      "start": 116288,
+      "end": 120980,
+      "heading": "Die XXI. Historie. Von derEgyptischenDtenstbarkeit. 2. B. Mos. I. und II. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 22,
+      "book": "old",
+      "number": 22,
+      "start": 120980,
+      "end": 128801,
+      "heading": "Die XXII. Historie. Wie Pharao seinHerz verstockt hat. r. Buch Mof. III. bis zum XI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 23,
+      "book": "old",
+      "number": 23,
+      "start": 128801,
+      "end": 134554,
+      "heading": "Die XXIII. Historie. Wie Moses die Linder Israel aus Eg^pten geführet hat.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 24,
+      "book": "old",
+      "number": 24,
+      "start": 134554,
+      "end": 141792,
+      "heading": "Die XXIV. Historie. Wie Gott dieAüider Israel durch die wüsten in das gelobte Land",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 25,
+      "book": "old",
+      "number": 25,
+      "start": 141792,
+      "end": 148801,
+      "heading": "Die XXV. Historie. Wie Gott die heiligen zehen Gebott auf dem Berg Sinai gegeben hat. i. B. Mos. XIX. XX. und XXI. Cap. i. D^Ls die Kinder Israel in der Wüsten waren, so gab ihnen Gott der H",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 26,
+      "book": "old",
+      "number": 26,
+      "start": 148801,
+      "end": 157053,
+      "heading": "Die XXVI. Historie. ' Von Simson. , Buch der Richter XIII. XIV. XV. XVI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 27,
+      "book": "old",
+      "number": 27,
+      "start": 157053,
+      "end": 161411,
+      "heading": "Die XXVII. Historie. Von Samuel. r. Sam. I. und II. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 28,
+      "book": "old",
+      "number": 28,
+      "start": 161411,
+      "end": 166805,
+      "heading": "Die XXVIII. Historie. Von dem Priester Eli. i. Sam. II. und III. Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 29,
+      "book": "old",
+      "number": 29,
+      "start": 166805,
+      "end": 172701,
+      "heading": "Die XXIX. Historie. Von dem Röntg Gaul. r. Sam. IX. X.XV.XVI. XIX.XXVIH. Mtz XXXI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 30,
+      "book": "old",
+      "number": 30,
+      "start": 172701,
+      "end": 178082,
+      "heading": "Die XXX. Historie. Von dem diesen Goliath. Sam. XVU. und XVIII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 31,
+      "book": "old",
+      "number": 31,
+      "start": 178082,
+      "end": 183975,
+      "heading": "Die XXXI. Historie. ! Von dem verfolgten David. i. Sam. XIX. XXI. XXIV. und XXVI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 32,
+      "book": "old",
+      "number": 32,
+      "start": 183975,
+      "end": 190153,
+      "heading": "Die XXXII. Historie. Von der Dathseba. -. Sam. XI. und XII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": false,
+        "reflection": true
+      }
+    },
+    {
+      "id": 33,
+      "book": "old",
+      "number": 33,
+      "start": 190153,
+      "end": 196912,
+      "heading": "Die XXX Hl. Historie. Vom Absalom. 2. Sam. XIV. XV. XVI. XVII. und XVIII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 34,
+      "book": "old",
+      "number": 34,
+      "start": 196912,
+      "end": 199907,
+      "heading": "Die XXXIV. Historie. - Von der Pestilenz zu Davids Zeiten.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 35,
+      "book": "old",
+      "number": 35,
+      "start": 199907,
+      "end": 205651,
+      "heading": "Die XXXV. Historie. Von dem Aönig Salomo. V König. II. III. Vi. VIII. XI. und XII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 36,
+      "book": "old",
+      "number": 36,
+      "start": 205651,
+      "end": 211742,
+      "heading": "Die XXXVI. Aistorte. Von den Baals - Pfaffen. I. König. XVI. XVII. und XVIII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 37,
+      "book": "old",
+      "number": 37,
+      "start": 211742,
+      "end": 216942,
+      "heading": "Die XXXVII. Historie. Von Naboths Weinberge. i. König. XXI. und XXII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 38,
+      "book": "old",
+      "number": 38,
+      "start": 216942,
+      "end": 222342,
+      "heading": "Die XXXVIII. Historie. Von Eliä Himmelfahrt. s. König. II. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 39,
+      "book": "old",
+      "number": 39,
+      "start": 222342,
+      "end": 225400,
+      "heading": "Die XXXIX. Historie. Vorn Oel Amg der Wittwen. König. IV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 40,
+      "book": "old",
+      "number": 40,
+      "start": 225400,
+      "end": 230596,
+      "heading": "Die XQ Historie. Von der Babylonischen Ge- fangrmß.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 41,
+      "book": "old",
+      "number": 41,
+      "start": 230596,
+      "end": 235609,
+      "heading": "Die XU. Historie. Von der Esther. Im Buch Esther im 1 . und II. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 42,
+      "book": "old",
+      "number": 42,
+      "start": 235609,
+      "end": 244815,
+      "heading": "Die Xl.II. Historie. Von Haman. Esther vom III. bis X. Cüp.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 43,
+      "book": "old",
+      "number": 43,
+      "start": 244815,
+      "end": 251844,
+      "heading": "Die XI.M. Historie. - Von Hiob. Vom erste« bis zum leisten Capitel.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 44,
+      "book": "old",
+      "number": 44,
+      "start": 251844,
+      "end": 256188,
+      "heading": "Die XHV. Historie. Von den drey Männern im Feur - Ofen. Daniel m. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 45,
+      "book": "old",
+      "number": 45,
+      "start": 256188,
+      "end": 263841,
+      "heading": "Die XI.V. Historie. Von Daniel in der Leuen - Grube. Dan. VI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 46,
+      "book": "old",
+      "number": 46,
+      "start": 263841,
+      "end": 269517,
+      "heading": "Die XI.V I. Historie. Von der Stadt Nintve. Jonä l. II. III. und IV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 47,
+      "book": "old",
+      "number": 47,
+      "start": 269517,
+      "end": 277450,
+      "heading": "Die Historie. Von der Judith. Bom I. bis zum XIV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 48,
+      "book": "old",
+      "number": 48,
+      "start": 277450,
+      "end": 282691,
+      "heading": "Die XI.VIH. Historie. Von dem Unglück des alten Tobrä. Tob. I. U. und III. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 49,
+      "book": "old",
+      "number": 49,
+      "start": 282691,
+      "end": 289346,
+      "heading": "Die XI.IX. Historie. Von der Reise des jungen Tobia. Tob. IV. V. und VI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 50,
+      "book": "old",
+      "number": 50,
+      "start": 289346,
+      "end": 295789,
+      "heading": "Di? L. Historie. Von der Vermählung des jungen Tobia.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 51,
+      "book": "old",
+      "number": 51,
+      "start": 295789,
+      "end": 301910,
+      "heading": "Die ll. Historie. Von des jungen Tsbiä Widerkunft. Tob. X. XI. Xll. XIII. und XIV. Eap. jEr alte Tobias wartete unterdessen mit grossem Verlangen aufdie Wi- derkunft seines Sohns. 2. Und wie",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 52,
+      "book": "old",
+      "number": 52,
+      "start": 301910,
+      "end": 307434,
+      "heading": "Die I.II. Historie. * Von der Susanne. Historie von der Snsanna v. i. bis 6s.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 53,
+      "book": "new",
+      "number": 1,
+      "start": 307744,
+      "end": 310599,
+      "heading": "Die I. Historie. Vom Priester Zacharia. . Lue. I. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 54,
+      "book": "new",
+      "number": 2,
+      "start": 310599,
+      "end": 313762,
+      "heading": "Die II. Historie. Von der Verkündigung Nartä. Luc I. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 55,
+      "book": "new",
+      "number": 3,
+      "start": 313762,
+      "end": 317240,
+      "heading": "Die ill. Historie. Von der Heimsuchung Nariä. Luc.!. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 56,
+      "book": "new",
+      "number": 4,
+      "start": 317240,
+      "end": 321180,
+      "heading": "Die IV. Historie. Von Joseph und Naria. Match. I. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 57,
+      "book": "new",
+      "number": 5,
+      "start": 321180,
+      "end": 324446,
+      "heading": "Die V. Historie. Von der Gebmch Iohannis des Täufers.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 58,
+      "book": "new",
+      "number": 6,
+      "start": 324446,
+      "end": 326744,
+      "heading": "Die VI. Historie. Von der Geburth Christi. Lue. H. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 59,
+      "book": "new",
+      "number": 7,
+      "start": 326744,
+      "end": 330065,
+      "heading": "Die VII. Historie. Von den Hirten zu Bethlehem. Lire. II. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 60,
+      "book": "new",
+      "number": 8,
+      "start": 330065,
+      "end": 331926,
+      "heading": "Die VIII. Historie. Von der Leschneidung Christi. Lire. II. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 61,
+      "book": "new",
+      "number": 9,
+      "start": 331926,
+      "end": 334868,
+      "heading": "Die IX. Historie. ) Von der Reinigung Maria. Luc. U Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 62,
+      "book": "new",
+      "number": 10,
+      "start": 334868,
+      "end": 339004,
+      "heading": "Die X. Historie. Von der Erscheinung Christi, welche den Weisen in Morgenland geschehen ist.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 63,
+      "book": "new",
+      "number": 11,
+      "start": 339004,
+      "end": 342283,
+      "heading": "Die Xi. Historie. Von derFluchtJEsu nach Egypten und",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 64,
+      "book": "new",
+      "number": 12,
+      "start": 342283,
+      "end": 345642,
+      "heading": "Die XII. Historie. wie IEsus im zwölften Jahr ist verrohren und wider gefunden worden. Luc. II Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 65,
+      "book": "new",
+      "number": 13,
+      "start": 345642,
+      "end": 349158,
+      "heading": "Die XIII. Historie. . l wie Johannes der Täufer sein Amt angetretten hat. >",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 66,
+      "book": "new",
+      "number": 14,
+      "start": 349158,
+      "end": 352142,
+      "heading": "Die XlV. Historie. N?Le JEfus ist getauffet worden. Matth.III. Mare I. Luc.IlI. Joh.I. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 67,
+      "book": "new",
+      "number": 15,
+      "start": 352142,
+      "end": 355875,
+      "heading": "Die X V. Historie. wie IEsus ist vom Teufel versuchet worden. Match. IV. Mare. I. Luc. IV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 68,
+      "book": "new",
+      "number": 16,
+      "start": 355875,
+      "end": 359816,
+      "heading": "Die XVI Historie. Von der GamariterLn. Joh. lV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 69,
+      "book": "new",
+      "number": 17,
+      "start": 359816,
+      "end": 362300,
+      "heading": "Die XVI. Historie. Vom Hauptmann zu Lapernaum. Matth. VIII. und Lue. VII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 70,
+      "book": "new",
+      "number": 18,
+      "start": 362300,
+      "end": 365314,
+      "heading": "ie XVill. Historie. Vorn Teich Lethesda. Job. V Cav.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 71,
+      "book": "new",
+      "number": 19,
+      "start": 365314,
+      "end": 367999,
+      "heading": "Die XIX. Historie. Von der Wittwe zu Nain. Lue. VII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": false
+      }
+    },
+    {
+      "id": 72,
+      "book": "new",
+      "number": 20,
+      "start": 367999,
+      "end": 372101,
+      "heading": "Die XX. Historie. Vom viererley Acker. Match. XIII. Mare IV. und Lue. VIII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 73,
+      "book": "new",
+      "number": 21,
+      "start": 372101,
+      "end": 375511,
+      "heading": "Die XXI. Historie. Von den Gergesenern. Match. VIII. Mare.V. und Luc. VIII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 74,
+      "book": "new",
+      "number": 22,
+      "start": 375511,
+      "end": 378430,
+      "heading": "Die XXN. Historie. Von dem Nanu mit der verdorre- ten Hand.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 75,
+      "book": "new",
+      "number": 23,
+      "start": 378430,
+      "end": 382711,
+      "heading": "Die XXIII. Historie. Vorn Unkraut unter dem waitzen. Match. XIII. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 76,
+      "book": "new",
+      "number": 24,
+      "start": 382711,
+      "end": 386611,
+      "heading": "Die XXIV. Historie. Von der Enthauptung Iohannis des Täufers.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 77,
+      "book": "new",
+      "number": 25,
+      "start": 386611,
+      "end": 391003,
+      "heading": "Die XXV. Historie. Wie JEsus fünf tausend Mann z gespeiste hat. ,",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 78,
+      "book": "new",
+      "number": 26,
+      "start": 391003,
+      "end": 394266,
+      "heading": "Die XXVI. Historie. Wie Petrus auf dem Meer gegangen ist. Matth. XlV. Mare. VI. und Joh. am VI. Ca».",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 79,
+      "book": "new",
+      "number": 27,
+      "start": 394266,
+      "end": 396947,
+      "heading": "Die XXVII. Historie. Vom Cananäischen Weibe. Match. XV. und Mare. VIl. Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 80,
+      "book": "new",
+      "number": 28,
+      "start": 396947,
+      "end": 400149,
+      "heading": "Die XXVIU. Historie. Von der Verklahrung Christi auf dem Berg Thabor.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 81,
+      "book": "new",
+      "number": 29,
+      "start": 400149,
+      "end": 404075,
+      "heading": "Die XXIX. Historie. Von dem Mondsüchtigen. Match. XVIl. Marc. IX. ond L«c.IX.Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 82,
+      "book": "new",
+      "number": 30,
+      "start": 404075,
+      "end": 408427,
+      "heading": "Die XXX. Historie. Von einem Llindgebohrnen. Ich. IX. Eap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 83,
+      "book": "new",
+      "number": 31,
+      "start": 408427,
+      "end": 410445,
+      "heading": "Die XXXI. Historie. Von Nacha und Maria. Luc. X. Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 84,
+      "book": "new",
+      "number": 32,
+      "start": 410445,
+      "end": 415518,
+      "heading": "Die XXXII. Historie. Vom verlohrnen Sohn. Luc. XV. Cap.",
+      "markers": {
+        "questions": false,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 85,
+      "book": "new",
+      "number": 33,
+      "start": 415518,
+      "end": 419677,
+      "heading": "Die XXXlll. Historie. Vom reichen Mann. Luc. XVI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 86,
+      "book": "new",
+      "number": 34,
+      "start": 419677,
+      "end": 421693,
+      "heading": "Die XXXlV. Historie. Wie IEsus die kleinen Kinder gesegnet hat.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 87,
+      "book": "new",
+      "number": 35,
+      "start": 421693,
+      "end": 424390,
+      "heading": "Die XXXV. Historie. Von Zachäo auf dem Maulbeer- Baum.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 88,
+      "book": "new",
+      "number": 36,
+      "start": 424390,
+      "end": 431113,
+      "heading": "Die XXXVI. Historie. Lvie JEsus Lazarum von Todten auferwecket hat. Joh.XI. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 89,
+      "book": "new",
+      "number": 37,
+      "start": 431113,
+      "end": 434043,
+      "heading": "Die XXX VII. Historie. Von dem verfluchten Feigen - Baum. Match. XXI. und Mare XI.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 90,
+      "book": "new",
+      "number": 38,
+      "start": 434043,
+      "end": 436173,
+      "heading": "Die XXXVlll. Historie. Vom Gottskasten zuIerusalem. Mare. Xll. und Luc. XXI.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 91,
+      "book": "new",
+      "number": 39,
+      "start": 436173,
+      "end": 440172,
+      "heading": "Die XXXIX. Historie. Von den zehen Jungfrauen. Match XXV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 92,
+      "book": "new",
+      "number": 40,
+      "start": 440172,
+      "end": 445415,
+      "heading": "Die XI.. Historie. Vom jüngsten Gericht. Matth. XXV. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 93,
+      "book": "new",
+      "number": 41,
+      "start": 445415,
+      "end": 449547,
+      "heading": "Die XU. Historie. VomEinzug Christi zu Jerusalem. Matth. XXl. Mare. XI. Luc XlX. und Joh. XU. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 94,
+      "book": "new",
+      "number": 42,
+      "start": 449547,
+      "end": 453755,
+      "heading": "Die XI.II. Historie. Von -er Einsezung -es heiligen Abendmahls. /",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 95,
+      "book": "new",
+      "number": 43,
+      "start": 453755,
+      "end": 460021,
+      "heading": "Die XHII. Historie. Von Iuda dein Verrather. Match. XX V i. Marc. XIV. Luc. XXII.Ioh.XIIl. und XVlll. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 96,
+      "book": "new",
+      "number": 44,
+      "start": 460021,
+      "end": 465009,
+      "heading": "Die XI.IV. Historie. Von der Verleugnung petri. Match. XXVI. Marc.XIV. Luc. XXII. und Job. XVIII. Eap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 97,
+      "book": "new",
+      "number": 45,
+      "start": 465009,
+      "end": 472298,
+      "heading": "Die XL V. Äftorie. wie IEsirs verurtheilet worden. Match XXVI. XXVII. Mare. XIV. XV. Luc.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 98,
+      "book": "new",
+      "number": 46,
+      "start": 472298,
+      "end": 480432,
+      "heading": "Die XI.VI. Historie. Von dem Leiden nnd Sterben IEsu Christi.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 99,
+      "book": "new",
+      "number": 47,
+      "start": 480432,
+      "end": 485114,
+      "heading": "Die XI^VII. Historie. Von der Begrabniß des Herrn IEsu.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 100,
+      "book": "new",
+      "number": 48,
+      "start": 485114,
+      "end": 492843,
+      "heading": "Die X^Vlll. Historie. Von der Auferstehung Christi. Match. XXV 11 I. Marc.XVI. Lne.XXLV. und Joh. XX. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 101,
+      "book": "new",
+      "number": 49,
+      "start": 492843,
+      "end": 498146,
+      "heading": "Die XI.1X. Historie. Von den zwölf Apostlen. Match. X.XXVIll. Marc XVI. Luc. VI. und Ioh XX. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 102,
+      "book": "new",
+      "number": 50,
+      "start": 498146,
+      "end": 501261,
+      "heading": "Diel-. Historie. Von der Himmelfahrt Christi. Luc. XXIV. Apost. Beschicht. I. Cap.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 103,
+      "book": "new",
+      "number": 51,
+      "start": 501261,
+      "end": 504467,
+      "heading": "Die ^!. Historie. Von der Sendung des heiligen Geistes.",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    },
+    {
+      "id": 104,
+      "book": "new",
+      "number": 52,
+      "start": 504467,
+      "end": 510920,
+      "heading": "Die I.H. Historie. Von pauli Bekehrung. ! Apost. Gefchicht. VII. VM. und IX. Cap!",
+      "markers": {
+        "questions": true,
+        "teachings": true,
+        "reflection": true
+      }
+    }
+  ]
+}
