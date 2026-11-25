@@ -1,0 +1,377 @@
+{
+  "edition": "Москва, 1825, шестое исправленное издание, часть I",
+  "document_id": "5fcf8bb3991f3b91423439b5",
+  "toc_source_pages": [
+    9,
+    10,
+    11
+  ],
+  "printed_page_one_scan": 13,
+  "method": "Original printed table of contents visually transcribed; each next start page is included as a possible shared page; final page requires inspection.",
+  "records": [
+    {
+      "id": 1,
+      "title": "О сотвореніи міра",
+      "printed_start": 1,
+      "scan_start": 13,
+      "scan_end_candidate": 15
+    },
+    {
+      "id": 2,
+      "title": "О созданіи человѣка",
+      "printed_start": 3,
+      "scan_start": 15,
+      "scan_end_candidate": 17
+    },
+    {
+      "id": 3,
+      "title": "О невинномъ состояніи въ раю",
+      "printed_start": 5,
+      "scan_start": 17,
+      "scan_end_candidate": 20
+    },
+    {
+      "id": 4,
+      "title": "О грѣхопаденіи прародителей",
+      "printed_start": 8,
+      "scan_start": 20,
+      "scan_end_candidate": 24
+    },
+    {
+      "id": 5,
+      "title": "О Каинѣ, убившемъ брата своего Авеля",
+      "printed_start": 12,
+      "scan_start": 24,
+      "scan_end_candidate": 27
+    },
+    {
+      "id": 6,
+      "title": "О потопѣ",
+      "printed_start": 15,
+      "scan_start": 27,
+      "scan_end_candidate": 32
+    },
+    {
+      "id": 7,
+      "title": "О столпотвореніи Вавилонскомъ",
+      "printed_start": 20,
+      "scan_start": 32,
+      "scan_end_candidate": 34
+    },
+    {
+      "id": 8,
+      "title": "О Авраамѣ и Саррѣ",
+      "printed_start": 22,
+      "scan_start": 34,
+      "scan_end_candidate": 37
+    },
+    {
+      "id": 9,
+      "title": "О Содомѣ и Гоморрѣ",
+      "printed_start": 25,
+      "scan_start": 37,
+      "scan_end_candidate": 41
+    },
+    {
+      "id": 10,
+      "title": "О принесеніи Исаака въ жертву",
+      "printed_start": 29,
+      "scan_start": 41,
+      "scan_end_candidate": 44
+    },
+    {
+      "id": 11,
+      "title": "О женитьбѣ Исааковой",
+      "printed_start": 32,
+      "scan_start": 44,
+      "scan_end_candidate": 48
+    },
+    {
+      "id": 12,
+      "title": "О Исаакѣ, благословляющемъ дѣтей своихъ",
+      "printed_start": 36,
+      "scan_start": 48,
+      "scan_end_candidate": 55
+    },
+    {
+      "id": 13,
+      "title": "О лѣствицѣ, во снѣ видѣнной Іаковомъ",
+      "printed_start": 43,
+      "scan_start": 55,
+      "scan_end_candidate": 58
+    },
+    {
+      "id": 14,
+      "title": "О двоекратной женитьбѣ Іакова",
+      "printed_start": 46,
+      "scan_start": 58,
+      "scan_end_candidate": 63
+    },
+    {
+      "id": 15,
+      "title": "О Іаковѣ, боровшемся съ Богомъ",
+      "printed_start": 51,
+      "scan_start": 63,
+      "scan_end_candidate": 67
+    },
+    {
+      "id": 16,
+      "title": "О Іосифѣ, проданномъ братьями своими",
+      "printed_start": 55,
+      "scan_start": 67,
+      "scan_end_candidate": 72
+    },
+    {
+      "id": 17,
+      "title": "О Іосифѣ, вверженномъ въ темницу за цѣломудріе свое",
+      "printed_start": 60,
+      "scan_start": 72,
+      "scan_end_candidate": 76
+    },
+    {
+      "id": 18,
+      "title": "Освобожденіе Іосифа изъ темницы",
+      "printed_start": 64,
+      "scan_start": 76,
+      "scan_end_candidate": 82
+    },
+    {
+      "id": 19,
+      "title": "О братіяхъ Іосифовыхъ, во время голода пріѣхавшихъ въ Египетъ",
+      "printed_start": 70,
+      "scan_start": 82,
+      "scan_end_candidate": 87
+    },
+    {
+      "id": 20,
+      "title": "О томъ, какъ Іосифъ открылся братіямъ своимъ",
+      "printed_start": 75,
+      "scan_start": 87,
+      "scan_end_candidate": 94
+    },
+    {
+      "id": 21,
+      "title": "О Египетскомъ рабствѣ",
+      "printed_start": 82,
+      "scan_start": 94,
+      "scan_end_candidate": 98
+    },
+    {
+      "id": 22,
+      "title": "О Фараонѣ, ожесточившемъ сердце свое",
+      "printed_start": 86,
+      "scan_start": 98,
+      "scan_end_candidate": 104
+    },
+    {
+      "id": 23,
+      "title": "О томъ, какъ Моисей вывелъ Израильтянъ изъ Египта",
+      "printed_start": 92,
+      "scan_start": 104,
+      "scan_end_candidate": 110
+    },
+    {
+      "id": 24,
+      "title": "О томъ, какимъ образомъ Богъ велъ дѣтей Израилевыхъ чрезъ пустыню въ Обѣтованную землю",
+      "printed_start": 98,
+      "scan_start": 110,
+      "scan_end_candidate": 116
+    },
+    {
+      "id": 25,
+      "title": "О десяти заповѣдяхъ, данныхъ на горѣ Синайской",
+      "printed_start": 104,
+      "scan_start": 116,
+      "scan_end_candidate": 122
+    },
+    {
+      "id": 26,
+      "title": "О Сампсонѣ",
+      "printed_start": 110,
+      "scan_start": 122,
+      "scan_end_candidate": 129
+    },
+    {
+      "id": 27,
+      "title": "О Самуилѣ",
+      "printed_start": 117,
+      "scan_start": 129,
+      "scan_end_candidate": 133
+    },
+    {
+      "id": 28,
+      "title": "О Священникѣ Иліи",
+      "printed_start": 121,
+      "scan_start": 133,
+      "scan_end_candidate": 137
+    },
+    {
+      "id": 29,
+      "title": "О Царѣ Саулѣ",
+      "printed_start": 125,
+      "scan_start": 137,
+      "scan_end_candidate": 142
+    },
+    {
+      "id": 30,
+      "title": "О Голіаѳѣ",
+      "printed_start": 130,
+      "scan_start": 142,
+      "scan_end_candidate": 147
+    },
+    {
+      "id": 31,
+      "title": "О Давидѣ, гонимомъ отъ Саула",
+      "printed_start": 135,
+      "scan_start": 147,
+      "scan_end_candidate": 152
+    },
+    {
+      "id": 32,
+      "title": "О Вирсавіи",
+      "printed_start": 140,
+      "scan_start": 152,
+      "scan_end_candidate": 157
+    },
+    {
+      "id": 33,
+      "title": "О Авессаломѣ",
+      "printed_start": 145,
+      "scan_start": 157,
+      "scan_end_candidate": 163
+    },
+    {
+      "id": 34,
+      "title": "О моровой язвѣ, при Давидѣ бывшей",
+      "printed_start": 151,
+      "scan_start": 163,
+      "scan_end_candidate": 166
+    },
+    {
+      "id": 35,
+      "title": "О Царѣ Соломонѣ",
+      "printed_start": 154,
+      "scan_start": 166,
+      "scan_end_candidate": 171
+    },
+    {
+      "id": 36,
+      "title": "О пророкахъ Вааловыхъ",
+      "printed_start": 159,
+      "scan_start": 171,
+      "scan_end_candidate": 176
+    },
+    {
+      "id": 37,
+      "title": "О Навуѳеевомъ виноградѣ",
+      "printed_start": 164,
+      "scan_start": 176,
+      "scan_end_candidate": 181
+    },
+    {
+      "id": 38,
+      "title": "О взятіи Иліи на небо",
+      "printed_start": 169,
+      "scan_start": 181,
+      "scan_end_candidate": 185
+    },
+    {
+      "id": 39,
+      "title": "О сосудѣ елея нѣкоторой вдовицы",
+      "printed_start": 173,
+      "scan_start": 185,
+      "scan_end_candidate": 188
+    },
+    {
+      "id": 40,
+      "title": "О плѣненіи Вавилонскомъ",
+      "printed_start": 176,
+      "scan_start": 188,
+      "scan_end_candidate": 192
+    },
+    {
+      "id": 41,
+      "title": "О Есѳири",
+      "printed_start": 180,
+      "scan_start": 192,
+      "scan_end_candidate": 197
+    },
+    {
+      "id": 42,
+      "title": "О Аманѣ",
+      "printed_start": 185,
+      "scan_start": 197,
+      "scan_end_candidate": 204
+    },
+    {
+      "id": 43,
+      "title": "О Іовѣ",
+      "printed_start": 192,
+      "scan_start": 204,
+      "scan_end_candidate": 211
+    },
+    {
+      "id": 44,
+      "title": "О трехъ отрокахъ, въ пещь горящую вверженныхъ",
+      "printed_start": 199,
+      "scan_start": 211,
+      "scan_end_candidate": 215
+    },
+    {
+      "id": 45,
+      "title": "О Даніилѣ, вверженномъ въ ровъ львиной",
+      "printed_start": 203,
+      "scan_start": 215,
+      "scan_end_candidate": 221
+    },
+    {
+      "id": 46,
+      "title": "О градѣ Ниневіи",
+      "printed_start": 209,
+      "scan_start": 221,
+      "scan_end_candidate": 226
+    },
+    {
+      "id": 47,
+      "title": "О Іудиѳѣ",
+      "printed_start": 214,
+      "scan_start": 226,
+      "scan_end_candidate": 232
+    },
+    {
+      "id": 48,
+      "title": "О бѣдствіи старшаго Товита",
+      "printed_start": 220,
+      "scan_start": 232,
+      "scan_end_candidate": 237
+    },
+    {
+      "id": 49,
+      "title": "О путешествіи младаго Товита",
+      "printed_start": 225,
+      "scan_start": 237,
+      "scan_end_candidate": 242
+    },
+    {
+      "id": 50,
+      "title": "О женитьбѣ младаго Товита",
+      "printed_start": 230,
+      "scan_start": 242,
+      "scan_end_candidate": 248
+    },
+    {
+      "id": 51,
+      "title": "О возвращеніи въ домъ младаго Товита",
+      "printed_start": 236,
+      "scan_start": 248,
+      "scan_end_candidate": 254
+    },
+    {
+      "id": 52,
+      "title": "О Сосаннѣ",
+      "printed_start": 242,
+      "scan_start": 254,
+      "scan_end_candidate": 260
+    }
+  ]
+}
