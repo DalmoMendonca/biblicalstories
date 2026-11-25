@@ -1,0 +1,1972 @@
+{
+  "edition": "Сто четыре священныя истории, Moscow, 1825; historical Russian witness; translator attribution requires title-page confirmation",
+  "document_id": "5fcf8bb3991f3b91423439ad",
+  "manifest": "https://kp.rusneb.ru/api/v1/materials/5fcf8bb3991f3b91423439ad/pages",
+  "year": 1825,
+  "expected_pages": 196,
+  "page_count": 196,
+  "status": "facsimiles only, not a reviewed transcription",
+  "images": [
+    {
+      "page": 1,
+      "image": "/russian-1825-pages/nt/001.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-1.jpg",
+      "source_sha256": "8448ec58eec5f592ea935f475b2d5eaff3416ac2d8519cb4543707edae9b9160",
+      "archived_sha256": "2207a7650653ff034c8146f209e3e60c0817e4905afd65da76065d382c94187d",
+      "source_bytes": 602563,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 2,
+      "image": "/russian-1825-pages/nt/002.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-2.jpg",
+      "source_sha256": "f2d6d997dedf018bc7b258820de241ef3ae9f53e22e51df6421263a780aa5962",
+      "archived_sha256": "9b66d1d4cbcd0f1e0b136e665e8c76af3fcd2bc1f4370cc3b6a53e79efb734ec",
+      "source_bytes": 625633,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 3,
+      "image": "/russian-1825-pages/nt/003.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-3.jpg",
+      "source_sha256": "b16a17c79315f1c6d40377c53a2bbe61f947cbbc2c3aea6ed85ef0aa9ea2adc4",
+      "archived_sha256": "b196852d0c079eba2d11b7420601911c52446234f10f89e178f89e3cb02ba196",
+      "source_bytes": 686216,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 4,
+      "image": "/russian-1825-pages/nt/004.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-4.jpg",
+      "source_sha256": "6a303ea10b819fa4f2a6d7a238d63d8da88fd466b97f4831c9bd0db0291398c9",
+      "archived_sha256": "0e83cf75929657abe69131595f5a6fa4e4e13b800a6f511e27392827a40d5401",
+      "source_bytes": 720934,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 5,
+      "image": "/russian-1825-pages/nt/005.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-5.jpg",
+      "source_sha256": "78e240b3102d1bb419a6e76ef7a56a670faa4d2fd45ff05d7f2056b70773b33c",
+      "archived_sha256": "bb263ec033256fe8dee603f4b80d866b379185d338cf821bf0e3a3ae3025fe3f",
+      "source_bytes": 645074,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 6,
+      "image": "/russian-1825-pages/nt/006.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-6.jpg",
+      "source_sha256": "e6db72062d9e5c6c2d0c950b718021ae2328cb3dafec6aaa11779100f27a0ebb",
+      "archived_sha256": "4dfc8a622103e88b9a2638b2d94dd30e39704b6c40a0042072269c2b014d03cc",
+      "source_bytes": 590801,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 7,
+      "image": "/russian-1825-pages/nt/007.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-7.jpg",
+      "source_sha256": "c0799302a932227f5f86ab1f4b658b30da5247ab48eb625a35aa46cfe9653ef5",
+      "archived_sha256": "caa5093fee457e239182b45541538bdeb1ca96654fe3092d602f9e309dc7f82e",
+      "source_bytes": 725925,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 8,
+      "image": "/russian-1825-pages/nt/008.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-8.jpg",
+      "source_sha256": "1111cce2172d950328973d085b6c1e4d2e6a371ec445afe63cdfdb27e7026f1e",
+      "archived_sha256": "b81fdeff344aacce2a065469e0137034d9d1ffa26ecb3732e9ade06f0a0eaf87",
+      "source_bytes": 751035,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 9,
+      "image": "/russian-1825-pages/nt/009.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-9.jpg",
+      "source_sha256": "f6529767545d82782ee0045f37e6c6b933ef84a1ed7aa245d5919c5537090e5d",
+      "archived_sha256": "45fbdca5c77675f7506f97ffa35e4f1a4c77bc8fd284dc8cc5cade7aca85d14d",
+      "source_bytes": 707595,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 10,
+      "image": "/russian-1825-pages/nt/010.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-10.jpg",
+      "source_sha256": "a78dac4ef4c4a8a616fefc0e164dd92f93fbaf08aa1e58de123a3f6f617405b7",
+      "archived_sha256": "0f21a857925d4b905f7a680caed6328ac88c94bdc32aa6a1d6c7b91e538198f9",
+      "source_bytes": 759096,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 11,
+      "image": "/russian-1825-pages/nt/011.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-11.jpg",
+      "source_sha256": "b5b25c45c0601f5adb552bef0b01d204c8e33e95a85d8cc9d71ca87023770245",
+      "archived_sha256": "02d201f8173a0292d6f8e73e39a9b21a63d6a33839879a7df230e5e08cbfa55a",
+      "source_bytes": 739767,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 12,
+      "image": "/russian-1825-pages/nt/012.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-12.jpg",
+      "source_sha256": "373bb3ab358213f09299eea45fcfdcfea5e1478e70f5ac23f675875496dbe461",
+      "archived_sha256": "a559bf3220103f220cea79061397096a73d3206079ef0e5e996a11d061561d7e",
+      "source_bytes": 739553,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 13,
+      "image": "/russian-1825-pages/nt/013.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-13.jpg",
+      "source_sha256": "b2de0e7612089b22fb2391920fef9f66d0105b7bc9d6f7198afe1c3dc24742c0",
+      "archived_sha256": "2894b526afa173688fa30a319902c6dd7bbd667c2d5c19b3d8d309eda36edc24",
+      "source_bytes": 747849,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 14,
+      "image": "/russian-1825-pages/nt/014.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-14.jpg",
+      "source_sha256": "502accc4cff0d66751ca4d4264adce658e946fc787476fe5a8a4d8446838d152",
+      "archived_sha256": "9d5256ad801287dd89ebdddc31c134e30ca1819396c3a6513c203a4cee408d94",
+      "source_bytes": 749819,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 15,
+      "image": "/russian-1825-pages/nt/015.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-15.jpg",
+      "source_sha256": "814f5dfda617755aa48d8918e8e9d0dd0755e78f770e3881460932f8485d768a",
+      "archived_sha256": "b3cdebcafd246840e7fe12fdca595ed1ce9d0e2b0b606c614c612bbf3eb99d11",
+      "source_bytes": 730536,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 16,
+      "image": "/russian-1825-pages/nt/016.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-16.jpg",
+      "source_sha256": "c8121536004893227bd449a4cd7b5f59a55456a80af37b85694d80d26a9ce2b7",
+      "archived_sha256": "80f541641e156850b96904adbff4d2b63a6302c27785d6b02fedda463c60a0e7",
+      "source_bytes": 743145,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 17,
+      "image": "/russian-1825-pages/nt/017.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-17.jpg",
+      "source_sha256": "95fa488af0173013a73f9f54d02bdf7112b6b822f03db57690a61daee653c228",
+      "archived_sha256": "c956a3a970f948939c154fa316143ef6813d5168e07d9f33322c952e247929f7",
+      "source_bytes": 766419,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 18,
+      "image": "/russian-1825-pages/nt/018.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-18.jpg",
+      "source_sha256": "421c64b56c6298068ab2301d709ee480877cb9861ad465711a1fd7a077ef7c46",
+      "archived_sha256": "d8abfd0a3ca1f88e4787b3b77db2ea6f47ecc93543bbb29610c4fc9f9955b6e1",
+      "source_bytes": 722459,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 19,
+      "image": "/russian-1825-pages/nt/019.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-19.jpg",
+      "source_sha256": "fbf2ebd313eb98bd0d61f9045e0b236a3603afa98dd91488bce375d0a53b4849",
+      "archived_sha256": "8db116d81c03324c50c4f147ff782084bc15533966a4fa72c8a9693726f35849",
+      "source_bytes": 724257,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 20,
+      "image": "/russian-1825-pages/nt/020.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-20.jpg",
+      "source_sha256": "3be54eb6818482c48a8dc14ae8f30dd20080cc0f13e77535913f289f037ff813",
+      "archived_sha256": "d9ba071d5918ff304658962535ee426a3d6491bf22c6c90ed1ae68876473f8c1",
+      "source_bytes": 753200,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 21,
+      "image": "/russian-1825-pages/nt/021.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-21.jpg",
+      "source_sha256": "c94d840ee1123ba2779a5580cb3483d7214fad8b0da7322ee37805e9b4d4e37a",
+      "archived_sha256": "117189ccf5f252517673157c7985f823aa03d9e3f5f4477953a327d97daccfbc",
+      "source_bytes": 720535,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 22,
+      "image": "/russian-1825-pages/nt/022.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-22.jpg",
+      "source_sha256": "ed3371f0fe000221f77c59c153e156e80a481559c46735e095b503f10537f174",
+      "archived_sha256": "0d31f585a96721cb9de20b6a1d1bce4ea787153467469a961bd4de5f9813715c",
+      "source_bytes": 716614,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 23,
+      "image": "/russian-1825-pages/nt/023.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-23.jpg",
+      "source_sha256": "736fcebaf0eb5e154e29e6e49aace536684df01a57fbbed3e4974597af3d6eb9",
+      "archived_sha256": "85ac045a222229a82d1c29b80d322fc23990ebb98c6071b80e36494fa70ba5b4",
+      "source_bytes": 707592,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 24,
+      "image": "/russian-1825-pages/nt/024.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-24.jpg",
+      "source_sha256": "cfb82aa69cba37a6637105d50bd1ef37fc56d07c2c5ed75d28a336b77f592738",
+      "archived_sha256": "f6d0a4fa1c2ed752d2a3d6cf21b64e29e71a85c6c8a9aed256600aa5843833b4",
+      "source_bytes": 718877,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 25,
+      "image": "/russian-1825-pages/nt/025.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-25.jpg",
+      "source_sha256": "ad3fa433bb36df0c246287ba073d65277606c15545c01b54d997ab04d266efd0",
+      "archived_sha256": "7a2441d0b7fdfd611102ac97c9768b716456c9ac18b329ffffd8a5eb2c978a2c",
+      "source_bytes": 726109,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 26,
+      "image": "/russian-1825-pages/nt/026.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-26.jpg",
+      "source_sha256": "b1a830575ecd1afd39c7626e161ef15d274e99ab984f0ce9b7e2ed146c009e44",
+      "archived_sha256": "3c97c9536fecb9180cfb8adec6febf794e51d8e5513e5a5f1290f7801bbedca1",
+      "source_bytes": 707768,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 27,
+      "image": "/russian-1825-pages/nt/027.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-27.jpg",
+      "source_sha256": "095b6e28839eb585f9c96862e2b33314bc43b28f29aae927dda1d4f0b91e2cd4",
+      "archived_sha256": "e74a5e6892789323ab733362726a416d0dea7ee38a1292fdeb6142bf3e4475d2",
+      "source_bytes": 708033,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 28,
+      "image": "/russian-1825-pages/nt/028.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-28.jpg",
+      "source_sha256": "6b76fa6a0c15e0016884cef84bd0ef16f61c16ccd1313cf975dec36ecaab5d7b",
+      "archived_sha256": "4fc6bfbdde0d7846dae108903372d4f447752857e2c2da9516a754b7fdb2e914",
+      "source_bytes": 699085,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 29,
+      "image": "/russian-1825-pages/nt/029.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-29.jpg",
+      "source_sha256": "2c716e5c4758762528b2beca3fa859aa700a294bcf5e03ec7fdab45e48da1254",
+      "archived_sha256": "dbd8c8cff2b0390fe221144cc07a349c1814f56e6598a1a5a170e454a029b05c",
+      "source_bytes": 723500,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 30,
+      "image": "/russian-1825-pages/nt/030.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-30.jpg",
+      "source_sha256": "ee3299abeea191e837d5c274ec31b1ec340e683f92b853e57678ce75451cc6a3",
+      "archived_sha256": "0badc79d623aa25746a9c4790d0d16e20ec1933f5742ebfbad6783f686471a99",
+      "source_bytes": 738686,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 31,
+      "image": "/russian-1825-pages/nt/031.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-31.jpg",
+      "source_sha256": "c8da97bccb439419b51b3a6bf2323f361f4b8b0bd54be9899982f540e7f0ac6f",
+      "archived_sha256": "28f71a1d5571197d8ef2e8fbaf020ca287aabdda8b66ef2775434551b1c7b933",
+      "source_bytes": 741745,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 32,
+      "image": "/russian-1825-pages/nt/032.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-32.jpg",
+      "source_sha256": "73f2b9dfcb845219881e8bbb676c805741a65fa82c78e8ec698f398b008f8164",
+      "archived_sha256": "03a719be22dea97cf3ef51ae4fa8fd5e361b2ab903044dda34fae18815fcde02",
+      "source_bytes": 746237,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 33,
+      "image": "/russian-1825-pages/nt/033.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-33.jpg",
+      "source_sha256": "7da6f6bcde5c3bc6fa7d588dd11064b77de34aa7521f97841a8420a7a08a94b8",
+      "archived_sha256": "e74c82ed3b71f976be4121106fa269071ccb62695f1a468e3ed309a6f602f979",
+      "source_bytes": 721481,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 34,
+      "image": "/russian-1825-pages/nt/034.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-34.jpg",
+      "source_sha256": "33d045b98d9ae67a8a1b30290a3f8d67e310ebae1ad6ceac4178fd5f9110a8e1",
+      "archived_sha256": "1f43e619b01c95b1bdaa5d2b70899aca05496e6408b120d31c46447a70a378a5",
+      "source_bytes": 728969,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 35,
+      "image": "/russian-1825-pages/nt/035.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-35.jpg",
+      "source_sha256": "1f1d4280582bc959a14abd92da43b2d42820c8e36267f3ce183837429bd735ce",
+      "archived_sha256": "6fe8d0e892cb9fac6e191619073e5d7807ce85b7a9a8d4483b9e61e87a9774bd",
+      "source_bytes": 740438,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 36,
+      "image": "/russian-1825-pages/nt/036.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-36.jpg",
+      "source_sha256": "be3dbeae248cc712285f7d24656481dd722c1f6aa664f041c6c2cf4e42e62895",
+      "archived_sha256": "bf6221c25007dbc03ac6d37a94b6ea1c2de902a6f52cf2e201b0c3e89f824c48",
+      "source_bytes": 739634,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 37,
+      "image": "/russian-1825-pages/nt/037.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-37.jpg",
+      "source_sha256": "67f481222b86e45abf6922f52e466d87136f9c5c5099c3f1e5e19a0425ef0888",
+      "archived_sha256": "dadbde81ff025f140c9bb5538368b4688b5bc401849e5d671112dbd1e30207fc",
+      "source_bytes": 724656,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 38,
+      "image": "/russian-1825-pages/nt/038.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-38.jpg",
+      "source_sha256": "5d10afcc221078f8c062bb7be6bc3773014f650575a18bbe31da379d5ab6cf21",
+      "archived_sha256": "aa9cb2fbd20902de8948f7885ac7174a0cf62c46d726e317cb2cbf6c4496a889",
+      "source_bytes": 737615,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 39,
+      "image": "/russian-1825-pages/nt/039.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-39.jpg",
+      "source_sha256": "06e700abf2aa4af19a72c7fb3d2c79a4598fcd6325627ca8cb5f6a55976c56c4",
+      "archived_sha256": "b1c61a5e23bb562c72102f58f6d8b57df1116cede3563e4d877cd481821d504a",
+      "source_bytes": 699633,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 40,
+      "image": "/russian-1825-pages/nt/040.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-40.jpg",
+      "source_sha256": "4f203c8803932fac1afdb581723227e6f3f5f76afdb8e641200e97b957994ee1",
+      "archived_sha256": "3fbfabf75dd597ac77031c5ee98462428f464155b7e6d0d9751b47659a817902",
+      "source_bytes": 726781,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 41,
+      "image": "/russian-1825-pages/nt/041.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-41.jpg",
+      "source_sha256": "33e98e9a366179ca5cd099e113b1168a67134193720aaaf52ab3835ceddd1ea7",
+      "archived_sha256": "b2073f69a2446ff8b85567f89d8fff2242e49630e0a8f052542de38743b3f9a2",
+      "source_bytes": 758386,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 42,
+      "image": "/russian-1825-pages/nt/042.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-42.jpg",
+      "source_sha256": "34a11fbb1f4fcd03ed50da0d8fe6b9f536aacd374fc75339c51fc0f90e556306",
+      "archived_sha256": "5260b2b14b332463546f1f9e117737ae48ea8615a0adb2bd49c560a2727c4c66",
+      "source_bytes": 722820,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 43,
+      "image": "/russian-1825-pages/nt/043.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-43.jpg",
+      "source_sha256": "8ae6267e35cf813581e84af5d1c6102014593bc297ae4e0e9f1e644970e6764e",
+      "archived_sha256": "ea44d7197781d668cea8f7f403deba0534f586175dbaf5274b183d71cd54061c",
+      "source_bytes": 717296,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 44,
+      "image": "/russian-1825-pages/nt/044.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-44.jpg",
+      "source_sha256": "f934e9031bf8bebfe4d530fb790f17387505b47d5c4f0f1ff159d7fff72d7c4c",
+      "archived_sha256": "9fe327e1ce680853c9de52053fd6f16dac5e9c8a6cdbbe8aed7d7781651837bf",
+      "source_bytes": 766919,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 45,
+      "image": "/russian-1825-pages/nt/045.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-45.jpg",
+      "source_sha256": "5e98e0075f6ca4c572ac251540a2e41fdad4fcb556f83d579639745b847f29b9",
+      "archived_sha256": "5e99e1fef26676a63fb0d20cb41ca642fbf7dfed6af4a455e7ee9e292b1c97cb",
+      "source_bytes": 706083,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 46,
+      "image": "/russian-1825-pages/nt/046.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-46.jpg",
+      "source_sha256": "a38c3c8e76ac25d27c87c487824444af14e5e500b29a87737bc3eb33793e3350",
+      "archived_sha256": "689583e477b01c3cb170d0a2a8f1340bb98ca4ba0f85216c38e2ce195d0081eb",
+      "source_bytes": 743919,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 47,
+      "image": "/russian-1825-pages/nt/047.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-47.jpg",
+      "source_sha256": "bcd70aecd9a1413cfb327906f1e81482f799a2dd6d69709d3ff8a95f8bf72028",
+      "archived_sha256": "b61df52d63e65756d5f916f81f60c4d700fdeccfa053417e2957590379f20625",
+      "source_bytes": 744525,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 48,
+      "image": "/russian-1825-pages/nt/048.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-48.jpg",
+      "source_sha256": "371b5cc2f3ed5cde4c5011f60489da69967fe79ab9930dc41ac794f00b3e7ffb",
+      "archived_sha256": "4d21b6a4e6822a16dd9366280b0c79e9358ddcdc01f038c70a7d5f5abb94eeb8",
+      "source_bytes": 736038,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 49,
+      "image": "/russian-1825-pages/nt/049.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-49.jpg",
+      "source_sha256": "69f2a36fc3093db794c4f98e1eafa32e9c66763d127c6367a0072e015caa87e1",
+      "archived_sha256": "97a640c5d58febecdcbc662ffbf437a86f40b1b565ca6c59bf4d9b6bf44138e1",
+      "source_bytes": 723651,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 50,
+      "image": "/russian-1825-pages/nt/050.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-50.jpg",
+      "source_sha256": "2cd6b214384d93016bb448dde096df4d7a366fb104549550ebadeac56cd42252",
+      "archived_sha256": "c0523428a1be439f72fc382b30a1458ed68fdd2846822846380417fd6d0fd337",
+      "source_bytes": 759754,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 51,
+      "image": "/russian-1825-pages/nt/051.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-51.jpg",
+      "source_sha256": "ce217f592cb41ff3b532519b7f5c006b5a171ab24a0a7c9eb67e43c19c2e4298",
+      "archived_sha256": "0723a7c70d1072fa6a60c16842bc1a48a223e302d941125482f6fdc7a23c460c",
+      "source_bytes": 724656,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 52,
+      "image": "/russian-1825-pages/nt/052.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-52.jpg",
+      "source_sha256": "3aafe3c510830d6816d34b73ede230dd6b82e15b85458116d8466ab0bc2173fe",
+      "archived_sha256": "17c02368a1f98454144c7c2c4dbb6cbd73bc3c4e7bbe3d72161016241b7cfc6a",
+      "source_bytes": 724844,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 53,
+      "image": "/russian-1825-pages/nt/053.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-53.jpg",
+      "source_sha256": "e29a701a55298a21931e16339c86420cdde15f45da2fbea49a9b8cec97c69626",
+      "archived_sha256": "8b6befaac12930bd28fb50f0d268fce05e053004a131a1939cab8f339ae4855b",
+      "source_bytes": 740875,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 54,
+      "image": "/russian-1825-pages/nt/054.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-54.jpg",
+      "source_sha256": "3e5db0c214043c61f8c106ec736c183d412009c72183008382b58af2fc9218bc",
+      "archived_sha256": "d6feef7030a921a20acf29d82db41635ddf597da204cb574676ae5e1b9adfa90",
+      "source_bytes": 703574,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 55,
+      "image": "/russian-1825-pages/nt/055.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-55.jpg",
+      "source_sha256": "5aebace4cbd21f56cce19020c456a2e5ffd0689941ea75460de74b0828d2c5f0",
+      "archived_sha256": "f0d6d41410b7d8ccee385ecf882ef0f33e5eb028de983822b3da5625aeae641c",
+      "source_bytes": 724841,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 56,
+      "image": "/russian-1825-pages/nt/056.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-56.jpg",
+      "source_sha256": "7520836767646d7939ece4b25957532ef92dcc961641c75f421ec7de621dfee6",
+      "archived_sha256": "6a6ef631fd09aecba9ecddffd6d1ac004a18e0b09747b46cb9319542e63f76c5",
+      "source_bytes": 725630,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 57,
+      "image": "/russian-1825-pages/nt/057.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-57.jpg",
+      "source_sha256": "34db2c1e937b5def0c0c48298eb297dca131b7ed90a54d02c5a2b998c6b67fb2",
+      "archived_sha256": "c645e529e786b395702f9f7e8985bd542444dc142cf7b2984b152c6c6c6d6184",
+      "source_bytes": 702572,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 58,
+      "image": "/russian-1825-pages/nt/058.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-58.jpg",
+      "source_sha256": "29e50ad59be133c6bc042ec107e6b131a683c0fb49a2cffdc83bd197d2d99eda",
+      "archived_sha256": "33879f0439ea23d331633ff37fe84e43adc33930ddc636e3349a8a49f0ccfb24",
+      "source_bytes": 757202,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 59,
+      "image": "/russian-1825-pages/nt/059.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-59.jpg",
+      "source_sha256": "a50d5f949562afefa86607f4f48726dff3090dbfc84fc9097489f56558443060",
+      "archived_sha256": "1c6ffb2f466e0b47d29d81d36142c9edeb5898bf2aa50c533032066ff2b96d55",
+      "source_bytes": 709450,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 60,
+      "image": "/russian-1825-pages/nt/060.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-60.jpg",
+      "source_sha256": "c652ec404a4eb4e2b2490d3c23be7db2b950580df2fffc5cdd8bbd791f9200ad",
+      "archived_sha256": "76cffc5d20d57a41a246997d0f4993f3c783d1a21b0fb6f320f8e23e59ef9744",
+      "source_bytes": 710044,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 61,
+      "image": "/russian-1825-pages/nt/061.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-61.jpg",
+      "source_sha256": "c48e6d59cd401ccd5c2682b559042e83d5ec5baa9b2b5465e3f81b0b193468e4",
+      "archived_sha256": "88a7fa8b10017e0d1347f06ecb4fd003b25a7a5fb9c6d1f2401112b1b8fb024a",
+      "source_bytes": 728814,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 62,
+      "image": "/russian-1825-pages/nt/062.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-62.jpg",
+      "source_sha256": "b412830f136b32e295d5db37bc0dd9db625c9f699afb48ecacca7146c0af9c92",
+      "archived_sha256": "6b2393a103ca96e86d107b6c992d451701c6d183a820a7e8c9af22a22c9607fb",
+      "source_bytes": 733796,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 63,
+      "image": "/russian-1825-pages/nt/063.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-63.jpg",
+      "source_sha256": "1ca14cb83a7b9f9d05b0a0c7adb738d6102ee47144bcd618574c81dad98efb72",
+      "archived_sha256": "793b22845a82e8329ffd7f8771e88eba10af5140d56451a27d995814612a4abb",
+      "source_bytes": 718286,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 64,
+      "image": "/russian-1825-pages/nt/064.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-64.jpg",
+      "source_sha256": "9e407e9e5067b90a5f2130a0edd7f355d127d2ef075c14b1860eceb6ef5e0587",
+      "archived_sha256": "568bfdf15e55ab61a403084f838fe9949bed8ce5e9f2316e53b071e93f050bae",
+      "source_bytes": 750182,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 65,
+      "image": "/russian-1825-pages/nt/065.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-65.jpg",
+      "source_sha256": "23a5fbb2c55c7c76560110025ebef454486b207bb7aa9984dc75525e22575c32",
+      "archived_sha256": "6e5437c6c4de0b9304e557f7c639bfeee11245a8320359dbc11d7a6cc556c9a6",
+      "source_bytes": 728805,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 66,
+      "image": "/russian-1825-pages/nt/066.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-66.jpg",
+      "source_sha256": "1497f7515cbb3a2dc1aeb929691619b5149136c0c63ce61b4b1f636aa24191cb",
+      "archived_sha256": "7573455b786f9522db71a75d8dfb5df5dcb801ac353a47fe894065222bed8d52",
+      "source_bytes": 730935,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 67,
+      "image": "/russian-1825-pages/nt/067.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-67.jpg",
+      "source_sha256": "f0c3c77f369ba2d8debca17a0a6c733aa932d867847082781ba6f97d0ce7c6e4",
+      "archived_sha256": "c82d461f25a82d64a782ca0c054a8acf96d859f0aa1cb015c4b9f26fb5cbdfd7",
+      "source_bytes": 740907,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 68,
+      "image": "/russian-1825-pages/nt/068.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-68.jpg",
+      "source_sha256": "e1db3fa93a2f89bb24205c42d7c7d154b5acf77d3526d23dbb73f0782168a777",
+      "archived_sha256": "15d102b42c96a6f1b61611e24b80b3b43cb29ab28be21dce990b2fd8881f10f4",
+      "source_bytes": 736132,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 69,
+      "image": "/russian-1825-pages/nt/069.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-69.jpg",
+      "source_sha256": "6c906cb71fdcf60606f89f3d17be02830e131d89fb311e49c861bf94f60b35f3",
+      "archived_sha256": "afccc41bd1af4992d80e21c8b35c47eadd1be0337b47ab2dd5200eaed61a95ea",
+      "source_bytes": 728802,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 70,
+      "image": "/russian-1825-pages/nt/070.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-70.jpg",
+      "source_sha256": "6d76fccd14e7cbed4851c0c7f91b0525b24dda811c9c5ebfcd4511f08bce5af5",
+      "archived_sha256": "80174c49be509511189e85de8ce26978c43e3597f71ef23428794945a05099a2",
+      "source_bytes": 719623,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 71,
+      "image": "/russian-1825-pages/nt/071.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-71.jpg",
+      "source_sha256": "c7a67a410cc3140c0152d2eb2c183ca230d7404724d1e550a6abb36887a9be3b",
+      "archived_sha256": "9ab53a545384c656eb329b3ec608301bbe311ad4cef937fae020ba64b483b264",
+      "source_bytes": 702620,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 72,
+      "image": "/russian-1825-pages/nt/072.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-72.jpg",
+      "source_sha256": "9c6ff228854ce880ddb4dcfe1cccdece0d4ca2205de77fcfb2cb1bf29bd64ee1",
+      "archived_sha256": "c7e2ef96c1046ebf69f39409d614b1b08251bc7701bf9653678d2f192a5bf5ae",
+      "source_bytes": 686550,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 73,
+      "image": "/russian-1825-pages/nt/073.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-73.jpg",
+      "source_sha256": "5407557178a9f921e3850ac5b00420439d72af200ff5ddafe8912f10e57a7bd8",
+      "archived_sha256": "8092b6d8d8df93e34056f69f3623f8a581cd13127007f1483d3c301e15be2fce",
+      "source_bytes": 715535,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 74,
+      "image": "/russian-1825-pages/nt/074.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-74.jpg",
+      "source_sha256": "47cae086ac708f97f4b995f304f2b9055b28377eff9923ce2c258bf942a5101e",
+      "archived_sha256": "3162ac4fe2553fa1b422ea8b3c4895aab288fb82426b5aa669736a330ceb1b0c",
+      "source_bytes": 737072,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 75,
+      "image": "/russian-1825-pages/nt/075.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-75.jpg",
+      "source_sha256": "b333617db978679545ec01026f21015d5b4137b347dccd5ccdc21e4f1a728949",
+      "archived_sha256": "cbe17b38183dd3f9ed3d7838715900ed900824dc02de3fcfb44397f06bb5b928",
+      "source_bytes": 720674,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 76,
+      "image": "/russian-1825-pages/nt/076.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-76.jpg",
+      "source_sha256": "662cfebf476e89a7ae60141318e818d583f25a00a0ebe0fedda62446bf94bac8",
+      "archived_sha256": "224d6daea0dbce9d9b64ad4bea6039f29080f0cd305417a6cb2ef620e2f0acba",
+      "source_bytes": 712587,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 77,
+      "image": "/russian-1825-pages/nt/077.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-77.jpg",
+      "source_sha256": "a354c12bc68ae8251211ada9cd7d2d76eecb3a0000394fc95cdf74ff95920645",
+      "archived_sha256": "64883ccfc9bc85d0622baa0e0459d446d724d155b238c52c8cb3199afafd5560",
+      "source_bytes": 738804,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 78,
+      "image": "/russian-1825-pages/nt/078.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-78.jpg",
+      "source_sha256": "abefd27f54a3a2cca457fb0043942b8e591fef768d9e7de21229a2b26756bcd0",
+      "archived_sha256": "6d8a45e0ac2b1b552093bbc9c3e50906b09c681ecd3dbbc48002c789b8ec2722",
+      "source_bytes": 746233,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 79,
+      "image": "/russian-1825-pages/nt/079.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-79.jpg",
+      "source_sha256": "e79868d58efda38fadedb3f9a3620f8a47496f5010904f665f3548f86dbf81b8",
+      "archived_sha256": "55f56105b2543a071cd34a3acc2fcf4dfe928b449869fb1b2298ac6439079306",
+      "source_bytes": 703065,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 80,
+      "image": "/russian-1825-pages/nt/080.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-80.jpg",
+      "source_sha256": "12378e00e8280558d5230ef05bf25b1c9fd5d56235b673fef0d385cf381b87cd",
+      "archived_sha256": "e4bdcfc22443db0c5f391b7f6c4a41bcceb7ce0236d9d11720b5d4da08297741",
+      "source_bytes": 735724,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 81,
+      "image": "/russian-1825-pages/nt/081.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-81.jpg",
+      "source_sha256": "1b88365b70a237183f6176ff3b3b148f807cf5ac6fbdc7265d44582654573dec",
+      "archived_sha256": "408c4a589ff233e94292e8f4c83f60f472cd616c4d98e331b46d60bb45fc5c7d",
+      "source_bytes": 734823,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 82,
+      "image": "/russian-1825-pages/nt/082.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-82.jpg",
+      "source_sha256": "2802d22e16966de375d8f206d9e14403770d2afc02ce7ac5aa6bf09f76ae3552",
+      "archived_sha256": "ecc8d8a732ee85f419afaf4eb2f27f2fbf0711f5d30ddb6ac758605ebe5f8ff5",
+      "source_bytes": 715927,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 83,
+      "image": "/russian-1825-pages/nt/083.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-83.jpg",
+      "source_sha256": "4a931f2d26bb6529acf4352b408d399529553c584af243bbd5652618150d3533",
+      "archived_sha256": "a8660078109b68e2c1b33f17fb6db7ddae33dba069007544d1ea17822c3c79de",
+      "source_bytes": 687932,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 84,
+      "image": "/russian-1825-pages/nt/084.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-84.jpg",
+      "source_sha256": "704f7917661a39536dd011ed7f7ab64b96792bf9f0e3c074e118f4c062eb7bf1",
+      "archived_sha256": "3d1218c79acccd62de675f8ba58a6899456ac7a823a8f892a7a0ee3e0df9e945",
+      "source_bytes": 739056,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 85,
+      "image": "/russian-1825-pages/nt/085.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-85.jpg",
+      "source_sha256": "4fb11753114ef7570a08b4368a2de48cfce12636918299775c226c00e90e85cb",
+      "archived_sha256": "f7aca5b90f54a4a1446eac176e8b215d32f97998b690ba7d6d97d001d687b13e",
+      "source_bytes": 685582,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 86,
+      "image": "/russian-1825-pages/nt/086.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-86.jpg",
+      "source_sha256": "afede17ebb6899cda85f3adef69ef966efe730320c35cd84d95552980d93316e",
+      "archived_sha256": "b8e4600704e749ae3ea4b0fa10464d5b3327acc48ac39c647eebd6139cca9135",
+      "source_bytes": 714825,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 87,
+      "image": "/russian-1825-pages/nt/087.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-87.jpg",
+      "source_sha256": "cb002642c68ddfb4badbe38ba1a577c4fe9431298813a95956a6d684c5329895",
+      "archived_sha256": "59cf6cd8461cd84f16a5e9c378c801440b9614b638e16e37fc389316813a6245",
+      "source_bytes": 722578,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 88,
+      "image": "/russian-1825-pages/nt/088.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-88.jpg",
+      "source_sha256": "61cc127ce75d92734357454802c96fe53a51e4dcc18f568530cfffb939303b12",
+      "archived_sha256": "a4403d20107e9f1e8e0195b7c9f82463aea972ba76da8f29864b8ec1bf5592ac",
+      "source_bytes": 738991,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 89,
+      "image": "/russian-1825-pages/nt/089.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-89.jpg",
+      "source_sha256": "617238e18805a2059b0958e8ff8097955db054a677fe1ab7f5e369033f98878b",
+      "archived_sha256": "efae96a559ccd4e5b585ea35b1c9113779167b431426371700cf8616b3db927c",
+      "source_bytes": 767299,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 90,
+      "image": "/russian-1825-pages/nt/090.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-90.jpg",
+      "source_sha256": "1cea8af933401c20c4cead9576ebae2d16747ecb205d8e3a70f0b9e3af9b19b5",
+      "archived_sha256": "bf80e50fc154890bd219dcb3ec7a99c2d53e7e992978a6101d95964d0bcf9f3c",
+      "source_bytes": 752543,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 91,
+      "image": "/russian-1825-pages/nt/091.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-91.jpg",
+      "source_sha256": "fbec4d7d4b2cb8efe5adc843991b4a1addfcebd5d0a46c379955a95732ed5959",
+      "archived_sha256": "95ff95839a214d5c90e5ccad17e44ad6c17ef3345eea05a78c7862e04c101622",
+      "source_bytes": 722414,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 92,
+      "image": "/russian-1825-pages/nt/092.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-92.jpg",
+      "source_sha256": "e87db9801eeae6f448cb743b7c43131ea397bf947bc4fa14ebcc91f0817f186b",
+      "archived_sha256": "7f4b796b483d79e9c731550f24ac0a9b32e9bdd6f66cc17460b2935aafb8c3d2",
+      "source_bytes": 736999,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 93,
+      "image": "/russian-1825-pages/nt/093.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-93.jpg",
+      "source_sha256": "b3a74f75442190982fa87389da5766ec7846356c3424e6066528622f340db2ee",
+      "archived_sha256": "d8130365ebbac360f51a5091459c43bd75d455f37e6310f2637e248c0b8ed2e5",
+      "source_bytes": 761434,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 94,
+      "image": "/russian-1825-pages/nt/094.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-94.jpg",
+      "source_sha256": "617d657fdb345bed12408362e321c896a4a9bb0de663b9e31b780788164a5363",
+      "archived_sha256": "d3debb124a03684a5ca20825bf83e10d0df11ebab3eaa9ff231f36f25da0b401",
+      "source_bytes": 738007,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 95,
+      "image": "/russian-1825-pages/nt/095.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-95.jpg",
+      "source_sha256": "05f550159e7aa188cc33249555418ea85e0cf6ea82ad432bb294ed7310f43b09",
+      "archived_sha256": "71f003c8d9c318481c34ba1b760a19c8008f8e91d5afe85c28691e34114df72c",
+      "source_bytes": 698739,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 96,
+      "image": "/russian-1825-pages/nt/096.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-96.jpg",
+      "source_sha256": "03b25d699dc5fda0a7c9db007560722be0e0f9f5d7531126eba33f8b2e18331a",
+      "archived_sha256": "89b4eeffb7d844a3408ae69e9aa9901a5929e4fa3891d301bf3598fae6622b5e",
+      "source_bytes": 734763,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 97,
+      "image": "/russian-1825-pages/nt/097.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-97.jpg",
+      "source_sha256": "9437b345327076e758c08bcd9a557068a954365ef3e1cc572fcf934fe1868cb7",
+      "archived_sha256": "baae62a7ff8dbbc2e08fb6905490e4f99ca06f2b0381cad3cf53bca645ee8632",
+      "source_bytes": 743968,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 98,
+      "image": "/russian-1825-pages/nt/098.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-98.jpg",
+      "source_sha256": "86cdc167cf18d998f666c944fba8603fb7499c5a0347844b184b4ca8d0db5387",
+      "archived_sha256": "30df99d85f1846f0b135765ab1c420f0aad136e3f6b3219cac84cea2994baa9c",
+      "source_bytes": 713382,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 99,
+      "image": "/russian-1825-pages/nt/099.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-99.jpg",
+      "source_sha256": "283ff6353b04e75c45df36e85907bb2ccb3263e94d8d6ddc353525a5d6064137",
+      "archived_sha256": "8c4115142acea5ee886df28797f961e17ca97d1d7fc7cc5eac2dd6b9fb669715",
+      "source_bytes": 745879,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 100,
+      "image": "/russian-1825-pages/nt/100.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-100.jpg",
+      "source_sha256": "9872ffbaebd2d1a844786ecf77a3f7bf52a7af33ecc385ca8ee6402a94c3a4a0",
+      "archived_sha256": "1c0a6859d4cfe36aecebdf3ef542ea4547fb75512ace7b70cbc04c247a7a3487",
+      "source_bytes": 775002,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 101,
+      "image": "/russian-1825-pages/nt/101.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-101.jpg",
+      "source_sha256": "c3a6f80bfe3da613f4ffff119ffbd6b63f2675e3cdcfaf42344d560bc1d7db99",
+      "archived_sha256": "298e9bd39c31202d0e5a3c4d571d45729552ae08e8d72f611eb55199d40e9a70",
+      "source_bytes": 775147,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 102,
+      "image": "/russian-1825-pages/nt/102.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-102.jpg",
+      "source_sha256": "9c857e2095a1fc7b30a58a2ebb6fc1731b995194c9e661e756d7113aba1bc930",
+      "archived_sha256": "8fc2a6e57605d0137be475889f7d0f746693b37a9c46de90629793b1cb1d8f13",
+      "source_bytes": 721253,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 103,
+      "image": "/russian-1825-pages/nt/103.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-103.jpg",
+      "source_sha256": "d419f2b04e307726e898f71883823f1b0205b53770e38dbbd4ae965d41c1b5b6",
+      "archived_sha256": "b4ef650502534c5a2c2345e64341e6bb1bee7fb3b6eea9aeed62f587576fc6d8",
+      "source_bytes": 700352,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 104,
+      "image": "/russian-1825-pages/nt/104.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-104.jpg",
+      "source_sha256": "c698d9edf29d28652b4957e58d16a94a7156371320a40fd6f6b47a261f91af0e",
+      "archived_sha256": "829148c073c4ea9bbc3e56275f92e36502229d599f707d6e7b807df0c470c499",
+      "source_bytes": 730073,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 105,
+      "image": "/russian-1825-pages/nt/105.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-105.jpg",
+      "source_sha256": "21774f887bce50d2c1530417225a4d0d64b89214f8af816a9bd758ffbcb08188",
+      "archived_sha256": "bd3b3844d0dfffe4765bafcd9516e126fe998bfd79fb0c3e4a7e0f0f4ae8a12f",
+      "source_bytes": 732761,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 106,
+      "image": "/russian-1825-pages/nt/106.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-106.jpg",
+      "source_sha256": "9dbbead467f0f60d53a47fe6aac75ff062b074e8f92e139f715637037b7f2473",
+      "archived_sha256": "0b0c23db5a3aa6765bd58f57b68bbf94519e4a9b6a178dd2c94e2ca996eb557b",
+      "source_bytes": 685719,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 107,
+      "image": "/russian-1825-pages/nt/107.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-107.jpg",
+      "source_sha256": "bd0655aa4b020e9e2af80a70aa2b6ba20176a2140945c17efb9bde145ba4ee15",
+      "archived_sha256": "ef7a3e77a2f3c822f45cc6c5b56f0871cf67d271c7e78ecf82f52c2c90113bc1",
+      "source_bytes": 723916,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 108,
+      "image": "/russian-1825-pages/nt/108.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-108.jpg",
+      "source_sha256": "c35a6b0353ecddd5033d2720e2d95286390c2929d4f4bc2cb3e57d9f9bc3835b",
+      "archived_sha256": "74af6114111181d05fa6477f3ffb470c6231d28c23905a842006ba8572a9236c",
+      "source_bytes": 725488,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 109,
+      "image": "/russian-1825-pages/nt/109.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-109.jpg",
+      "source_sha256": "8dd71fd036c07e7d956e95e2b3197755b0576ceb42c04e9ba9c96f50e576c6dc",
+      "archived_sha256": "82fec1a3680aa945665ce0ba9e869a3268368935c2e3a64a4b029aea6589463e",
+      "source_bytes": 720427,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 110,
+      "image": "/russian-1825-pages/nt/110.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-110.jpg",
+      "source_sha256": "bc3d6caca1245cdbc25dd3c79cde725ae7f08444a7e840add15497e781f7d95d",
+      "archived_sha256": "cb1d97ce17524fe36d3c758164ef45a2686d785c40d5d249f7fb964910085d85",
+      "source_bytes": 737489,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 111,
+      "image": "/russian-1825-pages/nt/111.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-111.jpg",
+      "source_sha256": "014eddb90dd3f31b0884257907c5339dc90e4c28eba70ca41a24a495915bd47c",
+      "archived_sha256": "728f43f561ef1aef10cfd96184773de40cc2fbdfcb34b25a800b0328eef96966",
+      "source_bytes": 709133,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 112,
+      "image": "/russian-1825-pages/nt/112.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-112.jpg",
+      "source_sha256": "a822e3a68ebdfb45868645d3bcf21d0ab67cc1cdbe14028cf26e862d1d5f7b05",
+      "archived_sha256": "493752499d0e3959c3fa5d547b9a6f7ffaf151d0aa2b2e9ffd5678645239e701",
+      "source_bytes": 720024,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 113,
+      "image": "/russian-1825-pages/nt/113.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-113.jpg",
+      "source_sha256": "f7392cc5a7957e26061772db60184de9af1b030e576d73ed324ceb0f63f8316e",
+      "archived_sha256": "b40867907070e89790da992447a41b0cb3be5f152fb110b106cf8b256526094c",
+      "source_bytes": 729679,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 114,
+      "image": "/russian-1825-pages/nt/114.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-114.jpg",
+      "source_sha256": "d9a6fe63413984d00a04bb53ed0fce6694e71d1b8ae42d9e451b9a684eb5eb78",
+      "archived_sha256": "69a1212bd8e1b36150c25b0db2923be2877d7c38b5798b69ae8f57976b3c02e2",
+      "source_bytes": 740844,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 115,
+      "image": "/russian-1825-pages/nt/115.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-115.jpg",
+      "source_sha256": "9386fdb828e405d85bf4f2b6acea395e0f7d4385985a11467cabc444cf4b3c41",
+      "archived_sha256": "fffae7c0ffd884e2e7b6c5d2b53ebd3be595374d4d87af29221e05cffd230aa0",
+      "source_bytes": 741990,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 116,
+      "image": "/russian-1825-pages/nt/116.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-116.jpg",
+      "source_sha256": "6c44081043890796f6dcbca65b6afbcd6831822476305a18a1c0d12e972a556b",
+      "archived_sha256": "44806937560a24120876ef74e35c31ffd84d088b153245d3170723df554316ba",
+      "source_bytes": 744861,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 117,
+      "image": "/russian-1825-pages/nt/117.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-117.jpg",
+      "source_sha256": "790cfbc183e8dd0015f032ad560bf599b415779ce2baa47983563e8f5437070d",
+      "archived_sha256": "0da6e5c45aae8e59aa928fc56214c9f98444f47c5387c929bcad7792ebde5afe",
+      "source_bytes": 692379,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 118,
+      "image": "/russian-1825-pages/nt/118.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-118.jpg",
+      "source_sha256": "14b20964428cfe97ed9e97e3ff3acb5288e3616710e0b689cd104f4a61d27cc6",
+      "archived_sha256": "13c5f9bbedd9ea995ce434cfd2d3910b2dbde1f3561e2ad4428efe0e6310508e",
+      "source_bytes": 708197,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 119,
+      "image": "/russian-1825-pages/nt/119.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-119.jpg",
+      "source_sha256": "a8e5fd2cccee0eaac50109856a23a832f03ad5c8427ef70fe555b1061daff320",
+      "archived_sha256": "f9b2d8e3f586e6d560f2e478ffa17a92a0563f959f0991cdb14cfe7aa8805c4f",
+      "source_bytes": 662733,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 120,
+      "image": "/russian-1825-pages/nt/120.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-120.jpg",
+      "source_sha256": "62caa77b2c93a5cf330d7cb116680458e4703a22390eb3e940c2d5d07e301c0a",
+      "archived_sha256": "25700e54e183d27806c1e0c9a5bf7d33f67f1ac1c88f8ceeacb6a4db01e59d08",
+      "source_bytes": 671745,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 121,
+      "image": "/russian-1825-pages/nt/121.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-121.jpg",
+      "source_sha256": "34b9395c70d4b68b040a4b3aeb30d1b7044b624cc243effc441aa87b3cccb8dc",
+      "archived_sha256": "40d295f2c5c44096ea2c30413fddcbb128aa830aeff87f329a6eafcae14c7cb9",
+      "source_bytes": 683276,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 122,
+      "image": "/russian-1825-pages/nt/122.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-122.jpg",
+      "source_sha256": "ae56948e5b3f357386f20230d7dd01f52950e0e84d31f2ed3fe517949dde9456",
+      "archived_sha256": "7e51a42f8c079f8a9c049888d805e47a4b482332a167d6b9581b6cfdac32e8d1",
+      "source_bytes": 665534,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 123,
+      "image": "/russian-1825-pages/nt/123.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-123.jpg",
+      "source_sha256": "001010c0e66d2ae530ad6f075881adfc838aaf796239a26f8ac917a02cfeaa24",
+      "archived_sha256": "70dcff03b0a4c550ac4354f8c6bec6a94fe2de8ee3ba74bc4b6d22a4f46655ec",
+      "source_bytes": 679549,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 124,
+      "image": "/russian-1825-pages/nt/124.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-124.jpg",
+      "source_sha256": "71f65c2376a84c03efcf3809a818ad8c90c1734fcedd7dbb8058f0e521e40cb2",
+      "archived_sha256": "9313a7ddb8cab2bb3673efeca0c494c653cfc15881b3aed8a2a37fcd0d64fff5",
+      "source_bytes": 718140,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 125,
+      "image": "/russian-1825-pages/nt/125.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-125.jpg",
+      "source_sha256": "a5b55a29ec07894962d189c08528e499805e2105a14977e9012f2ac1d5d9d63e",
+      "archived_sha256": "141888764f0814fe75c6840bac13b7061c873a94465e9149316b17d124443fed",
+      "source_bytes": 689393,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 126,
+      "image": "/russian-1825-pages/nt/126.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-126.jpg",
+      "source_sha256": "c8ffd2f37165f155ddb7df4116cd4fa6d36cee4554efb575de980cce496282d5",
+      "archived_sha256": "bb6fd09b2d20d1daede2a596617022494eb9f5b2f7a87f7f76a766b873fbb533",
+      "source_bytes": 662799,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 127,
+      "image": "/russian-1825-pages/nt/127.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-127.jpg",
+      "source_sha256": "d3652a0998c05e9fd8c284866c949ed55bc3ce89bf90f098acdd0d310bd9f440",
+      "archived_sha256": "79602983f227ada4772aaa13ec0883397be71fd3882b20e1b986d04eae94e77a",
+      "source_bytes": 696411,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 128,
+      "image": "/russian-1825-pages/nt/128.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-128.jpg",
+      "source_sha256": "422410d606e17979efdd30708f6d37bbdb4e0751fd52275015e53ec4ee94285f",
+      "archived_sha256": "9d052efe67a59d848b26eba1ca3c17af5e898bf61e5a801256a2bfdbd350d459",
+      "source_bytes": 719915,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 129,
+      "image": "/russian-1825-pages/nt/129.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-129.jpg",
+      "source_sha256": "7415bf67fa7c7370e802cde4118cc524425187058fc48dcc89722110cdf224fe",
+      "archived_sha256": "74a55d90409eee7f9e38a4b4c1018440f4b4d71d0e4a5ceb3a07678a1afb125f",
+      "source_bytes": 706784,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 130,
+      "image": "/russian-1825-pages/nt/130.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-130.jpg",
+      "source_sha256": "c15282b22a44cbed0b616d3e8d025140d7bac98e1c4f309567c5801c7db66186",
+      "archived_sha256": "4f46af863646f53bd59c0895d00ec5c052e2d9776bb2ea57ac3a46509bba40ed",
+      "source_bytes": 706896,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 131,
+      "image": "/russian-1825-pages/nt/131.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-131.jpg",
+      "source_sha256": "9d88bca80ee537bcf226a6ece58bbcd0f4c5d6c92347218b833cde80e7b3bb1f",
+      "archived_sha256": "30bccb888d8e3dfd3bfda3f805b5d1410a26c98dc5ee47003234841a99618814",
+      "source_bytes": 698226,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 132,
+      "image": "/russian-1825-pages/nt/132.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-132.jpg",
+      "source_sha256": "fc27846ae0c8c9a377c75abafdcfe81b9c13b32e8bc62323f17aaa8ed1cdbd9f",
+      "archived_sha256": "0b16a63fc6ecbadfe1ae9acadf7cafffc22c8a6993be49481f091b15028dc984",
+      "source_bytes": 702776,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 133,
+      "image": "/russian-1825-pages/nt/133.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-133.jpg",
+      "source_sha256": "afee7ce0bf25f72159e548b140699fed56b4f8e9e48b8c4ae2bd356db4d3e5e6",
+      "archived_sha256": "c0008528e67359c9e227c5d248d004bb61630ff6909f5b0c863303cebfaf63b0",
+      "source_bytes": 682433,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 134,
+      "image": "/russian-1825-pages/nt/134.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-134.jpg",
+      "source_sha256": "2e83048b63f1ae6db735d2285c0033e4f55687e7a343077fae61b45f2a998264",
+      "archived_sha256": "a5040c9a71d1ec5e3a8dd4873c020f8f0468d23c045fbaf135e082237ab24166",
+      "source_bytes": 686760,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 135,
+      "image": "/russian-1825-pages/nt/135.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-135.jpg",
+      "source_sha256": "197dc89af58d0040c64b267870664845fae7126bd37e51e9b4cf633b1e0c7468",
+      "archived_sha256": "8752c6fc8dda8ca01efb63f0c519fdf898bcdd708cd6399c69e366b262c859d3",
+      "source_bytes": 716829,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 136,
+      "image": "/russian-1825-pages/nt/136.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-136.jpg",
+      "source_sha256": "9a0b97f122b146eda522c45af37d26f084186c72048a4c5ebaf170d1ca837511",
+      "archived_sha256": "35536783c05239695be7f5dcd8337b3f514cd6ddbd634b46961e496be9052660",
+      "source_bytes": 745210,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 137,
+      "image": "/russian-1825-pages/nt/137.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-137.jpg",
+      "source_sha256": "9454ff053160f9935555b5443cfdd284d852a18b6d619727d33e640dfc2342ba",
+      "archived_sha256": "dfcc7b92ccd63c35a0fd6651f3fb811153bbaeccacff4e91f8355da71d44454f",
+      "source_bytes": 749685,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 138,
+      "image": "/russian-1825-pages/nt/138.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-138.jpg",
+      "source_sha256": "bef5789a5c128f2388683f9c6fe17ce1be069571acef3822b71ff45adf8710c0",
+      "archived_sha256": "d38197f19d6f6978fe5d308907764b2c66608eba7ee024be687aa28b619ec509",
+      "source_bytes": 753286,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 139,
+      "image": "/russian-1825-pages/nt/139.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-139.jpg",
+      "source_sha256": "df7f6408a665b7afa9055fd66f1cbee7d1bec154d249797599b5abccc4d1b7e4",
+      "archived_sha256": "43a3a5c06e7ac07f7b5b5ff713f09d0e8f59cb3b88d0b1bc1a6a78738a19c81b",
+      "source_bytes": 767190,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 140,
+      "image": "/russian-1825-pages/nt/140.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-140.jpg",
+      "source_sha256": "e3d6ca32d7cc0927c7f339c7c9170183f06cf62d8ab841d67b71078cfcc91525",
+      "archived_sha256": "c6efd2df6bd683e27428223ee252c9345cf53524c82406bfa1aeb1e12d2d874e",
+      "source_bytes": 770799,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 141,
+      "image": "/russian-1825-pages/nt/141.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-141.jpg",
+      "source_sha256": "94e527603842d00c708589e52ab8bd239e2d6322f01ded24bc7b58458005e486",
+      "archived_sha256": "3b8397074760eb9e7df8f16d4205c6a83f52ba4fdfc5c27e1b6dbe9c66ab810a",
+      "source_bytes": 747763,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 142,
+      "image": "/russian-1825-pages/nt/142.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-142.jpg",
+      "source_sha256": "a402857c337c631c8bc9d1d8443c2afdd3f5fdc9c4ec17297f82bb0aac260c3d",
+      "archived_sha256": "8834d4b4103aa17622a23befdd247c8c86fb1779e2060dea1d708861565ab305",
+      "source_bytes": 695239,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 143,
+      "image": "/russian-1825-pages/nt/143.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-143.jpg",
+      "source_sha256": "17647057c26d7d762b5356a848f57bd165fb24fd0b7ade32b2002a0bc624a6cf",
+      "archived_sha256": "f85447ff5e1ffbf52518dbb010e6d66cd1bb1f131b986868dad324b664c078b4",
+      "source_bytes": 715407,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 144,
+      "image": "/russian-1825-pages/nt/144.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-144.jpg",
+      "source_sha256": "f55d321f85fdb043e92da77d1c92955e194e5736686e41718fde64913cd641cf",
+      "archived_sha256": "9494362d3e28e91715e3053d3ba9b30cce0e9c2c1747971ef9c9274fc1b2603b",
+      "source_bytes": 769983,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 145,
+      "image": "/russian-1825-pages/nt/145.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-145.jpg",
+      "source_sha256": "adb0bdfef3189b1e76f42141f2d134b9497156df919bcd7996084e37e011286d",
+      "archived_sha256": "56ebb71e02a001cccbb4176c179775e90423df03e88bd056b450e1fd168d1b8f",
+      "source_bytes": 767828,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 146,
+      "image": "/russian-1825-pages/nt/146.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-146.jpg",
+      "source_sha256": "51f2f6dcb0808fea7d5e81016d7a55a6c476c0a4fcd5b30bcc40a08475365ce8",
+      "archived_sha256": "985dcb9707590d3c6647a5520aa733678809db1b92f1d077162112f5b4fcda64",
+      "source_bytes": 723850,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 147,
+      "image": "/russian-1825-pages/nt/147.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-147.jpg",
+      "source_sha256": "e0495583f916194992d8a845d4c80f4ad54ae65f1b95a943d77d503f97d95d7a",
+      "archived_sha256": "96af97340186bd8e6dc225bf90a87eef6d8667f09d5018a0a3111a59f564aba1",
+      "source_bytes": 735646,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 148,
+      "image": "/russian-1825-pages/nt/148.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-148.jpg",
+      "source_sha256": "5b84bdc3a92364fb1e02e82e871aeb164346b134173c47d2929629677a787f64",
+      "archived_sha256": "252ed7386310568498f10d8cba5a05cfed93452f52343ec1f392ac12c628055d",
+      "source_bytes": 775604,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 149,
+      "image": "/russian-1825-pages/nt/149.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-149.jpg",
+      "source_sha256": "c872ff7f21848e57934f8bbd346e70aee324569033fc2c2a60efa14ae2ff38d6",
+      "archived_sha256": "3f0d6b89f12ef1e8028e579b02e3b1ea7e6ffb3784105f3fe1320fc9fbaa115b",
+      "source_bytes": 767491,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 150,
+      "image": "/russian-1825-pages/nt/150.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-150.jpg",
+      "source_sha256": "561311165a8706368bbb79f13c9a3bbba11455782fee7696a81147d1a11cd9b4",
+      "archived_sha256": "8c5240fd33aa980e38e9f5ef85a6d49f3dfa2c1fca88acbbe278ed553e9aa8cd",
+      "source_bytes": 735945,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 151,
+      "image": "/russian-1825-pages/nt/151.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-151.jpg",
+      "source_sha256": "21fb88bd0a37cfc37c8ba765dd18751c646ba285115b3726edfdecbcfcdc212c",
+      "archived_sha256": "082aa12df69954de83eefb75579445dfd3f165e8526106ca9f5ab5a3f485de1d",
+      "source_bytes": 728624,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 152,
+      "image": "/russian-1825-pages/nt/152.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-152.jpg",
+      "source_sha256": "5309238d26d4049b61fd64ca5a6bbd1b9ac14961a1253bf617701683fa5de6c3",
+      "archived_sha256": "81f85ff1f716a9d0293ac30fc2be9280a8412f9d97e61d7ab23f77a58bb39718",
+      "source_bytes": 728855,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 153,
+      "image": "/russian-1825-pages/nt/153.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-153.jpg",
+      "source_sha256": "4cbab0a10d90f811d876d7cd0f29bee60911da8d9fcb880dbdca42f39b980044",
+      "archived_sha256": "a155fec54bd6a200488090bef0ac08e30eb8b6f46b349a532701065080b57c7f",
+      "source_bytes": 713977,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 154,
+      "image": "/russian-1825-pages/nt/154.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-154.jpg",
+      "source_sha256": "bdf2f168ae1b87a0da06057b75cf222d4e56171f1e1c6e6df4325c088e76999a",
+      "archived_sha256": "f9ec9eba33e52d1de510ff1106b936b2b152f6666a627eac0b3c071ad4c18f2a",
+      "source_bytes": 752627,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 155,
+      "image": "/russian-1825-pages/nt/155.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-155.jpg",
+      "source_sha256": "a07624a0c7fc0473a3763f9bf2aff651b76660e4cf8d8755db1810effe23f8e1",
+      "archived_sha256": "21c8115eb05691aa6d899b1484f8608e83e946cdaf72c721018dd8c06d21033e",
+      "source_bytes": 736863,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 156,
+      "image": "/russian-1825-pages/nt/156.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-156.jpg",
+      "source_sha256": "5b8180ed2f8762ef8343c78e84cc7b245d80cc26a03b4226849ad86b1f75620b",
+      "archived_sha256": "25815d4d7d1a58dbc41d2ddc5027bb78fa1fa9ba9ddbdbeca1622f6564951036",
+      "source_bytes": 758498,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 157,
+      "image": "/russian-1825-pages/nt/157.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-157.jpg",
+      "source_sha256": "1606ee4e3ea1de4ec76056c43369a6342dbefffe7ae73e8408c33f1020871ad6",
+      "archived_sha256": "6c26af3cd3f84e72e828699995209dddcd11d2a0a673d14c73aa185a6d2af955",
+      "source_bytes": 747296,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 158,
+      "image": "/russian-1825-pages/nt/158.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-158.jpg",
+      "source_sha256": "741001828f700482b85575ff1fc77ce0b8fe0334e6c652f4dbef59cf5f097478",
+      "archived_sha256": "67262aa20704e01d44471478561edb09a505b6e967acdc9d5ca8a3410ad7b5f3",
+      "source_bytes": 720571,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 159,
+      "image": "/russian-1825-pages/nt/159.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-159.jpg",
+      "source_sha256": "db53f708fa555a7d5aadd8debb729e62bbd746f2530ec72961c64821038c4a7c",
+      "archived_sha256": "2575ddc8d64c40360a17d9fe236a8326cda618be440dcc09650831e958ca0048",
+      "source_bytes": 672212,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 160,
+      "image": "/russian-1825-pages/nt/160.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-160.jpg",
+      "source_sha256": "53fdb3baaed8e9f835b65bf51102423c645330c6a11cb4e98d2ca5d04b8dd690",
+      "archived_sha256": "fa089c1f8b8327a21e72d8c2c42fa6b38886c4aafc262dcf1e0c168aae270dfa",
+      "source_bytes": 713813,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 161,
+      "image": "/russian-1825-pages/nt/161.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-161.jpg",
+      "source_sha256": "0fe6f590a394e55f0d36b8130da64d2f18d16a69c3affebe7ab1eb84b4310b15",
+      "archived_sha256": "71a1123ac7d72386c56785875aeec4880d7f4bdc5446ffc70310c9933919b826",
+      "source_bytes": 730022,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 162,
+      "image": "/russian-1825-pages/nt/162.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-162.jpg",
+      "source_sha256": "0adc7976c3007b5280867543ec73d8f454a6f82f637b145c8d4bfda5ff038762",
+      "archived_sha256": "eb03b9a2f3ae65c83d995b777881f282441747cfa729dc035496356d30496ebc",
+      "source_bytes": 727458,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 163,
+      "image": "/russian-1825-pages/nt/163.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-163.jpg",
+      "source_sha256": "d2ac586b33ad2c573025bac72e5f4fc68f9835d7f7811b412fc16f26b02b4a6c",
+      "archived_sha256": "7ed7c9b3648d6acd1361a4a67d0909e4f9b76d24b97d4cdc4fc0ecc67f959b47",
+      "source_bytes": 662393,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 164,
+      "image": "/russian-1825-pages/nt/164.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-164.jpg",
+      "source_sha256": "ce85b6cfa61ad8e928c4a0c58b23995fbb34f41ee695009a209cb5201ccd6e67",
+      "archived_sha256": "313f513a9b8f972e0e84c7d30a6a59f01170226b3b984b341cdc083a8ae5d2b1",
+      "source_bytes": 709814,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 165,
+      "image": "/russian-1825-pages/nt/165.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-165.jpg",
+      "source_sha256": "a7035068f11aed68f60f01d0de7ba90ea37e713b3e4250fa83ad77c3a40de433",
+      "archived_sha256": "2e102ebb2d4e30888751ec823329e045bf0200afe8922f37ccf55460a4dd3e94",
+      "source_bytes": 730279,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 166,
+      "image": "/russian-1825-pages/nt/166.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-166.jpg",
+      "source_sha256": "48542a80a1c4debb8c0cc8282856b7fe194bbaec65de00165d3ea834b1b14ee8",
+      "archived_sha256": "039355cb3dd1ff8c4200036e960b5002090b03c9bba471a8deafed15695cd911",
+      "source_bytes": 728396,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 167,
+      "image": "/russian-1825-pages/nt/167.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-167.jpg",
+      "source_sha256": "0d1ace54c2fa555752c64e56eebb995cc991d8b1e57ebda1548fd173b8ef08a8",
+      "archived_sha256": "bace531a55abb0897437e26fe02e3b75f33f47bda24f06948d6146e6626dd8f2",
+      "source_bytes": 719985,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 168,
+      "image": "/russian-1825-pages/nt/168.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-168.jpg",
+      "source_sha256": "8530e9351020b7bc42366aacaec4ad717065f1be2b8b830de0735a511b8eb56f",
+      "archived_sha256": "85d2f42eb426064e6c054c32d871b454e7cc8be687dbce4df82439495e79e873",
+      "source_bytes": 729459,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 169,
+      "image": "/russian-1825-pages/nt/169.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-169.jpg",
+      "source_sha256": "38162895d3e371e46d464d46fcf412983c9c268f3b6d2779334ebad8ac1e2a68",
+      "archived_sha256": "233c1c4dea53ba286bf3b2d238ab87a8c725a8e3d0ea80595973c807dbeb85d3",
+      "source_bytes": 738225,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 170,
+      "image": "/russian-1825-pages/nt/170.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-170.jpg",
+      "source_sha256": "e06c4b67928c9d73aaeb97b299650cff16b9575bd87b66b17d173da0211a7ce9",
+      "archived_sha256": "68bff1cc94a6d8656f4d4213b67fd813e384d725ee7bea6375305f9d40f83fa2",
+      "source_bytes": 770003,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 171,
+      "image": "/russian-1825-pages/nt/171.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-171.jpg",
+      "source_sha256": "6e77b91f88be9c3a66796f8f64c0a229181515c9830007e2410749d67b8ceb9a",
+      "archived_sha256": "acf50be21c32e9cb5b97af063ba54a41b35321db6e8dcfbe4823899f93d1b253",
+      "source_bytes": 739143,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 172,
+      "image": "/russian-1825-pages/nt/172.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-172.jpg",
+      "source_sha256": "3f47152d7760a7535d880515ad8aad5f83a1544f4135c72947a523c47827833c",
+      "archived_sha256": "27f17d5617746bb91712d00f287a51ad50a7ee1b1196b047927fa26f1a7c0c06",
+      "source_bytes": 733898,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 173,
+      "image": "/russian-1825-pages/nt/173.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-173.jpg",
+      "source_sha256": "6c1ea5d31a7bdcc1d80d69588da49927069bb2d380f892a2fe476633c3659657",
+      "archived_sha256": "06a6465d84d615143df7afb3fce517bec345ce17777f88d6dcb3bd174fe1b577",
+      "source_bytes": 721747,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 174,
+      "image": "/russian-1825-pages/nt/174.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-174.jpg",
+      "source_sha256": "3c7777b5ed9436397ce7390573be6114f1a072b4bf1b7b231c37bc2bd1bedad7",
+      "archived_sha256": "8fa118713d1b578e503a50c093ff1cc6ebf395d6e5e821486530cac46e31df2c",
+      "source_bytes": 737536,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 175,
+      "image": "/russian-1825-pages/nt/175.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-175.jpg",
+      "source_sha256": "9133ab1b01cf45c43a0c5965e787595e950e004761243d87741c8041e59b5682",
+      "archived_sha256": "3ebf582a5e9a073a63d79d5383bf49b3e205a140adfeee059dad55055ec7b284",
+      "source_bytes": 699925,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 176,
+      "image": "/russian-1825-pages/nt/176.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-176.jpg",
+      "source_sha256": "9636e76978a08ca0268be2a54b4413eaf6c4fe381a0219d9052549c15aa4163a",
+      "archived_sha256": "fc6370009833a74c0bec15dc5ec937ba631139bb0c03de161f4a2260156bed45",
+      "source_bytes": 704196,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 177,
+      "image": "/russian-1825-pages/nt/177.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-177.jpg",
+      "source_sha256": "bc0108e90cf9b283bda8246e8188e44d28363c3f1da3975ea301b2502f89252b",
+      "archived_sha256": "4e2b78f6fcf282804bb3f9e5dde53ed0747694ef56f1757a904e13007901ef56",
+      "source_bytes": 720536,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 178,
+      "image": "/russian-1825-pages/nt/178.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-178.jpg",
+      "source_sha256": "690987ff71b4ec5c3161e6f66557b3a8df0883e4fa315402c24675e06a5494d1",
+      "archived_sha256": "6a4da2e0e59140b85cd87f2b9840a45557548f2c17809d4610146859fa2d9cd9",
+      "source_bytes": 752331,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 179,
+      "image": "/russian-1825-pages/nt/179.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-179.jpg",
+      "source_sha256": "8c47f9558e13d4c4ec3b8352e661702f2c7c568ebc6b4201aef0141f88feea2e",
+      "archived_sha256": "6997fb9e2011c2c7471d2c430e9c21b1ecae4b02e57559055decfb00d7f50049",
+      "source_bytes": 742482,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 180,
+      "image": "/russian-1825-pages/nt/180.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-180.jpg",
+      "source_sha256": "883c7ad9fa67295cab3c4eb2931b9d680deeedf376e65f9330ecfa65a491db69",
+      "archived_sha256": "7a1c5ecf4d9d5b6a4195d6caf2234049083b05a0b6801b38928299453ab95138",
+      "source_bytes": 731793,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 181,
+      "image": "/russian-1825-pages/nt/181.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-181.jpg",
+      "source_sha256": "b96077bf9378b9440d79c69fd70044412a190a8ef74e4336226165b56a019729",
+      "archived_sha256": "1249b1027b544602bb2bcf2079e1777f1cfe9e700209c70c114553b9f1c9f9b0",
+      "source_bytes": 712725,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 182,
+      "image": "/russian-1825-pages/nt/182.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-182.jpg",
+      "source_sha256": "af816ad7ee1670a92a70bfbd399a0764cefcae2b2ef5467edce45ff0bf475be8",
+      "archived_sha256": "32457cdef933202a393552f5a09428a3e8aec7d3a71dad92f0463dfe196096f8",
+      "source_bytes": 685507,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 183,
+      "image": "/russian-1825-pages/nt/183.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-183.jpg",
+      "source_sha256": "74d809b02b30572a047616ed137fe8fe5b05d614c29f49f690b6944f6b2e2082",
+      "archived_sha256": "84c828f90c0cf511d6617b935fb0b7b2bc535f680c97d3d4255e7368cb970a35",
+      "source_bytes": 690852,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 184,
+      "image": "/russian-1825-pages/nt/184.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-184.jpg",
+      "source_sha256": "f88124eebc9f1fca3085b637bb4f06cfd0f5a1d32ef04944ea62f21f2ef5297b",
+      "archived_sha256": "7530159d292d54b674b98b236ffaf22d013f650e7d8f61b41c3290aba2ab0348",
+      "source_bytes": 683509,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 185,
+      "image": "/russian-1825-pages/nt/185.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-185.jpg",
+      "source_sha256": "f8a6d73c6483f4538bdbb4cee21d8b268122c7101d2f90fe80c32aed6fd3068d",
+      "archived_sha256": "b592309ff981bc0e1918ad0e3a32cae56b2f3f991574e35ad4e236ed3e2958d2",
+      "source_bytes": 700337,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 186,
+      "image": "/russian-1825-pages/nt/186.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-186.jpg",
+      "source_sha256": "149c65fa90da9374906292ecb2d845a43c0f350ed9cd686a095dfb1884342786",
+      "archived_sha256": "a88f98e27f3748ed839e77dad135a5fefb9f9b68c03ac4d571b0d69e244397c2",
+      "source_bytes": 732974,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 187,
+      "image": "/russian-1825-pages/nt/187.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-187.jpg",
+      "source_sha256": "3e183c748c0dd9fe6240c804ff41d6e2e8a916f82c780283bbc9e45cc844d0c2",
+      "archived_sha256": "0805bff05fb471cad89d346d156f50e1d730559e97c9f9c7baaf79880f1d7de1",
+      "source_bytes": 695749,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 188,
+      "image": "/russian-1825-pages/nt/188.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-188.jpg",
+      "source_sha256": "85524074e47aee2956019538eec04a7c68d4bc87113ba38feeb75b50edce2eba",
+      "archived_sha256": "96986179b0590d140bc38a627351cdf1be2befd89b5e367a1466af01228cfd4b",
+      "source_bytes": 725353,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 189,
+      "image": "/russian-1825-pages/nt/189.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-189.jpg",
+      "source_sha256": "61ed31468ed610ac3adf868fa06d2defc7bbdcf43d7b94605a9c7854c80740f6",
+      "archived_sha256": "35d274ccfc18b8ece18c03d10d69c171305869774c8e35eeb487074dfe4c9757",
+      "source_bytes": 718685,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 190,
+      "image": "/russian-1825-pages/nt/190.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-190.jpg",
+      "source_sha256": "9cdcca2b080352ae38b421a5f5345136ddf6512bee0c13f1b4b3bbd201ca5fea",
+      "archived_sha256": "a70db14e70f1385e99d762a7d535a77952df6ac24aa43117cb5dcaa17afe201b",
+      "source_bytes": 744802,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 191,
+      "image": "/russian-1825-pages/nt/191.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-191.jpg",
+      "source_sha256": "8da9d55b95ad45b32a2a8e0ff2f811762834289116dc48c2e4924b4b47e46478",
+      "archived_sha256": "4077099ebc46c34fa2ce7132aa67c8e0cc39127c4e7dcc4eed37b54d50d7aa39",
+      "source_bytes": 747502,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 192,
+      "image": "/russian-1825-pages/nt/192.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-192.jpg",
+      "source_sha256": "494bf2e8376e6e1e76fa7f37746ecc8ade959214cb6c21a89121240f3e17571e",
+      "archived_sha256": "9ab6bd1d69efb8bcf8a4f3326cb840048fad1aaaf122f72b6a038961a552c184",
+      "source_bytes": 705204,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 193,
+      "image": "/russian-1825-pages/nt/193.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-193.jpg",
+      "source_sha256": "888f92c0b46c03bda3e2ceec1c234a6bda12e5734124daaf316aac04d694fa81",
+      "archived_sha256": "bdfeece55fa2ae4e679b5bfb1725895a90146e1da5ab161add74c93734dc4eba",
+      "source_bytes": 567621,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 194,
+      "image": "/russian-1825-pages/nt/194.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-194.jpg",
+      "source_sha256": "5f3d60d0679adea76e68aa9da79557cec3fc2ff8319cc67bb650a270fd66a39c",
+      "archived_sha256": "969d3bac7989d0d781032d83d9f1801770fef407a5fefe480b133cf73c5f0a6c",
+      "source_bytes": 562527,
+      "width": 1600,
+      "height": 2567
+    },
+    {
+      "page": 195,
+      "image": "/russian-1825-pages/nt/195.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-195.jpg",
+      "source_sha256": "6a4624bda7186ae25a52ef1cd3cbb7dd8cb5c05262e461fd004ba0d5705de518",
+      "archived_sha256": "a16ba1308c331d0b5c7e1d64fd91c064f4a436edee46e83ce1110a445412a51d",
+      "source_bytes": 564571,
+      "width": 1600,
+      "height": 2530
+    },
+    {
+      "page": 196,
+      "image": "/russian-1825-pages/nt/196.webp",
+      "source": "https://kp.rusneb.ru/attachments_new/attachment/5fcf8bb3991f3b91423439ad/preview-page-196.jpg",
+      "source_sha256": "6fc88dc3173a4f4fae65cbb5258cee5ae3c626d0d22a43d5c99952d15d146a1b",
+      "archived_sha256": "5ed4ac3a5ab0b290b0860cd5a27987100134f5d4b31afab4e035003564535966",
+      "source_bytes": 626562,
+      "width": 1600,
+      "height": 2530
+    }
+  ],
+  "failed_pages": []
+}
