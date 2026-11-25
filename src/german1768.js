@@ -2617,5 +2617,58 @@ export const german1768 = {
       "III. Zu grossen Dingen gebrauchet GOtt offtmals gar geringe Werckzeuge.\nHolofernes ward durch keinen grossen Krieges-Held, sondern durch eine schwache Weibs-Person erleget."
     ],
     "reflection": "An Gottes Hülffe soll man nimmermehr verzagen /\nDas stellt Bethulia durch ihr Exempel dar:\nDurch eines Weibes Hand ließ GOtt die Feinde jagen,\nAls in der Stadt die Noth aufs höchste kommen war.\nUnd also soll mir auch in keinen Nöthen grauen /\nIn Hunger / Krieg und Pest will ich auf GOtt vertrauen."
+  },
+  "48": {
+    "pages": [
+      286,
+      289,
+      290,
+      291
+    ],
+    "printed": "168–171",
+    "latin": "Sub cruce Tobiæ mira est patientia cæci,\nFucataque Deum non pietate colit.\nSupplice voce quidem Te summum Numen adoro;\nNe sint Tobiæ fata ferenda mihi:\nSi tamen adversis me vis, Deus alme, probare,\nQuo te complector, non minuetur amor.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "title": "Von dem Unglück des alten Tobiä.",
+    "reference": "Tob. I. II. und III. Capitel.",
+    "narrative": "1. Der alte Tobias war ein frommer Mann aus dem Stamme Naphthali. 2. Sein einziger Sohn hieß auch Tobias, 3. und war von Jugend auf in der Gottesfurcht erzogen worden. 4. Dieser Tobias lebte zu Ninive als ein gefangener Israelite. 5. Weil er GOtt von ganzem Herzen fürchtete, so gab ihm GOtt die Gnade, daß er frey herum gehen durffte: 6. Von seinen Mitgefangenen aber wurden viel erschlagen, und wurden nicht einmal begraben. 7. Wenn nun Tobias hörte, daß einer von seinen Mitbrüdern todt auf der Gasse lag, so begrub er denselben bey der Nacht. 8. Es begab sich aber, als er einstens müde nach Hause kam, daß er sich neben eine Wand legte und einschlief. 9. Da schmeiste eine Schwalbe aus ihrem Neste, das fiel ihm so heiß in die Augen, daß er davon blind ward. 10. In diesem Unglücke verlachten ihn erstlich seine Freunde, und sagten: Wo ist nun dein Vertrauen, und daß du so viel Allmosen gegeben hast? 11. Darnach brachte seine Frau eine junge Ziege nach Hause, die hörte der blinde Tobias schreyen, 12. und sagte zu seiner Frauen: Sie solte zusehen, daß die Ziege nicht gestohlen wäre. 13. Darüber wurde die Frau böse, und warf ihm täglich sein Elend vor. 14. Endlich wolte Tobias lieber todt seyn, denn leben, und bat GOtt mit vielen Thränen um ein seliges Ende. 15. Es wohnte aber in der Stadt Rages in Meden ein anderer gefangener Israelite, mit Namen Raguel. 16. Der hatte eine einzige Tochter, die hieß Sara. 17. Dieselbe hatte allbereit sieben Männer nach einander gehabt: 18. aber ein böser Geist, Asmodi genannt, hatte sie alle sieben in der ersten Nacht getödtet. 19. Dieses warf ihr eine Magd in ihres Vaters Hause vor, und sagte zu ihr: 20. Du Männer-Mörderin, willst du mich auch tödten, wie du die sieben Männer getödtet hast? 21. Auf diese Worte ging Sara in ihre Kammer, und aß und tranck drey Tage nicht, 22. sondern bat GOtt ohn Unterlaß mit Thränen, daß er doch diese Schmach von ihr nehmen wolte. 23. Den Beschluß ihres Gebetes machte sie mit diesem Lob-Spruche: Nach dem Ungewitter lässest du die Sonne wieder scheinen, und nach dem Heulen und Weinen überschüttest du uns mit Freuden. 24. Dieses Gebet that Sara eben in der Stunde in der Stadt Rages, als der alte Tobias zu Ninive um ein seliges Ende bat. 25. Und in eben der Stunde ward auch dieser beyder Gebet erhöret, ob sie gleich weit von einander wohneten, 26. und der Engel Raphael ward gesandt, daß er allen beyden aus ihrer Noth helffen solte.",
+    "questions": [
+      "Was war der alte Tobias vor ein Mann?",
+      "Wie hieß sein Sohn?",
+      "Wie ward derselbe gerathen?",
+      "Aber wo lebte der alte Tobias?",
+      "Wie giengs ihm dann in seiner Gefangenschafft?",
+      "Aber wie giengs seinen Mitgefangenen?",
+      "Was that Tobias vor Liebe an seinen Mitbrüdern?",
+      "Wo legte sich Tobias hin, als er nach Hause kam?",
+      "Was trug sich mit einer Schwalbe zu?",
+      "Wie führten sich seine Freunde gegen den blinden Mann auf?",
+      "Was brachte Tobiä Frau nach Hause?",
+      "Was sagte Tobias als er die Ziege schreyen hörte?",
+      "Wie nahm seine Frau diese Warnung auf?",
+      "Was that Tobias in seinem Elende?",
+      "Was wohnte denn vor ein anderer Gefangener in der Stadt Rages?",
+      "Was hatte derselbe vor Kinder?",
+      "Wie viel Männer hatte diese Sara schon gehabt?",
+      "Wo waren die Männer alle hinkommen?",
+      "Mit wem ziff sich diese Sara?",
+      "Was hatte die Magd vor ein lose Maul?",
+      "Was that Sara hierauf?",
+      "Was bat sie denn von GOtt?",
+      "Womit beschloß sie ihr Gebet?",
+      "Wer betete in eben dieser Stunde zu Ninive?",
+      "Welches Gebet ward dann erhöret?",
+      "Was vor ein Engel ward ihm zu Gefallen vom Himmel gesandt?"
+    ],
+    "teachings": [
+      "I. Tobias hatte seinen Sohn von Jugend auf in der Gottesfurcht erzogen.\nDas ist recht; Nicht von der Galanterie, sondern von der GOttesfurcht muß man den Anfang machen, wenn man wohlgezogene Kinder haben will.",
+      "II. Wie Sara geschmähet ward, so klagte sie solches GOtt dem HErrn.\nDas ist das allerbeste Mittel: Denn Scheldworte mit Scheldworte zu vergelten, ist einem guten Christen nicht anständig.",
+      "III. Tobias bat um ein seliges Ende; GOtt aber gab ihm sein Gesichte wieder.\nSo machet es GOtt, wenn wir um zeitliche Güter bitten. Ein gläubiges Gebet wird allezeit erhöret; wir kriegen aber nicht allemal, was wir bitten, sondern GOtt giebet uns nach seiner Weisheit und Liebe offt was anders, und auch wohl bessers davor."
+    ],
+    "reflection": "Tobiä Creutz war groß! doch blieb er unbeweglich /\nUnd seine Gottesfurcht war keine Heucheley /\nMein GOtt! ich bitte dich zwar im Gebete täglich /\nDaß ich Tobiä nicht im Elend ähnlich sey:\nDoch willst du durch das Creutz auch meinen Glauben üben /\nSo will ich unverrückt dich auch in Trübsal lieben."
   }
 };

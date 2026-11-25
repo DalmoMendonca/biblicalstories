@@ -2671,5 +2671,59 @@ export const englishFromGerman = {
       "III. For great things God often employs very humble instruments.\nHolofernes was slain not by a great warrior, but by a weak woman."
     ],
     "reflection": "One must never despair of God's help;\nBethulia shows this by her example:\nThrough a woman's hand God put the enemies to flight,\nWhen the distress in the city had reached its height.\nThus I shall dread no adversity;\nIn famine, war and plague I will trust in God."
+  },
+  "48": {
+    "pages": [
+      286,
+      289,
+      290,
+      291
+    ],
+    "printed": "168–171",
+    "latin": "Sub cruce Tobiæ mira est patientia cæci,\nFucataque Deum non pietate colit.\nSupplice voce quidem Te summum Numen adoro;\nNe sint Tobiæ fata ferenda mihi:\nSi tamen adversis me vis, Deus alme, probare,\nQuo te complector, non minuetur amor.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Misfortune of the Elder Tobias.",
+    "reference": "Tobit, chapters I, II and III.",
+    "narrative": "1. The elder Tobias was a godly man of the tribe of Naphtali. 2. His only son was also named Tobias, 3. and had been brought up in the fear of God from his youth. 4. This Tobias lived at Nineveh as a captive Israelite. 5. Because he feared God with his whole heart, God granted him the favor of being permitted to go about freely. 6. But many of his fellow captives were slain and were not even buried. 7. Whenever Tobias heard that one of his brethren lay dead in the street, he buried him by night. 8. It happened, however, that once when he came home weary, he lay down beside a wall and fell asleep. 9. Then a swallow discharged its droppings from its nest; they fell so hot into his eyes that he became blind. 10. In this misfortune his friends first mocked him and said: Where now is your trust, and what of all the alms you have given? 11. Afterwards his wife brought a young goat home, which the blind Tobias heard bleating, 12. and he said to his wife that she should see to it that the goat was not stolen. 13. His wife became angry at this and reproached him daily with his misery. 14. Finally Tobias would rather be dead than live, and with many tears asked God for a blessed end. 15. But in the city of Rages in Media lived another captive Israelite named Raguel. 16. He had an only daughter named Sarah. 17. She had already had seven husbands in succession; 18. but an evil spirit called Asmodeus had killed all seven on the first night. 19. A maid in her father's house reproached her with this and said to her: 20. You murderess of husbands, will you kill me too, as you killed the seven husbands? 21. At these words Sarah went into her chamber and neither ate nor drank for three days, 22. but prayed to God without ceasing and with tears that he would take this disgrace away from her. 23. She concluded her prayer with this saying of praise: After the tempest you cause the sun to shine again, and after lamentation and weeping you overwhelm us with joys. 24. Sarah made this prayer in the city of Rages at the very hour when the elder Tobias at Nineveh prayed for a blessed end. 25. And at that very hour the prayer of both was heard, although they dwelt far apart, 26. and the angel Raphael was sent to help them both out of their distress.",
+    "questions": [
+      "What sort of man was the elder Tobias?",
+      "What was his son's name?",
+      "How did the latter turn out?",
+      "But where did the elder Tobias live?",
+      "How did he fare in his captivity?",
+      "But how did his fellow captives fare?",
+      "What act of love did Tobias do for his brethren?",
+      "Where did Tobias lie down when he came home?",
+      "What happened with a swallow?",
+      "How did his friends behave toward the blind man?",
+      "What did Tobias' wife bring home?",
+      "What did Tobias say when he heard the goat bleating?",
+      "How did his wife receive this warning?",
+      "What did Tobias do in his misery?",
+      "What other captive lived in the city of Rages?",
+      "What children did he have?",
+      "How many husbands had this Sarah already had?",
+      "What had become of all the husbands?",
+      "With whom did Sarah quarrel?",
+      "What foul language did the maid use?",
+      "What did Sarah do thereupon?",
+      "What did she ask of God?",
+      "With what did she conclude her prayer?",
+      "Who prayed at Nineveh at that very hour?",
+      "Whose prayer was then heard?",
+      "What angel was sent from heaven for their benefit?"
+    ],
+    "teachings": [
+      "I. Tobias had brought up his son in the fear of God from his youth.\nThis is right; one must begin not with gallantry, but with the fear of God, if one wishes to have well-brought-up children.",
+      "II. When Sarah was reviled, she complained of it to the Lord God.\nThis is the very best remedy: for to repay abusive words with abusive words is unbecoming to a good Christian.",
+      "III. Tobias prayed for a blessed end, but God restored his sight to him.\nThus God acts when we ask for temporal goods. A believing prayer is always heard; but we do not always receive what we ask for. Rather, according to his wisdom and love, God often gives us something different, and indeed something better in its place."
+    ],
+    "reflection": "Tobias' cross was great, yet he remained steadfast,\nAnd his fear of God was no hypocrisy.\nMy God! I ask you daily in my prayer\nThat I may not resemble Tobias in misery;\nYet if through the cross you would also exercise my faith,\nI will love you steadfastly even in tribulation."
   }
 };
