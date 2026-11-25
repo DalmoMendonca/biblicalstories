@@ -1528,5 +1528,68 @@ export const englishFromGerman = {
       "III. Outward worship alone is not sufficient; rather, God wishes to be honored inwardly in the hearts of men.\nThe ark of the covenant was a precious sanctuary of the Jewish people; but when it was carried by unholy people, God let it fall into the hands of the Philistines."
     ],
     "reflection": "Eli the priest let his children practice sin,\nAnd did not even look displeased at it;\nBut the Lord did not leave this unavenged,\nHe punished him and his entire house with death.\nYou parents, be thanked for your discipline and teaching;\nYou have honored God; God will honor you in return."
+  },
+  "29": {
+    "pages": [
+      176,
+      179,
+      180,
+      181,
+      182
+    ],
+    "printed": "96–100",
+    "latin": "Non dubitat Domini mandatum spernere Saulus,\nTingit hypocriticas caede deinde manus;\nAd necromantia mox demens confugit artes:\nDenique desperans concidit ense suo.\nCrimina si tantas capiunt cum tempore vires,\nPrimis principiis objiciendus obex.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 34,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of King Saul.",
+    "reference": "1 Samuel IX, X, XV, XVI, XIX, XXVIII, and XXXI.",
+    "narrative": "1. Saul sought the she-asses his father had lost. 2. When he could not find them, he went to the prophet Samuel and asked him to show him the right way. 3. But Samuel took a vial of oil and, at God's command, anointed Saul king over Israel. 4. When he went away from the prophet, God gave him quite another heart, and he became quite another man. 5. On the way the Spirit of the Lord even came upon him, so that he prophesied. 6. From this arose the proverb: Is Saul also among the prophets? 7. When the people afterward wished to proclaim him king, he had hidden behind the barrels. 8. And when he was finally brought forth, he was a head taller than everyone. 9. After this Saul was to put the Amalekites to death at God's command, both people and cattle. 10. But Saul did not obey the Lord's command, and let the best sheep and lambs live. 11. Then the Lord regretted having made Saul king. 12. And through the prophet Samuel he had him told: Because you have rejected the word of the Lord, the Lord has also rejected you. 13. Saul pleaded that he had intended to sacrifice the cattle to the Lord his God. 14. But God had him told: Obedience is better than sacrifice. 15. After this an evil spirit from the Lord came upon King Saul and made him very restless. 16. But when David played his harp before him, the evil spirit departed from him again. 17. Meanwhile God had this young David anointed king in Saul's place by the prophet Samuel. 18. Saul indeed wished to get him out of the way, but the Lord God held his hand over him. 19. Finally the Philistines assembled an army against King Saul. 20. Saul asked the Lord how the war would turn out. 21. But the Lord gave him no answer. 22. Then Saul went to a witch who had a spirit of divination. 23. By her sorcery this woman brought forth an apparition in the form of the deceased prophet Samuel. 24. The summoned spirit said to Saul: Why have you disturbed me? 25. Saul said to the spirit: The Lord has departed from me; therefore I have had you called, that you may tell me what I ought to do. 26. The spirit then told him that the Lord would give the people of Israel into the hands of the Philistines in this war. 27. And the spirit addressed the king himself with these words: Tomorrow you and your sons will be with me. 28. The next day the children of Israel were defeated, 29. and three of Saul's sons were killed. 30. Then Saul commanded his armor-bearer to kill him. 31. And when the armor-bearer would not lay his hand upon the Lord's anointed, 32. Saul fell upon his own sword. 33. The Philistines cut off his head and sent it throughout the land; 34. but they hung his body over the city wall at Bethshan.",
+    "questions": [
+      "What was Saul seeking?",
+      "From whom did he seek counsel?",
+      "But what did Samuel do to him?",
+      "What change took place in Saul?",
+      "Who came upon him on the way?",
+      "What proverb arose from this?",
+      "What happened at the election?",
+      "How could the new king be recognized?",
+      "What was Saul to do at God's command?",
+      "Was Saul obedient?",
+      "How did this please the Lord God?",
+      "What did God have him told through Samuel?",
+      "What excuse did Saul make?",
+      "But what did Samuel say in reply?",
+      "How did King Saul fare afterward?",
+      "Who could drive away this evil spirit?",
+      "What did Samuel do with young David?",
+      "Could Saul tolerate this new king beside him?",
+      "What war arose afterward?",
+      "What did Saul wish to know from God?",
+      "What answer did he receive?",
+      "From whom did Saul then seek help?",
+      "What did this sorceress bring about?",
+      "What did the spirit say to Saul?",
+      "What did Saul say to the spirit?",
+      "What news did the spirit give concerning the war?",
+      "What did the spirit prophesy about King Saul?",
+      "What happened the following day?",
+      "What became of Saul's sons?",
+      "What did Saul command his armor-bearer?",
+      "What did the armor-bearer do?",
+      "How did Saul lose his life?",
+      "What became of his head?",
+      "What became of his body?"
+    ],
+    "teachings": [
+      "I. Self-chosen good works are not pleasing to the Lord God.\nKing Saul did not put the accursed cattle to death, and pleaded that this was done so that they might be sacrificed to the Lord. But the Lord God took it very ill and had him told that obedience was better than sacrifice.",
+      "II. Where the Holy Spirit departs, the evil spirit enters.\nAfter the Spirit of the Lord had departed from King Saul, an evil spirit came upon him and made him very restless.",
+      "III. The Lord God does not forsake people until they forsake him.\nThus God had King Saul told: Because you have rejected the word of the Lord, the Lord has also rejected you."
+    ],
+    "reflection": "Through disobedience Saul first transgressed;\nThen hypocrisy and bloodshed followed;\nAnd finally he sought counsel through sorcery,\nUntil at last he killed himself with his own hand.\nHelp, heaven! Can one go so far in sin?\nThen I would rather resist the very first sin at once."
   }
 };

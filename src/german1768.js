@@ -1493,5 +1493,67 @@ export const german1768 = {
       "III. Mit dem äusserlichen Gottesdienst ist es nicht ausgerichtet, sondern GOtt will innerlich in dem Hertzen der Menschen geehret seyn.\nDie Bundes-Lade war ein theures Heiligthum des Jüdischen Volckes; aber wie sie von unheiligen Leuten getragen ward, so ließ sie GOtt in die Hände der Philister fallen."
     ],
     "reflection": "Der Priester Eli ließ die Kinder Sünde treiben /\nUnd sahe nicht einmal darüber sauer aus;\nDas aber ließ der HErr nicht ungerochen bleiben /\nEr straffte durch den Tod ihn und sein gantzes Hauß.\nIhr Eltern habet dank vor eure Zucht und Lehren /\nIhr habet GOtt geehrt / GOtt wird euch wieder ehren."
+  },
+  "29": {
+    "pages": [
+      176,
+      179,
+      180,
+      181,
+      182
+    ],
+    "printed": "96–100",
+    "latin": "Non dubitat Domini mandatum spernere Saulus,\nTingit hypocriticas caede deinde manus;\nAd necromantia mox demens confugit artes:\nDenique desperans concidit ense suo.\nCrimina si tantas capiunt cum tempore vires,\nPrimis principiis objiciendus obex.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 34,
+      "teachings": 3
+    },
+    "title": "Von dem Könige Saul.",
+    "reference": "1. Sam. IX. X. XV. XVI. XIX. XXVIII. und XXXI. Capitel.",
+    "narrative": "1. Saul suchte die Eselin, die sein Vater verlohren hatte. 2. Wie er sie nicht finden konnte, so gieng er zum Propheten Samuel, und bat ihn, daß er ihm den rechten Weg zeigen solte. 3. Samuel aber nahm ein Oelglas, und salbete diesen Saul auf GOttes Befehl zum Könige über Israel. 4. Als er nun von dem Propheten wegging, so gab ihm GOtt ganz ein ander Hertz, und es ward ganz ein ander Mann aus ihm. 5. Unterwegens gerieth gar der Geist des HErrn über ihn, daß er weissagete. 6. Daher ist das Sprichwort entstanden? Ist Saul auch unter den Propheten? 7. Als ihn darauf das Volck zum Könige ausruffen wolte, so hatte er sich hinter die Fässer versteckt. 8. Und wie er endlich hervor gezogen wurde, so war er eines Kopffs länger, als jedermann. 9. Dieser Saul solte nach diesem die Amalekiter auf GOttes Befehl todt schlagen, sowohl die Menschen, als das Viehe. 10. Aber Saul that des HErrn Befehl nicht, sondern ließ die besten Schafe und Lämmer leben. 11. Da gereuete es den HErrn, daß er Saul zum Könige gemacht hatte. 12. Und ließ ihm durch den Propheten Samuel sagen: Weil du des HErrn Wort verworffen hast, so hat dich der HErr auch verworffen. 13. Saul wandte zwar vor, er hätte das Vieh dem HErrn seinem GOtt opffern wollen. 14. Aber GOtt ließ ihm sagen: Gehorsam wäre besser als Opffer. 15. Nach diesem kam ein böser Geist vom HErrn über den König Saul, der machte ihn sehr unruhig. 16. Wenn aber David auf seiner Harffen vor ihm spielte, so wich der böse Geist wieder von ihm. 17. Diesen kleinen David ließ unterdessen GOtt durch den Propheten Samuel an Sauls Stelle zum Könige salben. 18. Denselben wolte Saul zwar gerne aus dem Wege räumen: Aber GOtt der HErr hielt seine Hand über ihm. 19. Auf die letzt versammleten die Philister ein Heer wider den König Saul. 20. Da fragte Saul zwar den HErrn, wie der Krieg ablauffen würde? 21. Aber der HErr gab ihm keine Antwort. 22. Da ging Saul zu einer Hexe, die einen Wahrsager-Geist hatte. 23. Dies Weib brachte mit ihrer Zauberey zu wege, daß ein Gespenste in der Gestalt des verstorbenen Propheten Samuels hervor kam. 24. Der gebannte Geist sagte zu Saul: Warum hast du mich verunruhiget? 25. Saul sagte zum Geiste: Der HErr ist von mir gewichen, darum habe ich dich ruffen lassen, daß du mir sagen solt, was ich thun soll. 26. Der Geist sagte ihm hierauf, daß der HErr das Volck Israel in diesem Kriege in die Hände der Philister geben würde. 27. Und den König selbst redte der Geist mit diesen Worten an: Morgen wirst du und deine Söhne mit mir seyn. 28. Des andern Tages wurden die Kinder Israel geschlagen, 29. und von Sauls Söhnen blieben ihrer dreye todt. 30. Da befahl Saul seinem Waffenträger, daß er ihn erstechen solte. 31. Und wie der Waffenträger seine Hand nicht an den Gesalbten des HErrn legen wolte, 32. so fiel Saul in sein eigen Schwerdt. 33. Seinen Kopf hieben die Philister ab, und schickten ihn im ganzen Lande herum: 34. Seinen Leichnam aber hiengen sie über die Stadt-Mauer zu Bethsan.",
+    "questions": [
+      "Was suchte Saul?",
+      "Bey wem suchte er Rath?",
+      "Was nahm aber Samuel mit ihm vor?",
+      "Was gieng vor eine Aenderung mit Saul vor?",
+      "Wer gerieth unterwegens über ihn?",
+      "Was ist vor ein Sprichwort daher entstanden?",
+      "Was trug sich bey der Wahl zu?",
+      "Woran konnte man den neuen König kennen?",
+      "Was solte Saul auf GOttes Befehl thun?",
+      "War Saul auch fein gehorsam?",
+      "Wie gefiel das GOtt dem HErrn?",
+      "Was ließ ihm GOtt durch Samuel sagen?",
+      "Was wandte Saul vor?",
+      "Aber was sagte Samuel darauf?",
+      "Wie giengs darnach dem Könige Saul?",
+      "Wer konnte diesen bösen Geist vertreiben?",
+      "Was nahm Samuel mit dem kleinen David vor?",
+      "Konnte denn Saul diesen neuen König neben sich leiden?",
+      "Was entstund darauf vor ein Krieg?",
+      "Was wolte Saul von GOtt wissen?",
+      "Was bekam er vor Bescheid?",
+      "Bey wem suchte Saul nach diesem Hülffe?",
+      "Was brachte diese Zauberin zu wege?",
+      "Wie sagte der Geist zu Saul?",
+      "Wie sagte Saul zum Geiste?",
+      "Was gab der Geist vor Nachricht wegen des Krieges?",
+      "Was prophezeyte der Geist von dem Könige Saul?",
+      "Was geschahe des folgenden Tages?",
+      "Wo blieben Sauls Söhne?",
+      "Was befahl Saul seinem Waffenträger?",
+      "Was that der Waffenträger?",
+      "Wie kam Saul um sein Leben?",
+      "Wo blieb sein Kopf?",
+      "Wo blieb sein Leichnam?"
+    ],
+    "teachings": [
+      "I. Die selbst erwehlten guten Wercke sind GOtt dem HErrn nicht angenehm.\nDer König Saul ließ das verbannte Vieh nicht todt schlagen, und wandte vor, es wäre darum geschehen, daß es dem HErrn solte geopffert werden: Aber GOtt der HErr nahm es sehr übel auf, und ließ ihm sagen: Gehorsam wäre besser, denn Opffer.",
+      "II. Wo der Heilige Geist aus ziehet, da hält der böse Geist seinen Einzug.\nNachdem der Geist des HErrn von dem Könige Saul gewichen war, so kam ein böser Geist über ihn, der ihn sehr unruhig machte.",
+      "III. GOtt der HErr verläßt die Menschen nicht eher bis die Menschen ihn verlassen.\nAlso ließ GOtt dem Könige Saul sagen: Weil du des HErrn Wort verworffen hast, so hat dich der HErr auch verworffen."
+    ],
+    "reflection": "Durch Ungehorsam hat sich Saul zuerst vergangen /\nDrauf folgte Heucheley und Blutvergiessen nach:\nUnd endlich wolt’ er Rath durch Zauberey erlangen /\nBis er sich auf die letzt mit eigner Hand erstach:\nHilf Himmel! kan man sich in Sünden so vergehen /\nSo will ich lieber flugs der ersten widerstehen."
   }
 };
