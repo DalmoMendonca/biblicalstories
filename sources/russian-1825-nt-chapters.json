@@ -1,0 +1,429 @@
+{
+  "edition": "Москва, 1825, шестое исправленное издание, часть II",
+  "document_id": "5fcf8bb3991f3b91423439ad",
+  "toc_source_pages": [
+    3,
+    4,
+    5
+  ],
+  "printed_page_one_scan": 7,
+  "method": "Direct visual transcription of the original printed table of contents. Candidate ranges include one opening buffer page and next chapter start as closing buffer; exact chapter boundaries still require comparison with facsimiles.",
+  "records": [
+    {
+      "id": 53,
+      "title": "О Священникѣ Захаріи",
+      "printed_start": 1,
+      "scan_start": 7,
+      "scan_start_candidate": 7,
+      "scan_end_candidate": 10
+    },
+    {
+      "id": 54,
+      "title": "О благовѣщеніи",
+      "printed_start": 4,
+      "scan_start": 10,
+      "scan_start_candidate": 9,
+      "scan_end_candidate": 12
+    },
+    {
+      "id": 55,
+      "title": "О посѣщеніи Маріиномъ",
+      "printed_start": 6,
+      "scan_start": 12,
+      "scan_start_candidate": 11,
+      "scan_end_candidate": 16
+    },
+    {
+      "id": 56,
+      "title": "О Іосифѣ и Маріи",
+      "printed_start": 10,
+      "scan_start": 16,
+      "scan_start_candidate": 15,
+      "scan_end_candidate": 19
+    },
+    {
+      "id": 57,
+      "title": "О Рождествѣ Іоанна Крестителя",
+      "printed_start": 13,
+      "scan_start": 19,
+      "scan_start_candidate": 18,
+      "scan_end_candidate": 22
+    },
+    {
+      "id": 58,
+      "title": "О Рождествѣ Христовѣ",
+      "printed_start": 16,
+      "scan_start": 22,
+      "scan_start_candidate": 21,
+      "scan_end_candidate": 24
+    },
+    {
+      "id": 59,
+      "title": "О пастыряхъ Виѳлеемскихъ",
+      "printed_start": 18,
+      "scan_start": 24,
+      "scan_start_candidate": 23,
+      "scan_end_candidate": 27
+    },
+    {
+      "id": 60,
+      "title": "О обрѣзаніи Христовомъ",
+      "printed_start": 21,
+      "scan_start": 27,
+      "scan_start_candidate": 26,
+      "scan_end_candidate": 28
+    },
+    {
+      "id": 61,
+      "title": "О очищеніи Маріиномъ",
+      "printed_start": 22,
+      "scan_start": 28,
+      "scan_start_candidate": 27,
+      "scan_end_candidate": 31
+    },
+    {
+      "id": 62,
+      "title": "О видѣніи, явившемся волхвамъ",
+      "printed_start": 25,
+      "scan_start": 31,
+      "scan_start_candidate": 30,
+      "scan_end_candidate": 34
+    },
+    {
+      "id": 63,
+      "title": "О бѣгствѣ Іисуса Христа во Египетъ и о избіеніи младенцевъ въ Виѳлеемѣ",
+      "printed_start": 28,
+      "scan_start": 34,
+      "scan_start_candidate": 33,
+      "scan_end_candidate": 37
+    },
+    {
+      "id": 64,
+      "title": "О двѣнадцатилѣтнемъ отрокѣ Іисусѣ, оставшемся во Іерусалимѣ",
+      "printed_start": 31,
+      "scan_start": 37,
+      "scan_start_candidate": 36,
+      "scan_end_candidate": 40
+    },
+    {
+      "id": 65,
+      "title": "О Іоаннѣ Крестителѣ",
+      "printed_start": 34,
+      "scan_start": 40,
+      "scan_start_candidate": 39,
+      "scan_end_candidate": 43
+    },
+    {
+      "id": 66,
+      "title": "О крещеніи Іисуса Христа",
+      "printed_start": 37,
+      "scan_start": 43,
+      "scan_start_candidate": 42,
+      "scan_end_candidate": 46
+    },
+    {
+      "id": 67,
+      "title": "О томъ, какъ Іисусъ былъ искушаемъ",
+      "printed_start": 40,
+      "scan_start": 46,
+      "scan_start_candidate": 45,
+      "scan_end_candidate": 49
+    },
+    {
+      "id": 68,
+      "title": "О женѣ Самарянынѣ",
+      "printed_start": 43,
+      "scan_start": 49,
+      "scan_start_candidate": 48,
+      "scan_end_candidate": 52
+    },
+    {
+      "id": 69,
+      "title": "О сотникѣ, въ Капернаумѣ жившемъ",
+      "printed_start": 46,
+      "scan_start": 52,
+      "scan_start_candidate": 51,
+      "scan_end_candidate": 54
+    },
+    {
+      "id": 70,
+      "title": "Объ Іерусалимской купели",
+      "printed_start": 48,
+      "scan_start": 54,
+      "scan_start_candidate": 53,
+      "scan_end_candidate": 57
+    },
+    {
+      "id": 71,
+      "title": "О Наинской вдовицѣ",
+      "printed_start": 51,
+      "scan_start": 57,
+      "scan_start_candidate": 56,
+      "scan_end_candidate": 60
+    },
+    {
+      "id": 72,
+      "title": "О засѣянной землѣ",
+      "printed_start": 54,
+      "scan_start": 60,
+      "scan_start_candidate": 59,
+      "scan_end_candidate": 63
+    },
+    {
+      "id": 73,
+      "title": "О жителяхъ страны Гергесинской",
+      "printed_start": 57,
+      "scan_start": 63,
+      "scan_start_candidate": 62,
+      "scan_end_candidate": 66
+    },
+    {
+      "id": 74,
+      "title": "О сухорукомъ",
+      "printed_start": 60,
+      "scan_start": 66,
+      "scan_start_candidate": 65,
+      "scan_end_candidate": 69
+    },
+    {
+      "id": 75,
+      "title": "О плевелахъ на нивѣ",
+      "printed_start": 63,
+      "scan_start": 69,
+      "scan_start_candidate": 68,
+      "scan_end_candidate": 73
+    },
+    {
+      "id": 76,
+      "title": "О усѣкновеніи главы Іоанна Крестителя",
+      "printed_start": 67,
+      "scan_start": 73,
+      "scan_start_candidate": 72,
+      "scan_end_candidate": 76
+    },
+    {
+      "id": 77,
+      "title": "О томъ, какъ Іисусъ насытилъ пять тысячъ человѣкъ",
+      "printed_start": 70,
+      "scan_start": 76,
+      "scan_start_candidate": 75,
+      "scan_end_candidate": 80
+    },
+    {
+      "id": 78,
+      "title": "О хожденіи Апостола Петра по морю",
+      "printed_start": 74,
+      "scan_start": 80,
+      "scan_start_candidate": 79,
+      "scan_end_candidate": 83
+    },
+    {
+      "id": 79,
+      "title": "О женѣ Хананейской",
+      "printed_start": 77,
+      "scan_start": 83,
+      "scan_start_candidate": 82,
+      "scan_end_candidate": 86
+    },
+    {
+      "id": 80,
+      "title": "О преображеніи Спасителя на горѣ Ѳаворѣ",
+      "printed_start": 80,
+      "scan_start": 86,
+      "scan_start_candidate": 85,
+      "scan_end_candidate": 89
+    },
+    {
+      "id": 81,
+      "title": "О бесноватомъ",
+      "printed_start": 83,
+      "scan_start": 89,
+      "scan_start_candidate": 88,
+      "scan_end_candidate": 92
+    },
+    {
+      "id": 82,
+      "title": "О слѣпорожденномъ",
+      "printed_start": 86,
+      "scan_start": 92,
+      "scan_start_candidate": 91,
+      "scan_end_candidate": 96
+    },
+    {
+      "id": 83,
+      "title": "О Марѳѣ и Маріи",
+      "printed_start": 90,
+      "scan_start": 96,
+      "scan_start_candidate": 95,
+      "scan_end_candidate": 98
+    },
+    {
+      "id": 84,
+      "title": "О блудномъ сынѣ",
+      "printed_start": 92,
+      "scan_start": 98,
+      "scan_start_candidate": 97,
+      "scan_end_candidate": 103
+    },
+    {
+      "id": 85,
+      "title": "О зломъ богатѣ",
+      "printed_start": 97,
+      "scan_start": 103,
+      "scan_start_candidate": 102,
+      "scan_end_candidate": 107
+    },
+    {
+      "id": 86,
+      "title": "О младенцахъ, получившихъ благословеніе отъ Іисуса",
+      "printed_start": 101,
+      "scan_start": 107,
+      "scan_start_candidate": 106,
+      "scan_end_candidate": 109
+    },
+    {
+      "id": 87,
+      "title": "О Закхеѣ, сидѣвшемъ на смоковничномъ деревѣ",
+      "printed_start": 103,
+      "scan_start": 109,
+      "scan_start_candidate": 108,
+      "scan_end_candidate": 112
+    },
+    {
+      "id": 88,
+      "title": "О воскресшемъ Лазарѣ",
+      "printed_start": 106,
+      "scan_start": 112,
+      "scan_start_candidate": 111,
+      "scan_end_candidate": 118
+    },
+    {
+      "id": 89,
+      "title": "Объ изсохшей смоковницѣ",
+      "printed_start": 112,
+      "scan_start": 118,
+      "scan_start_candidate": 117,
+      "scan_end_candidate": 121
+    },
+    {
+      "id": 90,
+      "title": "О сокровищницѣ при храмѣ Іерусалимскомъ",
+      "printed_start": 115,
+      "scan_start": 121,
+      "scan_start_candidate": 120,
+      "scan_end_candidate": 123
+    },
+    {
+      "id": 91,
+      "title": "О десяти дѣвахъ",
+      "printed_start": 117,
+      "scan_start": 123,
+      "scan_start_candidate": 122,
+      "scan_end_candidate": 126
+    },
+    {
+      "id": 92,
+      "title": "О послѣднемъ судѣ",
+      "printed_start": 120,
+      "scan_start": 126,
+      "scan_start_candidate": 125,
+      "scan_end_candidate": 130
+    },
+    {
+      "id": 93,
+      "title": "О вхожденіи Христовомъ во Іерусалимъ",
+      "printed_start": 124,
+      "scan_start": 130,
+      "scan_start_candidate": 129,
+      "scan_end_candidate": 134
+    },
+    {
+      "id": 94,
+      "title": "Объ учрежденіи Тайныя Вечери",
+      "printed_start": 128,
+      "scan_start": 134,
+      "scan_start_candidate": 133,
+      "scan_end_candidate": 137
+    },
+    {
+      "id": 95,
+      "title": "О Іудѣ предателѣ",
+      "printed_start": 131,
+      "scan_start": 137,
+      "scan_start_candidate": 136,
+      "scan_end_candidate": 143
+    },
+    {
+      "id": 96,
+      "title": "Объ отверженіи Апостола Петра",
+      "printed_start": 137,
+      "scan_start": 143,
+      "scan_start_candidate": 142,
+      "scan_end_candidate": 147
+    },
+    {
+      "id": 97,
+      "title": "О страданіяхъ Іисуса Христа",
+      "printed_start": 141,
+      "scan_start": 147,
+      "scan_start_candidate": 146,
+      "scan_end_candidate": 153
+    },
+    {
+      "id": 98,
+      "title": "О смерти Спасителя",
+      "printed_start": 147,
+      "scan_start": 153,
+      "scan_start_candidate": 152,
+      "scan_end_candidate": 160
+    },
+    {
+      "id": 99,
+      "title": "О погребеніи Іисуса Христа",
+      "printed_start": 154,
+      "scan_start": 160,
+      "scan_start_candidate": 159,
+      "scan_end_candidate": 164
+    },
+    {
+      "id": 100,
+      "title": "О воскресеніи Іисуса Христа",
+      "printed_start": 158,
+      "scan_start": 164,
+      "scan_start_candidate": 163,
+      "scan_end_candidate": 177
+    },
+    {
+      "id": 101,
+      "title": "О двунадесяти Апостолахъ",
+      "printed_start": 171,
+      "scan_start": 177,
+      "scan_start_candidate": 176,
+      "scan_end_candidate": 182
+    },
+    {
+      "id": 102,
+      "title": "О вознесеніи Іисуса Христа на небо",
+      "printed_start": 176,
+      "scan_start": 182,
+      "scan_start_candidate": 181,
+      "scan_end_candidate": 185
+    },
+    {
+      "id": 103,
+      "title": "О низпосланіи Духа Святаго",
+      "printed_start": 179,
+      "scan_start": 185,
+      "scan_start_candidate": 184,
+      "scan_end_candidate": 188
+    },
+    {
+      "id": 104,
+      "title": "О обращеніи Апостола Павла",
+      "printed_start": 182,
+      "scan_start": 188,
+      "scan_start_candidate": 187,
+      "scan_end_candidate": 196
+    }
+  ]
+}

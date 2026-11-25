@@ -390,5 +390,50 @@ export const german1768 = {
       "III. Was GOtt befohlen oder verboten hat, das muß man genau beobachten.\nDenn Loths Weib solte sich nicht umsehen, und wie sie solches dennoch that, so ward sie in eine Salz-Säule verwandelt."
     ],
     "reflection": "Daß GOtt die Frommen nicht vertilget mit den Bösen,\nDa kan der fromme Loth uns zum Exempel stehn;\nAch ja! GOtt weiß sie schon vorher zu erlösen,\nBevor er sein Gericht und Strafe läst ergehn;\nAuch ich will schlecht und recht in meinem Hause wohnen,\nWenn GOtt die Bösen straft, so wird er mich verschonen."
+  },
+  "10": {
+    "pages": [
+      66,
+      69,
+      70
+    ],
+    "printed": "24–26",
+    "latin": "Qui Sarae annosae sobolem promiserat, idem\nMactari puerum jusserat illo DEVS.\nHaec poterant Abrahae contraria dicta videri,\nFlectere sed certam non valuere fidem.\nSi me, teque DEVS pari ratione probaret,\nVix esset similis nostra futura fides.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 18,
+      "teachings": 3
+    },
+    "title": "Von Isaacs Opferung.",
+    "reference": "1. Mose XXII. Capitel.",
+    "narrative": "1. Abraham hatte mit der Sarah den einzigen Sohn Isaac gezeuget, 2. und GOtt hatte ihm die Verheissung gethan, daß in seinem Saamen alle Völcker auf Erden solten gesegnet werden. 3. Es bekam aber der liebe Mann den unverhoften Befehl von GOtt, daß er diesen Sohn der Verheissung schlachten und opfern solte. 4. Und solches that GOtt darum, daß er Abraham versuchen wolte, ob er ihm auch würde gehorsam seyn. 5. Abraham that, was ihm GOtt befohlen hatte, und reisete mit seinem Sohne nach dem Berge Moria. 6. Der Vater nahm das Feuer und das Messer in seine Hand; 7. der Sohn aber muste das Holz zum Opfer auf dem Rücken tragen. 8. Unterwegens fragte der Sohn den Vater, wo denn das Schaaf zum Opfer wäre? 9. Der Vater gab aber zur Antwort: GOtt hätte sich schon ein Schaaf ausersehen. 10. Wie sie an den Ort kamen, so bauete Abraham einen Altar, und legte das Holz darauf. 11. Hernach band er seinen Sohn, und legte denselben auf das Holz. 12. Als er nun das Messer schon in der Hand hatte, und den Knaben schlachten wolte, so rief der Engel des HErrn vom Himmel: Abraham! Abraham! 13. Er sagte darauf: Hie bin ich. 14. Der Engel sprach weiter zu ihm: Lege deine Hand nicht an den Knaben; denn nun weiß ich, daß du GOtt fürchtest. 15. Wie nun Abraham hinter sich sahe, so ward er einen Widder gewahr, der mit seinen Hörnern in einer Hecke hieng. 16. Diesen Widder nahm Abraham, und opferte denselben an statt seines Sohns. 17. Dieser Gehorsam gefiel GOtt aus der massen wohl, 18. und Abraham erhielt nochmals den Seegen, daß in seinem Saamen alle Völcker auf Erden solten gesegnet werden.",
+    "questions": [
+      "Wie viel Kinder hatte denn Abraham von der Sarah?",
+      "Was hatte Abraham vor eine Verheissung von diesem Sohne?",
+      "Aber was bekam er vor einen Befehl von GOtt?",
+      "Warum that denn das der liebe GOtt?",
+      "Wie bezeugte sich Abraham darbey?",
+      "Was trug der Vater?",
+      "Was muste der Sohn tragen?",
+      "Was fragte Isaac unterwegens?",
+      "Was bekam er zur Antwort?",
+      "Was machte Abraham für Anstalten zum Opfer?",
+      "Was nahm er mit dem Sohne vor?",
+      "Was trug sich darbey zu?",
+      "Was gab Abraham dem Engel zur Antwort?",
+      "Was sagte der Engel weiter?",
+      "Was sahe denn Abraham in der Hecke?",
+      "Was machte er mit dem Widder?",
+      "Wie gefiel dieser Gehorsam dem lieben GOtt?",
+      "Was erhielt Abraham vor eine Verheissung?"
+    ],
+    "teachings": [
+      "I. GOtt der HErr probirte den Abraham, ob er auch würde gehorsam seyn.\nDaraus siehet man, daß GOtt seine Glaubigen bisweilen in Versuchung führet.",
+      "II. GOtt der HErr sandte einen Engel, der Abraham von dem Blutvergiessen abhalten muste.\nDaraus siehet man, daß GOtt die Seinigen auch wieder aus der Versuchung erlöset.",
+      "II. GOtt der HErr gab Abraham aufs neue den Seegen.\nDaraus siehet man, daß den Glaubigen alle Versuchungen zum Besten dienen müssen."
+    ],
+    "reflection": "GOtt sprach: In Isaac will ich die Völcker segnen /\nUnd sprach doch auch zugleich? Geh / schlachte deinen Sohn!\nNichts härters konte wohl dem Abraham begegnen:\nUnd dennoch hielt er aus / und trug den Sieg davon.\nAch wenn GOtt mich und dich so in Versuchung führte /\nWer weiß / ob er bey uns dergleichen Glauben spührte!",
+    "editorial_note": "The third teaching is numbered II in the Heidelberg printing; retained as printed. Latin second line requires independent collation."
   }
 };

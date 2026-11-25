@@ -409,5 +409,51 @@ export const englishFromGerman = {
       "III. What God has commanded or forbidden must be observed exactly.\nFor Lot's wife was not to look back, and when she did so nevertheless, she was turned into a pillar of salt."
     ],
     "reflection": "That God does not destroy the godly with the wicked,\nGodly Lot can stand before us as an example;\nAh yes! God knows how to deliver them beforehand,\nBefore he lets his judgment and punishment take effect;\nI too will dwell honestly and uprightly in my house,\nWhen God punishes the wicked, he will spare me."
+  },
+  "10": {
+    "pages": [
+      66,
+      69,
+      70
+    ],
+    "printed": "24–26",
+    "latin": "Qui Sarae annosae sobolem promiserat, idem\nMactari puerum jusserat illo DEVS.\nHaec poterant Abrahae contraria dicta videri,\nFlectere sed certam non valuere fidem.\nSi me, teque DEVS pari ratione probaret,\nVix esset similis nostra futura fides.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 18,
+      "teachings": 3
+    },
+    "title": "On the Sacrifice of Isaac",
+    "reference": "Genesis, chapter XXII.",
+    "kind": "new-translation-from-transcribed-german",
+    "narrative": "1. Abraham had begotten with Sarah his only son Isaac, 2. and God had given him the promise that in his seed all the peoples on earth should be blessed. 3. But the dear man received the unexpected command from God that he should slay and sacrifice this son of the promise. 4. God did this because he wished to test Abraham, to see whether he would indeed be obedient to him. 5. Abraham did what God had commanded him, and traveled with his son to Mount Moriah. 6. The father took the fire and the knife in his hand; 7. but the son had to carry the wood for the sacrifice on his back. 8. On the way the son asked the father where the sheep for the sacrifice was. 9. The father answered that God had already chosen a sheep for himself. 10. When they came to the place, Abraham built an altar and laid the wood upon it. 11. Then he bound his son and laid him upon the wood. 12. When he already had the knife in his hand and was about to slay the boy, the angel of the Lord called from heaven: Abraham! Abraham! 13. He answered: Here I am. 14. The angel said further to him: Do not lay your hand upon the boy; for now I know that you fear God. 15. When Abraham looked behind him, he caught sight of a ram hanging by its horns in a thicket. 16. Abraham took this ram and sacrificed it in place of his son. 17. This obedience pleased God exceedingly well, 18. and Abraham received once more the blessing that in his seed all the peoples on earth should be blessed.",
+    "questions": [
+      "How many children did Abraham have by Sarah?",
+      "What promise had Abraham received concerning this son?",
+      "But what command did he receive from God?",
+      "Why did the dear God do this?",
+      "How did Abraham conduct himself in this matter?",
+      "What did the father carry?",
+      "What did the son have to carry?",
+      "What did Isaac ask on the way?",
+      "What answer did he receive?",
+      "What preparations did Abraham make for the sacrifice?",
+      "What did he do with his son?",
+      "What happened in the course of this?",
+      "What answer did Abraham give the angel?",
+      "What did the angel say further?",
+      "What did Abraham see in the thicket?",
+      "What did he do with the ram?",
+      "How did this obedience please the dear God?",
+      "What promise did Abraham receive?"
+    ],
+    "teachings": [
+      "I. The Lord God tested Abraham to see whether he would indeed be obedient.\nFrom this we see that God sometimes leads his believers into trial.",
+      "II. The Lord God sent an angel who had to restrain Abraham from shedding blood.\nFrom this we see that God also delivers his own from trial again.",
+      "II. The Lord God gave Abraham the blessing anew.\nFrom this we see that all trials must serve for the good of believers."
+    ],
+    "reflection": "God said: In Isaac I will bless the peoples,\nAnd yet said at the same time: Go, slay your son!\nNothing harder could well have befallen Abraham;\nAnd nevertheless he held out and carried off the victory.\nAh, if God were to lead me and you into such a trial,\nWho knows whether he would find such faith in us?",
+    "editorial_note": "Repeated numeral II follows the printed German witness."
   }
 };
