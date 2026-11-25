@@ -1801,5 +1801,50 @@ export const german1768 = {
       "III. GOtt hat die Hertzen der Könige in seiner Gewalt, und lenket sie wie er will.\nDas siehet man wohl an Absalom, der verwarf den weltklugen Rath Ahitophels, und das geschah nicht ohngefehr, sondern der HErr hatte es also geschickt."
     ],
     "reflection": "Kommt Kinder / kommt / ich will euch einen Eichbaum zeigen /\nKommt her / und seht / er trägt gar eine seltne Frucht:\nEin Königlicher Printz hängt an den grünen Zweigen!\nSo läuft es endlich ab / wenn GOtt ein Kind verflucht.\nBetrachtet ihn recht wohl / er wird euch deutlich lehren /\nDaß ihr den Vater solt und auch die Mutter ehren."
+  },
+  "34": {
+    "pages": [
+      206,
+      209,
+      210
+    ],
+    "printed": "116–118",
+    "latin": "Mente jubet David populum numerare superba,\nSed census summo displicet ille Deo,\nEx tribus ergo malis datur optio libera Regi,\nHinc decies septem millia peste cadunt.\nNe, cum delirant Reges, plectantur Achivi,\nRex Regum, Reges, quaesumus! ipse regas!",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 18,
+      "teachings": 3
+    },
+    "editorial_note": "German witness gives seven years of dearth; Russian witness gives three years of famine. Russian witness omits the explicit reference to Satan and has 17 questions.",
+    "title": "Von der Pestilenz zu Davids Zeiten.",
+    "reference": "2. Sam. XXIV. Capitel.",
+    "narrative": "1. Der König David ließ aus Hochmuth das Volck zählen. 2. Dazu reitzte ihn der Teufel durch GOttes Verhängniß. 3. Der Feld-Hauptmann Joab widerrieth es zwar: 4. Aber der König blieb bey seinem Vorsatze. 5. Wie nun das Volck war gezählet worden, so schlug David gleich das Hertze. 6. Deswegen sprach er gleich zum HErrn: Ich habe schwerlich gesündiget, daß ich das gethan habe. 7. Darauf kam der Prophet Gad zu ihm, und sagte: Dreyerley bring ich dir, erwähle dir eins, das ich dir thue. 8. Das erste war eine siebenjährige Theurung: 9. Das andere, drey Monath Flucht vor seinen Feinden: 10. Und das dritte, eine drey-tägige Pestilenz. 11. Wie David das hörte, so ward ihm sehr angst um das Hertze. 12. Endlich sprach er: Laßt uns in die Hände des HErrn fallen, denn seine Barmhertzigkeit ist groß. 13. Da ließ der HErr eine Pestilenz kommen, daß in drey Tagen siebenzig tausend Menschen im Lande sturben. 14. Als nun der Engel seine Hand auch über Jerusalem reckte, da reuete es den HErrn, 15. und sprach zu dem Engel: Es ist genug, laß nun deine Hand abe. 16. Der Engel aber stund bey der Tenne Arafna, daß ihn David sehen konte. 17. Da sprach David zum HErrn: Siehe ich habe gesündiget, was haben diese Schafe gethan? 18. Darauf ward der Plage gewehret, und David bauete einen Altar auf die Tenne, darauf der Engel gestanden hatte.",
+    "questions": [
+      "Was nahm David vor?",
+      "Was reitzte den König dazu?",
+      "Wer wiederrieth solches?",
+      "Ward Joab auch gehöret?",
+      "Was trug sich zu, wie das Volck gezählet war?",
+      "Wie sagte David?",
+      "Was sagte der Prophet Gad zu David?",
+      "Welches war das erste?",
+      "Welches war das andere?",
+      "Welches war das dritte?",
+      "Wie ward David dabey zu muthe?",
+      "Was erwählte sich David?",
+      "Wie viel sturben im Lande an der Pest?",
+      "Kam die Pest nicht nach Jerusalem?",
+      "Wie sagte GOtt zum Engel?",
+      "Wo stund der Engel?",
+      "Wie sagte David zum HErrn?",
+      "Wie lief es endlich mit dieser Land-Plage ab?"
+    ],
+    "teachings": [
+      "I. Die bösen Gedancken kommen von den Eingebungen des Teufels her.\nDenn hier stehet ausdrücklich, daß der Satan den König David gereitzet hat.",
+      "II. Einen guten Rath soll man nicht verachten.\nHätte David seinem Feld-Hauptmann gefolget, so hätten nicht siebenzig tausend Menschen um seinet willen sterben müssen.",
+      "III. Wenn die Sünde begangen ist, so wachet das Gewissen auf.\nWie David das Volck hatte zählen lassen, so schlug ihm das Hertz."
+    ],
+    "reflection": "Der König David läßt das Volck aus Hochmuth zählen /\nWomit der grosse GOtt gar nicht zufrieden ist;\nAus dreyen Uebeln muß sich David eins erwählen /\nDrauf folgte eine Pest / die siebzig tausend frißt.\nO darum laßt uns ja vor Obrigkeiten bitten /\nDaß sie der liebe GOtt vor Thorheit mag behüten."
   }
 };

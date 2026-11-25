@@ -1841,5 +1841,51 @@ export const englishFromGerman = {
       "III. God has the hearts of kings in his power and directs them as he wills.\nThis is clearly seen in Absalom, who rejected the worldly-wise counsel of Ahithophel; and this happened not by chance, but the Lord had so ordained it."
     ],
     "reflection": "Come, children, come, I will show you an oak tree;\nCome here and see, it bears a very strange fruit:\nA royal prince hangs on the green branches!\nSo it finally ends when God curses a child.\nConsider him well; he will clearly teach you\nThat you should honor your father and your mother."
+  },
+  "34": {
+    "pages": [
+      206,
+      209,
+      210
+    ],
+    "printed": "116–118",
+    "latin": "Mente jubet David populum numerare superba,\nSed census summo displicet ille Deo,\nEx tribus ergo malis datur optio libera Regi,\nHinc decies septem millia peste cadunt.\nNe, cum delirant Reges, plectantur Achivi,\nRex Regum, Reges, quaesumus! ipse regas!",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 18,
+      "teachings": 3
+    },
+    "editorial_note": "German witness gives seven years of dearth; Russian witness gives three years of famine. Russian witness omits the explicit reference to Satan and has 17 questions.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Pestilence in David's Time.",
+    "reference": "2 Samuel XXIV.",
+    "narrative": "1. King David, out of pride, had the people numbered. 2. The devil incited him to this by God's permission. 3. The commander Joab indeed advised against it; 4. but the king adhered to his purpose. 5. When the people had been numbered, David's heart immediately smote him. 6. Therefore he said at once to the Lord: I have sinned grievously in that I have done this. 7. Thereupon the prophet Gad came to him and said: Three things I bring you; choose one that I may do to you. 8. The first was seven years of dearth; 9. the second, three months of flight before his enemies; 10. and the third, a pestilence of three days. 11. When David heard this, his heart was greatly troubled. 12. At last he said: Let us fall into the hands of the Lord, for his mercy is great. 13. Then the Lord sent a pestilence, so that in three days seventy thousand people in the land died. 14. When the angel stretched out his hand over Jerusalem also, the Lord relented, 15. and said to the angel: It is enough; now withdraw your hand. 16. But the angel stood by the threshing floor of Araunah, so that David could see him. 17. Then David said to the Lord: Behold, I have sinned; what have these sheep done? 18. Thereupon the plague was stayed, and David built an altar upon the threshing floor where the angel had stood.",
+    "questions": [
+      "What did David undertake?",
+      "What incited the king to it?",
+      "Who advised against it?",
+      "Was Joab listened to?",
+      "What happened when the people had been numbered?",
+      "What did David say?",
+      "What did the prophet Gad say to David?",
+      "What was the first thing?",
+      "What was the second?",
+      "What was the third?",
+      "How did David feel about it?",
+      "What did David choose?",
+      "How many died of the plague in the land?",
+      "Did the plague not come to Jerusalem?",
+      "What did God say to the angel?",
+      "Where did the angel stand?",
+      "What did David say to the Lord?",
+      "How did this plague upon the land finally end?"
+    ],
+    "teachings": [
+      "I. Evil thoughts come from the suggestions of the devil.\nFor here it is expressly stated that Satan incited King David.",
+      "II. One should not despise good counsel.\nHad David followed his commander, seventy thousand people would not have had to die on his account.",
+      "III. When sin has been committed, the conscience awakens.\nWhen David had had the people numbered, his heart smote him."
+    ],
+    "reflection": "King David has the people numbered out of pride,\nWith which the great God is not at all pleased;\nFrom three evils David must choose one,\nThere followed a plague that devours seventy thousand.\nO therefore let us indeed pray for those in authority,\nThat the dear God may preserve them from folly."
   }
 };
