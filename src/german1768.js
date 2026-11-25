@@ -2670,5 +2670,68 @@ export const german1768 = {
       "III. Tobias bat um ein seliges Ende; GOtt aber gab ihm sein Gesichte wieder.\nSo machet es GOtt, wenn wir um zeitliche Güter bitten. Ein gläubiges Gebet wird allezeit erhöret; wir kriegen aber nicht allemal, was wir bitten, sondern GOtt giebet uns nach seiner Weisheit und Liebe offt was anders, und auch wohl bessers davor."
     ],
     "reflection": "Tobiä Creutz war groß! doch blieb er unbeweglich /\nUnd seine Gottesfurcht war keine Heucheley /\nMein GOtt! ich bitte dich zwar im Gebete täglich /\nDaß ich Tobiä nicht im Elend ähnlich sey:\nDoch willst du durch das Creutz auch meinen Glauben üben /\nSo will ich unverrückt dich auch in Trübsal lieben."
+  },
+  "49": {
+    "pages": [
+      292,
+      295,
+      296,
+      297,
+      298
+    ],
+    "printed": "172–176",
+    "latin": "Illis Angelici se gaudent jungere cœtus,\nSicut Tobias, qui pia corda gerunt.\nContra delectant si quos consortia prava,\nAssiduus socius spiritus ater adest.\nErgo virtutis nunquam de tramite flectam,\nPossit ut Angelicus me comitare chorus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "title": "Von der Reise des jungen Tobiä.",
+    "reference": "Buch Tobiä IV. V. und VI. Capitel.",
+    "narrative": "1. Der alte Tobias hatte zehn Pfund Silber weggeliehen. 2. Sein Schuldner war ein Mann in der Stadt Rages, mit Namen Gabel, 3. der hat ihm eine Handschrift darüber gegeben. 4. Zu diesem Gabel solte der junge Tobias eine Reise thun, und die Schuld einfodern. 5. Er sahe sich deswegen nach einem guten Reise-Gefährten um. 6. Er fand auch gleich einen jungen Gesellen, der eben Reisefertig war. 7. Dieses war nun der Engel Raphael, welchen der liebe GOtt deswegen vom Himmel herab gesendet hatte. 8. Aber das wuste Tobias nicht, weil der Engel die Gestalt eines Menschen an sich genommen hatte. 9. Der junge Tobias redte den jungen Gesellen an, und fragte denselben, ob er nicht den Weg nach der Stadt Rages wüste? 10. Der Engel sagte gleich, er wäre gar oft daselbst gewesen, und der Wirth, bey dem er zu herbergen gewohnet wäre, hiesse Gabel. 11. Das gefiel dem jungen Tobiä aus der massen wohl, weil das eben der Gabel war, von dem er das Geld empfangen solte: 12. Deswegen gab er alsobald seinem alten Vater Nachricht davon. 13. Der Engel grüßte den alten Tobiam mit diesen Worten: GOtt gebe dir Freude! 14. Der blinde Mann gab zur Antwort: Was soll ich vor Freude haben, der ich im Finstern sitzen muß, und das Tages-Licht des Himmels nicht sehen kan? 15. Der Engel aber gab ihm die tröstliche Antwort: Habe Gedult, GOtt wird dir bald helffen. 16. Wie nun alles zur Reise fertig war, so nahm der Sohn Abschied von Vater und Mutter. 17. Der Vater war gar gelassen, und gab ihm diesen Segen mit auf den Weg: Ziehet hin, GOtt sey mit euch auf dem Wege, und sein Engel begleite euch. 18. Hingegen die Mutter weinte die bittersten Thränen, daß sie den einzigen Trost ihres Alters solte von sich lassen. 19. Also reisete Tobias und sein Gefährte mit einander fort, und ein Hündlein aus dem Hause lief hinter ihnen her. 20. Als sie eine Tages-Reise zurück geleget hatten, so wolte sich der junge Tobias am Fluß Tigris die Füsse waschen. 21. Da fuhr ein grosser Fisch aus dem Wasser heraus, und wolte ihn verschlingen. 22. Tobias rufte seinen Gefährten, und schrie laut: O HErr, er will mich fressen! 23. Der Engel sprach, er solte den Fisch nur bey den Floß-Federn fassen, und heraus ziehen. 24. Das that Tobias, und der Fisch zappelte da auf dem Lande vor seinen Füssen. 25. Der Engel sagte weiter, er solte den Fisch von einander hauen, und solte drey Stücke davon behalten, nemlich das Herz, die Leber und die Galle. 26. Tobias wolte wissen, wozu diese Dinge gut wären? 27. und bekam zur Antwort: Sie wären gut die Gespenster zu vertreiben, und den Staar an den Augen zu curiren. 28. Wie die Reise bald zu Ende war, so fieng Tobias an zu sorgen, wo sie das Quartier nehmen solten, 29. Aber der Engel sprach zu ihm: Es ist ein Mann in der Stadt, mit Namen Raguel, der hat eine einzige Tochter, die heist Sara: Dir ist alle sein Gut bescheret, und du wirst die Tochter nehmen. 30. Tobias sagte: Er hätte gehöret, daß diese Sara schon siebenmal eine Braut gewesen wäre, und daß der Ehe-Teuffel Asmodi alle ihre Männer in der ersten Nacht erwürget hätte. 31. Aber der Engel gab ihm erstlich die Nachricht, über was vor Eheleute der Teufel Gewalt hätte, 32. nemlich über diejenigen, die GOtt verachteten, und nur um Unzucht Weiber nähmen, wie das tumme Vieh. 33. Darnach gab er ihm einen guten Rath, wie er den Ehe-Teufel vertreiben solte: 34. Nemlich, er solte die drey ersten Tage seines angetretenen Ehestandes mit Gebäte zubringen; 35. und darnach solte er die Leber von dem Fische auf die glüende Kohlen legen, so würde der Teufel weiter keine Gewalt über ihn haben.",
+    "questions": [
+      "Was hatte der alte Tobias vor Geld ausstehen?",
+      "Wie hieß denn sein Schuldner?",
+      "Was hatte Tobias vor eine Versicherung?",
+      "Wer solte das Geld abholen?",
+      "Wornach sahe sich der junge Tobias um?",
+      "Was fand er vor einen Gefährten?",
+      "Wer war denn dieser junge Geselle?",
+      "Wuste denn das Tobias?",
+      "Wornach fragte der junge Tobias?",
+      "Was gab der Engel zur Antwort?",
+      "Wie stund Tobiä die Antwort an?",
+      "Wem gab er davon Nachricht?",
+      "Wie grüßte der Engel den alten Tobiam?",
+      "Was gab der blinde Mann zur Antwort?",
+      "Was bekam er von dem Engel vor einen Trost?",
+      "Von wem nahm der junge Tobias Abschied?",
+      "Was gab ihm der Vater vor einen Segen?",
+      "Aber wie führte sich die Mutter auf?",
+      "Wer lief denn hinter Tobiä her?",
+      "Was wolte der junge Tobias am Flusse Tigris machen?",
+      "Was fuhr denn aus dem Wasser heraus?",
+      "Was sagte Tobias zu seinem Gefährten?",
+      "Was gab ihm der Engel vor einen Rath?",
+      "Wie liefs denn ab?",
+      "Was solte Tobias mit dem Fische machen?",
+      "Wornach fragte Tobias?",
+      "Was gab ihm der Engel vor Nachricht?",
+      "Wovor sorgte darnach Tobias?",
+      "Was offenbarte ihm denn der Engel?",
+      "Aber was hatte Tobias vor Bedenken dabey?",
+      "Was führte darauf der Engel vor einen Discurs?",
+      "Über was vor Eheleute hatte denn der Teufel Gewalt?",
+      "Aber was gab ihm der Engel sonst vor einen Rath?",
+      "Wie solte denn Tobias seinen Ehestand anfangen?",
+      "Aber wie solte er den Ehe-Teufel vertreiben?"
+    ],
+    "teachings": [
+      "I. Der Engel Raphael sahe wie ein junger Geselle aus.\nDaraus siehet man, daß die Engel, welche vor sich selbst keine Cörper haben, auf eine Zeit eine menschliche Gestalt an sich nehmen können.",
+      "II. Der alte Tobias wünschte seinem Sohne alles Gute auf den Weg.\nDas klingt besser, als wenn boshafte Eltern bisweilen im Zorn ihren Kindern alles Böse an den Hals wünschen.",
+      "III. Der blinde Tobias sagte, was soll ich vor Freude haben, der ich im Finstern sitzen muß?\nDieses sollen wir bedencken, und GOtt täglich danken, daß er uns Augen und Ohren, Vernunfft und alle Sinne gegeben hat, und noch erhält."
+    ],
+    "reflection": "Die Engel halten sich zu solchen Menschen Kindern /\nDie wie Tobias fromm und gottesfürchtig seyn:\nWer aber gerne sitzt bey Spöttern und bey Sündern /\nZu dessen Compagnie stellt sich der Teufel ein.\nDrum will ich Lebenslang auf GOttes Wegen gehen /\nAuf daß die Engel auch mir stets zur Seite stehen."
   }
 };

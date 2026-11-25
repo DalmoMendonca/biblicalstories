@@ -2725,5 +2725,69 @@ export const englishFromGerman = {
       "III. Tobias prayed for a blessed end, but God restored his sight to him.\nThus God acts when we ask for temporal goods. A believing prayer is always heard; but we do not always receive what we ask for. Rather, according to his wisdom and love, God often gives us something different, and indeed something better in its place."
     ],
     "reflection": "Tobias' cross was great, yet he remained steadfast,\nAnd his fear of God was no hypocrisy.\nMy God! I ask you daily in my prayer\nThat I may not resemble Tobias in misery;\nYet if through the cross you would also exercise my faith,\nI will love you steadfastly even in tribulation."
+  },
+  "49": {
+    "pages": [
+      292,
+      295,
+      296,
+      297,
+      298
+    ],
+    "printed": "172–176",
+    "latin": "Illis Angelici se gaudent jungere cœtus,\nSicut Tobias, qui pia corda gerunt.\nContra delectant si quos consortia prava,\nAssiduus socius spiritus ater adest.\nErgo virtutis nunquam de tramite flectam,\nPossit ut Angelicus me comitare chorus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Journey of the Young Tobias.",
+    "reference": "Book of Tobit, chapters IV, V and VI.",
+    "narrative": "1. The elder Tobias had lent ten pounds of silver. 2. His debtor was a man in the city of Rages named Gabel, 3. who had given him a written acknowledgment of it. 4. The young Tobias was to make a journey to this Gabel and collect the debt. 5. He therefore looked about for a good traveling companion. 6. He immediately found a young man who was ready to travel. 7. This was the angel Raphael, whom the dear God had sent down from heaven for this purpose. 8. But Tobias did not know this, because the angel had assumed the form of a human being. 9. The young Tobias addressed the young man and asked him whether he knew the way to the city of Rages. 10. The angel said at once that he had been there very often, and that the host with whom he was accustomed to lodge was named Gabel. 11. This pleased the young Tobias exceedingly, because that was the very Gabel from whom he was to receive the money. 12. He therefore immediately informed his old father of it. 13. The angel greeted the elder Tobias with these words: God give you joy! 14. The blind man answered: What joy shall I have, who must sit in darkness and cannot see the daylight of heaven? 15. But the angel gave him this comforting answer: Have patience; God will soon help you. 16. When everything was ready for the journey, the son took leave of his father and mother. 17. The father was quite composed and gave him this blessing for the journey: Go forth, God be with you on the way, and may his angel accompany you. 18. The mother, on the other hand, wept the bitterest tears at having to part with the only comfort of her old age. 19. Thus Tobias and his companion traveled on together, and a little dog from the house ran after them. 20. After they had completed a day's journey, the young Tobias wished to wash his feet in the river Tigris. 21. Then a great fish darted out of the water and would have swallowed him. 22. Tobias called to his companion and cried aloud: O Lord, it will devour me! 23. The angel said that he should simply seize the fish by its fins and pull it out. 24. Tobias did so, and the fish floundered upon the land at his feet. 25. The angel further said that he should cut the fish apart and keep three parts of it, namely the heart, the liver and the gall. 26. Tobias wished to know what these things were good for, 27. and received the answer that they were good for driving away evil spirits and curing cataracts of the eyes. 28. When the journey was nearly at an end, Tobias began to worry about where they should take lodging. 29. But the angel said to him: There is a man in the city named Raguel, who has an only daughter named Sarah. All his property is destined for you, and you will take the daughter in marriage. 30. Tobias said that he had heard that Sarah had already been a bride seven times, and that Asmodeus, the demon of marriage, had strangled all her husbands on the first night. 31. But the angel first informed him over what kind of married people the devil had power, 32. namely those who despised God and took wives only for lewdness, like dumb cattle. 33. Afterwards he gave him good advice as to how he should drive away the demon of marriage: 34. namely, he should spend the first three days of his married state in prayer; 35. and afterwards he should lay the liver of the fish upon glowing coals, and then the devil would have no further power over him.",
+    "questions": [
+      "What money was owed to the elder Tobias?",
+      "What was his debtor's name?",
+      "What security did Tobias have?",
+      "Who was to fetch the money?",
+      "What did the young Tobias look about for?",
+      "What companion did he find?",
+      "Who then was this young man?",
+      "Did Tobias know this?",
+      "What did the young Tobias ask?",
+      "What answer did the angel give?",
+      "How did Tobias like the answer?",
+      "Whom did he inform of it?",
+      "How did the angel greet the elder Tobias?",
+      "What answer did the blind man give?",
+      "What comfort did he receive from the angel?",
+      "Of whom did the young Tobias take leave?",
+      "What blessing did his father give him?",
+      "But how did his mother conduct herself?",
+      "Who ran after Tobias?",
+      "What did the young Tobias wish to do at the river Tigris?",
+      "What darted out of the water?",
+      "What did Tobias say to his companion?",
+      "What advice did the angel give him?",
+      "How did it turn out?",
+      "What was Tobias to do with the fish?",
+      "What did Tobias ask about?",
+      "What information did the angel give him?",
+      "What did Tobias worry about afterwards?",
+      "What did the angel reveal to him?",
+      "But what misgivings did Tobias have about it?",
+      "What discourse did the angel then deliver?",
+      "Over what kind of married people did the devil have power?",
+      "But what other advice did the angel give him?",
+      "How was Tobias to begin his married life?",
+      "But how was he to drive away the demon of marriage?"
+    ],
+    "teachings": [
+      "I. The angel Raphael looked like a young man.\nFrom this one sees that angels, who in themselves have no bodies, can assume a human form for a time.",
+      "II. The elder Tobias wished his son every good thing upon his journey.\nThis sounds better than when wicked parents sometimes in anger wish all manner of evil upon their children.",
+      "III. The blind Tobias said: What joy shall I have, who must sit in darkness?\nWe should consider this, and thank God daily that he has given us eyes and ears, reason and all our senses, and still preserves them."
+    ],
+    "reflection": "The angels keep company with such children of men\nAs are godly and God-fearing like Tobias;\nBut whoever gladly sits among scoffers and sinners,\nThe devil joins his company.\nTherefore I will walk in God's ways all my life,\nSo that the angels too may always stand beside me."
   }
 };
