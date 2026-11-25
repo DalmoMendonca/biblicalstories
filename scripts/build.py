@@ -46,20 +46,14 @@ for i, story in enumerate(archive["images"], 1):
 for directory in ("data", "art", "folios", "engravings"):
     shutil.copytree(PUBLIC / directory, DIST / directory)
 
-text_root=PUBLIC/"texts"
-if text_root.exists():
-    all_texts=sorted(text_root.glob("*.json"))
-    if len(all_texts) not in (0,104):
-        raise SystemExit(f"Refusing partial publication: {len(all_texts)}/104 trilingual chapters.")
-    for path in all_texts:
-        data=json.loads(path.read_text(encoding="utf-8"))
-        if any(not isinstance(data.get(lang,{}).get("text"),str) or not data[lang]["text"].strip()
-               for lang in ("de","en","ru")):
-            raise ValueError(f"Incomplete three-language original-source text: {path}")
-    if len(all_texts)==104:
-        subprocess.run(["python3",str(ROOT/"scripts"/"check_texts.py")],
-                       cwd=ROOT,check=True)
-    shutil.copytree(text_root,DIST/"texts")
+# Legacy public/texts files are rejected machine OCR/translation artifacts.
+# Keep them in repository history for reproducibility, but never ship them.
+audit_command=["python3",str(ROOT/"scripts"/"audit_corpus.py"),"--output",str(DIST/"data"/"corpus-audit.json")]
+if os.environ.get("COMPLETE_EDITION_RELEASE")=="1":
+    audit_command.append("--release")
+subprocess.run(audit_command,cwd=ROOT,check=True)
+commit=os.environ.get("COMMIT_REF") or os.environ.get("GITHUB_SHA") or ""
+(DIST/"data"/"build-receipt.json").write_text(json.dumps({"commit":commit,"coverage":"data/corpus-audit.json"})+"\\n","utf8")
 
 if BASE_PATH:
     index = (DIST / "index.html").read_text(encoding="utf-8")
