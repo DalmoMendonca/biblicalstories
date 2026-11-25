@@ -1,0 +1,15 @@
+{
+  "source": "https://www.e-rara.ch/zuz/download/ftpack/alto/24283792",
+  "status": "acquired",
+  "attempts": [],
+  "download_url": "https://www.e-rara.ch/zuz/download/ftpack/alto/24283792",
+  "content_type": "text/xml;charset=utf-8",
+  "bytes": 12198285,
+  "sha256": "9ce89b259d77fe10302e161d65e376ab7781fefc7035da123e1df7f3b7761325",
+  "xml_types": [
+    "alto",
+    "page",
+    "string",
+    "textline"
+  ]
+}

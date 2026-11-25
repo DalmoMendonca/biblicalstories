@@ -1,0 +1,2734 @@
+{
+  "required_sections": 1248,
+  "structured_sections_present": 24,
+  "independently_reviewed_sections": 0,
+  "counts": {
+    "de": {
+      "narrative": 3,
+      "questions": 3,
+      "teachings": 3,
+      "reflection": 3
+    },
+    "en": {
+      "narrative": 3,
+      "questions": 3,
+      "teachings": 3,
+      "reflection": 3
+    },
+    "ru": {
+      "narrative": 0,
+      "questions": 0,
+      "teachings": 0,
+      "reflection": 0
+    }
+  },
+  "german_ocr_indexed": 104,
+  "historical_english_narratives": 6,
+  "rows": [
+    {
+      "id": 1,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": true,
+      "de": {
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 2,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": true,
+      "de": {
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 3,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": true,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 4,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": true,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 5,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": true,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 6,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": true,
+      "de": {
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 7,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 8,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 9,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 10,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 11,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 12,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 13,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 14,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 15,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 16,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 17,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 18,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 19,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 20,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 21,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 22,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 23,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 24,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 25,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 26,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 27,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 28,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 29,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 30,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 31,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 32,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 33,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 34,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 35,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 36,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 37,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 38,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 39,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 40,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 41,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 42,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 43,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 44,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 45,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 46,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 47,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 48,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 49,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 50,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 51,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 52,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 53,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 54,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 55,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 56,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 57,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 58,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 59,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 60,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 61,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 62,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 63,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 64,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 65,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 66,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 67,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 68,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 69,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 70,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 71,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 72,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 73,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 74,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 75,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 76,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 77,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 78,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 79,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 80,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 81,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 82,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 83,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 84,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 85,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 86,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 87,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 88,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 89,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 90,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 91,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 92,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 93,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 94,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 95,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 96,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 97,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 98,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 99,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 100,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 101,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 102,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 103,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    },
+    {
+      "id": 104,
+      "german_library_ocr_available": true,
+      "historical_english_narrative": false,
+      "de": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "en": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      },
+      "ru": {
+        "narrative": false,
+        "questions": false,
+        "teachings": false,
+        "reflection": false,
+        "source_compared": false
+      }
+    }
+  ],
+  "note": "Section presence does not guarantee fidelity. OCR-only and historical narrative-only witnesses are excluded from structured completion."
+}
