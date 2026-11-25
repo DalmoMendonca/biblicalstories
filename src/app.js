@@ -149,6 +149,32 @@ function chapterContent(p){
   }
   return '<p class="source-absence">'+esc(messages().none)+'</p>';
 }
+let zurichCorpusPromise;
+function zurichCorpus(){
+  if(!zurichCorpusPromise){
+    zurichCorpusPromise=Promise.all([fetch("/data/zurich-chapters.json"),fetch("/data/german-ocr.txt")]).then(async ([index,raw])=>{
+      if(!index.ok||!raw.ok)throw Error("Historical source unavailable");
+      const [data,body]=await Promise.all([index.json(),raw.text()]);
+      if(data.records?.length!==104||data.records.some((r,i)=>r.id!==i+1||r.start<0||r.end>body.length||r.end<=r.start||!body.slice(r.start,r.end).startsWith(r.heading.split(" ").slice(0,2).join(" ")))) {
+        // The heading's display string can normalize whitespace; validate the exact
+        // boundaries below instead of comparing the normalized heading.
+        if(data.records?.length!==104||data.records.some((r,i)=>r.id!==i+1||r.start<0||r.end>body.length||r.end<=r.start))throw Error("Invalid historical text index");
+      }
+      return {data,body};
+    }).catch(e=>{zurichCorpusPromise=null;throw e});
+  }
+  return zurichCorpusPromise;
+}
+async function showZurichText(id){
+  const node=document.querySelector("#zurich-source-text");
+  if(!node||s.lang!=="de")return;
+  try{
+    const {data,body}=await zurichCorpus();
+    if(!node.isConnected||view()!=="story"||idParam()!==id||s.lang!=="de")return;
+    const r=data.records[id-1];
+    node.textContent=body.slice(r.start,r.end).trim();
+  }catch(e){if(node.isConnected)node.textContent="Der OCR-Text konnte nicht geladen werden.";}
+}
 function editionText(p){
   const m=messages();
   const archivalLink=s.lang==="en"?sourceEnglish:(s.lang==="ru"?sourceRussian1825[p.book==="old"?0:1]:sourceGerman);
@@ -157,6 +183,7 @@ function editionText(p){
   // facsimiles currently present in this archive. Always expose them directly.
   return '<div id="story-prose" aria-live="polite">'+chapterContent(p)+'</div>'
     +editionLink
+    +(s.lang==="de"?'<details class="source-facsimile"><summary>Zürich ca. 1775 · Historischer OCR-Text dieser Historie</summary><p class="source-heading">Unkorrigierter Bibliotheks-OCR-Text; Lesefehler und Druckartefakte möglich. <a href="https://doi.org/10.3931/e-rara-85573" target="_blank" rel="noopener">Originalausgabe ↗</a></p><div class="edition-prose" lang="de" id="zurich-source-text" style="white-space:pre-wrap;overflow-wrap:anywhere">Text wird geladen …</div></details>':'')
     +'<details class="source-facsimile" open><summary>'+esc(m.folio)+'</summary>'
     +'<p class="source-heading">Giessen 1768 · <a href="'+esc(p.plate_source)+'" target="_blank" rel="noopener">'+esc(m.original)+'</a></p>'
     +folios(p)+'</details>';
@@ -214,6 +241,7 @@ function renderStory(id){
     </nav>
   </div>`;
   loadChapter(id);
+  if(s.lang==="de")showZurichText(id);
 }
 function renderAbout() {
   main.innerHTML=`<section class="container about-page">
@@ -226,7 +254,7 @@ function renderAbout() {
   <li><strong>English</strong><span>Hamburg, 1765. Historic English translation. <a href="${sourceEnglish}" target="_blank" rel="noopener">British Library / Google Books ↗</a></span></li>
   <li><strong>Русский</strong><span>Saint Petersburg, 1815. Translation by Vasily Bogorodsky; edition associated with Dostoevsky. <a href="${sourceRussian1815}" target="_blank" rel="noopener">Library record ↗</a>. Moscow, 1825: <a href="${sourceRussian1825[0]}" target="_blank" rel="noopener">Old Testament ↗</a> · <a href="${sourceRussian1825[1]}" target="_blank" rel="noopener">New Testament ↗</a> digitized original-language volumes.</span></li>
   </ul>
-  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. German histories 1, 2 and 6 include the original questions, teachings and reflections, directly transcribed from Gießen 1768; the complete uncorrected Zürich library OCR is separately available. English histories 1–6 are directly transcribed from the Hamburg 1765 edition (narrative only; not independently proofread). Other historical English and Russian chapter texts are not yet available in this reader. Unverified machine translations are not displayed.</p>
+  <p class="short">The illustrations displayed here come from the Giessen edition of 1768, not the unverified Russian image set of 1815. Chapter titles in the English and Russian indexes are modern navigation labels, not purported transcriptions. German histories 1, 2 and 6 include the original questions, teachings and reflections, directly transcribed from Gießen 1768; all 104 histories also have individually indexed, uncorrected Zürich library OCR, separately labeled as a historical source rather than a proofread edition. English histories 1–6 are directly transcribed from the Hamburg 1765 edition (narrative only; not independently proofread). Other historical English and Russian chapter texts are not yet available in this reader. Unverified machine translations are not displayed.</p>
   <p class="short"><a href="https://github.com/DalmoMendonca/biblicalstories" target="_blank" rel="noopener">Source code and crop provenance ↗</a></p>
   </section>`;
 }
