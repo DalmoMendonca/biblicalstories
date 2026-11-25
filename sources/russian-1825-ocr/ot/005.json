@@ -1,0 +1,11 @@
+{
+  "page": 5,
+  "image": "public/russian-1825-pages/ot/005.webp",
+  "image_sha256": "6c1766a096d5be4c859c9bc8f4755cb620c22d512003fc6416dde8dcfa584b58",
+  "model_sha256": "cac59e7e4b8e29de87a1ab8c831c8abff5bfc4492f137adc3bd31ec9e8bf2a13",
+  "model": "https://github.com/AButon-8/iskra_ocr (Apache-2.0; pre-reform Russian; trained on Iskra 1900–1905)",
+  "text_sha256": "c0f53f78d8e4c6d2fde4e6578f259509e80d0c501059da940bede656c98141f9",
+  "tsv_sha256": "f4acc8926078da0493ef886d11af7cccdfd901ae546836f54c779c98602f4b72",
+  "characters": 86,
+  "status": "unreviewed historical OCR"
+}
