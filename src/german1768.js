@@ -1387,5 +1387,55 @@ export const german1768 = {
       "III. Sirach hat wohl recht gesagt: Wein und Weiber bethören die Menschen.\nDas wiederfuhr Simson, den brachte die liebkosende Delila um seine Stärcke, um seine Augen, und endlich um sein Leben."
     ],
     "reflection": "An Simson kan man sehn / wie sich die Wollust endet /\nUnd wie sie stürzen kan in Jammer und in Noth:\nErst wich die Krafft von ihm / darnach ward er geblendet /\nUnd endlich schlug das Haus ihn und die Feinde todt;\nDiß Beyspiel will ich mir stets zu Gemüthe ziehen /\nUnd alle Hurerey gleich als den Teufel fliehen."
+  },
+  "27": {
+    "pages": [
+      167,
+      168,
+      169,
+      170
+    ],
+    "printed": "89–92",
+    "latin": "Degeneres natos generavit presbyter Eli:\nIllorum Samuel facta nefanda videt;\nNec tamen exemplis ad devia ducitur illis,\nQuin rectam potius pergit inire viam.\nNon aliter fugiam consortia prava malorum,\nEt spes implebo, cum Samuele, patris.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    },
+    "title": "Von Samuel.",
+    "reference": "1. Sam. I. und II. Capitel.",
+    "narrative": "1. Elkana hatte zwey Weiber, eine hieß Hanna, und die andere Peninna. 2. Unter denselben war Peninna fruchtbar, und Hanna hingegen hatte keine Kinder. 3. Darüber ward Hanna verachtet, und wenn die andern bey den Opfern frölich waren, so weinte sie. 4. Ihr Mann Elkana tröstete sie zwar, und sagte: Bin ich dir denn nicht besser, denn viel Söhne? 5. Aber sie blieb betrübt, und that ein Gelübde, wenn ihr GOtt einen Sohn geben würde, so wolte sie denselben dem HErrn wieder geben. 6. Es saß aber der Priester Eli an der Thüre des Tempels, und sahe der Hanna zu, wie sie betete. 7. Weil sie nun den Mund nicht regte, sondern nur in ihrem Hertzen mit GOtt redete, so dachte der Priester, sie wäre trunken. 8. Deswegen sprach er zu ihr: Wie lange wilt du trunken seyn? laß den Wein von dir! 9. Hanna sprach: Mein Herr, ich bin ein betrübt Weib, und habe mein Hertz vor dem HErrn ausgeschüttet. 10. Eli sprach zu ihr: Gehe hin mit Frieden, der GOtt Israel wird dir geben die Bitte, die du von ihm gebeten hast. 11. Hanna gebahr darauf einen Sohn, und nennete denselben Samuel. 12. Als er nun entwöhnet war, so brachte sie das Kind zu dem Hohenpriester, und ließ ihn daselbst. 13. Sie sang auch dem HErrn einen schönen Lob-Gesang, daß er ihr Gebet erhöret hatte. 14. Wie er ein wenig heran wuchs, so ward er ein Diener vor dem HErrn. 15. Und wenn seine Mutter zum Opffer kam, so brachte sie ihm einen kleinen Rock mit. 16. Es war aber Samuel in diesem Hause nicht wohl aufgehoben. 17. Denn des Hohenpriesters Söhne waren böse Buben, die den kleinen Samuel gar leicht hätten verführen können. 18. Denn sie waren Schuld daran, daß die Leute das Speis-Opffer des HErrn lästerten. 19. Nemlich sie langten das beste Fleisch mit einem Kreuel, der drey Zacken hatte, aus den Fleisch-Töpffen heraus, und assen es selber. 20. Und wenn die Leute was dargegen sagten, so nahmen sie es mit Gewalt. 21. Ja sie schlieffen gar bey den Weibern, die an der Thür hüteten. 22. Aber Samuel kehrte sich daran nicht, sondern war angenehm bey GOtt und bey den Menschen. 23. Aus diesem Samuel ist darnach ein grosser Prophet des HErrn worden.",
+    "questions": [
+      "Was hatte Elkana vor zwey Weiber?",
+      "Was hatten sie vor Kinder?",
+      "Wie befand sich die Hanna darbey?",
+      "Wie ward sie von ihrem Manne getröstet?",
+      "Was that Hanna deswegen vor ein Gelübde?",
+      "Was trug sich mit dem Priester Eli zu?",
+      "Was hatte Eli vor Gedancken darbey?",
+      "Wie sagte der Priester zur Hanna?",
+      "Wie verantwortete sich Hanna?",
+      "Was gab ihr Eli vor einen Trost?",
+      "Was gebahr Hanna darauf vor einen Sohn?",
+      "Wo that sie das Kind hin?",
+      "Womit danckte sie dem lieben GOtt?",
+      "Was ward aus diesem Samuel?",
+      "Was brachte ihm die Mutter mit?",
+      "Wie befand sich Samuel in dem Hause des Priesters Eli?",
+      "Warum ward er darinnen nicht wohl aufgehoben?",
+      "Woran waren die Söhne Eli schuld?",
+      "Was thaten sie denn übels?",
+      "Aber litten es die Leute?",
+      "Was trieben sie sonst noch vor Leichtfertigkeit?",
+      "Ließ sich der kleine Samuel nicht auch verführen?",
+      "Was ward denn endlich aus diesem Samuel?"
+    ],
+    "teachings": [
+      "I. Man soll von seinem Nächsten nichts übels gedencken, wenn man nicht gewissen Grund hat.\nDarwider handelte der Priester Eli, der sahe die Hanna vor ein trunkenes Weib an, da sie doch eine andächtige Beterin war.",
+      "II. Wenn man GOtt dem HErrn ein Gelübde gethan hat, so soll mans auch erfüllen.\nDas that Hanna, die brachte ihren Sohn Samuel in das Haus des HErrn, wie sie dem HErrn gelobet hatte.",
+      "III. Durch böse Exempel muß man sich nicht verführen lassen.\nDiese Regel nahm Samuel in acht, und ärgerte sich nicht an den Kindern Eli."
+    ],
+    "reflection": "Der Priester Eli war ein Vater böser Kinder /\nDer kleine Samuel sah ihre Bosheit ein;\nAllein er trat wie sie / nicht auf den Weg der Sünder;\nEr lebte fromm / und ließ die Bösen böse seyn.\nSo will ich ebenfalls mich halten zu den Stillen /\nUnd meiner Eltern Wunsch / wie Samuel / erfüllen."
   }
 };

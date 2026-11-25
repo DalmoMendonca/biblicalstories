@@ -1420,5 +1420,56 @@ export const englishFromGerman = {
       "III. Sirach rightly said: Wine and women beguile men.\nThis befell Samson: the caressing Delilah deprived him of his strength, his eyes, and finally his life."
     ],
     "reflection": "In Samson one may see how lust comes to its end,\nAnd how it can plunge one into misery and distress:\nFirst his strength departed from him; afterward he was blinded,\nAnd finally the house struck him and his enemies dead;\nI will always call this example to mind,\nAnd flee all fornication just as I would the devil."
+  },
+  "27": {
+    "pages": [
+      167,
+      168,
+      169,
+      170
+    ],
+    "printed": "89–92",
+    "latin": "Degeneres natos generavit presbyter Eli:\nIllorum Samuel facta nefanda videt;\nNec tamen exemplis ad devia ducitur illis,\nQuin rectam potius pergit inire viam.\nNon aliter fugiam consortia prava malorum,\nEt spes implebo, cum Samuele, patris.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Samuel.",
+    "reference": "1 Samuel I and II.",
+    "narrative": "1. Elkanah had two wives, one named Hannah and the other Peninnah. 2. Of these, Peninnah was fruitful, whereas Hannah had no children. 3. Hannah was despised on this account, and when the others rejoiced at the sacrifices, she wept. 4. Her husband Elkanah comforted her, saying: Am I not better to you than many sons? 5. But she remained sorrowful and made a vow that if God gave her a son, she would give him back to the Lord. 6. Now Eli the priest sat at the door of the temple and watched Hannah as she prayed. 7. Because she did not move her mouth, but spoke with God only in her heart, the priest thought she was drunk. 8. Therefore he said to her: How long will you be drunk? Put away your wine! 9. Hannah said: My lord, I am a sorrowful woman and have poured out my heart before the Lord. 10. Eli said to her: Go in peace; the God of Israel will grant you the petition you have asked of him. 11. Hannah afterward bore a son and named him Samuel. 12. When he was weaned, she brought the child to the high priest and left him there. 13. She also sang a beautiful song of praise to the Lord because he had heard her prayer. 14. When he had grown a little, he became a servant before the Lord. 15. And when his mother came to the sacrifice, she brought him a little coat. 16. But Samuel was not well placed in this household. 17. For the high priest's sons were wicked boys who could very easily have led little Samuel astray. 18. For they were to blame for the people speaking ill of the Lord's offering. 19. Namely, they drew the best meat out of the flesh pots with a three-pronged fork and ate it themselves. 20. And when the people objected, they took it by force. 21. Indeed, they even slept with the women who kept watch at the door. 22. But Samuel paid no heed to this and was pleasing to God and to men. 23. This Samuel afterward became a great prophet of the Lord.",
+    "questions": [
+      "Who were Elkanah's two wives?",
+      "What children did they have?",
+      "How did Hannah fare in this?",
+      "How was she comforted by her husband?",
+      "What vow did Hannah therefore make?",
+      "What happened with Eli the priest?",
+      "What thoughts did Eli have about this?",
+      "What did the priest say to Hannah?",
+      "How did Hannah defend herself?",
+      "What consolation did Eli give her?",
+      "What son did Hannah afterward bear?",
+      "Where did she take the child?",
+      "How did she thank the dear God?",
+      "What became of this Samuel?",
+      "What did his mother bring him?",
+      "How did Samuel fare in the house of Eli the priest?",
+      "Why was he not well placed there?",
+      "For what were Eli's sons to blame?",
+      "What evil did they do?",
+      "But did the people tolerate it?",
+      "What other immoral conduct did they engage in?",
+      "Was little Samuel not also led astray?",
+      "What finally became of this Samuel?"
+    ],
+    "teachings": [
+      "I. One should think no evil of one's neighbor without certain grounds.\nEli the priest acted contrary to this when he regarded Hannah as a drunken woman, though she was a devout woman at prayer.",
+      "II. When one has made a vow to the Lord God, one should also fulfill it.\nHannah did this, bringing her son Samuel into the house of the Lord, as she had vowed to the Lord.",
+      "III. One must not allow oneself to be led astray by evil examples.\nSamuel observed this rule and was not led into sin by Eli's children."
+    ],
+    "reflection": "Eli the priest was a father of wicked children;\nLittle Samuel recognized their wickedness;\nBut he did not tread, as they did, the path of sinners;\nHe lived devoutly and let the wicked be wicked.\nSo I likewise will keep company with the quiet,\nAnd fulfill my parents' wish, as Samuel did."
   }
 };
