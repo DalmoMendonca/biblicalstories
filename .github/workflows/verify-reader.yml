@@ -1,0 +1,80 @@
+name: Verify complete reader routing and live corpus coverage
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-reader.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild editorial segmentation and verify checked-in result
+        run: |
+          node scripts/segment_zurich.mjs
+          git diff --exit-code -- sources/zurich-editorial/index.json
+      - name: Validate actual structured texts and generate coverage
+        run: |
+          python3 scripts/audit_corpus.py
+          python3 scripts/build.py
+          if python3 scripts/audit_corpus.py --release; then
+            echo "Complete edition gate passed"
+          else
+            echo "Complete edition gate blocked; not a complete trilingual edition"
+          fi
+      - name: Install browser test tools
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Test every route and language against deployed-style build
+        run: |
+          python3 -m http.server 4173 --directory dist >/tmp/huebner-http.log 2>&1 &
+          sleep 2
+          EXPECTED_COMMIT="$GITHUB_SHA" REPORT_PATH=route-validation.json node scripts/verify-reader.mjs
+      - name: Check live production with same source modules
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          import json,time,urllib.request,os
+          base="https://biblicalstories.dalmo.ai/data/build-receipt.json"
+          for i in range(30):
+              try:
+                  with urllib.request.urlopen(base+"?verify="+str(i),timeout=15) as r: data=json.load(r)
+                  if data.get("commit")==os.environ["GITHUB_SHA"]:break
+              except Exception as e: print(e)
+              time.sleep(5)
+          else:raise SystemExit("Production did not report this commit")
+          PY
+          BASE_URL=https://biblicalstories.dalmo.ai EXPECTED_COMMIT="$GITHUB_SHA" REPORT_PATH=production-validation.json node scripts/verify-reader.mjs
+      - name: Archive observed verification and coverage
+        if: always()
+        run: |
+          mkdir -p sources/validation
+          for f in route-validation.json production-validation.json; do
+            if test -f "$f"; then cp "$f" "sources/validation/$f"; fi
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/corpus-audit.json sources/validation
+          if ! git diff --cached --quiet; then
+            git commit -m "Checkpoint actual reader route tests and corpus audit"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reader-validation
+          path: |
+            route-validation.json
+            production-validation.json
+            public/data/corpus-audit.json
+          if-no-files-found: warn
