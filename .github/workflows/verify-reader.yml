@@ -24,6 +24,8 @@ jobs:
           python3 scripts/align_zurich_geometry.py
           git diff --exit-code -- sources/zurich-editorial/geometry
           node --test tests/content.test.mjs
+      - name: Stage all Russian historical OCR pages as checksum-verified editorial packets
+        run: python3 scripts/stage_russian_editorial.py
       - name: Validate actual structured texts and generate coverage
         run: |
           python3 scripts/audit_corpus.py
@@ -66,7 +68,7 @@ jobs:
           done
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sources/validation public/data/corpus-audit.json
+          git add sources/validation public/data/corpus-audit.json sources/russian-editorial
           cp public/data/corpus-audit.json sources/validation/corpus-audit-at-tested-commit.json
           git add sources/validation/corpus-audit-at-tested-commit.json
           if ! git diff --cached --quiet; then
@@ -82,4 +84,5 @@ jobs:
             route-validation.json
             production-validation.json
             public/data/corpus-audit.json
+            sources/russian-editorial/index.json
           if-no-files-found: warn
