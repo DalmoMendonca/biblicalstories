@@ -595,5 +595,66 @@ export const german1768 = {
     ],
     "reflection": "Was dorten Jacob sah / erscheint uns zwar nicht weiter /\nDoch zeigt mir Gottes Wort dergleichen in der That;\nIch sehe vor mir stehn auch eine solche Leiter /\nDie bis gen Himmel reicht / und nur drey Stufen hat.\nDie sind des Vaters Huld; HErr JEsu! deine Schmerzen;\nUnd HErr GOtt Heilger Geist! dein Glaub in meinem Herzen.",
     "editorial_note": "Latin line 1 and final inflection require independent collation."
+  },
+  "14": {
+    "pages": [
+      86,
+      89,
+      90,
+      91,
+      92
+    ],
+    "printed": "36–40",
+    "latin": "Optabat sponsam forma praestante Jacobus,\nEt rata reddebat vota cupita Rahel.\nConjugium tamen hoc non omni ex parte beatum,\nSed moestum potius, multa fuisse probant.\nFallor? an hoc ipso, quod sit spectanda marito\nVirtus, non species, Biblia sacra docent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 33,
+      "teachings": 3
+    },
+    "title": "Von Jacobs gedoppelter Heyrath.",
+    "reference": "1. Mose XXIX. Capitel.",
+    "narrative": "1. Jacob reisete zu Laban, 2. der war seiner Mutter Bruder, 3. und wohnte zu Haran. 4. Derselbe Laban hatte zwey Töchter: 5. Die älteste hieß Lea, 6. und hatte ein blödes Gesichte; 7. die jüngste aber hieß Rahel, 8. und war hübsch und schön. 9. Als nun Jacob nicht mehr weit von Haran war, so traf er unterwegens einen Brunnen an, 10. bey welchem die Hirten aus derselben ganzen Gegend ihre Schafe zu tränken gewohnt waren. 11. Jacob fragte die Hirten, ob sie nicht zu Haran einen Mann mit Namen Laban kennten? 12. Sie gaben zur Antwort: Wir kennen ihn gar wohl. 13. Wie er nun weiter fragte, ob es ihm noch wohl gienge? so kam eben Labans Tochter, mit Namen Rahel, mit den Schafen ihres Vaters zum Brunnen. 14. Mit derselben machte sich Jacob gleich bekannt, er wälzte den Stein von dem Brunnen, er tränkte die Schafe, und gab ihr endlich einen Kuß. 15. Rahel lief unverzüglich in die Stadt, und sagte ihrem Vater an, daß seiner Schwester Sohn Jacob vor der Stadt bey dem Brunnen wäre. 16. Laban gieng ihm gleich entgegen, und nachdem sie einander vor Freuden geherzet und geküsset hatten, 17. so nahm er Jacoben mit sich in sein Haus. 18. In demselben gefiel Jacoben nichts so sehr, als die schöne Rahel. 19. Wie nun ihr Vater Laban den Vorschlag that, ob ihm Jacob um einen gewissen Lohn dienen wolte? 20. So gab Jacob alsobald zur Antwort: ich will dir sieben Jahr um deine jüngste Tochter Rahel dienen. 21. Laban bedachte sich nicht lange, sondern sagte gleich: Es ist besser, ich gebe sie dir, denn einem andern. 22. Also diente Jacob um Rahel sieben Jahr, 23. und es dauchte ihn, als wären es einzele Tage, so lieb hatte er sie. 24. Als aber die Hochzeit gehalten ward, so betrog ihn der Schwieger-Vater, und legte die älteste Tochter Lea in das Braut-Bette. 25. Der gute Jacob ward es nicht eher inne, als auf den Morgen: 26. da sagte er zwar zu Laban: Hab ich dir nicht um deine jüngste Tochter Rahel gedienet, warum hast du mich denn betrogen: 27. Er muste aber mit der Entschuldigung vorlieb nehmen; es wäre nicht Sitte im Lande, daß man die Jüngste vor der Aeltesten ausgebe. 28. Er that ihm aber alsobald den Vorschlag, daß er die schöne Rahel darzu haben solte, wofern er ihm noch andere sieben Jahr dienen wolte? 29. Das ließ sich Jacob gefallen, 30. und nahm also zwey Schwestern zu Weibern. 31. Unter denselben hatte zwar Jacob die schöne Rahel viel lieber, als die häßliche Lea. 32. Als aber GOtt der HErr sahe, daß Lea unwerth war, so machte er sie fruchtbar, und hingegen Rahel unfruchtbar. 33. Weil nun die beyden Schwestern einander deswegen neideten, so muste der gute Jacob gar viel Verdruß ausstehen.",
+    "questions": [
+      "Zu wem reisete Jacob?",
+      "Wer war derselbe?",
+      "Wo wohnte dieser Laban?",
+      "Wie viel Töchter hatte Laban?",
+      "Welches war die älteste?",
+      "Was hatte sie vor einen Mangel?",
+      "Wie hieß die jüngste?",
+      "Wie war dieselbe gebildet?",
+      "Was traf Jacob unterwegens an?",
+      "Wozu diente der Brunnen?",
+      "Was redete Jacob mit den Hirten?",
+      "Was bekam er zur Antwort?",
+      "Wer kam denn ohngefehr zum Brunnen?",
+      "Wie bezeigte sich Jacob gegen sie?",
+      "Wie führte sich Rahel dabey auf?",
+      "Was that Laban?",
+      "Wo blieb denn Jacob?",
+      "Was gefiel Jacoben am besten in Labans Hause?",
+      "Was wolte denn Laban von ihm wissen?",
+      "Was that ihm Jacob vor einen Vorschlag?",
+      "Was sagte Laban darzu?",
+      "Wie lange diente also Jacob um die schöne Rahel?",
+      "War ihm denn die Zeit nicht lang?",
+      "Was geschah ihm vor ein Possen an der Hochzeit?",
+      "Ward es denn Jacob nicht gewahr?",
+      "Was sagte denn Jacob darzu?",
+      "Was machte denn Laban vor eine Entschuldigung?",
+      "Aber was that ihm Laban vor einen neuen Vorschlag?",
+      "War es Jacob zufrieden?",
+      "Wie viel nahm er also Weiber?",
+      "Welche war ihm dann am liebsten?",
+      "Was that GOtt darbey?",
+      "Wie vertrugen sich die beyden Schwestern mit einander?"
+    ],
+    "teachings": [
+      "I. Wer mit Schönheit des Leibes begabet ist, der soll deswegen nicht hochmüthig seyn; weil es ihm vielleicht an etwas anders fehlen wird.\nDas siehet man klärlich an der einen Schwester, nemlich an der Rahel, die war schön vom Leibe, aber unvergnügt am Gemüthe.",
+      "II. Leute die nicht schön sind, die soll man unverachtet lassen; weil sie GOtt davor vielleicht mit etwas anders begabet hat.\nDas siehet man klärlich an der andern Schwester, nemlich an der Lea, die war häßlich von Gesichte, aber fruchtbar im Ehestande.",
+      "III. Kinder sind eine Gabe Gottes, und Leibes-Frucht ist ein Geschenke des Höchsten.\nDas siehet man klärlich an beyden Schwestern: Denn GOtt hatte Lea fruchtbar, und Rahel hingegen auf eine Zeit unfruchtbar gemacht."
+    ],
+    "reflection": "Es hatte Jacob sich was schönes auserlesen /\nUnd was er sich gewünscht / daß ließ GOtt auch geschehn:\nDoch daß sein Ehstand auch ein Wehstand sey gewesen /\nDas kan man Sonnen-klar aus vielen Dingen sehn.\nMich deucht die Schrift hat uns hiemit erinnern wollen /\nDaß wir auf Tugend mehr / als Schönheit sehen sollen."
   }
 };

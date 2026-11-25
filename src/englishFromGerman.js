@@ -616,5 +616,67 @@ export const englishFromGerman = {
       "III. Finally, we are to learn from this that God often reveals himself to his own in solitude.\nFor here Jacob saw something in the open field, where he was quite alone, which he would hardly have seen in the largest inn."
     ],
     "reflection": "What Jacob saw there no longer appears to us;\nYet God's Word shows me the like in very truth.\nI see before me such a ladder standing,\nWhich reaches up to heaven and has only three steps.\nThey are the Father's favor; Lord Jesus, your sufferings;\nAnd Lord God, Holy Spirit, your faith in my heart."
+  },
+  "14": {
+    "pages": [
+      86,
+      89,
+      90,
+      91,
+      92
+    ],
+    "printed": "36–40",
+    "latin": "Optabat sponsam forma praestante Jacobus,\nEt rata reddebat vota cupita Rahel.\nConjugium tamen hoc non omni ex parte beatum,\nSed moestum potius, multa fuisse probant.\nFallor? an hoc ipso, quod sit spectanda marito\nVirtus, non species, Biblia sacra docent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 33,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "On Jacob's Two Marriages",
+    "reference": "Genesis, chapter XXIX.",
+    "narrative": "1. Jacob traveled to Laban, 2. who was his mother's brother, 3. and lived in Haran. 4. This Laban had two daughters: 5. the elder was called Leah, 6. and had weak eyes; 7. but the younger was called Rachel, 8. and was pretty and beautiful. 9. When Jacob was no longer far from Haran, he came upon a well along the way, 10. at which the shepherds from that whole region were accustomed to watering their sheep. 11. Jacob asked the shepherds whether they knew a man in Haran named Laban. 12. They answered: We know him very well. 13. When he further asked whether Laban was still doing well, Laban's daughter, named Rachel, came to the well with her father's sheep. 14. Jacob immediately made her acquaintance, rolled the stone away from the well, watered the sheep, and finally gave her a kiss. 15. Rachel ran without delay into the city and told her father that his sister's son Jacob was outside the city by the well. 16. Laban immediately went to meet him, and after they had embraced and kissed one another for joy, 17. he took Jacob with him into his house. 18. In that house nothing pleased Jacob so much as the beautiful Rachel. 19. When her father Laban proposed that Jacob serve him for a certain wage, 20. Jacob immediately answered: I will serve you seven years for your youngest daughter Rachel. 21. Laban did not deliberate long, but said at once: It is better that I give her to you than to another. 22. Thus Jacob served seven years for Rachel, 23. and they seemed to him like a few days, so dearly did he love her. 24. But when the wedding was held, his father-in-law deceived him and put his eldest daughter Leah in the bridal bed. 25. Good Jacob did not discover this until morning: 26. then he said to Laban: Have I not served you for your youngest daughter Rachel? Why, then, have you deceived me? 27. But he had to make do with the excuse that it was not the custom of the country to give the younger in marriage before the elder. 28. Laban immediately made him the proposal that he should have the beautiful Rachel as well, provided he would serve him another seven years. 29. Jacob agreed to this, 30. and thus took two sisters as wives. 31. Of the two, Jacob loved the beautiful Rachel far more than the ugly Leah. 32. But when the Lord God saw that Leah was held in little esteem, he made her fruitful, and Rachel, on the other hand, barren. 33. Since the two sisters envied one another on this account, good Jacob had to endure a great deal of vexation.",
+    "questions": [
+      "To whom did Jacob travel?",
+      "Who was he?",
+      "Where did this Laban live?",
+      "How many daughters did Laban have?",
+      "Which was the elder?",
+      "What defect did she have?",
+      "What was the younger called?",
+      "What was her appearance like?",
+      "What did Jacob encounter along the way?",
+      "What was the well used for?",
+      "What did Jacob say to the shepherds?",
+      "What answer did he receive?",
+      "Who happened to come to the well?",
+      "How did Jacob conduct himself toward her?",
+      "How did Rachel act on this occasion?",
+      "What did Laban do?",
+      "Where, then, did Jacob stay?",
+      "What pleased Jacob most in Laban's house?",
+      "What did Laban wish to know from him?",
+      "What proposal did Jacob make to him?",
+      "What did Laban say to this?",
+      "How long, then, did Jacob serve for the beautiful Rachel?",
+      "Did the time not seem long to him?",
+      "What trick was played on him at the wedding?",
+      "Did Jacob not notice it?",
+      "What did Jacob say to this?",
+      "What excuse did Laban make?",
+      "But what new proposal did Laban make to him?",
+      "Did Jacob agree to it?",
+      "How many wives, then, did he take?",
+      "Which was dearest to him?",
+      "What did God do on this occasion?",
+      "How did the two sisters get along with each other?"
+    ],
+    "teachings": [
+      "I. Whoever is endowed with bodily beauty should not therefore be proud, because he may be lacking in something else.\nThis is clearly seen in one sister, namely Rachel, who was beautiful in body but discontented in spirit.",
+      "II. People who are not beautiful should not be despised, because God may have endowed them with something else in its place.\nThis is clearly seen in the other sister, namely Leah, who was ugly in appearance but fruitful in marriage.",
+      "III. Children are a gift of God, and the fruit of the womb is a gift of the Most High.\nThis is clearly seen in both sisters: for God had made Leah fruitful, and Rachel, on the other hand, barren for a time."
+    ],
+    "reflection": "Jacob had chosen something beautiful for himself;\nAnd what he wished for, God also let come to pass.\nYet that his married state was also a state of woe,\nCan be seen as clearly as the sun from many things.\nIt seems to me that Scripture meant to remind us here,\nThat we should look more to virtue than to beauty."
   }
 };
