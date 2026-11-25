@@ -1,4 +1,4 @@
-name: Recover independent Russian volumes and historical OCR
+name: Recover independent Russian volumes and historical OCR (TSV checkpoint fix)
 on:
   push:
     branches: [main]
@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Restore successful 260-page OT artifact from prior run
-        if: matrix.book == 'ot'
+        if: matrix.book == 'ot' && hashFiles('public/data/russian-1825-ot-provenance.json') == ''
         uses: actions/download-artifact@v4
         with:
           github-token: ${{ github.token }}
