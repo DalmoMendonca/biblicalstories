@@ -1471,5 +1471,62 @@ export const englishFromGerman = {
       "III. One must not allow oneself to be led astray by evil examples.\nSamuel observed this rule and was not led into sin by Eli's children."
     ],
     "reflection": "Eli the priest was a father of wicked children;\nLittle Samuel recognized their wickedness;\nBut he did not tread, as they did, the path of sinners;\nHe lived devoutly and let the wicked be wicked.\nSo I likewise will keep company with the quiet,\nAnd fulfill my parents' wish, as Samuel did."
+  },
+  "28": {
+    "pages": [
+      170,
+      173,
+      174,
+      175,
+      176
+    ],
+    "printed": "92–96",
+    "latin": "Indulget nimium natis petulantibus Eli,\nEt quicquid faciant, ora serena gerit.\nHoc scelerum vindex Deus haud omittit inultum,\nSed simul & patrem progeniemque necat.\nO me felicem! quondam puerilibus annis,\nQuod satis officio fecit uterque parens.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Eli the Priest.",
+    "reference": "1 Samuel II and III.",
+    "narrative": "1. God was very greatly displeased that Eli did not restrain his children more strictly. 2. Therefore God sent a prophet to him and had the downfall of his house announced to him. 3. Among other things God had these words spoken to him: Whoever honors me, him will I also honor; and whoever despises me shall also be despised. 4. Afterward God also revealed to young Samuel that he intended to punish the house of Eli. 5. For as Samuel lay sleeping in the temple, the Lord called: Samuel. 6. The boy thought Eli the priest had called him; therefore he ran to him and said: Behold, here I am; you called me. 7. But Eli said to him: I did not call you; go back and lie down to sleep. 8. But the Lord called a second time: Samuel. 9. The boy went again to Eli and said: Here I am; you called me. 10. But Eli told him to go back, saying: I did not call you, my son; go and lie down to sleep. 11. Finally God called a third time: Samuel! 12. And the boy went to Eli the priest a third time also. 13. Then Eli perceived that it was the Lord who wished to speak with the boy. 14. He therefore told Samuel to lie down again, and if he should hear the voice once more, he should simply say: Speak, Lord, for your servant hears. 15. Then God revealed to the boy that he intended to punish the house of Eli. 16. And this because his sons committed such sins, and he, as their father, had not even looked displeased at them. 17. In the morning Eli wished to know what the Lord had said to Samuel. 18. But Samuel did not wish to tell him, for he was afraid. 19. But Eli said: God do so and so to me if you conceal anything from me. 20. Then Samuel told him all the words the Lord had spoken to him. 21. Thereupon Eli said: It is the Lord; let him do what pleases him! 22. Not long afterward the children of Israel went to battle against their enemies, the Philistines. 23. Eli's sons also went to battle with them, 24. and took the ark of the covenant with them from the tabernacle. 25. But old Eli sat beneath the gate and waited anxiously to learn how the battle would turn out. 26. Meanwhile a messenger came and said that the children of Israel had been defeated, both his sons were dead, and the ark of God had been taken. 27. When Eli heard this sad news, he fell backward from his chair and broke his neck. 28. Eli was then ninety-eight years old, and his eyes had grown dim.",
+    "questions": [
+      "What displeasure did God have concerning Eli the priest?",
+      "What did God have announced to him through a prophet?",
+      "What words did the prophet use in God's name?",
+      "What did God reveal to young Samuel?",
+      "How did God call him the first time?",
+      "What did the boy do?",
+      "What did Eli say to that?",
+      "How did God call the second time?",
+      "What did the boy do?",
+      "What did Eli say to that?",
+      "How did God call the third time?",
+      "What did the boy do?",
+      "What did Eli conclude from this?",
+      "What did he command the boy?",
+      "What did God then reveal to the boy?",
+      "Why did God intend to punish the house of Eli?",
+      "What did Eli say in the morning?",
+      "What answer did Samuel give?",
+      "What severe words did Eli use?",
+      "What did Samuel say in response?",
+      "What did Eli say to this news?",
+      "Against whom did the children of Israel go to battle?",
+      "Who went to battle with them?",
+      "What did they take with them into the camp?",
+      "What did Eli do meanwhile?",
+      "What news did the messenger bring?",
+      "What accident befell Eli?",
+      "How old was Eli when he broke his neck?"
+    ],
+    "teachings": [
+      "I. Parents have severe punishment to expect if they neglect anything in the upbringing of their children.\nEli the priest experienced this: he did not even look displeased when his sons behaved wickedly, and for this he had to break his neck in his old age.",
+      "II. When things in a country come to the point that the priests lead a godless life, God's punishments are not far off.\nThus, when Eli's sons profaned the Lord's sacrifice and practiced fornication, war was at the door.",
+      "III. Outward worship alone is not sufficient; rather, God wishes to be honored inwardly in the hearts of men.\nThe ark of the covenant was a precious sanctuary of the Jewish people; but when it was carried by unholy people, God let it fall into the hands of the Philistines."
+    ],
+    "reflection": "Eli the priest let his children practice sin,\nAnd did not even look displeased at it;\nBut the Lord did not leave this unavenged,\nHe punished him and his entire house with death.\nYou parents, be thanked for your discipline and teaching;\nYou have honored God; God will honor you in return."
   }
 };

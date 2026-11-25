@@ -1437,5 +1437,61 @@ export const german1768 = {
       "III. Durch böse Exempel muß man sich nicht verführen lassen.\nDiese Regel nahm Samuel in acht, und ärgerte sich nicht an den Kindern Eli."
     ],
     "reflection": "Der Priester Eli war ein Vater böser Kinder /\nDer kleine Samuel sah ihre Bosheit ein;\nAllein er trat wie sie / nicht auf den Weg der Sünder;\nEr lebte fromm / und ließ die Bösen böse seyn.\nSo will ich ebenfalls mich halten zu den Stillen /\nUnd meiner Eltern Wunsch / wie Samuel / erfüllen."
+  },
+  "28": {
+    "pages": [
+      170,
+      173,
+      174,
+      175,
+      176
+    ],
+    "printed": "92–96",
+    "latin": "Indulget nimium natis petulantibus Eli,\nEt quicquid faciant, ora serena gerit.\nHoc scelerum vindex Deus haud omittit inultum,\nSed simul & patrem progeniemque necat.\nO me felicem! quondam puerilibus annis,\nQuod satis officio fecit uterque parens.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    },
+    "title": "Von dem Priester Eli.",
+    "reference": "1. Sam. II. und III. Capitel.",
+    "narrative": "1. GOtt hatte gar ein grosses Mißfallen daran, daß Eli seine Kinder nicht schärffer hielt. 2. Deswegen schickte GOtt einen Propheten zu ihm, und ließ ihm den Untergang seines Hauses ankündigen. 3. Unter andern ließ ihm GOtt diese Worte sagen: Wer mich ehret, den will ich auch ehren, und wer mich verachtet, der soll auch verachtet werden. 4. Darnach offenbahrte GOtt auch dem jungen Samuel, daß er das Haus Eli straffen wolte. 5. Denn als Samuel im Tempel lag und schlief, so ruffte der HErr: Samuel. 6. Der Knabe dachte, der Priester Eli hätte ihm geruffen, deswegen lief er hin, und sagte: Siehe, hie bin ich, du hast mir geruffen. 7. Eli aber sprach zu ihm: Ich habe dir nicht geruffen, gehe wieder hin, und lege dich schlaffen. 8. Der HErr aber rief zum andern male: Samuel. 9. Der Knabe gieng wieder zu Eli, und sagte: Hier bin ich, du hast mir geruffen. 10. Eli aber hieß ihn wieder gehen, und sagte: Ich habe dir nicht geruffen, mein Sohn, gehe hin und lege dich schlaffen. 11. Endlich rief GOtt zum dritten male: Samuel! 12. und der Knabe gieng auch zum dritten male zum Priester Eli. 13. Da merckte Eli, daß es der HErr war, der mit dem Knaben reden wolte. 14. Er sagte deswegen, Samuel solte sich nur wieder niederlegen, und wenn er die Stimme noch einmal hören würde, so solte er nur sprechen: Rede, HErr! denn dein Knecht höret. 15. Da offenbahrte es GOtt dem Knaben, daß er das Haus Eli straffen wolte. 16. Und solches darum, weil seine Söhne solche Sünden thäten, und er, als Vater, hätte doch nicht einmal sauer darzu gesehen. 17. Auf den Morgen wolte Eli wissen, was der HErr mit Samuel geredet hätte? 18. Samuel aber wolte es nicht sagen, sondern fürchtete sich. 19. Eli aber sprach: GOtt thue mir diß und das, wo du mir etwas verschweigest. 20. Da sagte ihm Samuel alle Worte, die der HErr mit ihm geredet hatte. 21. Darauf sagte Eli: Es ist der HErr, er thue, was ihm wohlgefällt! 22. Nicht lange darnach zogen die Kinder Israel zu Felde, wider ihre Feinde, die Philister. 23. Da giengen die Söhne Eli auch mit zu Felde, 24. und nahmen die Lade des Bundes aus der Stiffts-Hütten mit sich. 25. Der alte Eli aber satzte sich unter das Thor, und wartete mit Verlangen, wie es mit der Schlacht ablauffen würde. 26. Indem kam ein Bothe und sagte: Die Kinder Israel wären geschlagen, seine beyden Söhne wären todt, und die Lade GOttes wäre genommen. 27. Wie Eli diese traurige Zeitung hörte, so fiel er zurücke vom Stuhle und brach den Hals. 28. Eli aber war damals acht und neunzig Jahr alt, und seine Augen waren dunckel worden.",
+    "questions": [
+      "Was hatte GOtt vor einen Mißfallen an dem Priester Eli?",
+      "Was ließ ihm GOtt durch einen Propheten ankündigen?",
+      "Was vor Worte brauchte der Prophet im Nahmen GOttes?",
+      "Was offenbahrte GOtt dem jungen Samuel?",
+      "Wie rief ihm GOtt das erste mal?",
+      "Was that der Knabe?",
+      "Was sagte Eli darzu?",
+      "Wie rief GOtt zum andern male?",
+      "Was that der Knabe?",
+      "Was sagte Eli darzu?",
+      "Wie rief GOtt zum dritten male?",
+      "Was that der Knabe?",
+      "Was schloß Eli daraus?",
+      "Was befahl er dem Knaben?",
+      "Was offenbahrte GOtt darauf den Knaben?",
+      "Warum wolte GOtt das Haus Eli straffen?",
+      "Was sagte Eli auf dem Morgen?",
+      "Was gab Samuel zur Antwort?",
+      "Was brauchte Eli vor harte Worte?",
+      "Was sagte hierauf Samuel?",
+      "Was sagte Eli zu dieser Nachricht?",
+      "Wider wen zogen die Kinder Israel zu Felde?",
+      "Wer gieng mit zu Felde?",
+      "Was nahmen sie mit ins Lager?",
+      "Was that Eli unterdessen?",
+      "Was brachte der Bothe vor Zeitung?",
+      "Was hatte Eli vor einen Zufall?",
+      "Wie alt war Eli, als er den Hals brach?"
+    ],
+    "teachings": [
+      "I. Die Eltern haben schwere Straffe zu gewarten, wenn sie was in der Kinderzucht versehen.\nDas erfuhr der Priester Eli, der sahe nicht einmal sauer darzu, wenn seine Söhne Büberey trieben, davor muste er im hohen Alter den Hals brechen.",
+      "II. Wenns in einem Lande dahin kömmt, daß die Priester ein gottloses Leben führen, so sind die Straffen GOttes nicht mehr weit.\nAlso wie die Söhne Eli das Opffer des HErrn lästerten, und Hurerey trieben, so war der Krieg vor der Thüre.",
+      "III. Mit dem äusserlichen Gottesdienst ist es nicht ausgerichtet, sondern GOtt will innerlich in dem Hertzen der Menschen geehret seyn.\nDie Bundes-Lade war ein theures Heiligthum des Jüdischen Volckes; aber wie sie von unheiligen Leuten getragen ward, so ließ sie GOtt in die Hände der Philister fallen."
+    ],
+    "reflection": "Der Priester Eli ließ die Kinder Sünde treiben /\nUnd sahe nicht einmal darüber sauer aus;\nDas aber ließ der HErr nicht ungerochen bleiben /\nEr straffte durch den Tod ihn und sein gantzes Hauß.\nIhr Eltern habet dank vor eure Zucht und Lehren /\nIhr habet GOtt geehrt / GOtt wird euch wieder ehren."
   }
 };
