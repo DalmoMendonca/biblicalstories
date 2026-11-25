@@ -248,5 +248,92 @@ export const german1768 = {
     ],
     "reflection": "Die erste Welt ließ GOtt mit Wasser untergehen /\nUnd Noah gieng selb acht in einen Kasten ein;\nZuletzt wird nun die Welt in lauter Feuer stehen /\nWo wird zur selben Zeit der Frommen Zuflucht seyn?\nIch will / HErr JEsu! mir aus deiner offnen Seiten /\nWenn alles wird vergehn / ein Arche zubereiten!",
     "latin": "Orbem terrarum cum perderet unda priorem,\nIncolumem Noam praestitit arca natans.\nHujus ubi mundi moles operosa peribit,\nQuodnam erit effugium praesidiumque piis?\nQuintuplici JESU perfossum vulnere corpus,\nQuo fugiam supplex, arca salutis erit."
+  },
+  "7": {
+    "title": "Vom Thurm-Bau zu Babel.",
+    "reference": "1. Mose am XI. Capitel.",
+    "pages": [
+      52,
+      55,
+      56
+    ],
+    "printed": "16–18",
+    "narrative": "1. Nach der Sündfluth war nur eine Sprache in der ganzen Welt. 2. Nachdem sich nun die Menschen wieder gemehret hatten, so nahmen sie einen grossen Bau vor die Hand. 3. Nemlich sie baueten eine Stadt, und einen Thurm, dessen Spitze bis an den Himmel reichen solte. 4. Das thaten sie nun aus Hochmuth, daß sie sich bey der Nach-Welt einen grossen Namen machen wolten. 5. Da fuhr GOtt der HErr hernieder, und besahe die Stadt und den Thurm. 6. Es gefiel aber dem lieben GOtt der Bau gar nicht. 7. Weil nun die Menschen davon nicht ablassen wolten, so verwirrete GOtt ihre Sprachen, daß keiner verstund, was der andere haben wolte. 8. Damit konten sie den Bau nicht fortsetzen, sondern einer zog mit den Seinigen da hinaus, und der andere dort hinaus. 9. Zum Andencken ward die neuerbaute Stadt Babel genennet, 10. weil dieses Wort auf Deutsch eine Verwirrung bedeutet.",
+    "questions": [
+      "Wie viel Sprachen waren nach der Sündfluth in der Welt?",
+      "Was nahmen die Menschen nach der Sündfluth vor?",
+      "Worinnen bestund der grosse Bau?",
+      "Warum baueten sie diesen Thurm?",
+      "Wuste denn GOtt auch was davon?",
+      "Wie gefiel der Bau GOtt dem HErrn?",
+      "Wie verhinderte GOtt den Bau?",
+      "Was folgte auf die Sprachen-Verwirrung?",
+      "Wie hieß denn die neuerbaute Stadt?",
+      "Was heist der Name Babel auf Deutsch?"
+    ],
+    "teachings": [
+      "I. GOtt der HErr giebt Achtung darauf, was die Menschen auf dem Erdboden machen.\nDas kan man mit dem Thurm zu Babel beweisen; denn GOtt fuhr damals hernieder und besahe den Bau.",
+      "II. Unter andern können sich die Menschen auch mit prächtigen Bauen an GOtt versündigen.\nDenn der Thurm zu Babel wolte dem lieben GOtt nicht gefallen.",
+      "III. GOtt der HErr kan die Anschläge der Menschen bald zu nichte machen.\nDenn zu Babel durfte GOtt nur die Sprachen verwirren, so musten sie gleich aufhören zu bauen."
+    ],
+    "reflection": "Die Menschen bauen sich oft Häuser und Palläste /\nDie gleich als wie ein Thurm zu Babel prächtig stehn /\nUnd sind doch auf der Welt nur Pilgrim und nur Gäste /\nDie durch das Jammerthal in Himmel sollen gehn.\nWer fragt nach Haus und Hof auf dieser schnöden Erde?\nWenn ich nur dermahleins ein Himmels-Bürger werde.",
+    "latin": "Saepius aedificant homines palatia magna,\nQuae referunt turrim, quae Babylone fuit,\nCum tamen hospitium terra est, non patria sedes,\nQuod peregrinantes ducit ad astra pios.\nNon moror haec mundi perituri tecta superba,\nDummodo apud superos sit mihi certa domus.",
+    "editorial_note": "The initial passage number is supplied from the corresponding first printed question.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 10,
+      "teachings": 3
+    }
+  },
+  "8": {
+    "title": "Von Abraham und Sarah.",
+    "reference": "1. Mose XVIII. Capitel.",
+    "pages": [
+      56,
+      59,
+      60,
+      63
+    ],
+    "printed": "18–21",
+    "narrative": "1. Als einsten GOtt mit Abraham redete, so gab er ihm diese Verheissung: In dir sollen alle Geschlechter auf Erden gesegnet werden. 2. Das hieß so viel, es solte der Heiland aller Menschen aus Abrahams Nachkommen gebohren werden. 3. Nun hatte zwar Abraham eine Gemahlin die hieß Sarah; 4. allein sie hatte keine Kinder, sondern war unfruchtbar. 5. Es war auch keine Hoffnung darzu, weil sie beyde sehr alte Leute waren. 6. Dem ungeachtet glaubte Abraham doch, daß GOtt seine Verheissung erfüllen würde: 7. Und dieser Glaube ward ihm von GOtt zur Gerechtigkeit gerechnet. 8. Wie nun Abraham einst seine Augen aufhub, so sahe er drey Männer zu ihm kommen, die er nicht kannte. 9. Es war aber der Sohn Gottes mit zwey Engeln, die alle Menschen-Gestalt an sich genommen hatten. 10. Abraham bat diese drey Männer, daß sie bey ihm einsprechen möchten, und ließ ihnen Wasser geben, damit sie ihre Füsse waschen könten. 11. Darnach führte er dieselben unter einen Baum, 12. und ließ ihnen Kalbfleisch, Kuchen, Milch und Butter vorsetzen. 13. Sarah, seine Frau, war zwar nicht mit zu Tische, 14. sie konte aber in der Küche alles hören, was über der Mahlzeit geredet ward. 15. Unter andern sprach GOtt der HErr zu Abraham: Ich will wieder zu dir kommen, so ich lebe, so soll Sarah dein Weib einen jungen Sohn haben. 16. Das hörte Sarah hinter der Thür, und lachte darüber. 17. Der liebe GOtt aber gab ihr deswegen einen Verweis und sagte darzu: Solte dem HErrn etwas unmöglich seyn? 18. Die gute Frau wolte sich zwar entschuldigen, und sagte, sie hätte nicht gelacht. 19. Aber GOtt strafte sie darum und sagte: Es ist nicht also, du hast gelacht. 20. Unterdessen traf die Verheissung richtig ein, 21. und derjenige Sohn, den Sarah zur Welt brachte, ward Isaac genennet. 22. Das geschah, wie Abraham hundert, und Sarah neunzig Jahr alt war.",
+    "questions": [
+      "Was gab GOtt Abraham vor eine Verheissung?",
+      "Was hiessen denn diese Worte?",
+      "Was hatte denn Abraham vor eine Gemahlin?",
+      "Hatten sie Kinder mit einander?",
+      "War denn keine Hoffnung dazu vorhanden?",
+      "Zweifelte denn Abraham deswegen an der Verheissung?",
+      "Was nützte ihm dann dieser Glaube?",
+      "Was hatte Abraham darauf vor einen Zuspruch?",
+      "Wer waren denn die drey Männer?",
+      "Wie empfieng Abraham die Gäste?",
+      "Wo speisten sie denn?",
+      "Womit wurden sie tractiret?",
+      "War Sarah nicht zu Tische?",
+      "Konte sie denn hören was geredet ward?",
+      "Was führte denn GOtt für einen Discurs mit Abraham?",
+      "Was gedachte denn Sarah dabey?",
+      "Was sagte GOtt zu solchem Lachen?",
+      "Wie entschuldigte sich Sarah?",
+      "Aber was gab ihr GOtt zur Antwort?",
+      "Traf auch die Verheissung ein?",
+      "Wie ward denn der junge Sohn genennet?",
+      "Wie alt waren damals die Eltern?"
+    ],
+    "teachings": [
+      "I. Aus dieser Historie lernet man, daß die Geister in sichtbarer Gestalt erscheinen können, wenn sie wollen.\nDenn sie haben mit Abraham geredet, gegessen, und getruncken.",
+      "II. Man lernet ferner daraus, daß man auf Gastereyen nicht so viel Gerichte aufsetzen soll.\nDenn Abraham hat dem lieben GOtt nicht mehr als Kalbfleisch, Kuchen, Milch und Butter vorgesetzet.",
+      "III. Man lernet endlich dabey, daß GOtt möglich machen kan, was es vor aller Menschen Augen unmöglich ist.\nDenn Sarah bekam einen jungen Sohn, ob sie gleich schon neunzig Jahr alt war."
+    ],
+    "reflection": "Wie GOtt von Sarah sprach / sie solt ein Kind gebähren;\nSo lachte sie dabey / und dacht im Herzen nein:\nAllein sie muste drauf die harten Worte hören:\nWie? solte wohl bey GOtt etwas unmöglich seyn?\nDie Frage will ich mir zu meiner Nachricht mercken /\nUnd meinen Glauben stets mit Gottes Allmacht stärcken.",
+    "latin": "Effoeta sobolis dum sit promissio Sara,\nIn risum mulier solverat ora procax.\nSed merito verbis castigabatur acerbis,\nOmnia posse Deum, quod dubitaret anus.\nHaec semper memori sub pectore verba tenebo,\nFirmatura meam tempus in omne fidem.",
+    "editorial_note": "The initial passage number is supplied from the corresponding first printed question; Latin first line requires independent collation.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 22,
+      "teachings": 3
+    }
   }
 };
