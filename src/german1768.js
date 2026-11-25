@@ -1966,5 +1966,58 @@ export const german1768 = {
       "III. Wie der Prophet Elia nichts zu essen hatte, so ward er von den Raben gespeiset.\nAlso hat GOtt nicht nur ordentliche, sondern auch ausserordentliche Mittel, die Seinen zu versorgen."
     ],
     "reflection": "Die Pfaffen lassen es zwar nicht am Schreyen fehlen /\nDoch Baal hört sie nicht in ihren Nöthen an;\nSo gehts / wenn Menschen sich selbst einen GOtt erwehlen /\nDer weder Augen hat / noch etwas hören kan.\nIhr Christen / seyd getrost! der GOtt den ihr verehret /\nHat Augen / daß er sieht / und Ohren / daß er höret."
+  },
+  "37": {
+    "pages": [
+      222,
+      225,
+      226,
+      229
+    ],
+    "printed": "126–129",
+    "latin": "De male quæsitis non gaudet tertius hæres:\nHoc quam sit verum Rex quoque sæpe probat.\nExemplo est Ahab miseranda cæde cruentus,\nVinea fatalis cui Nabothea fuit.\nMe non exstimulat furor exitialis habendi,\nContentusque meis non aliena peto.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "editorial_note": "The Russian witness numbers the violated commandments tenth and sixth, whereas the German numbers them ninth and fifth; both are retained. Russian devotional reflection is prose and contains no separate Latin verse.",
+    "title": "Von Naboths Weinberge.",
+    "reference": "1 Kön. XXI. und XXII. Capitel.",
+    "narrative": "1. Naboth hatte einen Weinberg zu Jesreel nahe bey dem Pallaste des Königes. 2. Diesen Weinberg wolte Ahab der König in Israel gerne haben: 3. Denn er wolte sich einen Kohl-Garten daraus machen lassen. 4. Der König wolte dem Naboth auch so viel Silber davor geben, als der Weinberg werth wäre. 5. Aber Naboth wolte den Weinberg nicht missen, weil er sein väterliches Erbtheil war. 6. Hierüber ward Ahab so verdrießlich, daß er sich auf das Bette legte, und nicht essen wolte. 7. Die Königin Isebel besuchte den König, 8. und sagte zu ihm: Er solte sich nur zufrieden geben, sie wolte ihm den Weinberg Naboths bald schaffen. 9. Sie schrieb auch alsobald im Namen des Königes einen falschen Brief an die Eltesten zu Jesreel, wo Naboth wohnte. 10. In diesem Briefe stund, die Eltesten solten zwey falsche Zeugen bestellen, 11. die solten aussagen, Naboth habe GOtt und den König gelästert: 12. darauf solten sie Nabothen zur Stadt hinaus führen und zu Tode steinigen. 13. Die Eltesten zu Jesreel thaten, wie ihnen befohlen war; und also kam der ehrliche Naboth um sein Leben. 14. Da kam Isebel zu ihrem Gemahl, und sagte: Stehe auf, und nimm ein den Weinberg Naboths, denn er lebet nimmer, sondern ist todt. 15. Aber als Ahab eben im Begriff war, den Weinberg in Besitz zu nehmen, so kam der Prophet Elia zu ihm, 16. und sprach unter andern zu Ahab: An der Stätte, da die Hunde Naboths Blut gelecket haben, sollen auch die Hunde dein Blut lecken. 17. Und von der Königin Isebel sprach er: Die Hunde sollen Isebel fressen an der Mauer zu Jesreel. 18. Das alles ward einige Jahr darnach erfüllet, und das gantze Haus Ahab ausgerottet. 19. Denn der König Ahab ward im Kriege todt geschossen, und da sie seinen Wagen wuschen, so leckten die Hunde sein Blut. 20. Die Königin Isebel ward zum Fenster herunter gestürtzet, da ward sie theils zertreten, theils von den Hunden gefressen. 21. Sein Sohn und Nachfolger, Joram, ward von dem Jehu todt geschossen; und sein Cörper ward auf den Acker Naboths geworffen. 22. Ausser dem hatte Ahab noch siebenzig Söhne, 23. die wurden zu Samaria alle mit einander geschlachtet, 24. und ihre Köpffe wurden in Körben nach Jesreel gesendet, wo Naboths Weinberg gelegen war. 25. Und also ist kein Wort des HErrn auf die Erde gefallen, das der HErr wider das Haus Ahab geredet hat.",
+    "questions": [
+      "Wo hatte Naboth seinen Weinberg?",
+      "Wer wolte diesen Weinberg gerne haben?",
+      "Was wolte der König mit dem Weinberge machen?",
+      "Was bot er Nabothen davor?",
+      "Aber was sagte Naboth darzu?",
+      "Wie stund dem Könige die Antwort an?",
+      "Von wem ward Ahab besuchet?",
+      "Was sagte Isebel zu ihrem Gemahl?",
+      "Wie fieng sie die Sache an?",
+      "Was stund im Briefe?",
+      "Was solten die Zeugen aussagen?",
+      "Was solten die Richter vor ein Urtheil fällen?",
+      "Was thaten die Eltesten zu Jesreel?",
+      "Wie sagte Isebel zum Könige, nachdem Naboth todt war?",
+      "Wer kam zu Ahab, als er den Weinberg einnahm?",
+      "Was brachte ihm Elia vor Botschafft?",
+      "Und was Isebel vor einen Text?",
+      "Wie giengs hier auf dem Königlichen Hause?",
+      "Was begegnete dem Könige Ahab?",
+      "Was wiederfuhr der Königin Isebel?",
+      "Wie giengs seinem Sohne Joram?",
+      "Wie viel andere Söhne hatte Ahab?",
+      "Was trug sich mit denselben zu?",
+      "Wo wurden ihre Köpffe hingeschickt?",
+      "Ist also das Wort des HErrn erfüllet worden?"
+    ],
+    "teachings": [
+      "I. Die zehn Gebote sind nicht nur vor die Unterthanen, sondern auch vor die Obrigkeit gemacht.\nDas erfuhr der König Ahab, der vergriff sich an dem neunten Gebote; und seine Gemahlin Isebel sündigte wider das fünfte Gebot; aber es bekam beyden sehr übel.",
+      "II. Die Gewaltigen werden gewaltig gestraft.\nUm des einzigen Naboths willen ward der König Ahab erschossen; die Königin Isebel ward von den Hunden gefressen; und das gantze Königliche Haus wurde mit Strumpf und Stiel ausgerottet.",
+      "III. Zu bösen Dingen finden sich Wertzeuge genug; aber das Gute will niemand befördern helffen.\nWie der König Ahab einem Unterthanen seinen Weinberg nehmen wolte, so funden sich Helffers-Helffer genug: Die Königin Isebel schrieb in seinem Namen falsche Briefe; zwey böse Buben liessen sich zu falschen Zeugen gebrauchen; und die Eltesten zu Jesreel verdammten den unschuldigen Naboth zum Tode?"
+    ],
+    "reflection": "Kein unrecht Gut gedeiht; Das hab ich offt gehöret /\nUnd dieser Spruch trifft auch bey grossen Herren ein:\nWie Ahab solches uns durch Naboths Weinberg lehret /\nDer Hoh und Niedrigen soll ein Exempel seyn.\nAch! ich will meines Orts den festen Vorsatz fassen /\nDaß ich das Seinige will einem jeden lassen."
   }
 };

@@ -2009,5 +2009,59 @@ export const englishFromGerman = {
       "III. When the prophet Elijah had nothing to eat, he was fed by ravens.\nThus God has not only ordinary but also extraordinary means of providing for his own."
     ],
     "reflection": "The priests indeed do not fail to cry aloud,\nYet Baal does not hear them in their distress;\nSo it goes when men choose for themselves a god\nWho has neither eyes nor power to hear.\nTake heart, you Christians! The God whom you worship\nHas eyes with which he sees, and ears with which he hears."
+  },
+  "37": {
+    "pages": [
+      222,
+      225,
+      226,
+      229
+    ],
+    "printed": "126–129",
+    "latin": "De male quæsitis non gaudet tertius hæres:\nHoc quam sit verum Rex quoque sæpe probat.\nExemplo est Ahab miseranda cæde cruentus,\nVinea fatalis cui Nabothea fuit.\nMe non exstimulat furor exitialis habendi,\nContentusque meis non aliena peto.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "editorial_note": "The Russian witness numbers the violated commandments tenth and sixth, whereas the German numbers them ninth and fifth; both are retained. Russian devotional reflection is prose and contains no separate Latin verse.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Naboth's Vineyard.",
+    "reference": "1 Kings XXI and XXII.",
+    "narrative": "1. Naboth had a vineyard at Jezreel near the king's palace. 2. Ahab, the king of Israel, wished to have this vineyard; 3. for he wanted to have a vegetable garden made out of it. 4. The king was willing to give Naboth as much silver for it as the vineyard was worth. 5. But Naboth did not wish to part with the vineyard because it was his paternal inheritance. 6. Ahab was so vexed by this that he lay down on his bed and would not eat. 7. Queen Jezebel visited the king, 8. and told him that he should only be content, for she would soon procure Naboth's vineyard for him. 9. She immediately wrote a false letter in the king's name to the elders at Jezreel, where Naboth lived. 10. In this letter it was written that the elders should appoint two false witnesses, 11. who should testify that Naboth had blasphemed God and the king; 12. then they should lead Naboth out of the city and stone him to death. 13. The elders at Jezreel did as they had been commanded, and thus the honest Naboth lost his life. 14. Then Jezebel came to her husband and said: Arise and take possession of Naboth's vineyard, for he lives no longer but is dead. 15. But just as Ahab was about to take possession of the vineyard, the prophet Elijah came to him, 16. and said, among other things, to Ahab: In the place where the dogs licked Naboth's blood, the dogs shall also lick your blood. 17. And concerning Queen Jezebel he said: The dogs shall devour Jezebel at the wall of Jezreel. 18. All this was fulfilled a few years later, and the whole house of Ahab was exterminated. 19. For King Ahab was shot dead in battle, and when they washed his chariot, the dogs licked his blood. 20. Queen Jezebel was thrown down from a window, and was partly trampled and partly devoured by dogs. 21. His son and successor Joram was shot dead by Jehu, and his body was thrown upon Naboth's field. 22. Besides this, Ahab had seventy other sons, 23. who were all slain together at Samaria, 24. and their heads were sent in baskets to Jezreel, where Naboth's vineyard had been situated. 25. And so not a word of the Lord fell to the ground that the Lord had spoken against the house of Ahab.",
+    "questions": [
+      "Where did Naboth have his vineyard?",
+      "Who wished to have this vineyard?",
+      "What did the king want to make of the vineyard?",
+      "What did he offer Naboth for it?",
+      "But what did Naboth say to this?",
+      "How did the king like the answer?",
+      "By whom was Ahab visited?",
+      "What did Jezebel say to her husband?",
+      "How did she set about the matter?",
+      "What was written in the letter?",
+      "What were the witnesses to testify?",
+      "What verdict were the judges to pronounce?",
+      "What did the elders at Jezreel do?",
+      "What did Jezebel say to the king after Naboth was dead?",
+      "Who came to Ahab as he took possession of the vineyard?",
+      "What message did Elijah bring him?",
+      "And what pronouncement for Jezebel?",
+      "How did the royal house fare afterward?",
+      "What happened to King Ahab?",
+      "What befell Queen Jezebel?",
+      "How did his son Joram fare?",
+      "How many other sons did Ahab have?",
+      "What happened to them?",
+      "Where were their heads sent?",
+      "Was the word of the Lord thus fulfilled?"
+    ],
+    "teachings": [
+      "I. The Ten Commandments are made not only for subjects but also for those in authority.\nKing Ahab experienced this: he offended against the ninth commandment, and his consort Jezebel sinned against the fifth commandment; but it went very badly for both.",
+      "II. The mighty are mightily punished.\nFor the sake of Naboth alone King Ahab was shot dead; Queen Jezebel was devoured by dogs; and the whole royal house was exterminated root and branch.",
+      "III. There are instruments enough for evil things, but no one wishes to help further what is good.\nWhen King Ahab wanted to take a subject's vineyard, there were accomplices enough: Queen Jezebel wrote false letters in his name; two wicked fellows allowed themselves to be used as false witnesses; and the elders at Jezreel condemned the innocent Naboth to death?"
+    ],
+    "reflection": "Ill-gotten goods do not prosper; I have often heard it said,\nAnd this saying applies even among great lords:\nAs Ahab teaches us by Naboth's vineyard,\nHe is to be an example to high and low.\nAh! for my part I will form the firm resolution\nTo leave to every person what is his own."
   }
 };
