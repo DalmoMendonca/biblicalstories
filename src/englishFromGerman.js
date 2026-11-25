@@ -1025,5 +1025,53 @@ export const englishFromGerman = {
       "III. The Lord God can turn everything to the best, however wickedly it may have been intended.\nThus Joseph said to his brothers who had sold him: You intended to do evil to me, but God intended to make it good."
     ],
     "reflection": "Twelve children can otherwise scarcely feed one father,\nYet one father often feeds and gives drink to twelve children;\nTherefore one must call you blessed, my Joseph,\nWho have given your father house and home.\nHow blessed I too shall consider myself in my own station,\nIf someday I can bring joy to my parents in their old age."
+  },
+  "21": {
+    "pages": [
+      129,
+      130,
+      131,
+      132
+    ],
+    "printed": "63–66",
+    "latin": "Niliacis Moses infantulus innatat undis,\nCui querulis lacrimis ora sinusque madent.\nQuis tibi fatidicus tum praedixisset haruspex,\nDux populi quendam quod foret ille sui?\nForsan & in nostro pueri sunt paupere coetu,\nQuos olim in mundo splendida fata manent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 20,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "On the Egyptian Bondage",
+    "reference": "Exodus, chapters I and II.",
+    "narrative": "1. After Joseph's death the children of Israel multiplied greatly in Egypt. 2. Then the king began to fear that these Hebrews might someday join his enemies. 3. Therefore the Egyptians resolved to eradicate the children of Israel by cunning. 4. To this end the king had new cities built, so that he could impose a great deal of compulsory labor upon them. 5. Taskmasters were also set over them, who treated them quite mercilessly. 6. But this did no good; the more they oppressed the children of Israel, the more numerous they became. 7. Thereupon the king commanded the midwives to kill all Hebrew boys as soon as they came into the world. 8. But the midwives feared God and let the boys live. 9. To the king, however, they said that the Hebrew women were hardy women and had already borne their children before the midwives came to them. 10. When this failed to help, the king commanded all the people to take the newborn boys from the Hebrew mothers and throw them into the water. 11. Once Pharaoh's daughter went walking with her maidens at the water's edge and wished to bathe. 12. But she noticed a little chest of reeds floating upon the water, which had been smeared with clay and pitch. 13. When they drew out the little chest and opened it, behold, a little child lay inside and wept bitterly. 14. Its mother was a Hebrew woman who had hidden the child in her house for three months, and when she could no longer hide it, had placed it among the reeds at the water's edge, so that it might not be murdered at the king's command. 15. Pharaoh's daughter immediately had a nurse called to suckle the child, and this was the child's own mother. 16. When it had been reared a little, the princess adopted it as her child and gave it the name Moses. 17. But Moses did not like the royal court after he had grown up, and went to the children of Israel, who were his brethren. 18. It happened that one of his relatives was being beaten by an Egyptian; this vexed Moses so greatly that he immediately struck the Egyptian dead. 19. Since he now had to flee on this account, he went to a priest named Jethro, 20. who made him a shepherd's servant and afterward gave him his daughter Zipporah as his wife.",
+    "questions": [
+      "How did the children of Israel fare in Egypt after Joseph's death?",
+      "What did the king in Egypt fear?",
+      "What was resolved upon for that reason?",
+      "How did the king torment the Israelites?",
+      "Who was set over them?",
+      "Were they thereby subdued?",
+      "What did the king command the midwives?",
+      "Did the midwives obey him?",
+      "What did they lead the king to believe?",
+      "What did they finally undertake to do with the newborn children?",
+      "What did King Pharaoh's daughter intend to do?",
+      "What did she see floating on the water?",
+      "What was in the little chest?",
+      "How had this happened?",
+      "To whom did she give the child to rear?",
+      "What name did the child receive?",
+      "How did Moses fare at court?",
+      "What killing did he commit?",
+      "Where did Moses have to withdraw?",
+      "How did Moses fare with the priest Jethro?"
+    ],
+    "teachings": [
+      "I. Benefits received are very soon forgotten; prove this to me from this story.\nThe Egyptians no longer remembered the great services Joseph had rendered them in the time of famine.",
+      "II. One must obey God rather than men; show me an example of this!\nThe midwives in Egypt observed this, and did not deprive the newborn boys of their lives, even though the king had commanded it.",
+      "III. Whatever is to become something great in the world, God knows how to preserve wonderfully; by what can this be proved?\nBy Moses, who was to lead the children of Israel out of Egypt, and was therefore rescued from all danger."
+    ],
+    "reflection": "There came a little child floating upon the water,\nWho would cry himself to death from distress;\nWho at that time could have thought\nThat this child was to be Israel's deliverer?\nAh, in the schools there are often forsaken boys too;\nWho knows what they may yet have to hope for in the world?"
   }
 };

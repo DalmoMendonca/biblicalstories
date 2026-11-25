@@ -998,5 +998,52 @@ export const german1768 = {
       "III. GOtt der HErr kan alles zum besten wenden, wenn es gleich noch so böse gemeinet ist.\nSo sagte Joseph zu seinen Brüdern, die ihn verkauffet hatten: Ihr gedachtet es böse mit mir zu machen, aber GOtt gedachte es gut zu machen."
     ],
     "reflection": "Zwölff Kinder können sonst kaum einen Vater speisen /\nDa doch ein Vater oft zwölff Kinder speist und träncket;\nDeswegen muß man dich / mein Joseph / glücklich preisen /\nDer du den Vater hast mit Haus und Hoff beschencket.\nWie selig will ich mich auch meines Ortes schätzen /\nWenn ich die Eltern einst im Alter kan ergötzen."
+  },
+  "21": {
+    "pages": [
+      129,
+      130,
+      131,
+      132
+    ],
+    "printed": "63–66",
+    "latin": "Niliacis Moses infantulus innatat undis,\nCui querulis lacrimis ora sinusque madent.\nQuis tibi fatidicus tum praedixisset haruspex,\nDux populi quendam quod foret ille sui?\nForsan & in nostro pueri sunt paupere coetu,\nQuos olim in mundo splendida fata manent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 20,
+      "teachings": 3
+    },
+    "title": "Von der Egyptischen Dienstbarkeit.",
+    "reference": "2. Mose I. und II. Capitel.",
+    "narrative": "1. Nach Josephs Tode mehreten sich die Kinder Israel gar sehr in Egypten. 2. Da fieng der König an zu sorgen, diese Hebräer möchten sich einmal zu seinen Feinden schlagen. 3. Deswegen beschlossen die Egyptier, die Kinder Israel mit List auszurotten. 4. Der König ließ zu dem Ende neue Städte bauen, damit er ihnen fein viel Hof-Arbeit auflegen könnte. 5. Es wurden auch Frohn-Vögte über sie gesetzet, welche ganz unbarmherzig mit ihnen umgiengen. 6. Aber das half nichts, sondern je mehr sie die Kinder Israel druckten, desto mehr wurden ihrer. 7. Hierauf befahl der König den Wehmüttern, daß sie alle Hebräische Knäblein tödten solten, sobald sie auf die Welt kämen. 8. Aber die Wehemütter fürchteten GOtt, und liessen die Knäblein leben. 9. Zum Könige aber sagten sie, die Hebräischen Weiber wären harte Weiber, und ehe die Wehemütter zu ihnen kämen, so hätten sie die Kinder schon gebohren. 10. Wie das nicht helffen wolte, so geboth der König allem Volcke, daß sie den Hebräischen Müttern ihre neugebohrne Knäblein nehmen und ins Wasser schmeissen solten. 11. Einstens gieng die Tochter Pharao mit ihren Jungfrauen am Rande des Wassers spazieren, und wolte sich baden. 12. Sie ward aber gewahr, daß ein Kästlein von Rohr auf dem Wasser schwamm, welches mit Thon und Peche verschmiret war: 13. Wie sie nun das Kästlein heraus zogen und aufmachten, siehe da lag ein kleines Kindlein darinnen, und weinte bitterlich. 14. Die Mutter darzu war ein Hebräisches Weib, die hatte das Kind drey Monath in ihrem Hause verborgen, und wie sie es nicht länger verbergen konte, so hatte sie es in den Schilff am Ufer des Wassers gelegt, damit es nicht auf Befehl des Königs möchte ermordet werden. 15. Die Tochter Pharao ließ alsobald eine Amme ruffen, welche das Kind säugen solte, und das war die leibliche Mutter des Kindes. 16. Wie es ein wenig erzogen war, so nahm es die Prinzessin an Kindes statt an, und gab ihm den Nahmen Mose. 17. Es gefiel aber Mose nicht an dem Königlichen Hofe, nachdem er groß gewachsen war, sondern er gieng zu den Kindern Israel, die seine Brüder waren. 18. Es trug sich aber eben zu, daß einer von seinen Anverwandten von einem Egyptier geprügelt ward: das verdroß Mosen dergestalt, daß er den Egypter alsobald todt schlug. 19. Weil er nun deswegen flüchtig werden muste, so begab er sich zu einem Priester, mit Nahmen Jethro, 20. der machte einen Schäfer-Knecht aus ihm, und gab ihm darnach seine Tochter, Zipora zum Weibe.",
+    "questions": [
+      "Wie giengs den Kindern Israel nach Josephs Tode in Egypten?",
+      "Was besorgte sich der König in Egypten?",
+      "Was ward deswegen beschlossen?",
+      "Wie plagte der König die Israeliten?",
+      "Wer ward über sie gesetzet?",
+      "Wurden sie denn hiemit gedämpffet?",
+      "Was befahl der König den Wehemüttern?",
+      "Gehorchten ihm dann die Wehemütter?",
+      "Was machten sie dem Könige weiß?",
+      "Was nahmen sie endlich mit den neugebohrnen Kindern vor?",
+      "Was hatte die Tochter des Königes Pharao vor?",
+      "Was sahe sie denn auf dem Wasser schwimmen?",
+      "Was war in dem Kästlein?",
+      "Wie gieng das zu?",
+      "Wem gab sie das Kind zu erziehen?",
+      "Was bekam das Kind vor einen Nahmen?",
+      "Wie befand sich Mose bey Hofe?",
+      "Was begieng er vor einen Todtschlag?",
+      "Wo muste sich Mose hin retiriren?",
+      "Wie gieng es Mose beym Priester Jethro?"
+    ],
+    "teachings": [
+      "I. Die empfangenen Wohlthaten werden gar bald vergessen; beweise mir das aus dieser Historie.\nDie Egypter gedachten nicht mehr daran, was ihnen Joseph in der theuren Zeit vor grosse Dienste gethan hatte.",
+      "II. Man muß GOtt mehr gehorchen, als den Menschen; zeige mir davon ein Exempel!\nDas nahmen die Wehemütter in Egypten in acht, und brachten die neugebohrnen Knäblein nicht um das Leben, ob es gleich der König befohlen hatte.",
+      "III. Was in der Welt was grosses werden soll, das weis GOtt wunderbahrlich zu erhalten; womit kan man das beweisen?\nMit Mose, der solte die Kinder Israel aus Egypten führen, und ward deswegen aus aller Gefahr errettet."
+    ],
+    "reflection": "Dort kam ein kleines Kind im Wasser her geschwommen /\nDas sich vor Ungemach zu Tode wolte schreyn;\nWem ist zur selben Zeit wohl in den Sinn gekommen /\nDaß dieses Israels Erlöser solte seyn?\nAch in den Schulen sind oft auch verlaßne Knaben /\nWer weiß / was in der Welt sie noch zu hoffen haben."
   }
 };
