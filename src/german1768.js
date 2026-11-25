@@ -2073,5 +2073,42 @@ export const german1768 = {
       "III. Getreue Diener Gottes mögen doch die schwere Last ihres heiligen Amts mit Gedult ertragen.\nDie heiligen Engel, die Eliam auf einem feurigen Wagen abgeholet haben, werden auch dermaleins ihre Seelen in Abrahams Schoos tragen, allwo sie leuchten werden, wie des Himmels-Glanz, und wie die Sterne immer und ewiglich."
     ],
     "reflection": "Elisa wird geschimpft von zwey und vierzig Knaben /\nDie schreyen allzumal: Komm / Kalkopf / komm herauf!\nJedoch die Lust ist schlecht / die sie darüber haben /\nZwey Bären fressen sie. Ihr Kinder merket drauf /\nUnd laßt kein solches Wort aus eurem Munde fliessen /\nDaß euch die Lehrer nicht auch so verfluchen müssen."
+  },
+  "39": {
+    "pages": [
+      235,
+      236
+    ],
+    "printed": "133–134",
+    "latin": "Lugebat misere mulier viduata marito,\nQui fuerat vivens obrutus ære gravi.\nParvus at urceolus dissolvit debita cuncta,\nElisæ verbis qui benedictus erat.\nO inopes! Domino confidite rebus in arctis,\nQui bona pauperibus multiplicare potest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    },
+    "editorial_note": "Russian has ten questions rather than eleven, combining the exhaustion of the vessels with the preceding account. Russian devotional reflection is prose without a separate Latin verse.",
+    "title": "Vom Oel-Kruge der Wittwen.",
+    "reference": "2. Kön. IV. Capitel.",
+    "narrative": "1. Unter den Weibern der Propheten-Kinder war eine arme Wittwe, die schrie den Propheten Elisa an. 2. Sie sagte ihm aber, daß ihr Mann gestorben wäre, und daß er GOtt den HErrn gefürchtet hätte. 3. Sie klagte darbey über einen Schuld-Herrn, daß er ihre zwey Kinder nehmen, und Knechte aus ihnen machen wolte, weil sie nicht zu bezahlen hätte. 4. Darauf fragte der Prophet Elisa, was sie denn im Hause hätte? 5. Die arme Frau sagte, sie hätte nichts in ihrem Vermögen, als einen Oel-Krug. 6. Der Prophet sagte: sie solte hingehen, und solte von allen Nachbarinnen Gefässe borgen, und derselben nicht wenig. 7. Darnach solte sie die Thüre hinter sich zuschliessen mit ihren Söhnen, und solte in alle Gefässe giessen, und davon bezahlen. 8. Solches that die Wittwe, und siehe das Oel-Krüglein hörte nicht auf zu lauffen bis alle Gefässe voll waren. 9. Der Sohn solte ihr noch mehr Gefässe zulangen; aber weil keine mehr vorhanden waren, so stund das Oel-Krüglein stille. 10. Wie sie nun das Oel verkaufte, so löste sie so viel daraus, daß alle Schulden konten bezahlet werden. 11. Ja es blieb noch so viel übrig, daß sie sich und ihre Kinder davon ernehren konte.",
+    "questions": [
+      "Was hatte der Prophet Elisa vor einen Anspruch?",
+      "Was sagte die Wittwe von ihrem Manne?",
+      "Aber was klagte sie über ihren Schuld-Herrn?",
+      "Wornach fragte der Prophet?",
+      "Was gab die Wittwe zur Antwort?",
+      "Was hieß sie der Prophet borgen?",
+      "Was solte die Wittwe mit so viel Gefässe machen?",
+      "Was trug sich dann mit dem Oel-Krüglein vor ein Wunder zu?",
+      "Konte sie nicht noch mehr Gefässe borgen?",
+      "Was machte sie mit dem Oele?",
+      "Blieb nicht auch noch etwas übrig?"
+    ],
+    "teachings": [
+      "I. Fromme Diener GOttes in Kirchen und Schulen hinterlassen oft arme Wittwen und Waysen.\nAlso hatte zu Elisa Zeiten ein frommer Mann unter den Propheten-Kindern seiner Wittwe nichts hinterlassen, als Kinder und Schulden.",
+      "II. Mit solchen armen Wittwen und Waysen wird insgemein gar unbarmhertzig umgegangen.\nSo klagte die Wittwe dem Propheten Elisa, daß ihr Schuld-Herr ihre beyden Kinder zu Knechten machen wolte.",
+      "III. Aber GOtt beweiset sonderlich in solchen Fällen, daß er ein Vater der Waysen, und ein Richter der Wittwen sey.\nDas bezeuget die Wittwe mit ihrem Oel-Krüglein, welches GOtt dergestalt segnete, daß sie die Schulden bezahlen, und die Kinder erziehen konnte."
+    ],
+    "reflection": "Die arme Wittwe war betrübt bis an die Seele /\nDenn ihr verstorbner Mann ließ nichts denn Schulden nach:\nDoch alles ward bezahlt durch einen Krug voll Oele /\nSo bald Elisa Mund den Segen drüber sprach.\nIhr Armen: traut auf GOtt in allen euren Sachen /\nEr kan aus wenig viel durch seinen Segen machen."
   }
 };

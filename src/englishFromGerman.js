@@ -2118,5 +2118,43 @@ export const englishFromGerman = {
       "III. May faithful servants of God bear the heavy burden of their holy office with patience.\nThe holy angels who fetched Elijah in a fiery chariot will one day also carry their souls into Abraham's bosom, where they will shine like the brightness of heaven and like the stars forever and ever."
     ],
     "reflection": "Elisha is insulted by forty-two boys,\nWho all cry together: Come, baldhead, come up!\nYet little pleasure do they gain from this:\nTwo bears devour them. You children, take heed,\nAnd let no such word flow out of your mouths,\nLest your teachers likewise have to curse you."
+  },
+  "39": {
+    "pages": [
+      235,
+      236
+    ],
+    "printed": "133–134",
+    "latin": "Lugebat misere mulier viduata marito,\nQui fuerat vivens obrutus ære gravi.\nParvus at urceolus dissolvit debita cuncta,\nElisæ verbis qui benedictus erat.\nO inopes! Domino confidite rebus in arctis,\nQui bona pauperibus multiplicare potest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    },
+    "editorial_note": "Russian has ten questions rather than eleven, combining the exhaustion of the vessels with the preceding account. Russian devotional reflection is prose without a separate Latin verse.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Widow's Cruse of Oil.",
+    "reference": "2 Kings IV.",
+    "narrative": "1. Among the wives of the sons of the prophets there was a poor widow who cried out to the prophet Elisha. 2. She told him that her husband had died and that he had feared the Lord God. 3. She complained at the same time about a creditor who wanted to take her two children and make servants of them because she had nothing with which to pay. 4. Thereupon the prophet Elisha asked what she had in the house. 5. The poor woman said that she possessed nothing but a cruse of oil. 6. The prophet said that she should go and borrow vessels from all her neighbors, and not a few of them. 7. Afterward she should shut the door behind herself and her sons, pour into all the vessels, and pay her debt from the proceeds. 8. The widow did so, and behold, the little cruse of oil did not cease flowing until all the vessels were full. 9. Her son was to hand her still more vessels; but since there were no more available, the little cruse of oil ceased flowing. 10. When she sold the oil, she obtained so much for it that all the debts could be paid. 11. Indeed, there remained so much that she could maintain herself and her children from it.",
+    "questions": [
+      "What appeal was made to the prophet Elisha?",
+      "What did the widow say about her husband?",
+      "But what complaint did she make about her creditor?",
+      "What did the prophet ask?",
+      "What answer did the widow give?",
+      "What did the prophet tell her to borrow?",
+      "What was the widow to do with so many vessels?",
+      "What miracle occurred with the little cruse of oil?",
+      "Could she not borrow still more vessels?",
+      "What did she do with the oil?",
+      "Was there not something left over as well?"
+    ],
+    "teachings": [
+      "I. Pious servants of God in churches and schools often leave behind poor widows and orphans.\nThus in Elisha's time a pious man among the sons of the prophets had left his widow nothing but children and debts.",
+      "II. Such poor widows and orphans are generally treated very mercilessly.\nThus the widow complained to the prophet Elisha that her creditor wanted to make servants of both her children.",
+      "III. But God shows especially in such cases that he is a father of orphans and a judge of widows.\nThis is attested by the widow with her little cruse of oil, which God blessed in such a way that she could pay her debts and bring up her children."
+    ],
+    "reflection": "The poor widow was grieved to her very soul,\nFor her deceased husband left nothing but debts behind;\nYet all was paid through a cruse full of oil\nAs soon as Elisha's mouth pronounced a blessing over it.\nYou poor, trust in God in all your affairs;\nBy his blessing he can make much out of little."
   }
 };
