@@ -2296,5 +2296,75 @@ export const german1768 = {
       "III. Wenn man was Böses höret oder siehet, so soll man machen, daß die Obrigkeit Nachricht davon bekömmt.\nSolches that Mardachai, der wuste es so zu spielen, daß die Nachricht von der Verrätherey vor den König kam, und also das Böse gestraffet ward."
     ],
     "reflection": "Es wolt ein grosser Mann den kleinen hencken lassen /\nAllein du lieber GOtt / wie wandte sich das Blatt!\nDer stolze Haman must am Galgen selbst erblassen /\nUnd Mardachai kam zu Hof an seine Statt:\nWoraus ich denn vor mich zu lernen werde haben /\nDaß ich nicht Gruben soll vor andre Leute graben."
+  },
+  "43": {
+    "pages": [
+      257,
+      258,
+      259,
+      260,
+      261
+    ],
+    "printed": "147–151",
+    "latin": "Jure creatorem contra contendit Hiobus:\nVerum judicio sit reus ipse suo.\nIn jus cum Domino quoties vult ire minister,\nHic toties causa concidit ipse sua.\nErgo dicam nolo tibi scribere, juste Creator!\nTe rogo, tu causam suscipe Christe, meam.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 41,
+      "teachings": 3
+    },
+    "editorial_note": "Opening leaf is mispaginated 247 for 147. German question 17 is printed 27 and narrative 26 is printed 36; numbering normalized. Russian witness has 28 questions and substantially adapted narrative and reflection.",
+    "title": "Von Hiob.",
+    "reference": "Vom ersten bis zum letzten Capitel.",
+    "narrative": "1. Es war ein Mann im Lande Uz, der hieß Hiob. 2. Derselbe Mann war schlecht und recht, Gottesfürchtig, und meidete das Böse. 3. Er hatte sieben Söhne, drey Töchter und sehr viel Viehe. 4. Seine Kinder vertrugen sich gut mit einander, und baten einander fleißig zu Gaste. 5. Der alte Vater aber opfferte täglich Brandopffer vor seine Kinder, 6. Aus Beysorge, sie möchten sich etwan bey ihren Ergötzlichkeiten an dem lieben GOtt versündiget haben. 7. Es begab sich aber auf einen Tag, da die Kinder GOttes oder die heiligen Engel vor dem HErrn traten, kam der Satan auch unter ihnen. 8. Der HErr sprach zu dem Satan: Wo kommst du her? 9. und der Satan sprach: Ich habe das Land umher durchzogen. 10. GOtt der HErr fragte weiter, ob er nicht hätte Acht gehabt auf seinen Knecht Hiob, der an Frömmigkeit seines gleichen im Lande nicht hätte? 11. Der Satan gab zur Antwort: Hiob könnte wohl fromm seyn, da ihm GOtt so viel Güter gegeben hätte. 12. Da sagte GOtt zum Satan: Alles was er hat, sey in deiner Gewalt: Aber an ihn selbst sollst du deine Hand nicht legen. 13. Nicht lange darauf bekam Hiob vier traurige Botschaften nach einander. 14. Der erste Bote erzählte: die Räuber aus dem Lande Arabia hätten die Rinder und die Esel weggetrieben. 15. Der andere sagte: das Feuer wäre vom Himmel gefallen, und hätte die Schafe verbrannt. 16. Der dritte brachte Zeitung: die Chaldäer hätten alle Cameele hinweg genommen. 17. Da er noch redete, so kam der vierte und sagte: das Haus wäre eingefallen, und hätte alle seine Söhne und Töchter todtgeschlagen. 18. Da stund Hiob auf, und zerriß seine Kleider, rauffte sein Haupt, und fiel auf die Erden. 19. Endlich ließ er diese Wörter von sich hören: der HErr hats gegeben, der HErr hats genommen, der Name des HErrn sey gelobet. 20. Nach diesem kamen die Kinder GOttes abermal vor den HErrn, und Satan war auch mitten darunter. 21. Da fragte GOtt wiederum, ob der Satan auch Achtung gegeben hätte auf seinen Knecht Hiob? 22. Der Satan sagte: GOtt solte diesen Hiob nur an seinem Leben antasten, so würde seine Gottesfurcht bald aus seyn. 23. GOtt sprach zum Satan: Siehe da, er sey in deiner Gewalt, doch schone seines Lebens. 24. Alsobald fuhr der Satan aus, und schlug Hioben mit bösen Schwären, von der Fußsohlen an bis auf den Scheitel. 25. Da nahm Hiob eine Scherbe, und schabte sich, und saß in der Aschen. 26. In diesem Elende sagte seine Frau zu ihm: Hältest du noch fest an deiner Frömmigkeit? Ja segne GOtt und stirb! 27. Hiob aber gab ihr zur Antwort: Du redest wie die närrischen Weiber reden. 28. Darnach kamen seine drey Freunde zu ihm, und wolten ihn trösten in seinem grossen Elende. 29. Ihr Discurs lief allemahl dahinaus: Hiob müste die Strafe verdienet haben, weil GOtt ein gerechter GOtt wäre. 30. Und hierinnen thaten sie der Sachen zu viel, weil GOtt nicht nur die Gottlosen straffet, sondern auch die Frommen durch das Creutz züchtiget und bewähret. 31. Hingegen hielt sich Hiob vor gantz unschuldig, und beruffte sich auf sein gut Gewissen. 32. Und hierinnen that Hiob auch zu viel, weil er zwar vor den Menschen, aber deswegen noch lange nicht vor GOtt unschuldig war. 33. Es ward hieraus ein langer Disputat, und Hiob sagte einmal zu ihnen: Ihr seyd allzumal leidige Tröster. 34. Wie der Schmerz am allergrösten war, so begieng Hiob eine Schwachheit, und verfluchte den Tag seiner Geburt. 35. Sonst aber trug er sein Creutz mit Gedult, und hielt fest an seiner Frömmigkeit. 36. Endlich war GOtt der HErr selber Schiedsmann, und ließ sich aus einem Wetter hören. 37. Es lief aber die Entscheidung darauf hinaus, daß sie alle mit einander auf beyden Seiten nicht recht geurtheilet hätten. 38. Hiob kroch alsobald zum Creutze, und that Buße im Staube und in der Aschen. 39. GOtt gab darnach dem Hiob alles zweyfältig wieder, was ihm der Satan genommen hatte. 40. Er zeugte auch nach diesem andre sieben Söhne, und drey Töchter. 41. Und Hiob lebte nach diesem noch hundert und vierzig Jahr, und sahe Kinder und Kindes-Kinder bis ins vierte Glied.",
+    "questions": [
+      "Was wohnte denn vor ein Mann im Lande Uz?",
+      "Was war denn Hiob vor ein Mann?",
+      "Womit war dieser Hiob gesegnet?",
+      "Wie vertrugen sich seine Kinder unter einander?",
+      "Was that der alte Vater darbey?",
+      "Warum opfferte Hiob so fleißig vor seine Kinder?",
+      "Was gieng unterdessen bey GOtt dem HErrn vor?",
+      "Was sagte GOtt zum Satan?",
+      "Was gab der Satan zur Antwort?",
+      "Was wolte GOtt vom Satan wissen?",
+      "Was sagte der Satan von Hiobs Frömmigkeit?",
+      "Was erlaubte GOtt dem Satan?",
+      "Wie viel Trauer-Posten bekam Hiob hierauf?",
+      "Was sagte der erste Bote?",
+      "Was sagte der andere Bote?",
+      "Was sagte der dritte Bote?",
+      "Was sagte der vierte Bote?",
+      "Wie führte sich Hiob darbey auf?",
+      "Was vor Worte ließ Hiob von sich hören?",
+      "Was gieng weiter bey GOtt dem HErrn vor?",
+      "Was fragte GOtt dem Satan?",
+      "Was hatte der Satan abermal einzuwenden?",
+      "Was verhieng GOtt über den frommen Hiob?",
+      "Was that hierauf der Satan?",
+      "Wie befand sich Hiob darbey?",
+      "Was sagte denn seine Frau zu ihm?",
+      "Was gab Hiob seiner Frau vor einen Verweiß?",
+      "Von wem wurde Hiob besucht?",
+      "Was führten seine Freunde vor einen Discurs?",
+      "War das auch recht geurtheilet?",
+      "Aber was wolte Hiob behaupten?",
+      "Hätte denn Hiob darinnen gantz recht?",
+      "Was sagte Hiob endlich zu seinen Freunden?",
+      "Was begieng Hiob einsten vor eine Schwachheit?",
+      "Wie war sonsten seine Aufführung?",
+      "Wer war endlich Richter in dieser Sache?",
+      "Worauf kam endlich die Entscheidung an?",
+      "Hatte Hiob was darwider einzuwenden?",
+      "Auf was Weise wurde Hiob wieder getröstet?",
+      "Was vor Kinder zeugte Hiob nach diesem?",
+      "Und wie lange lebte Hiob noch?"
+    ],
+    "teachings": [
+      "I. GOtt der HErr kennet die Frommen.\nAlso wuste GOtt gar wohl, daß Hiob schlecht und recht lebte, und daß seines gleichen im Lande nicht war.",
+      "II. GOtt der HErr versucht die Frommen.\nAlso verhieng GOtt dem Satan, daß er dem frommen Hiob viel Herzeleid anthun, und seine Gedult dadurch probiren durffte.",
+      "III. GOtt der HErr tröstet die Frommen.\nAlso gab GOtt der HErr dem frommen Hiob alles gedoppelt wieder, was er in seiner Creutz-Probe verlohren hatte."
+    ],
+    "reflection": "Der arme Hiob will mit seinem Schöpfer rechten /\nUnd da er rechten will / so kan er nicht bestehn:\nDenn GOtt behält wohl recht / wenn er mit seinen Knechten\nNach der Gerechtigkeit will ins Gerichte gehn.\nDrum mag ich lieber gar mit GOtt nicht disputiren /\nIch lasse den Proceß den HErren Christum führen."
   }
 };

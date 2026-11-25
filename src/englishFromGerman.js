@@ -2345,5 +2345,76 @@ export const englishFromGerman = {
       "III. When one hears or sees something evil, one should see to it that the authorities receive notice of it.\nMordecai did this: he managed matters so that news of the conspiracy reached the king, and thus the evil was punished."
     ],
     "reflection": "A mighty man would have the little man hanged;\nBut, dear God, how the tables turned!\nProud Haman himself must pale upon the gallows,\nAnd Mordecai came to court in his place.\nFrom this I shall have to learn for myself\nThat I should not dig pits for other people."
+  },
+  "43": {
+    "pages": [
+      257,
+      258,
+      259,
+      260,
+      261
+    ],
+    "printed": "147–151",
+    "latin": "Jure creatorem contra contendit Hiobus:\nVerum judicio sit reus ipse suo.\nIn jus cum Domino quoties vult ire minister,\nHic toties causa concidit ipse sua.\nErgo dicam nolo tibi scribere, juste Creator!\nTe rogo, tu causam suscipe Christe, meam.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 41,
+      "teachings": 3
+    },
+    "editorial_note": "Opening leaf is mispaginated 247 for 147. German question 17 is printed 27 and narrative 26 is printed 36; numbering normalized. Russian witness has 28 questions and substantially adapted narrative and reflection.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Job.",
+    "reference": "From the first to the last chapter.",
+    "narrative": "1. There was a man in the land of Uz whose name was Job. 2. This man was honest and upright, feared God, and shunned evil. 3. He had seven sons, three daughters, and very much livestock. 4. His children got along well with one another and frequently invited one another to feasts. 5. But the old father offered burnt offerings daily for his children, 6. out of concern that in their amusements they might perhaps have sinned against our dear God. 7. Now it happened one day, when the children of God or the holy angels appeared before the Lord, that Satan came among them also. 8. The Lord said to Satan: Whence comest thou? 9. And Satan said: I have traveled throughout the land. 10. God the Lord asked further whether he had taken notice of his servant Job, who had no equal in godliness in the land. 11. Satan answered: Job might well be godly, since God had given him so many possessions. 12. Then God said to Satan: All that he has shall be in thy power; but upon him himself thou shalt not lay thy hand. 13. Not long thereafter Job received four sad tidings one after another. 14. The first messenger related that robbers from the land of Arabia had driven away the cattle and the asses. 15. The second said that fire had fallen from heaven and burned the sheep. 16. The third brought news that the Chaldeans had taken away all the camels. 17. While he was still speaking, the fourth came and said that the house had collapsed and killed all his sons and daughters. 18. Then Job arose, rent his garments, tore his hair, and fell upon the ground. 19. At last these words were heard from him: The Lord gave, the Lord hath taken away; blessed be the name of the Lord. 20. After this the children of God came again before the Lord, and Satan was among them also. 21. Then God asked again whether Satan had taken notice of his servant Job. 22. Satan said that God had only to touch Job's person, and his fear of God would soon be at an end. 23. God said to Satan: Behold, he is in thy power; yet spare his life. 24. Immediately Satan went forth and smote Job with grievous boils from the soles of his feet to the crown of his head. 25. Then Job took a potsherd and scraped himself, and sat in the ashes. 26. In this misery his wife said to him: Dost thou still hold fast to thy godliness? Yea, bless God and die! 27. But Job answered her: Thou speakest as foolish women speak. 28. Thereafter his three friends came to him and wished to comfort him in his great misery. 29. Their discourse always came to this: Job must have deserved the punishment, because God was a righteous God. 30. And in this they went too far, for God not only punishes the ungodly but also chastens and proves the godly through the cross. 31. Job, on the other hand, regarded himself as altogether innocent and appealed to his good conscience. 32. And in this Job also went too far; for although he was innocent before men, he was by no means therefore innocent before God. 33. From this arose a long dispute, and Job once said to them: Miserable comforters are ye all. 34. When his pain was at its greatest, Job gave way to a weakness and cursed the day of his birth. 35. Otherwise, however, he bore his cross with patience and held fast to his godliness. 36. At last God the Lord himself was the arbiter and made himself heard out of a tempest. 37. The decision came to this: all of them on both sides had judged wrongly. 38. Job immediately humbled himself and repented in dust and ashes. 39. Thereafter God restored to Job twice everything that Satan had taken from him. 40. After this he also begot another seven sons and three daughters. 41. And Job lived a hundred and forty years after this and saw children and children's children to the fourth generation.",
+    "questions": [
+      "What man dwelt in the land of Uz?",
+      "What sort of man was Job?",
+      "With what was Job blessed?",
+      "How did his children get along with one another?",
+      "What did the old father do meanwhile?",
+      "Why did Job offer sacrifices so diligently for his children?",
+      "What took place meanwhile before God the Lord?",
+      "What did God say to Satan?",
+      "What answer did Satan give?",
+      "What did God wish to know from Satan?",
+      "What did Satan say of Job's godliness?",
+      "What did God permit Satan to do?",
+      "How many sad tidings did Job receive thereupon?",
+      "What did the first messenger say?",
+      "What did the second messenger say?",
+      "What did the third messenger say?",
+      "What did the fourth messenger say?",
+      "How did Job conduct himself thereupon?",
+      "What words were heard from Job?",
+      "What further took place before God the Lord?",
+      "What did God ask Satan?",
+      "What objection did Satan again raise?",
+      "What did God permit to befall the godly Job?",
+      "What did Satan do thereupon?",
+      "How did Job fare in this?",
+      "What did his wife say to him?",
+      "What rebuke did Job give his wife?",
+      "By whom was Job visited?",
+      "What discourse did his friends hold?",
+      "Was this a right judgment?",
+      "But what did Job wish to maintain?",
+      "Was Job entirely right in this?",
+      "What did Job finally say to his friends?",
+      "To what weakness did Job once give way?",
+      "How did he otherwise conduct himself?",
+      "Who was finally the judge in this matter?",
+      "What was the final decision?",
+      "Did Job have anything to object to it?",
+      "In what manner was Job comforted again?",
+      "What children did Job beget after this?",
+      "And how long did Job live thereafter?"
+    ],
+    "teachings": [
+      "I. God the Lord knows the godly.\nThus God knew very well that Job lived honestly and uprightly and that there was none like him in the land.",
+      "II. God the Lord tests the godly.\nThus God permitted Satan to inflict much sorrow upon the godly Job and thereby put his patience to the test.",
+      "III. God the Lord comforts the godly.\nThus God the Lord restored to the godly Job twice everything that he had lost in the trial of his cross."
+    ],
+    "reflection": "Poor Job would plead his case against his Maker,\nBut when he would contend, he cannot stand:\nFor God indeed remains in the right when with his servants\nHe would enter into judgment according to justice.\nTherefore I would rather not dispute with God at all;\nI leave the Lord Christ to plead my case."
   }
 };
