@@ -817,5 +817,58 @@ export const german1768 = {
       "III. Ein jedweder Haus-Vater soll sich auf frommes und gottsfürchtiges Gesinde befleißigen.\nDenn um eines frommen Knechts willen ward Potiphars ganzes Haus reichlich gesegnet."
     ],
     "reflection": "Laß keuscher Joseph zu / daß ich von dir was lerne:\nKomm / sprach das Weib / du solt in meinen Armen ruhn:\nDu aber gabest ihr zur Antwort: Das sey ferne /\nDaß ich solt wider GOtt ein solches Uebel thun.\nDas will ich ebenfalls der Welt zur Antwort geben /\nWenn sie mich reizen wird zu ihrem Sünden-Leben."
+  },
+  "18": {
+    "pages": [
+      108,
+      111,
+      112,
+      113,
+      114
+    ],
+    "printed": "50–54",
+    "latin": "Josephus castus fatis jactatus iniquis,\nMirum fortunae ludibriumque fuit.\nJam patris Ascanius; jam flexo polite servus;\nCarcere jam dignus; jam vice Regis erat!\nDuc me, quo tua fert divina, JEHOVA, voluntas,\nSit modo curriculi meta beata mei.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 24,
+      "teachings": 3
+    },
+    "title": "Wie Joseph aus dem Gefängniß erlöset worden.",
+    "reference": "1. Mose XL. und XLI. Capitel.",
+    "narrative": "1. Wie Joseph im Gefängniß war, so fielen zwey Bedienten des Königs in Ungnade. 2. Der eine war ein Amtmann über die Schenken; und der andere über die Becker bey Hofe. 3. Beyde wurden in das Gefängniß geworffen, und Joseph muste die Aufsicht über sie haben. 4. Einstens, wie Joseph des Morgens zu ihnen hinein kam, so fand er sie beyde gar melancholisch. 5. Joseph redte sie alsobald an, und fragte, warum sie so traurig wären? 6. Sie gaben zur Antwort: Es hätte ihnen beyden in der vergangenen Nacht was sonderliches geträumet, und es wäre niemand vorhanden, der ihnen die Deutung sagen könnte. 7. Joseph sagte zwar, Träume auslegen wäre Gottes Werck; jedoch solten sie ihm die Sache nur erzählen. 8. Da sprach der oberste Schencke: Mir hat geträumet, als wenn ein Weinstock vor mir wäre, der hatte drey reiffe Trauben; ich aber hatte den Becher Pharao in meiner Hand, und drückte die Trauben in den Becher, und gab sie dem Könige in die Hand. 9. Joseph sagte gleich, die drey Trauben bedeuten drey Tage: Denn über drey Tage würde Pharao sein Haupt erheben, und ihn wieder in sein Amt setzen. 10. Dabey gab er dem Ober-Schencken eine gute Vermahnung, und sagte: Gedencke meiner, wenn dirs wohl gehet. 11. Darauf sagte der oberste Becker: Mir hat auch geträumet, ich trüge drey weisse Körbe auf meinem Haupte, und in dem obersten Korbe allerhand gebackene Speise dem Pharao, und die Vögel assen aus dem Korbe auf meinem Haupte. 12. Joseph machte darüber diese Auslegung: Drey Körbe bedeuten drey Tage; denn nach dreyen Tagen würde der König sein Haupt erheben, und ihn an den Galgen henken, da würden die Vögel sein Fleisch von ihm fressen. 13. Ueber drey Tage, als der König eben seinen Jahrs-Tag begieng, wurden beyde Träume erfüllet. Denn der Ober-Schencke kam wieder an sein Amt, und der Ober-Becker ward an den Galgen gehangen. 14. Aber der Ober-Schencke gedachte nicht an Josephen, sondern vergaß seiner. 15. Zwey Jahr darnach hatte König Pharao einen gedoppelten Traum. 16. Erstlich sahe er aus dem Wasser steigen sieben schöne fette Kühe, und darnach sieben häßliche und magre Kühe. Diese sieben magre Kühe frassen die fetten, und man konte es ihnen nicht ansehen, sondern sie blieben häßlich, wie vorhin. 17. Bald darauf sahe er sieben volle und dicke Aehren auf einem Halm, und darnach sieben dünne Aehren; und die sieben dünne Aehren verschlungen die sieben dicken Aehren. 18. So bald es morgen ward, so ließ Pharao alle Wahrsager in Egypten zusammen ruffen: Aber sie konnten ihm die Träume nicht auslegen. 19. Da trat der Ober-Schencke vor dem König, und sprach: Ich gedencke heute an meine Sünde; und erzehlte dem Könige, daß ein Hebräischer Jüngling im Gefängniß sässe, der die Kunst, Träume zu deuten, gelernet hätte. 20. So bald Joseph vor dem König kam, und ihm der König die Träume erzehlet hatte, so sprach er gleich: die sieben fette Kühe, und die sieben dicken Aehren, das wären sieben fruchtbare Jahre; und hingegen die sieben magere Kühe, und die sieben dürre Aehren bedeuten sieben dürre Jahre. 21. Dabey rieth er dem Könige, daß er sich nach einem klugen Manne umsehen solte, der in den fruchtbaren Jahren das überflüßige Getreide zu rathe hielte. 22. Diesen Vorschlag ließ sich der König gefallen, und satzte Josephen alsobald über ganz Egypten, daß er der nächste nach dem Könige seyn solte. 23. Darauf zog Pharao seinen Ring vom Finger, und gab ihn Josephen an seine Hand, und ließ ihm ein Kleid von weisser Seiden anlegen, und hieng ihm eine güldene Kette um seinen Hals. 24. Ja er ließ ihn gar auf seinem andern Wagen fahren, und vor ihm ausruffen: Diß ist des Landes Vater.",
+    "questions": [
+      "Was trug sich am Hofe in Egypten zu?",
+      "Was waren es vor Bedienten?",
+      "Was war ihre Strafe?",
+      "Was wiederfuhr diesen beyden Gefangenen?",
+      "Was redte Joseph mit ihnen?",
+      "Was gaben sie ihm vor Nachricht?",
+      "Was sagte Joseph darauf?",
+      "Was hatte dem Oberschencken geträumet?",
+      "Was machte Joseph vor eine Auslegung darüber?",
+      "Was gab er ihm vor eine Vermahnung darbey?",
+      "Wie erzehlte der oberste Becker seinen Traum?",
+      "Was machte Joseph vor eine Deutung?",
+      "Aber traf auch die Auslegung ein?",
+      "Gedachte denn auch der Ober-Schencke an Josephen?",
+      "Was begegnete nach diesem dem Könige Pharao?",
+      "Welches war sein erster Traum?",
+      "Welches war sein anderer Traum?",
+      "Wer solte diese Träume erstlich auslegen?",
+      "Wer brachte aber Josephen in Vorschlag?",
+      "Was machte Joseph vor eine Auslegung über die Träume des Königes?",
+      "Was gab Joseph dem Könige vor einen Rath?",
+      "Wem trug der König solches auf?",
+      "Was that er Josephen vor Ehre an?",
+      "Was ließ er vor ihm her ausruffen?"
+    ],
+    "teachings": [
+      "I. Die guten und bösen Zeiten kommen nicht ohngefehr, sondern es gehet alles nach der göttlichen Vorsehung.\nDenn GOtt ließ es ja dem Könige in Egypten zuvor sagen, daß sieben fette und sieben magre Jahre nach einander kommen würden.",
+      "II. Wenn weise Leute in einem Lande befördert werden, so wird oftmals groß Unglücke abgewendet.\nWie viel tausend Menschen würden Hungers gestorben seyn, wenn Joseph nicht die Aufsicht über das Getreide bekommen hätte.",
+      "III. Bey guten Zeiten soll man sparen, damit man in der bösen Zeit nicht darben muß.\nDenn es kommen nicht immer fette, sondern auch bisweilen magre Jahre."
+    ],
+    "reflection": "Dem Joseph ist es wohl recht wunderlich gegangen /\nEs war derselbe bald des Vaters liebster Sohn;\nBald ein verkauffter Knecht; bald auf den Hals gefangen:\nUnd endlich stieg er doch bis an den Königs-Thron.\nMein GOtt ich will mich dich auch lassen ganz regieren /\nDu wirst mich wunderlich / doch aber selig führen.",
+    "editorial_note": "Latin line 3 reads 'flexo polite' in the printed witness; the reading remains subject to independent collation."
   }
 };

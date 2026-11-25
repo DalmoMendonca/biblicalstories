@@ -842,5 +842,58 @@ export const englishFromGerman = {
       "III. Every head of a household should endeavor to have godly and God-fearing servants.\nFor the sake of one godly servant, Potiphar's whole house was richly blessed."
     ],
     "reflection": "Allow me, chaste Joseph, to learn something from you:\nCome, said the woman, you shall rest in my arms;\nBut you gave her this answer: Far be it from me,\nThat I should do such evil against God.\nThis same answer I will give the world,\nWhen it entices me to its life of sin."
+  },
+  "18": {
+    "pages": [
+      108,
+      111,
+      112,
+      113,
+      114
+    ],
+    "printed": "50–54",
+    "latin": "Josephus castus fatis jactatus iniquis,\nMirum fortunae ludibriumque fuit.\nJam patris Ascanius; jam flexo polite servus;\nCarcere jam dignus; jam vice Regis erat!\nDuc me, quo tua fert divina, JEHOVA, voluntas,\nSit modo curriculi meta beata mei.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 24,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Joseph Was Delivered from Prison",
+    "reference": "Genesis, chapters XL and XLI.",
+    "narrative": "1. While Joseph was in prison, two servants of the king fell into disfavor. 2. One was an officer over the cupbearers, and the other over the bakers at court. 3. Both were thrown into prison, and Joseph had to have charge of them. 4. Once, when Joseph came in to them in the morning, he found both of them very melancholy. 5. Joseph immediately spoke to them and asked why they were so sad. 6. They answered that both had dreamed something remarkable during the past night, and that there was no one present who could tell them its meaning. 7. Joseph said that interpreting dreams was God's work; nevertheless, they should simply tell him the matter. 8. Then the chief cupbearer said: I dreamed that a vine stood before me, which had three ripe clusters of grapes; I had Pharaoh's cup in my hand, pressed the grapes into the cup, and gave it into the king's hand. 9. Joseph immediately said that the three clusters meant three days: for in three days Pharaoh would lift up his head and restore him to his office. 10. With this he gave the chief cupbearer a good admonition, saying: Remember me when it goes well with you. 11. Then the chief baker said: I too dreamed that I carried three white baskets on my head, and in the uppermost basket all manner of baked food for Pharaoh; and the birds ate from the basket on my head. 12. Joseph gave this interpretation: Three baskets mean three days; for after three days the king would lift up his head and hang him on the gallows, where the birds would eat his flesh. 13. After three days, when the king was celebrating his birthday, both dreams were fulfilled. For the chief cupbearer was restored to his office, and the chief baker was hanged on the gallows. 14. But the chief cupbearer did not remember Joseph, but forgot him. 15. Two years afterward King Pharaoh had a double dream. 16. First he saw seven beautiful fat cows come up out of the water, and after them seven ugly and lean cows. These seven lean cows devoured the fat ones, yet one could not tell it by looking at them, for they remained as ugly as before. 17. Soon afterward he saw seven full and thick ears of grain on one stalk, and after them seven thin ears; and the seven thin ears swallowed the seven thick ears. 18. As soon as morning came, Pharaoh called together all the soothsayers in Egypt; but they could not interpret the dreams for him. 19. Then the chief cupbearer came before the king and said: Today I remember my sin; and told the king that a Hebrew youth was sitting in prison who had learned the art of interpreting dreams. 20. As soon as Joseph came before the king and the king had told him the dreams, he said at once: the seven fat cows and the seven thick ears were seven fruitful years; whereas the seven lean cows and the seven withered ears meant seven barren years. 21. He further advised the king to look for a wise man who would save the surplus grain in the fruitful years. 22. The king approved this proposal and immediately set Joseph over all Egypt, so that he should be next after the king. 23. Pharaoh then drew his ring from his finger and placed it on Joseph's hand, had him clothed in a garment of white silk, and hung a golden chain about his neck. 24. Indeed, he even had him ride in his second chariot and had it proclaimed before him: This is the father of the country.",
+    "questions": [
+      "What happened at the court in Egypt?",
+      "What sort of servants were they?",
+      "What was their punishment?",
+      "What happened to these two prisoners?",
+      "What did Joseph say to them?",
+      "What information did they give him?",
+      "What did Joseph say in response?",
+      "What had the chief cupbearer dreamed?",
+      "What interpretation did Joseph give of it?",
+      "What admonition did he give him on this occasion?",
+      "How did the chief baker tell his dream?",
+      "What interpretation did Joseph give?",
+      "But did the interpretation come to pass?",
+      "Did the chief cupbearer remember Joseph?",
+      "What happened after this to King Pharaoh?",
+      "What was his first dream?",
+      "What was his second dream?",
+      "Who was first to interpret these dreams?",
+      "But who proposed Joseph?",
+      "What interpretation did Joseph give of the king's dreams?",
+      "What advice did Joseph give the king?",
+      "To whom did the king entrust this task?",
+      "What honor did he bestow upon Joseph?",
+      "What did he have proclaimed before him?"
+    ],
+    "teachings": [
+      "I. Good and bad times do not come by chance, but everything proceeds according to divine providence.\nFor God had the king of Egypt told beforehand that seven fat and seven lean years would come one after the other.",
+      "II. When wise people are promoted in a country, great misfortune is often averted.\nHow many thousands of people would have died of hunger if Joseph had not been given charge of the grain.",
+      "III. In good times one should save, so that one need not suffer want in bad times.\nFor there are not always fat years, but sometimes lean years also."
+    ],
+    "reflection": "Things indeed went very strangely for Joseph:\nAt one time he was his father's dearest son;\nThen a sold servant; then a prisoner in mortal peril;\nAnd at last he rose even to the king's throne.\nMy God, I too will let you govern me entirely;\nYou will lead me strangely, yet blessedly."
   }
 };
