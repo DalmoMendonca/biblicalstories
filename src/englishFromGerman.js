@@ -2156,5 +2156,61 @@ export const englishFromGerman = {
       "III. But God shows especially in such cases that he is a father of orphans and a judge of widows.\nThis is attested by the widow with her little cruse of oil, which God blessed in such a way that she could pay her debts and bring up her children."
     ],
     "reflection": "The poor widow was grieved to her very soul,\nFor her deceased husband left nothing but debts behind;\nYet all was paid through a cruse full of oil\nAs soon as Elisha's mouth pronounced a blessing over it.\nYou poor, trust in God in all your affairs;\nBy his blessing he can make much out of little."
+  },
+  "40": {
+    "pages": [
+      239,
+      240,
+      241,
+      242
+    ],
+    "printed": "135–138",
+    "latin": "Quam deleta jaces, o urbs in monte Sionis,\nCum gravis exarsit vindicis ira Dei!\nDestruitur templum! Rex captus vincula gestat,\nEt populus patriis sedibus exul agit.\nCautior hinc fias, qui Christi nomen adoras,\nNec frustra jactes templa sacrata Deo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 27,
+      "teachings": 3
+    },
+    "editorial_note": "Russian has 25 questions, combining the questions on Jehoiakim and Zedekiah and on Solomon's temple and Jerusalem. Russian prose reflection has no separate Latin verse.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Babylonian Captivity.",
+    "reference": "2 Kings XVII–XXV.",
+    "narrative": "1. There were two kingdoms among the people of God, namely Judah and Israel. 2. Altogether twenty kings reigned over Judah in Jerusalem, 3. and among them there were nevertheless eight pious kings. 4. Over Israel, however, a total of nineteen kings reigned at Samaria, 5. and among them there was not a single one who feared the Lord God. 6. Both kingdoms were finally destroyed by the Assyrians. 7. The kingdom of Israel was the first to perish, 8. and its ten tribes were carried away captive. 9. The last king was called Hoshea. 10. His conqueror was King Shalmaneser at Nineveh. 11. His son Sennacherib also wished to put an end to the kingdom of Judah, 12. and besieged the worthy King Hezekiah in the city of Jerusalem. 13. But during the night the angel of the Lord went forth and struck dead one hundred and eighty-five thousand Assyrians. 14. In the morning the camp before the city was full of dead men, and Sennacherib went his way. 15. From that time the kingdom of Judah stood for more than another hundred years. 16. But most of the succeeding kings were also godless. 17. In particular King Manasseh shed as much blood at Jerusalem as if it were water. 18. Finally the Lord God allowed his judgments of punishment to fall upon the kingdom of Judah also. 19. He delivered it into the hand of King Nebuchadnezzar at Babylon. 20. He came first to Jerusalem and led King Jehoiakim captive to Babylon, and soon afterward his son Jehoiachin also, together with the most prominent Jews. 21. Nine years afterward he had the eyes of Zedekiah, the last Jewish king, put out; 22. and the children of this king were slain before his eyes. 23. Solomon's magnificent temple was burned. 24. The city of Jerusalem was transformed into a heap of stones. 25. And the common people were driven to Babylon like cattle. 26. This happened just six hundred years before the birth of Christ. 27. From that time Jerusalem lay desolate for seventy whole years, namely for as long as the captivity lasted.",
+    "questions": [
+      "How many kingdoms were there among the people of God?",
+      "How many kings reigned over Judah?",
+      "How many of them were pious?",
+      "How many kings reigned over Israel?",
+      "How many of them were pious?",
+      "By whom were these two kingdoms destroyed?",
+      "Which kingdom was destroyed first?",
+      "How many tribes were carried away at that time?",
+      "What was the last king in Israel called?",
+      "Who was his conqueror?",
+      "What had Sennacherib resolved to do?",
+      "What siege did he undertake?",
+      "How did the siege turn out?",
+      "Where did King Sennacherib go?",
+      "How long did the kingdom of Judah stand after this?",
+      "How did the succeeding kings conduct themselves?",
+      "Which was the worst king of all?",
+      "But how did it finally turn out for the kingdom of Judah?",
+      "To whom did God deliver the kingdom of Judah?",
+      "What did Nebuchadnezzar do with King Jehoiakim?",
+      "And how did Nebuchadnezzar treat Zedekiah, the last Jewish king?",
+      "How did his children fare?",
+      "What became of Solomon's temple?",
+      "How did the whole city of Jerusalem fare?",
+      "Where did the common people go?",
+      "When did this great devastation occur?",
+      "How long did the Babylonian captivity last?"
+    ],
+    "teachings": [
+      "I. God often waits a long time for human beings to amend their ways.\nThus, when the kingdom of Israel had already been destroyed, God allowed the kingdom of Judah to stand for more than a hundred years, so that they might indeed have time and opportunity for repentance.",
+      "II. The greater God's longsuffering has been, the heavier are his judgments of punishment afterward.\nWhen the house of Judah did not repent, God did not spare even his temple, which in Solomon's time the glory of the Lord had visibly filled.",
+      "III. Happy is the one who grows wise through other people's misfortunes.\nThus the house of Judah should have taken warning from the house of Israel, and the city of Jerusalem from her sister Samaria."
+    ],
+    "reflection": "O city of Jerusalem! How has it gone with you\nAfter the wrath of the Lord was kindled against you!\nYour temple was destroyed! Your king was taken captive;\nYour people were carried away into a distant land.\nYou Christians, take warning from this example of wrath,\nAnd do not presume upon the words: Here is the temple of the Lord."
   }
 };

@@ -2110,5 +2110,60 @@ export const german1768 = {
       "III. Aber GOtt beweiset sonderlich in solchen Fällen, daß er ein Vater der Waysen, und ein Richter der Wittwen sey.\nDas bezeuget die Wittwe mit ihrem Oel-Krüglein, welches GOtt dergestalt segnete, daß sie die Schulden bezahlen, und die Kinder erziehen konnte."
     ],
     "reflection": "Die arme Wittwe war betrübt bis an die Seele /\nDenn ihr verstorbner Mann ließ nichts denn Schulden nach:\nDoch alles ward bezahlt durch einen Krug voll Oele /\nSo bald Elisa Mund den Segen drüber sprach.\nIhr Armen: traut auf GOtt in allen euren Sachen /\nEr kan aus wenig viel durch seinen Segen machen."
+  },
+  "40": {
+    "pages": [
+      239,
+      240,
+      241,
+      242
+    ],
+    "printed": "135–138",
+    "latin": "Quam deleta jaces, o urbs in monte Sionis,\nCum gravis exarsit vindicis ira Dei!\nDestruitur templum! Rex captus vincula gestat,\nEt populus patriis sedibus exul agit.\nCautior hinc fias, qui Christi nomen adoras,\nNec frustra jactes templa sacrata Deo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 27,
+      "teachings": 3
+    },
+    "editorial_note": "Russian has 25 questions, combining the questions on Jehoiakim and Zedekiah and on Solomon's temple and Jerusalem. Russian prose reflection has no separate Latin verse.",
+    "title": "Von der Babylonischen Gefängniß.",
+    "reference": "2. Kön. XVII. bis XXV. Capitel.",
+    "narrative": "1. Es waren zwey Königreiche im Volcke GOttes, nemlich Juda und Israel. 2. Ueber Juda haben in allem zwanzig Könige in Jerusalem regieret; 3. und darunter sind gleichwohl noch acht fromme Könige gewesen. 4. Ueber Israel aber haben zusammen neunzehn Könige zu Samaria regieret; 5. und darunter ist nicht ein einziger gewesen, der GOtt den HErrn gefürchtet hätte. 6. Beyde Königreiche sind endlich von den Assyrern zerstöret worden. 7. Das Königreich Israel gieng am ersten zu Grunde; 8. und seine zehn Stämme wurden gefangen weggeführet. 9. Der letzte König ward Hosea genannt. 10. Sein Ueberwinder war der König Salmanasser zu Ninive. 11. Sein Sohn Sanherib wolte zwar auch dem Königreiche Juda ein Ende machen; 12. und belagerte den löblichen König Hiskiam in der Stadt Jerusalem: 13. Aber in der Nacht fuhr der Engel des HErrn aus, und schlug hundert und fünf und achtzig tausend Assyrer todt. 14. Des Morgens lag vor der Stadt in dem Lager alles voller Todten, und Sanherib zog seines Weges. 15. Von selbiger Zeit an stund das Königreich Juda noch länger als hundert Jahr. 16. Es waren aber auch unter den folgenden Königen die meisten gottlose. 17. Und sonderlich vergoß der König Manasse so viel Blut zu Jerusalem, als wenn es Wasser wäre. 18. Endlich ließ GOtt der HErr sein Straf-Gerichte auch über das Königreich Juda ergehen. 19. Und zwar so übergab er solches in die Hand des Königes Nebucadnezar zu Babel. 20. Derselbe kam erstlich nach Jerusalem, und führete den König Jojakim, bald darauf auch seinen Sohn Jojachim, mit den vornehmsten Juden gefangen nach Babel. 21. Darnach über neun Jahr ließ er dem letzten Jüdischen Könige Zedekia die Augen ausstechen: 22. und die Kinder dieses Königes wurden vor seinen Augen geschlachtet. 23. Der herrliche Tempel Salomonis ward verbrannt. 24. Die Stadt Jerusalem ward in einen Stein-Hauffen verwandelt. 25. Und das gemeine Volck ward wie das Vieh nach Babel getrieben. 26. Das geschahe gleich sechs hundert Jahr vor der Geburt Christi. 27. Von solcher Zeit an hat Jerusalem gantzer siebenzig Jahr wüste gelegen, so lange nemlich die Gefängniß gewähret hat.",
+    "questions": [
+      "Wie viel waren Königreiche im Volcke GOttes?",
+      "Wie viel Könige haben über Juda regieret?",
+      "Wie viel sind fromme darunter gewesen?",
+      "Wie viel Könige haben über Israel regieret?",
+      "Wie viel sind fromme darunter gewesen?",
+      "Von wem sind diese beyden Königreiche zerstöret worden?",
+      "Welch Königreich ward erst zerstöret?",
+      "Wie viel Stämme wurden damals weggeführet?",
+      "Wie hieß der letzte König in Israel?",
+      "Wer war sein Ueberwinder?",
+      "Was hatte sich Sanherib vorgesetzet?",
+      "Was nahm er vor eine Belagerung vor?",
+      "Wie lief die Belagerung ab?",
+      "Wo blieb der König Sanherib?",
+      "Wie lange hat das Königreich Juda nach diesem noch gestanden?",
+      "Wie führten sich denn die folgenden Könige auf?",
+      "Welcher war denn der allerschlimmste König?",
+      "Aber wie lief es endlich mit dem Königreiche Juda ab?",
+      "Wem übergab GOtt das Königreich Juda?",
+      "Was nahm Nebucadnezar mit dem Könige Jojakim vor?",
+      "Und wie tractirte Nebucadnezar den letzten Jüdischen König Zedekia?",
+      "Wie gieng es seinen Kindern?",
+      "Wie stund es um Salomonis Tempel?",
+      "Wie giengs der gantzen Stadt Jerusalem?",
+      "Wo blieb das gemeine Volck?",
+      "Wenn geschahe diese grosse Verwüstung?",
+      "Wie lange hat die Babylonische Gefängniß gewähret?"
+    ],
+    "teachings": [
+      "I. GOtt wartet oftmals lange Zeit auf die Besserung des Menschen.\nAlso wie das Königreich Israel schon zerstöret war, so ließ GOtt das Königreich Juda noch über hundert Jahr stehen, damit sie ja Zeit und Raum zur Busse haben möchten.",
+      "II. Je grösser die Langmuth GOttes gewesen ist, desto schwerer sind hernach seine Straf-Gerichte.\nWie sich das Haus Juda nicht bekehrte, so verschonte GOtt auch nicht einmal seinen Tempel, welchen doch zu Salomonis Zeiten die Herrlichkeit des HErrn sichtbarlich erfüllet hatte.",
+      "III. Wohl dem, der mit anderer Leute Schaden klug wird.\nSo hätte sich das Haus Juda an dem Hause Israel; und die Stadt Jerusalem an ihrer Schwester Samaria spiegeln sollen."
+    ],
+    "reflection": "O Stadt Jerusalem! wie ist es dir ergangen /\nNachdem des HErren Zorn war wider dich entbrannt!\nDein Tempel ward zerstört! dein König ward gefangen;\nDein Volk ward weggeführ't in ein entfernetes Land /\nIhr Christen spiegelt euch an diesem Zorn-Exempel /\nUnd trotzt nicht auf das Wort: Hier ist des HErren Tempel."
   }
 };
