@@ -24,8 +24,6 @@ jobs:
           python3 scripts/align_zurich_geometry.py
           git diff --exit-code -- sources/zurich-editorial/geometry
           node --test tests/content.test.mjs
-      - name: Stage all Russian historical OCR pages as checksum-verified editorial packets
-        run: python3 scripts/stage_russian_editorial.py
       - name: Validate actual structured texts and generate coverage
         run: |
           python3 scripts/audit_corpus.py
@@ -35,6 +33,8 @@ jobs:
           else
             echo "Complete edition gate blocked; not a complete trilingual edition"
           fi
+      - name: Stage Russian historical OCR pages against their archived image receipts
+        run: python3 scripts/stage_russian_editorial.py
       - name: Install browser test tools
         run: |
           npm install --no-save playwright

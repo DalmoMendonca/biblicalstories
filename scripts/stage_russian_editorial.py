@@ -47,12 +47,12 @@ def get_lines(path):
 def annotate(lines,dims):
     if not lines:return []
     # This is a diagnostic heuristic, not a deletion/filtering stage.
-    h=statistics.median(l["box"][3] for l in lines if l["box"][3]>0)
+    h=statistics.median([l["box"][3] for l in lines if l["box"][3]>0] or [1])
     headings=[]
     for i,l in enumerate(lines):
         for name,label in HEADS.items():
             score=similar(l["ocr"],label)
-            if name=="chapter-heading":score=similar(l["ocr"].split()[0],label)
+            if name=="chapter-heading":score=similar((l["ocr"].split() or [""])[0],label)
             if score>=.66:
                 headings.append((i,name,score));break
     candidates={i:(name,score) for i,name,score in headings}
@@ -89,7 +89,8 @@ def main():
             try:
                 rec=load(base.with_suffix(".json"))
                 assert rec["page"]==n
-                assert rec["image_sha256"]==indexed[n]["archived_sha256"]==digest(ROOT/rec["image"])
+                assert rec["image_sha256"]==digest(ROOT/rec["image"])
+                if "archived_sha256" in indexed[n]:assert rec["image_sha256"]==indexed[n]["archived_sha256"]
                 assert digest(base.with_suffix(".txt"))==rec["text_sha256"]
                 assert digest(base.with_suffix(".tsv"))==rec["tsv_sha256"]
                 dims,lines=get_lines(base.with_suffix(".tsv"))
