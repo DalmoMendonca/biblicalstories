@@ -1,0 +1,43 @@
+name: Acquire existing library text layers and audit corpus
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/library-text-acquisition.yml'
+permissions:
+  contents: write
+concurrency:
+  group: library-text-acquisition
+  cancel-in-progress: false
+jobs:
+  acquire:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate current corpus and generate section-by-section checkpoint
+        run: python scripts/audit_corpus.py
+      - name: Acquire public library text layers
+        run: python scripts/acquire_library_text.py
+      - name: Archive raw sources, receipts and coverage without publishing unreviewed text
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/library-text public/data/corpus-audit.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Checkpoint library text acquisition and measured corpus coverage"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Preserve evidence if repository write fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: library-text-acquisition
+          path: |
+            sources/library-text
+            public/data/corpus-audit.json
+          if-no-files-found: warn
