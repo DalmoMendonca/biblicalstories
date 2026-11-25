@@ -67,7 +67,14 @@
       "markers": {
         "questions": true,
         "teachings": true,
-        "reflection": false
+        "reflection": true
+      },
+      "marker_review": {
+        "reflection": {
+          "quote": "Gortstlige Gedanken.",
+          "source_offset": 40478,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -104,9 +111,16 @@
       "end": 52002,
       "heading": "Die VIII. Historie. Von Abraham und Sarah. i. Buch Mof. XVIII. Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Fraget».",
+          "source_offset": 48507,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -195,9 +209,16 @@
       "end": 85676,
       "heading": "Die X V. Historie. Me Jacob mit Gott gerungen hat. Buch Mof. XXXII. und XXXIII. Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Fraget».",
+          "source_offset": 80905,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -260,9 +281,21 @@
       "end": 116288,
       "heading": "Die XX. Historie. Wie sich Joseph seinen Brudern zuerkennen gegeben hat.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
-        "reflection": false
+        "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Was ließ Joseph seine» Brudern in die Sacke ?",
+          "source_offset": 109002,
+          "kind": "numbered question, heading absent"
+        },
+        "reflection": {
+          "quote": "E-ttselige Gedanken.",
+          "source_offset": 115959,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -364,9 +397,16 @@
       "end": 166805,
       "heading": "Die XXVIII. Historie. Von dem Priester Eli. i. Sam. II. und III. Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Frage»».",
+          "source_offset": 162119,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -417,8 +457,15 @@
       "heading": "Die XXXII. Historie. Von der Dathseba. -. Sam. XI. und XII. Cap.",
       "markers": {
         "questions": true,
-        "teachings": false,
+        "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "teachings": {
+          "quote": "Nützliche Lehrest.",
+          "source_offset": 189092,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -520,9 +567,16 @@
       "end": 230596,
       "heading": "Die XQ Historie. Von der Babylonischen Ge- fangrmß.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Krage»!.",
+          "source_offset": 225729,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -925,7 +979,14 @@
       "markers": {
         "questions": true,
         "teachings": true,
-        "reflection": false
+        "reflection": true
+      },
+      "marker_review": {
+        "reflection": {
+          "quote": "<ßoctseltge Gedanken.",
+          "source_offset": 367683,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1001,9 +1062,16 @@
       "end": 391003,
       "heading": "Die XXV. Historie. Wie JEsus fünf tausend Mann z gespeiste hat. ,",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Fraget».",
+          "source_offset": 387111,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1027,9 +1095,16 @@
       "end": 396947,
       "heading": "Die XXVII. Historie. Vom Cananäischen Weibe. Match. XV. und Mare. VIl. Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Fvagen.",
+          "source_offset": 394934,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1040,9 +1115,16 @@
       "end": 400149,
       "heading": "Die XXVIU. Historie. Von der Verklahrung Christi auf dem Berg Thabor.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Frage»».",
+          "source_offset": 397439,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1053,9 +1135,16 @@
       "end": 404075,
       "heading": "Die XXIX. Historie. Von dem Mondsüchtigen. Match. XVIl. Marc. IX. ond L«c.IX.Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche 8ragen.",
+          "source_offset": 400378,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1079,9 +1168,16 @@
       "end": 410445,
       "heading": "Die XXXI. Historie. Von Nacha und Maria. Luc. X. Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche Kratzen,",
+          "source_offset": 408538,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1092,9 +1188,16 @@
       "end": 415518,
       "heading": "Die XXXII. Historie. Vom verlohrnen Sohn. Luc. XV. Cap.",
       "markers": {
-        "questions": false,
+        "questions": true,
         "teachings": true,
         "reflection": true
+      },
+      "marker_review": {
+        "questions": {
+          "quote": "Deutliche 8ragen.",
+          "source_offset": 410913,
+          "kind": "recognizable damaged heading"
+        }
       }
     },
     {
@@ -1357,5 +1460,6 @@
         "reflection": true
       }
     }
-  ]
+  ],
+  "marker_review_note": "All 104 chapter spans contain evidence of questions, teachings and reflections after inspection of 14 damaged headings or numbered questions. This confirms presence, not complete or error-free wording. No synthetic text added."
 }
