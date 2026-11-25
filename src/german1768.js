@@ -2486,5 +2486,68 @@ export const german1768 = {
       "III. Die Heyden haben vor GOtt keine Entschuldigung.\nDen Babyloniern hat es gewiß an Gelegenheit nicht gefehlt, den wahren GOtt erkennen zu lernen."
     ],
     "reflection": "Man sahe Daniel des Tages dreymal beten /\nUnd solches stellt er auch nicht in Verfolgung ein.\nKan ich so ofte nicht vor meinen Schöpffer treten:\nSo soll doch auch kein Tag leer vom Gebete seyn!\nIch will zum wenigsten mein Morgen-Opffer bringen /\nUnd wenn ich schlaffen geh / mein Abend-Liedlein singen."
+  },
+  "46": {
+    "pages": [
+      275,
+      276,
+      277,
+      278,
+      281
+    ],
+    "printed": "159–163",
+    "latin": "Urbs Ninive lacrymis sua crimina deflet amaris,\nExitium postquam Jona minatus erat.\nErgo cum videam flecti sic numina posse.\nExemplo, Ninive! tu mihi semper eris.\nScilicet ad lacrymas componam lumina salsas.\nPastor clamabit cum, RESIPISCE! meus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "title": "Von der Stadt Ninive.",
+    "reference": "Jonä I. II. III. und IV. Capitel.",
+    "narrative": "1. Ninive war eine Stadt drey Tage-Reisen groß. 2. Die Niniviten aber waren keine fromme Leute, sondern ihre Boßheit war bis gen Himmel gestiegen. 3. Da sandte GOtt den Propheten Jona nach Ninive, daß er ihnen Busse predigen solte. 4. Aber Jona that nicht, was ihm der HErr befohlen hatte, sondern flohe auf das Meer. 5. Doch GOtt schickte einen grossen Wind hinter ihm her, 6. der machte einen solchen Sturm auf dem Wasser, daß das Schiff untergehen wolte. 7. Da schmissen die Schiffer alles Geräthe in das Wasser, 8. damit das Schiff leichter werden möchte: 9. Aber das wolte alles nichts helffen. 10. Jona lag unterdessen unten im Schiffe und schlief. 11. Da weckten ihn die Schiffer auf, und sagten zu ihm, er solte doch auch seinen GOtt anruffen, wie die andern thäten. 12. Zuletzt sprach einer zum andern: Wir wollen loosen, daß wir sehen, wer schuld an unserm Unglücke sey? 13. Wie sie nun das Looß wurffen, so ward der Prophet Jona getroffen. 14. Derselbe bekannte gleich seine Missethat, daß er dem lieben GOtt entlauffen wäre. 15. Er gab ihnen auch selber den Rath, sie solten ihn nur in das Wasser werffen, so würde das Meer stille davon werden. 16. Das thaten die Leute auf dem Schiffe, und alsobald wurde das Meer stille. 17. GOtt aber verschaffte gleich einen grossen Fisch im Meer, der verschlang den Propheten Jonam: 18. Und behielt denselben auch drey Tage und drey Nächte in seinem Bauche. 19. In dieser Noth rief Jona zum HErrn. 20. Und GOtt der HErr hörte auch das Gebet, das Jonas in der Tieffe des Meeres that: 21. Und befahl dem Fische, daß er den Propheten unversehrt wieder an das Land speyen muste. 22. Hierauf befahl GOtt diesem Jona zum andern male, daß er nach Ninive gehen, und Busse darinnen predigen solte. 23. Das that Jona nunmehr, und sagte den Niniviten, daß ihre Stadt in vierzig Tagen untergehen solte. 24. Wie die Einwohner solches hörten, so thaten sie Busse, und bekehrten sich zum HErrn. 25. Der König selbst legte seinen Purpur ab, hüllete einen Sack um sich, und satzte sich in die Aschen. 26. Ja er gab einen Befehl heraus, daß nicht nur die Menschen, sondern auch die unvernünfftigen Thiere in der Stadt fasten musten. 27. Wie das der HERR sahe, so reuete ihn des Ubels, das er geredt hatte, und ließ Ninive nicht untergehen. 28. Da ward Jona böse, und wünscht sich den Tod, 29. bloß darum, weil seine Prophezeyung nicht eingetroffen hatte. 30. Er gieng in solcher Ungedult hinaus vor die Stadt, und bauete sich eine Hütten, bis er sehe, was der Stadt wiederfahren würde. 31. Da ließ GOtt der HErr einen Kürbiß wachsen, welcher dem Propheten mit seinen Blättern Schatten machte. 32. Darüber ward Jona zwar sehr vergnügt; aber seine Freude währete nicht lange. 33. Denn GOtt verschaffete einen Wurm, der stach den Kürbiß, daß er verdorrete. 34. Wie nun die Sonne dem Propheten auf den Kopf brannte, so ward er wieder ungedultig, und wünschte sich den Tod. 35. Da sagte GOtt zu ihm: dich jammert des Kürbiß, den du doch nicht gepflanzet hast; und mich solte nicht jammern Ninive, solcher grosen Stadt.",
+    "questions": [
+      "Wie groß war die Stadt Ninive?",
+      "Waren auch die Einwohner fromm?",
+      "Was vor einen Propheten sandte GOtt nach Ninive?",
+      "Wie führte sich Jona darbey auf?",
+      "Was schickte GOtt hinter ihm her?",
+      "Was verursachte der Wind?",
+      "Was thaten die Schiffer?",
+      "Warum thaten sie das?",
+      "Vergieng denn der Sturm davon?",
+      "Was machte Jona unterdessen?",
+      "Was sagten die Schiffer zu ihm?",
+      "Was faßten die Schiffs-Leute zuletzt vor einen Rath?",
+      "Wer ward durchs Looß getroffen?",
+      "Was sagte Jonas darzu?",
+      "Was gab Jonas selber vor einen Rath?",
+      "Was nahmen sie darauf mit Jona vor?",
+      "Wie giengs dem Propheten im Wasser?",
+      "Wie lange steckte Jonas im Fische?",
+      "Was that Jonas im Bauche des Wallfisches?",
+      "Half ihm sein Beten was?",
+      "Was befahl GOtt dem grossen Fische?",
+      "Was bekam Jonas vor einen neuen Befehl?",
+      "Was predigte Jonas zu Ninive?",
+      "Aber kehrten sich die Niniviten auch was an seine Buß-Predigt?",
+      "Wie führte sich der König darbey auf?",
+      "Was ließ der König vor einen Befehl ausgehen?",
+      "Was hatte diese Busse vor eine Wirkung bey GOtt?",
+      "Was sagte Jona darzu?",
+      "Warum ward Jona so ungedultig?",
+      "Wo schlug er seine Hütten auf?",
+      "Was ließ GOtt auf der Erden wachsen?",
+      "Wie gefiel dem Propheten der Kürbiß?",
+      "Aber was begegnete dem Kürbiß?",
+      "Was sagte Jona wie der Kürbiß verdorret war?",
+      "Was gab GOtt der HErr dem Propheten Jona vor einen Verweiß?"
+    ],
+    "teachings": [
+      "I. Das Sprichwort bleibet wohl ein wahres Wort: Grosse Städte, grosse Sünden.\nDas beweiset die grosse Stadt Ninive, welche so voller Sünden war, daß sie GOtt wolte lassen untergehen.",
+      "II. Den Buß-Predigern muß man Gehör geben.\nDas thaten die Niniviten, und dadurch ward auch der Untergang der Stadt abgewendet.",
+      "III. Der Prophet Jona ist ein Vorbild Christi gewesen.\nDenn wir singen an Ostern in der Kirche: Jonas im Wallfisch war drey Tag, so lang Christus im Grab auch lag."
+    ],
+    "reflection": "Das Volck zu Ninive bereuet seine Sünden /\nSo bald als Jona sprach: Die Stadt soll untergehn.\nWeil GOtt nun alsobald sich ließ barmherzig finden;\nSo soll mir Ninive stets zum Exempel stehn /\nUnd wenn die Priester mir von Busse werden sagen /\nSo will ich Reu und Leid um meine Sünden tragen."
   }
 };

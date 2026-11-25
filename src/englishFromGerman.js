@@ -2538,5 +2538,69 @@ export const englishFromGerman = {
       "III. The heathen have no excuse before God.\nThe Babylonians certainly did not lack opportunity to learn to know the true God."
     ],
     "reflection": "Daniel was seen to pray three times a day,\nNor did he cease even amid persecution.\nIf I cannot so often come before my Maker,\nStill let no day be empty of prayer!\nAt least I will bring my morning sacrifice,\nAnd when I go to sleep, sing my little evening song."
+  },
+  "46": {
+    "pages": [
+      275,
+      276,
+      277,
+      278,
+      281
+    ],
+    "printed": "159–163",
+    "latin": "Urbs Ninive lacrymis sua crimina deflet amaris,\nExitium postquam Jona minatus erat.\nErgo cum videam flecti sic numina posse.\nExemplo, Ninive! tu mihi semper eris.\nScilicet ad lacrymas componam lumina salsas.\nPastor clamabit cum, RESIPISCE! meus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the City of Nineveh.",
+    "reference": "Jonah, chapters I, II, III and IV.",
+    "narrative": "1. Nineveh was a city three days’ journey in extent. 2. But the Ninevites were not godly people; rather, their wickedness had risen even to heaven. 3. Then God sent the prophet Jonah to Nineveh, that he should preach repentance to them. 4. But Jonah did not do what the Lord had commanded him, and fled to the sea. 5. Yet God sent a great wind after him, 6. which raised such a storm upon the waters that the ship was about to sink. 7. Then the sailors threw all their equipment into the water, 8. so that the ship might become lighter; 9. but all this was of no avail. 10. Meanwhile Jonah lay below in the ship and slept. 11. Then the sailors woke him and told him that he too should call upon his God, as the others were doing. 12. At last they said to one another: Let us cast lots, that we may see who is to blame for our misfortune. 13. When they cast the lot, it fell upon the prophet Jonah. 14. He immediately confessed his misdeed, that he had run away from the dear God. 15. He himself also advised them simply to throw him into the water, and the sea would thereby become calm. 16. The people on the ship did so, and immediately the sea became calm. 17. But God at once provided a great fish in the sea, which swallowed the prophet Jonah, 18. and kept him in its belly for three days and three nights. 19. In this distress Jonah cried to the Lord. 20. And the Lord God heard the prayer which Jonah made in the depths of the sea, 21. and commanded the fish to spew the prophet unharmed back onto the land. 22. Thereupon God commanded Jonah a second time to go to Nineveh and preach repentance there. 23. Jonah now did so, and told the Ninevites that their city would perish in forty days. 24. When the inhabitants heard this, they repented and turned to the Lord. 25. The king himself laid aside his purple robe, wrapped himself in sackcloth and sat in ashes. 26. Indeed, he issued a command that not only the people but also the irrational beasts in the city must fast. 27. When the Lord saw this, he repented of the evil of which he had spoken and did not allow Nineveh to perish. 28. Then Jonah became angry and wished for death, 29. solely because his prophecy had not been fulfilled. 30. In such impatience he went outside the city and built himself a hut, until he might see what would happen to the city. 31. Then the Lord God caused a gourd to grow, which gave the prophet shade with its leaves. 32. Jonah was indeed very pleased with this, but his joy did not last long. 33. For God provided a worm which pierced the gourd, so that it withered. 34. Now when the sun burned upon the prophet’s head, he again became impatient and wished for death. 35. Then God said to him: You pity the gourd, which you did not plant; and should I not pity Nineveh, so great a city?",
+    "questions": [
+      "How large was the city of Nineveh?",
+      "Were its inhabitants godly?",
+      "What prophet did God send to Nineveh?",
+      "How did Jonah conduct himself in this matter?",
+      "What did God send after him?",
+      "What did the wind cause?",
+      "What did the sailors do?",
+      "Why did they do that?",
+      "Did the storm then pass away?",
+      "What was Jonah doing meanwhile?",
+      "What did the sailors say to him?",
+      "What plan did the ship’s crew finally devise?",
+      "Upon whom did the lot fall?",
+      "What did Jonah say to this?",
+      "What advice did Jonah himself give?",
+      "What did they then do with Jonah?",
+      "How did the prophet fare in the water?",
+      "How long was Jonah inside the fish?",
+      "What did Jonah do in the belly of the whale?",
+      "Did his praying help him?",
+      "What did God command the great fish?",
+      "What new command did Jonah receive?",
+      "What did Jonah preach at Nineveh?",
+      "Did the Ninevites pay any heed to his preaching of repentance?",
+      "How did the king conduct himself in this matter?",
+      "What command did the king issue?",
+      "What effect did this repentance have upon God?",
+      "What did Jonah say to this?",
+      "Why did Jonah become so impatient?",
+      "Where did he erect his hut?",
+      "What did God cause to grow upon the earth?",
+      "How did the prophet like the gourd?",
+      "But what happened to the gourd?",
+      "What did Jonah say when the gourd had withered?",
+      "What rebuke did the Lord God give the prophet Jonah?"
+    ],
+    "teachings": [
+      "I. The proverb remains a true saying: Great cities, great sins.\nThis is demonstrated by the great city of Nineveh, which was so full of sins that God intended to let it perish.",
+      "II. One must give ear to preachers of repentance.\nThe Ninevites did so, and thereby the destruction of their city was averted.",
+      "III. The prophet Jonah was a figure of Christ.\nFor at Easter we sing in church: Jonah was in the whale three days, as long as Christ likewise lay in the grave."
+    ],
+    "reflection": "The people of Nineveh repent of their sins,\nAs soon as Jonah said: The city shall perish.\nSince God at once showed himself merciful,\nLet Nineveh always stand as an example to me;\nAnd when the priests tell me of repentance,\nI will bear remorse and sorrow for my sins."
   }
 };
