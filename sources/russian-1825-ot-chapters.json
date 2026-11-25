@@ -464,7 +464,10 @@
       "printed_start": 185,
       "scan_start": 197,
       "scan_end_candidate": 204,
-      "scan_start_candidate": 196
+      "scan_start_candidate": 196,
+      "scan_start_verified": 197,
+      "scan_end_verified": 204,
+      "printed_verified": "185–192"
     },
     {
       "id": 43,
