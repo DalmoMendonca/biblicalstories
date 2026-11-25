@@ -353,5 +353,61 @@ export const englishFromGerman = {
       "questions": 22,
       "teachings": 3
     }
+  },
+  "9": {
+    "pages": [
+      63,
+      64,
+      65,
+      66
+    ],
+    "printed": "21–24",
+    "latin": "Justus & injustus quod non mactentur eodem\nSupplicio, clarus Loth pietate probat.\nScilicet in tuto resident pia corda, priusquam\nUltricis poenas exigit ira Dei.\nInteger ergo meam ducam sine crimine vitam,\nSic salvus, reprobus quando peribit, ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    },
+    "title": "On Sodom and Gomorrah",
+    "reference": "Genesis, chapter XIX.",
+    "kind": "new-translation-from-transcribed-german",
+    "narrative": "1. In the city of Sodom there was no more than one godly man, 2. named Lot. 3. Toward evening he had seated himself at the gate, 4. and among others he saw two angels coming in through the gate. 5. Lot urged them to take lodging with him for the night. 6. Before the angels could retire to rest, the ungodly inhabitants came before the house, 7. and wanted to have the two angels brought out, 8. so that they might commit sin and shame with them. 9. Lot went outside to the people and said to them: 10. Dear brothers, do not act so wickedly. 11. Indeed, he even proposed that they leave the strangers alone, and he would give them his two daughters instead. 12. But they were not satisfied with this, and said: You are the only stranger here, and you wish to rule? 13. When they wanted to lay hands on godly Lot, the angels reached out through the door and pulled the man into his house. 14. The wicked people wanted to break open the door, but they were struck with blindness so that they could not find it. 15. When they had gone away from the door, the angels spoke to Lot and told him that they had been sent by God to destroy this city. 16. They also advised him to leave the city with all his household without delay. 17. Lot then spoke with those who were to marry his daughters; 18. but it seemed ridiculous to them. 19. As soon as the dawn broke, the angels told Lot to make haste; 20. and when he still wished to linger, 21. they led him and his wife and his two daughters out of the city by force. 22. Outside the gate the angels commanded them to hurry and not look back until they had reached the mountain. 23. But Lot did not wish to remain on the mountain, and took refuge in the little town of Zoar instead. 24. It too was to perish, but for Lot's sake it was spared the punishment. 25. The angel said again: Hurry and save yourself there, for I can do nothing until you enter it. 26. Just as the sun had risen, Lot reached the little town of Zoar, 27. and immediately afterward fire and brimstone fell upon Sodom and Gomorrah and devastated the whole region. 28. But his wife looked behind her, although the angel had forbidden her to do so, and was turned into a pillar of salt.",
+    "questions": [
+      "How many godly people were there in Sodom?",
+      "What was the name of the only godly man?",
+      "What did Lot do toward evening?",
+      "Who came in through the gate?",
+      "What did Lot say to the angels?",
+      "What happened during the night?",
+      "What did these ungodly people demand?",
+      "What did they intend to do with the angels?",
+      "What did Lot do in this distress?",
+      "What did Lot say to the evildoers?",
+      "What proposal did Lot make to them?",
+      "But what answer did he receive?",
+      "What did the angels do in response?",
+      "Did the townspeople not break open the house door?",
+      "What did the angels afterward say to Lot?",
+      "What good advice did they give him?",
+      "With whom did Lot speak about this?",
+      "What did his prospective sons-in-law say to this?",
+      "What did the angels say in the morning?",
+      "How did Lot respond?",
+      "What did the angels finally have to do?",
+      "What did the angels command him outside the gate?",
+      "What objection did Lot have to this?",
+      "What happened to the little town of Zoar?",
+      "What was the angel's final exhortation?",
+      "When did Lot reach Zoar?",
+      "What then befell the Sodomites?",
+      "What misfortune befell Lot's wife in this affair?"
+    ],
+    "teachings": [
+      "I. From this one learns that the holy angels guard the homes of godly people.\nFor here the wicked people were struck with blindness so that they could not find the house door.",
+      "II. From this one learns that God does not sweep away the wicked and the godly together.\nFor when God wished to destroy Sodom, he first had godly Lot led out.",
+      "III. What God has commanded or forbidden must be observed exactly.\nFor Lot's wife was not to look back, and when she did so nevertheless, she was turned into a pillar of salt."
+    ],
+    "reflection": "That God does not destroy the godly with the wicked,\nGodly Lot can stand before us as an example;\nAh yes! God knows how to deliver them beforehand,\nBefore he lets his judgment and punishment take effect;\nI too will dwell honestly and uprightly in my house,\nWhen God punishes the wicked, he will spare me."
   }
 };

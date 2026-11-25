@@ -335,5 +335,60 @@ export const german1768 = {
       "questions": 22,
       "teachings": 3
     }
+  },
+  "9": {
+    "pages": [
+      63,
+      64,
+      65,
+      66
+    ],
+    "printed": "21–24",
+    "latin": "Justus & injustus quod non mactentur eodem\nSupplicio, clarus Loth pietate probat.\nScilicet in tuto resident pia corda, priusquam\nUltricis poenas exigit ira Dei.\nInteger ergo meam ducam sine crimine vitam,\nSic salvus, reprobus quando peribit, ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    },
+    "title": "Von Sodom und Gomorra.",
+    "reference": "1. Mos. XIX. Cap.",
+    "narrative": "1. In der Stadt Sodom war nicht mehr als ein einziger frommer Mann, 2. mit Namen Loth. 3. Derselbe hatte sich um die Abends-Zeit unter das Thor gesetzet, 4. und sahe unter andern zween Engel zum Thore herein kommen. 5. Dieselben nöthigte Loth, daß sie doch das Nacht-Quartier bey ihm nehmen möchten. 6. Ehe sich die Engel zur Ruhe begeben konten, so kamen die gottlosen Einwohner vor das Haus, 7. und wolten die beyden Engel heraus haben, 8. damit sie Sünde und Schande mit ihnen treiben könten. 9. Loth gieng zwar zu den Leuten hinaus, und sagte zu ihnen: 10. Lieben Brüder, thut nicht so übel. 11. Ja, er that ihnen gar den Vorschlag, sie solten nur die fremden Männer zufrieden lassen, er wolte ihnen seine beyden Töchter heraus geben. 12. Sie waren aber damit nicht zufrieden, sondern sagten: Du bist der einige Fremdling hier, und wilt regieren? 13. Indem sie aber die Hände an den frommen Loth legen wolten, so griffen die Engel zur Thüre hinaus, und zogen den Mann in sein Haus. 14. Die bösen Leute wolten zwar die Thüre aufbrechen; sie wurden aber mit Blindheit geschlagen, daß sie dieselbe nicht finden konten. 15. Wie sie von der Thüre weg waren, so redeten die Engel mit Loth, und sagten ihm, daß sie von GOtt gesandt wären, diese Stadt zu zerstören. 16. Sie gaben ihm auch den Rath, daß er sich mit alle den Seinigen ohne Verzug aus der Stadt machen solte. 17. Loth redete hierauf mit denen, die seine Töchter nehmen solten; 18. aber es war ihnen lächerlich. 19. So bald als die Morgenröthe anbrach, so sagten die Engel: Loth solte fortmachen; 20. und wie er noch lange trödeln wolte, 21. so führten sie ihn und seine Frau nebst seinen zwey Töchtern mit Gewalt zur Stadt hinaus. 22. Vor dem Thore befahlen die Engel, sie solten eilen, und sich nicht umsehen, bis sie auf den Berg kommen wären. 23. Aber Loth wolte nicht auf dem Berge bleiben, sondern nahm seine Zuflucht in das Städtgen Zoar. 24. Dasselbige solte auch mit untergehen, aber um Loths willen ward es mit der Strafe verschonet. 25. Der Engel aber sagte nochmals: Eile und errette dich daselbst, denn ich kan nichts thun, bis du hinein kommest. 26. Eben nun, wie die Sonne aufgegangen war, so erreichte Loth das Städtgen Zoar, 27. und gleich darauf fiel Feuer und Schwefel auf Sodom und Gomorra, und verheerete die ganze Gegend. 28. Sein Weib aber sahe hinter sich, ob es ihr gleich der Engel verboten hatte, und ward in eine Salz-Säule verwandelt.",
+    "questions": [
+      "Wie viel waren fromme Leute zu Sodom?",
+      "Wie hieß der einzige fromme Mann?",
+      "Was machte Loth gegen Abend?",
+      "Wer kam denn zum Thor herein?",
+      "Was sagte Loth zu den Engeln?",
+      "Was trug sich dann in der Nacht zu?",
+      "Was verlangten diese gottlose Leute?",
+      "Was wolten sie mit den Engeln vornehmen?",
+      "Was that denn Loth in dieser Angst?",
+      "Wie sagte Loth zu den Bösewichtern?",
+      "Was that ihnen Loth vor einen Vorschlag?",
+      "Aber was bekam er zur Antwort?",
+      "Was thaten denn die Engel dabey?",
+      "Brachen die Bürger nicht die Haus-Thür auf?",
+      "Was redeten hernach die Engel mit Lothen?",
+      "Was gaben sie ihm vor einen guten Rath?",
+      "Mit wem redete Loth deswegen?",
+      "Was sagten seine Eydmänner darzu?",
+      "Was sagten die Engel auf den Morgen?",
+      "Wie stellte sich Loth darzu an?",
+      "Wie musten es endlich die Engel anfangen?",
+      "Was geboten ihm die Engel vor dem Thore?",
+      "Was hatte denn Loth dawider einzuwenden?",
+      "Wie giengs dem Städtgen Zoar?",
+      "Was war die letzte Vermahnung des Engels?",
+      "Wenn kam denn Loth nach Zoar?",
+      "Wie giengs darauf den Sodomitern?",
+      "Was hatte Loths Frau vor ein Unglück dabey?"
+    ],
+    "teachings": [
+      "I. Man lernet hieraus, daß die heiligen Engel der frommen Leute ihre Häuser behüten.\nDenn hier wurden die bösen Leute mit Blindheit geschlagen, daß sie die Haus-Thüre nicht finden konten.",
+      "II. Man lernet daraus, daß GOtt nicht die Bösen und die Frommen mit einander dahin reisset.\nDenn wie GOtt Sodom verderben wolte, so ließ er den frommen Loth zuvor herausführen.",
+      "III. Was GOtt befohlen oder verboten hat, das muß man genau beobachten.\nDenn Loths Weib solte sich nicht umsehen, und wie sie solches dennoch that, so ward sie in eine Salz-Säule verwandelt."
+    ],
+    "reflection": "Daß GOtt die Frommen nicht vertilget mit den Bösen,\nDa kan der fromme Loth uns zum Exempel stehn;\nAch ja! GOtt weiß sie schon vorher zu erlösen,\nBevor er sein Gericht und Strafe läst ergehn;\nAuch ich will schlecht und recht in meinem Hause wohnen,\nWenn GOtt die Bösen straft, so wird er mich verschonen."
   }
 };
