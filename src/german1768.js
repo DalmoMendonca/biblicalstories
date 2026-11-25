@@ -2019,5 +2019,59 @@ export const german1768 = {
       "III. Zu bösen Dingen finden sich Wertzeuge genug; aber das Gute will niemand befördern helffen.\nWie der König Ahab einem Unterthanen seinen Weinberg nehmen wolte, so funden sich Helffers-Helffer genug: Die Königin Isebel schrieb in seinem Namen falsche Briefe; zwey böse Buben liessen sich zu falschen Zeugen gebrauchen; und die Eltesten zu Jesreel verdammten den unschuldigen Naboth zum Tode?"
     ],
     "reflection": "Kein unrecht Gut gedeiht; Das hab ich offt gehöret /\nUnd dieser Spruch trifft auch bey grossen Herren ein:\nWie Ahab solches uns durch Naboths Weinberg lehret /\nDer Hoh und Niedrigen soll ein Exempel seyn.\nAch! ich will meines Orts den festen Vorsatz fassen /\nDaß ich das Seinige will einem jeden lassen."
+  },
+  "38": {
+    "pages": [
+      229,
+      230,
+      231,
+      232
+    ],
+    "printed": "129–132",
+    "latin": "Quadraginta duo pueri petulanter Elisam\nRident, dicentes: Huc bone calve! veni,\nAst! o quam tristes dedit ista protervia poenas;\nDum pueros miseros ursus & ursa vorans.\nQui legis ista, cave! ne qui convitia dicas,\nQui tibi propterea dicere dira queas.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "editorial_note": "German printed question numbers 13 and 24 appear as 14 and 25 respectively; the question sequence is retained. The Russian witness says many people rather than fifty followed the prophets, and has a prose devotional reflection without Latin.",
+    "title": "Von Eliä Himmelfahrt.",
+    "reference": "2. Kön. II. Capitel.",
+    "narrative": "1. Es kam die Zeit heran, daß der Prophet Elia lebendig solte gen Himmel geholet werden. 2. Er sprach deswegen zu seinem Diener Elisa: Lieber, bleib hier, denn der HErr hat mich gen Bethel gesandt. 3. Aber Elisa gab zur Antwort: So wahr der HErr lebet, und deine Seele, ich verlasse dich nicht. 4. Wie sie nach Bethel kommen waren, so sagte Elias zu seinem Diener: Lieber bleib hier, denn der HErr hat mich gen Jericho gesandt. 5. Elisa aber sprach: So wahr der HErr lebet, und deine Seele, ich verlasse dich nicht. 6. Wie sie nach Jericho kamen, so sprach Elia nochmals zu Elisa: Lieber, bleib hier, denn der HErr hat mich an den Jordan gesandt. 7. Aber Elisa schwur zum dritten male: So wahr der HErr lebet, und deine Seele, ich verlasse dich nicht. 8. Unterwegens kamen aller Orten die Propheten-Kinder zu Elisa, und fragten ihn, ob er denn auch wüste, daß der HErr seinen Herrn, den Propheten Eliam, heute würde von seinen Häupten nehmen? 9. Elisa aber sprach: Ich weiß es wohl, schweiget nur stille. 10. Es gingen auch funfzig Männer unter den Propheten-Kindern an den Jordan, und traten gegen über von ferne. 11. Da nahm Elia seinen Mantel und schlug damit in den Jordan: 12. Alsobald theilte sich der Jordan, daß sie beyde trocken hindurch gingen. 13. Da sie nun hinüber waren, so sagte Elia zu seinem Diener: Bitte, was ich dir thun soll, ehe ich von dir genommen werde. 14. Elisa sprach: Daß dein Geist bey mir sey zwiefältig. 15. Elia gab zur Antwort: Du hast ein hartes gebeten, doch, so du mich sehen wirst, wenn ich von dir genommen werde, so wirds ja seyn, wo nicht, so wirds nicht seyn. 16. Und indem sie noch redeten, siehe da kam ein feuriger Wagen mit feurigen Rossen, und scheideten die beyden von einander, 17. und Elia fuhr im Wetter gen Himmel. 18. Elisa aber schrie: Mein Vater, mein Vater! Wagen Israel und seine Reuter. 19. Es hatte aber Elia bey seiner Himmelfahrt seinen Mantel fallen lassen; 20. denselben hob Elisa auf, schlug damit in das Wasser, und sagte: Wo ist nun der HErr, der GOtt Elia? 21. Alsobald theilte sich der Jordan, und Elisa gieng hindurch. 22. Er that darauf auch bald ein Wunder-Zeichen mit dem bösen Wasser zu Jericho. 23. Denn er warf Saltz in die Wasser-Quelle, davon ward das Wasser gesund. 24. Als Elisa von dar nach Bethel gieng, so kamen kleine Knaben zur Stadt heraus, die spotteten ihn, und sprachen zu ihm: Kahlkopf, komm herauf: Kahlkopf, komm herauf! 25. Und Elisa wandte sich um, und fluchte den Kindern im Namen des HErrn. 26. Alsobald kamen zwey Bären aus dem Walde, und zerrissen der Kinder zwey und vierzig.",
+    "questions": [
+      "Was solte sich mit dem Propheten Elia zutragen?",
+      "Wie sprach Elia zu seinem Diener Elisa?",
+      "Was gab ihm denn Elisa zur Antwort?",
+      "Was sagte Elia zum andern male zu seinem Diener?",
+      "Wie entschuldigte sich Elisa?",
+      "Was sagte Elia zum dritten male zu Elisa?",
+      "Ließ sich denn Elisa noch nicht abweisen?",
+      "Was sagten denn die Propheten-Kinder unterwegens zu Elisa?",
+      "Was gab ihnen Elisa zur Antwort?",
+      "Wie viel Männer gingen an den Jordan?",
+      "Was nahm Elia mit seinem Mantel vor?",
+      "Was trug sich mit dem Jordan zu?",
+      "Was war Eliä letzter Discurs?",
+      "Was bat Elisa hierauf?",
+      "Was gab ihm Elia vor Vertröstung?",
+      "Was trug sich hierauf zu?",
+      "Wo blieb denn der Prophet Elia?",
+      "Wie rufte ihm Elisa nach?",
+      "Was hatte Elia fallen lassen?",
+      "Was machte Elisa mit dem Mantel?",
+      "Was trug sich mit dem Jordan zu?",
+      "Was that Elisa vor ein Wunder-Zeichen zu Jericho?",
+      "Womit machte er das böse Wasser gesund?",
+      "Was begegnete dem Propheten Elisa vor der Stadt Bethel?",
+      "Was gab er diesen muthwilligen Knaben vor einen Bescheid?",
+      "Wie bekam diesen Kindern ihre Leichtfertigkeit?"
+    ],
+    "teachings": [
+      "I. Nicht mehr als zwey Menschen haben den Tod nicht gesehen, sondern sind lebendig gen Himmel geholet worden.\nEiner ist gewesen der fromme Erz-Vater Henoch vor der Sündfluth; und der andere der Prophet Elia nach der Sündfluth.",
+      "II. Es muß ja nach diesem Leben nothwendig noch ein ander Leben zu hoffen seyn.\nDenn Elia ist ja in einem Wetter gen Himmel gefahren, und hat sich auch nach diesem bey der Verklärung Christi auf dem Berge Thabor wieder sehen lassen.",
+      "III. Getreue Diener Gottes mögen doch die schwere Last ihres heiligen Amts mit Gedult ertragen.\nDie heiligen Engel, die Eliam auf einem feurigen Wagen abgeholet haben, werden auch dermaleins ihre Seelen in Abrahams Schoos tragen, allwo sie leuchten werden, wie des Himmels-Glanz, und wie die Sterne immer und ewiglich."
+    ],
+    "reflection": "Elisa wird geschimpft von zwey und vierzig Knaben /\nDie schreyen allzumal: Komm / Kalkopf / komm herauf!\nJedoch die Lust ist schlecht / die sie darüber haben /\nZwey Bären fressen sie. Ihr Kinder merket drauf /\nUnd laßt kein solches Wort aus eurem Munde fliessen /\nDaß euch die Lehrer nicht auch so verfluchen müssen."
   }
 };

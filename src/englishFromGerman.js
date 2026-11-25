@@ -2063,5 +2063,60 @@ export const englishFromGerman = {
       "III. There are instruments enough for evil things, but no one wishes to help further what is good.\nWhen King Ahab wanted to take a subject's vineyard, there were accomplices enough: Queen Jezebel wrote false letters in his name; two wicked fellows allowed themselves to be used as false witnesses; and the elders at Jezreel condemned the innocent Naboth to death?"
     ],
     "reflection": "Ill-gotten goods do not prosper; I have often heard it said,\nAnd this saying applies even among great lords:\nAs Ahab teaches us by Naboth's vineyard,\nHe is to be an example to high and low.\nAh! for my part I will form the firm resolution\nTo leave to every person what is his own."
+  },
+  "38": {
+    "pages": [
+      229,
+      230,
+      231,
+      232
+    ],
+    "printed": "129–132",
+    "latin": "Quadraginta duo pueri petulanter Elisam\nRident, dicentes: Huc bone calve! veni,\nAst! o quam tristes dedit ista protervia poenas;\nDum pueros miseros ursus & ursa vorans.\nQui legis ista, cave! ne qui convitia dicas,\nQui tibi propterea dicere dira queas.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "editorial_note": "German printed question numbers 13 and 24 appear as 14 and 25 respectively; the question sequence is retained. The Russian witness says many people rather than fifty followed the prophets, and has a prose devotional reflection without Latin.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Elijah's Ascension.",
+    "reference": "2 Kings II.",
+    "narrative": "1. The time drew near when the prophet Elijah was to be taken up alive into heaven. 2. He therefore said to his servant Elisha: Dear friend, remain here, for the Lord has sent me to Bethel. 3. But Elisha answered: As surely as the Lord lives, and as your soul lives, I will not leave you. 4. When they had come to Bethel, Elijah said to his servant: Dear friend, remain here, for the Lord has sent me to Jericho. 5. But Elisha said: As surely as the Lord lives, and as your soul lives, I will not leave you. 6. When they came to Jericho, Elijah again said to Elisha: Dear friend, remain here, for the Lord has sent me to the Jordan. 7. But Elisha swore for the third time: As surely as the Lord lives, and as your soul lives, I will not leave you. 8. Along the way the sons of the prophets came to Elisha everywhere and asked him whether he knew that the Lord would take his master, the prophet Elijah, from over his head that day. 9. But Elisha said: I know it well; only keep silent. 10. Fifty men among the sons of the prophets also went to the Jordan and stood opposite at a distance. 11. Then Elijah took his mantle and struck the Jordan with it. 12. Immediately the Jordan divided, so that both of them passed through dry. 13. When they were across, Elijah said to his servant: Ask what I shall do for you before I am taken from you. 14. Elisha said: Let your spirit be double upon me. 15. Elijah answered: You have asked a hard thing; nevertheless, if you see me when I am taken from you, it shall be so, but if not, it shall not be so. 16. And while they were still speaking, behold, there came a fiery chariot with fiery horses, and they separated the two from one another, 17. and Elijah went up to heaven in a whirlwind. 18. But Elisha cried: My father, my father! The chariot of Israel and its horsemen! 19. Now Elijah had let his mantle fall at his ascension. 20. Elisha picked it up, struck the water with it, and said: Where now is the Lord, the God of Elijah? 21. Immediately the Jordan divided, and Elisha passed through. 22. Soon afterward he also performed a miraculous sign with the bad water at Jericho. 23. For he threw salt into the spring of water, and thereby the water became wholesome. 24. As Elisha went from there to Bethel, little boys came out of the city, mocked him, and said to him: Baldhead, come up! Baldhead, come up! 25. And Elisha turned around and cursed the children in the name of the Lord. 26. Immediately two bears came out of the woods and tore forty-two of the children.",
+    "questions": [
+      "What was to happen to the prophet Elijah?",
+      "What did Elijah say to his servant Elisha?",
+      "What answer did Elisha give him?",
+      "What did Elijah say to his servant the second time?",
+      "How did Elisha excuse himself?",
+      "What did Elijah say to Elisha the third time?",
+      "Would Elisha still not be turned away?",
+      "What did the sons of the prophets say to Elisha along the way?",
+      "What answer did Elisha give them?",
+      "How many men went to the Jordan?",
+      "What did Elijah do with his mantle?",
+      "What happened to the Jordan?",
+      "What was Elijah's last discourse?",
+      "What did Elisha ask thereupon?",
+      "What assurance did Elijah give him?",
+      "What happened thereupon?",
+      "Where did the prophet Elijah go?",
+      "What did Elisha cry after him?",
+      "What had Elijah let fall?",
+      "What did Elisha do with the mantle?",
+      "What happened to the Jordan?",
+      "What miraculous sign did Elisha perform at Jericho?",
+      "With what did he make the bad water wholesome?",
+      "What befell the prophet Elisha outside the city of Bethel?",
+      "What answer did he give these mischievous boys?",
+      "How did their levity turn out for these children?"
+    ],
+    "teachings": [
+      "I. No more than two human beings have not seen death, but have been taken up alive into heaven.\nOne was the pious patriarch Enoch before the Flood, and the other the prophet Elijah after the Flood.",
+      "II. After this life there must necessarily be another life to hope for.\nFor Elijah went to heaven in a whirlwind and afterward appeared again at Christ's transfiguration on Mount Tabor.",
+      "III. May faithful servants of God bear the heavy burden of their holy office with patience.\nThe holy angels who fetched Elijah in a fiery chariot will one day also carry their souls into Abraham's bosom, where they will shine like the brightness of heaven and like the stars forever and ever."
+    ],
+    "reflection": "Elisha is insulted by forty-two boys,\nWho all cry together: Come, baldhead, come up!\nYet little pleasure do they gain from this:\nTwo bears devour them. You children, take heed,\nAnd let no such word flow out of your mouths,\nLest your teachers likewise have to curse you."
   }
 };

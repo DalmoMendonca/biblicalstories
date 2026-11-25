@@ -420,7 +420,10 @@
       "printed_start": 169,
       "scan_start": 181,
       "scan_end_candidate": 185,
-      "scan_start_candidate": 180
+      "scan_start_candidate": 180,
+      "scan_start_verified": 181,
+      "scan_end_verified": 185,
+      "printed_verified": "169–173"
     },
     {
       "id": 39,
