@@ -870,5 +870,69 @@ export const german1768 = {
     ],
     "reflection": "Dem Joseph ist es wohl recht wunderlich gegangen /\nEs war derselbe bald des Vaters liebster Sohn;\nBald ein verkauffter Knecht; bald auf den Hals gefangen:\nUnd endlich stieg er doch bis an den Königs-Thron.\nMein GOtt ich will mich dich auch lassen ganz regieren /\nDu wirst mich wunderlich / doch aber selig führen.",
     "editorial_note": "Latin line 3 reads 'flexo polite' in the printed witness; the reading remains subject to independent collation."
+  },
+  "19": {
+    "pages": [
+      114,
+      117,
+      118,
+      119,
+      120
+    ],
+    "printed": "54–58",
+    "latin": "Cum natu minimum fratrem, Josephe, videres,\nFlagrabat calido pectus amore tuum.\nTe quoque, pace tua, compello nomine fratris,\nDe facie nondum cognite, CHRISTE, mihi.\nEvohe! quam laetus: quam terque quaterque beatus,\nCernere te JESUM quando licebit, ero!",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "title": "Wie Josephs Brüder zur Zeit der Theurung nach Egypten gereiset sind.",
+    "reference": "1. Mose XLII. und XLIII. Capitel.",
+    "narrative": "1. Die grosse Theurung erstreckte sich auch über das Land Canaan, darinnen Jacob wohnte. 2. Wie derselbe hörte, daß in Egypten Getreide genug wäre, so schickte er seine Söhne dahin, daß sie Getreide kauffen solten. 3. Den einzigen jüngsten Sohn Benjamin ließ er nicht mit reisen, 4. aus Besorge, daß ihm nicht etwa unterwegens ein Unfall begegnen möchte. 5. Es war aber in Egypten Joseph über das Getreide gesetzt, und 6. wenn jemand was haben wolte, so gab der König allemal zur Antwort: Gehet hin zu Joseph, und was er euch saget, das thut. 7. Da nun Jacobs Söhne auch an ihn gewiesen wurden, so fielen sie vor demselben nieder auf ihr Antlitz zur Erden. 8. Joseph kannte sie gleich; sie aber wusten nicht, daß das ihr Bruder wäre, den sie verkauffet hatten. 9. Sie konten ihn auch an der Sprache nicht erkennen, weil er allemal einen Dollmetscher brauchte, wenn er mit ihnen reden wolte. 10. Indem sie nun solcher Gestalt auf den Knien vor ihm lagen, so gedachte Joseph an seinen Traum, daß sich seine Brüder vor ihm neigen solten. 11. Er gab sich aber nicht zu erkennen, sondern ließ sie als Kundschafter in Arrest nehmen. 12. Sie entschuldigten sich zwar, sie wären ehrliche Leute, zusammen zwölf Brüder. 13. Aber Joseph fragte gleich, wo die andern zwey Brüder wären? 14. Sie gaben zur Antwort: Der jüngste Bruder wäre zu Hause beym Vater, und der andere wäre nicht mehr vorhanden. 15. Darauf sagte Joseph, es solte einer aus ihrem Mittel nach Hause reisen, und den jüngsten Bruder auch herholen, daran wolte er sehen, ob sie Kundschafter wären oder nicht. 16. Wie sie das hörten, so sagten sie auf ihre Sprache unter einander: Das haben wir an unserm Bruder Joseph verschuldet. 17. Ueber diesen und dergleichen Worten gingen Josephen die Augen über, daß er sich von ihnen weg wenden muste. 18. Endlich muste Simeon im Arreste bleiben, und die andern neune mochten ihre Strasse ziehen. 19. Wie sie das Korn ausschütteten, so fand ein jeder das Geld in seinem Sacke, welches sie vor das Korn bezahlet hatten: 20. Denn Joseph hatte einem jedweden das Geld wieder in seinen Korn Sack stecken lassen. 21. Darüber erschracken so wohl die Söhne, als der alte Vater. 22. Wie dieses Getreide verzehret war, so muste Jacob seine Söhne zum andernmal nach Egypten senden. 23. Sie wolten aber nicht eher fort, bis ihr jüngster Bruder Benjamin mit ihnen zog. 24. Denn Joseph hatte ausdrücklich gesaget, sie solten sein Angesicht nicht sehen, wenn sie ihren jüngsten Bruder nicht mit sich brächten. 25. Wie sie in Egypten ankommen waren, so stellten sie Josephs Haushalter vor allen Dingen das Geld wieder zu, welches sie in ihren Säcken gefunden hatten. 26. Er nahms aber nicht an, sondern sagte, ihres Vaters GOtt möchte ihnen vielleicht einen Schatz in ihre Säcke gegeben haben. 27. Hierauf empfieng sie Joseph gar freundlich, und wie er unter ihnen seinen leiblichen Bruder Benjamin zu Gesicht bekam, 28. so sprach er zu ihm: GOtt sey dir gnädig mein Sohn! 29. Es entbrannte aber sein Herz gegen seinen Bruder dergestalt, daß er sich der Thränen nicht enthalten konte, und deswegen in seine Kammer gehen muste. 30. Mittlerweilen ward der Tisch gedeckt, und Josephs Brüder musten zur Tafel bleiben. 31. Er satzte sie aber mit Fleiß, wie sie waren gebohren worden, welches ihnen recht wunderlich vorkam. 32. Sie sassen aber an einem Tische besonders, weil die Egyptier mit den Ebräern nicht zu speisen pflegten. 33. Das Essen aber ward ihnen von Josephs Tische aufgetragen, 34. und Benjamin ward fünf mahl mehr vorgeleget, als den andern. 35. Sie sassen auch so lange beysammen, bis sie alle mit einander waren truncken worden; 36. und des andern Tages, so zogen sie mit grossen Freuden wieder nach Hause.",
+    "questions": [
+      "Wie weit erstreckte sich die Theurung?",
+      "Was machte Jacob vor Anstalt?",
+      "Welchen Sohn behielt er zu Hause?",
+      "Warum durfte Benjamin nicht mit?",
+      "Wer war denn über das Getreide gesetzt?",
+      "Wie sagte der König, wenn jemand Getreide haben wolte?",
+      "Wie trugen Jacobs Söhne ihr Anliegen vor?",
+      "Kannten sie denn einander nicht?",
+      "Ward Joseph nicht durch seine Sprache verrathen?",
+      "An was gedachte Joseph dazumal?",
+      "Gab er sich denn nicht zu erkennen?",
+      "Wie entschuldigten sich seine Brüder?",
+      "Wornach fragte Joseph?",
+      "Was gaben sie zur Antwort?",
+      "Worauf ließ es Joseph ankommen?",
+      "Was redeten sie auf ihre Sprache unter einander?",
+      "Wie war Josephen darbey zu muthe?",
+      "Wie lief es endlich ab?",
+      "Was fand sich in den Korn-Säcken?",
+      "Wie gieng das zu?",
+      "Was sagten sie darzu?",
+      "Aber langte das Getreide auch zu?",
+      "Wen wolten sie mit haben?",
+      "Warum solte Benjamin mit?",
+      "Bey wem meldeten sie sich in Egypten?",
+      "Was gab ihnen der Haushalter zur Antwort?",
+      "Wie wurden sie von Joseph empfangen?",
+      "Wie sagte Joseph zu seinem Bruder Benjamin?",
+      "Wie war Josephen darüber zu muthe?",
+      "Was that er seinem Bruder vor eine Ehre an?",
+      "Wie musten sie sich am Tische setzen?",
+      "Wer aß denn mit über demselben Tische?",
+      "Woher kam aber das Essen?",
+      "Wie viel ward Benjamin vorgeleget?",
+      "Wie lange sassen sie beysammen?",
+      "Wenn machten sie sich wieder auf den Weg?"
+    ],
+    "teachings": [
+      "I. Es ist gewiß, daß GOtt alle Dinge zuvor weiß, ehe sie geschehen.\nDie Brüder Josephs fielen vor ihm nieder; und das hatte GOtt ihm etliche Jahre vorhero im Traum offenbaret.",
+      "II. Das Gewissen schläft zwar eine Weile, aber zu rechter Zeit wachet es auf.\nWie Josephs Brüder in grosse Noth gerathen waren, so sagten sie unter einander: Das haben wir an unserm Bruder Joseph verschuldet.",
+      "III. Die besten Complimenten sind wohl, wenn man einander aus treuem Herzen was Gutes anwünschet.\nJoseph empfieng seinen Bruder Benjamin mit diesen Worten: GOtt sey dir gnädig, mein Sohn!"
+    ],
+    "reflection": "Es fängt bey Joseph an sein Bruder-Herz zu brennen /\nAls er mit Benjamin zum ersten male spricht.\nHErr JEsu! dich darff ich auch meinen Bruder nennen /\nAllein ich kenne dich noch nicht von Angesicht:\nHilf GOtt! wie wohl wird mir zur selben Zeit geschehen /\nWenn ich dich sichtbarlich im Himmel werde sehen."
   }
 };

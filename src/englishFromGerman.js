@@ -895,5 +895,70 @@ export const englishFromGerman = {
       "III. In good times one should save, so that one need not suffer want in bad times.\nFor there are not always fat years, but sometimes lean years also."
     ],
     "reflection": "Things indeed went very strangely for Joseph:\nAt one time he was his father's dearest son;\nThen a sold servant; then a prisoner in mortal peril;\nAnd at last he rose even to the king's throne.\nMy God, I too will let you govern me entirely;\nYou will lead me strangely, yet blessedly."
+  },
+  "19": {
+    "pages": [
+      114,
+      117,
+      118,
+      119,
+      120
+    ],
+    "printed": "54–58",
+    "latin": "Cum natu minimum fratrem, Josephe, videres,\nFlagrabat calido pectus amore tuum.\nTe quoque, pace tua, compello nomine fratris,\nDe facie nondum cognite, CHRISTE, mihi.\nEvohe! quam laetus: quam terque quaterque beatus,\nCernere te JESUM quando licebit, ero!",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Joseph's Brothers Traveled to Egypt in the Time of Famine",
+    "reference": "Genesis, chapters XLII and XLIII.",
+    "narrative": "1. The great famine extended also over the land of Canaan, in which Jacob lived. 2. When he heard that there was enough grain in Egypt, he sent his sons there to buy grain. 3. Only his youngest son Benjamin he did not let travel with them, 4. for fear that some mishap might befall him along the way. 5. Now in Egypt Joseph had been set over the grain, and 6. whenever anyone wanted some, the king always answered: Go to Joseph, and do whatever he tells you. 7. When Jacob's sons were likewise directed to him, they fell down before him with their faces to the earth. 8. Joseph recognized them immediately; but they did not know that this was their brother whom they had sold. 9. Nor could they recognize him by his speech, because he always used an interpreter whenever he wished to speak with them. 10. As they thus lay on their knees before him, Joseph remembered his dream that his brothers would bow before him. 11. But he did not reveal himself, and instead had them arrested as spies. 12. They defended themselves, saying that they were honest people, twelve brothers in all. 13. But Joseph immediately asked where the other two brothers were. 14. They answered that the youngest brother was at home with their father, and the other was no longer there. 15. Joseph then said that one from among them should travel home and bring back the youngest brother also; by this he would see whether they were spies or not. 16. When they heard this, they said among themselves in their own language: We have brought this upon ourselves by what we did to our brother Joseph. 17. At these and similar words Joseph's eyes overflowed, so that he had to turn away from them. 18. At last Simeon had to remain under arrest, and the other nine were allowed to go their way. 19. When they emptied out the grain, each found in his sack the money they had paid for the grain: 20. for Joseph had had each man's money put back into his sack of grain. 21. Both the sons and their old father were terrified by this. 22. When this grain had been consumed, Jacob had to send his sons to Egypt a second time. 23. But they would not leave until their youngest brother Benjamin went with them. 24. For Joseph had expressly said that they should not see his face unless they brought their youngest brother with them. 25. When they arrived in Egypt, the first thing they did was return to Joseph's steward the money they had found in their sacks. 26. But he did not accept it, saying that their father's God might perhaps have given them a treasure in their sacks. 27. Joseph then received them very kindly, and when he caught sight of his own brother Benjamin among them, 28. he said to him: God be gracious to you, my son! 29. But his heart burned so greatly toward his brother that he could not restrain his tears, and therefore had to go into his chamber. 30. Meanwhile the table was laid, and Joseph's brothers had to stay for the meal. 31. He deliberately seated them in the order in which they had been born, which seemed very strange to them. 32. They sat at a separate table, however, because the Egyptians were not accustomed to eating with the Hebrews. 33. But the food was served to them from Joseph's table, 34. and Benjamin was served five times as much as the others. 35. They also sat together so long that they all became drunk together; 36. and on the following day they traveled home again with great joy.",
+    "questions": [
+      "How far did the famine extend?",
+      "What arrangements did Jacob make?",
+      "Which son did he keep at home?",
+      "Why was Benjamin not allowed to go with them?",
+      "Who was set over the grain?",
+      "What did the king say when someone wanted grain?",
+      "How did Jacob's sons present their request?",
+      "Did they not recognize one another?",
+      "Was Joseph not betrayed by his speech?",
+      "What did Joseph remember at that time?",
+      "Did he not reveal himself?",
+      "How did his brothers defend themselves?",
+      "What did Joseph ask about?",
+      "What answer did they give?",
+      "What did Joseph make the matter depend upon?",
+      "What did they say among themselves in their own language?",
+      "How did Joseph feel about this?",
+      "How did it finally turn out?",
+      "What was found in the sacks of grain?",
+      "How did that happen?",
+      "What did they say to this?",
+      "But did the grain suffice?",
+      "Whom did they want to take with them?",
+      "Why was Benjamin to go along?",
+      "To whom did they report in Egypt?",
+      "What answer did the steward give them?",
+      "How were they received by Joseph?",
+      "What did Joseph say to his brother Benjamin?",
+      "How did Joseph feel about this?",
+      "What honor did he bestow upon his brother?",
+      "How did they have to seat themselves at the table?",
+      "Who else ate at the same table?",
+      "But where did the food come from?",
+      "How much was served to Benjamin?",
+      "How long did they sit together?",
+      "When did they set out again?"
+    ],
+    "teachings": [
+      "I. It is certain that God knows all things beforehand, before they happen.\nJoseph's brothers fell down before him; and God had revealed this to him in a dream several years earlier.",
+      "II. The conscience indeed sleeps for a while, but at the proper time it wakes up.\nWhen Joseph's brothers had fallen into great distress, they said among themselves: We have brought this upon ourselves by what we did to our brother Joseph.",
+      "III. The best expressions of courtesy are surely those in which we sincerely wish one another something good.\nJoseph received his brother Benjamin with these words: God be gracious to you, my son!"
+    ],
+    "reflection": "Joseph's brotherly heart begins to burn,\nAs he speaks with Benjamin for the first time.\nLord Jesus! I too may call you my brother,\nBut I do not yet know you by sight;\nHelp me, God! How blessed I shall be at that time,\nWhen I shall see you visibly in heaven."
   }
 };
