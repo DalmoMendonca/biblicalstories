@@ -554,5 +554,46 @@ export const german1768 = {
     ],
     "reflection": "Was einem GOtt beschert / das bleibet unverwehret.\nDiß alte Sprichwort trifft bey Jacob richtig ein;\nEs ist der Segen ihm einmal von GOtt bescheret /\nDeswegen soll er auch / und muß gesegnet seyn.\nWas mir GOtt zugedacht / das wird mir auch wohl bleiben /\nUnd niemand auf der Welt wird solches hintertreiben.",
     "editorial_note": "Latin line 5 requires independent collation."
+  },
+  "13": {
+    "pages": [
+      82,
+      85,
+      86
+    ],
+    "printed": "34–36",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "latin": "Scalam somnum vidit Patriarcha Jacobus,\nQuod claris verbis pagina sacra refert.\nEt nobis talem contingit cernere scalam,\nQuae trinis gradibus ducit ad astra poli.\nPrimus Amor Patris; tua Passio, Christe! secundus;\nTertius est, quam das, Spiritus alme! Fidem.",
+    "title": "Von der Himmels-Leiter im Traume.",
+    "reference": "1. Mose XXVII. und XXVIII. Cap.",
+    "narrative": "1. Jacob war in seines Vaters Hause seines Lebens nicht sicher: 2. denn sein Bruder Esau hatte sich vorgesetzt, daß er ihn erwürgen wolte. 3. Wie seine Mutter Rebecca Nachricht davon bekam, so gab sie Jacoben den Rath, daß er zu ihrem Bruder Laban ziehen, und eine von seinen Töchtern heyrathen solte. 4. Der Vater war es auch zufrieden, und gab ihm nochmals einen schönen Segen mit auf den Weg. 5. Unterwegens gieng die Sonne eher unter als er die Herberge erreichen konte: 6. Er muste deswegen im freyen Felde bleiben, 7. und mit einem Steine an statt des Haupt-Küssens vorlieb nehmen. 8. In derselben Nacht sahe Jacob im Traum eine Leiter, die stund auf der Erde, und rührte mit der Spitze bis an den Himmel. 9. Auf dieser Leiter stiegen die heiligen Engel auf und nieder, und GOtt der HErr stund oben drauf, 10. und sprach: das Land, da du auf liegest, will ich dir und deinem Samen geben, und durch dich und deinen Saamen sollen alle Geschlechter auf Erden gesegnet werden. 11. Wie Jacob aufwachte, so fieng er sich an zu fürchten, und sagte: Wie heilig ist diese Stätte! hier ist nichts anders denn GOttes Haus, hier ist die Pforte des Himmels. 12. Des Morgens nahm Jacob den Stein, darauf er mit seinem Haupte geruhet hatte, und richtete denselben zu einem Denkmale auf. 13. Die Stätte aber nennete er Bethel, 14. und that zugleich eine Gelübde, wenn ihn GOtt mit Frieden wieder heim zu seinem Vater brächte, so wolte er auf dieselbe Stelle ein GOttes-Haus bauen, und darzu den zehenden Theil von allen seinem Vermögen anwenden.",
+    "questions": [
+      "Wie giengs dem frommen Jacob in seines Vaters Hause?",
+      "Vor wem war er denn nicht sicher?",
+      "Was gab ihm seine Mutter vor einen Rath?",
+      "War es der Vater auch zufrieden?",
+      "Was begegnete Jacoben auf dieser Reise?",
+      "Wo nahm er denn sein Quartier?",
+      "Was hatte er vor ein Haupt-Küssen?",
+      "Was hatte Jacob in dieser Nacht vor einen Traum?",
+      "Wer war denn auf der Leiter?",
+      "Was sagte GOtt der HErr zu Jacoben?",
+      "Was sagte Jacob wie er aufwachte?",
+      "Was machte Jacob mit dem Steine?",
+      "Was gab er dem Orte vor einen Namen?",
+      "Was that er zugleich vor eine Gelübde?"
+    ],
+    "teachings": [
+      "I. Hieraus hat man zu lernen, was man den Kindern mit auf die Reise geben soll.\nNemlich einen guten Seegen, wie hier Isaac seinem Sohne Jacob gegeben hat.",
+      "II. Man kan ferner daraus lernen, daß man seinen Feinden aus dem Wege gehen soll.\nDas that Jacob, welcher lieber seines Vaters Haus verließ, als daß er mit seinem Bruder im Streit leben solte.",
+      "III. Man hat endlich daraus zu lernen, daß sich GOtt den Seinigen oftmals in der Einsamkeit offenbart.\nDenn hier sahe Jacob etwas im freyen Felde, da er ganz allein war, welches er schwerlich in dem grösten Gast-Hofe würde gesehen haben."
+    ],
+    "reflection": "Was dorten Jacob sah / erscheint uns zwar nicht weiter /\nDoch zeigt mir Gottes Wort dergleichen in der That;\nIch sehe vor mir stehn auch eine solche Leiter /\nDie bis gen Himmel reicht / und nur drey Stufen hat.\nDie sind des Vaters Huld; HErr JEsu! deine Schmerzen;\nUnd HErr GOtt Heilger Geist! dein Glaub in meinem Herzen.",
+    "editorial_note": "Latin line 1 and final inflection require independent collation."
   }
 };

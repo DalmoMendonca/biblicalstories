@@ -575,5 +575,46 @@ export const englishFromGerman = {
       "III. What God has decreed must come to pass.\nGod said: The elder should serve the younger; and so it had to happen."
     ],
     "reflection": "What God bestows upon one remains unimpeded.\nThis old proverb is rightly fulfilled in Jacob;\nThe blessing has once been bestowed upon him by God,\nTherefore he shall and must be blessed.\nWhat God has intended for me will likewise remain mine,\nAnd no one in the world will thwart it."
+  },
+  "13": {
+    "pages": [
+      82,
+      85,
+      86
+    ],
+    "printed": "34–36",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "latin": "Scalam somnum vidit Patriarcha Jacobus,\nQuod claris verbis pagina sacra refert.\nEt nobis talem contingit cernere scalam,\nQuae trinis gradibus ducit ad astra poli.\nPrimus Amor Patris; tua Passio, Christe! secundus;\nTertius est, quam das, Spiritus alme! Fidem.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "On the Heavenly Ladder in a Dream",
+    "reference": "Genesis, chapters XXVII and XXVIII.",
+    "narrative": "1. Jacob was not safe for his life in his father's house: 2. for his brother Esau had resolved to kill him. 3. When his mother Rebecca received news of this, she advised Jacob to go to her brother Laban and marry one of his daughters. 4. His father also agreed to this and once more gave him a beautiful blessing for his journey. 5. On the way the sun set before he could reach his lodging: 6. he therefore had to remain in the open field, 7. and make do with a stone instead of a pillow. 8. That same night Jacob saw in a dream a ladder that stood upon the earth and reached with its top to heaven. 9. On this ladder the holy angels ascended and descended, and the Lord God stood above it, 10. and said: The land upon which you lie I will give to you and your seed, and through you and your seed all families on earth shall be blessed. 11. When Jacob awoke, he began to fear, and said: How holy is this place! Here is nothing other than God's house; here is the gate of heaven. 12. In the morning Jacob took the stone upon which he had rested his head and set it up as a memorial. 13. He named the place Bethel, 14. and at the same time made a vow that, if God brought him home to his father again in peace, he would build a house of God on that very spot and devote to it a tenth of all his possessions.",
+    "questions": [
+      "How did the godly Jacob fare in his father's house?",
+      "From whom, then, was he not safe?",
+      "What advice did his mother give him?",
+      "Did his father agree to this also?",
+      "What happened to Jacob on this journey?",
+      "Where, then, did he take up lodging?",
+      "What did he have for a pillow?",
+      "What dream did Jacob have that night?",
+      "Who was on the ladder?",
+      "What did the Lord God say to Jacob?",
+      "What did Jacob say when he awoke?",
+      "What did Jacob do with the stone?",
+      "What name did he give the place?",
+      "What vow did he make at the same time?"
+    ],
+    "teachings": [
+      "I. From this we are to learn what we should give our children to take on a journey.\nNamely, a good blessing, as Isaac here gave his son Jacob.",
+      "II. We can further learn from this that we should keep out of the way of our enemies.\nJacob did this, preferring to leave his father's house rather than live in strife with his brother.",
+      "III. Finally, we are to learn from this that God often reveals himself to his own in solitude.\nFor here Jacob saw something in the open field, where he was quite alone, which he would hardly have seen in the largest inn."
+    ],
+    "reflection": "What Jacob saw there no longer appears to us;\nYet God's Word shows me the like in very truth.\nI see before me such a ladder standing,\nWhich reaches up to heaven and has only three steps.\nThey are the Father's favor; Lord Jesus, your sufferings;\nAnd Lord God, Holy Spirit, your faith in my heart."
   }
 };
