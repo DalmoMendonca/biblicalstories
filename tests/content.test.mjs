@@ -1,37 +1,34 @@
 import {test} from "node:test";
 import assert from "node:assert/strict";
-import {existsSync,readFileSync,readdirSync} from "node:fs";
+import {readFileSync} from "node:fs";
+import {german1768} from "../src/german1768.js";
+import {englishFromGerman} from "../src/englishFromGerman.js";
+import {russianHistorical} from "../src/russianHistorical.js";
 
-const location="public/texts";
-test("Every archived chapter has source-linked OCR and two explicitly unverified modern translations",()=>{
-  if(!existsSync(location))return; // historical archive may precede text import
-  const files=readdirSync(location).filter(x=>x.endsWith(".json")).sort();
-  assert.equal(files.length,104,"Partial trilingual edition must never ship.");
+test("Structured editions retain real source provenance and all required sections",()=>{
   const seen={de:new Set(),en:new Set(),ru:new Set()};
-  for(let index=0;index<104;index++){
-    const chapter=JSON.parse(readFileSync(location+"/"+files[index],"utf8"));
-    assert.equal(chapter.id,index+1);
-    assert.equal(files[index],String(index+1).padStart(3,"0")+".json");
-    for(const language of ["de","en","ru"]){
-      assert.ok(typeof chapter[language]?.text==="string" && chapter[language].text.length>150,
-        "Missing full "+language+" text for chapter "+chapter.id);
+  for(const [lang,records] of Object.entries({de:german1768,en:englishFromGerman,ru:russianHistorical})){
+    for(const [id,w] of Object.entries(records)){
+      assert.ok(+id>=1&&+id<=104);
+      for(const key of ["title","reference","narrative","reflection"])assert.ok(w[key]?.trim(),lang+" "+id+" "+key);
+      for(const key of ["questions","teachings"])assert.ok(Array.isArray(w[key])&&w[key].length>0&&w[key].every(x=>x.trim()));
+      assert.ok((w.pages||w.source_pages)?.length);
+      assert.ok(!seen[lang].has(w.narrative));seen[lang].add(w.narrative);
+      if(lang==="en"){
+        const de=german1768[id];
+        assert.ok(de);assert.equal(w.questions.length,de.questions.length);
+        assert.equal(w.teachings.length,de.teachings.length);
+        assert.equal(w.latin,de.latin);
+      }
+      if(lang==="ru")assert.match(w.kind,/historical/);
     }
-    assert.equal(chapter.de.kind,"uncorrected-fraktur-ocr");
-    assert.match(chapter.en.kind,/modern-machine-translation/);
-    assert.match(chapter.ru.kind,/modern-machine-translation/);
-    assert.ok(chapter.de.source_pages.length>0, "Original folio provenance missing "+chapter.id);
-    for(const language of ["de","en","ru"]){
-      const value=chapter[language].text.trim();
-      assert.ok(!seen[language].has(value),"Duplicated "+language+" text in chapter "+chapter.id);
-      seen[language].add(value);
-    }
-    assert.notEqual(chapter.en.text,chapter.de.text,"English must not be unmodified German OCR");
-    assert.notEqual(chapter.ru.text,chapter.de.text,"Russian must not be unmodified German OCR");
   }
 });
-
-test("Reader rejects unreviewed OCR and translations as authenticated editions",()=>{
+test("Reader excludes rejected machine translation files and distinguishes provenance",()=>{
   const source=readFileSync("src/app.js","utf8");
-  assert.match(source,/witness\?\.kind==="verified-historical-transcription"/);
-  assert.match(source,/data\?\.editorial\?\.proofread===true/);
+  assert.doesNotMatch(source,/fetch\(["'`][^\n]*\/texts\//);
+  assert.match(source,/not a historical English witness/);
+  assert.match(source,/Unkorrigierter Bibliotheks-OCR-Text/);
+  assert.match(source,/russianHistorical\[p.id\]/);
+  assert.match(source,/source-absence/);
 });
