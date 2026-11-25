@@ -266,5 +266,92 @@ export const englishFromGerman = {
     "kind": "new-translation-from-transcribed-german",
     "source": "Giessen 1768, University Library Heidelberg",
     "review": "Translated from source-compared German transcription; not independently proofread; not historical English."
+  },
+  "7": {
+    "title": "On the Building of the Tower at Babel",
+    "reference": "Genesis, chapter XI.",
+    "narrative": "1. After the Flood there was only one language in the whole world. 2. When people had once again multiplied, they undertook a great building project. 3. Namely, they built a city and a tower whose summit was to reach to heaven. 4. They did this out of pride, wishing to make a great name for themselves among posterity. 5. Then the Lord God came down and looked at the city and the tower. 6. But the building did not please the dear God at all. 7. Because the people would not abandon it, God confused their languages so that no one understood what another wanted. 8. Thus they could not continue the building; one went away in one direction with his people, and another in another direction. 9. In remembrance of this the newly built city was called Babel, 10. because this word means confusion in German.",
+    "questions": [
+      "How many languages were in the world after the Flood?",
+      "What did people undertake after the Flood?",
+      "In what did the great building project consist?",
+      "Why did they build this tower?",
+      "Did God know anything of it?",
+      "How did the building please the Lord God?",
+      "How did God prevent the building?",
+      "What followed the confusion of languages?",
+      "What was the newly built city called?",
+      "What does the name Babel mean in German?"
+    ],
+    "teachings": [
+      "I. The Lord God takes notice of what people do upon the earth.\nThis can be shown by the tower at Babel; for God then came down and looked at the building.",
+      "II. Among other things, people can sin against God by magnificent building projects.\nFor the tower at Babel did not please the dear God.",
+      "III. The Lord God can quickly bring people's designs to nothing.\nFor at Babel God needed only to confuse the languages, and they had to cease building at once."
+    ],
+    "reflection": "People often build themselves houses and palaces,\nWhich stand as splendidly as a tower at Babel,\nYet in the world they are only pilgrims and guests,\nWho must pass through this vale of tears into heaven.\nWho cares for house and estate on this contemptible earth,\nIf only one day I become a citizen of heaven?",
+    "pages": [
+      52,
+      55,
+      56
+    ],
+    "printed": "16–18",
+    "latin": "Saepius aedificant homines palatia magna,\nQuae referunt turrim, quae Babylone fuit,\nCum tamen hospitium terra est, non patria sedes,\nQuod peregrinantes ducit ad astra pios.\nNon moror haec mundi perituri tecta superba,\nDummodo apud superos sit mihi certa domus.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 10,
+      "teachings": 3
+    }
+  },
+  "8": {
+    "title": "On Abraham and Sarah",
+    "reference": "Genesis, chapter XVIII.",
+    "narrative": "1. Once, when God spoke with Abraham, he gave him this promise: In you all the families on earth shall be blessed. 2. This meant that the Savior of all people was to be born of Abraham's descendants. 3. Now Abraham had a wife named Sarah; 4. but she had no children and was barren. 5. There was no hope of this either, because they were both very old. 6. Nevertheless Abraham believed that God would fulfill his promise; 7. and this faith was counted to him by God as righteousness. 8. When Abraham once lifted up his eyes, he saw three men coming toward him whom he did not know. 9. But it was the Son of God with two angels, all of whom had assumed human form. 10. Abraham asked these three men to stop with him, and had water given them so that they could wash their feet. 11. Then he led them under a tree, 12. and had veal, cakes, milk, and butter set before them. 13. Sarah, his wife, was not at the table, 14. but in the kitchen she could hear everything that was said during the meal. 15. Among other things the Lord God said to Abraham: I will come to you again, if I live, and Sarah your wife shall have a young son. 16. Sarah heard this behind the door and laughed at it. 17. But the dear God reproved her for it and said: Should anything be impossible for the Lord? 18. The good woman wished to excuse herself and said that she had not laughed. 19. But God rebuked her for this and said: It is not so; you did laugh. 20. Meanwhile the promise came to pass exactly, 21. and the son whom Sarah brought into the world was named Isaac. 22. This happened when Abraham was a hundred and Sarah ninety years old.",
+    "questions": [
+      "What promise did God give Abraham?",
+      "What did these words mean?",
+      "What wife did Abraham have?",
+      "Did they have children together?",
+      "Was there no hope of having any?",
+      "Did Abraham therefore doubt the promise?",
+      "What benefit did this faith bring him?",
+      "What visit did Abraham subsequently receive?",
+      "Who were the three men?",
+      "How did Abraham receive his guests?",
+      "Where did they dine?",
+      "What were they served?",
+      "Was Sarah not at the table?",
+      "Could she hear what was said?",
+      "What conversation did God have with Abraham?",
+      "What did Sarah think about this?",
+      "What did God say to such laughter?",
+      "How did Sarah excuse herself?",
+      "But what answer did God give her?",
+      "Was the promise fulfilled?",
+      "What was the young son called?",
+      "How old were the parents at that time?"
+    ],
+    "teachings": [
+      "I. From this story one learns that spirits can appear in visible form when they wish.\nFor they spoke, ate, and drank with Abraham.",
+      "II. One learns further from it that one should not set out so many dishes at feasts.\nFor Abraham set before the dear God no more than veal, cakes, milk, and butter.",
+      "III. Finally one learns from this that God can make possible what is impossible in the eyes of all people.\nFor Sarah had a young son although she was already ninety years old."
+    ],
+    "reflection": "When God said of Sarah that she should bear a child,\nShe laughed at this and thought no in her heart;\nBut afterward she had to hear the stern words:\nWhat? Should anything be impossible with God?\nI will remember this question for my instruction,\nAnd continually strengthen my faith with God's omnipotence.",
+    "pages": [
+      56,
+      59,
+      60,
+      63
+    ],
+    "printed": "18–21",
+    "latin": "Effoeta sobolis dum sit promissio Sara,\nIn risum mulier solverat ora procax.\nSed merito verbis castigabatur acerbis,\nOmnia posse Deum, quod dubitaret anus.\nHaec semper memori sub pectore verba tenebo,\nFirmatura meam tempus in omne fidem.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 22,
+      "teachings": 3
+    }
   }
 };
