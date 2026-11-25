@@ -1236,5 +1236,74 @@ export const german1768 = {
       "III. Mose führte die Kinder Israel nur in der Wüsten: Josua aber brachte sie ins Gelobte Land.\nDer Nahme Josua und der Nahme JEsus heißt einer so viel als der ander: Also ist dadurch angedeutet worden, daß wir nicht durch das Gesetz Mosis, sondern durch das Evangelium JEsu selig werden."
     ],
     "reflection": "GOtt führte zwar sein Volck durch eine lange Wüsten /\nDoch tränckte sie GOtt auch / und speiste sie mit Mann;\nUnd also hatten sie es besser als wir Christen!\nSprich nicht so / liebes Hertz / du bist noch besser dran:\nDein JEsus speist und tränckt dich auch auf deiner Reise /\nSein Blut ist ja dein Tranck / und sein Fleisch deine Speise."
+  },
+  "25": {
+    "pages": [
+      152,
+      155,
+      156,
+      157,
+      158
+    ],
+    "printed": "80–84",
+    "latin": "Lex promulgata est nimboso in vertice Sinae,\nHorrifico tonitru personuitque polus:\nIn promptu causa est: illis fulgetra minantur,\nQui praecepta Dei spernere sancta solent.\nHaec toties memori mihi condita mente revolvam,\nHorribili quoties aura fragore tonat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 40,
+      "teachings": 3
+    },
+    "editorial_note": "Heidelberg p. 80 misprints chapter number as 20; historical Russian witness uses a different enumeration of the Decalogue and 38 questions.",
+    "title": "Wie GOtt die heiligen zehen Gebot auf dem Berge Sinai gegeben hat.",
+    "reference": "2 Mose XIX. XX. und XXI. Cap.",
+    "narrative": "1. Als die Kinder Israel in der Wüsten waren, so gab ihnen GOtt der HErr die heiligen zehen Gebot. 2. Drey Tage vorher muste sich das Volck darzu heiligen, und ihre Kleider waschen. 3. Am dritten Tage aber fuhr der HErr in einem Feuer hernieder auf den Berg Sinai. 4. Da erhub sich ein Donnern und Blitzen, und eine starcke Posaune ließ sich hören. 5. Auf der Spitze des Berges war eine dunkle Wolcke und der ganze Berg fieng an zu rauchen, und zu beben. 6. Darauf führte Mose die Kinder Israel aus dem Lager bis an den Berg. 7. Sie durfften aber GOtt dem HErrn nicht nahe kommen, sondern musten unten am Berge stehen bleiben. 8. Ja Mose muste gar ein Gehege um den Berg machen, damit ja niemand hinan steigen möchte: 9. Weil GOtt ausdrücklich gesagt hatte, daß er sie zerschmettern wolte. 10. Darauf gab GOtt der HErr seinem Volcke die heiligen zehen Gebote, und sprach: 11. Du solt nicht andre Götter haben neben mir. 12. Du solt den Nahmen des HErrn deines GOttes nicht mißbrauchen, denn der HErr wird den nicht ungestraft lassen, der seinen Nahmen mißbrauchet. 13. Gedencke des Sabbath Tages, daß du ihn heiligest. 14. Du solt deinen Vater und deine Mutter ehren, auf daß dirs wohl gehe und du lange lebest auf Erden. 15. Du solt nicht tödten. 16. Du solt nicht ehebrechen. 17. Du solt nicht stehlen. 18. Du solt nicht falsch Zeugniß reden wider deinen Nächsten. 19. Du solt nicht begehren deines Nächsten Haus. 20. Du solte nicht begehren deines Nächsten Weib, Knecht, Magd, Viehe oder alles was sein ist, 21. Wie GOtt diese Wort geredet hatte, so stieg Mose hinauf in das Dunkle, darinnen der HErr war, und blieb auf dem Berge vierzig Tage und vierzig Nächte. 22. Wie er wieder herunter gieng, so gab ihm GOtt zwey steinerne Tafeln mit, die der HErr selber gemacht hatte. 23. Auf diesen zwey Tafeln stunden die zehn Gebote, und GOtt hatte sie selbst mit seinem Finger darauf geschrieben. 24. Unterdessen hatte sich das Volck greulich an dem HErrn versündiget. 25. Denn wie Mose so lange auf dem Berge verzog, so kam das Volck zu Aaron, und sagte zu ihm: Mache uns Götter, die vor uns hergehen. 26. Aaron gehorchte dem Volcke, und machte ihnen ein güldenes Kalb, 27. und zwar aus denen güldenen Ringen, die ihre Weiber und Töchter in den Ohren trugen. 28. Wie der Abgott fertig war, so sagte einer zu dem andern: Das sind deine Götter, die dich aus Egypten geführet haben. 29. Darauf hielten sie dem HErrn ein grosses Fest, und satzten sich nieder zu essen und zu trinken, und stunden auf zu spielen. 30. GOtt der HErr sahe das alles auf dem Berge, und sagte zu Mose, 31. Ich sehe, daß es ein halsstarrig Volck ist, und nun laß mich, daß mein Zorn über sie ergrimme, und sie auffresse, so will ich dich zum grossen Volcke machen. 32. Aber Mose bat beweglich vor das Volck, und GOtt ließ sich auch endlich erbitten. 33. Er sagte aber gleichwohl darbey: Ich will ihre Sünde schon heimsuchen, wenn meine Zeit kommen wird, sie heimzusuchen. 34. Unterdessen wie Mose vom Berge kam, und das Getümmel hörte, so schmiß er im Eifer die Gesetz-Tafeln auf GOttes Boden, daß sie entzwey giengen. 35. Darnach nahm er das güldene Kalb und verbrannte es zu Pulver, und gabs den Kindern Israel zu trinken. 36. An statt der zerbrochenen Tafeln machte Mose zwey neue, wie die ersten gewesen waren, 37. und GOtt der HErr schrieb mit seinem Finger eben diejenigen zehen Gebote darauf, die auf den ersten Tafeln gestanden hatten. 38. Von selbiger Zeit an gläntzte das Angesicht Mose, nachdem er so lange mit GOtt geredet hatte. 39. Wenn er nun mit den Kindern Israel was zu reden hatte, so hieng er eine Decke vor sein Angesicht: 40. Und wenn er zum HErrn hinein gieng, so nahm er die Decke wieder ab.",
+    "questions": [
+      "Was trug sich in der Wüsten zu?",
+      "Wie muste sich das Volck bereiten?",
+      "Was geschah am dritten Tage?",
+      "Was erhub sich darbey?",
+      "Wie sahe der Berg Sinai aus?",
+      "Wo waren die Kinder Israel?",
+      "Durfften sie nicht auf den Berg steigen?",
+      "Was machte Mose um den Berg herum?",
+      "Warum that solches Moses?",
+      "Was redte GOtt darauf zum Volcke?",
+      "Wie lautet das erste Gebot?",
+      "Wie denn das andre?",
+      "Wie das dritte?",
+      "Wie denn das vierte?",
+      "Wie das fünfte?",
+      "Wie das sechste?",
+      "Wie das siebende?",
+      "Wie das achte?",
+      "Wie das neunte?",
+      "Wie das zehnte?",
+      "Wie lange muste Mose auf dem Berge verziehen?",
+      "Was brachte Mose mit herunter?",
+      "Was stund denn auf den beyden Tafeln?",
+      "Was hatte das Volck unterdessen vorgenommen?",
+      "Was sagte das Volck zu Aaron?",
+      "Was machte ihnen Aaron vor ein Götzen-Bild?",
+      "Was nahm er vor Materie darzu?",
+      "Wie sagten die Kinder Israel unter einander?",
+      "Was hielten sie vor ein Fest?",
+      "Wuste denn GOtt der HErr was davon?",
+      "Was sagte GOtt zu Mose?",
+      "Was gab Mose zur Antwort?",
+      "Was behielt sich GOtt vor?",
+      "Was machte Mose mit den Gesetz-Tafeln, wie er vom Berge herunter kam?",
+      "Was nahm er mit dem güldenen Kalbe vor?",
+      "Wo kamen aber andere Gesetz-Tafeln her?",
+      "Wer schrieb die zehen Gebote von neuem darauf?",
+      "Wie sahe Moses aus, wie er so lange mit GOtt geredet hatte?",
+      "Wenn that er eine Decke vor sein Gesichte?",
+      "Und wenn nahm er die Decke wieder ab?"
+    ],
+    "teachings": [
+      "I. Die Kinder Israel hatten vor kurtzer Zeit den wahren GOtt auf dem Berge Sinai gesehen und gehöret, und erwählten doch bald darauf ein güldenes Kalb zu ihrem GOtte.\nDa siehet man, wie wandelbar und wie unbeständig das Hertze der Menschen ist.",
+      "II. GOtt wolte das Volck in seinem Zorn und Grimme verderben; wie aber Moses vor sie bat, so ließ sich GOtt der HErr das Uebel gereuen.\nDa siehet man, daß durch Vorbitte bey GOtt groß Unglück kan abgewendet werden, und daß man deswegen die Priesterlichen Vorbitten von den Cantzeln nicht so geringe zu achten hat.",
+      "III. GOtt sagte, er wolte die Sünde des Volcks schon heimsuchen, wenn seine Zeit heimzusuchen kommen würde.\nAlso straft GOtt die Sünde nicht allemal flugs auf frischer That: sondern er pfleget bisweilen wohl, wie man im Sprichwort saget, eine Zeche zu borgen."
+    ],
+    "reflection": "Mit Blitz und Donner hat GOtt sein Gesetz gegeben /\nWas das bedeuten soll / darüber ist kein Streit:\nEuch gilt es / die ihr nicht darnach begehrt zu leben /\nBlitz / Feuer / Rauch und Dampf ist euch schon zubereit!\nAuch dieses will ich mir zu Hertzen lassen gehen /\nSo oft am Himmel wird ein Donner-Wetter stehen."
   }
 };

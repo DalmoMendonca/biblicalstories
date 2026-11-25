@@ -277,7 +277,10 @@
       "printed_start": 104,
       "scan_start": 116,
       "scan_end_candidate": 122,
-      "scan_start_candidate": 115
+      "scan_start_candidate": 115,
+      "scan_start_verified": 116,
+      "scan_end_verified": 122,
+      "printed_verified": "104–110"
     },
     {
       "id": 26,

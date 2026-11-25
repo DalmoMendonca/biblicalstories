@@ -1267,5 +1267,75 @@ export const englishFromGerman = {
       "III. Moses led the children of Israel only in the wilderness, but Joshua brought them into the Promised Land.\nThe name Joshua and the name Jesus mean the same thing: thus it is indicated that we are saved not through the law of Moses, but through the gospel of Jesus."
     ],
     "reflection": "God indeed led his people through a long wilderness,\nYet God gave them drink and fed them with manna;\nAnd so they had it better than we Christians!\nDo not speak so, dear heart, you are better off still:\nYour Jesus feeds you and gives you drink on your journey;\nHis blood is indeed your drink, and his flesh your food."
+  },
+  "25": {
+    "pages": [
+      152,
+      155,
+      156,
+      157,
+      158
+    ],
+    "printed": "80–84",
+    "latin": "Lex promulgata est nimboso in vertice Sinae,\nHorrifico tonitru personuitque polus:\nIn promptu causa est: illis fulgetra minantur,\nQui praecepta Dei spernere sancta solent.\nHaec toties memori mihi condita mente revolvam,\nHorribili quoties aura fragore tonat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 40,
+      "teachings": 3
+    },
+    "editorial_note": "Heidelberg p. 80 misprints chapter number as 20; historical Russian witness uses a different enumeration of the Decalogue and 38 questions.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How God Gave the Holy Ten Commandments on Mount Sinai",
+    "reference": "Exodus, chapters XIX, XX, and XXI.",
+    "narrative": "1. When the children of Israel were in the wilderness, the Lord God gave them the holy Ten Commandments. 2. Three days beforehand the people had to sanctify themselves for this and wash their clothes. 3. On the third day, however, the Lord descended in fire upon Mount Sinai. 4. Then thunder and lightning arose, and a mighty trumpet was heard. 5. On the summit of the mountain was a dark cloud, and the whole mountain began to smoke and tremble. 6. Thereupon Moses led the children of Israel out of the camp to the mountain. 7. But they were not permitted to come near the Lord God, and had to remain standing at the foot of the mountain. 8. Indeed, Moses had to make an enclosure around the mountain so that no one might ascend it, 9. because God had expressly said that he would shatter them. 10. Thereupon the Lord God gave his people the holy Ten Commandments and said: 11. You shall have no other gods beside me. 12. You shall not misuse the name of the Lord your God, for the Lord will not leave unpunished anyone who misuses his name. 13. Remember the Sabbath day, to keep it holy. 14. You shall honor your father and your mother, that it may go well with you and you may live long upon the earth. 15. You shall not kill. 16. You shall not commit adultery. 17. You shall not steal. 18. You shall not bear false witness against your neighbor. 19. You shall not covet your neighbor's house. 20. You shall not covet your neighbor's wife, manservant, maidservant, cattle, or anything that is his. 21. When God had spoken these words, Moses ascended into the darkness in which the Lord was and remained on the mountain forty days and forty nights. 22. When he went down again, God gave him two stone tablets that the Lord himself had made. 23. On these two tablets stood the Ten Commandments, and God himself had written them there with his finger. 24. Meanwhile the people had sinned grievously against the Lord. 25. For when Moses tarried so long on the mountain, the people came to Aaron and said to him: Make us gods who shall go before us. 26. Aaron obeyed the people and made them a golden calf, 27. specifically from the golden rings their wives and daughters wore in their ears. 28. When the idol was finished, one said to another: These are your gods who brought you out of Egypt. 29. Thereupon they held a great feast for the Lord, sat down to eat and drink, and rose up to play. 30. The Lord God saw all this on the mountain and said to Moses, 31. I see that it is a stiff-necked people; now leave me alone, that my wrath may burn against them and consume them, and I will make you into a great people. 32. But Moses pleaded earnestly for the people, and at last God allowed himself to be entreated. 33. Yet he said nevertheless: I will indeed visit their sin upon them when my time to visit it comes. 34. Meanwhile, when Moses came down from the mountain and heard the tumult, he flung the tablets of the law upon God's ground in his zeal, so that they broke in two. 35. Afterward he took the golden calf and burned it to powder, and gave it to the children of Israel to drink. 36. In place of the broken tablets Moses made two new ones like the first, 37. and the Lord God wrote on them with his finger the very same Ten Commandments that had stood upon the first tablets. 38. From that time onward Moses' face shone, after he had spoken so long with God. 39. Whenever he had something to say to the children of Israel, he hung a veil before his face; 40. and when he went in to the Lord, he took the veil off again.",
+    "questions": [
+      "What happened in the wilderness?",
+      "How had the people to prepare themselves?",
+      "What happened on the third day?",
+      "What arose at the same time?",
+      "What did Mount Sinai look like?",
+      "Where were the children of Israel?",
+      "Were they not permitted to ascend the mountain?",
+      "What did Moses make around the mountain?",
+      "Why did Moses do this?",
+      "What did God then say to the people?",
+      "How does the first commandment read?",
+      "How does the second read?",
+      "How does the third read?",
+      "How does the fourth read?",
+      "How does the fifth read?",
+      "How does the sixth read?",
+      "How does the seventh read?",
+      "How does the eighth read?",
+      "How does the ninth read?",
+      "How does the tenth read?",
+      "How long did Moses have to remain on the mountain?",
+      "What did Moses bring down with him?",
+      "What stood upon both tablets?",
+      "What had the people undertaken meanwhile?",
+      "What did the people say to Aaron?",
+      "What idol did Aaron make for them?",
+      "What material did he take for it?",
+      "What did the children of Israel say among themselves?",
+      "What feast did they hold?",
+      "Did the Lord God know anything about this?",
+      "What did God say to Moses?",
+      "What answer did Moses give?",
+      "What did God reserve to himself?",
+      "What did Moses do with the tablets of the law when he came down from the mountain?",
+      "What did he do with the golden calf?",
+      "Where did other tablets of the law come from?",
+      "Who wrote the Ten Commandments on them anew?",
+      "What did Moses look like after speaking so long with God?",
+      "When did he put a veil before his face?",
+      "And when did he take the veil off again?"
+    ],
+    "teachings": [
+      "I. The children of Israel had shortly before seen and heard the true God on Mount Sinai, and yet soon afterward chose a golden calf as their God.\nHere one sees how changeable and how inconstant the heart of human beings is.",
+      "II. God wished to destroy the people in his anger and wrath; but when Moses pleaded for them, the Lord God repented of the evil.\nHere one sees that through intercession with God great calamity can be averted, and that the priestly intercessions from the pulpits should therefore not be held in such low esteem.",
+      "III. God said that he would indeed visit the sin of the people when his time for visitation came.\nThus God does not always punish sin immediately in the very act; rather, sometimes, as the proverb says, he lets the reckoning run on credit."
+    ],
+    "reflection": "With lightning and thunder God gave his law;\nWhat this signifies is not in dispute:\nIt concerns you who do not desire to live by it;\nLightning, fire, smoke, and vapor are already prepared for you!\nI too will take this to heart,\nAs often as a thunderstorm stands in the sky."
   }
 };
