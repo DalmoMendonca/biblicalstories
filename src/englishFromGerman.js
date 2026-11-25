@@ -1201,5 +1201,71 @@ export const englishFromGerman = {
       "III. The very best traveling companion is the angel of the Lord.\nThe children of Israel experienced this in their departure from Egypt, when the angel of the Lord placed himself between the army of the Egyptians and the people of God."
     ],
     "reflection": "In no house was a dead person found,\nWhich in Egypt had been smeared with blood.\nO Jesus, Lamb of God! The blood from your wounds\nHas far greater power in distress and danger.\nWith your blood I will mark my soul and body;\nThen death, indeed the devil himself, will flee from me."
+  },
+  "24": {
+    "pages": [
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "printed": "75–79",
+    "latin": "Quando JEHOVA suum populum per inhospita ducit,\nPetra ministrat aquas, aethere Manna cadit.\nErgo deterior sors esse videtur eorum,\nQui duce te Christo corripuere viam!\nTe pudeat! JESUS tibi dat cum sanguine corpus,\nNum melior potus, num cibus esse potest?",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "editorial_note": "Heidelberg p. 77 misprints question 24 as 34; sequence restored. Page 76 running header misnumbers the story.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How God Led the Children of Israel Through the Wilderness into the Promised Land",
+    "reference": "In the Second, Fourth, and Fifth Books of Moses.",
+    "narrative": "1. The children of Israel spent forty years on their journey to the Promised Land. 2. All the way through the wilderness God himself accompanied them. 3. By day he appeared in a pillar of cloud, 4. and by night in a pillar of fire. 5. By day the pillar of cloud served the children of Israel as a shelter against the great heat of the sun, 6. and by night it illuminated the entire camp. 7. When the cloud rested upon the tabernacle, the children of Israel remained still; 8. when the cloud rose into the air, they traveled onward. 9. Throughout the journey the children of Israel had to worry about neither food nor drink. 10. For every morning bread fell from heaven, which was called man or manna. 11. This heavenly bread consisted of small round grains and tasted like a bread roll with honey. 12. Indeed, everyone could make of it whatever he wished, according to his desire for this or that taste. 13. Every day they could gather the manna before the sun rose, but on the Sabbath day none fell from heaven. 14. When they lacked water, Moses only had to strike the rocks with his staff, and immediately so much water sprang out that all the people had enough to drink. 15. Throughout the forty years they did not have to worry about where to obtain clothing, for their clothes did not tear and their shoes did not grow old upon their feet. 16. Notwithstanding this, the children of Israel murmured time and again against the Lord. 17. Once they no longer wished to eat the manna, but said: We are disgusted with this worthless food. 18. Then the Lord sent fiery serpents among them. 19. Another time the company of Korah rebelled against Moses; 20. then the ground opened and swallowed the entire company. 21. When the spies who had been sent out reported that great giants lived in the Promised Land, 22. they became quite rebellious and wanted to return to Egypt. 23. Then the Lord swore in his wrath that the older people should die in the wilderness and only their children should enter the Promised Land. 24. They did indeed all die one after another within forty years on the journey. 25. Moses and Aaron likewise did not enter the Promised Land, because they too had sinned against God. 26. No more than two of the older people entered; they were called Joshua and Caleb. 27. Now the number of the older people amounted to six hundred thousand men; 28. and the number of children begotten in the wilderness was again about six hundred thousand. 29. Before Moses died, the Lord God showed him the Promised Land on a high mountain. 30. On that mountain Moses died, and God buried him himself, so that no one might know his grave. 31. His successor was Joshua, who finally brought the children of Israel into the Promised Land. 32. They conquered it with the edge of the sword, and God commanded that they should put all the inhabitants of the land to death. 33. When they crossed the Jordan, the river divided. 34. When they blew the field trumpets, the towers and walls of the city of Jericho fell into a heap. 35. And when Joshua once could not finish the battle, the sun stood still in the sky at Gibeon. 36. Finally they divided the land by lot according to the twelve tribes of the children of Israel.",
+    "questions": [
+      "How long did the children of Israel spend on their journey?",
+      "Who accompanied them?",
+      "Where was God by day?",
+      "Where then by night?",
+      "What purpose did the pillar of cloud serve?",
+      "What purpose did the pillar of fire serve?",
+      "When did the children of Israel remain still?",
+      "When did they continue their journey?",
+      "Where did they get food in the wilderness?",
+      "What did they call the heavenly bread?",
+      "What did the manna look like?",
+      "What could one make from the manna?",
+      "When did they have to gather the manna?",
+      "Where did they get drink?",
+      "And where did so much clothing come from?",
+      "How did the Israelites conduct themselves in the wilderness?",
+      "What happened concerning the manna?",
+      "With what did God punish the people?",
+      "What did the company of Korah do?",
+      "How did this rebellion turn out for them?",
+      "What did the spies report?",
+      "What did the people say to this?",
+      "What oath did God then swear?",
+      "Did it also come to pass?",
+      "Did Moses and Aaron not enter the Promised Land?",
+      "Did none of the older people enter then?",
+      "How many older people had come out of Egypt?",
+      "How large was the number of the young people begotten in the wilderness?",
+      "What did Moses see before his death?",
+      "Who buried Moses after he had died on the mountain?",
+      "Who succeeded Moses in government?",
+      "How did this Joshua take possession of the Promised Land?",
+      "What happened at the Jordan?",
+      "What happened to the walls at Jericho?",
+      "What happened to the sun at Gibeon?",
+      "How did the children of Israel finally divide the Promised Land among themselves?"
+    ],
+    "teachings": [
+      "I. God did not wish the children of Israel to gather manna on the Sabbath day.\nHow must it please the dear Lord God when Christians gorge themselves and drink so much on Sunday that their servants can scarcely boil and roast enough!",
+      "II. The children of Israel had to travel forty years in the wilderness before they came into the Promised Land.\nThe wilderness represents the kingdom of grace here in this world, and the Promised Land prefigures the kingdom of glory there in heaven.",
+      "III. Moses led the children of Israel only in the wilderness, but Joshua brought them into the Promised Land.\nThe name Joshua and the name Jesus mean the same thing: thus it is indicated that we are saved not through the law of Moses, but through the gospel of Jesus."
+    ],
+    "reflection": "God indeed led his people through a long wilderness,\nYet God gave them drink and fed them with manna;\nAnd so they had it better than we Christians!\nDo not speak so, dear heart, you are better off still:\nYour Jesus feeds you and gives you drink on your journey;\nHis blood is indeed your drink, and his flesh your food."
   }
 };

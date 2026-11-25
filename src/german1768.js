@@ -1171,5 +1171,70 @@ export const german1768 = {
       "III. Der allerbeste Reise-Gefährte ist der Engel des HErrn.\nDas erfuhren die Kinder Israel beym Ausgange aus Egypten, als sich der Engel des HErrn ins Mittel stellte, zwischen das Heer der Egypter und zwischen das Volck Gottes."
     ],
     "reflection": "In keinem Hause ward ein todter Mensch gefunden /\nDas in Egypten nur mit Blut bestrichen war.\nO JEsu / GOttes Lamm! das Blut aus deinen Wunden\nHat noch viel grössre Krafft in Noth und in Gefahr.\nMit deinem Blute will ich Seel und Leib bestreichen /\nSo wird von mir der Tod / ja selbst der Teufel weichen."
+  },
+  "24": {
+    "pages": [
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "printed": "75–79",
+    "latin": "Quando JEHOVA suum populum per inhospita ducit,\nPetra ministrat aquas, aethere Manna cadit.\nErgo deterior sors esse videtur eorum,\nQui duce te Christo corripuere viam!\nTe pudeat! JESUS tibi dat cum sanguine corpus,\nNum melior potus, num cibus esse potest?",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "editorial_note": "Heidelberg p. 77 misprints question 24 as 34; sequence restored. Page 76 running header misnumbers the story.",
+    "title": "Wie GOtt die Kinder Israel durch die Wüsten in das Gelobte Land geführet hat.",
+    "reference": "Im II. IV. und V. Buch Mose.",
+    "narrative": "1. Die Kinder Israel brachten vierzig Jahr auf ihrer Reise nach dem Gelobten Lande zu. 2. Den ganzen Weg durch die Wüsten gab ihnen GOtt selber das Geleite. 3. Des Tages ließ er sich in einer Wolcken-Säule, 4. und des Nachts in einer Feuer-Säule sehen. 5. Des Tages diente die Wolcken-Säule den Kindern Israel zu einem Schirme wider die grosse Sonnen-Hitze, 6. und des Nachts erleuchtete sie das ganze Lager. 7. Wenn die Wolcke auf der Stiffts-Hütten ruhete, so lagen die Kinder Israel stille: 8. Wenn sich die Wolcke in die Höhe zog, so reisten sie weiter. 9. Auf dem ganzen Wege durfften die Kinder Israel weder vor Essen noch Trinken sorgen. 10. Denn alle Morgen fiel Brodt vom Himmel, welches Man oder Manna genennet ward. 11. Dieses Himmel-Brodt bestund in kleinen runden Körnern, und hatte einen Geschmack wie Semmel mit Honig. 12. Ja ein jeglicher konte sich daraus machen was er wolte, nachdem ihm ein Lust ankam, so oder so zu schmecken. 13. Alle Tage konten sie das Manna sammlen, ehe die Sonne aufgieng, aber am Sabbath-Tage fiel keines vom Himmel. 14. Wenn sie Mangel an Wasser hatten, so durffte Mose nur mit seinem Stabe an die Felsen schlagen, so sprang alsobald so viel Wasser heraus, daß alles Volck genug zu trinken hatte. 15. Sie durfften auch die ganzen vierzig Jahre durch nicht sorgen wo sie Kleider hernehmen wolten: Denn ihre Kleider zerrissen nicht, und ihre Schuhe wurden nicht alt an ihren Füssen. 16. Dem ungeachtet murreten die Kinder Israel einmal über das andre wider den HErrn. 17. Einmal wolten sie das Manna nicht mehr essen, sondern sagten: Uns eckelt vor dieser losen Speise. 18. Da schickte der HErr feurige Schlangen unter sie. 19. Ein andermal empörte sich die Rotte Korah wider Mosen: 20. Da that sich der Erdboden auf, und verschlang die ganze Rotte. 21. Wie die ausgeschickten Kundschaffter erzehlten, daß grosse Riesen im Gelobten Lande wohnten, 22. da wurden sie ganz aufrührisch, und wolten wieder nach Egypten umkehren. 23. Da schwur der HErr in seinem Zorne, die Alten solten in der Wüsten sterben, und ihre Kinder solten nur in das Gelobte Land kommen. 24. Sie sturben auch alle nach und nach, innerhalb vierzig Jahren auf der Reise. 25. Auch Mose und Aaron kamen nicht in das Gelobte Land, weil sie sich auch an GOtt versündiget hatten. 26. Nicht mehr als zweene von den Alten kamen hinein, die hiessen Josua und Caleb. 27. Es belief sich aber die Zahl der Alten auf sechs mal hundert tausend Mann: 28. Und die Zahl der Kinder, die in der Wüsten waren gezeuget worden, war auch wieder ohngefehr sechs mal hundert tausend. 29. Mosen zeigte GOtt der HErr das Gelobte Land noch vor seinem Tode auf einem hohen Berge. 30. Auf demselben Berge starb Mose, und GOtt begrub ihn selber, damit niemand sein Grab wissen möchte. 31. Sein Nachfolger war Josua, der brachte die Kinder Israel endlich in das Gelobte Land. 32. Dasselbe eroberten sie mit der Schärffe des Schwerdts, und GOtt befahl, daß sie die Einwohner des Landes alle todt schlagen solten. 33. Als sie über den Jordan giengen, so theilte sich der Fluß von einander. 34. Wie sie mit den Feld-Trompeten bliesen, so fielen die Thürme und die Mauren von der Stadt Jericho über einen Hauffen. 35. Und wie Josua einsten mit der Schlacht nicht konte fertig werden, so stand die Sonne am Himmel stille zu Gibeon. 36. Endlich theilten sie das Land durch das Looß, nach den zwölf Stämmen der Kinder Israel.",
+    "questions": [
+      "Wie lange brachten die Kinder Israel auf ihrer Reise zu?",
+      "Wer gab ihnen das Geleite?",
+      "Wo war GOtt des Tages?",
+      "Wo aber des Nachts?",
+      "Worzu diente die Wolcken-Säule?",
+      "Worzu die Feuer-Säule?",
+      "Wenn lagen die Kinder Israel stille?",
+      "Wenn setzten sie ihre Reise fort?",
+      "Wo kriegten sie in der Wüsten zu essen her?",
+      "Wie nanten sie das Himmel-Brodt?",
+      "Wie sahe das Manna aus?",
+      "Was konte man aus dem Manna machen?",
+      "Wenn musten sie das Manna sammlen?",
+      "Wo kriegten sie denn zu trinken her?",
+      "Und wo kamen so viel Kleider her?",
+      "Wie führten sich denn die Israeliten in der Wüsten auf?",
+      "Was gieng mit dem Manne vor?",
+      "Womit strafte GOtt das Volck?",
+      "Was that die Rotte Korah?",
+      "Wie bekam ihnen dieser Aufruhr?",
+      "Was erzehlten die Kundschaffter?",
+      "Was sagte das Volck darzu?",
+      "Was thate GOtt damals vor einen Schwur?",
+      "Ists auch erfolget?",
+      "Ist denn Mose und Aaron nicht ins gelobte Land kommen?",
+      "Ist also gar niemand von den Alten hinein kommen?",
+      "Wie viel waren denn der Alten, die aus Egypten gezogen waren?",
+      "Wie starck war die Anzahl der Jungen, die in der Wüsten waren gezeuget worden?",
+      "Was sahe Mose noch vor seinem Tode?",
+      "Wer begrub Mosen, als er auf dem Berge gestorben war?",
+      "Was hatte Moses vor einen Nachfolger im Regiment?",
+      "Wie nahm dieser Josua das Gelobte Land ein?",
+      "Was gieng am Jordan vor?",
+      "Was mit den Mauren zu Jericho?",
+      "Was mit der Sonne zu Gibeon?",
+      "Wie theilten endlich die Kinder Israel das gelobte Land unter sich?"
+    ],
+    "teachings": [
+      "I. GOtt wolte nicht haben, daß die Kinder Israel das Manna am Sabbath-Tage sammlen solten.\nWie muß es doch dem lieben GOtt gefallen, wenn die Christen am Sonntage so fressen und sauffen, daß das Gesinde kaum genug sieden und braten kan.",
+      "II. Die Kinder Israel musten vierzig Jahre in der Wüsten reisen, ehe sie in das Gelobte Land kamen.\nDurch die Wüsten wird das Reich der Gnaden hier in dieser Welt vorgestellet; und durch das Gelobte Land wird das Reich der Herrlichkeit dort im Himmel vorgebildet.",
+      "III. Mose führte die Kinder Israel nur in der Wüsten: Josua aber brachte sie ins Gelobte Land.\nDer Nahme Josua und der Nahme JEsus heißt einer so viel als der ander: Also ist dadurch angedeutet worden, daß wir nicht durch das Gesetz Mosis, sondern durch das Evangelium JEsu selig werden."
+    ],
+    "reflection": "GOtt führte zwar sein Volck durch eine lange Wüsten /\nDoch tränckte sie GOtt auch / und speiste sie mit Mann;\nUnd also hatten sie es besser als wir Christen!\nSprich nicht so / liebes Hertz / du bist noch besser dran:\nDein JEsus speist und tränckt dich auch auf deiner Reise /\nSein Blut ist ja dein Tranck / und sein Fleisch deine Speise."
   }
 };
