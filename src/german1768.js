@@ -1736,5 +1736,70 @@ export const german1768 = {
       "III. Wenn man sich nicht geschämet hat, Sünde zu begehen, so muß man sich auch nicht schämen, Sünde zu bekennen.\nWie Nathan zu David gesprochen hatte: Du bist der Mann des Todes; so begehrte David seine Sünde nicht zu leugnen, sondern er beichtete gerade heraus: Ich habe gesündiget wider den HErrn."
     ],
     "reflection": "Ein Ehbruch und ein Mord / das waren die zwey Sünden /\nDie David wider GOtt auf einmal hat gethan.\nWill man den ersten Grund von beyden Lastern finden /\nSo kam es in der That auf Davids Augen an.\nDrum will ich einen Bund mit meinen Augen machen /\nDamit sie nimmermehr sehn nach verbotnen Sachen."
+  },
+  "33": {
+    "pages": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "printed": "111–115",
+    "latin": "Hem! tibi mi fili, quercum monstrabo virentem:\nInsolitos fructus parturit illa, vide.\nRegius hic viridi Princeps ex arbore pendet:\nDegeneres natos talia fata manent,\nHinc vestras pendens ex ilice clamat in aures:\nEt patrem, & matrem tu reverere tuam.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "editorial_note": "German witness has 38 numbered narrative units, but questions stop at 36 on p. 114; no questions 37–38 are printed. The Russian witness has 36 narrative units and 36 questions.",
+    "title": "Von Absalom.",
+    "reference": "2. Sam. XIV. XV. XVI. XVII. und XVIII. Cap.",
+    "narrative": "1. Absalom, der Sohn Davids, war von ungemeiner Schönheit, und von der Fußsole an bis an seinen Scheitel war kein Fehl an ihm. 2. Dieser Absalom stund bey Lebzeiten seines Vaters nach dem Königreiche. 3. Er suchte deswegen vor allen Dingen dem gemeinen Volck das Hertze zu stehlen. 4. Zu dem Ende satzte er sich an das Thor, und fragte die Leute, was sie bey dem Könige zu suchen hätten? 5. Wenn ihm nun jemand seine Noth geklaget hatte, da sagte er zu ihm: Siehe, deine Sache ist recht und schlecht, aber du hast keinen Verhörer vom Könige. 6. O wer setzet mich zum Richter im Lande, daß jedermann zu mir käme, der eine Sache hätte, daß ich ihm zum Rechte hülffe! 7. Er zog auch den klugen Ahitophel auf seine Seite. 8. Derselbe war ein Rath bey dem Könige David, und wenn er etwas sagte, so war es, als wenn man GOtt um etwas gefraget hätte. 9. Wie nun Absalom das Volck auf seine Seite gezogen hatte, so gab er bey dem Vater vor, als wenn er zu Hebron dem HErrn ein Opffer bringen wolte. 10. Aber als er nach Hebron kam, so ließ er sich daselbst zum Könige krönen. 11. So bald David Nachricht davon bekam, so entwich er aus Jerusalem, 12. und gieng zu Fusse über den Bach Kidron den Oelberg hinauf, und weinte bitterlich. 13. Wie er hörte, daß Ahitophel im Bunde mit Absalom war, so sprach er: HErr! mache den Rath Ahitophels zur Narrheit! 14. Auf dieser Flucht begegnet ihm ein Mann aus dem Hause Saul, mit Namen Simei. 15. Derselbe fluchte nicht allein dem Könige David, sondern er schmiß auch mit Steinen nach dem Könige, 16. und sagte darzu: Heraus, heraus, du Bluthund, du loser Mann. 17. Einer sagte zwar, er wolte hingehen, und diesem Lästerer den Kopf abreissen; 18. aber David sagte: Lasset ihn fluchen, denn der HErr hat es ihn geheissen. 19. Unterdessen hatte Absalom seinen Einzug in der Stadt Jerusalem gehalten. 20. Indem er aber daselbst Kriegs-Rath hielt, was weiter in der Sache zu thun wäre, so entstanden zweyerley Meinungen. 21. Denn Ahitophel rieth, man solte David nachjagen, und ihn todtschlagen, ehe er sich erholen könnte. 22. Der alte Husai aber sagte: David wäre ein Krieges-Held, Absalom solte es zu keiner Schlacht kommen lassen, bis das gantze Volck beysammen wäre. 23. Nach langem Ueberlegen verwarf Absalom den klugen Rath Ahitophels, und folgte dem Rathe des alten Husai. 24. Und das geschahe nicht ohngefehr, sondern der HErr hatte es also geschickt. 25. Unterdessen that es Husai alsobald dem Könige David zu wissen. 26. Derselbe machte sich sofort auf, und alles Volck, das bey ihm war, und gieng über den Jordan. 27. Wie Ahitophel sahe, daß sein Rath nicht fortgegangen war, so erhieng er sich selber. 28. Hiemit kam es zwischen Vater und Sohne zu einer blutigen Schlacht. 29. David gieng selber nicht mit zu Felde, weil es das Volck nicht haben wolte. 30. Er sagte aber zu seinen Generalen: Fahret mir säuberlich mit dem Knaben Absalom. 31. In der Schlacht muste Absalom Reißaus geben, 32. und als er unter einer Eiche wegreiten wolte, so blieb er mit seinen schönen Haaren an den Aesten hangen. 33. Sein Maulthier aber lief unter ihm weg, und er schwebte also zwischen Himmel und Erde. 34. Als der Feld-Hauptmann Joab solches inne ward, so nahm er drey Spiesse in seine Hand, und stach sie Absalom ins Hertze. 35. Darauf ward sein Cörper in eine Grube geworffen, und mit einem grossen Steinhauffen zugedeckt. 36. Wie David diese Zeitung bekam, so war er von Hertzen darüber betrübet, und rief einmal über das andre aus: 37. O Absalom, mein Sohn! wolte GOtt, ich solte für dich sterben! o Absalom! mein Sohn! mein Sohn! 38. Darauf ward David wieder mit grossem Frohlocken nach Jerusalem geholet.",
+    "questions": [
+      "Wie sahe Davids Sohn Absalom aus?",
+      "Was hatte dieser Absalom vor?",
+      "Wie fieng er seine Sachen an?",
+      "Was redte Absalom mit dem Volcke?",
+      "Was gab er dem Volcke vor Antwort?",
+      "Was that er vor einen Wunsch darzu?",
+      "Was vor einen Mann zog Absalom auf seine Seite?",
+      "Was war Ahitophel vor ein Mann?",
+      "Was machte Absalom seinem Vater David weiß?",
+      "Aber was gieng zu Hebron vor?",
+      "Was that David, wie er das erfuhr?",
+      "Wohin nahm er seine Zuflucht?",
+      "Was that David vor einen Wunsch wegen Ahitophels?",
+      "Was begegnete Daviden auf seiner Flucht?",
+      "Wie führte sich Simei auf?",
+      "Was vor Worte brauchte Simei?",
+      "War niemand, der sich des Königes annahm?",
+      "Was sagte David dazu?",
+      "Wie weit war es unterdessen mit Absalom gekommen?",
+      "Was gieng im Kriegs-Rathe vor?",
+      "Was rieth der kluge Ahitophel?",
+      "Aber was gab der alte Husai vor einen Rath?",
+      "Welcher behielt den Platz?",
+      "Geschahe denn dieses ohngefehr also?",
+      "Wer gab dem Könige David Nachricht davon?",
+      "Wohin wandte sich David?",
+      "Was nahm Ahitophel vor ein Ende?",
+      "Worzu kam es endlich?",
+      "Gieng David selber zu Felde?",
+      "Was sagte David zu seinen Kriegs-Helden?",
+      "Wie lief die Schlacht ab?",
+      "Wo blieb Absalom?",
+      "Wo blieb sein Maulthier?",
+      "Was nahm Absalom vor ein Ende?",
+      "Wo blieb sein Cörper?",
+      "Was sagte David zu dieser Post?"
+    ],
+    "teachings": [
+      "I. Man soll nicht Böses mit Bösem, oder Scheltworte mit Scheltworten vergelten.\nDas kan uns David lehren, der begehrte sich an dem Lästerer Simei nicht zu rächen, sondern sagte vielmehr: Lasset ihn fluchen, denn der HErr hats ihm geheissen.",
+      "II. Den bösen Rathgebern wird endlich das Uebel auf ihren Kopf vergolten.\nDas erfuhr Ahitophel, welcher vor seinen bösen Rath nichts anders zu Lohn bekam, als daß er sich selber aus Verzweiflung aufhencken muste.",
+      "III. GOtt hat die Hertzen der Könige in seiner Gewalt, und lenket sie wie er will.\nDas siehet man wohl an Absalom, der verwarf den weltklugen Rath Ahitophels, und das geschah nicht ohngefehr, sondern der HErr hatte es also geschickt."
+    ],
+    "reflection": "Kommt Kinder / kommt / ich will euch einen Eichbaum zeigen /\nKommt her / und seht / er trägt gar eine seltne Frucht:\nEin Königlicher Printz hängt an den grünen Zweigen!\nSo läuft es endlich ab / wenn GOtt ein Kind verflucht.\nBetrachtet ihn recht wohl / er wird euch deutlich lehren /\nDaß ihr den Vater solt und auch die Mutter ehren."
   }
 };

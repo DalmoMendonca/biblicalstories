@@ -1775,5 +1775,71 @@ export const englishFromGerman = {
       "III. If one has not been ashamed to commit sin, one must not be ashamed to confess sin either.\nWhen Nathan had said to David: You are the man deserving death, David did not wish to deny his sin, but confessed plainly: I have sinned against the Lord."
     ],
     "reflection": "Adultery and murder were the two sins\nThat David committed against God at once.\nIf one would find the first cause of both vices,\nIt was indeed David's eyes that were at fault.\nTherefore I will make a covenant with my eyes,\nSo that they may never again look upon forbidden things."
+  },
+  "33": {
+    "pages": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "printed": "111–115",
+    "latin": "Hem! tibi mi fili, quercum monstrabo virentem:\nInsolitos fructus parturit illa, vide.\nRegius hic viridi Princeps ex arbore pendet:\nDegeneres natos talia fata manent,\nHinc vestras pendens ex ilice clamat in aures:\nEt patrem, & matrem tu reverere tuam.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 36,
+      "teachings": 3
+    },
+    "editorial_note": "German witness has 38 numbered narrative units, but questions stop at 36 on p. 114; no questions 37–38 are printed. The Russian witness has 36 narrative units and 36 questions.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Absalom.",
+    "reference": "2 Samuel XIV, XV, XVI, XVII, and XVIII.",
+    "narrative": "1. Absalom, David's son, was of extraordinary beauty, and from the sole of his foot to the crown of his head there was no blemish in him. 2. This Absalom aspired to the kingdom during his father's lifetime. 3. Therefore above all he sought to steal the heart of the common people. 4. To that end he sat at the gate and asked the people what they sought from the king. 5. When anyone had complained to him of his distress, he said to him: Behold, your cause is just and straightforward, but you have no one appointed by the king to hear you. 6. Oh, who will make me judge in the land, that everyone who has a cause might come to me, and I might help him to justice! 7. He also drew the clever Ahithophel to his side. 8. He was a counselor to King David, and when he said something, it was as if one had asked God about it. 9. When Absalom had drawn the people to his side, he pretended to his father that he wished to offer a sacrifice to the Lord at Hebron. 10. But when he came to Hebron, he had himself crowned king there. 11. As soon as David received news of it, he escaped from Jerusalem, 12. and went on foot over the brook Kidron up the Mount of Olives, and wept bitterly. 13. When he heard that Ahithophel was in league with Absalom, he said: Lord, turn Ahithophel's counsel into foolishness! 14. On this flight a man of Saul's house, named Shimei, met him. 15. He not only cursed King David but also threw stones at the king, 16. and said besides: Out, out, you bloodthirsty man, you worthless man! 17. Someone said that he would go and tear off the head of this reviler; 18. but David said: Let him curse, for the Lord has bidden him. 19. Meanwhile Absalom had made his entry into the city of Jerusalem. 20. When he held a council of war there concerning what should be done next, two opinions arose. 21. Ahithophel advised that they pursue David and kill him before he could recover. 22. But old Hushai said that David was a mighty warrior, and Absalom should not let it come to battle until all the people were assembled. 23. After much deliberation Absalom rejected Ahithophel's clever counsel and followed the counsel of old Hushai. 24. And this did not happen by chance, but the Lord had so ordained it. 25. Meanwhile Hushai immediately made it known to King David. 26. He at once set out with all the people who were with him and crossed the Jordan. 27. When Ahithophel saw that his counsel had not prevailed, he hanged himself. 28. Thus it came to a bloody battle between father and son. 29. David himself did not go into the field because the people would not have it. 30. But he said to his generals: Deal gently for my sake with the young man Absalom. 31. In the battle Absalom had to flee, 32. and when he wished to ride away beneath an oak, his beautiful hair remained caught in its branches. 33. His mule ran away from under him, and so he hung between heaven and earth. 34. When the commander Joab learned of this, he took three spears in his hand and thrust them into Absalom's heart. 35. Then his body was thrown into a pit and covered with a great heap of stones. 36. When David received this news, he was grieved to the heart and cried out again and again: 37. O Absalom, my son! Would to God I might die for you! O Absalom, my son, my son! 38. Thereupon David was brought back to Jerusalem with great rejoicing.",
+    "questions": [
+      "What did David's son Absalom look like?",
+      "What did this Absalom intend?",
+      "How did he begin his undertaking?",
+      "What did Absalom say to the people?",
+      "What answer did he give the people?",
+      "What wish did he express besides?",
+      "What man did Absalom draw to his side?",
+      "What sort of man was Ahithophel?",
+      "What did Absalom pretend to his father David?",
+      "But what happened at Hebron?",
+      "What did David do when he learned this?",
+      "Where did he take refuge?",
+      "What wish did David express concerning Ahithophel?",
+      "What befell David on his flight?",
+      "How did Shimei conduct himself?",
+      "What words did Shimei use?",
+      "Was there no one who took the king's part?",
+      "What did David say to this?",
+      "How far had matters meanwhile progressed with Absalom?",
+      "What happened in the council of war?",
+      "What did clever Ahithophel advise?",
+      "But what counsel did old Hushai give?",
+      "Which prevailed?",
+      "Did this then happen by chance?",
+      "Who gave King David news of it?",
+      "Where did David turn?",
+      "What end did Ahithophel come to?",
+      "What did matters finally come to?",
+      "Did David himself go into the field?",
+      "What did David say to his warriors?",
+      "How did the battle turn out?",
+      "What became of Absalom?",
+      "What became of his mule?",
+      "What end did Absalom come to?",
+      "What became of his body?",
+      "What did David say to this news?"
+    ],
+    "teachings": [
+      "I. One should not repay evil with evil, or insults with insults.\nDavid can teach us this: he did not wish to avenge himself on the reviler Shimei, but said instead: Let him curse, for the Lord has bidden him.",
+      "II. Evil counselors are finally repaid with evil upon their own heads.\nAhithophel experienced this, receiving no other reward for his evil counsel than that he had to hang himself in despair.",
+      "III. God has the hearts of kings in his power and directs them as he wills.\nThis is clearly seen in Absalom, who rejected the worldly-wise counsel of Ahithophel; and this happened not by chance, but the Lord had so ordained it."
+    ],
+    "reflection": "Come, children, come, I will show you an oak tree;\nCome here and see, it bears a very strange fruit:\nA royal prince hangs on the green branches!\nSo it finally ends when God curses a child.\nConsider him well; he will clearly teach you\nThat you should honor your father and your mother."
   }
 };
