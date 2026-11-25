@@ -1114,5 +1114,62 @@ export const german1768 = {
       "III. Die treuen Diener Gottes sind nicht Schuld daran, daß so viele Menschen in Unbußfertigkeit verharren.\nDas siehet man wohl an Mose und Aaron, die thaten Zeichen und Wunder, wie es ihnen GOtt befohlen hatte; aber Pharao blieb doch verstockt."
     ],
     "reflection": "Neun Plagen konten nicht den Pharao bewegen /\nBis daß sein erster Sohn zuletzt erwürget ward.\nDie Kinder / welche man mit Ruthen und mit Schlägen\nZum Guten ziehen muß / sind auch von solcher Art:\nIch aber will also die Eltern nicht bemühen /\nViel lieber will ich mich mit Worten lassen ziehen."
+  },
+  "23": {
+    "pages": [
+      140,
+      143,
+      144,
+      147
+    ],
+    "printed": "72–75",
+    "latin": "Agni Paschalis fuerat quae tincta cruore,\nTristia deflevit funera nulla domus.\nQuo tua pro nobis stillarunt vulnera, JESU!\nMajor adhuc virtus sanguinis esse solet.\nHoc ego signabo corpusque animamque cruore,\nSic mors, sic Satanas non metuendus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 30,
+      "teachings": 3
+    },
+    "title": "Wie Moses die Kinder Israel aus Egypten geführet hat.",
+    "reference": "2. Mose XI. bis zum XV. Capitel.",
+    "narrative": "1. Nachdem Pharao sein Hertz neun mal verstockt hatte, 2. so ließ ihm GOtt die zehente und letzte Plage ankündigen. 3. Die bestund nun darinnen, daß der Würg-Engel um Mitternacht ausgehen, und alle Erst-Geburt in Egypten todt schlagen solte. 4. Unterdessen ließ GOtt den Kindern Israel den Rath geben, daß sie von den Egyptern allerhand silberne und güldene Gefässe borgen und mitnehmen solten. 5. GOtt befahl auch ausdrücklich, wie es mit der letzten Mahlzeit in Egypten solte gehalten werden. 6. Nemlich ein jeder Haus-Wirth solte den letzten Abend ein Lamm in seinem Hause verzehren, und nichts davon übrig lassen. 7. Ueber dieser letzten Mahlzeit solten sie um ihre Lenden gegürtet seyn, und ihre Schuhe an den Füssen, und Stäbe in den Händen haben, als Leute, die verreisen wollen. 8. Mit dem Blute aber von dem geschlachteten Lämmlein solten sie die Pfosten an ihrer Haus-Thüre bestreichen. 9. An diesem Blute wolte GOtt der HErr die Häuser der Israeliten kennen, und mit der Plage vorüber gehen. 10. Zur Mitternacht kam der Engel, 11. und schlug alle Erst-Geburt in Egypten, beyde unter Menschen und Viehe, von dem Sohne Pharao an, der nach ihm auf seinem Stuhle sitzen solte. 12. Da ward ein grausam Geschrey in ganz Egyptenland, denn es war kein Haus, darinnen nicht ein Todter war. 13. Der König Pharao selber stund auf, und ließ Mose und Aaron in der Nacht ruffen, und sprach zu ihnen: 14. Machet euch auf, und ziehet aus von meinem Volcke, und nehmet alles mit, was ihr habt. 15. Ja die Egypter konten den Morgen nicht erwarten, sondern sie drungen das Volck Israel zum Lande hinaus, 16. und liessen ihnen alles, was sie von ihnen geborget hatten. 17. Es waren aber der Kinder Israel sechsmal hundert tausend, ohne die Kinder. 18. Zum Andencken dieses Ausganges haben hernach die Juden alle Jahr das Oster-Fest feyern müssen. 19. So bald sie nur zum Lande hinaus waren, so fieng es Pharao an zu bedauren, daß er sie hatte ziehen lassen, 20. und beschloß denselben mit seiner ganzen Armee nachzujagen. 21. Aber der Engel des HErrn satzte sich mit einer Wolcke zwischen die Kinder Israel, und zwischen das Heer der Egypter, daß sie nicht konten an einander kommen. 22. Endlich kamen sie an das rothe Meer, 23. da reckte Mose seine Hand mit dem Stabe über das Meer, 24. da theilte sich das Wasser, und das Meer stund auf beiden Seiten wie Mauren, zur Rechten und zur Linken, daß die Kinder Israel trocknes Fusses mitten durch gehen konten. 25. Die Egypter folgten ihnen auf dem Fusse nach, sie wusten aber nicht, daß sie mitten im Abgrunde des Meeres waren. 26. Unterdessen machte der HErr aus der Wolcken ein Schrecken unter den Egyptern, daß alle Räder von ihren Wagen abfuhren. 27. Da schryen die Egypter: Lasset uns fliehen, denn der HErr streitet vor Israel. 28. Indem streckte Mose seine Hand mit dem Stabe über das Meer, 29. da kam das Wasser wieder in seinen Strom, 30. und Pharao ersoff mit seinem ganzen Heere im rothen Meer, daß nicht ein einziger Egypter davon kam.",
+    "questions": [
+      "Wie offt hatte Pharao sein Hertz verhärtet?",
+      "Was ließ ihm GOtt ankündigen?",
+      "Worinnen solte die zehente Plage bestehen?",
+      "Was ließ GOtt unterdessen den Israeliten vor einen Rath geben?",
+      "Was machte GOtt zugleich vor eine Verordnung?",
+      "Was solte ein jedweder Haus-Vater schlachten?",
+      "Wie solten sie bey dieser Mahlzeit gekleidet seyn?",
+      "Was solten sie mit dem Blute des Lammes machen?",
+      "Wozu solte dieses Blut dienen?",
+      "Wenn nahm die Plage ihren Anfang?",
+      "Wen schlug der Würg-Engel todt?",
+      "Wie sahe es damals in ganz Egyptenlande aus?",
+      "Was sagte Pharao dazu?",
+      "Was sagte Pharao zu Mose und Aaron?",
+      "Was thaten die Egypter bey der Sache?",
+      "Forderten sie das gelehnte nicht wieder?",
+      "Wie starck waren denn die Kinder Israel?",
+      "Was vor ein Fest musten darnach die Juden zum Andencken dieses Ausgangs alle Jahre feyern?",
+      "Was bedauerte denn der König Pharao?",
+      "Was beschloß er vor einen Rath?",
+      "Wer beschützte die Kinder Israel?",
+      "An was vor ein Meer kamen sie endlich?",
+      "Was that Mose mit seinem Stabe?",
+      "Was ward daraus?",
+      "Wo blieben denn die Egypter?",
+      "Was that der HErr in der Wolcke?",
+      "Wie schryen die Egypter?",
+      "Was that Mose mit seinem Stabe?",
+      "Was wurde daraus?",
+      "Wie giengs dem Könige Pharao?"
+    ],
+    "teachings": [
+      "I. GOtt der HErr kan auch die grosse Potentaten kirre machen, wenn sie noch so sehr wüten und toben.\nDas siehet man am König Pharao, der sagte im Anfange gar trotzig: Wer ist der HErr? aber auf die letzte klang es gar demüthig: Ziehet hin und dienet eurem GOtte.",
+      "II. Die Alten haben im Sprichworte gar recht gesaget: Unrecht Gut gedeyet nicht.\nDie Egypter hatten den Kindern Israel durch harte Arbeit Unrecht gethan: Aber beym Auszuge musten sie ihnen alles wieder geben.",
+      "III. Der allerbeste Reise-Gefährte ist der Engel des HErrn.\nDas erfuhren die Kinder Israel beym Ausgange aus Egypten, als sich der Engel des HErrn ins Mittel stellte, zwischen das Heer der Egypter und zwischen das Volck Gottes."
+    ],
+    "reflection": "In keinem Hause ward ein todter Mensch gefunden /\nDas in Egypten nur mit Blut bestrichen war.\nO JEsu / GOttes Lamm! das Blut aus deinen Wunden\nHat noch viel grössre Krafft in Noth und in Gefahr.\nMit deinem Blute will ich Seel und Leib bestreichen /\nSo wird von mir der Tod / ja selbst der Teufel weichen."
   }
 };

@@ -1143,5 +1143,63 @@ export const englishFromGerman = {
       "III. God's faithful servants are not to blame for so many people persisting in impenitence.\nOne sees this clearly in Moses and Aaron, who performed signs and wonders as God had commanded them; yet Pharaoh remained hardened."
     ],
     "reflection": "Nine plagues could not move Pharaoh,\nUntil at last his first son was slain.\nChildren who must with rods and blows\nBe drawn toward good are of the same kind;\nBut I will not thus trouble my parents;\nFar rather will I let myself be guided by words."
+  },
+  "23": {
+    "pages": [
+      140,
+      143,
+      144,
+      147
+    ],
+    "printed": "72–75",
+    "latin": "Agni Paschalis fuerat quae tincta cruore,\nTristia deflevit funera nulla domus.\nQuo tua pro nobis stillarunt vulnera, JESU!\nMajor adhuc virtus sanguinis esse solet.\nHoc ego signabo corpusque animamque cruore,\nSic mors, sic Satanas non metuendus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 30,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Moses Led the Children of Israel out of Egypt",
+    "reference": "Exodus, chapters XI–XV.",
+    "narrative": "1. After Pharaoh had hardened his heart nine times, 2. God had the tenth and last plague announced to him. 3. It consisted in this: the destroying angel was to go out at midnight and strike dead all the firstborn in Egypt. 4. Meanwhile God had the children of Israel advised to borrow from the Egyptians all manner of silver and golden vessels and take them along. 5. God also expressly commanded how the last meal in Egypt was to be observed. 6. Namely, every head of a household was to consume a lamb in his house on the last evening and leave nothing of it over. 7. At this last meal they were to have their loins girded, their shoes on their feet, and staffs in their hands, like people intending to travel. 8. But with the blood of the slaughtered little lamb they were to smear the posts of their house door. 9. By this blood the Lord God intended to recognize the houses of the Israelites and pass over them with the plague. 10. At midnight the angel came, 11. and struck all the firstborn in Egypt, both among people and livestock, beginning with Pharaoh's son, who was to sit upon his throne after him. 12. Then there was a terrible outcry throughout the land of Egypt, for there was no house in which there was not a dead person. 13. King Pharaoh himself arose and had Moses and Aaron summoned in the night, and said to them: 14. Rise, and depart from my people, and take with you everything you have. 15. Indeed, the Egyptians could not wait for morning, but pressed the people of Israel to leave the country, 16. and let them keep everything they had borrowed from them. 17. Now the children of Israel numbered six hundred thousand, not counting the children. 18. In remembrance of this departure the Jews afterward had to celebrate the Passover feast every year. 19. As soon as they had left the country, Pharaoh began to regret having let them go, 20. and resolved to pursue them with his entire army. 21. But the angel of the Lord placed himself with a cloud between the children of Israel and the army of the Egyptians, so that they could not come together. 22. At last they came to the Red Sea, 23. where Moses stretched out his hand with the staff over the sea, 24. and the water divided, and the sea stood on both sides like walls, on the right and on the left, so that the children of Israel could go right through on dry feet. 25. The Egyptians followed close on their heels, but did not know that they were in the midst of the depths of the sea. 26. Meanwhile the Lord caused terror among the Egyptians from the cloud, so that all the wheels came off their chariots. 27. Then the Egyptians cried: Let us flee, for the Lord fights for Israel. 28. At this Moses stretched out his hand with the staff over the sea, 29. and the water returned to its current, 30. and Pharaoh drowned with his entire army in the Red Sea, so that not a single Egyptian escaped.",
+    "questions": [
+      "How often had Pharaoh hardened his heart?",
+      "What did God have announced to him?",
+      "In what was the tenth plague to consist?",
+      "What advice did God meanwhile have given to the Israelites?",
+      "What ordinance did God make at the same time?",
+      "What was every head of a household to slaughter?",
+      "How were they to be dressed at this meal?",
+      "What were they to do with the blood of the lamb?",
+      "What purpose was this blood to serve?",
+      "When did the plague begin?",
+      "Whom did the destroying angel strike dead?",
+      "What was the situation throughout Egypt at that time?",
+      "What did Pharaoh say to this?",
+      "What did Pharaoh say to Moses and Aaron?",
+      "What did the Egyptians do in this matter?",
+      "Did they not demand back what they had lent?",
+      "How numerous were the children of Israel?",
+      "What feast did the Jews afterward have to celebrate every year in remembrance of this departure?",
+      "What did King Pharaoh regret?",
+      "What course did he resolve upon?",
+      "Who protected the children of Israel?",
+      "At what sea did they finally arrive?",
+      "What did Moses do with his staff?",
+      "What resulted from this?",
+      "Where were the Egyptians then?",
+      "What did the Lord do in the cloud?",
+      "What did the Egyptians cry out?",
+      "What did Moses do with his staff?",
+      "What resulted from this?",
+      "How did King Pharaoh fare?"
+    ],
+    "teachings": [
+      "I. The Lord God can tame even the great potentates, however fiercely they rage and storm.\nOne sees this in King Pharaoh, who at first said quite defiantly: Who is the Lord? But at last it sounded quite humble: Go and serve your God.",
+      "II. The ancients were quite right in their proverb: Ill-gotten goods do not prosper.\nThe Egyptians had wronged the children of Israel through hard labor; but at the departure they had to give everything back to them.",
+      "III. The very best traveling companion is the angel of the Lord.\nThe children of Israel experienced this in their departure from Egypt, when the angel of the Lord placed himself between the army of the Egyptians and the people of God."
+    ],
+    "reflection": "In no house was a dead person found,\nWhich in Egypt had been smeared with blood.\nO Jesus, Lamb of God! The blood from your wounds\nHas far greater power in distress and danger.\nWith your blood I will mark my soul and body;\nThen death, indeed the devil himself, will flee from me."
   }
 };
