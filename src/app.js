@@ -25,7 +25,7 @@ const stored = (key, fallback) => { try{return localStorage.getItem(key) ?? fall
 const save = (key, value) => { try{localStorage.setItem(key,value);}catch{} };
 const s = {
   lang: languages.includes(stored("huebner-language","en")) ? stored("huebner-language","en") : "en",
-  filter: "all", search: "", plates: [], byId: new Map(), content: {}
+  filter: "all", search: "", plates: [], byId: new Map()
 };
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const item = id => s.byId.get(id);
@@ -116,7 +116,6 @@ function textParagraphs(value){
   return blocks.map(p=>"<p>"+esc(p.replace(/\n/g," ").replace(/ {2,}/g," "))+"</p>").join("");
 }
 function chapterContent(p){
-  const data=s.content[p.id];
   const lang=s.lang;
   const german=lang==="de" ? german1768[p.id] : null;
   if(german){
@@ -167,17 +166,7 @@ function chapterContent(p){
       +'<div class="edition-prose" lang="en"><p><em>'+esc(historical.title)+'</em></p><p>'+esc(historical.reference)+'</p>'+textParagraphs(historical.text)+'</div>'
       +'<p class="source-heading">Transcribed from the printed source; not independently proofread. This edition omits the questions and reflections.</p>';
   }
-  const witness=data?.[lang];
-  // Never mistake a machine-generated field for an authenticated printed edition.
-  // A future checked transcription must carry both explicit editorial review
-  // and independently verifiable, edition-specific page provenance.
-  const verified=data?.editorial?.proofread===true
-    && witness?.kind==="verified-historical-transcription"
-    && Array.isArray(witness?.source_pages) && witness.source_pages.length>0
-    && typeof witness.text==="string" && witness.text.trim().length>150;
-  if(verified){
-    return '<div class="edition-prose" lang="'+lang+'">'+textParagraphs(witness.text)+'</div>';
-  }
+  // Only source-specific, structured reader modules are eligible for display.
   return '<p class="source-absence">'+esc(messages().none)+'</p>';
 }
 let zurichCorpusPromise;
@@ -219,24 +208,6 @@ function editionText(p){
     +'<p class="source-heading">Giessen 1768 · <a href="'+esc(p.plate_source)+'" target="_blank" rel="noopener">'+esc(m.original)+'</a></p>'
     +folios(p)+'</details>';
 }
-async function loadChapter(id){
-  const p=item(id);
-  if(!p || s.content[id])return;
-  try{
-    const response=await fetch("/texts/"+number(id)+".json");
-    if(!response.ok)throw new Error("Text not yet available");
-    const data=await response.json();
-    if(data.id!==id)throw new Error("Mismatched source chapter");
-    s.content[id]=data;
-    if(view()==="story" && idParam()===id){
-      const pane=document.querySelector("#story-prose");
-      if(pane)pane.innerHTML=chapterContent(p);
-    }
-  }catch(e){
-    // Source image facsimiles remain fully readable, even when a text import fails.
-    console.warn("Source text unavailable for chapter",id);
-  }
-}
 function renderStory(id){
   const p=item(id),t=story(id),m=messages();
   if(!p||!t){main.innerHTML=`<section class="container error-view"><h1>404</h1></section>`;return}
@@ -271,7 +242,6 @@ function renderStory(id){
       <span>${next?`<a href="${url(next)}" data-story="${next}">${esc(title(next))} →</a>`:""}</span>
     </nav>
   </div>`;
-  loadChapter(id);
   if(s.lang==="de")showZurichText(id);
 }
 function renderAbout() {
