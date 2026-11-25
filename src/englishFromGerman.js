@@ -455,5 +455,55 @@ export const englishFromGerman = {
     ],
     "reflection": "God said: In Isaac I will bless the peoples,\nAnd yet said at the same time: Go, slay your son!\nNothing harder could well have befallen Abraham;\nAnd nevertheless he held out and carried off the victory.\nAh, if God were to lead me and you into such a trial,\nWho knows whether he would find such faith in us?",
     "editorial_note": "Repeated numeral II follows the printed German witness."
+  },
+  "11": {
+    "pages": [
+      73,
+      74,
+      75
+    ],
+    "printed": "27–29",
+    "latin": "Vota precesque pias Elieser fundit ad astra,\nMandatum domini dum bene coepit opus:\nIdem devotas meminit decernere laudes,\nQui fortunavit coepta secunda, Deo.\nSic ego, quicquid agam, simili ratione precabor:\nSic laudabo Deum, cum bene cessit opus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    },
+    "title": "On Isaac's Marriage",
+    "reference": "Genesis, chapter XXIV.",
+    "kind": "new-translation-from-transcribed-german",
+    "narrative": "1. When Abraham was now old, he wished that his son Isaac would marry. 2. But Abraham by no means wished his son to marry a heathen daughter from the land of Canaan; rather, he wished to have a daughter-in-law from among his kindred. 3. He therefore sent his steward, or the oldest servant of his house, named Eliezer, to his homeland. 4. Abraham's relatives lived in the city of Nahor, 5. and before the gate was a well from which the cattle were watered. 6. In the evening the daughters of the city came to this well to draw water. 7. Then Eliezer asked the dear God to show him Isaac's future beloved at this well. 8. Meanwhile a very beautiful maiden named Rebecca came out of the city. 9. Her father was Bethuel, a relative of Abraham. 10. When she had drawn a pitcher full of water, Eliezer said to her: Let me drink a little water from your pitcher. 11. Rebecca did so, and gave his camels water to drink as well. 12. Since this was the sign which the servant had requested from God, he concluded that God had granted favor to his journey. 13. Eliezer thereupon presented the maiden with a golden clasp and two golden bracelets. 14. He asked at the same time whether he might find lodging with her father. 15. Rebecca ran straight home and showed her parents the present she had received from the stranger. 16. Meanwhile the servant thanked the Lord his God for granting favor to his journey. 17. Before long her brother Laban came out of the city, 18. and received Eliezer with these words: Come in, you blessed of the Lord; why do you stand outside? 19. As soon as the servant had entered the house, he presented his proposal of marriage. 20. The answer was this: It comes from the Lord; therefore we can say nothing against it, either bad or good. 21. Thereupon the father said to his daughter: Will you go with this man? 22. She answered: Yes, I will go with him. 23. Thus the journey proceeded, and her siblings gave her the following blessing for the road: You are our sister; increase into many thousands of thousands.",
+    "questions": [
+      "What did Abraham wish in his old age?",
+      "What kind of daughter-in-law did he wish to have?",
+      "Whom did Abraham send to seek a bride?",
+      "Where did Abraham's relatives live?",
+      "What was outside the city?",
+      "Who came to this well in the evening?",
+      "What did Abraham's servant ask of his God?",
+      "What maiden then came to the well?",
+      "What was her father's name?",
+      "What did the servant request of this maiden?",
+      "How was his request received?",
+      "What conclusion did the servant draw from it?",
+      "What gifts were given to the maiden?",
+      "What did the servant inquire about?",
+      "What did Rebecca do thereupon?",
+      "What did the servant do meanwhile?",
+      "Who came out of the city?",
+      "How did Laban receive Abraham's servant?",
+      "How did the servant present his business?",
+      "What answer did he receive?",
+      "What did the father say to his daughter?",
+      "What answer did the daughter give?",
+      "What took place at the departure?"
+    ],
+    "teachings": [
+      "I. Parents should accustom their children to work.\nFor here Rebecca had to tend the cattle, although she was the daughter of a prominent man in the city.",
+      "II. Children should not marry without their parents' knowledge.\nFor here Abraham provided for his son, and Bethuel for his daughter.",
+      "III. Parents, however, should not force their children into any marriage.\nFor here Rebecca was first asked whether she was willing to go with him."
+    ],
+    "reflection": "When Eliezer is to accomplish an important work,\nHe makes prayer his very first concern;\nAnd when he sees that God makes his work succeed,\nHe gives the glory for it to God alone;\nThus I likewise will, in all my affairs,\nMake the beginning with prayer and the ending with praise."
   }
 };

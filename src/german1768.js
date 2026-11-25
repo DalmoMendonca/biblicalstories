@@ -435,5 +435,54 @@ export const german1768 = {
     ],
     "reflection": "GOtt sprach: In Isaac will ich die Völcker segnen /\nUnd sprach doch auch zugleich? Geh / schlachte deinen Sohn!\nNichts härters konte wohl dem Abraham begegnen:\nUnd dennoch hielt er aus / und trug den Sieg davon.\nAch wenn GOtt mich und dich so in Versuchung führte /\nWer weiß / ob er bey uns dergleichen Glauben spührte!",
     "editorial_note": "The third teaching is numbered II in the Heidelberg printing; retained as printed. Latin second line requires independent collation."
+  },
+  "11": {
+    "pages": [
+      73,
+      74,
+      75
+    ],
+    "printed": "27–29",
+    "latin": "Vota precesque pias Elieser fundit ad astra,\nMandatum domini dum bene coepit opus:\nIdem devotas meminit decernere laudes,\nQui fortunavit coepta secunda, Deo.\nSic ego, quicquid agam, simili ratione precabor:\nSic laudabo Deum, cum bene cessit opus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    },
+    "title": "Von Isaacs Vermählung.",
+    "reference": "1. Mose XXIV. Capitel.",
+    "narrative": "1. Wie Abraham nunmehro alt war, so wünschte er, daß sein Sohn Isaac heyrathen möchte. 2. Abraham aber wolte durchaus nicht, daß sein Sohn eine Heydnische Tochter aus dem Lande Canaan heyrathen solte, sondern er wolte eine Schwieger-Tochter von seiner Freundschaft haben. 3. Er schickte deswegen seinen Haus-Vogt oder den ältesten Knecht seines Hauses, mit Namen Elieser, nach seiner Heimat. 4. Es wohneten aber die Anverwandten Abrahams in der Stadt Nahor, 5. und vor dem Thore war ein Brunnen, daraus das Vieh getränket ward. 6. Zu diesem Brunnen kamen des Abends die Töchter aus der Stadt, Wasser zu schöpffen. 7. Da bat Elieser den lieben GOtt, daß er ihm doch Isaacs zukünftige Liebste bey diesem Brunnen zeigen wolte. 8. Indem kam eine sehr schöne Jungfer, mit Namen Rebecca, aus der Stadt. 9. Ihr Vater war Bethuel, ein Anverwandter von Abraham. 10. Wie dieselbe ihren Krug voll Wasser geschöpfet hatte, so sagte Elieser zu ihr: Laß mich ein wenig Wassers aus deinem Kruge trinken. 11. Das that Rebecca, und gab seinen Cameelen auch zu trinken. 12. Weil nun dieses das Kennzeichen war, welches der Knecht von GOtt ausgebeten hatte, so schloß er daraus, daß GOtt Gnade zu seiner Reise gegeben hatte. 13. Elieser beschenkte hierauf die Dirne mit einer güldenen Spange, und mit zwey güldenen Arm-Ringen. 14. Er fragte auch zugleich, ob er nicht bey ihrem Vater Herberge haben könte. 15. Rebecca lief gleich nach Hause, und wies ihren Eltern das Präsent, das sie von dem fremden Manne bekommen hatte. 16. Unterdessen danckte der Knecht dem HErrn seinem GOtte, daß er Gnade zu seiner Reise gegeben hätte. 17. Es währte nicht lange, so kam ihr Bruder Laban aus der Stadt, 18. und empfieng diesen Elieser mit diesen Worten: Komm herein, du Gesegneter des HErrn, warum stehest du draussen? 19. So bald der Knecht in das Haus kommen war, so brachte er seine Werbung an. 20. Die Antwort bestund darinnen: Das kömmt vom HErrn, darum können wir nichts darwider reden, weder Böses noch Gutes. 21. Darauf sagte der Vater zu seiner Tochter: Wilt du mit diesem Manne ziehen? 22. Sie gab zur Antwort: Ja, ich will mit ihm ziehen. 23. Damit gieng die Reise vor sich, und ihr Geschwister gab ihr folgenden Seegen mit auf den Weg: Du bist unsere Schwester, wachse in viel tausend mal tausend.",
+    "questions": [
+      "Was wünschte Abraham in seinem Alter?",
+      "Was wolte er dann vor eine Schwieger-Tochter haben?",
+      "Wen schickte denn Abraham auf die Freyt?",
+      "Wo wohneten Abrahams Anverwandten?",
+      "Was war denn vor der Stadt?",
+      "Wer kam des Abends zu diesem Brunnen?",
+      "Was bat Abrahams Knecht von seinem GOtt?",
+      "Was kam darauf vor eine Jungfer zum Brunnen?",
+      "Wie hieß ihr Vater?",
+      "Was verlangte der Knecht von dieser Jungfer?",
+      "Wie ward seine Bitte aufgenommen?",
+      "Was machte der Knecht vor einen Schluß daraus?",
+      "Womit ward die Jungfer beschenckt?",
+      "Wornach fragte der Knecht?",
+      "Was that Rebecca darauf?",
+      "Was machte der Knecht unterdessen?",
+      "Wer kam aus der Stadt heraus?",
+      "Wie empfing Laban den Knecht Abrahams?",
+      "Wie trug der Knecht seine Sachen vor?",
+      "Was bekam er zur Antwort?",
+      "Was sagte der Vater zur Tochter?",
+      "Was gab die Tochter zur Antwort?",
+      "Was gieng beym Abschiede vor?"
+    ],
+    "teachings": [
+      "I. Eltern sollen ihre Kinder zur Arbeit anhalten.\nDenn hier muste Rebecca das Vieh beschicken, und war doch eines vornehmen Mannes Tochter in der Stadt.",
+      "II. Kinder sollen ohne Vorwissen ihrer Eltern nicht heyrathen.\nDenn hier sorgte Abraham vor seinen Sohn, und Bethul vor seine Tochter.",
+      "III. Die Eltern aber sollen die Kinder zu keiner Heyrath zwingen.\nDenn hier ward die Rebecca erst gefraget, ob sie auch mit ihm ziehen wolte?"
+    ],
+    "reflection": "Wie Elieser soll ein wichtig Werck vollbringen /\nSo läßt er das Gebet sein allererstes seyn:\nUnd wie er sieht / daß GOtt ihm läßt sein Werck gelingen /\nSo giebt er auch davor die Ehre GOtt allein;\nSo will ich ebenfalls in allen meinen Sachen\nDen Anfang mit Gebet / den Schluß mit Lobe machen."
   }
 };
