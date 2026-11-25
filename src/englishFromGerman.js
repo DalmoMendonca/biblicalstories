@@ -72,6 +72,45 @@ export const englishFromGerman = {
     "source": "Giessen 1768, University Library Heidelberg",
     "review": "Translated from source-compared German transcription; not independently proofread; not historical English."
   },
+  "3": {
+    "title": "On the State of Innocence in Paradise",
+    "reference": "Genesis, chapters II and III.",
+    "narrative": "1. Adam and Eve lived at first in a state of innocence. 2. In this state they bore the image of God. 3. Thus they were without sin, in true righteousness and holiness. 4. At that time death was not yet in the world, but Adam and Eve were immortal. 5. They had no need to fear the wild animals, for these all had to obey mankind. 6. At that same time they had no need of clothing, but in their state of innocence they went naked. 7. Their dwelling was Paradise. 8. This was a beautiful garden which God himself had planted. 9. In it stood all kinds of beautiful trees which were delightful to behold. 10. But the first two human beings committed a grievous sin. 11. At this the Lord God became angry and drove them out of Paradise. 12. He also placed an angel with a bare, striking sword before the entrance, so that they could not go back in. 13. Through this fall into sin, mankind lost the image of God. 14. In its place sin came into the world, and through sin, death. 15. Adam then begot children who were like his own image. 16. And to this day all his descendants are conceived and born in sin.",
+    "questions": [
+      "In what state did the first human beings live?",
+      "What did the first human beings possess in the state of innocence?",
+      "Were the first human beings without sin?",
+      "Was death also in Paradise?",
+      "Did they not have to fear the wild animals?",
+      "How, then, were Adam and Eve clothed?",
+      "Where did the first human beings dwell?",
+      "What, then, was Paradise?",
+      "What stood in Paradise?",
+      "How did the human beings conduct themselves in Paradise?",
+      "What did God say to this?",
+      "Could they not go back in?",
+      "What did mankind lose through the fall into sin?",
+      "What then came into the world in its place?",
+      "What sort of children did Adam beget after the fall?",
+      "What, then, is the natural condition of Adam's descendants?"
+    ],
+    "teachings": [
+      "From this story we can recognize the great difference in the human race before and after the fall into sin.\n\nI. In the state of innocence, human beings were righteous and holy.\nBut after the fall into sin, everyone must sing: Behold, Lord! In sins was I born; in sins my mother conceived me.",
+      "II. In the state of innocence, human beings were immortal.\nBut after the fall into sin, alas, it is said: Ah, Lord, teach us well to consider that we are all mortal.",
+      "III. In the state of innocence, human beings dwelt in Paradise.\nBut after the fall into sin, we human beings must cry: Here is a vale of sorrow, with anguish, distress, and tribulation everywhere."
+    ],
+    "reflection": "Where is Paradise with its beautiful trees,\nIn which God placed the very first couple?\nAlas, Adam and Eve soon had to leave it,\nOnce the image of God had been forfeited.\nWhat, then, is to be done? I shall endeavor\nTo enter the other Paradise, where Christ dwells.",
+    "latin": "Heu mihi! primorum sedes peramoena parentum,\nDicitur in sacris qui Paradisus, ubi est?\nAh! fuit, ah! periit! postquam fatalia pomae\nArbore de vetita carpserat Eva parens?\nQuid superest nobis? Paradisus scilicet alter,\nIn quo cum Christo, tu latro dexter, agis.",
+    "pages": [
+      35,
+      36,
+      39
+    ],
+    "printed": "5–7",
+    "kind": "new-translation-from-transcribed-german",
+    "source": "Giessen 1768, University Library Heidelberg",
+    "review": "Translated from source-compared German transcription; not independently proofread; not historical English."
+  },
   "6": {
     "title": "On the Flood",
     "reference": "Genesis, chapters VI, VII, VIII and IX.",
