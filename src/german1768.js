@@ -656,5 +656,58 @@ export const german1768 = {
       "III. Kinder sind eine Gabe Gottes, und Leibes-Frucht ist ein Geschenke des Höchsten.\nDas siehet man klärlich an beyden Schwestern: Denn GOtt hatte Lea fruchtbar, und Rahel hingegen auf eine Zeit unfruchtbar gemacht."
     ],
     "reflection": "Es hatte Jacob sich was schönes auserlesen /\nUnd was er sich gewünscht / daß ließ GOtt auch geschehn:\nDoch daß sein Ehstand auch ein Wehstand sey gewesen /\nDas kan man Sonnen-klar aus vielen Dingen sehn.\nMich deucht die Schrift hat uns hiemit erinnern wollen /\nDaß wir auf Tugend mehr / als Schönheit sehen sollen."
+  },
+  "15": {
+    "pages": [
+      92,
+      95,
+      96,
+      99
+    ],
+    "printed": "40–43",
+    "latin": "Cum quo certavit nocturno tempore Jacob?\nDic mihi, quis fuerit? Filius ipse Dei.\nSuccubuisse Deo placuit! quis crederet illud?\nEt Jacob victor ter benedictus abit.\nSic ego te, JESU! complectar speque fideque,\nNec te dimittam, dum benedictus ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "title": "Wie Jacob mit GOtt gerungen hat.",
+    "reference": "1. Mose XXXII. und XXXIII. Capitel.",
+    "narrative": "1. Jacob zog wieder nach Hause zu seinem Vater, 2. und hatte seine Weiber und seine Kinder und alles was ihm GOtt gegeben hatte, bey sich. 3. Es hatte aber Jacob zwölf Söhne: 4. Sechse waren von der Lea, und hiessen Ruben und Simeon, Levi und Juda, Isaschar und Sebulon. 5. Die jüngsten zwey waren von der Rahel, und hiessen Joseph und Benjamin. 6. Die übrigen vier waren von ihren beyden Mägden, und hiessen Dan und Naphthali, Gad und Asser. 7. Als er unterwegens war, so begegneten ihm erstlich die Engel Gottes, und da er sie sahe, 8. sprach er: Es sind Gottes Heere. 9. Hierauf bekam er zur Nachricht, daß ihm sein Bruder Esau mit vier hundert Mann entgegen käme. 10. Darüber erschrack Jacob heftig, 11. und nahm seine Zuflucht zum Gebete. Unter andern sprach er zu GOtt: 12. HErr, ich bin zu geringe aller Barmherzigkeit und Treue, die du an deinem Knechte gethan hast. 13. Darnach schickte Jacob seinem Bruder ein Geschenke, welches aus Ziegen, Schafen, Cameelen und Eseln bestund, die ließ er in unterschiedenen Haufen vor sich hintreiben. 14. Seine übrige Heerde vertheilte er auch in etliche Haufen; denn er dachte, wenn Esau den einen Haufen schlägt, so wird doch der andere Haufen unterdessen entrinnen. 15. Die Nacht darauf, wie Jacob ganz allein war, siehe da rang ein Mann mit ihm, und zwar mit solcher Heftigkeit, daß sich Jacob eine Hüfte darüber verrenkte, daß er darnach Lebenslang hinken muste. 16. Dieser Kampf währte, bis die Morgenröthe anbrach, da wolte der Mann seines Weges gehen: 17. Aber Jacob hielt ihn feste, und sagte zu ihm: Ich lasse dich nicht, du segnest mich denn. 18. Darauf gab der Mann zur Antwort: Du hast mit GOtt und Menschen gekämpfet, und hast obgelegen. 19. Dieser Mann gab sich zwar nicht zu erkennen; aber Jacob merkte wohl, daß es der Sohn Gottes wäre, 20. deswegen rief er aus: Ich habe GOtt von Angesicht gesehen, und meine Seele ist genesen. 21. Damals sagte GOtt auch zu Jacob: Du solt nicht mehr Jacob heissen, sondern Israel soll dein Name seyn. 22. Wie er hierauf seine Augen aufhob, so sahe er seinen Bruder Esau daher kommen. 23. Gegen demselben bückte sich Jacob siebenmal gegen die Erde, und seine Weiber und Kinder neigten sich auch gegen ihm. 24. Esau aber lief ihm entgegen und herzte ihn und fiel ihm um den Hals und küßte ihn, und sie weinten beyde mit einander. 25. Die Geschenke wolte zwar Esau anfangs nicht annehmen, doch ließ er sich endlich dazu bereden. 26. Hierauf zog Esau wieder des Weges, da er herkommen war, und Jacob zog auch seine Strasse.",
+    "questions": [
+      "Wo reisete Jacob hin?",
+      "Was hatte er bey sich?",
+      "Wie viel Söhne hatte Jacob?",
+      "Wie viel waren von der Lea?",
+      "Wie viel von der Rahel?",
+      "Welche von den beyden Mägden?",
+      "Was begegnete ihm unterwegens?",
+      "Was sagte Jacob darzu?",
+      "Was lief hierauf vor Nachricht ein?",
+      "Wie war Jacob darbey zu Muthe?",
+      "Wozu nahm er seine Zuflucht?",
+      "Wie sprach er zum lieben GOtt?",
+      "Was schickte er seinem Bruder zum Geschenke?",
+      "Was brauchte er vor Behutsamkeit mit seiner Heerde?",
+      "Was trug sich in der folgenden Nacht zu?",
+      "Wie lange währte dieser Kampf?",
+      "Wie sagte Jacob zum Manne?",
+      "Was gab der Mann zur Antwort?",
+      "Kannte denn Jacob diesen Mann?",
+      "Wie rief Jacob darüber aus?",
+      "Was bekam Jacob vor einen neuen Namen?",
+      "Was sahe hierauf Jacob von ferne?",
+      "Was machte Jacob seinem Bruder vor ein Compliment?",
+      "Und was machte ihm Esau vor ein Gegen-Compliment?",
+      "Was gieng mit dem Geschenke vor?",
+      "Wie lief die Zusammenkunft ab?"
+    ],
+    "teachings": [
+      "I. Wenn man in Noth ist, so soll man seine Zuflucht zum Gebete nehmen.\nDas that Jacob, wie er sich vor seinem Bruder fürchten muste.",
+      "II. Einen Feind kan man nicht besser versöhnen, als wenn man Böses mit Guten vergilt.\nSo machte es Jacob, der schickte seinem Bruder Geschenke, wie er auf ihn los gieng.",
+      "III. Nichts ist in der Welt so starck, als der Glaube.\nDenn durch den Glauben hat Jacob mit GOtt gekämpfet, und den Sieg davon getragen."
+    ],
+    "reflection": "Es muste Jacob dort mit einem Manne ringen.\nWer war denn dieser Mann? wahrhaftig GOtt der Sohn.\nUnd siehe da / GOtt ließ von Jacob sich bezwingen;\nDer trug den Segen auch auf diesen Kampf davon.\nMein GOtt! Ich will dich auch mit starkem Glauben fassen /\nUnd will dich eher nicht / bis du mich segnest / lassen."
   }
 };

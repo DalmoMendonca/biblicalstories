@@ -678,5 +678,59 @@ export const englishFromGerman = {
       "III. Children are a gift of God, and the fruit of the womb is a gift of the Most High.\nThis is clearly seen in both sisters: for God had made Leah fruitful, and Rachel, on the other hand, barren for a time."
     ],
     "reflection": "Jacob had chosen something beautiful for himself;\nAnd what he wished for, God also let come to pass.\nYet that his married state was also a state of woe,\nCan be seen as clearly as the sun from many things.\nIt seems to me that Scripture meant to remind us here,\nThat we should look more to virtue than to beauty."
+  },
+  "15": {
+    "pages": [
+      92,
+      95,
+      96,
+      99
+    ],
+    "printed": "40–43",
+    "latin": "Cum quo certavit nocturno tempore Jacob?\nDic mihi, quis fuerit? Filius ipse Dei.\nSuccubuisse Deo placuit! quis crederet illud?\nEt Jacob victor ter benedictus abit.\nSic ego te, JESU! complectar speque fideque,\nNec te dimittam, dum benedictus ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Jacob Wrestled with God",
+    "reference": "Genesis, chapters XXXII and XXXIII.",
+    "narrative": "1. Jacob traveled home again to his father, 2. and had with him his wives, his children, and everything God had given him. 3. Now Jacob had twelve sons: 4. six were by Leah, and were called Reuben and Simeon, Levi and Judah, Issachar and Zebulun. 5. The youngest two were by Rachel, and were called Joseph and Benjamin. 6. The remaining four were by their two maidservants, and were called Dan and Naphtali, Gad and Asher. 7. When he was on the way, the angels of God first met him, and when he saw them, 8. he said: These are God's armies. 9. After this he received word that his brother Esau was coming to meet him with four hundred men. 10. Jacob was greatly frightened at this, 11. and took refuge in prayer. Among other things he said to God: 12. Lord, I am too unworthy of all the mercy and faithfulness you have shown to your servant. 13. Afterward Jacob sent his brother a gift consisting of goats, sheep, camels, and donkeys, which he had driven ahead of him in separate groups. 14. He also divided the rest of his herd into several groups; for he thought that if Esau struck one group, the other group would meanwhile escape. 15. The following night, when Jacob was quite alone, behold, a man wrestled with him, and with such violence that Jacob dislocated a hip in the struggle, so that afterward he had to limp for the rest of his life. 16. This struggle lasted until the dawn broke, when the man wished to go his way: 17. but Jacob held him fast, and said to him: I will not let you go unless you bless me. 18. The man answered: You have fought with God and men and have prevailed. 19. This man did not disclose his identity; but Jacob perceived that he was the Son of God, 20. and therefore cried out: I have seen God face to face, and my soul has been preserved. 21. At that time God also said to Jacob: You shall no longer be called Jacob, but Israel shall be your name. 22. When he then lifted up his eyes, he saw his brother Esau coming. 23. Jacob bowed toward the earth seven times before him, and his wives and children also bowed toward him. 24. But Esau ran to meet him, embraced him, fell upon his neck and kissed him, and they both wept together. 25. At first Esau did not wish to accept the gifts, but at last he allowed himself to be persuaded. 26. Thereupon Esau went back the way he had come, and Jacob likewise went his own way.",
+    "questions": [
+      "Where did Jacob travel?",
+      "What did he have with him?",
+      "How many sons did Jacob have?",
+      "How many were by Leah?",
+      "How many by Rachel?",
+      "Which were by the two maidservants?",
+      "What did he encounter along the way?",
+      "What did Jacob say to this?",
+      "What news arrived after this?",
+      "How did Jacob feel about it?",
+      "In what did he take refuge?",
+      "How did he speak to the dear Lord God?",
+      "What did he send his brother as a gift?",
+      "What precaution did he take with his herd?",
+      "What happened the following night?",
+      "How long did this struggle last?",
+      "What did Jacob say to the man?",
+      "What answer did the man give?",
+      "Did Jacob know this man?",
+      "What did Jacob cry out at this?",
+      "What new name did Jacob receive?",
+      "What did Jacob then see from afar?",
+      "What gesture of respect did Jacob make to his brother?",
+      "And what gesture of respect did Esau return to him?",
+      "What happened with the gift?",
+      "How did the meeting end?"
+    ],
+    "teachings": [
+      "I. When one is in distress, one should take refuge in prayer.\nJacob did this when he had reason to fear his brother.",
+      "II. One can reconcile an enemy in no better way than by repaying evil with good.\nJacob did so, sending his brother gifts as he advanced toward him.",
+      "III. Nothing in the world is so strong as faith.\nFor through faith Jacob fought with God and carried away the victory."
+    ],
+    "reflection": "There Jacob had to wrestle with a man.\nWho, then, was this man? Truly God the Son.\nAnd behold, God let himself be overcome by Jacob;\nWho carried away the blessing from this struggle also.\nMy God! I too will grasp you with strong faith,\nAnd will not let you go before you bless me."
   }
 };
