@@ -2549,5 +2549,73 @@ export const german1768 = {
       "III. Der Prophet Jona ist ein Vorbild Christi gewesen.\nDenn wir singen an Ostern in der Kirche: Jonas im Wallfisch war drey Tag, so lang Christus im Grab auch lag."
     ],
     "reflection": "Das Volck zu Ninive bereuet seine Sünden /\nSo bald als Jona sprach: Die Stadt soll untergehn.\nWeil GOtt nun alsobald sich ließ barmherzig finden;\nSo soll mir Ninive stets zum Exempel stehn /\nUnd wenn die Priester mir von Busse werden sagen /\nSo will ich Reu und Leid um meine Sünden tragen."
+  },
+  "47": {
+    "pages": [
+      281,
+      282,
+      283,
+      284,
+      285,
+      286
+    ],
+    "printed": "163–168",
+    "latin": "Spes confisa Deo quod non confusa recedat,\nExemplo Judith nos docet alma suo:\nCujus salva fuit virtute Bethulia cincta,\nAuxilii quando spes prope nulla fuit.\nSæviat ergo fames; moveat Mars bella cruenta;\nGrassetur pestis; spes mea certa Deus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 39,
+      "teachings": 3
+    },
+    "title": "Von der Judith.",
+    "reference": "Von I. bis zum XVI. Capitel.",
+    "narrative": "1. Der König Nebucadnezar hatte einen General, der hieß Holofernes. 2. Der zog mit einer grossen Armee von einem Lande zum andern, 3. und alles, was ihm widerstrebte, das schlug er mit der Schärffe des Schwerts. 4. Da die Kinder Israel solches höreten, so hielten sie Fast- und Buß-Tage, und beschlossen sich zu wehren. 5. Holofernes verwunderte sich darüber, und rückte mit seiner Armee vor die Jüdische Festung Bethulia. 6. Er zog aber vorher Nachricht ein, was die Jüden vor ein Volck wären, und wie man sie am besten bezwingen könte? 7. Darauf gab Achior zur Antwort: Er solte vor allen Dingen Kundschafft darauf legen, ob sich die Jüden an ihrem GOtt versündiget hätten, oder nicht. 8. Wo sie sich etwa versündiget hätten, so würden sie leicht zu bezwingen seyn: 9. Wo sie aber bey ihrem GOtt in Gnaden stünden, so würden die Assyrer an ihnen zu Schanden werden. 10. Darüber erzürnte sich Holofernes, und ließ diesen Achior in die belagerte Stadt Bethulien führen. 11. Denn er sagte, wie es den Jüden gehen würde, gut oder böse, so solte es diesem Achior auch ergehen. 12. Es ließ aber Holofernes die Wasser-Röhren entzwey hauen, und die Brunnen um die Stadt herum besetzen. 13. Da entstund in der belagerten Stadt ein solcher Mangel an Wasser, daß sich die Bürger lieber ergeben, als vor Durst sterben wolten. 14. Endlich wurden sie schlüßig, daß sie noch fünf Tage harren wolten, und wenn ihnen GOtt in der Zeit nicht hülffe, so wolten sie die Stadt übergeben. 15. Es war aber eine schöne Wittwe in der Stadt, mit Namen Judith, die erlöste endlich die Stadt von den Assyrern. 16. Dieselbe sagte nicht, was sie vor hätte; sondern sie vermahnte die Bürger nur, daß sie fleißig vor sie beten solten, und sie that es auch. 17. Darnach gieng sie vor die Stadt in das Lager, und gab vor, sie wolte den Assyrern die Stadt verrathen. 18. Sie bedunge sich aber, daß sie Morgens und Abends ihr Gebet ausser dem Lager verrichten durffte, so lange bis sie ihren Anschlag würde vollführen können. 19. Holofernes war froh darüber, und befahl der Wache, daß sie dieses Weib mit ihrer Magd drey Tage nach einander frey solten hin- und hergehen lassen. 20. Am vierten Tage sagte Holofernes, es wäre eine Schande, wenn ein so schönes Weib unbeschlaffen von den Assyrern gehen solte, und ließ sie deswegen zur Tafel bitten. 21. Wie sie kam, so empfing er sie mit diesen Worten: Sitze nieder, trincke und sey frölich, denn du hast Gnade bey mir funden. 22. Judith gab zur Antwort: Ja mein Herr, ich will frölich seyn, denn ich bin mein Lebenlang nicht so hoch geehret worden. 23. Es wallete aber dem Holoferni sein Herz gegen die schöne Judith, und tranck deswegen mehr, als er sonst gewohnet war. 24. Seine Diener hatten sich auch alle betruncken, und gingen ein jeder seines Weges. 25. Auf die letzt war niemand mehr in der Kammer als Holofernes, welcher in trunckener Weise eingeschlaffen war. 26. Da trat Judith vor das Bette, und sprach heimlich mit Thränen: HErr GOtt Israel, stärcke mich in dieser Stunde! 27. Darauf nahm sie Holofernis Schwerdt, welches an seinem Bette hing, und hieb ihm damit den Kopf ab. 28. Ihre Magd war gleich zur Hand, und steckte den Kopf Holofernis in einen Sack. 29. Gegen Morgen ging Judith ihrer Gewohnheit nach vor das Lager hinaus zu beten, und ihre Magd ging hinter ihr her. 30. Sie kam aber dasmal nicht wieder, sondern sie eilte nach der Stadt, bevor es Tag ward. 31. Wie nun die Eltesten der Stadt, auf dem Marckte zusammen kommen waren, so zog sie den Kopf Holofernis aus dem Sacke heraus. 32. Da ward ein grosses Frohlocken in der Stadt, und sobald es lichte ward, so thaten die Belagerten einen Ausfall. 33. Da sagten die Assyrer spöttischer Weise, die Mäuse wären aus ihren Löchern heraus gelauffen; und machten ein Gepolter vor dem Gezelte Holofernis. 34. Denn sie dachten, er schlieffe noch, und hätte die schöne Judith in seinen Armen. 35. Endlich gingen sie hinein in das Zelt, und funden zwar den Cörper ihres Generals, aber seinen Kopf hatte Judith mitgenommen. 36. Da das die Soldaten im Lager höreten, so begaben sie sich über Hals über Kopf auf die Flucht. 37. Und die Bürger aus Bethulia funden so viel Ausbeute in dem Assyrischen Lager daß sie gantzer dreyßig Tage darüber zu theilen hatten. 38. Achior, der sonst ein Heyde gewesen war, bekehrte sich hierauf zu dem lebendigen GOtt: 39. Und Judith sang dem HErrn einen schönen Lob-Gesang.",
+    "questions": [
+      "Was hatte Nebucadnezar vor einen General?",
+      "Was nahm dieser Holofernes vor?",
+      "Wie gieng es den benachbarten Ländern?",
+      "Was thaten denn die Kinder Israel?",
+      "Was nahm Holofernes vor eine Belagerung vor?",
+      "Was zog er vorher vor Nachricht ein?",
+      "Was gab ihm Achior zur Antwort?",
+      "Was würde sich dann zutragen, wenn sich die Jüden an ihrem GOtt versündiget hätten?",
+      "Was aber, wenn sie bey GOtt in Gnaden stünden?",
+      "Was begegnete dem Achior auf diese Antwort?",
+      "Warum ließ ihn Holofernes nach Bethulia bringen?",
+      "Wie ging unterdessen die Belagerung von statten?",
+      "In was für Noth geriethen die Belagerten?",
+      "Was faßten die Bürger endlich vor einen Schluß?",
+      "Wer befreyte denn die Stadt Bethulia von dieser grossen Noth?",
+      "Was that Judith den Bürgern vor einen Vorschlag?",
+      "Was gab Judith bey den Assyrern vor?",
+      "Was bedunge sich Judith darbey?",
+      "Was fand sie bey dem Holofernes vor Gehör?",
+      "Was that ihr Holofernes vor Ehre an?",
+      "Wie empfing Holofernes die Judith?",
+      "Und was machte die Judith vor ein Gegen-Compliment?",
+      "Wie war dem Holoferni bey der Tafel zu muthe?",
+      "Wie führten sich seine Diener darbey auf?",
+      "Wer war denn auf die letzt noch in der Kammer?",
+      "Was that Judith vor einen Seufzer zu GOtt?",
+      "Und was nahm Judith mit Holoferne vor?",
+      "Was machte sie mit Holofernis Kopffe?",
+      "Was that Judith gegen Morgen?",
+      "Kam sie nicht wieder ins Lager?",
+      "Was brachte sie gutes neues mit in die Stadt?",
+      "Was thaten hierauf die Bürger zu Bethulia?",
+      "Was trieben die Assyrer vor Gespötte darüber?",
+      "Was dachten sie denn, daß Holofernes so lange schlief?",
+      "Aber wie funden sie es im Gezelte?",
+      "Ward die Belagerung nicht fortgesetzet?",
+      "Was gabs vor Beute im Assyrischen Lager?",
+      "Worzu resolvirte sich Achior?",
+      "Und was that Judith zum Beschluß?"
+    ],
+    "teachings": [
+      "I. Die Alten haben gar wohl gesaget: GOttes Weisheit und der Menschen Thorheit regieren die Welt.\nHolofernes hatte sich voll gesoffen, das war seine Narrheit: Darüber verlohr er seinen Kopff; und Bethulia ward befreyet, das war GOttes Weisheit.",
+      "II. Die beste Gegenwehr im Kriege ist das Gebet.\nHätte das Gebet zu Bethulia nicht das beste gethan, so würde Judith ihren Anschlag schwerlich hinaus geführet haben.",
+      "III. Zu grossen Dingen gebrauchet GOtt offtmals gar geringe Werckzeuge.\nHolofernes ward durch keinen grossen Krieges-Held, sondern durch eine schwache Weibs-Person erleget."
+    ],
+    "reflection": "An Gottes Hülffe soll man nimmermehr verzagen /\nDas stellt Bethulia durch ihr Exempel dar:\nDurch eines Weibes Hand ließ GOtt die Feinde jagen,\nAls in der Stadt die Noth aufs höchste kommen war.\nUnd also soll mir auch in keinen Nöthen grauen /\nIn Hunger / Krieg und Pest will ich auf GOtt vertrauen."
   }
 };

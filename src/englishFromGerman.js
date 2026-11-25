@@ -2602,5 +2602,74 @@ export const englishFromGerman = {
       "III. The prophet Jonah was a figure of Christ.\nFor at Easter we sing in church: Jonah was in the whale three days, as long as Christ likewise lay in the grave."
     ],
     "reflection": "The people of Nineveh repent of their sins,\nAs soon as Jonah said: The city shall perish.\nSince God at once showed himself merciful,\nLet Nineveh always stand as an example to me;\nAnd when the priests tell me of repentance,\nI will bear remorse and sorrow for my sins."
+  },
+  "47": {
+    "pages": [
+      281,
+      282,
+      283,
+      284,
+      285,
+      286
+    ],
+    "printed": "163–168",
+    "latin": "Spes confisa Deo quod non confusa recedat,\nExemplo Judith nos docet alma suo:\nCujus salva fuit virtute Bethulia cincta,\nAuxilii quando spes prope nulla fuit.\nSæviat ergo fames; moveat Mars bella cruenta;\nGrassetur pestis; spes mea certa Deus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 39,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Judith.",
+    "reference": "Chapters I through XVI.",
+    "narrative": "1. King Nebuchadnezzar had a general named Holofernes. 2. He marched with a great army from one country to another, 3. and struck down everything that resisted him with the edge of the sword. 4. When the children of Israel heard this, they observed days of fasting and repentance and resolved to defend themselves. 5. Holofernes was astonished at this and advanced with his army before the Jewish fortress of Bethulia. 6. But first he sought information about what sort of people the Jews were and how they could best be subdued. 7. Achior answered that above all he should ascertain whether the Jews had sinned against their God or not. 8. If they had sinned, they would be easily subdued; 9. but if they stood in favor with their God, the Assyrians would be put to shame before them. 10. Holofernes became angry at this and had Achior taken into the besieged city of Bethulia. 11. For he said that whatever befell the Jews, good or evil, should also befall Achior. 12. Holofernes had the water pipes cut and the wells around the city occupied. 13. Such a shortage of water arose in the besieged city that the citizens would rather surrender than die of thirst. 14. Finally they resolved to wait five more days, and if God did not help them in that time, they would surrender the city. 15. But there was a beautiful widow in the city named Judith, who finally delivered the city from the Assyrians. 16. She did not say what she intended, but only admonished the citizens to pray earnestly for her, and she did so herself. 17. Then she went outside the city into the camp and pretended that she wished to betray the city to the Assyrians. 18. But she stipulated that she should be permitted to say her prayers outside the camp morning and evening until she could carry out her plan. 19. Holofernes was glad of this and commanded the guard to let this woman and her maid go freely back and forth for three successive days. 20. On the fourth day Holofernes said it would be a shame if so beautiful a woman should leave the Assyrians without having been slept with, and therefore invited her to his table. 21. When she came, he received her with these words: Sit down, drink and be merry, for you have found favor with me. 22. Judith answered: Yes, my lord, I will be merry, for never in my life have I been so highly honored. 23. But Holofernes' heart burned for the beautiful Judith, and therefore he drank more than he was accustomed to. 24. His servants had all become drunk too, and each went his own way. 25. At last nobody remained in the chamber but Holofernes, who had fallen asleep in his drunkenness. 26. Then Judith stepped before the bed and said secretly with tears: Lord God of Israel, strengthen me in this hour! 27. Then she took Holofernes' sword, which hung by his bed, and struck off his head with it. 28. Her maid was immediately at hand and put Holofernes' head into a sack. 29. Toward morning Judith went out of the camp to pray as was her custom, and her maid followed her. 30. But this time she did not return, and hurried to the city before daybreak. 31. When the elders of the city had assembled in the marketplace, she drew Holofernes' head from the sack. 32. There was great rejoicing in the city, and as soon as it grew light the besieged made a sortie. 33. The Assyrians said mockingly that the mice had run out of their holes, and made a racket before Holofernes' tent. 34. For they thought he was still asleep and had the beautiful Judith in his arms. 35. Finally they entered the tent and found their general's body, but Judith had taken his head. 36. When the soldiers in the camp heard this, they took to flight headlong. 37. The citizens of Bethulia found so much spoil in the Assyrian camp that they spent thirty whole days dividing it. 38. Achior, who formerly had been a heathen, thereupon turned to the living God; 39. and Judith sang a beautiful song of praise to the Lord.",
+    "questions": [
+      "What general did Nebuchadnezzar have?",
+      "What did Holofernes undertake?",
+      "How did the neighboring countries fare?",
+      "What then did the children of Israel do?",
+      "What siege did Holofernes undertake?",
+      "What information did he seek beforehand?",
+      "What answer did Achior give him?",
+      "What would happen if the Jews had sinned against their God?",
+      "But what if they stood in God's favor?",
+      "What happened to Achior on account of this answer?",
+      "Why did Holofernes have him taken to Bethulia?",
+      "How did the siege proceed meanwhile?",
+      "Into what distress did the besieged fall?",
+      "What decision did the citizens finally make?",
+      "Who delivered the city of Bethulia from this great distress?",
+      "What proposal did Judith make to the citizens?",
+      "What did Judith pretend before the Assyrians?",
+      "What did Judith stipulate in this matter?",
+      "What reception did she find with Holofernes?",
+      "What honor did Holofernes bestow upon her?",
+      "How did Holofernes receive Judith?",
+      "What compliment did Judith return?",
+      "How did Holofernes feel at the table?",
+      "How did his servants conduct themselves?",
+      "Who was still in the chamber at last?",
+      "What prayer did Judith sigh to God?",
+      "And what did Judith do to Holofernes?",
+      "What did she do with Holofernes' head?",
+      "What did Judith do toward morning?",
+      "Did she not return to the camp?",
+      "What good news did she bring into the city?",
+      "What did the citizens of Bethulia do thereupon?",
+      "How did the Assyrians mock this?",
+      "Why did they think Holofernes slept so long?",
+      "But what did they find in the tent?",
+      "Was the siege not continued?",
+      "What spoil was there in the Assyrian camp?",
+      "What did Achior resolve to do?",
+      "And what did Judith do in conclusion?"
+    ],
+    "teachings": [
+      "I. The ancients said very well: God's wisdom and men's folly govern the world.\nHolofernes had drunk himself full, which was his folly; thereby he lost his head, and Bethulia was delivered, which was God's wisdom.",
+      "II. The best defense in war is prayer.\nHad prayer in Bethulia not done the chief work, Judith would scarcely have carried out her plan.",
+      "III. For great things God often employs very humble instruments.\nHolofernes was slain not by a great warrior, but by a weak woman."
+    ],
+    "reflection": "One must never despair of God's help;\nBethulia shows this by her example:\nThrough a woman's hand God put the enemies to flight,\nWhen the distress in the city had reached its height.\nThus I shall dread no adversity;\nIn famine, war and plague I will trust in God."
   }
 };
