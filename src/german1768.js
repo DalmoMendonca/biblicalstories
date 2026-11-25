@@ -2413,5 +2413,78 @@ export const german1768 = {
       "III. Zu einer Religion muß niemand gezwungen werden.\nMan muß es nicht machen wie Nebucadnezar, der das Götzenbild und den glüenden Feuer-Ofen neben einander setzen ließ."
     ],
     "reflection": "Es wollen ihrer drey im Ofen lieber brennen /\nAls wider Gottes Wort Abgötterey begehn.\nAch! würden wir denn auch die Wahrheit so bekennen?\nWenn uns der Ofen auch vor Augen solte stehn?\nIch sorg es würden viel zur falschen Lehre treten /\nDrum will ich Tag und Nacht die sechste Bitte beten."
+  },
+  "45": {
+    "pages": [
+      266,
+      269,
+      270,
+      271,
+      272,
+      275
+    ],
+    "printed": "154–159",
+    "latin": "Quotidie Daniel Domino ter vota ferebat,\nNec sacrum duro tempore cessat opus.\nSi nequeo toties orantia fundere verba,\nAttamen a precibus non vacet ulla dies.\nAd minimum nomen laudabo mane Jehova,\nEt grates grata vespere voce canam.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 43,
+      "teachings": 3
+    },
+    "editorial_note": "German opening and ending share adjoining stories' pages; Russian witness has 40 questions, with its last numbered paragraphs condensed.",
+    "title": "Von Daniel in der Löwen-Grube.",
+    "reference": "Dan. VI. Capitel.",
+    "narrative": "1. Der König Darius zu Babel wolt den Propheten Daniel wegen seines hohen Verstandes über das gantze Königreich setzen. 2. Das verdroß die andern am Hofe, und suchten Daniel zu stürzen. 3. Deswegen brachten sie es beym Könige Dario dahin, daß er ein Gebot ausgehen ließ, welches Daniel nicht halten konte. 4. Nemlich es ward befohlen, daß in dreißig Tagen niemand etwas bitten solte, ohne nur allein von dem Könige. 5. Und wo jemand einen andern GOtt anruffen würde, der solte alsobald in die Löwen-Grube geworffen werden. 6. Dieses Gebot hielt Daniel nicht, sondern er kniete alle Tage dreymal nieder, und betete den wahren GOtt an. 7. Wie der König Darius das hörte, so war er sehr bekümmert um Daniel, und wolte ihn gerne erretten. 8. Aber die Leute liessen sich nicht bedeuten, sondern Daniel muste in die Löwen-Grube hinunter. 9. Der König Darius aber sagte zu ihm: Dein GOtt, dem du ohn Unterlaß dienest, der helffe dir! 10. Er versiegelte auch das Loch zum Graben mit seinem Petschafft, damit dem Daniel niemand etwas solte zu leide thun. 11. Ja der König konte vor Sorgen des Abends nicht essen, und auch des nachts nicht schlaffen. 12. Des Morgens frühe kam der König zum Löwen-Graben, und rufte: Daniel, du Knecht des lebendigen Gottes, hat dich auch dein GOtt von den Löwen erretten mögen? 13. Daniel gab zur Antwort: Mein GOtt hat seinen Engel gesandt, der hat den Löwen den Rachen zugehalten, daß sie mir kein Leid gethan haben. 14. Darüber war Darius froh, und ließ Daniel aus dem Graben ziehen. 15. Die Männer aber, die ihn verklaget hatten, ließ er mit Weibern und Kindern in den Graben werffen. 16. Und ehe sie noch auf den Erdboden kamen, so wurden sie von den Löwen zermalmet. 17. Darauf ließ der König Darius ein Gebot ausgehen, daß jederman den GOtt Daniels fürchten und scheuen solte. 18. Als nach diesem der König Cyrus regierte, so hatten die Babylonier einen Abgott, der hieß Bel. 19. Dem musten täglich zwölf Malter Waitzen, und vierzig Schafe, und drey Eimer Weins geopffert werden. 20. Dieses verzehrten die Pfaffen mit den Ihrigen, 21. und machten dem Könige weiß, als wenn der Abgott täglich so viel haben müste. 22. Diesen Betrug entdeckte Daniel dem Könige, und der König Cyrus wolte gerne hinter die Wahrheit kommen. 23. Er setzte deswegen dem Bel das Opffer selber vor, und versiegelte die Thüre des Tempels mit seinem Königlichen Ringe. 24. Wie der König wieder in den Tempel kam, so war das Siegel unversehret, und das Opffer war alles aufgezehret. 25. Darauf rufte der König aus: Bel, du bist ein grosser GOtt, und ist kein Betrug mit dir. 26. Daniel aber wies dem Könige auf dem Boden des Tempels allerhand Fußstapffen von Männern, Weibern, und Kindern. 27. Denn die Priester hatten die Nacht hindurch mit den Ihrigen im Tempel gefressen, gesoffen und geschwärmet. 28. Daniel aber hatte den Abend vorher den Fuß-Boden des Tempels mit Aschen bestreuen lassen. 29. Da ließ der König die Priester fahen, und zwang sie, daß sie ihm den heimlichen Gang unter dem Tische zeigen musten. 30. Wie der Betrug entdecket war, so ließ der König die Priester tödten, und Daniel mochte den Bel zerstören. 31. Es war auch ein grosser Drache zu Babel, der vor einen GOtt angebetet ward. 32. Aber Daniel machte Küchlein aus Peche, Fett und Haaren, und warf sie dem Drachen ins Maul. 33. Wie nun der Drache davon mitten entzwey borste, so sagte Daniel: Siehe, das sind eure Götter. 34. Da ward Daniel von dem Volke abermal in den Löwen-Graben geworffen, und muste sechs Tage bey ihnen sitzen. 35. Es waren aber sieben Löwen in dem Graben, 36. denen gab man täglich zween Menschen, und zwey Schafe. 37. Aber die sechs Tage gab man ihnen nichts, damit sie Daniel desto eher fressen solten. 38. Damals wolte der Prophet Habacuc seinen Schnittern Essen auf das Feld bringen; 39. den nahm ein Engel des HErrn beym Kopffe, und führte ihn nach Babel in den Löwen-Graben. 40. Wie nun Daniel gegessen hatte, so brachte der Engel den Propheten Habacuc wieder an seinen Ort. 41. Am siebenden Tage kam der König zum Graben, und ließ Daniel wieder heraus. 42. Und seine Feinde ließ er davor in den Graben werffen, 43. welche vor den Augen des Königs alsobald von den Löwen verschlungen wurden.",
+    "questions": [
+      "Was hatte der König Darius mit Daniel vor?",
+      "Was hatte Daniel vor Ungelegenheit davon?",
+      "Was machten sie dem Daniel vor eine Fallbrücke?",
+      "Was kam vor ein Befehl heraus?",
+      "Was ward vor eine Strafe darauf gesetzet?",
+      "Wie führte sich Daniel darbey auf?",
+      "Was that der König bey der Sache?",
+      "Wie lief es damit ab?",
+      "Was gab ihm der König vor einen Trost?",
+      "Wer versiegelte den Löwen-Graben?",
+      "Wie war dem Könige darbey zu muthe?",
+      "Was that der König den Morgen darauf?",
+      "Was gab der Daniel in der Löwen-Grube zur Antwort?",
+      "Wie bezeugte sich der König darbey?",
+      "Wie gieng es den Feinden Daniels?",
+      "Wie wurden sie von den Löwen empfangen?",
+      "Was ließ der König vor ein Gebot ausgehen?",
+      "Was hatten die Babylonier nach diesem vor einen Abgott?",
+      "Wie viel muste demselben täglich geopffert werden?",
+      "Wer verzehrte denn dieses Opffer?",
+      "Aber was machten die Pfaffen dem Könige weiß?",
+      "Wer entdeckte diesen Betrug?",
+      "Wie kam denn der König hinter die Wahrheit?",
+      "Wie fand es der König auf den Morgen?",
+      "Wie ruffte der König aus?",
+      "Was waren denn vor Fußstapffen auf dem Erdboden im Tempel?",
+      "Wer war denn des Nachts im Tempel gewesen?",
+      "Aber wie giengs zu, daß man die Fußstapffen sehen konte?",
+      "Worzu wurden die Priester gezwungen?",
+      "Wie ließ der König die Betrüger strafen?",
+      "Was wurde sonsten zu Babel noch angebetet?",
+      "Was kochte Daniel vor den Drachen?",
+      "Was trug sich mit dem Drachen zu?",
+      "Aber wie giengs Danielen darüber?",
+      "Wie viel Löwen waren in dem Graben?",
+      "Was kriegten sie täglich zu fressen?",
+      "Wie lange kriegten sie nichts zu fressen?",
+      "Was hatte der Prophet Habacuc vor?",
+      "Was begegnete diesem Habacuc unterwegens?",
+      "Wie kam Habacuc wieder aus der Löwen-Grube?",
+      "Was trug sich am siebenden Tage zu?",
+      "Wer ward an Daniels Stelle in den Graben geworffen?",
+      "Wie giengs den Feinden Daniels in der Löwen-Grube?"
+    ],
+    "teachings": [
+      "I. Die wahre Religion muß man vor aller Welt bekennen.\nDaniel hatte bishero den wahren GOtt alle Tage dreymal angebetet, und das that er auch zur Zeit der Verfolgung.",
+      "II. Wer einem andern eine Grube gegraben hat, der fällt gemeiniglich selber hinein.\nDas wurden Daniels Feinde gewahr, als sie selber in die Löwen-Grube geworffen wurden.",
+      "III. Die Heyden haben vor GOtt keine Entschuldigung.\nDen Babyloniern hat es gewiß an Gelegenheit nicht gefehlt, den wahren GOtt erkennen zu lernen."
+    ],
+    "reflection": "Man sahe Daniel des Tages dreymal beten /\nUnd solches stellt er auch nicht in Verfolgung ein.\nKan ich so ofte nicht vor meinen Schöpffer treten:\nSo soll doch auch kein Tag leer vom Gebete seyn!\nIch will zum wenigsten mein Morgen-Opffer bringen /\nUnd wenn ich schlaffen geh / mein Abend-Liedlein singen."
   }
 };
