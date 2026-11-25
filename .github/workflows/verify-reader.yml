@@ -17,19 +17,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Rebuild editorial segmentation and verify checked-in result
+      - name: Verify immutable editorial alignment
         run: |
           node scripts/segment_zurich.mjs
           git diff --exit-code -- sources/zurich-editorial/index.json
           python3 scripts/align_zurich_geometry.py
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sources/zurich-editorial/geometry
-          if ! git diff --cached --quiet; then
-            git commit -m "Preserve actual 104-story ALTO geometry alignment [skip ci]"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          git diff --exit-code -- sources/zurich-editorial/geometry
+          node --test tests/content.test.mjs
       - name: Validate actual structured texts and generate coverage
         run: |
           python3 scripts/audit_corpus.py
@@ -72,11 +66,11 @@ jobs:
           done
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sources/validation
+          git add sources/validation public/data/corpus-audit.json
           cp public/data/corpus-audit.json sources/validation/corpus-audit-at-tested-commit.json
           git add sources/validation/corpus-audit-at-tested-commit.json
           if ! git diff --cached --quiet; then
-            git commit -m "Checkpoint actual reader route tests and corpus audit"
+            git commit -m "Checkpoint actual reader route tests and corpus audit [skip ci]"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
