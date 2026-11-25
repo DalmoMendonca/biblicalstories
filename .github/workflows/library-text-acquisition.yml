@@ -23,11 +23,15 @@ jobs:
         run: python scripts/audit_corpus.py
       - name: Acquire public library text layers
         run: python scripts/acquire_library_text.py
+      - name: Extract acquired Zürich source layout
+        run: |
+          if test -f sources/library-text/zurich-alto.xml.gz; then python scripts/extract_zurich_layout.py; fi
       - name: Archive raw sources, receipts and coverage without publishing unreviewed text
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add sources/library-text public/data/corpus-audit.json
+          if test -d sources/zurich-layout; then git add sources/zurich-layout; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Checkpoint library text acquisition and measured corpus coverage"
           git pull --rebase origin main
@@ -39,5 +43,6 @@ jobs:
           name: library-text-acquisition
           path: |
             sources/library-text
+            sources/zurich-layout
             public/data/corpus-audit.json
           if-no-files-found: warn
