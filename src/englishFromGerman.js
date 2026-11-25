@@ -793,5 +793,54 @@ export const englishFromGerman = {
       "III. Jacob was a godly man, and yet his sons were mostly wicked boys.\nFrom this we see that even godly parents can have wicked children, and therefore one should not be hasty in one's judgment."
     ],
     "reflection": "See how the wicked boys there hate Joseph!\nHear how plaintively he cries out in his pit!\nThink how at last he must allow himself to be sold!\nWhat was the cause of it? Nothing but godliness.\nDear godliness! Nothing shall separate me from you,\nEven if I should suffer as much for it as Joseph."
+  },
+  "17": {
+    "pages": [
+      105,
+      106,
+      107,
+      108
+    ],
+    "printed": "47–50",
+    "latin": "Dum petit amplexus Josephi hera non bene casta,\nSe commissurum crimina tanta negat.\nJoseph! o utinam sequeretur tempore nostro\nInstar & exemplum nostra juventa tuum!\nA me non aliud responsum mundus habebit,\nIllecebris quoties me petit ille suis.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 21,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Joseph Was Imprisoned for His Chastity",
+    "reference": "Genesis, chapter XXXIX.",
+    "narrative": "1. Joseph was a servant in Egypt, 2. and his master was called Potiphar. 3. He set Joseph over his whole house, 4. and concerned himself with nothing except eating and drinking. 5. From that time God blessed Potiphar's house for Joseph's sake, and the Lord's blessing was upon everything he had, in the house and in the field. 6. Now Joseph was handsome and pleasing in appearance. 7. Therefore Potiphar's wife cast her eyes upon him, 8. and said: Lie with me. 9. But Joseph answered: How could I do so great an evil and sin against God? 10. The lustful woman would not be put off by this, but repeated such words daily; 11. yet Joseph did not obey her, but kept out of her way wherever he knew how and could. 12. Once Joseph came into the house and did not know that the woman was quite alone inside; then she seized him by his garment and said again: Lie with me. 13. But Joseph left the garment in her hand, fled, and ran out of the house. 14. When she saw that all her efforts were in vain, she called together all the servants of the house with a loud outcry and said: 15. Joseph had wanted to lie with her by force; but she had begun to cry out, whereupon he had run away and left his garment behind. 16. She kept that garment beside her until her master came home, 17. to whom she said the same thing: the Hebrew servant whom he had brought into the house had come to her and had wanted to disgrace her. 18. Potiphar thought that what his wife told him was true and immediately had innocent Joseph thrown into a prison without hearing his case, where the king's prisoners were held. 19. But the Lord God was with him and let him find favor before the officer who was set over the prison. 20. That officer placed all the other prisoners under Joseph's authority and concerned himself with nothing. 21. And behold, the Lord was with Joseph in prison also, and in everything he did the Lord granted him success.",
+    "questions": [
+      "What was Joseph in Egypt?",
+      "What was his master's name?",
+      "What did Potiphar give him to do?",
+      "What, then, did the master do?",
+      "How did Joseph discharge his office?",
+      "What did Joseph look like?",
+      "Who fell in love with Joseph?",
+      "What did she say to him?",
+      "What answer did Joseph give?",
+      "Was the matter settled by this?",
+      "Did Joseph not finally allow himself to be persuaded?",
+      "What was the last temptation?",
+      "How did Joseph conduct himself?",
+      "What did the adulterous woman do after this?",
+      "What did she say to the servants?",
+      "What did she do with the garment?",
+      "What did she say to her master?",
+      "What did the master do in response?",
+      "How did Joseph fare in prison?",
+      "What did the officer give Joseph to do?",
+      "How did Joseph conduct himself in prison?"
+    ],
+    "teachings": [
+      "I. God does not forsake the godly, even when they fall into great misfortune.\nFor God was with Joseph even in prison and granted success in everything he did.",
+      "II. Through God's grace one can indeed guard oneself against gross, knowing, and deliberate sins.\nThus Joseph could not be induced by either fair or foul words to sin against God.",
+      "III. Every head of a household should endeavor to have godly and God-fearing servants.\nFor the sake of one godly servant, Potiphar's whole house was richly blessed."
+    ],
+    "reflection": "Allow me, chaste Joseph, to learn something from you:\nCome, said the woman, you shall rest in my arms;\nBut you gave her this answer: Far be it from me,\nThat I should do such evil against God.\nThis same answer I will give the world,\nWhen it entices me to its life of sin."
   }
 };

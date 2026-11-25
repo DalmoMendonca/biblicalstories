@@ -769,5 +769,53 @@ export const german1768 = {
       "III. Jacob war ein frommer Mann, und seine Söhne waren doch meistens böse Buben.\nMan siehet daraus, daß auch fromme Eltern böse Kinder haben können, und deswegen hat man sich in seinem Urtheile nicht zu übereilen."
     ],
     "reflection": "Seht doch / wie Joseph dort die bösen Buben hassen!\nHört doch / wie kläglich er in seiner Grube schreyet!\nDenckt doch / wie er zuletzt sich muß verkauffen lassen!\nWas war denn Schuld daran? nichts als die Frömmigkeit.\nDu liebe Frömmigkeit! nichts soll mich von dir scheiden /\nUnd solt ich auch so viel als Joseph drüber leiden."
+  },
+  "17": {
+    "pages": [
+      105,
+      106,
+      107,
+      108
+    ],
+    "printed": "47–50",
+    "latin": "Dum petit amplexus Josephi hera non bene casta,\nSe commissurum crimina tanta negat.\nJoseph! o utinam sequeretur tempore nostro\nInstar & exemplum nostra juventa tuum!\nA me non aliud responsum mundus habebit,\nIllecebris quoties me petit ille suis.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 21,
+      "teachings": 3
+    },
+    "title": "Wie Joseph wegen seiner Keuschheit ins Gefängniß kommen ist.",
+    "reference": "1. Mose XXXIX. Cap.",
+    "narrative": "1. Joseph war ein Knecht in Egypten, 2. und sein Herr hieß Potiphar. 3. Derselbige setzte Josephen über sein ganzes Haus, 4. und nahm sich keines Dinges an, als daß er aß und tranck. 5. Von der Zeit an segnete GOtt das Haus Potiphars um Josephs willen, und war eitel Segen des HErrn in allem was er hatte, zu Hause und zu Felde. 6. Es war aber dieser Joseph schön und hübsch von Angesicht. 7. Deswegen warff Potiphars Weib ihre Augen auf ihn, 8. und sprach: Schlaf bey mir. 9. Joseph aber gab zur Antwort: Wie solte ich ein so groß Uebel thun, und wider GOtt sündigen? 10. Das wollüstige Weib ließ sich zwar damit nicht abweisen, sondern wiederholte dergleichen Worte täglich; 11. Aber Joseph gehorchte ihr nicht, sondern gieng ihr aus dem Wege, wo er wuste und konte. 12. Einmal kam Joseph in das Haus, und wuste nicht, daß die Frau ganz allein drinnen war; da erwischte ihn die Frau bey seinem Kleide, und sprach nochmals: Schlaf bey mir. 13. Aber Joseph ließ das Kleid in ihrer Hand, und flohe, und lief zum Hause hinaus. 14. Wie sie nun sahe, daß alle Mühe vergebens war, so rief sie mit einem Zeter-Geschrey alles Gesinde im Hause zusammen und sagte: 15. Joseph hätte mit Gewalt bey ihr schlaffen wollen; sie aber hätte angefangen zu schreyen, damit wäre er davon gelauffen, und hätte sein Kleid im Stiche gelassen. 16. Dasselbe Kleid legte sie so lange neben sich, bis ihr Herr nach Hause kam, 17. zu dem sagte sie eben so; der Hebräische Knecht, den er ins Haus gebracht hätte, der wäre zu ihr kommen, und hätte sie wollen zu Schanden machen. 18. Potiphar dachte, es wäre wahr, was ihm seine Gemahlin sagte, und ließ den unschuldigen Joseph alsobald unverhörter Sachen in ein Gefängniß werffen, darinnen die Gefangenen des Königes lagen. 19. Aber GOtt der HErr war mit ihm, und ließ ihn Gnade finden für dem Amtmann, der über das Gefängniß gesetzet war. 20. Derselbe that alle die andern Gefangenen unter die Hand Josephs, und nahm sich keines Dinges an. 21. Und siehe, der HErr war auch im Gefängnisse mit Josephen, und alles was er that, da gab der HErr Glücke darzu.",
+    "questions": [
+      "Was war Joseph in Egypten?",
+      "Wie hieß sein Herr?",
+      "Was gab ihm Potiphar zu thun?",
+      "Was that denn der Herr?",
+      "Wie stund denn Joseph seinem Amte vor?",
+      "Wie sahe Joseph aus?",
+      "Wer verliebte sich denn in Josephen?",
+      "Wie sagte sie zu ihm?",
+      "Was gab Joseph zur Antwort?",
+      "War damit die Sache gehoben?",
+      "Ließ sich Joseph nicht endlich überreden?",
+      "Welches war die letzte Versuchung?",
+      "Wie hielt sich Joseph?",
+      "Was that das ehebrecherische Weib hierauf?",
+      "Was sagte sie zum Gesinde?",
+      "Was machte sie mit dem Kleide?",
+      "Was sagte sie zu ihrem Herrn?",
+      "Was that der Herr darauf?",
+      "Wie giengs Josephen im Gefängniß?",
+      "Was gab der Amtmann Josephen zu thun?",
+      "Wie führte sich Joseph im Gefängniß auf?"
+    ],
+    "teachings": [
+      "I. GOtt verläßt die Frommen nicht, wenn sie gleich in groß Unglück gerathen.\nDenn auch im Gefängniß war GOtt mit Josephen, und gab Glück zu allem, das er that.",
+      "II. Durch Gottes Gnad kan man sich gar wohl vor groben, wissentlichen und vorsetzlichen Sünden hüten.\nAlso ließ sich Joseph weder mit guten noch mit bösen Worten dahin bringen, daß er wider GOtt gesündiget hätte.",
+      "III. Ein jedweder Haus-Vater soll sich auf frommes und gottsfürchtiges Gesinde befleißigen.\nDenn um eines frommen Knechts willen ward Potiphars ganzes Haus reichlich gesegnet."
+    ],
+    "reflection": "Laß keuscher Joseph zu / daß ich von dir was lerne:\nKomm / sprach das Weib / du solt in meinen Armen ruhn:\nDu aber gabest ihr zur Antwort: Das sey ferne /\nDaß ich solt wider GOtt ein solches Uebel thun.\nDas will ich ebenfalls der Welt zur Antwort geben /\nWenn sie mich reizen wird zu ihrem Sünden-Leben."
   }
 };
