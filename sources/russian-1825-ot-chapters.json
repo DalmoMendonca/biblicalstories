@@ -398,7 +398,10 @@
       "printed_start": 159,
       "scan_start": 171,
       "scan_end_candidate": 176,
-      "scan_start_candidate": 170
+      "scan_start_candidate": 170,
+      "scan_start_verified": 171,
+      "scan_end_verified": 176,
+      "printed_verified": "159–164"
     },
     {
       "id": 37,

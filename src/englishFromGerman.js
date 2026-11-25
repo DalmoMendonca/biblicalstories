@@ -1944,5 +1944,70 @@ export const englishFromGerman = {
       "III. In old age Solomon allowed the women to seduce him into idolatry.\nThus neither age nor folly helps, and even when one has overcome the desires of youth, the devil does not lack other snares with which he can catch us even in old age, if we are not always on our guard."
     ],
     "reflection": "Solomon's temple was magnificent to behold;\nNo king on earth has equaled him in this.\nMy God! I too would build a temple for you,\nBut my poverty prevents me from doing so.\nNow, what I cannot accomplish, you will forgive me;\nMeanwhile I will dedicate my heart to you as a temple!"
+  },
+  "36": {
+    "pages": [
+      216,
+      219,
+      220,
+      221,
+      222
+    ],
+    "printed": "122–126",
+    "latin": "Turba sacerdotum replet clamoribus auras,\nSed non respondet, qui caret aure, Baal.\nMortales miseros! qui talia Numina fingunt,\nMalleus artificis quæ fabricare potest.\nO te felicem! qui CHRISTI nomen adoras!\nAuribus hic audit, luminibusque videt.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "editorial_note": "The German printed narrative has apparent misnumberings 6 for 9 and 29 for 26; these are retained. Russian has 34 questions rather than 35, combines the selection of the ox with the preceding sentence, and gives three years rather than three years and six months for the drought. Russian devotional text is prose; its printed witness contains no Latin verse.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Priests of Baal.",
+    "reference": "1 Kings XVI, XVII, and XVIII.",
+    "narrative": "1. Ahab was a godless king in Israel; 2. and his consort Jezebel was not much better. 3. For they both served the idol Baal. 4. Then the Lord God allowed neither dew nor rain to come for three years and six months. 5. When a great famine arose, God had the prophet Elijah fed by ravens. 6. They brought him flesh and bread morning and evening to the brook Cherith. 7. But when this brook also had dried up, God told him to go to Zarephath, where he had commanded a widow to provide for him. 8. When Elijah came to Zarephath, he saw a widow gathering wood and asked her for a drink of water and a morsel of bread. 6. The widow said there was only a little flour and oil left, which she would finish eating with her son, and afterward they would die together. 10. Thereupon Elijah said to the widow: The flour in the vessel shall not be consumed, and the cruse of oil shall not fail. 11. And so it happened, and in the great famine the widow could provide not only for her own household but also for the prophet. 12. Finally God said to Elijah: Go and show yourself to King Ahab, that I may send rain. 13. When Ahab heard this, he went to meet Elijah and said: Are you the one who troubles Israel? 14. But Elijah said to the king: I do not trouble Israel, but you and your father's house do, because you serve Baal. 15. Then the prophet demanded that all the people together with the priests of Baal come to Mount Carmel. 16. When they came, Elijah said to all the people: How long will you limp on both sides? If the Lord is God, follow him; but if Baal is, follow him. 17. As the people remained silent, the prophet had two bullocks or oxen brought. 18. The priests of Baal were to sacrifice one bullock, and the prophet Elijah the other. 19. He even allowed the priests of Baal the choice of the oxen. 20. They were to cry to their Baal, and Elijah would call upon the true God. 21. Whichever God answered with fire from heaven was to be the true God. 22. Then all the people answered and said: That is right. 23. The priests of Baal made the beginning and limped around the altar, 24. and cried from morning until evening: Baal, hear us! Baal, hear us! 25. At noon Elijah said they should cry aloud, for perhaps Baal was sitting deep in thought, or sleeping, or had gone out into the country. 29. Then they cried aloud and cut themselves with knives until the blood flowed; 27. but there was neither voice nor answer to be heard. 28. Thereupon the prophet Elijah had his bullock slaughtered and prepared the sacrifice. 29. He also had so much water poured upon it that the altar stood in the midst of water. 30. When everything was ready, Elijah cried: Lord God of Abraham, Isaac, and Israel, let it be known this day that you are God in Israel. 31. Then the fire of the Lord fell down and consumed the sacrifice together with the altar and the water. 32. When this happened, all the people fell to the ground, and everyone cried: The Lord is God, the Lord is God. 33. Then Elijah said to the people: Seize the priests of Baal. And the people seized them, 34. and Elijah slew them at the brook Kishon. 35. There were, however, eight hundred and fifty of them reckoned altogether.",
+    "questions": [
+      "What sort of king was Ahab?",
+      "What was his consort Jezebel like?",
+      "What did they do to displease God?",
+      "What punishment did God send?",
+      "How was Elijah provided for during the famine?",
+      "What did the ravens bring him?",
+      "But how was Elijah provided for when the brook dried up?",
+      "What did Elijah ask of the widow at Zarephath?",
+      "What answer did the widow give?",
+      "What consolation did Elijah give the widow?",
+      "Was the prophecy also fulfilled?",
+      "What did God afterward say to Elijah?",
+      "How did Ahab receive the prophet?",
+      "But how did Elijah defend himself?",
+      "Who had to come to Elijah on Mount Carmel?",
+      "What did Elijah propose to the people?",
+      "What did the prophet order to be brought?",
+      "What were the bullocks for?",
+      "Who had the choice?",
+      "How was the sacrifice to be conducted?",
+      "On what was the outcome to depend?",
+      "What did the people say to this?",
+      "Who began to sacrifice?",
+      "How long did the priests of Baal cry?",
+      "What advice did Elijah give them?",
+      "How did the priests of Baal carry on?",
+      "Were they not heard?",
+      "What did Elijah do thereupon?",
+      "What did he then have poured upon the sacrifice?",
+      "What prayer did Elijah offer?",
+      "What happened to Elijah's sacrifice?",
+      "What cry did the people raise?",
+      "What did the prophet say to the people?",
+      "What happened to the priests of Baal?",
+      "How many of such fellows were there?"
+    ],
+    "teachings": [
+      "I. The godless king said to the prophet Elijah: Are you the one who troubles Israel?\nSo it goes with the servants of God: when they will not keep silent in the face of wickedness, they are denounced as quarrelers and agitators.",
+      "II. When the widow at Zarephath had almost run out of flour and oil, the prophet Elijah came to her.\nFrom this we see that help is generally nearest when need is greatest.",
+      "III. When the prophet Elijah had nothing to eat, he was fed by ravens.\nThus God has not only ordinary but also extraordinary means of providing for his own."
+    ],
+    "reflection": "The priests indeed do not fail to cry aloud,\nYet Baal does not hear them in their distress;\nSo it goes when men choose for themselves a god\nWho has neither eyes nor power to hear.\nTake heart, you Christians! The God whom you worship\nHas eyes with which he sees, and ears with which he hears."
   }
 };

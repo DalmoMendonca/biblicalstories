@@ -1902,5 +1902,69 @@ export const german1768 = {
       "III. Salomo ließ sich im Alter die Weiber zur Abgötterey verführen.\nAlso hilft Alter oder Thorheit nicht, und wenn man gleich die Lüste der Jugend überstanden hat, so fehlt es dem Teufel an andern Stricken nicht, damit er uns, wenn wir nicht allezeit auf guter Hut sind, auch im Alter fangen kan."
     ],
     "reflection": "Der Tempel Salomo war prächtig anzuschauen /\nKein König hat es ihm auf Erden gleich gethan.\nMein GOtt! ich wolte dir auch einen Tempel bauen /\nDoch meine Dürftigkeit verhindert mich daran.\nNun / was ich nicht vermag / das wirst du mir verzeihen /\nIndessen will ich dir mein Hertz zum Tempel weihen!"
+  },
+  "36": {
+    "pages": [
+      216,
+      219,
+      220,
+      221,
+      222
+    ],
+    "printed": "122–126",
+    "latin": "Turba sacerdotum replet clamoribus auras,\nSed non respondet, qui caret aure, Baal.\nMortales miseros! qui talia Numina fingunt,\nMalleus artificis quæ fabricare potest.\nO te felicem! qui CHRISTI nomen adoras!\nAuribus hic audit, luminibusque videt.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "editorial_note": "The German printed narrative has apparent misnumberings 6 for 9 and 29 for 26; these are retained. Russian has 34 questions rather than 35, combines the selection of the ox with the preceding sentence, and gives three years rather than three years and six months for the drought. Russian devotional text is prose; its printed witness contains no Latin verse.",
+    "title": "Von dem Bals-Pfaffen.",
+    "reference": "1. König. XVI. XVII. und XVIII. Capitel.",
+    "narrative": "1. Ahab war ein gottloser König in Israel; 2. und seine Gemahlin Isebel war nicht viel besser: 3. Denn sie dienten beyde dem Abgotte Baal. 4. Da ließ GOtt der HErr drey Jahre und sechs Monden weder Thau noch Regen kommen. 5. Wie nun eine grosse Theurung entstund, so ließ GOtt den Propheten Eliam durch die Raben speisen, 6. Dieselben brachten ihm Morgens und Abends Fleisch und Brod an den Bach Crith. 7. Als aber auch dieser Bach vertrocknet war, so sagte GOtt, er solte nach Zarpath gehen, da hätte er einer Wittwen befohlen, daß sie ihn versorgen solte. 8. Wie Elia nach Zarpath kam, so sahe er eine Wittwe Holz auflesen, und bat sie um einen Trunck Wasser, und um einen Bissen Brod. 6. Die Wittwe sagte, es wäre nur noch ein wenig Mehl und Oehl vorhanden, das wolte sie mit ihrem Sohne vollends aufessen, und darnach wolten sie mit einander sterben. 10. Darauf sagte Elia zu der Wittwe: Das Mehl im Cad soll nicht verzehret werden, und dem Oel-Kruge soll nichts mangeln. 11. Und es geschah also, und die Wittwe konnte in der grossen Theurung nicht nur die Ihrigen, sondern auch den Propheten versorgen. 12. Endlich sprach GOtt zu Elia: Gehe hin und zeige dich dem Könige Ahab, daß ich regnen lasse. 13. Wie Ahab das hörte, so gieng er Elia entgegen und sagte: Bist du, der Israel verwirret? 14. Aber Elia sprach zum Könige: Ich verwirre Israel nicht, sondern du und deines Vaters Haus, darum daß ihr dem Baal dienet. 15. Hierauf verlangte der Prophet, daß alles Volck nebst den Baals-Pfaffen auf den Berg Carmel kommen solte. 16. Wie sie nun kamen, so sagte Elia zu allem Volcke: Wie lange hinket ihr auf beyden Seiten? Ist der HErr GOtt, so wandelt ihm nach; ists aber Baal, so wandelt ihm nach. 17. Da nun das Volck stille schwieg, so ließ der Prophet zwey Farren oder Ochsen herbeybringen. 18. Einen Farren solten die Baals-Pfaffen opfern, und den andern der Prophet Elia. 19. Und zwar so ließ er den Baals-Pfaffen das Auslesen unter den Ochsen. 20. Sie solten zu ihrem Baal schreyen, und Elia wolte den wahren GOtt anruffen. 21. Welcher GOtt nun mit Feuer vom Himmel antworten würde, der solt der wahre GOtt seyn. 22. Da antwortete das gantze Volck und sprach: Das ist recht. 23. Die Baals-Pfaffen machten den Anfang, und hinkten um den Altar herum, 24. und riefen vom Morgen bis an den Abend: Baal, erhöre uns! Baal, erhöre uns! 25. Um den Mittag sagte Elia, sie solten doch laut ruffen, wenn Baal etwann in tiefen Gedancken sässe, oder schlieffe, oder wäre über Feld gegangen. 29. Da riefen sie laut, und ritzten sich mit Messern, daß das Blut nachgieng; 27. aber da war keine Stimme noch Antwort zu hören. 28. Darauf ließ der Prophet Elia seinen Farren schlachten, und machte das Opfer zu rechte. 29. Er ließ auch so viel Wasser darauf giessen, daß der Altar mitten im Wasser stund. 30. Wie alles fertig war, so rief Elia: HErr GOtt Abraham, Isaac und Israel, laß heute kund werden, daß du GOtt in Israel bist. 31. Da fiel das Feuer des HErrn herab, und verzehrete das Opfer nebst dem Altare, zusammt dem Wasser. 32. Wie das geschahe, so fiel alles Volck auf die Erde, und jederman schrie: Der HErr ist GOtt, der HErr ist GOtt. 33. Da sprach Elia zum Volcke: Greiffet die Baals-Pfaffen. Da griff das Volck zu, 34. und Elia schlachtete sie am Bache Kison. 35. Es waren aber ihrer, alle zusammen gerechnet, achthundert und funfzig.",
+    "questions": [
+      "Was war Ahab vor ein König?",
+      "Wie war seine Gemahlin Isebel?",
+      "Was thaten sie GOtt zu leide?",
+      "Was schickte GOtt vor Straffe?",
+      "Wie ward Elia in der Theurung versorget?",
+      "Was brachten ihm dann die Raben?",
+      "Aber wie ward Elia versorget, wie der Bach vertrocknet war?",
+      "Um was sprach Elia die Wittwe zu Zarpath an?",
+      "Was gab die Wittwe zur Antwort?",
+      "Was gab Elia der Wittwe vor einen Trost?",
+      "Ward die Prophezeyung auch erfüllet?",
+      "Was sagte GOtt darnach zu Elia?",
+      "Wie empfieng Ahab den Propheten?",
+      "Aber wie entschuldigte sich Elia?",
+      "Wer muste zu Elia auf den Berg Carmel kommen?",
+      "Was trug Elia dem Volcke vor?",
+      "Was hieß der Prophet herzu bringen?",
+      "Wozu solten die Farren?",
+      "Wer hatte das Auslesen?",
+      "Wie solte es bey dem Opfer gehalten werden?",
+      "Worauf solte es ankommen?",
+      "Was sagte das Volck darzu?",
+      "Wer machte den Anfang zu opfern?",
+      "Wie lange riefen die Baals-Pfaffen?",
+      "Was gab ihnen Elia vor einen Rath?",
+      "Wie trieben es die Baals-Pfaffen?",
+      "Wurden sie denn nicht erhöret?",
+      "Was that hierauf Elia?",
+      "Was ließ er hierauf auf das Opfer giessen?",
+      "Was that Elia vor ein Gebet?",
+      "Was trug sich mit Elia Opfer zu?",
+      "Was machte das Volck vor ein Geschrey?",
+      "Was sagte der Prophet zum Volcke?",
+      "Wie giengs den Baals-Pfaffen?",
+      "Wie viel waren denn solcher Vögel?"
+    ],
+    "teachings": [
+      "I. Der gottlose König sagte zu dem Propheten Elia. Bist du, der Israel verwirret?\nSo gehts den Dienern GOttes, wenn sie zur Bosheit nicht wollen stille schweigen, so werden sie vor Zancker und Aufrührer gescholten.",
+      "II. Wie bey der Wittwe zu Zarpath das Mehl und das Oel bald alle war, so kam der Prophet Elia zu ihr.\nDaraus siehet man, daß die Hülffe insgemein am nächsten ist, wenn die Noth am grösten ist.",
+      "III. Wie der Prophet Elia nichts zu essen hatte, so ward er von den Raben gespeiset.\nAlso hat GOtt nicht nur ordentliche, sondern auch ausserordentliche Mittel, die Seinen zu versorgen."
+    ],
+    "reflection": "Die Pfaffen lassen es zwar nicht am Schreyen fehlen /\nDoch Baal hört sie nicht in ihren Nöthen an;\nSo gehts / wenn Menschen sich selbst einen GOtt erwehlen /\nDer weder Augen hat / noch etwas hören kan.\nIhr Christen / seyd getrost! der GOtt den ihr verehret /\nHat Augen / daß er sieht / und Ohren / daß er höret."
   }
 };
