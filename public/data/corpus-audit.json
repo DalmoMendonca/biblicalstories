@@ -1,37 +1,37 @@
 {
   "required_sections": 1248,
-  "structured_sections_present": 96,
+  "structured_sections_present": 120,
   "independently_reviewed_sections": 0,
   "counts": {
     "de": {
-      "narrative": 8,
-      "questions": 8,
-      "teachings": 8,
-      "reflection": 8
+      "narrative": 10,
+      "questions": 10,
+      "teachings": 10,
+      "reflection": 10
     },
     "en": {
-      "narrative": 8,
-      "questions": 8,
-      "teachings": 8,
-      "reflection": 8
+      "narrative": 10,
+      "questions": 10,
+      "teachings": 10,
+      "reflection": 10
     },
     "ru": {
-      "narrative": 8,
-      "questions": 8,
-      "teachings": 8,
-      "reflection": 8
+      "narrative": 10,
+      "questions": 10,
+      "teachings": 10,
+      "reflection": 10
     }
   },
   "structurally_valid_chapters": {
-    "de": 8,
-    "en": 8,
-    "ru": 8
+    "de": 10,
+    "en": 10,
+    "ru": 10
   },
   "german_ocr_indexed": 104,
   "historical_english_narratives": 6,
   "latin_chapters": {
-    "de": 8,
-    "en": 8,
+    "de": 10,
+    "en": 10,
     "ru": 0
   },
   "issues": [],
@@ -1192,34 +1192,169 @@
       "german_library_ocr_available": true,
       "historical_english_narrative": false,
       "de": {
-        "narrative": false,
-        "questions": false,
-        "teachings": false,
-        "reflection": false,
-        "source_compared": false,
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": true,
         "independently_reviewed": false,
-        "structurally_valid": false,
-        "checks": {}
+        "structurally_valid": true,
+        "checks": {
+          "narrative_numbering": true,
+          "numbered_passages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "question_count": 28,
+          "teaching_count": 3,
+          "reflection_lines": 6,
+          "latin_lines": 6,
+          "source_expected_counts": {
+            "questions": 28,
+            "teachings": 3
+          },
+          "section_sha256": {
+            "narrative": "b9d6cb5f2b08ba00befc4a7537c90d80563fca1b8d2c2566bbc1cc738c51cc60",
+            "questions": "ae677b3bd72c9528db4a15b09f309a3083e588f7df0d48ee4f0f8c95db5f03ef",
+            "teachings": "e949a63729e605a99a936eaf3102ed5a369fcb6559d7bddddc503b8066fbcd58",
+            "reflection": "9542aeb364eccc73f28c8653620ff57ecc058cc58cb5ede74cd79f62cf0b409a"
+          }
+        }
       },
       "en": {
-        "narrative": false,
-        "questions": false,
-        "teachings": false,
-        "reflection": false,
-        "source_compared": false,
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": true,
         "independently_reviewed": false,
-        "structurally_valid": false,
-        "checks": {}
+        "structurally_valid": true,
+        "checks": {
+          "narrative_numbering": true,
+          "numbered_passages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "question_count": 28,
+          "teaching_count": 3,
+          "reflection_lines": 6,
+          "latin_lines": 6,
+          "source_expected_counts": {
+            "questions": 28,
+            "teachings": 3
+          },
+          "section_sha256": {
+            "narrative": "7b309149f9d19e381d9ebdfb4ebca6da9a33c560bb02302f4660b49a228acd03",
+            "questions": "bbb0f41f93e0512a49eb28d70d764de3e31ddca7bc7f5d834fd0c8fea0a5a40b",
+            "teachings": "9c1c484ac8c17e90cc058f6cb3eac31da6a625afb3d91a7ccd6a57719739ebad",
+            "reflection": "f14c8ba9f7da28b73d46a18f7df6a8bf184d4f2b8a62d026f41a1b341154626d"
+          }
+        }
       },
       "ru": {
-        "narrative": false,
-        "questions": false,
-        "teachings": false,
-        "reflection": false,
-        "source_compared": false,
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": true,
         "independently_reviewed": false,
-        "structurally_valid": false,
-        "checks": {}
+        "structurally_valid": true,
+        "checks": {
+          "narrative_numbering": true,
+          "numbered_passages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "question_count": 25,
+          "teaching_count": 3,
+          "reflection_lines": 1,
+          "latin_lines": 0,
+          "source_expected_counts": {
+            "questions": 25,
+            "teachings": 3
+          },
+          "section_sha256": {
+            "narrative": "1d0848fa473ffd6e16a9109f17ea5dae3914f815e20c50b54a24a71cacf85341",
+            "questions": "127112304ab93403838b12d58bce48a67993e36f81c6690701fd9db55e677afd",
+            "teachings": "7c932c119a2501f89cd05f08b438cf4fdab2efb6e81a949afcd16f8c0db48288",
+            "reflection": "238904ce94782a75662f1636e759ce0a922fd997cb6c690e95155b3e599cc757"
+          }
+        }
       }
     },
     {
@@ -1227,34 +1362,142 @@
       "german_library_ocr_available": true,
       "historical_english_narrative": false,
       "de": {
-        "narrative": false,
-        "questions": false,
-        "teachings": false,
-        "reflection": false,
-        "source_compared": false,
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": true,
         "independently_reviewed": false,
-        "structurally_valid": false,
-        "checks": {}
+        "structurally_valid": true,
+        "checks": {
+          "narrative_numbering": true,
+          "numbered_passages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "question_count": 18,
+          "teaching_count": 3,
+          "reflection_lines": 6,
+          "latin_lines": 6,
+          "source_expected_counts": {
+            "questions": 18,
+            "teachings": 3
+          },
+          "section_sha256": {
+            "narrative": "4412bf7efcd00dda4d7c6b7904ef135a98cd231200c735828beab681f20bd651",
+            "questions": "54d83301e70f7e365cdf3c28a7727af3f88a560dcb234121bf9acb6e7e45574b",
+            "teachings": "301ae4a13d59b09d30f4d92ea8d9773d8507382b7899ea4d8dfd26656a0abe5b",
+            "reflection": "c0dc7015e89702000230cbce1a5a7b7d9941f77ce8b33a8132690876f381bc0f"
+          }
+        }
       },
       "en": {
-        "narrative": false,
-        "questions": false,
-        "teachings": false,
-        "reflection": false,
-        "source_compared": false,
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": true,
         "independently_reviewed": false,
-        "structurally_valid": false,
-        "checks": {}
+        "structurally_valid": true,
+        "checks": {
+          "narrative_numbering": true,
+          "numbered_passages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "question_count": 18,
+          "teaching_count": 3,
+          "reflection_lines": 6,
+          "latin_lines": 6,
+          "source_expected_counts": {
+            "questions": 18,
+            "teachings": 3
+          },
+          "section_sha256": {
+            "narrative": "ea38e6609930c7ba299d36d2b03530eb8748eae2558418d928c5f41d44567b15",
+            "questions": "9a558b06842c87ab28a6d0b8693fdb629642eb6757168d0dae1c98a1613c0859",
+            "teachings": "c13146e15db0920fd3b8882c2d95272f54ee9cfdb117b9f0263f57ff0e789232",
+            "reflection": "b9fb06cfcab2b28104d1cd7862d8da337c5a0067c6da6ceae4a965c21d962b33"
+          }
+        }
       },
       "ru": {
-        "narrative": false,
-        "questions": false,
-        "teachings": false,
-        "reflection": false,
-        "source_compared": false,
+        "narrative": true,
+        "questions": true,
+        "teachings": true,
+        "reflection": true,
+        "source_compared": true,
         "independently_reviewed": false,
-        "structurally_valid": false,
-        "checks": {}
+        "structurally_valid": true,
+        "checks": {
+          "narrative_numbering": true,
+          "numbered_passages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "question_count": 18,
+          "teaching_count": 3,
+          "reflection_lines": 1,
+          "latin_lines": 0,
+          "source_expected_counts": {
+            "questions": 18,
+            "teachings": 3
+          },
+          "section_sha256": {
+            "narrative": "710382ddd999d63ba120eeea74374236a1fe6c4d2e18a93b3bee7acd1584a065",
+            "questions": "bab32215e59b7059ffc51f34c507901e740c2f0b178bd303cdc193bc8640b86f",
+            "teachings": "da80e51221bcf9c4dd357372b18760f3fb16119319ebb438d435b11d88a8d0e3",
+            "reflection": "70892a6f9ea91d28db029ad3e71c6cb1ac50ac79e53c7163c16d13582a3bb7f6"
+          }
+        }
       }
     },
     {
