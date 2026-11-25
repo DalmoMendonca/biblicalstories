@@ -1,0 +1,108 @@
+name: Recover independent Russian volumes and historical OCR
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/russian-recovery-checkpoint.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: russian-recovery-checkpoint
+  cancel-in-progress: false
+jobs:
+  recover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        book: [ot, nt]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore successful 260-page OT artifact from prior run
+        if: matrix.book == 'ot'
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: 45178364408
+          name: russian1825-volume-ot
+          path: public
+      - name: Verify restored OT independently
+        if: matrix.book == 'ot'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=Path('public/data/russian-1825-ot-provenance.json')
+          r=json.loads(p.read_text())
+          assert len(r['images'])==260
+          pages=sorted(Path('public/russian-1825-pages/ot').glob('*.webp'))
+          assert [x.name for x in pages]==[f'{i:03d}.webp' for i in range(1,261)]
+          assert all(x.stat().st_size>8000 for x in pages)
+          print('Recovered all 260 archived OT facsimiles from run 45178364408.')
+          PY
+      - name: Acquire NT with independent per-page checkpoints
+        if: matrix.book == 'nt'
+        continue-on-error: true
+        run: |
+          python -m pip install -q Pillow
+          python scripts/recover_russian_pages.py --book nt
+      - name: Commit source images even if the other volume fails
+        run: |
+          book=${{ matrix.book }}
+          test -f public/data/russian-1825-$book-provenance.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/russian-1825-pages/$book public/data/russian-1825-$book-provenance.json
+          if test -d sources/russian-1825-pages/$book; then git add sources/russian-1825-pages/$book; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Preserve Russian 1825 $book facsimiles independently"
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              sleep 3
+            done
+            git merge-base --is-ancestor HEAD origin/main || (git fetch origin main && git merge-base --is-ancestor HEAD origin/main)
+          fi
+      - name: Preserve source-page artifact before OCR
+        uses: actions/upload-artifact@v4
+        with:
+          name: russian-1825-recovered-${{ matrix.book }}
+          path: |
+            public/russian-1825-pages/${{ matrix.book }}
+            public/data/russian-1825-${{ matrix.book }}-provenance.json
+          retention-days: 7
+      - name: Install open-source pre-reform Russian OCR model
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
+          mkdir -p /tmp/russian-tessdata
+          curl --fail --location --retry 3 --max-time 90 https://raw.githubusercontent.com/AButon-8/iskra_ocr/main/orus.traineddata -o /tmp/russian-tessdata/orus.traineddata
+          sha256sum /tmp/russian-tessdata/orus.traineddata
+      - name: Recognize acquired pages; keep all OCR as unreviewed witness
+        continue-on-error: true
+        run: python scripts/ocr_russian_witness.py --book ${{ matrix.book }} --model /tmp/russian-tessdata/orus.traineddata
+      - name: Commit page-level OCR checkpoints
+        if: always()
+        run: |
+          book=${{ matrix.book }}
+          if ! test -d sources/russian-1825-ocr/$book; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/russian-1825-ocr/$book
+          if ! git diff --cached --quiet; then
+            git commit -m "Checkpoint unreviewed Russian 1825 $book page OCR"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: russian-1825-ocr-${{ matrix.book }}
+          path: sources/russian-1825-ocr/${{ matrix.book }}
+          if-no-files-found: warn
