@@ -1073,5 +1073,75 @@ export const englishFromGerman = {
       "III. Whatever is to become something great in the world, God knows how to preserve wonderfully; by what can this be proved?\nBy Moses, who was to lead the children of Israel out of Egypt, and was therefore rescued from all danger."
     ],
     "reflection": "There came a little child floating upon the water,\nWho would cry himself to death from distress;\nWho at that time could have thought\nThat this child was to be Israel's deliverer?\nAh, in the schools there are often forsaken boys too;\nWho knows what they may yet have to hope for in the world?"
+  },
+  "22": {
+    "pages": [
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "printed": "67–71",
+    "latin": "Non potuere novem Pharaonem flectere plagae,\nDum natu maior filius ipse perit.\nEiusdem pueri mihi furfuris esse videntur,\nVerbera quos pariter nonnisi dura movent.\nAbsit! sponte mea faciam mandata parentum,\nEt sic verberibus non locus ullus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 40,
+      "teachings": 3
+    },
+    "editorial_note": "Heidelberg p. 69 omits question 25. Restored from Zürich edition, ALTO page 146, line tl146-33 (https://doi.org/10.3931/e-rara-85573).",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "How Pharaoh Hardened His Heart",
+    "reference": "Exodus, chapters III–XI.",
+    "narrative": "1. Moses tended his father-in-law's sheep in the wilderness at Mount Horeb. 2. There he saw a bush burning with fire and yet not consumed. 3. In that bush was the great God, 4. who told Moses that he had seen the misery of his people in Egypt and had therefore come down to lead the children of Israel into another land flowing with milk and honey. 5. Moses was to tell this both to the children of Israel and to King Pharaoh. 6. Moses had no desire to do this, but excused himself especially by saying that the people would not believe he had been sent by God. 7. But the Lord God persisted and gave him three miraculous signs in his power. 8. Namely, Moses was to throw his staff on the ground, and a serpent would come from it. He was to seize that serpent by the tail, and it would become a staff again. 9. Afterward Moses was to put his hand into his bosom twice in succession and draw it out again; the first time it would be leprous, and the second time sound and healthy. 10. Thirdly, he was to take water from the river and pour it upon the ground, and it would be changed into blood before their eyes. 11. Besides this the Lord God gave him his brother Aaron, who as an eloquent man was to speak. 12. First they presented the matter to the people of Israel, 13. and there they found belief very readily when they had performed the signs. 14. Afterward they went to King Pharaoh, 15. and said to him: Thus says the Lord, the God of Israel: Let my people go. 16. Pharaoh answered: Who is the Lord, whose voice I should obey? I know nothing of the Lord and will not let Israel go either. 17. He immediately summoned the taskmasters and commanded them to give the Hebrews no more straw in the brick sheds; 18. instead the poor people were to gather the straw themselves, 19. and nevertheless they were to burn just as many bricks per day as before. 20. Moses indeed performed his wonders with the staff before Pharaoh; 21. but because the magicians in Egypt could do the like, Pharaoh did not take it to heart. 22. Thereupon God sent ten grievous plagues over all the land of Egypt: 23. namely blood and frogs; then lice and vermin; further, pestilence and poisonous boils; after these, hail and locusts; finally darkness, and lastly the destroying angel. 24. First all the rivers were turned into blood, and this lasted seven days. 25. Afterward the frogs came out of the water in such numbers that the king could not endure them. 26. The lice arose from the dust when Moses had struck it with his staff. 27. The vermin were in all the houses throughout Egypt, except in the land of Goshen, where the children of Israel lived. 28. The pestilence struck people and livestock, but did no harm to the children of Israel. 29. The evil boils on people and livestock arose from the soot that Moses and Aaron scattered into the air. 30. The hail battered all the fields belonging to the Egyptians. 31. The locusts devoured entirely what had remained after the hail. 32. The darkness lasted three days throughout Egypt, but in the land of Goshen it was light. 33. Finally the destroying angel brought the plagues to a close; he went out at midnight and struck all the firstborn in Egypt. 34. The Egyptian magicians could imitate some of the wonders; 35. but they could not bring forth lice, and had themselves to say: This is the finger of God. 36. Indeed the magicians themselves were afflicted with boils, so that they could not even remain standing before King Pharaoh. 37. When a plague came, Pharaoh promised that he would let the children of Israel go, and Moses and Aaron were to pray the calamity away again. 38. But when the distress was past, he wanted to know nothing of his promise, and hardened his heart time after time. 39. Finally Pharaoh said that Moses should not come before his face again, or he should surely die. 40. God caused all these wonders to happen in Egypt so that the name of the Lord might be proclaimed in all lands.",
+    "questions": [
+      "Where did Moses tend the sheep?",
+      "What did he notice there?",
+      "Who was in the fiery bush?",
+      "What did the Lord say to Moses?",
+      "What was Moses to do in this matter?",
+      "What objection did Moses raise?",
+      "What miraculous signs did God give him?",
+      "What was Moses to do with his staff?",
+      "And what with his hand?",
+      "What finally was he to do with the water?",
+      "What companion did God also give him?",
+      "To whom did they first present the matter?",
+      "What did the children of Israel say?",
+      "Where did they go afterward?",
+      "What did they say to King Pharaoh?",
+      "What answer did Pharaoh give?",
+      "What did the king command his taskmasters?",
+      "Where were they to obtain the straw?",
+      "Was anything to be remitted to them on that account?",
+      "Did Moses not perform his wonders before Pharaoh?",
+      "But why did Pharaoh not take it to heart?",
+      "What plagues did God send over Egypt?",
+      "What were the ten plagues?",
+      "What happened with the blood?",
+      "And what about the frogs?",
+      "Where did the lice come from?",
+      "Where were the vermin to be found?",
+      "Whom did the pestilence strike?",
+      "From what did the evil boils arise?",
+      "What did the hail batter?",
+      "What did the locusts devour?",
+      "What happened with the darkness?",
+      "What did the destroying angel finally do?",
+      "Could the magicians do the like?",
+      "But could the magicians also bring forth lice?",
+      "How did the sorcerers fare with the boils?",
+      "How did Pharaoh conduct himself during these plagues?",
+      "But did he keep his promise?",
+      "What dismissal did Moses finally receive?",
+      "But why did God cause so many signs and wonders to happen in Egypt?"
+    ],
+    "teachings": [
+      "I. When subjects are too severely oppressed by their rulers, the Lord at last takes notice.\nKing Pharaoh experienced this; for when he afflicted the children of Israel with unbearable forced labor, God finally said: I have seen the misery of my people.",
+      "II. The devil is not almighty, but can do only as much as God permits him.\nThe Egyptian magicians experienced this, for with the devil's help they could not bring forth even a single louse.",
+      "III. God's faithful servants are not to blame for so many people persisting in impenitence.\nOne sees this clearly in Moses and Aaron, who performed signs and wonders as God had commanded them; yet Pharaoh remained hardened."
+    ],
+    "reflection": "Nine plagues could not move Pharaoh,\nUntil at last his first son was slain.\nChildren who must with rods and blows\nBe drawn toward good are of the same kind;\nBut I will not thus trouble my parents;\nFar rather will I let myself be guided by words."
   }
 };

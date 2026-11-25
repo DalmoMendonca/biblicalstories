@@ -1045,5 +1045,74 @@ export const german1768 = {
       "III. Was in der Welt was grosses werden soll, das weis GOtt wunderbahrlich zu erhalten; womit kan man das beweisen?\nMit Mose, der solte die Kinder Israel aus Egypten führen, und ward deswegen aus aller Gefahr errettet."
     ],
     "reflection": "Dort kam ein kleines Kind im Wasser her geschwommen /\nDas sich vor Ungemach zu Tode wolte schreyn;\nWem ist zur selben Zeit wohl in den Sinn gekommen /\nDaß dieses Israels Erlöser solte seyn?\nAch in den Schulen sind oft auch verlaßne Knaben /\nWer weiß / was in der Welt sie noch zu hoffen haben."
+  },
+  "22": {
+    "pages": [
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "printed": "67–71",
+    "latin": "Non potuere novem Pharaonem flectere plagae,\nDum natu maior filius ipse perit.\nEiusdem pueri mihi furfuris esse videntur,\nVerbera quos pariter nonnisi dura movent.\nAbsit! sponte mea faciam mandata parentum,\nEt sic verberibus non locus ullus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 40,
+      "teachings": 3
+    },
+    "editorial_note": "Heidelberg p. 69 omits question 25. Restored from Zürich edition, ALTO page 146, line tl146-33 (https://doi.org/10.3931/e-rara-85573).",
+    "title": "Wie Pharao sein Hertz verstockt hat.",
+    "reference": "2. Mose III. bis zum XI. Cap.",
+    "narrative": "1. Mose hütete der Schaafe seines Schwieger-Vaters in der Wüsten am Berge Horeb. 2. Da sahe er einen Busch, der mit Feuer brannte, und doch nicht verzehret ward. 3. In demselben Busche war der grosse GOtt, 4. der sagte zu Mose: Er hätte das Elend seines Volcks in Egypten angesehen, und wäre deswegen hernieder gefahren, daß er die Kinder Israel in ein ander Land führen wolte, darinnen Milch und Honig flösse. 5. Moses solte solches sowohl den Kindern Israel, als auch dem Könige Pharao sagen. 6. Moses hatte keine Lust darzu, sondern entschuldigte sich sonderlich damit, es würden ihm die Leute nicht glauben, daß er von GOtt gesandt wäre. 7. Aber GOtt der HErr blieb darbey, und gab ihm drey Wunder-Zeichen, in seine Gewalt. 8. Nemlich Mose solte seinen Stab auf die Erde werffen, so würde eine Schlange daraus werden. Dieselbe Schlange solte er beym Schwanze ergreiffen, so würde sie wieder zum Stabe werden. 9. Darnach solte Mose seine Hand zweymal nach einander in den Busen stecken und wiederum herausziehen, so würde sie das erste mal aussätzig, und das andere mal gesund und frisch seyn. 10. Zum dritten solte er Wasser aus dem Strome nehmen, und auf den Erdboden giessen, so würde solches vor ihren Augen in Blut verwandelt werden. 11. Ueber dieses gab ihm GOtt der HErr seinen Bruder Aaron zu, der als ein beredter Mann das Wort führen solte. 12. Erstlich trugen sie die Sache dem Volcke Israel vor, 13. und da funden sie gar leichte Glauben, wie sie die Zeichen gethan hatten. 14. Darnach giengen sie zum Könige Pharao, 15. und sagten zu ihm: So spricht der HErr, der GOtt Israel, laß mein Volck ziehen. 16. Pharao gab zur Antwort: Wer ist der HErr, dessen Stimme ich gehorchen müste? Ich weiß nichts von dem HErrn, und will Israel auch nicht ziehen lassen. 17. Er ließ auch gleich die Vögte ruffen und befahl ihnen, daß sie den Hebräern kein Stroh mehr in die Ziegel-Scheunen geben solten, 18. sondern die armen Leute solten das Stroh selber zusammen lesen, 19. und deswegen solten sie doch des Tages eben so viel Ziegel brennen, als vorhin. 20. Mose that zwar seine Wunder mit dem Stabe vor Pharao: 21. Aber weil die Zauberer in Egypten auch dergleichen thun konten, so nahm es Pharao nicht zu Herzen. 22. Darauf schickte GOtt zehen schwere Plagen über ganz Egypten-Land: 23. Nemlich Blut und Frösche; darnach Läuse und Ungeziefer: ferner Pestilenz und gifftige Blattern; nach diesem Hagel und Heuschrecken: endlich Finsterniß, und zuletzt den Würg-Engel. 24. Erstlich wurden alle Ströme in Blut verwandelt, und das währte sieben Tage. 25. Die Frösche kamen darnach aus dem Wasser in solcher Menge, daß der König davor nicht bleiben konte. 26. Die Läuse entstunden aus dem Staube, wie Mose mit seinem Stabe darein geschlagen hatte. 27. Das Ungeziefer ward durch ganz Egyptenland in allen Häusern, ausgenommen im Lande Gosen, da die Kinder Israel wohnten. 28. Die Pest traf Menschen und Viehe, aber den Kindern Israel that sie keinen Schaden. 29. Die bösen Blattern an Menschen und Viehe entstunden aus dem Russe, den Moses und Aaron in die Lufft sprengten. 30. Der Hagel zerschlug alle Felder, die den Egyptern gehörten. 31. Die Heuschrecken frassen vollend auf, was vom Hagel noch übrig geblieben war. 32. Die Finsterniß währte drey Tage durch ganz Egypten, aber im Lande Gosen war es helle. 33. Den Beschluß machte endlich der Würg-Engel, der um Mitternacht ausgieng, und alle Erst-Geburt in Egypten schlug. 34. Etliche Wunder konnten die Egyptischen Zauberer nachmachen; 35. Aber die Läuse konnten sie nicht hervor bringen, sondern sie musten selber sagen: Das ist Gottes Finger. 36. Ja die Blattern kriegten die Zauberer selbst an den Hals, daß sie nicht einmal vor dem Könige Pharao konnten stehen bleiben. 37. Wenn eine Plage kam, so versprach Pharao zwar, daß er die Kinder Israel wolte ziehen lassen, Mose und Aaron solten das Unglück wieder wegbeteen. 38. Aber wenn die Noth vorüber war, so wolte er nichts von seinem Versprechen wissen, sondern er verstockte sein Hertz von einem mal zum andern. 39. Zuletzt sagte Pharao, es solte Mose nicht wieder vor sein Angesicht kommen, oder er solte des Todes sterben. 40. Alle diese Wunder ließ GOtt darum in Egypten geschehen, damit der Name des HErrn in allen Landen möchte verkündiget werden.",
+    "questions": [
+      "Wo hütete Mose die Schaafe?",
+      "Was ward er daselbst gewahr?",
+      "Wer war denn in dem feurigen Busche?",
+      "Wie sagte der HErr zu Mose?",
+      "Was solte Mose darbey thun?",
+      "Was hatte Mose dawider einzuwenden?",
+      "Was gab ihm GOtt vor Wunder-Zeichen?",
+      "Was solte Mose mit seinem Stabe machen?",
+      "Was denn mit seiner Hand?",
+      "Was solte er endlich mit dem Wasser machen?",
+      "Was gab ihm GOtt noch vor einen Gefährten zu?",
+      "Wem trugen sie die Sache zuerst vor?",
+      "Was sagten die Kinder Israel?",
+      "Wo giengen sie darnach hin?",
+      "Wie sagten sie zu dem Könige Pharao?",
+      "Was gab Pharao vor eine Antwort von sich?",
+      "Was befahl der König seinen Frohn-Vögten?",
+      "Wo solten sie denn das Stroh nehmen?",
+      "Solte ihnen denn was davor nachgelassen werden?",
+      "That Mose nicht seine Wunder vor Pharao?",
+      "Aber warum nahm es Pharao nicht zu Herzen?",
+      "Was schickte GOtt vor Plagen über Egypten?",
+      "Welches waren die zehen Plagen?",
+      "Was gieng mit dem Blute vor?",
+      "Was denn mit den Fröschen?",
+      "Wo kamen die Läuse her?",
+      "Wo war das Ungeziefer zu spüren?",
+      "Wen traf die Pest?",
+      "Woraus entstunden die bösen Blattern?",
+      "Was zerschlug der Hagel?",
+      "Was frassen die Heuschrecken?",
+      "Was gieng mit der Finsterniß vor?",
+      "Was that endlich der Würg-Engel?",
+      "Konnten die Zauberer dergleichen thun?",
+      "Aber konnten die Zauberer auch Läuse hervor bringen?",
+      "Wie giengs den Hexenmeistern mit den Blattern?",
+      "Wie führte sich denn Pharao bey diesen Plagen auf?",
+      "Aber hielt er auch sein Versprechen?",
+      "Was kriegte Moses zuletzt vor einen Abschied?",
+      "Aber warum ließ GOtt so viel Zeichen und Wunder in Egypten geschehen?"
+    ],
+    "teachings": [
+      "I. Wenn die Unterthanen von der Obrigkeit zu sehr gedrängt werden, so hat auch der HErr endlich ein Einsehen.\nDas erfuhr der König Pharao; denn als er die Kinder Israel mit unerträglichen Frohn-Diensten tribulirte, so sagte GOtt endlich: Ich habe das Elend meines Volkes gesehen.",
+      "II. Der Teufel ist nicht allmächtig, sondern er kan nur so viel thun, als ihm GOtt zulässet.\nDas erfuhren die Egyptischen Zauberer, die konnten durch Hülfe des Teufels nicht einmal eine Laus hervor bringen.",
+      "III. Die treuen Diener Gottes sind nicht Schuld daran, daß so viele Menschen in Unbußfertigkeit verharren.\nDas siehet man wohl an Mose und Aaron, die thaten Zeichen und Wunder, wie es ihnen GOtt befohlen hatte; aber Pharao blieb doch verstockt."
+    ],
+    "reflection": "Neun Plagen konten nicht den Pharao bewegen /\nBis daß sein erster Sohn zuletzt erwürget ward.\nDie Kinder / welche man mit Ruthen und mit Schlägen\nZum Guten ziehen muß / sind auch von solcher Art:\nIch aber will also die Eltern nicht bemühen /\nViel lieber will ich mich mit Worten lassen ziehen."
   }
 };
