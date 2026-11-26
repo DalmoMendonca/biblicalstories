@@ -411,7 +411,10 @@
       "printed_start": 112,
       "scan_start": 118,
       "scan_start_candidate": 117,
-      "scan_end_candidate": 121
+      "scan_end_candidate": 121,
+      "scan_start_verified": 118,
+      "scan_end_verified": 120,
+      "printed_verified": "112–114"
     },
     {
       "id": 90,

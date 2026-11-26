@@ -4555,5 +4555,51 @@ export const englishFromGerman = {
       474
     ],
     "printed": "270–274"
+  },
+  "89": {
+    "title": "On the Cursed Fig Tree",
+    "reference": "Matthew XXI and Mark XI.",
+    "pages": [
+      474,
+      477,
+      478
+    ],
+    "printed": "274–276",
+    "narrative": "1. As Jesus went from Bethany to Jerusalem, he became hungry. 2. And he saw a fig tree afar off by the road which had leaves, and went up to it to see whether he might find something on it. 3. But when he came to it, he found nothing but leaves, for it was not yet the season for figs. 4. Then Jesus said to the fig tree: Henceforth let no fruit ever grow on you. 5. The following day Jesus' disciples saw that this fig tree had withered down to the root. 6. They marveled at this, and Peter said to Jesus: Rabbi, the fig tree which you cursed has withered. 7. Jesus answered and said to them: Have faith in God. 8. Thereupon he said further to his disciples: Truly I say to you, if you have faith and do not doubt, you will not only do such a thing with the fig tree, but if you say to this mountain, Lift yourself up and cast yourself into the sea, it will happen. 9. Finally he concluded with the beautiful saying: All that you ask in prayer, if you believe, you will receive.",
+    "questions": [
+      "What happened to Jesus on the way to Jerusalem?",
+      "What did he see standing afar off by the road?",
+      "How did the Lord curse the fig tree?",
+      "Did this curse then have any power?",
+      "What did Peter say to Jesus?",
+      "What general rule did Jesus give his disciples?",
+      "What further did Jesus say concerning the power of faith?",
+      "And what beautiful assurance did he give concerning prayer?"
+    ],
+    "question_numbers": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "teachings": [
+      "I. The Lord Jesus hungered in his state of humiliation.\nLet the poor who have little bread in store comfort themselves with this, for the Lord Jesus knows how one feels who has nothing to eat.",
+      "II. When the fig tree bore no fruit, it was cursed by Jesus.\nUnder this fig tree the Jewish people are represented. They were continually called upon: See to it that you bring forth genuine fruits of repentance; but because this did not follow, God also rejected the whole people.",
+      "III. The Lord Jesus said to his disciples: Have faith in God.\nIf Jesus thus wishes us to believe, then we may indeed pray to God with full confidence for the kindling, preservation, and increase of faith."
+    ],
+    "reflection": "My Jesus! You who were gentleness itself,\nWhy then did you curse the fig tree?\nBut why do I even ask? I have indeed read it:\nThe tree was to blame, for it bore no fruit.\nMy Savior, will you also ask after my fruits?\nI have not borne much, but nevertheless something.",
+    "latin": "Cum mansuetudo sis ipsa piissime JESU!\nCur male sycomoro dicere non dubitas?\nSed quorsum hoc quæro? Foliorum veste superbis.\nFicubus optatis sed caret arbor iners.\nIn me si fidei fructus quoque, Christe! requiris:\nNon multos; aliquos attamen arbor habet.",
+    "kind": "new-translation-from-transcribed-german",
+    "editorial_notes": "Heidelberg p. 274 prints question 3 'Wie verfluchte ...' corresponding to narrative marker 4, and p. 275 resumes with question 5. Only eight questions are printed; no missing question supplied. question_numbers records the corrected correspondence; all nine narrative markers preserved. Printed page 274 is mislabelled 174 in the archive metadata.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 8,
+      "teachings": 3
+    }
   }
 };

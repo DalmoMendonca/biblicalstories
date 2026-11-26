@@ -4460,5 +4460,50 @@ export const german1768 = {
       "questions": 40,
       "teachings": 3
     }
+  },
+  "89": {
+    "title": "Von dem verfluchten Feigen-Baum.",
+    "reference": "Matth. XXI. und Marc. XI. Capitel.",
+    "pages": [
+      474,
+      477,
+      478
+    ],
+    "printed": "274–276",
+    "narrative": "1. Wie JEsus von Bethanien nach Jerusalem gieng, so hungerte ihn. 2. Und er sahe einen Feigen-Baum von ferne an dem Wege der Blätter hatte, und gieng hinzu, ob er etwas darauf fände. 3. Da er aber hinzu kam, fand er nichts, denn nur Blätter, denn es war noch nicht Zeit, daß Feigen seyn solten. 4. Da sprach JEsus zu dem Feigen-Baume: Nun wachse auf dir hinfort nimmermehr keine Frucht. 5. Des folgenden Tages sahen die Jünger JEsu, daß dieser Feigen-Baum verdorret war, bis auf die Wurzel. 6. Darüber verwunderten sie sich, und Petrus sprach zu JEsu: Rabbi, der Feigen-Baum, den du verfluchet hast, ist verdorret. 7. JEsus antwortete und sprach zu ihnen: Habt Glauben an GOtt. 8. Darauf sagte er ferner zu seinen Jüngern: Warlich ich sage euch, so ihr Glauben habt, und nicht zweifelt, so werdet ihr nicht allein solches mit dem Feigen-Baum thun, sondern so ihr werdet sagen zu diesem Berge: Hebe dich auf, und wirff dich ins Meer, so wirds geschehen. 9. Endlich beschloß er mit dem schönen Spruch: Alles, was ihr bittet im Gebet, so ihr gläubet, so werdet ihrs empfahen.",
+    "questions": [
+      "Was begegnete JEsu auf dem Wege nach Jerusalem?",
+      "Was sahe er von ferne am Wege stehen?",
+      "Wie verfluchte der HErr den Feigen-Baum?",
+      "Hatte denn dieser Fluch einige Krafft?",
+      "Was sagte Petrus zu JEsu?",
+      "Was gab JEsus seinen Jüngern vor eine allgemeine Regel?",
+      "Was sagte JEsus ferner von der Krafft des Glaubens?",
+      "Und was gab er vor eine schöne Versicherung wegen des Gebets?"
+    ],
+    "question_numbers": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "teachings": [
+      "I. Den HErrn JEsum hat im Stande der Erniedrigung gehungert.\nDamit sollen sich die Armen trösten, die nicht viel Brod im Vorrath haben: Denn der HErr JEsus weiß, wie einem zu muthe ist, der nichts zu essen hat.",
+      "II. Wie der Feigen-Baum keine Früchte trug, so ward er von JEsu verflucht.\nUnter diesem Feigen-Baume wird das Jüdische Volk vorgestellet. Demselben ward immer zugeruffen: Sehet zu, thut rechtschaffene Früchte der Busse; weil das aber nicht erfolgte, so hat GOtt auch das ganze Volk verstossen.",
+      "III. Der HErr JEsus sagte zu seinen Jüngern: Habt Glauben an GOtt.\nWenn JEsus also haben will, daß wir gläuben sollen, ey so können wir ja auch mit voller Zuversicht um die Entzündung, um die Erhaltung, und um die Vermehrung des Glaubens zu GOtt beten."
+    ],
+    "reflection": "Mein JEsu! der du selbst die Sanftmuth bist gewesen /\nWeswegen hast du doch den Feigen-Baum verflucht?\nDoch warum frag ich erst? Ich hab es ja gelesen:\nDer Baum war schuld daran / denn er trug keine Frucht.\nMein Heyland willst du auch nach meinen Früchten fragen?\nIch habe zwar nicht viel / doch gleichwohl was getragen.",
+    "latin": "Cum mansuetudo sis ipsa piissime JESU!\nCur male sycomoro dicere non dubitas?\nSed quorsum hoc quæro? Foliorum veste superbis.\nFicubus optatis sed caret arbor iners.\nIn me si fidei fructus quoque, Christe! requiris:\nNon multos; aliquos attamen arbor habet.",
+    "editorial_notes": "Heidelberg p. 274 prints question 3 'Wie verfluchte ...' corresponding to narrative marker 4, and p. 275 resumes with question 5. Only eight questions are printed; no missing question supplied. question_numbers records the corrected correspondence; all nine narrative markers preserved. Printed page 274 is mislabelled 174 in the archive metadata.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 8,
+      "teachings": 3
+    }
   }
 };
