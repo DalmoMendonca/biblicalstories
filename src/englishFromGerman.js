@@ -4046,5 +4046,50 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "78": {
+    "title": "How Peter Walked upon the Sea.",
+    "reference": "Matthew XIV, Mark VI and Luke VI (as printed).",
+    "pages": [
+      427,
+      428,
+      431
+    ],
+    "printed": "247–249",
+    "narrative": "1. When Jesus had fed five thousand men, he went up the mountain alone to pray. 2. Meanwhile he had his disciples sail across the sea in the ship. 3. Thus that evening the Lord Jesus was not with his disciples. 4. But on the sea the wind was contrary to them, and the ship suffered great distress. 5. When it was about the fourth watch of the night, the Lord Jesus came to them, walking upon the sea. 6. When the disciples saw the Lord, they were frightened and said: It is a ghost. 7. But immediately Jesus addressed them and said: Be of good cheer, it is I; do not fear. 8. Peter answered him and said: Lord, if it is you, bid me come to you upon the water. 9. And the Lord Jesus said to Peter: Come here. 10. Then Peter stepped out of the ship and walked upon the water to come to Jesus. 11. But he saw a strong wind, was frightened, and began to sink. 12. Then he cried out and said to Jesus: Lord, help me! 13. But Jesus quickly stretched out his hand, seized him and said to him: 14. O you of little faith, why do you doubt? 15. And they entered the ship, and the wind subsided. 16. And immediately the ship was at the land to which they were sailing. 17. Those who were in the ship came and fell down before him, saying: Truly you are the Son of God.",
+    "questions": [
+      "What did Jesus undertake after the great feeding?",
+      "Where did he send his disciples?",
+      "Were they therefore not together the following night?",
+      "But how did the disciples fare upon the sea?",
+      "What did they see about the fourth watch of the night?",
+      "What did the disciples think when they saw Jesus upon the water?",
+      "How did the Savior make himself known?",
+      "What did Peter say to Jesus?",
+      "What answer did Peter give him?",
+      "Did Peter then walk upon the water?",
+      "But what befell him upon the sea?",
+      "How did Peter conduct himself in this danger?",
+      "What did the Lord Jesus do?",
+      "What rebuke did he give Peter?",
+      "Where did the two of them remain?",
+      "How did the voyage end?",
+      "What did the people on the ship say?"
+    ],
+    "teachings": [
+      "I. When Jesus wished to pray, he went up the mountain alone.\nThus we also should seek solitude when we wish to enter into conversation with God in prayer.",
+      "II. When Peter walked upon the sea, he was confident at first, but soon began to cry: Lord, help me!\nSo it is with our faith, which is sometimes strong and soon weak again.",
+      "III. It was in the fourth watch of the night that Jesus walked upon the sea.\nThere were four such night watches: the first from six to nine o’clock; the second from nine o’clock to midnight; the third from midnight until three o’clock; and the fourth from three until six in the morning."
+    ],
+    "reflection": "Peter ventures forth and walks upon the sea;\nThereby the man falls into a grievous plight;\nYet when he grows afraid and would almost have sunk,\nThe Savior immediately extends his hand to him.\nThe sea is this world, upon which I walk and stand;\nGive me your hand, O Jesus, that I may not perish!",
+    "latin": "Ad Christum properans, immensum Petrus in æquor\nDiscrimen vitæ præcipitatus adit.\nDum vero trepidans paulatim sidere cœpit,\nServat eum JESUS auxiliante manu.\nOceanus vita est, cujus ne mergar in undis,\nTu mihi propitias porrige, Christe, manus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 17,
+      "teachings": 3
+    },
+    "editorial_notes": "Question 9 reads Petrus in the printed witness, although the corresponding answer is Jesus; preserved. Heading cites Luc. VI. as printed.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };

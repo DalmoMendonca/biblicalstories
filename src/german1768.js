@@ -3962,5 +3962,49 @@ export const german1768 = {
       "questions": 25,
       "teachings": 3
     }
+  },
+  "78": {
+    "title": "Wie Petrus auf dem Meere gegangen ist.",
+    "reference": "Matth. XIV. Marc. VI. und Luc. VI. Cap.",
+    "pages": [
+      427,
+      428,
+      431
+    ],
+    "printed": "247–249",
+    "narrative": "1. Wie JEsus fünf tausend Mann gespeiset hatte, so stieg er auf den Berg alleine zu beten. 2. Seine Jünger aber ließ er unterdessen mit dem Schiffe über das Meer fahren. 3. Also war selben Abend der HErr JEsus nicht bey seinen Jüngern. 4. Es war ihnen aber auf dem Meer der Wind zuwider, und das Schiff litte grosse Noth. 5. Als es nun um die vierte Nacht-Wache war, so kam der HErr JEsus zu ihnen, und wandelte auf dem Meere. 6. Wie die Jünger den HErrn sahen, so erschracken sie und sprachen: Es ist ein Gespenste. 7. Aber alsobald redte sie JEsus an, und sprach: Seyd getrost, ich bins, fürchtet euch nicht. 8. Petrus antwortete ihm und sprach: HErr, bist du es, so heisse mich zu dir kommen, auf dem Wasser. 9. Und der HErr JEsus sprach zu Petro: Komme her. 10. Da trat Petrus aus dem Schiffe, und gieng auf dem Wasser, daß er zu JEsu käme. 11. Er sahe aber einen starken Wind, da erschrack er, und hub an zu sinken. 12. Da schrie er, und sprach zu JEsu: HErr, hilff mir! 13. JEsus aber reckte bald die Hand aus, und ergriff ihn, und sprach zu ihm: 14. O du Kleingläubiger, warum zweifelst du? 15. Und sie traten in das Schiff, und der Wind legte sich. 16. Und alsobald war das Schiff an dem Lande, da sie hinfuhren. 17. Die aber im Schiffe waren, kamen und fielen vor ihm nieder, und sprachen: Du bist warlich GOttes Sohn.",
+    "questions": [
+      "Was nahm JEsus nach der grossen Speisung vor?",
+      "Wo ließ er seine Jünger?",
+      "Waren sie also in der folgenden Nacht nicht beysammen?",
+      "Wie giengs aber den Jüngern auf dem Meere?",
+      "Was sahen sie denn um die vierte Nacht-Wache?",
+      "Was gedachten die Jünger, wie sie JEsum auf dem Wasser sahen?",
+      "Wie gab sich der Heyland zu erkennen?",
+      "Was sagte Petrus zu JEsu?",
+      "Was gab ihm Petrus zur Antwort?",
+      "Gieng denn Petrus auf dem Wasser?",
+      "Aber was begegnete ihm auf dem Meer?",
+      "Wie hielt sich Petrus in dieser Gefahr?",
+      "Was that der HErr JEsus?",
+      "Was gab er Petro für einen Verweis?",
+      "Wo blieben sie beyde?",
+      "Wie lief die Schiffahrt ab?",
+      "Was sagten die Leute auf dem Schiffe?"
+    ],
+    "teachings": [
+      "I. Wie JEsus beten wolte, so gieng er auf den Berg alleine.\nAlso sollen auch wir die Einsamkeit suchen, wenn wir uns im Gebet in ein Gespräche mit GOtt einlassen wollen.",
+      "II. Wie Petrus auf dem Meere gieng, so war er erstlich getrost, bald aber fieng er an zu schreyen: HErr, hilf mir!\nSo geht es mit unserm Glauben her, daß er bald stark und bald wieder schwach ist.",
+      "III. Es war in der vierten Nacht-Wache, als JEsus auf dem Meere wandelte.\nEs waren nemlich vier solche Nacht-Wachen: Die erste von sechsen bis um neun Uhr: Die andre von neun Uhr bis um Mitternacht: Die dritte von Mitternacht bis Glocke drey: Und die vierte von drey Uhr bis um sechse des Morgens."
+    ],
+    "reflection": "Es waget Petrus sich / und gehet auf dem Meere /\nDadurch geräth der Mann in einen schweren Stand;\nDoch da er furchtsam wird / und fast gesunken wäre /\nSo reicht ihm alsobald der Heiland seine Hand.\nDas Meer ist diese Welt / darauf ich geh und stehe /\nGib / JEsu! mir die Hand / daß ich nicht untergehe!",
+    "latin": "Ad Christum properans, immensum Petrus in æquor\nDiscrimen vitæ præcipitatus adit.\nDum vero trepidans paulatim sidere cœpit,\nServat eum JESUS auxiliante manu.\nOceanus vita est, cujus ne mergar in undis,\nTu mihi propitias porrige, Christe, manus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 17,
+      "teachings": 3
+    },
+    "editorial_notes": "Question 9 reads Petrus in the printed witness, although the corresponding answer is Jesus; preserved. Heading cites Luc. VI. as printed."
   }
 };
