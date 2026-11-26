@@ -4091,5 +4091,46 @@ export const englishFromGerman = {
     },
     "editorial_notes": "Question 9 reads Petrus in the printed witness, although the corresponding answer is Jesus; preserved. Heading cites Luc. VI. as printed.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "79": {
+    "title": "Of the Canaanite Woman.",
+    "reference": "Matthew XV and Mark VII.",
+    "pages": [
+      431,
+      432,
+      435
+    ],
+    "printed": "249–251",
+    "narrative": "1. Jesus withdrew into the region of Tyre and Sidon. 2. There he went into a house and wished no one to know it, but he could not remain hidden. 3. For a Canaanite woman came out of those borders, cried after him and said: 4. Ah Lord, you Son of David, have mercy upon me! My daughter is sorely tormented by the devil! 5. And Jesus answered her not a word. 6. Then his disciples came to him, begged him and said: 7. Send her away, for she cries after us. 8. But he answered and said: I am sent only to the lost sheep of the house of Israel. 9. But she came and fell down before him and said: Lord, help me! 10. He answered and said: It is not right to take the children's bread and throw it before the dogs. 11. She said: Yes, Lord, yet the little dogs eat the crumbs that fall from their masters' table. 12. Then Jesus answered: O woman! Great is your faith; let it be done to you as you wish. 13. And her daughter became well at that very hour. 14. For when she came home, the devil had gone out, and her daughter lay upon the bed.",
+    "questions": [
+      "Where did Jesus withdraw?",
+      "Where did he stay there?",
+      "Who had discovered him there?",
+      "What did the Canaanite woman say to him?",
+      "What did the Savior say in response?",
+      "Who then interceded for the poor woman?",
+      "What did the disciples say to Jesus?",
+      "How did Jesus excuse himself?",
+      "Did the woman then go her way?",
+      "What comparison did the Lord Jesus give?",
+      "How did the woman turn the comparison of the dog to her advantage?",
+      "What answer did she finally receive?",
+      "What befell the daughter?",
+      "What did the woman find at home?"
+    ],
+    "teachings": [
+      "I. The cross drives us to God.\nThis is seen here in the distressed mother, who sought Jesus out even though he had, so to speak, hidden himself.",
+      "II. One must persevere in prayer.\nThe Canaanite woman would not be turned away, although she was treated harshly.",
+      "III. Women's faith is often a strong faith.\nHere Christ said: O woman, great is your faith! Whereas he often had to say to his disciples: O you of little faith!"
+    ],
+    "reflection": "The children's bread is not given to the dogs;\nThe table is set only for the master and mistress:\nSuch a little creature must live on mere crumbs,\nAnd whatever else happens to fall from a table.\nAh God, I too would nestle close like a little dog:\nLet me receive but the crumbs of your grace!",
+    "latin": "Ad mensam videas dominum dominamque sedere,\nEt si qua thalamus pignora forte tulit:\nInterea canibus tantummodo cedit in escam,\nDe tabula strata sicubi mica cadit.\nSum tuus, ecce! canis, JESU! contentus abunde,\nSi mihi latranti frustula parva dabis.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

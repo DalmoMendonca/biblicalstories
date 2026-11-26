@@ -4006,5 +4006,45 @@ export const german1768 = {
       "teachings": 3
     },
     "editorial_notes": "Question 9 reads Petrus in the printed witness, although the corresponding answer is Jesus; preserved. Heading cites Luc. VI. as printed."
+  },
+  "79": {
+    "title": "Vom Cananäischen Weibe.",
+    "reference": "Matth. XV. und Marc. VII. Cap.",
+    "pages": [
+      431,
+      432,
+      435
+    ],
+    "printed": "249–251",
+    "narrative": "1. JEsus entwich in die Gegend Tyri und Sidon. 2. Er gieng daselbst zwar in ein Haus, und wolte es niemand wissen lassen, aber doch konnte er nicht verborgen seyn. 3. Denn ein Cananäisch Weib gieng aus derselben Gränze, schrie ihm nach, und sprach: 4. Ach HErr du Sohn David, erbarme dich mein! Meine Tochter wird vom Teufel übel geplaget! 5. Und JEsus antwortete ihr kein Wort. 6. Da traten zu ihm seine Jünger, baten ihn, und sprachen: 7. Laß sie doch von dir, denn sie schreyet uns nach. 8. Er aber antwortete und sprach: Ich bin nicht gesandt, denn nur zu den verlohrnen Schafen vom Hause Israel. 9. Sie kam aber und fiel vor ihm nieder, und sprach: HErr, hilff mir! 10. Er antwortete und sprach: Es ist nicht fein, daß man den Kindern das Brodt nehme und werffe es vor die Hunde. 11. Sie sprach: Ja, HErr, aber doch essen die Hündlein von den Brosamen, die von ihrer Herren Tische fallen. 12. Da antwortete JEsus: O Weib! dein Glaube ist groß, dir geschehe, wie du wilt. 13. Und ihre Tochter ward gesund zu derselben Stunde. 14. Denn wie sie nach Hause kam, so ward der Teufel ausgefahren, und ihre Tochter lag auf dem Bette.",
+    "questions": [
+      "Wohin entwich JEsus?",
+      "Wo hielt er sich daselbst auf?",
+      "Wer hatte ihn da ausgekundschaftet?",
+      "Wie sagte das Cananäische Weib zu ihm?",
+      "Was sagte der Heiland darauf?",
+      "Wer legte denn eine Vorbitte vor die arme Frau ein?",
+      "Wie sagten die Jünger zu JEsu?",
+      "Womit entschuldigte sich JEsus?",
+      "Gieng denn das Weib hiermit ihres Weges?",
+      "Was gab der HErr JEsus vor ein Gleichniß?",
+      "Wie machte sich das Weib das Gleichniß vom Hunde zu nutze?",
+      "Was bekam sie endlich zur Antwort?",
+      "Was widerfuhr der Tochter?",
+      "Wie fand es die Frau zu Hause?"
+    ],
+    "teachings": [
+      "I. Das Creutz treibet zu GOtt.\nDas siehet man hier an der bekümmerten Mutter, die suchte JEsum auf, ob er sich gleich, so zu reden, verstecket hatte.",
+      "II. Mit dem Gebete muß man anhalten.\nDas Cananäische Weib ließ sich nicht abweisen, ob sie gleich harte angelassen ward.",
+      "III. Weiber-Glaube ist oft ein starker Glaube.\nHier sagte Christus: O Weib, dein Glaube ist groß! und zu seinen Jüngern hat er hingegen oftmals sagen müssen: O ihr Kleingläubigen!"
+    ],
+    "reflection": "Es wird der Kinder Brodt den Hunden nicht gegeben /\nVor Herren und vor Frau ist nur der Tisch bestellt:\nEin solches Thierlein muß von blossen Brocken leben /\nUnd was sonst ohngefehr von einem Tische fällt.\nAch GOtt ich will mich auch gleich als ein Hündlein schmiegen:\nLaß mich die Brocken nur von deiner Gnade kriegen!",
+    "latin": "Ad mensam videas dominum dominamque sedere,\nEt si qua thalamus pignora forte tulit:\nInterea canibus tantummodo cedit in escam,\nDe tabula strata sicubi mica cadit.\nSum tuus, ecce! canis, JESU! contentus abunde,\nSi mihi latranti frustula parva dabis.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    }
   }
 };
