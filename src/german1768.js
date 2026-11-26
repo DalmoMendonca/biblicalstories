@@ -3639,5 +3639,44 @@ export const german1768 = {
       "questions": 12,
       "teachings": 3
     }
+  },
+  "71": {
+    "title": "Von der Wittwe zu Nain.",
+    "reference": "Luc. VII. Capitel.",
+    "pages": [
+      395,
+      396,
+      399
+    ],
+    "printed": "229–231",
+    "narrative": "1. Und es begab sich darnach, daß JEsus in eine Stadt mit Namen Nain gieng, 2. und seine Jünger giengen viel mit ihm, und viel Volcks. 3. Als er aber nahe an das Stadt-Thor kam, siehe, da trug man einen Todten heraus, 4. der ein einiger Sohn war seiner Mutter, 5. und sie war eine Wittwe, 6. und viel Volcks gieng aus der Stadt mit ihr. 7. Und da sie der HErr JEsus sahe, jammerte ihn derselben, und sprach zu ihr, Weib, weine nicht. 8. Darauf trat er hinzu, und rühret den Sarg an, und die Träger stunden. 9. Und JEsus rieff: Jüngling, ich sage dir, stehe auf. 10. Und der Todte richtete sich auf, und fieng an zu reden, und er gab ihn seiner Mutter. 11. Und es kam sie alle eine grosse Furcht an, und preiseten GOtt und sprachen: 12. Es ist ein grosser Prophet unter uns aufgestanden, und der HErr hat sein Volck heimgesucht. 13. Und diese Rede von ihm erschall in das ganze Jüdische Land, und in alle umliegende Länder.",
+    "questions": [
+      "In was vor eine Stadt gieng JEsus?",
+      "Wer gieng denn mit ihm?",
+      "Was trug sich am Thore zu?",
+      "Was war das vor ein Todter?",
+      "Wer war seine Mutter?",
+      "Wer gieng mit zu Grabe?",
+      "Was sagte JEsus zu dieser betrübten Frauen?",
+      "Was nahm er mit dem Sarge vor?",
+      "Wie rief JEsus dem todten Sohne?",
+      "Was erfolgte darauf?",
+      "Was sagten die Leute dazu?",
+      "Was brauchten sie vor Worte?",
+      "Wie weit erschall diese Geschichte?"
+    ],
+    "teachings": [
+      "I. Es kömmt leichtlich kein Unglück alleine:\nDie Wittwe zu Nain hatte ihren Mann verlohren, und darauf stirbet auch ihr einziger Sohn, der ein Trost ihres Alters hätte seyn sollen.",
+      "II. Mit diesem verstorbenen Jünglinge gehen viel Leute zu Grabe.\nSo sollen wir auch fleißig mit zu Grabe gehen, und in Erinnerung unserer Sterblichkeit darbey gedencken: Heute an dir, morgen an mir.",
+      "III. Der HErr JEsus saget mit jammernden Herzen zu der betrübten Wittwe: Weib, weine nicht.\nDas ist ein Trost vor alle betrübte Wittwen: Denn so hat JEsus auch mit ihnen ein Mitleiden, und wird ihre Thränen zu rechter Zeit abwischen."
+    ],
+    "reflection": "Zu Nain ward ein Sarg zur Stadt hinaus getragen;\nMan brachte denn vielleicht ein altes Weib zur Ruh?\nO nein; der Todte starb in seinen schönsten Tagen;\nDenn Christus leget ihm den Namen Jüngling zu?\nWas hör ich? frißt der Tod die Jungen / wie die Alten:\nSo will ich mich allzeit bereit zum Tode halten.",
+    "latin": "Funus deducunt cives ex urbe Naini:\nAnnosa est igitur mortua forsan anus?\nFalleris! est juvenis, quem mors inopina necavit,\nVitam qui longam vivere dignus erat.\nSi teneris autem mors sæpius imminet annis,\nErgo memor quovis tempore mortis ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 13,
+      "teachings": 3
+    }
   }
 };

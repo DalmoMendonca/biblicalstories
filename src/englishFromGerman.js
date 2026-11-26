@@ -3716,5 +3716,45 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "71": {
+    "title": "Of the Widow of Nain.",
+    "reference": "Luke, chapter 7.",
+    "pages": [
+      395,
+      396,
+      399
+    ],
+    "printed": "229–231",
+    "narrative": "1. And it came to pass afterward that Jesus went into a city named Nain, 2. and many of his disciples went with him, and much people. 3. But when he came near the city gate, behold, a dead man was being carried out, 4. who was the only son of his mother, 5. and she was a widow, 6. and much people went with her out of the city. 7. And when the Lord Jesus saw her, he had compassion on her and said unto her, Woman, weep not. 8. Thereupon he came near and touched the coffin, and the bearers stood still. 9. And Jesus cried: Young man, I say unto thee, arise. 10. And the dead man sat up and began to speak, and he gave him to his mother. 11. And great fear came upon them all, and they praised God and said: 12. A great prophet has arisen among us, and the Lord has visited his people. 13. And this report of him spread throughout the whole Jewish land and all the surrounding countries.",
+    "questions": [
+      "Into what city did Jesus go?",
+      "Who then went with him?",
+      "What happened at the gate?",
+      "Who was this dead man?",
+      "Who was his mother?",
+      "Who accompanied her to the grave?",
+      "What did Jesus say to this distressed woman?",
+      "What did he do with the coffin?",
+      "How did Jesus call to the dead son?",
+      "What followed?",
+      "What did the people say to this?",
+      "What words did they use?",
+      "How far did this story spread?"
+    ],
+    "teachings": [
+      "I. Misfortune seldom comes alone:\nThe widow of Nain had lost her husband, and then her only son also dies, who should have been a comfort in her old age.",
+      "II. Many people accompany this deceased young man to the grave.\nSo we too should diligently accompany the dead to the grave and, remembering our mortality, think thereby: Today it is thy turn, tomorrow mine.",
+      "III. The Lord Jesus says with a compassionate heart to the distressed widow: Woman, weep not.\nThis is a comfort for all distressed widows: for Jesus has compassion on them also and will wipe away their tears in due time."
+    ],
+    "reflection": "At Nain a coffin was carried out of the city;\nPerhaps an old woman was being brought to rest?\nOh no; the dead man died in his fairest days;\nFor Christ gives him the name of young man.\nWhat do I hear? Does death devour the young as well as the old?\nThen I will always keep myself ready for death.",
+    "latin": "Funus deducunt cives ex urbe Naini:\nAnnosa est igitur mortua forsan anus?\nFalleris! est juvenis, quem mors inopina necavit,\nVitam qui longam vivere dignus erat.\nSi teneris autem mors sæpius imminet annis,\nErgo memor quovis tempore mortis ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 13,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
