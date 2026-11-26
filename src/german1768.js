@@ -3475,5 +3475,47 @@ export const german1768 = {
       "questions": 11,
       "teachings": 3
     }
+  },
+  "67": {
+    "title": "Wie JEsus ist vom Teufel versucht worden.",
+    "reference": "Matth. IV. Marc. I. und Luc. IV. Capitel.",
+    "pages": [
+      376,
+      379,
+      380,
+      383
+    ],
+    "printed": "220–223",
+    "narrative": "1. Wie nun JEsus voll Heiliges Geistes von seiner Tauffe kam, so ward er vom Geiste in die Wüsten geführet, 2. auf daß er daselbst vom Teufel versuchet würde. 3. Da nun JEsus vierzig Tage und vierzig Nacht gefastet hatte, so hungerte ihn. 4. Und der Versucher trat zu ihm, und sprach: Bist du GOttes Sohn, so sprich, daß diese Steine Brodt werden. 5. JEsus antwortet, und sprach: Es stehet geschrieben: Der Mensch lebet nicht vom Brodt allein, sondern von einem jeglichen Worte, das durch den Mund GOttes gehet. 6. Darauf führte ihn der Teufel mit sich in die heilige Stadt, und stellte ihn auf die Zinnen des Tempels. 7. Und sprach zu ihm: Bist du GOttes Sohn, so laß dich hinab. 8. Der Teufel beruffte sich auf den Spruch: Er wird seinen Engeln über dir Befehl thun, und sie werden dich auf den Händen tragen, auf daß du deinen Fuß nicht an einen Stein stossest. 9. JEsus sprach: Wiederum stehet geschrieben: Du solt den HErrn deinen GOtt nicht versuchen. 10. Endlich führte ihn der Teufel mit sich auf einen hohen Berg, 11. und zeigte ihm alle Reiche der Welt und ihre Herrlichkeit in einem Augenblicke. 12. Und sagte darbey: Das alles will ich dir geben, so du niederfällest, und mich anbetest; denn es ist alles mein, und ich gebe es, wem ich will. 13. Da sagte JEsus: Hebe dich weg von mir, Satan! 14. Denn es stehet geschrieben: Du solt anbeten GOtt deinen HErrn, und ihm allein dienen. 15. Da verließ ihn der Teufel, und siehe, da traten die Engel zu ihm, und dieneten ihm.",
+    "questions": [
+      "Was begab sich mit JEsu nach seiner Tauffe?",
+      "Zu was Ende ward JEsus in die Wüsten geführet?",
+      "Wie lange hat Christus in der Wüsten gefastet?",
+      "Was that ihm der Teufel vor einen Vorschlag?",
+      "Mit was vor einem Spruch beantwortete solches JEsus?",
+      "Wo führte der Satan den HErrn JEsum nach diesem hin?",
+      "Was sagte der Versucher, wie Christus auf der Zinnen des Tempels stund?",
+      "Auf was vor einen Spruch beruffte sich der Teufel?",
+      "Aber was hielt ihm Christus vor einen Spruch dagegen?",
+      "Wo führte der Versucher den HErrn JEsum zuletzt hin?",
+      "Was zeigte der Satan dem HErrn JEsu auf dem Berge?",
+      "Und was that er ihm vor einen Vorschlag?",
+      "Was gab JEsus darauf zur Antwort?",
+      "Was führte Christus vor einen Spruch an?",
+      "Wie lief endlich die Versuchung ab?"
+    ],
+    "teachings": [
+      "I. Wir hören, daß Christus vierzig Tage und vierzig Nacht gefastet hat.\nAuch durch dieses lange Fasten hat unser Heyland alle diejenigen Sünden gebüsset, welche täglich mit überflüssigem Fressen und Sauffen begangen werden.",
+      "II. Der Teufel führte den Spruch an: Er wird seinen Engeln über dir Befehl thun, daß sie dich behüten.\nDieser Spruch stehet zwar in der Bibel; aber es stehet hinten dran; Auf allen deinen Wegen; das ließ der Teufel aussen.",
+      "III. Der Teufel hat Christum zwar hart versucht; aber endlich hat er doch mit Schanden müssen abziehen.\nSo wird GOtt auch uns nicht lassen versuchet werden über unser Vermögen, sondern wird machen, daß die Versuchung so ein Ende gewinne, daß wir es können ertragen."
+    ],
+    "reflection": "In die Versuchung ward mein JEsus zwar geführet;\nDoch er behielt den Platz und Satan mußte fort:\nWodurch hat aber denn der Heyland triumphiret?\nSein Schild und Bogen war ein Spruch aus GOttes Wort.\nO Kinder! laßt uns doch dergleichen Sprüche lernen /\nDamit der Satan sich auch muß von uns entfernen.",
+    "latin": "In vasta Satanas Christum tentabat eremo,\nSed victor, victo Dæmone, Christus erat.\nQueis autem est armis JESUS tum temporis usus?\nVerbum divinum cuspis & umbo fuit.\nA teneris igitur discamus biblica dicta.\nA nobis Satanas sic quoque victus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    }
   }
 };

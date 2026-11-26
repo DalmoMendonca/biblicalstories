@@ -3548,5 +3548,48 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "67": {
+    "title": "How Jesus Was Tempted by the Devil.",
+    "reference": "Matthew 4; Mark 1; and Luke 4.",
+    "pages": [
+      376,
+      379,
+      380,
+      383
+    ],
+    "printed": "220–223",
+    "narrative": "1. When Jesus, full of the Holy Spirit, came from his baptism, he was led by the Spirit into the wilderness, 2. that he might there be tempted by the devil. 3. When Jesus had fasted forty days and forty nights, he was hungry. 4. And the tempter came to him and said: If thou art the Son of God, speak that these stones become bread. 5. Jesus answered and said: It is written: Man lives not by bread alone, but by every word that proceeds from the mouth of God. 6. Thereupon the devil took him into the holy city and set him upon the pinnacle of the temple. 7. And said to him: If thou art the Son of God, cast thyself down. 8. The devil appealed to the saying: He will give his angels charge over thee, and they will bear thee in their hands, lest thou dash thy foot against a stone. 9. Jesus said: Again it is written: Thou shalt not tempt the Lord thy God. 10. Finally the devil took him upon a high mountain, 11. and showed him all the kingdoms of the world and their glory in a moment. 12. And said: All this I will give thee if thou fall down and worship me; for it is all mine, and I give it to whom I will. 13. Then Jesus said: Away from me, Satan! 14. For it is written: Thou shalt worship God thy Lord, and serve him alone. 15. Then the devil left him, and behold, the angels came to him and ministered unto him.",
+    "questions": [
+      "What happened to Jesus after his baptism?",
+      "For what purpose was Jesus led into the wilderness?",
+      "How long did Christ fast in the wilderness?",
+      "What proposal did the devil make to him?",
+      "With what saying did Jesus answer this?",
+      "Where did Satan take the Lord Jesus after this?",
+      "What did the tempter say when Christ stood on the pinnacle of the temple?",
+      "To what saying did the devil appeal?",
+      "But what saying did Christ oppose to him?",
+      "Where did the tempter take the Lord Jesus last?",
+      "What did Satan show the Lord Jesus on the mountain?",
+      "And what proposal did he make to him?",
+      "What answer did Jesus give?",
+      "What saying did Christ cite?",
+      "How did the temptation finally end?"
+    ],
+    "teachings": [
+      "I. We hear that Christ fasted forty days and forty nights.\nBy this long fast also our Savior made atonement for all those sins which are daily committed by excessive eating and drinking.",
+      "II. The devil cited the saying: He will give his angels charge over thee, that they may guard thee.\nThis saying indeed stands in the Bible; but afterward it says: In all thy ways; the devil left that out.",
+      "III. The devil indeed sorely tempted Christ; but finally he had to depart in disgrace.\nThus God will not let us be tempted beyond our ability, but will make the temptation come to such an end that we can endure it."
+    ],
+    "reflection": "Into temptation my Jesus indeed was led;\nYet he held the field, and Satan had to depart:\nBut by what means did the Savior triumph?\nHis shield and bow were a saying from God's Word.\nO children! let us learn such sayings,\nThat Satan may also have to depart from us.",
+    "latin": "In vasta Satanas Christum tentabat eremo,\nSed victor, victo Dæmone, Christus erat.\nQueis autem est armis JESUS tum temporis usus?\nVerbum divinum cuspis & umbo fuit.\nA teneris igitur discamus biblica dicta.\nA nobis Satanas sic quoque victus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
