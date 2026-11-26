@@ -4822,5 +4822,72 @@ export const englishFromGerman = {
       "questions": 14,
       "teachings": 3
     }
+  },
+  "95": {
+    "title": "On Judas the Betrayer",
+    "reference": "Matthew XXVI; Mark XIV; Luke XXII; John XIII and XVIII",
+    "pages": [
+      503,
+      504,
+      505,
+      506,
+      509
+    ],
+    "printed": "289–293",
+    "narrative": "1. The Lord Jesus had twelve disciples, 2. among whom one was his betrayer, named Judas Iscariot. 3. This Judas kept the purse; 4. but he did not deal honestly with the money, for he was a thief. 5. Finally the devil put it into his heart that he should betray his Master. 6. Thereupon Judas bargained with the chief priests that they should give him thirty pieces of silver. 7. The Lord Jesus knew this very well by his omniscience, and made it clearly known to the other disciples. 8. The first time this happened was when he had washed the disciples' feet. 9. For then Jesus said: Truly, truly I tell you, one among you will betray me. 10. Then the disciples looked at one another, and were troubled as to whom he meant. 11. But John was then lying at Jesus' breast, because Jesus loved him especially. 12. Peter beckoned to him to ask who it was. 13. Jesus said to John: It is he to whom I dip and give the morsel. 14. And he dipped the morsel and gave it to this Judas. 15. And when he had taken the morsel, Satan entered him. 16. The second time Jesus complained of his betrayer was when he instituted the Supper. 17. Then one after another asked: Lord, is it I? 18. Finally Judas also asked: Lord, is it I? 19. And Jesus answered him: You say it. 20. After that last meal Jesus had gone into a garden; 21. there such mortal anguish came upon him that he sweated bloody sweat. 22. Then Judas came with a great crowd, with swords and staves, with torches and lamps. 23. Judas had given them a sign: whomever he kissed, they should seize. 24. He therefore approached Jesus and said: Hail, Rabbi, and kissed him. 25. The Lord Jesus said to him: My friend, why have you come? Judas, do you betray the Son of Man with a kiss? 26. Thereupon they laid hands on Jesus and seized him. 27. Peter indeed drew his sword and cut off the right ear of the high priest's servant. 28. But Jesus healed his ear again, 29. and said to Peter: Put your sword into its sheath. 30. Soon afterwards Judas regretted having betrayed the Lord Christ. 31. Therefore he returned the thirty pieces of silver to the Pharisees and said: 32. I have done wrong in betraying innocent blood. 33. The Pharisees said to him: What is that to us? See to it yourself. 34. Thereupon Judas went away and hanged himself in despair. 35. He afterwards burst asunder on the rope and spilled all his entrails. 36. The chief priests would not put the money into the treasury because it was blood money. 37. They therefore bought a potter's field with it for the burial of pilgrims.",
+    "questions": [
+      "How many disciples did the Lord Jesus have?",
+      "Which among them was a betrayer?",
+      "What office did this Judas have?",
+      "But did he deal honestly with the money?",
+      "What did the devil put into his heart?",
+      "What did the Pharisees give him for his betrayal?",
+      "Did Jesus know what this Judas was plotting?",
+      "When did Jesus first make it known?",
+      "What did Jesus say after washing the feet?",
+      "What did the disciples do when they heard this?",
+      "Which disciple was then lying at Jesus' breast?",
+      "What did Peter indicate to John with a gesture?",
+      "What did Jesus say to John when he asked about the betrayer?",
+      "To which disciple did Jesus then give the morsel?",
+      "What happened when Judas had taken the morsel?",
+      "When did Jesus complain of his betrayer a second time?",
+      "What did the disciples say then?",
+      "How did Judas conduct himself?",
+      "What answer did Judas receive from Jesus?",
+      "Where did Jesus go after the last evening meal?",
+      "What came upon the Savior in the garden?",
+      "Who came to Jesus in the garden?",
+      "What sign had Judas given the guard?",
+      "How did the betrayer thus behave toward his Lord?",
+      "How did Jesus answer this false kiss?",
+      "What did they then do to Jesus?",
+      "How did Peter conduct himself?",
+      "What did Jesus do with the severed ear?",
+      "And what rebuke did he give Peter?",
+      "How did Judas fare after the betrayal?",
+      "What did the villain do with the thirty pieces of silver?",
+      "What did the betrayer say to the Pharisees?",
+      "What comfort did the Pharisees give him?",
+      "What end did this Judas come to?",
+      "What happened to his accursed body?",
+      "But what became of the thirty pieces of silver?",
+      "What did they buy with the blood money?"
+    ],
+    "teachings": [
+      "I. Opportunity makes thieves.\nThis can plainly be seen in Judas, who was undoubtedly honest when he was called to be an apostle; but when he was entrusted with the purse, he became first a pilferer, then a betrayer, and finally a suicide.",
+      "II. The devil put it into Judas's heart that he should betray Jesus.\nHere we hear where evil thoughts come from, namely from the detestable devil.",
+      "III. After the deed Judas said: I have done wrong in betraying innocent blood.\nThat is how conscience acts! At first it is utterly silent and as though asleep, until one has consented to sin. Afterwards, when it has happened, conscience awakens and may even bring a person to despair."
+    ],
+    "reflection": "My Jesus is sold for thirty pieces of silver!\nOh, accursed avarice! What do you not bring about!\nThe world indeed regards the sin as very slight,\nWhen one can carry out schemes in Judas's manner;\nBut I think as I find it written:\nAvarice is and remains a source of all sin.",
+    "latin": "Non dubitat Christum triginta vendere drachmis\nJudas: Heu! quid non audet avarus homo?\nLucri cui bonus est odor ex re qualibet, istas\nArtes, detestor quas ego, mundus amat!\nCunctorum certe est radix & origo malorum\n(Sic lego, sic credo) crimen avaritiæ.",
+    "kind": "new-translation-from-transcribed-german",
+    "editorial_notes": "Narrative marker 12 printed 22 on page 290; question 34 printed 24 on page 292. Corrected both in sequence, wording retained.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 37,
+      "teachings": 3
+    }
   }
 };

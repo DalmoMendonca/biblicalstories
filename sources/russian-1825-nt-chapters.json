@@ -477,7 +477,10 @@
       "printed_start": 131,
       "scan_start": 137,
       "scan_start_candidate": 136,
-      "scan_end_candidate": 143
+      "scan_end_candidate": 143,
+      "scan_start_verified": 137,
+      "scan_end_verified": 142,
+      "printed_verified": "131–136"
     },
     {
       "id": 96,

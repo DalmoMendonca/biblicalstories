@@ -4721,5 +4721,71 @@ export const german1768 = {
       "questions": 14,
       "teachings": 3
     }
+  },
+  "95": {
+    "title": "Von Juda dem Verräther.",
+    "reference": "Matth. XXVI. Marc. XIV. Luc. XXII. Joh. XIII. und XVIII. Capitel.",
+    "pages": [
+      503,
+      504,
+      505,
+      506,
+      509
+    ],
+    "printed": "289–293",
+    "narrative": "1. Der HErr JEsus hatte zwölff Jünger, 2. darunter ist einer sein Verräther gewesen, mit Namen Judas Ischariot. 3. Dieser Judas hatte den Beutel: 4. Er gieng aber nicht ehrlich mit dem Gelde um, sondern er war ein Dieb. 5. Endlich gab ihm der Teufel ins Herze, daß er seinen Meister verrathen solte. 6. darauf handelte Judas mit den Hohenpriestern, daß sie ihm dreißig Silberlinge geben solten. 7. Dieses wuste der HErr JEsus seiner Allwissenheit nach sehr wohl, und gabs auch den andern Jüngern deutlich zu verstehen. 8. Das erste mal geschahe es, wie er den Jüngern die Füsse gewaschen hatte. 9. Denn da sagte JEsus: Warlich, warlich ich sage euch, einer unter euch wird mich verrathen. 10. Da sahen sich die Jünger unter einander an, und ihnen ward bange, von wem er redte. 11. Es lag aber Johannes damals an der Brust JEsu, weil er ihn so sonderlich lieb hatte. 12. Demselben winkte Petrus, daß er doch fragen solte, wer es wäre? 13. JEsus sagte zu Johanne: Der ists, dem ich den Bissen eintauche und gebe. 14. Und er tauchte den Bissen ein, und gab ihn diesem Juda. 15. Und da er den Bissen genommen hatte, fuhr der Satan in ihn. 16. Das andere mal klagte JEsus über seinen Verräther, als er das Abendmal einsetzte. 17. Da fragte immer einer nach dem andern: HErr, bin ichs? 18. Endlich fragte Judas auch: HErr, bin ichs? 19. Und JEsus gab ihm zur Antwort: Du sagst es. 20. Nach derselben letzten Mahlzeit war JEsus in einen Garten gegangen; 21. Darinnen überfiel ihn eine solche Todes-Angst, daß er blutigen Schweiß schwitzte. 22. Da kam Judas mit einer grossen Schaar, mit Schwerdten und mit Stangen, mit Fackeln und Lampen. 23. Denselben hatte Judas ein Zeichen gegeben, welchen er küssen würde, denselben solten sie greiffen. 24. Er trat deswegen zu JEsu, und sprach: Gegrüsset seyst du, Rabbi, und küssete ihn. 25. Der HErr JEsus sagte zu ihm: Mein Freund, warum bist du kommen? Juda, verräthest du des Menschen Sohn mit einem Kusse? 26. Darauf legten sie die Hände an JEsum, und griffen ihn. 27. Petrus zuckte zwar sein Schwerd, und hieb dem Knechte des Hohen-Priesters das rechte Ohr ab. 28. Aber JEsus heilte ihm das Ohr wieder an, 29. und sprach zu Petro: Stecke dein Schwerd in die Scheide. 30. Bald darauf gereuete es Judam, daß er den HErrn Christum verrathen hatte. 31. Deswegen brachte er den Pharisäern die dreyßig Silberlinge wieder, und sagte darzu: 32. Ich habe unrecht gethan, daß ich unschuldig Blut verrathen habe. 33. Die Pharisäer sagten zu ihm: Was gehet uns das an? da siehe du zu. 34. Darauf gieng Judas hin und erhieng sich aus Verzweiflung. 35. Am Stricke ist er darnach mitten entzwey geborsten, und hat alle sein Eingeweide ausgeschüttet. 36. Das Geld wolten die Hohen-Priester nicht in den GOttes-Kasten legen, weil es Blut-Geld wäre. 37. Sie kaufften deswegen einen Töpffers-Acker dafür zum Begräbniß der Pilger.",
+    "questions": [
+      "Wie viel Jünger hatte der HErr JEsus?",
+      "Welcher war ein Verräther darunter?",
+      "Was hatte dieser Judas vor ein Amt?",
+      "Aber gieng er auch redlich mit dem Gelde um?",
+      "Was gab ihm der Teufel in das Herze?",
+      "Was gaben ihm die Pharisäer vor seine Verrätherey?",
+      "Wuste denn JEsus, was dieser Judas im Schilde führte?",
+      "Wenn gab es JEsus zum erstenmale zu verstehen?",
+      "Was sagte denn JEsus nach dem Fuß-Waschen?",
+      "Wie thaten denn die Jünger darzu, als sie dieses höreten?",
+      "Welcher Jünger lag denn eben damals an der Brust JEsu?",
+      "Was gab Petrus diesem Johanni durch einen Wink zu verstehen?",
+      "Was sagte JEsus zu Johanne, als er nach dem Verräther fragte?",
+      "Welchem Jünger gab JEsus hierauf den Bissen?",
+      "Was trug sich denn zu, wie Judas den Bissen zu sich genommen hatte?",
+      "Wenn klagte JEsus zum andernmal über seinen Verräther?",
+      "Was sagten damals die Jünger darzu?",
+      "Wie führte sich denn Judas darbey auf?",
+      "Was bekam Judas von JEsu zur Antwort?",
+      "Wo gieng JEsus nach der letzten Abend-Mahlzeit hin?",
+      "Was überfiel den Heiland im Garten?",
+      "Wer kam denn zu JEsu in den Garten?",
+      "Was hatte Judas der Wache vor ein Zeichen gegeben?",
+      "Wie bezeigte sich also der Verräther gegen seinen Herrn?",
+      "Wie beantwortete JEsus diesen falschen Kuß?",
+      "Was nahmen sie hierauf mit JEsu vor?",
+      "Wie führte sich Petrus dabey auf?",
+      "Was machte JEsus mit dem abgehauenen Ohre?",
+      "Und was gab er Petro vor einen Verweis?",
+      "Wie befand sich Judas nach der Verrätherey?",
+      "Was machte der Schelm mit den dreißig Silberlingen?",
+      "Wie sagte der Verräther zu den Pharisäern?",
+      "Was gaben ihm die Pharisäer vor einen Trost?",
+      "Was nahm dieser Judas vor ein Ende?",
+      "Was hat sich denn mit seinem verfluchten Cörper zugetragen?",
+      "Wo blieben aber die dreißig Silberlinge?",
+      "Was kaufften sie vor das Blut-Geld?"
+    ],
+    "teachings": [
+      "I. Gelegenheit macht Diebe.\nDas siehet man wohl an Juda, der war ohne Zweifel ehrlich, wie er zum Apostel beruffen ward; wie er aber den Geld-Beutel in Verwahrung bekam, so ward er erstlich ein Mauskopf, darnach ein Verräther, und endlich ein Selbst-Mörder.",
+      "II. Der Teufel gab Juda ins Herze, daß er JEsum verrathen solte.\nDa hören wir, wo die bösen Gedancken herkommen, nemlich von dem leidigen Teufel.",
+      "III. Nach der That sagte Judas: Ich habe unrecht gethan, daß ich unschuldig Blut verrathen habe.\nSo macht es das Gewissen! Erst schweigt es stockstille, und schläft gleichsam, bis man in die Sünde gewilliget hat: Darnach, wenns geschehen ist, so wacht das Gewissen auf, und bringt den Menschen wohl gar in Verzweifelung."
+    ],
+    "reflection": "Mein JEsus wird verkaufft um dreißig Silberlinge!\nJe / du verfluchter Geitz! was richtest du nicht an!\nEs achtet zwar die Welt die Sünde gar geringe /\nWenn man nach Judas Art Practicken machen kan:\nIch aber denke so / wie ichs geschrieben finde;\nEs ist und bleibt der Geitz ein Ursprung aller Sünde.",
+    "latin": "Non dubitat Christum triginta vendere drachmis\nJudas: Heu! quid non audet avarus homo?\nLucri cui bonus est odor ex re qualibet, istas\nArtes, detestor quas ego, mundus amat!\nCunctorum certe est radix & origo malorum\n(Sic lego, sic credo) crimen avaritiæ.",
+    "editorial_notes": "Narrative marker 12 printed 22 on page 290; question 34 printed 24 on page 292. Corrected both in sequence, wording retained.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 37,
+      "teachings": 3
+    }
   }
 };
