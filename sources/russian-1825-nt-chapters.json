@@ -576,7 +576,10 @@
       "printed_start": 182,
       "scan_start": 188,
       "scan_start_candidate": 187,
-      "scan_end_candidate": 196
+      "scan_end_candidate": 196,
+      "scan_start_verified": 188,
+      "scan_end_verified": 192,
+      "printed_verified": "182–186"
     }
   ]
 }
