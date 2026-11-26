@@ -3642,5 +3642,40 @@ export const englishFromGerman = {
       "Printed question following 18 is numbered 16 on p. 224; restored to 19 in the sequential question list."
     ],
     "kind": "new-translation-from-transcribed-german"
+  },
+  "69": {
+    "title": "Of the Centurion at Capernaum.",
+    "reference": "Matthew 8 and Luke 7.",
+    "pages": [
+      386,
+      391
+    ],
+    "printed": "226–227",
+    "narrative": "1. A centurion at Capernaum had a sick servant. 2. He came to Jesus and said: Lord, my servant lies at home, palsied and in great torment. 3. The elders of the city also interceded for him with the Lord Jesus, 4. and praised this centurion, among other things, for having built their synagogue. 5. Jesus said: I will come and make him well. 6. But the centurion said: LORD, I am not worthy that thou shouldst come under my roof; but speak only one word, and my servant will be well. 7. When Jesus heard this, he marveled and said to those following him: Verily I say unto you, I have not found such faith in Israel. 8. Thereupon he gave the centurion this answer: Go thy way; let it be done to thee as thou hast believed. 9. And his servant became well in that very hour.",
+    "questions": [
+      "What trouble had the centurion at Capernaum?",
+      "How did he present his need to the Lord Jesus?",
+      "Who interceded for the centurion?",
+      "What good thing did the Jews relate of this centurion?",
+      "What answer did Jesus give?",
+      "But what objection did the centurion make?",
+      "What did Jesus say of this faith?",
+      "What answer did he give the centurion?",
+      "How did matters end for the sick servant?"
+    ],
+    "teachings": [
+      "I. It was a centurion who prayed with such strong faith for his sick servant.\nThus the profession of a soldier in and of itself is not contrary to Christianity.",
+      "II. For this centurion the elders of the city interceded with Christ.\nThus we see that devout intercessions for other people have great power.",
+      "III. The Jews prayed for the centurion and for his sick servant because this man had built their synagogue.\nAh, we children at school would also gladly pray for our benefactors, if only someone were willing to do us some good."
+    ],
+    "reflection": "Often master and mistress care poorly for their servants;\nThey often esteem them scarcely as much as their dog:\nThe centurion does not act thus toward his sick servant;\nHe calls upon Jesus, who makes him well.\nShould anyone hereafter enter my service,\nI too will pray for him in all his needs.",
+    "latin": "Rara tenet dominos servorum cura suorum,\nQueis plerumque canis charior esse solet:\nCenturio secus est famuli valetudine motus:\nInvocat is Christum; fert quoque Christus opem;\nHunc imitabor ego, servisque fidelibus olim\nAuxilium, potero qua ratione, feram.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 9,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

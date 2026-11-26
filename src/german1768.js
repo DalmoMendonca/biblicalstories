@@ -3567,5 +3567,39 @@ export const german1768 = {
     "editorial_notes": [
       "Printed question following 18 is numbered 16 on p. 224; restored to 19 in the sequential question list."
     ]
+  },
+  "69": {
+    "title": "Vom Hauptmanne zu Capernaum.",
+    "reference": "Matth. VIII. und Luc. VII. Capitel.",
+    "pages": [
+      386,
+      391
+    ],
+    "printed": "226–227",
+    "narrative": "1. Ein Hauptmann zu Capernaum hatte einen krancken Knecht. 2. Der trat zu JEsu, und sprach: HErr, mein Knecht lieget zu Hause, und ist gichtbrüchtig, und hat grosse Quaal. 3. Es legten auch die Eltesten in der Stadt eine Vorbitte bey dem HErrn JEsu vor ihn ein, 4. und rühmten unter andern von diesem Hauptmanne, daß er ihnen die Schule erbauet hätte. 5. JEsus sprach: Ich will kommen und ihn gesund machen. 6. Der Hauptmann aber sprach: HERR ich bin nicht werth, daß du unter mein Dach gehest, sondern sprich nur ein Wort, so wird mein Knecht gesund. 7. Da JEsus das hörte, verwunderte er sich, und sagte zu denen, die ihm nachfolgeten: Warlich ich sage euch, solchen Glauben habe ich in Israel nicht funden. 8. Darauf gab er dem Hauptmanne diesen Bescheid: Gehe hin, dir geschehe, wie du geglaubet hast. 9. Und sein Knecht ward gesund zu derselben Stunde.",
+    "questions": [
+      "Was fehlte dem Hauptmanne zu Capernaum?",
+      "Wie trug er dem HErrn JEsu seine Noth vor?",
+      "Wer legte denn eine Vorbitte vor den Hauptmann ein?",
+      "Was sagten die Jüden diesem Hauptmanne Gutes nach?",
+      "Was gab JEsus zur Antwort?",
+      "Aber was wandte der Hauptmann dargegen ein?",
+      "Was sagte JEsus von diesem Glauben?",
+      "Was gab er dem Hauptmanne vor Bescheid?",
+      "Wie lief es mit dem krancken Knechte ab?"
+    ],
+    "teachings": [
+      "I. Es war ein Hauptmann, der mit so starkem Glauben vor seinen krancken Knecht bat.\nAlso ist der Soldaten-Stand an und vor sich selber dem Christenthum nicht entgegen.",
+      "II. Vor diesen Hauptmann legten die Eltesten in der Stadt eine Vorbitte bey Christo ein.\nAlso sehen wir, daß andächtige Vorbitte vor andere Leute eine grosse Krafft haben.",
+      "III. Die Jüden aber baten darum vor den Hauptmann und vor seinen krancken Knecht, weil ihnen dieser Mann die Schule erbauet hätte.\nAch wir Kinder in der Schule wolten auch gerne vor unsere Wohlthäter beten, wenn uns nur jemand was zu Gute thun wolte."
+    ],
+    "reflection": "Offt sorget Herr und Frau vor ihr Gesinde schlechte /\nSie achten sie offt kaum so gut als ihren Hund:\nSo machts der Hauptmann nicht mit seinem krancken Knechte /\nEr ruffet JEsum an / der machet ihn gesund.\nSoll künftig jemand auch in meine Dienste treten /\nSo will ich auch vor ihn in allen Nöthen beten.",
+    "latin": "Rara tenet dominos servorum cura suorum,\nQueis plerumque canis charior esse solet:\nCenturio secus est famuli valetudine motus:\nInvocat is Christum; fert quoque Christus opem;\nHunc imitabor ego, servisque fidelibus olim\nAuxilium, potero qua ratione, feram.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 9,
+      "teachings": 3
+    }
   }
 };
