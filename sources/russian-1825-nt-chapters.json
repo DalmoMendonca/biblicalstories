@@ -103,7 +103,10 @@
       "printed_start": 22,
       "scan_start": 28,
       "scan_start_candidate": 27,
-      "scan_end_candidate": 31
+      "scan_end_candidate": 31,
+      "scan_start_verified": 28,
+      "scan_end_verified": 30,
+      "printed_verified": "22–24"
     },
     {
       "id": 62,

@@ -3226,5 +3226,43 @@ export const german1768 = {
       "III. Der Name des neu-gebohrnen Sohnes GOttes ward JEsus genannt.\nDiesen theuren Namen haben die gottseligen Alten den Kindern in nachfolgenden Zeilen erkläret:\nIn Einem Stehet Unsere Seligkeit?\nSolche Unsere Seligkeit Erwirbet JEsus."
     ],
     "reflection": "Kein Name ist so schön / als meines JESU Namen /\nWeil er auf Teutsch so viel als Seligmacher heist:\nEs ist auch dieses Kind der rechte Weibes-Saamen /\nDer uns allein den Weg zum ewgen Leben weist.\nDen Namen will ich mir tief in mein Herze graben /\nUnd in der letzten Noth in meinem Munde haben."
+  },
+  "61": {
+    "pages": [
+      350,
+      353,
+      354
+    ],
+    "printed": "206–208",
+    "latin": "In templo Simeon JESUM gestavit in ulnis,\nEt tum pacifica morte perire cupit.\nExemplum vitæ Simeonis sit mihi vita,\nExemplum mortis mors Simeonis erit.\nSi non te JESUM manibus gestare licebit,\nTe tamen emoriens corde tenebo meo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    },
+    "editorial_note": "Printed question 9 is misnumbered 6; corrected to 9.",
+    "title": "Von der Reinigung Mariä.",
+    "reference": "Luc. II. Capitel.",
+    "narrative": "1. Die Kindbetterinnen im alten Testamente hatten dreyerley zu beobachten. 2. Erstlich musten sie nach der Geburt etliche Wochen zu Hause bleiben, bis die Tage ihrer Reinigung um waren. 3. Darnach musten sie bey dem Ausgange entweder ein jähriges Lamm oder ein paar Tauben opffern. 4. Endlich, wenn es das erste Kind war, so muste es dem HErrn geheiliget, und mit Gelde gelöset werden. 5. Das alles hat die Jungfrau Maria beobachtet, und hat ihren ordentlichen Kirchgang im Tempel zu Jerusalem gehalten. 6. Wie sie nun ihr neu-gebohrnes JEsus-Kindlein dem HErrn darstellte, so kam ein Mann in dem Tempel mit Namen Simeon. 7. Derselbe Mensch war fromm und gottsfürchtig, und wartete auf den Trost Israels, und der Heilige Geist war in ihm. 8. Und ihm war eine Antwort worden von dem Heiligen Geist, er solte den Tod nicht sehen, er hätte denn zuvor den Christ des HErrn gesehen. 9. Er war auch nicht ohngefehr in den Tempel kommen, sondern es war auf Anregung des Heiligen Geistes geschehen. 10. Wie nun dieser Simeon das Kindlein JEsus im Tempel sahe, so nahm er dasselbe auf seine Armen, und sprach: 11. HErr nun lässest du deinen Diener im Friede fahren, denn meine Augen haben deinen Heiland gesehen, welchen du bereitet hast für allen Völckern ein Licht zu erleuchten die Heiden, und zum Preis deines Volcks Israels.",
+    "questions": [
+      "Was hatte eine Kind-Betterin im alten Testamente zu beobachten?",
+      "Was war das erste wegen ihrer Reinigung.",
+      "Was war das andere wegen des Opffers?",
+      "Und was war das dritte wegen der ersten Geburt?",
+      "Hat denn die Jungfrau Maria das alles beobachtet?",
+      "Was kam damals vor ein Mann in den Tempel?",
+      "Was war dieser Simeon vor ein Mann?",
+      "Was hatte Simeon vor eine Versicherung von dem Heiligen Geist empfangen?",
+      "Aus was Ursachen war Simeon in den Tempel gegangen?",
+      "Was nahm Simeon in den Tempel mit dem Kindlein JEsu vor?",
+      "Was that Simeon vor einen Wunsch darbey?"
+    ],
+    "teachings": [
+      "I. Der alte Simeon hatte wohl recht selige Augen.\nDenn er konte sich rühmen: Meine Augen haben deinen Heiland gesehen.",
+      "II. Eben dieser Simeon hatte auch recht selige Hände.\nDenn wie das JEsus-Kindlein dem HErrn dargestellet ward, so nahm er dasselbe auf seine Arme.",
+      "III. Dieser Simeon hatte endlich auch ein seliges Herz.\nDenn er war fromm und gottesfürchtig, und der Heilige Geist war in ihm."
+    ],
+    "reflection": "Der alte Simeon ließ weiland in dem Tempel\nDas liebste JEsulein auf seinen Armen ruhn.\nIch nehme mir daran im Glauben ein Exempel /\nUnd will es Simeon hierinne gleiche thun:\nKan ich die Arme nicht um meinen Heiland schlagen /\nSo will ich dieses Kind doch in dem Herzen tragen."
   }
 };

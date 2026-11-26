@@ -3293,5 +3293,44 @@ export const englishFromGerman = {
     ],
     "reflection": "No name is so beautiful as my Jesus' name,\nFor in German it means as much as Savior;\nThis child is also the true seed of the woman,\nWho alone shows us the way to eternal life.\nI will engrave this name deep in my heart,\nAnd have it in my mouth in my final distress.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "61": {
+    "pages": [
+      350,
+      353,
+      354
+    ],
+    "printed": "206–208",
+    "latin": "In templo Simeon JESUM gestavit in ulnis,\nEt tum pacifica morte perire cupit.\nExemplum vitæ Simeonis sit mihi vita,\nExemplum mortis mors Simeonis erit.\nSi non te JESUM manibus gestare licebit,\nTe tamen emoriens corde tenebo meo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    },
+    "editorial_note": "Printed question 9 is misnumbered 6; corrected to 9.",
+    "title": "Of the Purification of Mary.",
+    "reference": "Luke, chapter 2.",
+    "narrative": "1. Women who had given birth in the Old Testament had three things to observe. 2. First they had to remain at home for several weeks after the birth until the days of their purification were fulfilled. 3. Thereafter, upon going out, they had to offer either a year-old lamb or a pair of doves. 4. Finally, if it was the first child, it had to be consecrated to the Lord and redeemed with money. 5. The Virgin Mary observed all this and made her customary churchgoing in the temple at Jerusalem. 6. As she presented her newborn infant Jesus to the Lord, a man named Simeon came into the temple. 7. This man was devout and God-fearing, and waited for the consolation of Israel, and the Holy Spirit was in him. 8. And it had been revealed to him by the Holy Spirit that he should not see death before he had seen the Lord's Christ. 9. Nor had he come into the temple by chance, but at the prompting of the Holy Spirit. 10. When this Simeon saw the infant Jesus in the temple, he took him in his arms and said: 11. Lord, now lettest thou thy servant depart in peace, for mine eyes have seen thy Savior, whom thou hast prepared before all peoples, a light to enlighten the Gentiles and for the glory of thy people Israel.",
+    "questions": [
+      "What had a woman who had given birth in the Old Testament to observe?",
+      "What was the first concerning her purification?",
+      "What was the second concerning the sacrifice?",
+      "And what was the third concerning the first birth?",
+      "Did the Virgin Mary observe all these things?",
+      "What sort of man then came into the temple?",
+      "What sort of man was this Simeon?",
+      "What assurance had Simeon received from the Holy Spirit?",
+      "For what reasons had Simeon gone into the temple?",
+      "What did Simeon do with the infant Jesus in the temple?",
+      "What wish did Simeon express on that occasion?"
+    ],
+    "teachings": [
+      "I. The aged Simeon surely had truly blessed eyes.\nFor he could boast: Mine eyes have seen thy Savior.",
+      "II. This same Simeon also had truly blessed hands.\nFor when the infant Jesus was presented to the Lord, he took him in his arms.",
+      "III. Finally, this Simeon also had a blessed heart.\nFor he was devout and God-fearing, and the Holy Spirit was in him."
+    ],
+    "reflection": "The aged Simeon once in the temple\nLet the dearest infant Jesus rest upon his arms.\nI take from this an example in faith,\nAnd in this would do likewise with Simeon:\nIf I cannot clasp my arms around my Savior,\nYet I will carry this child within my heart.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };
