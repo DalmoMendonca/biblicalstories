@@ -4271,5 +4271,39 @@ export const englishFromGerman = {
     },
     "editorial_notes": "Final question is misprinted 22 on printed page 258; restored to 23 to match narrative.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "83": {
+    "title": "Of Martha and Mary.",
+    "reference": "Luke X.",
+    "pages": [
+      449,
+      450
+    ],
+    "printed": "259–260",
+    "narrative": "1. The Lord Jesus went into a market town. 2. There was a woman named Martha, who received him into her house. 3. And she had a sister named Mary. 4. This Mary sat at Jesus' feet and listened to his discourse. 5. But Martha busied herself greatly in serving the Lord Jesus well. 6. At last Martha said to the Savior: Lord, do you not care that my sister leaves me to serve alone? Tell her to lend a hand too. 7. Jesus answered and said to her: Martha, Martha, you have much care and trouble; but one thing is needful. 8. Mary has chosen the good portion, and that shall not be taken from her.",
+    "questions": [
+      "Where did Jesus go again?",
+      "Who received him into her house?",
+      "What sister did this Martha have?",
+      "What did this Mary do?",
+      "But what did Martha do meanwhile?",
+      "What did Martha say to Jesus?",
+      "What answer did she receive?",
+      "And what judgment did Jesus give concerning her sister Mary?"
+    ],
+    "teachings": [
+      "I. Hospitality is a beautiful virtue.\nWe can learn it from Martha, who took great pains to serve the Lord Christ.",
+      "II. Godliness is also a beautiful virtue.\nWe can learn it from Mary, who sat down at Jesus' feet and listened to his teaching.",
+      "III. But godliness is of greater importance than hospitality.\nWe can learn this from Christ, who said: One thing is needful; Mary has chosen the good portion."
+    ],
+    "reflection": "Mary sits down at Jesus' feet,\nAnd bears away, as Jesus says, the best portion;\nMartha, on the other hand, runs to and fro about the house,\nAnd both give us the most beautiful lesson;\nMary shows how one should exercise oneself in faith,\nAnd Martha shows how one should love one's neighbor.",
+    "latin": "Auscultans verba, quæ pars est optima? Christi\nAssidet ad sanctos sancta Maria pedes.\nInterea rerum satagit pia Martha suarum:\nUtraque sancta mihi dat documenta soror.\nScilicet exemplum FIDEI dat sancta Maria,\nQuid vero sit AMOR, sedula Martha docet.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 8,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

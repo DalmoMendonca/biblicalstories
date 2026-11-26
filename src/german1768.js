@@ -4182,5 +4182,38 @@ export const german1768 = {
       "teachings": 3
     },
     "editorial_notes": "Final question is misprinted 22 on printed page 258; restored to 23 to match narrative."
+  },
+  "83": {
+    "title": "Von Martha und Maria.",
+    "reference": "Luc. X. Capitel.",
+    "pages": [
+      449,
+      450
+    ],
+    "printed": "259–260",
+    "narrative": "1. Der HErr JEsus gieng in einen Marckt-Flecken: 2. Da war ein Weib mit Namen Martha, die nahm ihn auf in ihr Haus. 3. Und sie hatte eine Schwester, die hieß Maria. 4. Diese Maria satzte sich zu den Füssen JEsu, und hörte seiner Rede zu. 5. Martha aber machte sich viel zu schaffen, den HErrn JEsum wohl zu bedienen. 6. Endlich sagte Martha zu dem Heilande: HErr, fragst du nichts darnach, daß mich meine Schwester läßt alleine dienen? sage ihr doch, daß sie es auch angreiffe. 7. JEsus antwortet und sprach zu ihr: Martha, Martha, du hast viel Sorge und Mühe: Eins aber ist Noth. 8. Maria hat das gute Theil erwählet, und das soll nicht von ihr genommen werden.",
+    "questions": [
+      "Wo gieng JEsus abermal hin?",
+      "Wer nahm ihn auf in sein Haus?",
+      "Was hatte diese Martha vor eine Schwester?",
+      "Was that diese Maria?",
+      "Aber was that Martha unterdessen?",
+      "Wie sagte Martha zu JEsu?",
+      "Was bekam sie zur Antwort?",
+      "Und was urtheilte JEsus von ihrer Schwester Maria?"
+    ],
+    "teachings": [
+      "I. Die Wirthlichkeit ist eine schöne Tugend.\nDie können wir von der Martha lernen, welche sich viel Mühe gab, den HErrn Christum zu bedienen.",
+      "II. Die Gottseligkeit ist auch eine schöne Tugend.\nDie können wir von der Maria lernen, welche sich zu den Füssen JEsu niedersetzte, und seiner Lehre zuhörte.",
+      "III. Es ist aber an der Gottseligkeit mehr gelegen, als an der Wirthlichkeit.\nDas können wir von Christo lernen, welcher sagte: Eins ist Noth; Maria hat das gute Theil erwählet."
+    ],
+    "reflection": "Maria setzet sich zu JEsu Füssen nieder /\nUnd trägt / wie JEsus spricht / das beste Theil davon:\nHingegen Martha läuft im Hause hin und wieder /\nUnd beyde geben uns die schönste Lection;\nMaria zeigt / wie man sich soll im Glauben üben /\nUnd Martha weist / wie man soll seinen Nächsten lieben.",
+    "latin": "Auscultans verba, quæ pars est optima? Christi\nAssidet ad sanctos sancta Maria pedes.\nInterea rerum satagit pia Martha suarum:\nUtraque sancta mihi dat documenta soror.\nScilicet exemplum FIDEI dat sancta Maria,\nQuid vero sit AMOR, sedula Martha docet.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 8,
+      "teachings": 3
+    }
   }
 };

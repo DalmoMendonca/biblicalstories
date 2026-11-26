@@ -345,7 +345,10 @@
       "printed_start": 90,
       "scan_start": 96,
       "scan_start_candidate": 95,
-      "scan_end_candidate": 98
+      "scan_end_candidate": 98,
+      "scan_start_verified": 96,
+      "scan_end_verified": 98,
+      "printed_verified": "90–92"
     },
     {
       "id": 84,
