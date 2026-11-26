@@ -3264,5 +3264,58 @@ export const german1768 = {
       "III. Dieser Simeon hatte endlich auch ein seliges Herz.\nDenn er war fromm und gottesfürchtig, und der Heilige Geist war in ihm."
     ],
     "reflection": "Der alte Simeon ließ weiland in dem Tempel\nDas liebste JEsulein auf seinen Armen ruhn.\nIch nehme mir daran im Glauben ein Exempel /\nUnd will es Simeon hierinne gleiche thun:\nKan ich die Arme nicht um meinen Heiland schlagen /\nSo will ich dieses Kind doch in dem Herzen tragen."
+  },
+  "62": {
+    "pages": [
+      354,
+      357,
+      358,
+      361
+    ],
+    "printed": "208–211",
+    "latin": "JESULE! quos Reges appellant, triga magorum\nAurum thus myrrham dona tulere tibi.\nTam pretiosa tibi non possum munera ferre,\nObstat paupertas, quæ tibi nota satis.\nNe tamen affectus nullo videaris honore.\nCor tibi pro dono suscipe, quæso! meum.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "editorial_note": "Last narrative marker is printed 24 a second time; corrected to 25 to match question 25.",
+    "title": "Von der Erscheinung Christi, welche den Weisen aus Morgenlande geschehen ist.",
+    "reference": "Matth. II. Capitel.",
+    "narrative": "1. Da JEsus gebohren war zu Bethlehem im Jüdischen Lande, 2. zur Zeit des Königes Herodis, 3. da kamen die Weisen vom Morgenlande gen Jerusalem, und sprachen: 4. Wo ist der neugebohrne König der Jüden? 5. Wir haben seinen Stern gesehen im Morgenlande, 6. und sind kommen ihn anzubäten. 7. Da das der König Herodes hörete, erschrack er, und mit ihm das ganze Jerusalem. 8. Und ließ versammlen alle Hohe-Priester und Schrift-Gelehrten unter dem Volcke, 9. und forschte mit Fleiß von ihnen, wo Christus solte gebohren werden? 10. Und sie sagten ihm: Zu Bethlehem im Jüdischen Lande. 11. Das bewiesen sie aus dem Propheten Micha, in welchem geschrieben stehet: 12. Und du Bethlehem im Jüdischen Lande bist mit nichten die kleineste unter den Fürsten Juda, denn aus dir soll mir kommen der Herzog, der über mein Volck Israel ein Herr sey. 13. Da berief Herodes die Weisen heimlich, und erlernete mit Fleiß von ihnen, wenn der Stern erschienen wäre. 14. Und weisete sie gen Bethlehem, 15. und sprach: Ziehet hin, und forschet fleißig nach dem Kindlein, und wenn ihrs findet, so sagt mirs wieder, 16. daß ich auch komme, und es anbete. 17. Als die Weisen nun den König Herodem gehöret hatten, so zogen sie hin gen Bethlehem. 18. Und siehe, der Stern, den sie im Morgenlande gesehen hatten, gieng für ihnen hin, bis daß er kam, und stund oben über, da das Kindlein war. 19. Da die Weisen den Stern sahen, wurden sie hoch erfreuet. 20. Und giengen in das Haus, und funden das Kindlein, mit Maria seiner Mutter. 21. Und fielen nieder, und beteten es an. 22. Und thaten ihre Schätze auf, und schenkten ihm Gold, Weyrauch und Myrrhen. 23. Und GOtt befahl ihnen im Traume, daß sie sich nicht solten wieder zu Herodes lenken. 24. Und sie zogen durch einen andern Weg wieder in ihr Land. 25. Diese Weisen vom Morgenlande werden insgemein die heiligen drey Könige genennet.",
+    "questions": [
+      "Wo ward Christus gebohren?",
+      "Unter wessen Regierung?",
+      "Was kamen da vor fremde Leute nach Jerusalem?",
+      "Wornach fragten die weisen Heiden?",
+      "Woher wusten sie das?",
+      "Was wolten sie bey dem neu-gebohrnen Könige?",
+      "Was sagte Herodes darzu?",
+      "Was ließ Herodes zusammen fordern?",
+      "Was wolte er von ihnen wissen?",
+      "Und was gaben sie ihm zur Antwort?",
+      "Aus welchen Propheten bewiesen sie das?",
+      "Wie heist der Spruch aus dem Propheten Micha?",
+      "Was redete Herodes heimlich mit den Weisen?",
+      "Wo wies er die Weisen hin?",
+      "Was befahl er den Weisen?",
+      "Was gab Herodes vor?",
+      "Was thaten die Weisen hierauf?",
+      "Wie funden sie den Weg nach Bethlehem?",
+      "Was dachten sie bey dem Sterne?",
+      "Was funden sie in demselben Hause?",
+      "Wie verehrten sie das Kind?",
+      "Womit beschenkten sie das Kind?",
+      "Was offenbahrte GOtt den Weisen im Traume?",
+      "Was nahmen sie vor einen Rückweg.",
+      "Wie werden diese weise Heiden insgemein genennet?"
+    ],
+    "teachings": [
+      "Von den Weisen aus Morgenlande kan man lernen, wie wir mit dem HErrn JEsu umgehen sollen.\nI. Wir müssen den HErrn JEsum suchen.\nDie Weisen wurden durch einen Stern zu Christo geführet: Und wir Christen müssen uns das Wort GOttes den Weg zeigen lassen.",
+      "II. Wir müssen den HErrn JEsum anbeten.\nDie Weisen fielen vor dem sichtbaren JEsu zu Bethlehem nieder: Wir aber müssen den unsichtbaren JEsum zur Rechten seines himmlischen Vaters anbeten.",
+      "III. Wir müssen den HErrn JEsum auch beschenken.\nDie Weisen schenkten ihm Gold, Weyrauch und Myrrhen: Wir Christen aber müssen ihm ein gläubiges, andächtiges und gedultiges Herz bringen."
+    ],
+    "reflection": "Die Weisen bringen dir / HErr JEsu! schöne Gaben /\nSie tragen Weyrauch / Gold und Myrrhen in der Hand /\nDergleichen wirst du zwar von mir nicht können haben /\nDenn meine Dürftigkeit ist dir gar wohl bekannt:\nDeswegen will ich doch auf etwas anders denken /\nUnd dir / mein JEsulein / mein kleines Herze schenken."
   }
 };

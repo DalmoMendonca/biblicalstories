@@ -3332,5 +3332,59 @@ export const englishFromGerman = {
     ],
     "reflection": "The aged Simeon once in the temple\nLet the dearest infant Jesus rest upon his arms.\nI take from this an example in faith,\nAnd in this would do likewise with Simeon:\nIf I cannot clasp my arms around my Savior,\nYet I will carry this child within my heart.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "62": {
+    "pages": [
+      354,
+      357,
+      358,
+      361
+    ],
+    "printed": "208–211",
+    "latin": "JESULE! quos Reges appellant, triga magorum\nAurum thus myrrham dona tulere tibi.\nTam pretiosa tibi non possum munera ferre,\nObstat paupertas, quæ tibi nota satis.\nNe tamen affectus nullo videaris honore.\nCor tibi pro dono suscipe, quæso! meum.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "editorial_note": "Last narrative marker is printed 24 a second time; corrected to 25 to match question 25.",
+    "title": "Of the Manifestation of Christ to the Wise Men from the East.",
+    "reference": "Matthew, chapter 2.",
+    "narrative": "1. When Jesus was born in Bethlehem in the land of Judea, 2. in the time of King Herod, 3. wise men came from the East to Jerusalem and said: 4. Where is the newborn King of the Jews? 5. We have seen his star in the East, 6. and have come to worship him. 7. When King Herod heard this, he was alarmed, and all Jerusalem with him. 8. And he gathered all the chief priests and scribes among the people, 9. and diligently inquired of them where Christ should be born. 10. And they told him: In Bethlehem in the land of Judea. 11. They proved this from the prophet Micah, in whom it is written: 12. And thou Bethlehem in the land of Judea art by no means the least among the princes of Judah, for out of thee shall come unto me the governor who shall be lord over my people Israel. 13. Then Herod secretly summoned the wise men and diligently learned from them when the star had appeared. 14. And he directed them to Bethlehem, 15. and said: Go and diligently search for the infant, and when ye find him, tell me again, 16. that I also may come and worship him. 17. When the wise men had heard King Herod, they went toward Bethlehem. 18. And behold, the star which they had seen in the East went before them until it came and stood over where the infant was. 19. When the wise men saw the star, they rejoiced exceedingly. 20. And they went into the house and found the infant with Mary his mother. 21. And they fell down and worshiped him. 22. And they opened their treasures and gave him gold, frankincense, and myrrh. 23. And God commanded them in a dream that they should not return to Herod. 24. And they went back to their country by another way. 25. These wise men from the East are commonly called the three holy kings.",
+    "questions": [
+      "Where was Christ born?",
+      "Under whose rule?",
+      "What foreigners then came to Jerusalem?",
+      "After what did the wise Gentiles inquire?",
+      "How did they know this?",
+      "What did they wish to do with the newborn King?",
+      "What did Herod say to this?",
+      "Whom did Herod summon together?",
+      "What did he wish to learn from them?",
+      "And what answer did they give him?",
+      "From which prophet did they prove this?",
+      "What is the saying from the prophet Micah?",
+      "What did Herod discuss secretly with the wise men?",
+      "Where did he direct the wise men?",
+      "What did he command the wise men?",
+      "What did Herod pretend?",
+      "What did the wise men do thereafter?",
+      "How did they find the way to Bethlehem?",
+      "What did they think upon seeing the star?",
+      "What did they find in that house?",
+      "How did they honor the child?",
+      "With what did they present the child?",
+      "What did God reveal to the wise men in a dream?",
+      "What route did they take back?",
+      "What are these wise Gentiles commonly called?"
+    ],
+    "teachings": [
+      "From the wise men from the East one may learn how we should deal with the Lord Jesus.\nI. We must seek the Lord Jesus.\nThe wise men were led to Christ by a star; and we Christians must let the Word of God show us the way.",
+      "II. We must worship the Lord Jesus.\nThe wise men fell down before the visible Jesus at Bethlehem; but we must worship the invisible Jesus at the right hand of his heavenly Father.",
+      "III. We must also bring gifts to the Lord Jesus.\nThe wise men gave him gold, frankincense, and myrrh; but we Christians must bring him a believing, devout, and patient heart."
+    ],
+    "reflection": "The wise men bring thee, Lord Jesus, beautiful gifts;\nThey carry frankincense, gold, and myrrh in their hands.\nSuch things thou wilt not be able to have from me,\nFor my poverty is very well known to thee:\nTherefore I will think upon something else,\nAnd give thee, my infant Jesus, my little heart.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };
