@@ -5091,5 +5091,54 @@ export const englishFromGerman = {
       "questions": 46,
       "teachings": 3
     }
+  },
+  "99": {
+    "title": "On the Burial of the Lord Jesus",
+    "reference": "Matthew XXVII, Mark XV, Luke XXIII, and John XIX.",
+    "pages": [
+      526,
+      529,
+      530
+    ],
+    "printed": "306–308",
+    "narrative": "1. In the evening Joseph of Arimathea came to Pilate. 2. He was a rich man and an honorable councilor. 3. He had not consented to the counsel of the others, but was a pious man. 4. Indeed, he was even a disciple of Jesus, though secretly for fear of the Jews. 5. This Joseph begged Pilate to give him the body of Jesus. 6. Pilate immediately commanded that his request be granted. 7. Joseph then took the body of Jesus and wrapped it in clean linen. 8. Another man also came, named Nicodemus, 9. who brought spices, namely myrrh and aloe, about a hundred pounds. 10. Thereupon they laid Jesus in a new tomb. 11. Joseph had had it hewn out of a rock in his garden, 12. and until then no one had lain in it. 13. Joseph rolled a large stone before this tomb and went away. 14. But Mary Magdalene and another Mary were there, 15. and they sat opposite the tomb and watched how the body of Jesus was laid. 16. Afterwards the women went and prepared spices and ointments. 17. The next day the chief priests and Pharisees came together to Pilate and said: 18. Sir, we have remembered that this deceiver said while he was still alive: I will rise again after three days. 19. Therefore command that the tomb be secured until the third day, 20. lest his disciples come and steal him and say to the people that he has risen from the dead, and the last deception become worse than the first. 21. Pilate said: You have the guards; go and secure it as you know how. 22. They went and secured the tomb with guards and sealed the stone.",
+    "questions": [
+      "Who came to Pilate?",
+      "Who was this Joseph?",
+      "How had he conducted himself?",
+      "What did he think of Jesus?",
+      "What did this Joseph desire?",
+      "What answer did Pilate give?",
+      "What did he do with the body?",
+      "What other man came?",
+      "What did this Nicodemus bring?",
+      "Where did they lay Jesus?",
+      "Where was the tomb?",
+      "Had it never been used before?",
+      "How did Joseph secure the tomb?",
+      "What women were present?",
+      "What did the women want at the tomb?",
+      "What did the women prepare?",
+      "Who came to Pilate the following day?",
+      "What did the chief priests want from Pilate?",
+      "What arrangements was Pilate to make?",
+      "What purpose were the guards to serve?",
+      "What answer did Pilate give?",
+      "What did the chief priests and Pharisees do?"
+    ],
+    "teachings": [
+      "I. God has people in every station of life who fear him.\nThe great council at Jerusalem was filled with ungodly people, yet there was a pious Joseph among them. The Pharisees were the worst hypocrites in the world, yet an upright Nicodemus was found among them.",
+      "II. When one cannot prevent evil, one must at least not promote it.\nSo acted the pious councilor of Arimathea. He had indeed to allow Jesus to be condemned by the majority of votes, but it was said to his credit that he had not consented to their counsel.",
+      "III. Like gladly associates with like.\nWhen Christ was to be crucified, two ungodly men, namely Pilate and Herod, became good friends; and when Jesus was to be buried, two pious men likewise came together, namely Joseph and Nicodemus."
+    ],
+    "reflection": "In the garden the Lord began his suffering,\nWhen Iscariot delivered him to the Jews;\nAnd when his body was asked down from the cross,\nThey likewise laid him in a tomb in the garden.\nThereby all was reconciled and set right\nThat Eve had once wrought in the garden.",
+    "latin": "Prodidit Ischarioth Christum maledictus in horto,\nMortem pro nobis dum subiturus erat:\nEt corpus Domini viridi requievit in horto,\nCum finem nacta est passio dira suum.\nHortus uterque monet, primum meditemur ut hortum,\nIn quo contractum est quicquid in orbe mali est.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 22,
+      "teachings": 3
+    }
   }
 };

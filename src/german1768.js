@@ -4986,5 +4986,53 @@ export const german1768 = {
       "questions": 46,
       "teachings": 3
     }
+  },
+  "99": {
+    "title": "Von dem Begräbniß des HErrn JEsu.",
+    "reference": "Matth. XXVII. Marc. XV. Luc. XXIII. und Joh. XIX. Capitel.",
+    "pages": [
+      526,
+      529,
+      530
+    ],
+    "printed": "306–308",
+    "narrative": "1. Am Abend kam Joseph von Arimathia zu Pilato. 2. Derselbe war ein reicher Mann, und ein ehrbarer Rathsherr. 3. Er hatte nicht bewilliget in den Rath der übrigen, sondern er war ein frommer Mann. 4. Ja er war gar ein Jünger JEsu, jedoch heimlich aus Furcht vor den Jüden. 5. Dieser Joseph bat Pilatum, daß er ihm doch den Leichnam JEsu geben möchte. 6. Pilatus befahl auch alsobald, daß man ihm darinnen willfahren solte. 7. Da nahm Joseph den Leichnam JEsu, und wickelte denselben in ein rein Leinwand. 8. Es kam auch ein andrer dazu, mit Namen Nicodemus, 9. der brachte Specereyen, nemlich Myrrhen und Aloe, bey hundert Pfunden mit sich. 10. Darauf legten sie JEsum in ein neues Grab. 11. Dasselbe hatte sich Joseph in seinem Garten in einen Felsen hauen lassen, 12. und bishero hatte noch niemand darinnen gelegen. 13. Vor dieses Grab welzte Joseph einen grossen Stein und gieng davon. 14. Es war aber allda Maria Magdalena, und noch eine andere Maria, 15. die satzten sich gegen das Grab über, und schaueten, wie der Leichnam JEsu geleget ward. 16. Darnach giengen die Weiber hin, und bereiteten Specerey und Salben, 17. Des andern Tages kamen die Hohenpriester und Pharisäer sämtlich zu Pilato, und sprachen: 18. Herr, wir haben gedacht, daß dieser Verführer sprach, da er noch lebte: Ich will nach dreyen Tagen auferstehen. 19. Darum befiel, daß man das Grab verwahre bis an den dritten Tag, 20. daß nicht seine Jünger kommen, und stehlen ihn, und sagen zum Volke, er sey auferstanden von den Todten; und werde der letzte Betrug ärger denn der erste. 21. Pilatus sprach: Da habt ihr die Hüter, gehet hin, und verwahrets, wie ihr wisset. 22. Sie giengen hin, und verwahrten das Grab mit Hütern, und versiegelten den Stein.",
+    "questions": [
+      "Wer kam zu Pilato?",
+      "Wer war dieser Joseph?",
+      "Wie hatte sich derselbe aufgeführet?",
+      "Was hielt er von JEsu?",
+      "Was verlangte dieser Joseph?",
+      "Was gab Pilatus zur Antwort?",
+      "Was nahm er mit dem Leichnam vor?",
+      "Was kam vor ein andrer Mann dazu?",
+      "Was brachte dieser Nicodemus mit?",
+      "Wo legten sie JEsum hin?",
+      "Wo war das Grab?",
+      "War es noch nie gebraucht worden?",
+      "Wie verwahrte Joseph das Grab?",
+      "Was vor Weiber waren dabey?",
+      "Was wolten die Weiber beym Grabe?",
+      "Was machten die Weiber zurechte?",
+      "Wer kam des folgenden Tages zu Pilato?",
+      "Was wolten die Hohenpriester bey Pilato?",
+      "Was solte Pilatus vor Anstalt machen?",
+      "Worzu solten die Hüter dienen?",
+      "Was gab Pilatus vor Bescheid?",
+      "Was thaten die Hohenpriester und Pharisäer?"
+    ],
+    "teachings": [
+      "I. GOtt hat in allen Ständen Leute, die ihn fürchten.\nDer grosse Rath zu Jerusalem war mit gottlosen Leuten besetzet: doch war ein frommer Joseph darunter: Die Pharisäer waren die ärgsten Heuchler von der Welt; doch fand sich ein aufrichtiger Nicodemus darunter.",
+      "II. Wenn man das Böse nicht verhindern kan, so muß man es doch auch nicht befördern.\nSo machte es der fromme Raths-Herr von Arimathia: Der muste es zwar geschehen lassen, daß JEsus durch die meisten Stimmen verdammet ward: es ward ihm aber nachgerühmet, daß er nicht in ihren Rath gewilliget habe.",
+      "III. Gleich und gleich gesellet sich gerne.\nWie Christus solte gecreutziget werden, so wurden zwey Gottlosen, nemlich Pilatus und Herodes, gute Freunde mit einander; Und wie JEsus solt begraben werden, so finden sich auch zwey fromme Männer zusammen, nemlich Joseph und Nicodemus."
+    ],
+    "reflection": "Im Garten hat der HErr sein Leiden angetreten /\nAls ihn Ischarioth den Jüden übergab:\nUnd als sein Leichnam ward vom Creutze losgebeten /\nSo legten sie ihn auch im Garten in ein Grab.\nDadurch ward alles das versöhnet und geschlichtet /\nWas Eva weiland hat im Garten angerichtet.",
+    "latin": "Prodidit Ischarioth Christum maledictus in horto,\nMortem pro nobis dum subiturus erat:\nEt corpus Domini viridi requievit in horto,\nCum finem nacta est passio dira suum.\nHortus uterque monet, primum meditemur ut hortum,\nIn quo contractum est quicquid in orbe mali est.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 22,
+      "teachings": 3
+    }
   }
 };
