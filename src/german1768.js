@@ -3399,5 +3399,44 @@ export const german1768 = {
       "questions": 15,
       "teachings": 3
     }
+  },
+  "65": {
+    "title": "Wie Johannes der Täuffer sein Amt angetreten hat.",
+    "reference": "Matthäi III. Capitel.",
+    "pages": [
+      368,
+      371,
+      372
+    ],
+    "printed": "216–218",
+    "narrative": "1. Johannes der Täuffer fieng an zu predigen in der Wüsten des Jüdischen Landes. 2. Dadurch ward der Spruch des Propheten Esaiä erfüllet: Es ist eine Stimme eines Predigers in der Wüsten, bereitet dem HErrn den Weg, und machet richtig seine Steige. 3. Dieser Johannes hatte ein Kleid von Cameel-Haaren, und einen ledernen Gürtel um seine Lenden. 4. Seine Speise aber war Heuschrecken und wild Honig. 5. Der Anfang seiner Predigt war dieser: Thut Busse, das Himmelreich ist nahe herbey kommen. 6. Da gieng zu ihm hinaus die Stadt Jerusalem, und das ganze Jüdische Land, und alle Länder an dem Jordan. 7. Und liessen sich tauffen von ihm im Jordan, und bekanten ihre Sünde. 8. Als er nun viele Pharisäer und Sadducäer sahe zu seiner Tauffe kommen, sprach er zu ihnen: Ihr Ottergezüchte, wer hat denn euch gewiesen, daß ihr dem zukünftigen Zorne entrinnen werdet? 9. Und er sprach zu ihnen: Sehet zu, thut rechtschaffene Früchte der Busse. 10. Er warnete sie ferner, sie solten sich nicht darauf verlassen, daß sie von Abraham herstammeten, und daß sie GOtt nicht also verstossen könnte. 11. Denn GOtt könnte dem Abraham auch aus Steinen Kinder erwecken, und seine Verheissungen an ihnen erfüllen. 12. Endlich verglich Johannes die unbußfertigen Sünder mit den unfruchtbaren Bäumen, und sagte diesen Spruch: 13. Es ist schon die Axt den Bäumen an die Wurzel geleget, welcher Baum nicht gute Früchte bringet der wird abgehauen und ins Feuer geworffen.",
+    "questions": [
+      "Wo predigte Johannes der Täuffer?",
+      "Was vor ein Spruch ward hierdurch erfüllet?",
+      "Was hatte Johannes vor Kleidung?",
+      "Und was war seine Speise?",
+      "Was war der Anfang seiner Predigt?",
+      "Wer kam denn zu Johanne in der Wüsten?",
+      "Was verlangten sie von Johanne?",
+      "Wie empfieng Johannes die Pharisäer und Sadducäer?",
+      "Was gab er ihnen vor eine Vermahnung?",
+      "Was gab er ihnen vor eine Warnung?",
+      "Warum solten die Juden nicht auf Abraham trotzen?",
+      "Womit verglich Johannes die unbußfertigen Sünder?",
+      "Was führte er vor einen Spruch davon im Munde?"
+    ],
+    "teachings": [
+      "I. Man lernet hieraus, wo man anfangen muß, wenn man will fromm werden.\nNemlich man muß von der wahren Busse den Anfang machen.\nDenn so fängt Johannes seine Predigt an: Thut Busse, denn das Himmelreich ist nahe herbey kommen.",
+      "II. Man lernet ferner aus dieser Historie, wie die wahre Busse müsse beschaffen seyn.\nNemlich es müssen rechtschaffene Früchte eines heiligen Lebens darauf erfolgen.\nDenn Johannes saget: Sehet zu, thut rechtschaffene Früchte der Busse!",
+      "III. Man lernet endlich daraus, was die Unbußfertigen vor eine Strafe zu gewarten haben.\nNemlich sie werden in das höllische Feuer geworffen werden.\nDenn Johannes saget: Welcher Baum nicht gute Früchte bringet, der wird abgehauen und ins Feuer geworffen."
+    ],
+    "reflection": "An einem Baume muß man gute Früchte schauen /\nDas heist / der Glaube muß durch Wercke fruchtbar seyn;\nGeschiehet solches nicht / so wird er abgehauen /\nUnd GOtt wirfft ihn zuletzt in Schwefel-Pful hinein.\nKan ich gleich als ein Kind noch nicht mit Früchten prangen /\nSo soll mein Bäumlein doch voll schöner Blüthen hangen.",
+    "latin": "Sicubi se nullis commendat fructibus arbor,\nCæditur, & rapido traditur esca foco:\nSi homo, quando fides nullos fert mortua fructus,\nFlammis sulphureis excruciandus erit.\nSi nos destituunt fructus puerilibus annis;\nFlosculus in nobis unus & alter adest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 13,
+      "teachings": 3
+    }
   }
 };

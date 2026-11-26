@@ -3470,5 +3470,45 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "65": {
+    "title": "How John the Baptist Entered upon His Office.",
+    "reference": "Matthew, chapter 3.",
+    "pages": [
+      368,
+      371,
+      372
+    ],
+    "printed": "216–218",
+    "narrative": "1. John the Baptist began to preach in the wilderness of Judea. 2. Thereby the saying of the prophet Isaiah was fulfilled: It is the voice of one preaching in the wilderness, prepare ye the way of the Lord, and make his paths straight. 3. This John had a garment of camel's hair and a leather girdle about his loins. 4. His food was locusts and wild honey. 5. The beginning of his preaching was this: Repent, the kingdom of heaven is at hand. 6. Then the city of Jerusalem, all Judea, and all the lands along the Jordan went out to him. 7. And they were baptized by him in the Jordan and confessed their sins. 8. When he saw many Pharisees and Sadducees coming to his baptism, he said to them: Ye brood of vipers, who has shown you that you shall escape the wrath to come? 9. And he said to them: See that ye bring forth worthy fruits of repentance. 10. He further warned them not to rely on their descent from Abraham, as though God could not therefore reject them. 11. For God could raise up children to Abraham even out of stones and fulfill his promises in them. 12. Finally John compared impenitent sinners to barren trees and uttered this saying: 13. The axe is already laid to the root of the trees; whichever tree brings not forth good fruit is hewn down and cast into the fire.",
+    "questions": [
+      "Where did John the Baptist preach?",
+      "What saying was thereby fulfilled?",
+      "What clothing did John have?",
+      "And what was his food?",
+      "What was the beginning of his preaching?",
+      "Who then came to John in the wilderness?",
+      "What did they desire of John?",
+      "How did John receive the Pharisees and Sadducees?",
+      "What exhortation did he give them?",
+      "What warning did he give them?",
+      "Why were the Jews not to boast of Abraham?",
+      "To what did John compare impenitent sinners?",
+      "What saying concerning this did he utter?"
+    ],
+    "teachings": [
+      "I. From this we learn where one must begin if one wishes to become godly.\nNamely, one must begin with true repentance.\nFor thus John begins his preaching: Repent, for the kingdom of heaven is at hand.",
+      "II. We further learn from this story what true repentance must be like.\nNamely, worthy fruits of a holy life must follow it.\nFor John says: See that ye bring forth worthy fruits of repentance!",
+      "III. Finally we learn from it what punishment the impenitent have to expect.\nNamely, they will be cast into the fire of hell.\nFor John says: Whichever tree brings not forth good fruit is hewn down and cast into the fire."
+    ],
+    "reflection": "On a tree one must behold good fruits;\nThat is, faith must be fruitful through works.\nIf this does not happen, it is hewn down,\nAnd God at last casts it into the pool of brimstone.\nThough as a child I cannot yet boast of fruits,\nLet my little tree nevertheless hang full of lovely blossoms.",
+    "latin": "Sicubi se nullis commendat fructibus arbor,\nCæditur, & rapido traditur esca foco:\nSi homo, quando fides nullos fert mortua fructus,\nFlammis sulphureis excruciandus erit.\nSi nos destituunt fructus puerilibus annis;\nFlosculus in nobis unus & alter adest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 13,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
