@@ -3774,5 +3774,45 @@ export const german1768 = {
       "questions": 17,
       "teachings": 3
     }
+  },
+  "74": {
+    "title": "Von dem Manne mit der verdorreten Hand.",
+    "reference": "Matth. XII. Marc. III. und Luc. IV. Cap.",
+    "pages": [
+      406,
+      409,
+      410
+    ],
+    "printed": "236–238",
+    "narrative": "1. JEsus gieng an einem Sabbathe in eine Schule und lehrete. 2. Und siehe da war ein Mensch, der hatte eine verdorrete Hand. 3. Da fragten die Pharisäer und Schrifftgelehrten, obs auch recht wäre auf den Sabbath heilen? 4. Das thaten sie aber darum, auf daß sie eine Sache wider ihn hätten. 5. JEsus sagte: Welcher ist unter euch, dem ein Schaf am Sabbath in eine Grube fällt, der es nicht ergreiffe und aufhebe? 6. Daraus machte JEsus den Schluß: Weil ein Mensch ja viel besser wäre, als ein Schaf, so dürffte man wohl am Sabbathe Gutes thun. 7. Darauf sagte JEsus zu dem Menschen, der die verdorrete Hand hatte: Stehe auf, und tritt hervor. 8. Wie das geschehen war, so fragte JEsus nochmals, was sich geziemete zu thun am Sabbath, Gutes oder Böses? 9. Die Pharisäer aber schwiegen stockstille darzu. 10. Da sahe sie JEsus rings herum an mit Zorne, und war betrübt über ihre verstockte Herzen. 11. Endlich sprach er zu dem Menschen: Strecke deine Hand aus. 12. Als er nun dieses that, so ward sie ihm gesund, wie die andere. 13. Da wurden die Pharisäer ganz unsinnig, und rathschlagten, wie sie JEsum umbringen wolten. 14. Da aber JEsus das erfuhr, so wich er von dannen.",
+    "questions": [
+      "Was that JEsus an einem Sabbathe?",
+      "Wer war denn in der Schule?",
+      "Was warffen die Pharisäer vor eine Frage auf?",
+      "Warum fragten sie das?",
+      "Was that der HErr JEsus vor eine Gegen-Frage?",
+      "Was machte JEsus vor einen Schluß daraus?",
+      "Was sagte JEsus zu dem Menschen?",
+      "Was ließ JEsus noch vor eine Frage an die Pharisäer abgehen?",
+      "Was bekam er zur Antwort?",
+      "Wie geberdete sich JEsus darüber?",
+      "Was sagte der Heiland endlich zu dem Menschen?",
+      "Was trug sich mit der Hand zu?",
+      "Wie gefiel solches den Pharisäern?",
+      "Wie entgieng JEsus der Gefahr?"
+    ],
+    "teachings": [
+      "I. Am Sabbath ist unverboten, Wercke der Liebe und der Barmherzigkeit an seinem Nächsten zu thun.\nDenn da haben wir Christi Exempel vor uns, der am Sabbath viel Krancken geheilet hat.",
+      "II. Der liebe GOtt hat keinen Gefallen am Verderben des Gottlosen.\nDenn hier betrübte sich der HErr JEsus recht sehr, wie er sahe, daß seine Feinde die Pharisäer, so verstocktes Herzens waren.",
+      "III. Die in das Gerichte der Verstockung fallen, die werden von Tage zu Tage ärger:\nSo wurden die Pharisäer auf die letzt ganz unsinnig, wie Christus ein Wunder nach dem andern vor ihren Augen that."
+    ],
+    "reflection": "Zwey Hände hat mir GOtt gesund und frisch gegeben /\nDie will ich Lebenslang nicht lassen müßig ruhn;\nErst will ich sie zu GOtt gen Himmel hoch erheben /\nDrauf sollen sie ihr Werck und Amt mit Freuden thun.\nDas heißt! ich will zuerst das ORA wohl ermessen /\nUnd das LABORA auch darneben nicht vergessen.",
+    "latin": "Me quia donavit manibus natura duabus,\nOtia fas non est desidiosa sequi.\nMane meas supplex palmas ad sidera tendam,\nPostque preces peragam rite laboris opus.\nMajores ORA dixerunt atque LABORA:\nEt melior vitæ regula nulla datur.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    }
   }
 };

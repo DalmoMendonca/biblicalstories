@@ -3854,5 +3854,46 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "74": {
+    "title": "Of the Man with the Withered Hand.",
+    "reference": "Matthew 12; Mark 3; Luke 4 (as printed).",
+    "pages": [
+      406,
+      409,
+      410
+    ],
+    "printed": "236–238",
+    "narrative": "1. Jesus went into a synagogue on a Sabbath and taught. 2. And behold, there was a man who had a withered hand. 3. Then the Pharisees and scribes asked whether it was right to heal on the Sabbath. 4. But they did this that they might have a charge against him. 5. Jesus said: Which of you, if a sheep falls into a pit on the Sabbath, would not take hold of it and lift it out? 6. From this Jesus drew the conclusion: Since a man is much better than a sheep, one may indeed do good on the Sabbath. 7. Thereupon Jesus said to the man who had the withered hand: Rise and come forward. 8. When this had happened, Jesus asked again what it was fitting to do on the Sabbath, good or evil? 9. But the Pharisees kept quite silent. 10. Then Jesus looked round upon them with anger and was grieved at their hardened hearts. 11. Finally he said to the man: Stretch forth thy hand. 12. When he did so, it became sound like the other. 13. Then the Pharisees became quite furious and took counsel how they might kill Jesus. 14. But when Jesus learned this, he departed thence.",
+    "questions": [
+      "What did Jesus do on a Sabbath?",
+      "Who was in the synagogue?",
+      "What question did the Pharisees raise?",
+      "Why did they ask this?",
+      "What question did the Lord Jesus ask in return?",
+      "What conclusion did Jesus draw from this?",
+      "What did Jesus say to the man?",
+      "What further question did Jesus put to the Pharisees?",
+      "What answer did he receive?",
+      "How did Jesus conduct himself at this?",
+      "What did the Savior finally say to the man?",
+      "What happened to the hand?",
+      "How did the Pharisees like this?",
+      "How did Jesus escape the danger?"
+    ],
+    "teachings": [
+      "I. On the Sabbath it is not forbidden to perform works of love and mercy toward one's neighbor.\nFor we have Christ's example before us, who healed many sick people on the Sabbath.",
+      "II. The dear God takes no pleasure in the destruction of the wicked.\nFor here the Lord Jesus was greatly grieved when he saw that his enemies, the Pharisees, were so hardened of heart.",
+      "III. Those who fall under the judgment of hardening grow worse from day to day.\nThus the Pharisees finally became quite furious when Christ performed one miracle after another before their eyes."
+    ],
+    "reflection": "God has given me two hands, healthy and strong;\nThroughout my life I will not let them rest idly;\nFirst I will raise them high toward God in heaven,\nThen they shall perform their work and duty with joy.\nThat is, I will first duly consider the ORA,\nAnd will not forget the LABORA alongside it.",
+    "latin": "Me quia donavit manibus natura duabus,\nOtia fas non est desidiosa sequi.\nMane meas supplex palmas ad sidera tendam,\nPostque preces peragam rite laboris opus.\nMajores ORA dixerunt atque LABORA:\nEt melior vitæ regula nulla datur.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
