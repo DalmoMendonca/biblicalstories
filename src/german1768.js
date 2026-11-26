@@ -4498,7 +4498,7 @@ export const german1768 = {
     ],
     "reflection": "Mein JEsu! der du selbst die Sanftmuth bist gewesen /\nWeswegen hast du doch den Feigen-Baum verflucht?\nDoch warum frag ich erst? Ich hab es ja gelesen:\nDer Baum war schuld daran / denn er trug keine Frucht.\nMein Heyland willst du auch nach meinen Früchten fragen?\nIch habe zwar nicht viel / doch gleichwohl was getragen.",
     "latin": "Cum mansuetudo sis ipsa piissime JESU!\nCur male sycomoro dicere non dubitas?\nSed quorsum hoc quæro? Foliorum veste superbis.\nFicubus optatis sed caret arbor iners.\nIn me si fidei fructus quoque, Christe! requiris:\nNon multos; aliquos attamen arbor habet.",
-    "editorial_notes": "Heidelberg p. 274 prints question 3 'Wie verfluchte ...' corresponding to narrative marker 4, and p. 275 resumes with question 5. Only eight questions are printed; no missing question supplied. question_numbers records the corrected correspondence; all nine narrative markers preserved. Printed page 274 is mislabelled 174 in the archive metadata.",
+    "editorial_notes": "Heidelberg p. 274 prints question 3 'Wie verfluchte ...' corresponding to narrative marker 4, and p. 275 resumes with question 5. Only eight questions are printed; no missing question supplied. question_numbers records the corrected correspondence; all nine narrative markers preserved. The Heidelberg leaf corresponding to page 274 is printed 174; the archive preserves that label.",
     "source_compared": true,
     "independent_review": false,
     "expected": {

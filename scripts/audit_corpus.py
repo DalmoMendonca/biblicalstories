@@ -20,6 +20,14 @@ def numbered(w,lang):
     # subsequence and reject missing/reversed main markers.
     nums=[int(n) for n in re.findall(r"(?<!\w)(\d+)[.)](?=\s)",t)]
     expected=list(range(1,len(w["questions"])+1))
+    if "question_numbers" in w:
+        expected=w["question_numbers"]
+        if (not isinstance(expected,list) or len(expected)!=len(w["questions"])
+            or not expected or any(type(n) is not int or n<1 for n in expected)
+            or expected!=sorted(set(expected)) or expected[0]!=1
+            or not w.get("editorial_notes")
+            or nums!=list(range(1,expected[-1]+1))):
+            return False,nums
     pos=0
     for n in nums:
         if pos<len(expected) and n==expected[pos]:pos+=1
@@ -56,6 +64,7 @@ def main():
                         for field in ("questions","teachings"):
                             if w["expected"].get(field)!=len(w[field]):errors.append("source-count-mismatch-"+field)
                     if lang=="en" and g:
+                        if w.get("question_numbers")!=g.get("question_numbers"):errors.append("german-english-question-number-mismatch")
                         if any(len(w[f])!=len(g[f]) for f in ("questions","teachings")) or len(w["reflection"].splitlines())!=len(g["reflection"].splitlines()):errors.append("german-english-section-count-mismatch")
                     for f in FIELDS:
                         value=w[f] if isinstance(w[f],str) else "\n".join(w[f])

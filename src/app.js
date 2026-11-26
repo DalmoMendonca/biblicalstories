@@ -115,6 +115,9 @@ function textParagraphs(value){
   const blocks=String(value||"").trim().split(/\n\s*\n/).filter(Boolean);
   return blocks.map(p=>"<p>"+esc(p.replace(/\n/g," ").replace(/ {2,}/g," "))+"</p>").join("");
 }
+function questionList(w){
+  return '<ol>'+w.questions.map((q,i)=>'<li'+(w.question_numbers?' value="'+esc(w.question_numbers[i])+'"':'')+'>'+esc(q)+'</li>').join("")+'</ol>';
+}
 function chapterContent(p){
   const lang=s.lang;
   const german=lang==="de" ? german1768[p.id] : null;
@@ -124,7 +127,7 @@ function chapterContent(p){
     return '<p class="source-heading">Gießen 1768 · S. '+esc(german.printed)+' · '+links+'</p>'
       +'<div class="edition-prose" lang="de"><p><em>'+esc(german.title)+'</em></p><p>'+esc(german.reference)+'</p>'
       +textParagraphs(german.narrative)
-      +'<h2>Deutliche Fragen</h2><ol>'+german.questions.map(q=>'<li>'+esc(q)+'</li>').join("")+'</ol>'
+      +'<h2>Deutliche Fragen</h2>'+questionList(german)
       +'<h2>Nützliche Lehren</h2>'+german.teachings.map(t=>'<p>'+verses(t)+'</p>').join("")
       +'<h2>Gottselige Gedancken</h2><p>'+verses(german.reflection)+'</p>'
       +'<h2>Lateinisch</h2><p lang="la">'+verses(german.latin)+'</p></div>'
@@ -138,7 +141,7 @@ function chapterContent(p){
     return '<p class="source-heading">New English translation · from Gießen 1768 · pp. '+esc(translated.printed)+' · '+links+'</p>'
       +'<div class="edition-prose" lang="en"><p><em>'+esc(translated.title)+'</em></p><p>'+esc(translated.reference)+'</p>'
       +textParagraphs(translated.narrative)
-      +'<h2>Comprehension Questions</h2><ol>'+translated.questions.map(q=>'<li>'+esc(q)+'</li>').join("")+'</ol>'
+      +'<h2>Comprehension Questions</h2>'+questionList(translated)
       +'<h2>Useful Teachings</h2>'+translated.teachings.map(t=>'<p>'+verses(t)+'</p>').join("")
       +'<h2>Devotional Reflections</h2><p>'+verses(translated.reflection)+'</p>'
       +'<h2>Latin</h2><p lang="la">'+verses(translated.latin)+'</p></div>'
@@ -153,7 +156,7 @@ function chapterContent(p){
     return '<p class="source-heading">'+esc(russian.edition)+' · с. '+esc(russian.printed)+' · '+links+'</p>'
       +'<div class="edition-prose" lang="ru"><p><em>'+esc(russian.title)+'</em></p><p>'+esc(russian.reference)+'</p>'
       +textParagraphs(russian.narrative)
-      +'<h2>Вопросы</h2><ol>'+russian.questions.map(q=>'<li>'+esc(q)+'</li>').join("")+'</ol>'
+      +'<h2>Вопросы</h2>'+questionList(russian)
       +'<h2>Полезныя нравоученія</h2>'+textParagraphs(russian.teaching_preamble)+russian.teachings.map(t=>'<p>'+verses(t)+'</p>').join("")
       +'<h2>Благочестивыя размышленія</h2>'+textParagraphs(russian.reflection)
       +(russian.latin?'<h2>Латинскій текстъ</h2><p lang="la">'+verses(russian.latin)+'</p>':originalLatin?'<h2>Latin · Gießen 1768</h2><p lang="la">'+verses(originalLatin)+'</p>':'')+'</div>'

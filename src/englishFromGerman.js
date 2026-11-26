@@ -4594,7 +4594,7 @@ export const englishFromGerman = {
     "reflection": "My Jesus! You who were gentleness itself,\nWhy then did you curse the fig tree?\nBut why do I even ask? I have indeed read it:\nThe tree was to blame, for it bore no fruit.\nMy Savior, will you also ask after my fruits?\nI have not borne much, but nevertheless something.",
     "latin": "Cum mansuetudo sis ipsa piissime JESU!\nCur male sycomoro dicere non dubitas?\nSed quorsum hoc quæro? Foliorum veste superbis.\nFicubus optatis sed caret arbor iners.\nIn me si fidei fructus quoque, Christe! requiris:\nNon multos; aliquos attamen arbor habet.",
     "kind": "new-translation-from-transcribed-german",
-    "editorial_notes": "Heidelberg p. 274 prints question 3 'Wie verfluchte ...' corresponding to narrative marker 4, and p. 275 resumes with question 5. Only eight questions are printed; no missing question supplied. question_numbers records the corrected correspondence; all nine narrative markers preserved. Printed page 274 is mislabelled 174 in the archive metadata.",
+    "editorial_notes": "Heidelberg p. 274 prints question 3 'Wie verfluchte ...' corresponding to narrative marker 4, and p. 275 resumes with question 5. Only eight questions are printed; no missing question supplied. question_numbers records the corrected correspondence; all nine narrative markers preserved. The Heidelberg leaf corresponding to page 274 is printed 174; the archive preserves that label.",
     "source_compared": true,
     "independent_review": false,
     "expected": {
