@@ -4633,5 +4633,49 @@ export const englishFromGerman = {
       "questions": 5,
       "teachings": 3
     }
+  },
+  "91": {
+    "title": "On the Ten Virgins",
+    "reference": "Matthew, chapter XXV.",
+    "pages": [
+      482,
+      485,
+      486
+    ],
+    "printed": "278–280",
+    "narrative": "1. Jesus said that on the last day the kingdom of heaven would be like ten virgins, 2. who took their lamps and went out to meet the bridegroom. 3. But five of them were foolish and five were wise. 4. The foolish took their lamps, but took no oil with them. 5. But the wise took oil in their vessels together with their lamps. 6. Now as the bridegroom delayed, they all became drowsy and fell asleep. 7. But at midnight there was a cry: Behold, the bridegroom comes; go out to meet him. 8. Then all the virgins arose and trimmed their lamps. 9. But the foolish said to the wise: Give us of your oil, for our lamps are going out. 10. Then the wise answered and said: Not so, lest there be too little for us and you. 11. But go to the merchants and buy for yourselves. 12. And as they went to buy, the bridegroom came, 13. and those who were ready went in with him to the wedding, 14. and the door was shut. 15. At last the other virgins also came and said: Lord, Lord, open to us! 16. But he answered and said: Truly, I say to you, I know you not. 17. Watch therefore, for you know neither the day nor the hour in which the Son of Man will come.",
+    "questions": [
+      "To what will the kingdom of heaven be likened at the end of the world?",
+      "What did the ten virgins do?",
+      "What difference was there among them?",
+      "What preparations did the foolish make?",
+      "How, on the other hand, did the wise conduct themselves?",
+      "What happened to them when the bridegroom delayed so long?",
+      "What cry arose at midnight?",
+      "What did the virgins do when they heard the cry?",
+      "What did the foolish say to the wise?",
+      "What answer did the wise give?",
+      "But what advice did they give the foolish?",
+      "What happened meanwhile, while they were at the merchants' shops?",
+      "Which virgins went in with the bridegroom to the wedding?",
+      "Was the door not left open for the others as well?",
+      "What did the foolish do when they came and the door was shut?",
+      "What answer did the bridegroom give them?",
+      "With what good admonition did the Lord Jesus conclude this parable?"
+    ],
+    "teachings": [
+      "There are in this history three sets of three figurative words which one must learn to understand if one wishes to profit from this parable.\nI. The first three figurative words:\n1. The ten virgins signify all souls baptized into Christ.\n2. The five wise virgins are the genuine Christians of the heart.\n3. The five foolish virgins are the hypocritical Christians of the mouth.",
+      "II. The other three figurative words:\n1. The kingdom of heaven signifies Christ's kingdom of grace on earth, which is called the Christian Church.\n2. By the lamp is understood the conduct of a Christian's life.\n3. The oil is nothing other than saving faith, which works through love.",
+      "III. The last three figurative words:\n1. The bridegroom is the Lord Jesus, who wishes to betroth himself to us for eternity.\n2. The wedding is eternal life, or the kingdom of glory in heaven.\n3. The midnight hour is the Last Day, or the end of the world."
+    ],
+    "reflection": "Five virgins were not allowed to come to the wedding,\nBecause no oil of faith was found in their lamps;\nThe other five the bridegroom took with him,\nFor these had oil and lamps at hand.\nI will go in good time to buy the oil,\nSo that the bridegroom does not leave me standing before the door.",
+    "latin": "Virginibus stolidis accessus quinque negatur,\nDum pulsant oleo deficiente fores:\nIntroeunt reliquæ sponso veniente puellæ,\nQueis oleo ardenti lucida lampas erat,\nSancta fides oleum est, hoc semper habebo paratum,\nNe sit cœlorum janua clausa mihi.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 17,
+      "teachings": 3
+    }
   }
 };

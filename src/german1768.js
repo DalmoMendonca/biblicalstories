@@ -4536,5 +4536,48 @@ export const german1768 = {
       "questions": 5,
       "teachings": 3
     }
+  },
+  "91": {
+    "title": "Von den zehen Jungfrauen.",
+    "reference": "Matthäi XXV. Capitel.",
+    "pages": [
+      482,
+      485,
+      486
+    ],
+    "printed": "278–280",
+    "narrative": "1. JEsus sprach, am jüngsten Tage würde das Himmelreich gleich seyn zehen Jungfrauen, 2. die ihre Lampen nahmen, und giengen aus dem Bräutigam entgegen. 3. Aber fünffe unter ihnen waren thöricht, und fünffe waren klug. 4. Die Thörichten nahmen ihre Lampen, aber sie nahmen nicht Oel mit sich. 5. Die Klugen aber nahmen Oel in ihren Gefässen samt ihren Lampen. 6. Da nun der Bräutigam verzog, wurden sie alle schläffrig, und entschliefen. 7. Zu Mitternacht aber war ein Geschrey: Siehe, der Bräutigam kömmt, gehet aus ihm entgegen. 8. Da stunden die Jungfrauen alle auf, und schmückten ihre Lampen. 9. Die Thörichten aber sprachen zu den Klugen: Gebet uns von eurem Oele, denn unsere Lampen verlöschen. 10. Da antworteten die Klugen und sprachen: Nicht also, auf daß nicht uns und euch gebreche. 11. Gehet aber hin zu den Krämern, und kauffet für euch selbst. 12. Und da sie hingiengen zu kauffen, kam der Bräutigam, 13. und welche bereit waren, giengen mit ihm hinein zur Hochzeit, 14. und die Thüre ward verschlossen. 15. Zuletzt kamen auch die andern Jungfrauen und sprachen: HErr, HErr, thue uns auf! 16. Er antwortet aber und sprach: Warlich, ich sage euch, ich kenne euer nicht. 17. Darum wachet, denn ihr wisset weder Tag noch Stunde, in welcher des Menschen Sohn kommen wird.",
+    "questions": [
+      "Wem wird das Himmelreich am Ende der Welt gleich seyn?",
+      "Was thaten die zehen Jungfrauen?",
+      "Was war denn vor ein Unterschied unter ihnen?",
+      "Was machten die Thörichten vor Anstalt?",
+      "Wie führten sich hingegen die Klugen auf?",
+      "Was trug sich mit ihnen zu, wie der Bräutigam so lange verzog?",
+      "Was entstund um Mitternacht vor ein Geschrey?",
+      "Was thaten die Jungfrauen, wie sie das Geschrey hörten?",
+      "Was sagten die Thörichten zu den Klugen?",
+      "Was gaben die Klugen zur Antwort?",
+      "Aber was gaben sie den Thörichten vor einen Rath?",
+      "Was trug sich unterdessen zu, weil sie bey den Krämern waren?",
+      "Welche Jungfrauen giengen mit dem Bräutigam hinein zur Hochzeit?",
+      "Ward die Thüre nicht auch vor die andern offen gelassen?",
+      "Wie machten es denn die Thörichten, als sie kamen, und die Thüre verschlossen war?",
+      "Was gab ihnen der Bräutigam zur Antwort?",
+      "Mit was vor einer guten Vermahnung hat der HErr JEsus dieses Gleichniß beschlossen?"
+    ],
+    "teachings": [
+      "Es sind in dieser Historie dreymal drey verblümte Wörter, die man muß verstehen lernen, wenn man sich dieses Gleichniß will zu Nutze machen.\nI. Die ersten drey verblümte Wörter:\n1. Die zehen Jungfrauen bedeuten alle auf Christum getauffte Seelen.\n2. Die fünf klugen Jungfrauen sind die rechtschaffenen Hertz-Christen.\n3. Die fünf thörichten Jungfrauen sind die heuchlerischen Maul-Christen.",
+      "II. Die andern drey verblümten Wörter:\n1. Das Himmelreich bedeutet das Gnaden-Reich Christi auf Erden, welches die Christliche Kirche genennet wird.\n2. Durch die Lampe wird der Lebens-Wandel eines Christen verstanden.\n3. Das Oel ist nichts anders, als der seligmachende Glaube, der durch die Liebe thätig ist.",
+      "III. Die letzten drey verblümten Wörter:\n1. Der Bräutigam ist der HErr JEsus, welcher sich mit uns verloben will in Ewigkeit.\n2. Die Hochzeit aber ist das ewige Leben, oder das Reich der Herrlichkeit im Himmel.\n3. Die Mitternachts-Stunde ist der Jüngste Tag, oder das Ende der Welt."
+    ],
+    "reflection": "Fünf Jungfern durften nicht mit zu der Hochzeit kommen:\nWeil sich kein Glaubens-Oel in ihren Lampen fand;\nDie andern fünffe hat der Bräutigam mitgenommen;\nDenn diese hatten Oel und Lampen bey der Hand.\nIch will bey guter Zeit, das Oel zu kauffen / gehen /\nDaß mich der Bräutigam nicht läßt vor der Thüre stehen.",
+    "latin": "Virginibus stolidis accessus quinque negatur,\nDum pulsant oleo deficiente fores:\nIntroeunt reliquæ sponso veniente puellæ,\nQueis oleo ardenti lucida lampas erat,\nSancta fides oleum est, hoc semper habebo paratum,\nNe sit cœlorum janua clausa mihi.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 17,
+      "teachings": 3
+    }
   }
 };
