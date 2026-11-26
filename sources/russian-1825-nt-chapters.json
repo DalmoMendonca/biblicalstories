@@ -70,7 +70,10 @@
       "printed_start": 16,
       "scan_start": 22,
       "scan_start_candidate": 21,
-      "scan_end_candidate": 24
+      "scan_end_candidate": 24,
+      "scan_start_verified": 22,
+      "scan_end_verified": 23,
+      "printed_verified": "16–17"
     },
     {
       "id": 59,

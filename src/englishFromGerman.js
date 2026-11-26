@@ -3180,5 +3180,46 @@ export const englishFromGerman = {
     ],
     "reflection": "The child John grew and became strong in spirit;\nThe hand of the Lord was in all that he did.\nAh yes, on this most depends in rearing children:\nWhether our dear God holds them in his hands.\nO God, extend thy hand to me also from on high,\nThat as a child I may walk the path of virtue.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "58": {
+    "pages": [
+      341,
+      342
+    ],
+    "printed": "201–202",
+    "latin": "Num duro in stabulo fas est, requiescere JESum;\nDum mulcent corpus mollia strata meum?\nNon fero, quod nulla prorsus ratione ferendum est,\nSit præsepe tuum cor, pie Christe! meum:\nAut si submissis precibus non flecteris istis,\nIn stabulo tecum me recubare sinas.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "editorial_note": "Printed question 13 is misnumbered 17; corrected to 13 to match the narrative.",
+    "title": "Of the Birth of Christ.",
+    "reference": "Luke, chapter 2.",
+    "narrative": "1. It came to pass in those days that a decree went out from Emperor Augustus that all the world should be enrolled. 2. And this enrollment was the very first, and took place when Cyrenius was governor in Syria. 3. And everyone went to be enrolled, each to his own city. 4. Joseph also set out from Galilee, from the city of Nazareth, 5. to the city of David, which is called Bethlehem, 6. because he was of the house and lineage of David. 7. That he might be enrolled, 8. with Mary his betrothed wife, 9. who was with child. 10. And while they were there, the time came that she should give birth. 11. And she bore her first son, 12. wrapped him in swaddling clothes, 13. and laid him in a manger, 14. for they had no other room in the inn.",
+    "questions": [
+      "What decree did Emperor Augustus issue?",
+      "What kind of enrollment was this?",
+      "Whither did the people travel on this account?",
+      "Whence did Joseph depart?",
+      "And whither did he go?",
+      "Why to the city of David?",
+      "What did Joseph intend to do at Bethlehem?",
+      "With whom did Joseph travel?",
+      "What was Mary's condition at that time?",
+      "What happened at Bethlehem?",
+      "What did Mary bring into the world?",
+      "In what did she wrap the child?",
+      "In what did she lay the newborn infant Jesus?",
+      "Why then in the manger?"
+    ],
+    "teachings": [
+      "I. The enrollment was proclaimed by Emperor Augustus.\nFor the promised land was then under the authority of the Roman emperor.",
+      "II. Everyone went to be enrolled.\nThat is, everyone had to declare his name, lineage, age, and property.",
+      "III. Joseph traveled from Nazareth to Bethlehem.\nThese two cities lay approximately twelve German miles apart."
+    ],
+    "reflection": "My Jesus, should I see thee lying in the stable,\nWhile I myself should rest upon my little bed?\nO Savior of all the world! I will not let this happen;\nCome, Jesus, come! My heart shall be thy cradle.\nIf even my prayer cannot move thee to this,\nThen I will lay myself beside thee in thy manger.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };

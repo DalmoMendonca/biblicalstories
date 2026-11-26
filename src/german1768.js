@@ -3116,5 +3116,45 @@ export const german1768 = {
       "III. Bey der Geburt Johannis ward der HErr gelobet und gepreiset, daß er solche Barmherzigkeit an Mutter und Kinder gethan hatte.\nAlso sollen auch die Christen bey ihren Kind-Tauffen nicht auf Pracht und Wohlleben, sondern zuvörderst auf das Lob GOttes bedacht seyn."
     ],
     "reflection": "Das Kind Johannis wuchs / und wurde stark im Geiste /\nDie Hand des HErren war in allem / was er that.\nAch ja darauf beruht beym Kinderziehn das meiste /\nOb sie der liebe GOtt in seinen Händen hat.\nGOtt / reiche mir doch auch die Hand aus deiner Höhe /\nDamit ich als ein Kind den Weg zur Tugend gehe."
+  },
+  "58": {
+    "pages": [
+      341,
+      342
+    ],
+    "printed": "201–202",
+    "latin": "Num duro in stabulo fas est, requiescere JESum;\nDum mulcent corpus mollia strata meum?\nNon fero, quod nulla prorsus ratione ferendum est,\nSit præsepe tuum cor, pie Christe! meum:\nAut si submissis precibus non flecteris istis,\nIn stabulo tecum me recubare sinas.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "editorial_note": "Printed question 13 is misnumbered 17; corrected to 13 to match the narrative.",
+    "title": "Von der Geburt Christi.",
+    "reference": "Luc. II. Capitel.",
+    "narrative": "1. Es begab sich zu der Zeit, daß ein Gebot vom Kayser Augusto ausgieng, daß alle Welt geschätzet würde. 2. Und diese Schätzung war die allererste, und geschah, da Cyrenius Land-Pfleger in Syrien war. 3. Und jederman gieng, daß er sich schätzen liesse, ein jeglicher in seine Stadt. 4. Da machte sich auch auf Joseph aus Galiläa aus der Stadt Nazareth, 5. zu der Stadt David, die da heisset Bethlehem, 6. darum daß er von dem Hause und Geschlechte Davids war. 7. Auf daß er sich schätzen liesse, 8. mit Maria seinem vertrauten Weibe, 9. die war schwanger. 10. Und als sie daselbst waren, kam die Zeit, daß sie gebähren solte. 11. Und sie gebahr ihren ersten Sohn, 12. und wickelte ihn in Windeln, 13. und legte ihn in eine Krippen, 14. denn sie hatten sonst keinen Raum in der Herberge.",
+    "questions": [
+      "Was ließ Kayser Augustus vor ein Gebot ausgehen?",
+      "Was war denn das vor eine Schätzung?",
+      "Wo reisten denn die Leute deswegen hin?",
+      "Wo reiste Joseph aus?",
+      "Und wo zog er hin?",
+      "Warum zur Stadt Davids?",
+      "Was wolte Joseph zu Bethlehem?",
+      "Mit wem reisete Joseph?",
+      "Wie befand sich Maria damals?",
+      "Was trug sich zu Bethlehem zu?",
+      "Was brachte Maria zur Welt?",
+      "Worein wickelte sie das Kind?",
+      "Worin legte sie das neu-gebohrne JESulein?",
+      "Warum denn in die Krippe?"
+    ],
+    "teachings": [
+      "I. Die Schätzung ward vom Kaiser Augusto ausgeschrieben.\nDenn das gelobte Land stund damals unter der Botmäßigkeit des Römischen Kaisers.",
+      "II. Jederman gieng, daß er sich schätzen liesse.\nDas ist, ein jederman muste seinen Namen, sein Geschlecht, sein Alter und sein Vermögen ansagen.",
+      "III. Joseph reisete von Nazareth nach Bethlehem.\nDiese beyden Städte haben ohngefehr zwölf Deutsche Meilweges von einander gelegen."
+    ],
+    "reflection": "Mein JESU / solt ich dich im Stalle liegen sehen /\nIch aber sollte ruhn auf meinem Bettelein?\nO Heyland aller Welt! das laß ich nicht geschehen /\nKomm! JESU, komm! mein Herz soll deine Wiege seyn.\nWo dich auch mein Gebet nicht kan darzu bewegen /\nSo will ich mich zu dir in deiner Krippe legen."
   }
 };
