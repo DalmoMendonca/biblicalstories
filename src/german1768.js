@@ -5168,5 +5168,42 @@ export const german1768 = {
       "questions": 28,
       "teachings": 3
     }
+  },
+  "102": {
+    "title": "Von der Himmelfahrt Christi.",
+    "reference": "Luc. XXIV. und Apost. Geschicht I. Capitel.",
+    "pages": [
+      545,
+      546,
+      549
+    ],
+    "printed": "317–319",
+    "narrative": "1. Nach seiner Auferstehung ließ sich der HErr JEsus noch vierzig Tage lang auf Erden sehen, 2. und redte mit seinen Jüngern von dem Reiche GOttes. 3. Darnach befahl er ihnen, daß sie nicht von Jerusalem weichen solten, bis sie den Heiligen Geist empfangen hätten. 4. Die Jünger wolten von ihm wissen, ob er etwan auf selbige Zeit das Reich Israel wieder aufrichten würde. 5. Sie bekamen aber zur Antwort: Es gebühret euch nicht zu wissen Zeit oder Stunde, welche der Vater seiner Macht vorbehalten hat. 6. Zuletzt führte sie JEsus vor die Stadt nach Bethanien an den Oelberg, 7. daselbst segnete JEsus seine Jünger, und schied von ihnen. 8. Nemlich er ward aufgehoben zusehens, und eine Wolcke nahm ihn auf von der Erden. 9. Und sitzet nunmehr zur Rechten GOttes des himmlischen Vaters. 10. Und als sie ihn sahen gen Himmel fahren, siehe da stunden bey ihnen zween Männer in weissen Kleidern, die sagten: 11. Ihr Männer von Galiläa, was stehet ihr und sehet gen Himmel? Dieser JEsus, welcher von euch ist aufgenommen gen Himmel, wird kommen, wie ihr ihn habt gesehen gen Himmel fahren.",
+    "questions": [
+      "Wie lange ließ sich JEsus nach seiner Auferstehung auf Erden sehen?",
+      "Wovon redete JEsus in diesen vierzig Tagen mit seinen Jüngern?",
+      "Wo solten sich die Jünger aufhalten?",
+      "Was wolten die Jünger von JEsu wissen?",
+      "Aber was bekamen sie vor eine Antwort?",
+      "Wo führte JEsus seine Jünger auf die letzte hin?",
+      "Wie nahm er von ihnen Abschied?",
+      "Wie fuhr er gen Himmel?",
+      "Wo sitzet nun JEsus?",
+      "Was vor Männer liessen sich sehen?",
+      "Was sagten diese zwey Männer zu den Jüngern?"
+    ],
+    "teachings": [
+      "I. Als die Jünger wissen wolten, wenn der jüngste Tag kommen würde, so gab ihnen JEsus zur Antwort: Es gebühret ihnen nicht zu wissen Zeit oder Stunde, welche der Vater seiner Macht vorbehalten hätte.\nSo sind demnach alle diejenigen Betrüger und Aufschneider, welche das Jahr errathen wollen, da der jüngste Tag kommen soll.",
+      "II. Wie JEsus gen Himmel gefahren ist, so hat er sich zur Rechten seines himmlischen Vaters gesetzet.\nAch was ist das vor eine Ehre vor das arme menschliche Geschlecht, daß in dem Rathe der hochheiligen Dreyseinigkeit eine Person sitzet, die unser Fleisch und Blut an sich hat, und die wir mit gutem Rechte unsern Bruder nennen können.",
+      "III. Die Engel sagten zu den Jüngern: Der HErr JEsus würde wieder kommen wie sie ihn hätten sehen gen Himmel fahren.\nAch ja, er ist nur hingegangen, uns die Stätte zu bereiten, er wird aber wieder kommen und uns abholen, da wir bey dem HErrn seyn werden, und werden ihn sehen, wie er ist."
+    ],
+    "reflection": "Der Heyland setzet sich zur Rechten GOttes nieder /\nUnd nimmt also das Reich bey seinem Vater ein.\nNun JEsus ist das Haupt / wir aber sind die Glieder,\nUnd also müssen wir nothwendig bey ihm seyn.\nAch ja / zu seiner Zeit! wir dürfen gar nicht sorgen /\nDie Zukunft ist gewiß / ob gleich der Tag verborgen.",
+    "latin": "Ascendit Christus super ardua cœli,\nEt Patris ad dextram regna beata tenet.\nSi Christus caput est, cujus nos membra vocamur,\nJungentur capiti mystica membra suo.\nRes procul est dubio, sunt regna parata beatis,\nNos lateat quamvis ultimus ille dies.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    }
   }
 };

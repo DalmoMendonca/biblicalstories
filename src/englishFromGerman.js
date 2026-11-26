@@ -5276,5 +5276,43 @@ export const englishFromGerman = {
       "questions": 28,
       "teachings": 3
     }
+  },
+  "102": {
+    "title": "On the Ascension of Christ",
+    "reference": "Luke XXIV and Acts I.",
+    "pages": [
+      545,
+      546,
+      549
+    ],
+    "printed": "317–319",
+    "narrative": "1. After his resurrection the Lord Jesus continued to appear on earth for forty days, 2. and spoke with his disciples about the kingdom of God. 3. Afterwards he commanded them not to depart from Jerusalem until they had received the Holy Spirit. 4. The disciples wanted to know from him whether he would restore the kingdom of Israel at that time. 5. But they received this answer: It is not for you to know the time or hour which the Father has reserved to his own power. 6. Finally Jesus led them out of the city to Bethany, to the Mount of Olives; 7. there Jesus blessed his disciples and parted from them. 8. Namely, he was lifted up before their eyes and a cloud received him from the earth. 9. And he now sits at the right hand of God the heavenly Father. 10. And as they saw him ascend into heaven, behold, two men in white garments stood beside them and said: 11. You men of Galilee, why do you stand looking into heaven? This Jesus, who has been taken up from you into heaven, will come as you have seen him go into heaven.",
+    "questions": [
+      "How long did Jesus continue to appear on earth after his resurrection?",
+      "What did Jesus speak about with his disciples in these forty days?",
+      "Where were the disciples to remain?",
+      "What did the disciples want to know from Jesus?",
+      "But what answer did they receive?",
+      "Where did Jesus lead his disciples at the last?",
+      "How did he bid them farewell?",
+      "How did he ascend into heaven?",
+      "Where does Jesus now sit?",
+      "What sort of men appeared?",
+      "What did these two men say to the disciples?"
+    ],
+    "teachings": [
+      "I. When the disciples wanted to know when the last day would come, Jesus answered them that it was not for them to know the time or hour which the Father had reserved to his own power.\nAccordingly, all those who wish to guess the year in which the last day is to come are deceivers and braggarts.",
+      "II. When Jesus ascended into heaven, he sat down at the right hand of his heavenly Father.\nAh, what an honor for the poor human race, that in the council of the most holy Trinity sits a person who has our flesh and blood and whom we may rightly call our brother.",
+      "III. The angels told the disciples that the Lord Jesus would return as they had seen him ascend into heaven.\nAh yes, he has only gone to prepare a place for us; but he will come again and fetch us, and then we shall be with the Lord and shall see him as he is."
+    ],
+    "reflection": "The Savior sits down at the right hand of God,\nAnd thus takes possession of the kingdom with his Father.\nNow Jesus is the head, but we are the members,\nAnd thus we must necessarily be with him.\nAh yes, in his own time! We need not worry at all;\nHis coming is certain, although the day is hidden.",
+    "latin": "Ascendit Christus super ardua cœli,\nEt Patris ad dextram regna beata tenet.\nSi Christus caput est, cujus nos membra vocamur,\nJungentur capiti mystica membra suo.\nRes procul est dubio, sunt regna parata beatis,\nNos lateat quamvis ultimus ille dies.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    }
   }
 };
