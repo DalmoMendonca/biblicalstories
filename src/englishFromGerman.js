@@ -4779,5 +4779,48 @@ export const englishFromGerman = {
       "questions": 19,
       "teachings": 3
     }
+  },
+  "94": {
+    "title": "On the Institution of the Holy Supper",
+    "reference": "Matthew XXVI; Mark XIV; Luke XXII; John XIII; 1 Corinthians XI",
+    "pages": [
+      496,
+      499,
+      500,
+      503
+    ],
+    "printed": "286–289",
+    "narrative": "1. Jesus sent two disciples, namely Peter and John, into the city of Jerusalem. 2. There they were to prepare the Passover lamb for him at an innkeeper's, in a large paved hall. 3. So that they might find this inn, Jesus said that a man carrying a water jug would meet them, and they should simply follow him. 4. In the evening Jesus came there and held his last meal in this world with his twelve disciples. 5. As they sat, Jesus said to his disciples: I have heartily desired to eat this Passover lamb with you before I suffer. 6. While they were at the meal, the Lord Jesus instituted the Holy Supper. 7. Namely, he first took the bread and gave thanks, 8. and broke it, 9. and gave it to his disciples and said: 10. Take and eat; this is my body, which is given for you; do this in remembrance of me. 11. Likewise he also took the cup after supper and gave thanks, 12. and gave it to them and said: 13. Take and drink all of you from it; this cup is the New Testament in my blood, which is shed for you for the forgiveness of sins; do this, as often as you drink it, in remembrance of me. 14. All this happened on Maundy Thursday, in the night in which he was betrayed.",
+    "questions": [
+      "Which two disciples did Jesus send into the city of Jerusalem?",
+      "What were they to prepare in the city?",
+      "How were they to find the inn?",
+      "What did Jesus do in that inn in the evening?",
+      "What did he say to his disciples as he ate the Passover lamb?",
+      "What did Jesus institute during that evening meal?",
+      "What did he first take into his holy hands?",
+      "What did he do with the bread?",
+      "But to whom did he give the bread?",
+      "What words did Jesus use when distributing the bread?",
+      "What did Jesus take into his hand after supper?",
+      "What did he do with the blessed cup?",
+      "What words did Jesus use when distributing the blessed wine?",
+      "When did this institution of the most holy Supper take place?"
+    ],
+    "teachings": [
+      "I. When Jesus had eaten the last Passover lamb, he instituted the Holy Supper in its place.\nNamely, the Jews had two sacraments in their church: one was circumcision, and the other was the Passover lamb. In their place Christ instituted two other sacraments for the Christian Church, namely Baptism and the Holy Supper.",
+      "II. At the institution of the Holy Supper the Lord Jesus first said: Take and eat; and afterwards separately: Take and drink.\nThus all Christians should also partake of the Holy Supper under both forms, since human beings have no authority to change anything in Christ's institution.",
+      "III. The institutor of the Holy Supper said concerning the bread: This is my body; and concerning the cup: This is my blood.\nWe rightly accept these words of Christ as they sound, and thus believe that in, with, and under the blessed bread the true body, and likewise in, with, and under the blessed cup the true blood of Jesus Christ, is given."
+    ],
+    "reflection": "Christ makes a valid testament while still on earth,\nWhen he takes his last meal in this world:\nBut what shall become our inheritance from him?\nOh, a very great treasure! Holy flesh and blood!\nWell then, I am his child; I know this through faith,\nAnd thus no one shall rob me of this inheritance.",
+    "latin": "Quæ fuit in terris Christi postrema voluntas,\nTestatum nobis ultima cœna facit:\nScilicet hæredes voluisti, Christe, fideles\nCorporis & sancti sanguinis esse tui.\nSum tuus, idque probat mea spesque fidesque: quid ergo\nHæredem tanti me vetat esse boni?",
+    "kind": "new-translation-from-transcribed-german",
+    "editorial_notes": "Narrative marker 6 is printed 16; corrected to match question 6 and adjacent markers.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    }
   }
 };

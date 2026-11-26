@@ -4679,5 +4679,47 @@ export const german1768 = {
       "questions": 19,
       "teachings": 3
     }
+  },
+  "94": {
+    "title": "Von der Einsetzung des heiligen Abendmahls.",
+    "reference": "Matth. XXVI. Marc. XIV. Luc. XXII. Joh. XIII. und 1 Corinth. XI. Capitel.",
+    "pages": [
+      496,
+      499,
+      500,
+      503
+    ],
+    "printed": "286–289",
+    "narrative": "1. JEsus schickte zween Jünger, nemlich Petrum und Johannem, in die Stadt Jerusalem. 2. Daselbst musten sie ihm bey einem Gast-Wirthe auf einem grossen gepflasterten Saale das Oster-Lamm bereiten. 3. Damit sie diesen Gast-Hof finden möchten, so sagte JEsus: Es würde ihnen ein Mensch begegnen mit einem Wasser-Kruge, dem solten sie nur nachfolgen. 4. Auf den Abend kam JEsus dahin, und hielt mit seinen zwölf Jüngern die letzte Mahlzeit auf dieser Welt. 5. Wie sie sassen, so sagte JEsus zu seinen Jüngern: Mich hat herzlich verlanget, diß Oster-Lamm mit euch zu essen, ehe denn ich leide. 6. Indem sie nun eben über der Mahlzeit waren, satzte der HErr JEsus das heilige Abendmahl ein. 7. Nemlich er nahm erstlich das Brod, danket, 8. und brachs, 9. und gabs seinen Jüngern und sprach: 10. Nehmet hin und esset, das ist mein Leib, der für euch gegeben wird, solches thut zu meinem Gedächtniß. 11. Desselbengleichen nahm er auch den Kelch, nach dem Abendmahl, dankte, 12. und gab ihnen den, und sprach: 13. Nehmet hin und trinket alle daraus, dieser Kelch ist das Neue Testament in meinem Blut, das für euch vergossen wird zur Vergebung der Sünden; solches thut, so offt ihrs trinket, zu meinem Gedächtniß. 14. Dieses alles geschahe am Grünen Donnerstage in der Nacht, da er verrathen ward.",
+    "questions": [
+      "Welche zween Jünger schickte JEsus in die Stadt Jerusalem?",
+      "Was solten sie in der Stadt zubereiten?",
+      "Wie solten sie den Gast-Hof finden?",
+      "Was machte JEsus auf den Abend in demselben Gast-Hofe?",
+      "Wie sprach er zu seinen Jüngern, als er das Oster-Lamm aß?",
+      "Was satzte JEsus über derselben Abend-Mahlzeit ein?",
+      "Was nahm er erstlich in seine heilige Hände?",
+      "Was machte er mit dem Brode?",
+      "Wem aber gab er das Brod?",
+      "Was brauchte JEsus vor Worte bey der Austheilung des Brods?",
+      "Was nahm JEsus nach dem Abendmahl in die Hand?",
+      "Was that er mit dem gesegneten Kelche?",
+      "Was brauchte JEsus vor Worte bey der Austheilung des gesegneten Weines?",
+      "Wenn geschah denn diese Einsetzung des hochheiligen Abendmahls?"
+    ],
+    "teachings": [
+      "I. Wie JEsus das letzte Oster-Lamm gegessen hatte, so setzte er davor das heilige Abendmahl ein.\nNemlich die Jüden hatten in ihrer Kirche zwey Sacramente, eines war die Beschneidung, und das andere war das Oster-Lamm: Davor hat Christus zwey andre Sacramente vor die Christliche Kirche eingesetzet, nemlich die Tauffe, und das heilige Abendmahl.",
+      "II. Der HErr JEsus sagte bey der Einsetzung des heiligen Abendmahls erst: Nehmet hin und esset; und darnach besonders: Nehmet hin und trinket.\nAlso sollen auch alle Christen das heilige Abendmahl unter beyderley Gestalt brauchen, weil Menschen ja nicht Macht haben, an Christi Einsetzung etwas zu ändern.",
+      "III. Der Stiffter des heiligen Abendmahls sagte bey dem Brode: Das ist mein Leib; und bey dem Kelche: Das ist mein Blut.\nDiese Worte Christi nehmen wir ja billig an, wie sie lauten, und gläuben also, daß in, mit, und unter dem gesegneten Brode der wahre Leib; ingleichen in, mit, und unter dem gesegneten Kelche das wahre Blut JEsu Christi, dargereichet werde."
+    ],
+    "reflection": "Ein richtig Testament macht Christus noch auf Erden /\nWie er auf dieser Welt die letzte Mahlzeit thut:\nWas aber soll uns denn von ihm zum Erbtheil werden?\nO ein sehr grosser Schatz! ein heilig Fleisch und Blut!\nWohlan / ich bin sein Kind / das weiß ich durch den Glauben /\nUnd also soll mir auch diß Erbtheil niemand rauben.",
+    "latin": "Quæ fuit in terris Christi postrema voluntas,\nTestatum nobis ultima cœna facit:\nScilicet hæredes voluisti, Christe, fideles\nCorporis & sancti sanguinis esse tui.\nSum tuus, idque probat mea spesque fidesque: quid ergo\nHæredem tanti me vetat esse boni?",
+    "editorial_notes": "Narrative marker 6 is printed 16; corrected to match question 6 and adjacent markers.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    }
   }
 };
