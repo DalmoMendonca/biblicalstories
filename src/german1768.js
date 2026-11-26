@@ -3678,5 +3678,58 @@ export const german1768 = {
       "questions": 13,
       "teachings": 3
     }
+  },
+  "72": {
+    "title": "Von vielerley Acker.",
+    "reference": "Matth. XIII. Marc. IV. Luc. VIII. Capitel.",
+    "pages": [
+      399,
+      400,
+      401,
+      402
+    ],
+    "printed": "231–234",
+    "narrative": "1. Es gieng ein Säemann aus zu säen, 2. und indem er säete, fiel etliches auf den Weg, 3. da ward es vertreten, und die Vögel unter dem Himmel frassen es auf. 4. Und etliches fiel auf den Fels, 5. und da es aufgieng, verdorrete es, darum daß es nicht Safft hatte. 6. Und etliches fiel unter die Dornen, 7. und die Dornen giengen mit auf und ersticktens. 8. Und etliches fiel auf ein gut Land. 9. Und es gieng auf und trug hundertfältige Früchte. 10. Da JEsus das gesaget hatte, rieff er aus: Wer Ohren hat zu hören, der höre! 11. Es fragten ihn aber seine Jünger, was dieses Gleichniß wäre? 12. Da legte ihnen der HErr JEsus das Gleichniß aus, und sagte: 13. Der Saamen ist das Wort GOttes. 14. Die am Wege sind, die das Wort hören, aber nicht verstehen. 15. Damit kommt der Teufel, und nimt das Wort von ihren Herzen, 16. auf daß sie nicht glauben und selig werden. 17. Die auf dem Felsen nehmen das Wort mit Freuden an, und glauben auch eine Zeitlang. 18. Aber sie haben nicht Wurzel, sondern sind Wetterwendisch, und ärgern sich an Christo. 19. Und zur Zeit der Anfechtung, wenn sich Trübsal und Verfolgung um des Worts willen ereignet, so fallen sie abe. 20. Die unter den Dornen, hören das Wort GOttes auch, 21. aber sie gehen hin unter den Sorgen, Reichthum und Wollust dieses Lebens, 22. und ersticken das Wort, und bringen keine Frucht. 23. Die aber auf dem guten Lande hören das Wort, und verstehens. 24. Sie nehmen es auch an, und behalten es in einem feinen guten Herzen. 25. Und diese alleine bringen Frucht in Gedult. 26. Etliche hundertfältig, manche sechzigfältig, und manche dreyßigfältig.",
+    "questions": [
+      "Was that ein Säemann?",
+      "Wo fiel der Saamen zum theil hin?",
+      "Wie giengs mit dem Saamen auf dem Wege?",
+      "Wo fiel der andre Theil des Saamens hin?",
+      "Wie giengs mit dem Saamen auf dem Felsen?",
+      "Wo fiel der dritte Theil des Saamens hin?",
+      "Wie giengs mit dem Saamen unter den Dornen?",
+      "Wo fiel endlich das vierte Theil des Saamens hin?",
+      "Wie giengs mit dem Saamen auf dem guten Lande?",
+      "Wie ruffte JEsus hierbey aus?",
+      "Was hatten die Jünger vor Gedancken darbey?",
+      "Wer legte den Jüngern dieses Gleichniß aus?",
+      "Was ist also der Saamen?",
+      "Welches sind die am Wege?",
+      "Wie gehets denen am Wege?",
+      "Wie läuffts mit ihnen ab?",
+      "Welches sind die auf dem Felsen?",
+      "Wie führten sich dieselben auf?",
+      "Und wenn fallen sie endlich gar ab?",
+      "Welches sind die unter den Dornen?",
+      "Wie stellten sich dieselben an?",
+      "Wie gehts mit dem gehörten Worte?",
+      "Aber welches sind die auf dem guten Lande?",
+      "Wie gehen sie mit dem Worte um?",
+      "Was hat das Wort für eine Wirckung?",
+      "Bringen sie alle gleiche Früchte?"
+    ],
+    "teachings": [
+      "I. Warum glauben doch so viel Menschen nicht, und werden also auch nicht selig?\nDarum weil ihr Herz kein guter, sondern ein böser Acker ist.",
+      "II. Wie muß man doch mit dem Worte GOttes umgehen, wenn es soll Früchte bringen?\nMan muß es erstlich hören; zum andern verstehen; zum dritten annehmen; zum vierten behalten.",
+      "III. Welches mag wohl das allerschrecklichste Wort in der ganzen Bibel seyn?\nIhrer viel haben dieses davor gehalten: Darnach kömmt der Teufel, und nimmt das Wort von ihren Herzen."
+    ],
+    "reflection": "Das Land ist vielerley / darauf der Saamen fället:\nUnd eines bringet doch nur Frucht zu rechter Zeit.\nWie ist es denn mit mir / mein lieber GOtt / bestellet?\nDu hast dein theures Wort auch auf mein Herz gestreut:\nAch! von Natur bin ich von keiner guten Erde!\nHilf! JEsu / hilf! daß ich ein guter Acker werde!",
+    "latin": "Quadruplex ager est, recipit qui semina verbi,\nSed qui fert fructus, unicus esse solet.\nQua ratione mei placeat tibi cordis agellus,\nDic mihi Salvator! num bonus, an malus est?\nNon bonus est, fateor! sed quod natura negavit,\nHoc præstare mihi gratia sola potest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    }
   }
 };

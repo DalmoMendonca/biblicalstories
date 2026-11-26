@@ -3756,5 +3756,59 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "72": {
+    "title": "Of the Various Kinds of Ground.",
+    "reference": "Matthew 13; Mark 4; Luke 8.",
+    "pages": [
+      399,
+      400,
+      401,
+      402
+    ],
+    "printed": "231–234",
+    "narrative": "1. A sower went out to sow, 2. and as he sowed, some fell by the wayside, 3. where it was trodden down and the birds of the air devoured it. 4. And some fell upon the rock, 5. and when it sprang up, it withered because it had no moisture. 6. And some fell among thorns, 7. and the thorns sprang up with it and choked it. 8. And some fell upon good ground. 9. And it sprang up and bore fruit a hundredfold. 10. When Jesus had said this, he cried out: He that hath ears to hear, let him hear! 11. But his disciples asked him what this parable meant. 12. Then the Lord Jesus explained the parable to them and said: 13. The seed is the word of God. 14. Those by the wayside are those who hear the word but do not understand it. 15. Then the devil comes and takes the word from their hearts, 16. that they may not believe and be saved. 17. Those upon the rock receive the word with joy and believe for a time. 18. But they have no root, are fickle, and take offense at Christ. 19. And in the time of temptation, when tribulation and persecution arise for the word's sake, they fall away. 20. Those among the thorns also hear the word of God, 21. but go their way amid the cares, riches, and pleasures of this life, 22. and choke the word and bear no fruit. 23. But those upon good ground hear the word and understand it. 24. They also receive it and keep it in an honest and good heart. 25. And these alone bear fruit with patience. 26. Some a hundredfold, some sixtyfold, and some thirtyfold.",
+    "questions": [
+      "What did a sower do?",
+      "Where did some of the seed fall?",
+      "What happened to the seed by the wayside?",
+      "Where did the second part of the seed fall?",
+      "What happened to the seed upon the rock?",
+      "Where did the third part of the seed fall?",
+      "What happened to the seed among the thorns?",
+      "Where finally did the fourth part of the seed fall?",
+      "What happened to the seed upon good ground?",
+      "What did Jesus cry out on this occasion?",
+      "What did the disciples think about this?",
+      "Who explained this parable to the disciples?",
+      "What then is the seed?",
+      "Who are those by the wayside?",
+      "What happens to those by the wayside?",
+      "How does it end with them?",
+      "Who are those upon the rock?",
+      "How did they conduct themselves?",
+      "And when do they finally fall away altogether?",
+      "Who are those among the thorns?",
+      "How did they conduct themselves?",
+      "What happens to the word they have heard?",
+      "But who are those upon good ground?",
+      "How do they deal with the word?",
+      "What effect does the word have?",
+      "Do they all bear equal fruit?"
+    ],
+    "teachings": [
+      "I. Why do so many people not believe and consequently not become saved?\nBecause their heart is not good but bad ground.",
+      "II. How must one deal with the word of God if it is to bear fruit?\nOne must first hear it; secondly understand it; thirdly receive it; fourthly retain it.",
+      "III. What may be the most dreadful word in the whole Bible?\nMany have considered this to be it: Then comes the devil and takes the word from their hearts."
+    ],
+    "reflection": "Various are the kinds of ground upon which the seed falls;\nYet only one bears fruit in due season.\nHow then do matters stand with me, my dear God?\nThou hast scattered thy precious word upon my heart also:\nAlas! By nature I am not of good soil!\nHelp, Jesus, help, that I may become good ground!",
+    "latin": "Quadruplex ager est, recipit qui semina verbi,\nSed qui fert fructus, unicus esse solet.\nQua ratione mei placeat tibi cordis agellus,\nDic mihi Salvator! num bonus, an malus est?\nNon bonus est, fateor! sed quod natura negavit,\nHoc præstare mihi gratia sola potest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
