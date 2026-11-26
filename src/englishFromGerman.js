@@ -3054,5 +3054,46 @@ export const englishFromGerman = {
       "III. The third virtue is resignation to God.\nFor Mary said: Let it be done to me as you have said."
     ],
     "reflection": "Mary's faith was at first mingled with fear,\nWhen the birth of the Lord was announced to her;\nBut the angel said: You have found grace.\nThen she said confidently: I am the Lord's handmaid.\nMy God, I too am afraid on account of my sins!\nAh! Say also to me: You shall find grace."
+  },
+  "55": {
+    "pages": [
+      327,
+      328,
+      329,
+      330
+    ],
+    "printed": "193–196",
+    "latin": "Elisabeth tempus cum Virgine matre fefellit\nSancto colloquio: (quis dubitare velit?)\nNum sanctis etiam fallunt sermonibus horas,\nA Christo sanctum qui Duce nomen habent?\nQuisque sibi caveat. mihi providus ipse cavebo,\nUt vanum verbum non sit in ore meo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 13,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Visitation of Mary.",
+    "reference": "Luke, chapter 1.",
+    "narrative": "1. After the angelic salutation, the Virgin Mary journeyed across the hill country to the city of Judah. 2. There she wished to visit her elderly kinswoman Elisabeth; 3. because she had heard from the angel that Elisabeth was in her sixth month of pregnancy. 4. Elisabeth was a priest's wife, and her husband was named Zacharias. 5. The child Elisabeth then carried beneath her heart was John the Baptist. 6. When Mary entered Zacharias's house, she greeted her kinswoman Elisabeth. 7. And it came to pass that when Elisabeth heard Mary's greeting, the child leaped for joy in her womb. 8. And Elisabeth was filled with the Holy Spirit, cried aloud, and said: 9. Blessed art thou among women, and blessed is the fruit of thy womb. 10. Finally Elisabeth said to Mary: O blessed art thou who hast believed! 11. Thereupon Mary composed the beautiful song of praise: 12. My soul magnifies the Lord, and my spirit rejoices in God my Savior. For he has regarded his lowly handmaid; behold, from henceforth all generations shall call me blessed. For he who is mighty has done great things to me, and holy is his name. And his mercy endures forever and ever upon those who fear him. He exercises might with his arm and scatters those who are proud in the imagination of their hearts. He casts the mighty down from their seats and exalts the lowly. He fills the hungry with good things and sends the rich away empty. He remembers mercy and helps up his servant Israel, as he spoke to our fathers, to Abraham and his seed forever. 13. And Mary remained with her about three months; afterward she returned home.",
+    "questions": [
+      "Where did the Virgin Mary travel?",
+      "Whom did she wish to visit there?",
+      "What reason had she for doing so?",
+      "Who was Elisabeth?",
+      "And with what child was she then pregnant?",
+      "What did Mary say when she entered the house?",
+      "What happened to the child in its mother's womb?",
+      "What happened to Elisabeth?",
+      "What did Elisabeth say to Mary?",
+      "How did Elisabeth conclude her conversation?",
+      "What did Mary do thereupon?",
+      "What are the words of Mary's song of praise?",
+      "How long did Mary remain with Elisabeth?"
+    ],
+    "teachings": [
+      "I. Relatives should maintain good friendship with one another.\nThey should do as Mary and Elisabeth did, who visited one another in friendship.",
+      "II. In company one should not indulge in foolish talk and jests unbecoming to Christians; instead, one should speak with others about something good.\nElisabeth said to Mary: O blessed art thou who hast believed! From this one may readily infer that they spoke together of spiritual things.",
+      "III. Music is also quite becoming to women.\nIn this respect they may appeal to the mother of God, who herself sang a beautiful song of praise."
+    ],
+    "reflection": "Truly holy may one call the conversation\nThat Elisabeth holds with Mary:\nChristians should likewise apply themselves to such things\nWhen they gather together in company:\nLet each speak that for which he can stand answerable;\nNo corrupt chatter shall issue from my mouth."
   }
 };

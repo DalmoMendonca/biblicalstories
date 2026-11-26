@@ -2993,5 +2993,45 @@ export const german1768 = {
       "III. Die dritte Tugend ist die Gott-Gelassenheit.\nDenn Maria sprach: Mir geschehe, wie du gesaget hast."
     ],
     "reflection": "Maria Glauben war zuerst mit Furcht verbunden /\nAls ihr ward die Geburt des Herren angesagt;\nDer Engel aber sprach: Du hast Gnade funden.\nDrauf sagte sie getrost: ich bin des Herren Magd.\nMein GOtt / ich fürchte mich auch wegen meiner Sünden!\nAch! sprich doch auch zu mir: Du sollst Gnade finden."
+  },
+  "55": {
+    "pages": [
+      327,
+      328,
+      329,
+      330
+    ],
+    "printed": "193–196",
+    "latin": "Elisabeth tempus cum Virgine matre fefellit\nSancto colloquio: (quis dubitare velit?)\nNum sanctis etiam fallunt sermonibus horas,\nA Christo sanctum qui Duce nomen habent?\nQuisque sibi caveat. mihi providus ipse cavebo,\nUt vanum verbum non sit in ore meo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 13,
+      "teachings": 3
+    },
+    "title": "Von der Heimsuchung Mariä.",
+    "reference": "Luc. I. Capitel.",
+    "narrative": "1. Nach dem Englischen Grusse that die Jungfrau Maria eine Reise über das Gebirge, zu der Stadt Juda. 2. Daselbst wolte sie ihre alte Gefreundtin Elisabeth besuchen; 3. weil sie von dem Engel gehöret hatte, daß sie im sechsten Monate schwanger gieng. 4. Es war aber Elisabeth eine Priesters-Frau, und ihr Mann hieß Zacharias. 5. Das Kind aber, das Elisabeth damals unter ihrem Herzen trug, war Johannes der Täuffer. 6. Wie Maria in das Haus Zachariä kam, so grüßte sie ihre Gefreundtin Elisabeth. 7. Und es begab sich, als Elisabeth den Gruß Mariä hörte, hüpfte das Kind in ihrem Leibe mit Freuden. 8. Und Elisabeth war des Heiligen Geistes voll, und rief laut und sprach: 9. Gebenedeyet bist du unter den Weibern, und gebenedeyet ist die Frucht deines Leibes. 10. Auf die letzte sagte Elisabeth zu Maria: O selig bist du, die du gegläubet hast! 11. Drauf machte Maria den schönen Lob-Gesang: 12. Meine Seele erhebet den HErrn, und mein Geist freuet sich GOttes meines Heylandes. Denn er hat seine elende Magd angesehen; siehe, von nun an werden mich selig preisen alle Kindes-Kind. Denn er hat grosse Dinge an mir gethan, der da mächtig ist, und des Name heilig ist. Und seine Barmherzigkeit währet immer für und für, bey denen, die ihn fürchten. Er übet Gewalt mit seinem Arm, und zerstreuet, die hoffärtig sind in ihres Herzens Sinn. Er stösset die Gewaltigen vom Stuhl, und erhebet die Elenden. Die Hungrigen füllet er mit Gütern, und lässet die Reichen leer. Er gedenket der Barmherzigkeit, und hielfft seinem Diener Israel auf. Wie er geredet hat unsern Vätern, Abraham, und seinem Saamen ewiglich. 13. Und Maria blieb bey ihr bey drey Monden, darnach kehrte sie wieder heim.",
+    "questions": [
+      "Wohin reisete die Jungfrau Maria?",
+      "Wen wolte sie daselbst besuchen?",
+      "Was hatte sie vor Ursache darzu?",
+      "Wer war denn die Elisabeth?",
+      "Und mit was vor einem Kinde gieng sie damals schwanger?",
+      "Was sagte Maria, wie sie in das Haus kam?",
+      "Was gieng mit dem Kinde in Mutter-Leibe vor?",
+      "Was trug sich mit der Elisabeth zu?",
+      "Was sagte Elisabeth zu Maria?",
+      "Wie beschloß Elisabeth ihr Gespräche?",
+      "Was that Maria darauf?",
+      "Wie heißt der Lob-Gesang Mariä?",
+      "Wie lange blieb Maria bey der Elisabeth?"
+    ],
+    "teachings": [
+      "I. Anverwandten sollen gute Freundschaft mit einander halten.\nSie sollen es machen wie Maria und Elisabeth, die besuchten einander freundlich.",
+      "II. In Gesellschaft soll man nicht Narrentheidung und Scherz treiben, die Christen nicht geziemen; sondern man soll etwas Gutes mit einander reden.\nElisabeth sagte zur Maria: O selig bist du, die du gegläubet hast! daraus man wohl abnehmen kan, daß sie von geistlichen Sachen mit einander gesprochen haben.",
+      "III. Die Music stehet auch den Frauens-Personen nicht übel an.\nSie können sich dißfalls auf die Mutter GOttes beruffen, die selber einen schönen Lob-Gesang angestimmet hat."
+    ],
+    "reflection": "Recht heilig kan man ja wohl das Gespräche heissen /\nDas die Elisabeth mit der Maria hält:\nDergleichen solten sich die Christen auch befleissen /\nWenn man in Compagnie zusammen sich gesellt:\nEin jeder rede das / damit er kan bestehen /\nAus meinem Munde soll kein faul Geschwätze gehen."
   }
 };
