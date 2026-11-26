@@ -3814,5 +3814,56 @@ export const german1768 = {
       "questions": 14,
       "teachings": 3
     }
+  },
+  "75": {
+    "title": "Vom Unkraut unter dem Weitzen.",
+    "reference": "Matth. XIII. Capitel.",
+    "pages": [
+      410,
+      413,
+      414,
+      417
+    ],
+    "printed": "238–241",
+    "narrative": "1. Der HErr JEsus sprach: Das Himmelreich ist gleich einem Menschen, der guten Saamen auf seinen Acker säete. 2. Da aber die Leute schliefen, kam sein Feind, und säete Unkraut zwischen den Weitzen, und gieng davon. 3. Da nun das Kraut wuchs, und Frucht brachte, da fand sich auch das Unkraut. 4. Da traten die Knechte zu dem Haus-Vater, und sprachen: HErr, hast du nicht guten Saamen auf deinen Acker gesäet: woher hat er denn das Unkraut? 5. Der Haus-Vater sprach zu ihnen: Das hat der Feind gethan! 6. Da sprachen die Knechte zu ihm: Wilt du denn, daß wir hingehen, und es ausjäten? 7. Er sprach: Nein, auf daß ihr nicht zugleich den Weitzen mit ausrauffet, so ihr das Unkraut ausjätet. 8. Lasset beydes mit einander wachsen, bis zur Erndte. 9. Und um die Erndte-Zeit will ich zu den Schnittern sagen: Sammlet zuvor das Unkraut, und bindet es in Bündlein, daß man es verbrenne: 10. Aber den Waitzen sammlet mir in meine Scheuren. 11. Da ließ JEsus das Volck von sich, und gieng heim. 12. Da baten ihn seine Jünger, daß er ihnen doch das Gleichniß vom Unkraut ausdeuten wolte. 13. Und JEsus antwortete: Des Menschen Sohn ist es, der da Saamen säet. 14. Der Acker ist die Welt. 15. Der gute Saame sind die Kinder des Reichs. 16. Das Unkraut sind die Kinder der Bosheit. 17. Der Feind, der sie säet, ist der Teufel. 18. Die Erndte ist das Ende der Welt. 19. Die Schnitter sind die Engel. 20. Am Ende der Welt wird des Menschen Sohn diese Engel senden, 21. und sie werden sammlen aus seinem Reiche alle Aergernisse, und die da Unrecht thun, 22. und werden sie in den Feuer-Ofen werffen, da wird seyn Heulen und Zähn-Klappen. 23. Die Gerechten aber werden leuchten, wie die Sonne in ihres Vaters Reich. 24. Wer Ohren hat zu hören, der höre!",
+    "questions": [
+      "Mit wem verglich der HErr das Himmelreich?",
+      "Was trug sich denn zu, da die Leute schliefen?",
+      "Was wuchs denn auf dem Acker?",
+      "Was sagten die Knechte zum Haus-Vater?",
+      "Wem gab der Haus-Vater die Schuld?",
+      "Was thaten die Knechte vor einen Vorschlag?",
+      "Wolte solches der Haus-Vater nicht geschehen lassen?",
+      "Was solten sie denn mit dem Acker thun?",
+      "Was wolte der Haus-Vater den Schnittern befehlen?",
+      "Was solten sie aber mit dem Weitzen machen?",
+      "Wo gieng JEsus hin, als er dieses gesaget hatte?",
+      "Was baten ihn seine Jünger zu Hause?",
+      "Was verstund denn JEsus unter dem Säemann?",
+      "Was ist der Acker?",
+      "Was ist der gute Saame?",
+      "Was ist das Unkraut?",
+      "Wer ist der Feind?",
+      "Was ist die Erndte?",
+      "Wer sind die Schnitter?",
+      "Wer wird die Engel aussenden?",
+      "Was werden die Engel sammlen?",
+      "Wo werden sie die Gottlosen hinthun?",
+      "Aber wo werden die Frommen bleiben?",
+      "Womit macht Christus den Beschluß?"
+    ],
+    "teachings": [
+      "I. Der gute fromme GOtt ist nicht Schuld daran, daß so viel böse Leute in der Welt gefunden werden.\nDenn GOtt streuet lauter guten Saamen aus, aber das Unkraut ist vom Teufel.",
+      "II. In der Welt müssen Gute und Böse neben einander wohnen.\nDenn der Haus-Vater wolte nicht haben, daß die Knechte das Unkraut ausjäten solten; sondern beydes mit einander solte wachsen, bis zur Erndte-Zeit.",
+      "III. Aber am jüngsten Tage wird gar ein grosser Unterschied zwischen den Frommen und Bösen seyn.\nDenn die Gottlosen werden in den Feuer-Ofen geworffen werden: Die Gerechten aber werden leuchten, wie der Sonnen Glanz."
+    ],
+    "reflection": "Ein Acker war besaamt / und solte Waitzen tragen /\nAllein im Schlafe ward das Unkraut ausgestreut:\nWas will mein Heiland doch durch dieses Gleichniß sagen?\nAch ich versteh es schon; er meynt die Sicherheit.\nJa freylich / wenn man schläfft / so hat der Feind gut machen /\nDrum will ich munter seyn zum Beten und zum Wachen.",
+    "latin": "Semine triticeo conspersum, tempore noctis\nInfecit loliis invidus hostis agrum.\nMortales pigros monet hoc sub schemate Christus;\nNe somnum capiant, dum vigilare decet.\nQuod si securos stygius sic decipit hostis,\nErgo semper ero providus atque vigil.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 24,
+      "teachings": 3
+    }
   }
 };

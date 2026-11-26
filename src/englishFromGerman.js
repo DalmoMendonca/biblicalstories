@@ -3895,5 +3895,57 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "75": {
+    "title": "Of the Tares among the Wheat.",
+    "reference": "Matthew, chapter 13.",
+    "pages": [
+      410,
+      413,
+      414,
+      417
+    ],
+    "printed": "238–241",
+    "narrative": "1. The Lord Jesus said: The kingdom of heaven is like a man who sowed good seed upon his field. 2. But while the people slept, his enemy came and sowed tares among the wheat and went away. 3. Now when the plants grew and bore fruit, the tares also appeared. 4. Then the servants came to the householder and said: Lord, didst thou not sow good seed upon thy field? Whence then has it the tares? 5. The householder said to them: The enemy has done this! 6. Then the servants said to him: Wilt thou then that we go and weed them out? 7. He said: Nay, lest ye pull up the wheat also when ye weed out the tares. 8. Let both grow together until the harvest. 9. And at harvest time I will say to the reapers: Gather first the tares and bind them in bundles to be burned; 10. but gather the wheat into my barns. 11. Then Jesus dismissed the people and went home. 12. There his disciples begged him to explain to them the parable of the tares. 13. And Jesus answered: The Son of Man is he who sows the seed. 14. The field is the world. 15. The good seed are the children of the kingdom. 16. The tares are the children of wickedness. 17. The enemy who sows them is the devil. 18. The harvest is the end of the world. 19. The reapers are the angels. 20. At the end of the world the Son of Man will send these angels, 21. and they will gather out of his kingdom all offenses and those who do wrong, 22. and cast them into the fiery furnace, where there will be wailing and gnashing of teeth. 23. But the righteous will shine like the sun in their Father's kingdom. 24. He that hath ears to hear, let him hear!",
+    "questions": [
+      "To whom did the Lord liken the kingdom of heaven?",
+      "What happened while the people slept?",
+      "What grew upon the field?",
+      "What did the servants say to the householder?",
+      "Whom did the householder blame?",
+      "What proposal did the servants make?",
+      "Would the householder not allow this to happen?",
+      "What then were they to do with the field?",
+      "What did the householder intend to command the reapers?",
+      "But what were they to do with the wheat?",
+      "Where did Jesus go when he had said this?",
+      "What did his disciples ask him at home?",
+      "Whom did Jesus mean by the sower?",
+      "What is the field?",
+      "What is the good seed?",
+      "What are the tares?",
+      "Who is the enemy?",
+      "What is the harvest?",
+      "Who are the reapers?",
+      "Who will send forth the angels?",
+      "What will the angels gather?",
+      "Where will they put the wicked?",
+      "But where will the godly remain?",
+      "With what does Christ conclude?"
+    ],
+    "teachings": [
+      "I. The good and righteous God is not to blame that so many evil people are found in the world.\nFor God scatters only good seed, but the tares are from the devil.",
+      "II. In the world the good and the evil must dwell alongside one another.\nFor the householder did not wish the servants to weed out the tares; rather, both were to grow together until harvest time.",
+      "III. But on the last day there will be a very great difference between the godly and the evil.\nFor the wicked will be cast into the fiery furnace; but the righteous will shine like the brightness of the sun."
+    ],
+    "reflection": "A field was sown and was to bear wheat;\nBut in sleep the tares were scattered abroad.\nWhat does my Savior intend to say by this parable?\nAh, I understand already; he means complacency.\nIndeed, when one sleeps, the enemy has an easy task;\nTherefore I will be alert to pray and to watch.",
+    "latin": "Semine triticeo conspersum, tempore noctis\nInfecit loliis invidus hostis agrum.\nMortales pigros monet hoc sub schemate Christus;\nNe somnum capiant, dum vigilare decet.\nQuod si securos stygius sic decipit hostis,\nErgo semper ero providus atque vigil.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 24,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
