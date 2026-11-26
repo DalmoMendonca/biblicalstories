@@ -3386,5 +3386,46 @@ export const englishFromGerman = {
     ],
     "reflection": "The wise men bring thee, Lord Jesus, beautiful gifts;\nThey carry frankincense, gold, and myrrh in their hands.\nSuch things thou wilt not be able to have from me,\nFor my poverty is very well known to thee:\nTherefore I will think upon something else,\nAnd give thee, my infant Jesus, my little heart.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "63": {
+    "pages": [
+      361,
+      362,
+      365
+    ],
+    "printed": "211–213",
+    "latin": "Exul in Ægyptum descendit JESULUS infans,\nJosepho matrem concomitante piam.\nInterea pueros Herodes enecat omnes,\nNon JESUM sic non posse perire putans.\nHeu! quos in stygia pœnas dabit ille palude,\nInter cœlicolas quando videbit eos.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "title": "Of the Flight of Jesus into Egypt and of the Innocent Children at Bethlehem.",
+    "reference": "Matthew, chapter 2.",
+    "narrative": "1. After the wise men had departed, the angel of the Lord appeared to Joseph in a dream, 2. and commanded him to take the infant Jesus and his mother unto himself and flee into Egypt. 3. There he was to remain until the angel should tell him otherwise. 4. The reason for such a hasty flight was that Herod wished to kill the infant Jesus. 5. Joseph did what the angel had commanded him, set out by night, and escaped into the land of Egypt. 6. Meanwhile King Herod saw that he had been deceived by the wise men: 7. for they did not return to Jerusalem as they had promised him. 8. Then he became angry and had all the children in Bethlehem and throughout its borders killed who were two years old and younger. 9. For he thought the infant Jesus must necessarily be among them, 10. since he had learned from the wise men that the newborn King of the Jews could be at most two years old. 11. In the following year this King Herod died of a dreadful illness. 12. Immediately the angel of the Lord appeared to Joseph in a dream in Egypt and said: 13. Arise, take the infant and his mother unto thee, and go into the land of Israel: they are dead who sought the child's life. 14. Joseph did this, and at God's command went to the city of Nazareth, wherein the Lord Christ was afterward brought up.",
+    "questions": [
+      "What happened after the wise men had departed again?",
+      "What did the angel command Joseph?",
+      "How long was Joseph to remain in Egypt?",
+      "Why was he to flee?",
+      "What did Joseph do thereafter?",
+      "What did Herod then discover?",
+      "In what had he been deceived by the wise men?",
+      "What bloodshed ensued?",
+      "Why did Herod have the children killed?",
+      "But why precisely the two-year-olds?",
+      "When did this Herod die?",
+      "From whom did Joseph learn of it?",
+      "What did the angel say to Joseph?",
+      "Where did Joseph afterward establish his dwelling?"
+    ],
+    "teachings": [
+      "From this story one can answer three questions:\nI. Whether in a time of persecution one may also flee from danger?\nThe infant Jesus proves this by his own example, when he escaped into Egypt.",
+      "II. Who were the first martyrs of the New Testament?\nNamely, the innocent children at Bethlehem; in their memory the Day of the Holy Innocents also stands in the calendar.",
+      "III. Whether God knows beforehand all that will happen in the world.\nAh, certainly God knew of the slaughter of the children that Herod had in his heart, and therefore had Joseph warned beforehand."
+    ],
+    "reflection": "The little infant Jesus must depart into Egypt:\nBehold, Joseph leads him away with his mother!\nBut Herod thinks he cannot escape him,\nAnd instigates the great slaughter of children at Bethlehem.\nHow that bloodhound will one day sweat in hell,\nWhen he sees the children seated in heaven.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };

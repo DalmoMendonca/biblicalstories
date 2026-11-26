@@ -3317,5 +3317,45 @@ export const german1768 = {
       "III. Wir müssen den HErrn JEsum auch beschenken.\nDie Weisen schenkten ihm Gold, Weyrauch und Myrrhen: Wir Christen aber müssen ihm ein gläubiges, andächtiges und gedultiges Herz bringen."
     ],
     "reflection": "Die Weisen bringen dir / HErr JEsu! schöne Gaben /\nSie tragen Weyrauch / Gold und Myrrhen in der Hand /\nDergleichen wirst du zwar von mir nicht können haben /\nDenn meine Dürftigkeit ist dir gar wohl bekannt:\nDeswegen will ich doch auf etwas anders denken /\nUnd dir / mein JEsulein / mein kleines Herze schenken."
+  },
+  "63": {
+    "pages": [
+      361,
+      362,
+      365
+    ],
+    "printed": "211–213",
+    "latin": "Exul in Ægyptum descendit JESULUS infans,\nJosepho matrem concomitante piam.\nInterea pueros Herodes enecat omnes,\nNon JESUM sic non posse perire putans.\nHeu! quos in stygia pœnas dabit ille palude,\nInter cœlicolas quando videbit eos.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    },
+    "title": "Von der Flucht JEsu nach Egypten, und von den unschuldigen Kindern zu Bethlehem.",
+    "reference": "Matthäi II. Capitel.",
+    "narrative": "1. Nachdeme die Weisen hinweg gezogen waren, da erschien der Engel des HErrn dem Joseph im Traume, 2. und befahl ihm, daß er das Kindlein JEsus und seine Mutter zu sich nehmen, und in Egypten entfliehen solte: 3. daselbst solte er so lange bleiben, bis ihm der Engel was anders sagen würde. 4. Die Ursache solcher schleunigen Flucht war diese, weil Herodes das Kindlein JEsum umbringen wolte. 5. Joseph that, was ihm der Engel befohlen hatte, und machte sich bey der Nacht auf den Weg, und entwich in Egyptenland. 6. Der König Herodes sahe unterdessen, daß er von den Weisen betrogen war: 7. Denn sie kamen nicht wieder nach Jerusalem, wie sie ihm versprochen hatten. 8. Da ward er zornig, und ließ alle Kinder zu Bethlehem, und an ihrer ganzen Grenze umbringen, die zweyjährig und drunter waren. 9. Denn er dachte, das Kindlein JEsus müste nothwendig mit darunter seyn, 10. weil er von den Weisen gelernet hatte, daß der neu-gebohrne König der Jüden nicht älter, als zum höchsten zwey Jahre seyn könne. 11. Im folgenden Jahre starb dieser König Herodes an einer heßlichen Krankheit. 12. Alsobald erschien der Engel des HErrn dem Joseph im Traum in Egyptenland, und sprach: 13. Stehe auf, nimm das Kindlein und seine Mutter zu dir, und zeuch in das Land Israel: sie sind gestorben, die dem Kinde nach dem Leben stunden. 14. Das that Joseph, und zog auf GOttes Befehl in die Stadt Nazareth, darinnen der HErr Christus darnach ist erzogen worden.",
+    "questions": [
+      "Was trug sich zu, nachdem die Weisen wieder abgereiset waren?",
+      "Was befahl der Engel dem Joseph?",
+      "Wie lange solte Joseph in Egypten bleiben?",
+      "Warum solte er die Flucht nehmen?",
+      "Was that Joseph hierauf?",
+      "Was ward denn Herodes inne?",
+      "Worinnen war er von den Weisen betrogen worden?",
+      "Was erfolgte darauf vor ein Blut-Bad?",
+      "Warum ließ Herodes die Kinder umbringen?",
+      "Warum aber eben die zweyjährigen?",
+      "Wenn starb dieser Herodes?",
+      "Von wem erfuhr es Joseph?",
+      "Was sagte der Engel zu Josephen?",
+      "Wo schlug darnach Joseph seine Wohnung auf?"
+    ],
+    "teachings": [
+      "Man kan aus dieser Geschichte auf drey Fragen antworten:\nI. Ob man zur Zeit der Verfolgung auch der Gefahr entfliehen möge?\nDas beweiset das Kindlein JEsus mit seinem eigenen Exempel, da es nach Egypten entwich.",
+      "II. Welches denn die ersten Martyrer des neuen Testaments gewesen seyn?\nNemlich die unschuldigen Kinder zu Bethlehem, deswegen ihnen zum Andencken auch der unschuldigen Kinder-Tag im Calender stehet.",
+      "III. Ob denn GOtt alles zuvor wisse, was sich in der Welt zutragen werde.\nAch freylich wuste GOtt den Kinder-Mord, den Herodes in seinem Herzen hatte, und ließ deswegen Josephen vorher warnen."
+    ],
+    "reflection": "Das kleine JESUS Kind muß in Egypten ziehen:\nSeht / Joseph führet es mit seiner Mutter fort!\nHerodes aber denckt / es könnte ihm nicht entfliehen /\nUnd stifft zu Bethlehem den grossen Kinder-Mord.\nWie wird der Bluthund dort einst in der Hölle schwitzen /\nWenn er die Kinder wird im Himmel sehen sitzen."
   }
 };
