@@ -2858,5 +2858,64 @@ export const german1768 = {
       "III. Der Engel sagte beym Abschiede zum alten Tobia: weil du GOTT lieb warest, so muste es so seyn, ohne Anfechtung mustest du nicht bleiben.\nAch freylich ist das liebe Creutz nichts anders als eine väterliche Ruthe, die sollen alle Kinder küssen, und darbey ausruffen: Ach du liebe Ruthe! was thust du mir zu gute!"
     ],
     "reflection": "Ein blinder Mann ist wohl der ärmste Mann auf Erden!\nTobiä gieng es so; doch half ihm GOTT davon.\nWer aber muste denn an ihm zum Doctor werden?\nHört mit Verwunderung! Es war sein eigner Sohn.\nO selig ist ein Kind in dieser Welt zu preisen /\nDas solche Dankbarkeit den Eltern kan erweisen."
+  },
+  "52": {
+    "pages": [
+      310,
+      313,
+      314,
+      315,
+      316
+    ],
+    "printed": "184–188",
+    "latin": "Etsi damnatur capitis Susanna pudica,\nTestibus a falsis insimulata probri:\nAttamen hoc Daniel scelus haud transmittit inultum;\nJudice quo pœnas testis uterque luit,\nMentiar ut nunquam, nullo non tempore nonam\nPræcedens oculos lex erit ante meos.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 31,
+      "teachings": 3
+    },
+    "title": "Von der Susanna.",
+    "reference": "Susanna.",
+    "narrative": "1. Zu Babylon war ein vornehmer Mann, mit Namen Jojakim. 2. Der hatte eine Frau, die hieß Susanna, 3. die war gottesfürchtig und schön. 4. Denn sie hatte fromme Eltern, die sie unterweiset hatten nach dem Gesetze. 5. Bey diesem Manne giengen täglich zwey Richter aus und ein, 6. die verliebten sich in die schöne Susanna. 7. Wie sie nun einander ihre böse Lust bekannt hatten, so versteckten sie sich in ihrem Garten. 8. Darauf kam die Susanna in den Garten, und wolte sich waschen, wuste aber nicht, daß jemand im Garten war. 9. Sie hatte zwar zwey Mägde bey sich, aber sie schickte dieselben wieder fort, und war also ganz alleine. 10. Damit kamen die beyden Richter hervor, und wolten Ehebruch mit dieser Susanna treiben. 11. Aber sie wolte in eine solche Sünde nicht willigen, sondern fing an zu schreyen. 12. Doch die Eltesten schrien noch vielmehr, daß alle Knechte und Mägde darüber zusammen lieffen. 13. Des andern Tages ward die unschuldige Susanna vor Gerichte gefordert. 14. Sie war aber sehr schön und zart, und hatte ihr Gesicht mit einem Schleyer verhüllet: 15. Doch die Bösewichter liessen ihr den Schleyer vom Gesichte wegreissen, damit sie sich an ihrer Schönheit ergötzen möchten. 16. Darauf legten die zwey Eltesten die Hände auf ihr Haupt, und sagten: Sie hätten einen jungen Menschen im Garten gesehen, der hätte bey der Susanna geschlaffen: 17. Wie sie denselben hätten wollen feste kriegen, so wäre er davon gesprungen. 18. Die unschuldige Susanna beruffte sich zwar auf ihr gut Gewissen, und schrie zum HErrn in dieser grossen Noth: 19. Aber das Volk glaubte den falschen Zeugen, und also ward Susanna zum Tode verdammet. 20. Es erhörte aber GOtt der HErr ihr Gebet, und erweckte den Geist eines jungen Knaben, der hieß Daniel. 21. Wie sie nun solte zum Tode geführet werden, so rief dieser Daniel: Ich will unschuldig seyn an diesem Blute. 22. Alsobald kehrte das Volk wieder um, und die beyden Zeugen musten nunmehro selber vor dem Gerichte stehen. 23. Er ließ sie aber nicht beyde mit einander vortreten, sondern ein jeder muste besonders antworten. 24. Er fragte demnach den ersten, unter was vor einem Baum er die Susanna bey dem jungen Gesellen gefunden hätte? 25. Der alte böse Schalk gab zur Antwort: Unter einer Linden. 26. Darauf sagte Daniel: O recht! der Engel des HErrn wird dich finden. 27. Darnach fragte Daniel den andern Zeugen, unter was vor einem Baume der Ehebruch geschehen wäre? 28. Er aber gab zur Antwort: Unter einer Eichen. 29. Daniel sagte darauf: O recht! der Engel des HErrn wird dich zeichnen. 30. Da fing alles Volk an mit lauter Stimme den HErrn zu preisen, der das unschuldige Blut errettet hatte. 31. Die beyden alten Ehebrecher aber wurden alsobald vor falsche Zeugen erkläret, und nach dem Gesetze vom Leben zum Tode gebracht.",
+    "questions": [
+      "Was wohnte vor ein Mann zu Babylon?",
+      "Wie hieß seine Ehe-Frau?",
+      "Was war das vor eine Frau?",
+      "Wo hatte sie die Gottesfurcht gelernet?",
+      "Wer gieng bey diesem Manne aus und ein?",
+      "In was vor eine Thorheit fielen die beyden Männer?",
+      "Wo versteckten sich die beyden Ehebrecher hin?",
+      "Was wolte die Susanna im Garten machen?",
+      "Hatte sie niemand bey sich?",
+      "Was durften die Bösewichter der ehrlichen Frau zumuthen?",
+      "Wie stund ihr dieser Vorschlag an?",
+      "Was ward vor ein Tumult daraus?",
+      "Wo ward diese Sache ausgemacht?",
+      "Wie erschien Susanna vor Gerichte?",
+      "Was wiederfuhr ihr mit ihrem Schleyer?",
+      "Worinnen bestund ihre Aussage?",
+      "Wo solte denn der junge Geselle hinkommen seyn?",
+      "Wie verantwortete sich Susanna?",
+      "Aber was bekam sie vor ein Urtheil?",
+      "Wer half ihr endlich aus dieser Noth?",
+      "Wie ruffte Daniel aus?",
+      "Was sagte das Volk darzu?",
+      "Was machte Daniel vor Anstalt zur Verhörung?",
+      "Was ward dem ersten Zeugen vor eine Frage vorgeleget?",
+      "Worinnen bestund seine Aussage?",
+      "Was sagte Daniel darzu?",
+      "Worauf muste der andere Zeuge antworten?",
+      "Worinnen bestund dessen Aussage?",
+      "Was sagte Daniel darzu?",
+      "Was sagte das Volk zu dieser Aussage.",
+      "Was vor ein Urtheil ward über die beyden Bösewichter gefället?"
+    ],
+    "teachings": [
+      "I. Man hüte sich nur vor der That, der Lügen wird wohl Rath.\nDie keusche Susanna muste sich viel Böses nachsagen lassen; aber ihre Unschuld kam endlich doch an den Tag.",
+      "II. Eltern sollen ihre Kinder auferziehen in der Zucht und Vermahnung zum HErrn.\nVon der Susanna stehet: Sie war schön, und darzu gottesfürchtig; es stehet aber darbey: Denn sie hatte fromme Eltern, die sie unterweiset hatten nach dem Gesetze Mose.",
+      "III. Gute Advocaten sind sehr nützliche Leute im gemeinen Wesen.\nHätte Daniel nicht die keusche Susanna vor Gerichte vertheidiget, so wäre sie unschuldiger Weise hingerichtet worden."
+    ],
+    "reflection": "Es ward Susannen zwar das Leben abgesprochen /\nAls ein verfluchtes Paar ein falsches Zeugniß gab:\nAllein solches Unrecht ward durch Daniel gerochen /\nUnd endlich lief es schlecht mit diesen Zeugen ab.\nAch GOTT! dein acht Gebot soll mir vor Augen stehen /\nUnd keine Lügen soll aus meinem Munde gehen."
   }
 };

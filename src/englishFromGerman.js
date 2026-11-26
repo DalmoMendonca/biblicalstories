@@ -2916,5 +2916,65 @@ export const englishFromGerman = {
       "III. At his departure the angel said to the elder Tobias: Because you were dear to God, it had to be so; you could not remain without trial.\nAh, truly the dear cross is nothing other than a fatherly rod, which all children ought to kiss, crying: Ah, dear rod! What good you do me!"
     ],
     "reflection": "A blind man is surely the poorest man on earth!\nSo it was with Tobias; yet God delivered him from it.\nBut who then had to become his doctor?\nHear with wonder! It was his own son.\nOh, blessed is a child to be praised in this world,\nWho can show such gratitude to his parents."
+  },
+  "52": {
+    "pages": [
+      310,
+      313,
+      314,
+      315,
+      316
+    ],
+    "printed": "184–188",
+    "latin": "Etsi damnatur capitis Susanna pudica,\nTestibus a falsis insimulata probri:\nAttamen hoc Daniel scelus haud transmittit inultum;\nJudice quo pœnas testis uterque luit,\nMentiar ut nunquam, nullo non tempore nonam\nPræcedens oculos lex erit ante meos.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 31,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Susanna.",
+    "reference": "Susanna.",
+    "narrative": "1. At Babylon there was a distinguished man named Joakim. 2. He had a wife named Susanna, 3. who was God-fearing and beautiful. 4. For she had godly parents who had instructed her according to the law. 5. Two judges went in and out at this man's house daily, 6. and fell in love with the beautiful Susanna. 7. When they had confessed their evil desire to one another, they hid themselves in her garden. 8. Thereupon Susanna came into the garden and wished to wash herself, but did not know anyone was in the garden. 9. She had two maidservants with her, but sent them away again and was thus quite alone. 10. Then the two judges came forth and wished to commit adultery with Susanna. 11. But she would not consent to such a sin and began to cry out. 12. Yet the elders cried out still more loudly, so that all the servants and maidservants ran together. 13. On the following day the innocent Susanna was summoned before the court. 14. She was very beautiful and delicate and had covered her face with a veil; 15. but the villains had the veil torn from her face so that they might delight in her beauty. 16. Then the two elders laid their hands upon her head and said that they had seen a young man in the garden who had slept with Susanna; 17. when they had wished to seize him, he had leapt away. 18. The innocent Susanna appealed to her good conscience and cried to the Lord in this great distress; 19. but the people believed the false witnesses, and thus Susanna was condemned to death. 20. But the Lord God heard her prayer and stirred up the spirit of a young boy named Daniel. 21. When she was about to be led to death, Daniel cried: I wish to be innocent of this blood. 22. Immediately the people turned back, and the two witnesses themselves now had to stand before the court. 23. But he did not let them both come forward together; each had to answer separately. 24. Accordingly he asked the first under what kind of tree he had found Susanna with the young fellow. 25. The old wicked rogue answered: Under a linden tree. 26. Thereupon Daniel said: O right! The angel of the Lord will find you. 27. Afterwards Daniel asked the other witness under what kind of tree the adultery had taken place. 28. But he answered: Under an oak tree. 29. Daniel then said: O right! The angel of the Lord will mark you. 30. Then all the people began with a loud voice to praise the Lord, who had delivered the innocent blood. 31. But the two old adulterers were immediately declared false witnesses and, according to the law, were put to death.",
+    "questions": [
+      "What sort of man dwelt at Babylon?",
+      "What was his wife's name?",
+      "What sort of woman was she?",
+      "Where had she learned the fear of God?",
+      "Who went in and out at this man's house?",
+      "Into what folly did the two men fall?",
+      "Where did the two adulterers hide themselves?",
+      "What did Susanna wish to do in the garden?",
+      "Had she no one with her?",
+      "What did the villains dare demand of the honorable woman?",
+      "How did she regard this proposal?",
+      "What tumult arose from it?",
+      "Where was this matter decided?",
+      "How did Susanna appear before the court?",
+      "What happened to her veil?",
+      "What did their testimony consist in?",
+      "Where was the young fellow supposed to have gone?",
+      "How did Susanna defend herself?",
+      "But what judgment did she receive?",
+      "Who at last helped her out of this distress?",
+      "What did Daniel cry out?",
+      "What did the people say to this?",
+      "What arrangements did Daniel make for the examination?",
+      "What question was put to the first witness?",
+      "What did his testimony consist in?",
+      "What did Daniel say to that?",
+      "What did the other witness have to answer?",
+      "What did his testimony consist in?",
+      "What did Daniel say to that?",
+      "What did the people say to this testimony?",
+      "What judgment was pronounced upon the two villains?"
+    ],
+    "teachings": [
+      "I. Guard yourself only against the deed; a remedy will be found for lies.\nThe chaste Susanna had to endure much evil being spoken of her; but her innocence finally came to light.",
+      "II. Parents should bring up their children in the discipline and admonition of the Lord.\nOf Susanna it is written: She was beautiful and God-fearing besides; but it also says: For she had godly parents who had instructed her according to the law of Moses.",
+      "III. Good advocates are very useful people in the commonwealth.\nHad Daniel not defended the chaste Susanna before the court, she would have been executed innocently."
+    ],
+    "reflection": "Susanna was indeed sentenced to lose her life,\nWhen a cursed pair bore false witness;\nYet such injustice was avenged through Daniel,\nAnd in the end it went badly with these witnesses.\nAh God! May your eighth commandment stand before my eyes,\nAnd may no lie proceed from my mouth."
   }
 };
