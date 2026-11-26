@@ -3427,5 +3427,48 @@ export const englishFromGerman = {
     ],
     "reflection": "The little infant Jesus must depart into Egypt:\nBehold, Joseph leads him away with his mother!\nBut Herod thinks he cannot escape him,\nAnd instigates the great slaughter of children at Bethlehem.\nHow that bloodhound will one day sweat in hell,\nWhen he sees the children seated in heaven.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "64": {
+    "title": "How Jesus at Twelve Years of Age Was Lost and Found Again.",
+    "reference": "Luke, chapter 2.",
+    "narrative": "1. The parents of the Lord Jesus went up to Jerusalem every year for the Passover feast. 2. When the Lord Jesus was twelve years old, his parents took him with them to Jerusalem according to the custom of the feast. 3. When the days were ended and they went home again, the child Jesus remained in Jerusalem, and his parents did not know it. 4. But they supposed he was among their companions, went a day's journey, and sought him among relatives and acquaintances. 5. When they did not find him, they returned to Jerusalem and sought him. 6. And it came to pass that after three days they found him sitting in the temple amid the teachers, 7. listening to them and asking them questions. 8. All who heard him marveled at his understanding and his answer. 9. When his parents saw him, they were astonished; 10. and his mother said to him: My son, why hast thou done this unto us? Behold, thy father and I have sought thee with sorrow. 11. But Jesus said to them: How is it that ye sought me? Know ye not that I must be about that which is my Father's? 12. And they did not understand the word he spoke to them. 13. And he went down with them to Nazareth and was subject to them. 14. But his mother kept all these words in her heart. 15. And Jesus increased in wisdom, age, and favor with God and men.",
+    "questions": [
+      "Where did Jesus' parents travel every year?",
+      "Did they not also once take the Lord Jesus with them to the Passover feast?",
+      "What happened on the journey home?",
+      "Where did they suppose Jesus was?",
+      "Where did his parents seek him?",
+      "Where did they finally find him?",
+      "What was Jesus doing in the temple?",
+      "What did the people say of it?",
+      "What did his parents think when they saw him among the teachers?",
+      "What did his mother Mary say to him?",
+      "What answer did Jesus give her?",
+      "What did Jesus' parents make of it?",
+      "Where did Jesus then stay?",
+      "What thoughts did Mary have about it?",
+      "How did Jesus spend the remainder of his youth at Nazareth?"
+    ],
+    "teachings": [
+      "From this story one can clearly see the difference in the upbringing of children.\nI. Jesus' parents took their child with them to the Passover feast.\nMany parents direct their children neither to church nor to school.",
+      "II. The child Jesus was found in the temple amid the teachers.\nMany children prefer to run about the streets and playgrounds during divine service.",
+      "III. The child Jesus at twelve years of age could already debate with the teachers in Jerusalem.\nMany children at twelve years of age do not yet know even the catechism, or the principal articles of the Christian religion."
+    ],
+    "reflection": "In age and likewise in wisdom and in favor\nWith men and with God Jesus Christ increased.\nNow it is indeed impossible that to so high a degree\nI, as a mere human being, should do as Christ did:\nYet notwithstanding this I shall endeavor\nThat honor and joy may also be reaped from me.",
+    "latin": "JESU quotidie sapientia, gratia & ætas,\nCrescit & augetur, codice teste sacro.\nHujus ad exemplum si me componere vellem,\nFrustra, deterius dicere nolo, forem.\nHoc tamen efficiam, de me præsumta parentum\nUt ne spes voto præcipitata ruat.",
+    "pages": [
+      365,
+      366,
+      367,
+      368
+    ],
+    "printed": "213–216",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

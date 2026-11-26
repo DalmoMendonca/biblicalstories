@@ -3357,5 +3357,47 @@ export const german1768 = {
       "III. Ob denn GOtt alles zuvor wisse, was sich in der Welt zutragen werde.\nAch freylich wuste GOtt den Kinder-Mord, den Herodes in seinem Herzen hatte, und ließ deswegen Josephen vorher warnen."
     ],
     "reflection": "Das kleine JESUS Kind muß in Egypten ziehen:\nSeht / Joseph führet es mit seiner Mutter fort!\nHerodes aber denckt / es könnte ihm nicht entfliehen /\nUnd stifft zu Bethlehem den grossen Kinder-Mord.\nWie wird der Bluthund dort einst in der Hölle schwitzen /\nWenn er die Kinder wird im Himmel sehen sitzen."
+  },
+  "64": {
+    "title": "Wie JEsus im zwölften Jahr ist verlohren und wieder gefunden worden.",
+    "reference": "Luc. II. Capitel.",
+    "narrative": "1. Die Eltern des HErrn JEsu giengen alle Jahre hinauf gen Jerusalem auf das Oster-Fest. 2. Wie nun der HErr JEsus zwölf Jahr alt war, so nahmen ihn seine Eltern mit nach Jerusalem, nach Gewohnheit des Festes. 3. Und da die Tage vollendet waren, und sie wieder nach Hause giengen, so blieb das Kind JEsus zu Jerusalem, und seine Eltern wustens nicht. 4. Sie meinten aber, er wäre unter den Gefährten, und kamen eine Tage-Reise, und suchten ihn unter den Gefreundten und Bekannten. 5. Und da sie ihn nicht funden, giengen sie wieder nach Jerusalem, und suchten ihn. 6. Und es begab sich nach dreyen Tagen, funden sie ihn im Tempel sitzen mitten unter den Lehrern. 7. daß er ihnen zuhörete, und sie fragte. 8. Und alle die ihm zuhöreten verwunderten sich seines Verstandes, und seiner Antwort. 9. Da ihn nun seine Eltern sahen, entsetzten sie sich: 10. und seine Mutter sprach zu ihm: Mein Sohn, warum hast du uns das gethan? Siehe, dein Vater und ich haben dich mit Schmerzen gesucht. 11. JEsus aber sprach zu ihnen: Was ists, daß ihr mich gesucht habt? Wisset ihr nicht, daß ich seyn muß in dem, das meines Vaters ist? 12. Und sie verstunden das Wort nicht, das er mit ihnen redete. 13. Und er gieng mit ihnen hinab gen Nazareth, und war ihnen unterthan. 14. Seine Mutter aber behielt alle diese Worte in ihrem Herzen. 15. Und JEsus nahm zu an Weisheit, Alter und Gnade bey GOtt und den Menschen.",
+    "questions": [
+      "Wo reiseten die Eltern JEsu alle Jahre hin?",
+      "Nahmen sie den HErrn JEsum nicht auch einmal mit auf das Oster-Fest?",
+      "Was trug sich denn auf der Heim-Reise zu?",
+      "Wo meinten sie denn, daß JEsus wäre?",
+      "Wo suchten ihn seine Eltern?",
+      "Wo funden sie ihn endlich?",
+      "Was machte JEsus im Tempel?",
+      "Was sagten die Leute dazu?",
+      "Was dachten seine Eltern, wie sie ihn mitten unter den Lehrern sahen?",
+      "Wie sagte die Mutter Maria zu ihm?",
+      "Was gab ihr dann JEsus zur Antwort?",
+      "Was nahmen sich die Eltern JEsu daraus?",
+      "Wo blieb denn JESUS?",
+      "Was hatte Maria vor Gedancken darbey?",
+      "Wie brachte JEsus seine folgende Jugend zu Nazareth zu?"
+    ],
+    "teachings": [
+      "Man kan aus dieser Historie den Unterschied der Kinder-Zucht gar deutlich sehen.\nI. Die Eltern JEsu nahmen ihr Kind mit sich auf das Oster-Fest.\nViele Eltern halten ihre Kinder weder zur Kirchen noch zur Schule.",
+      "II. Das Kind JEsus ließ sich im Tempel mitten unter den Lehrern antreffen.\nViele Kinder lauffen unter dem Gottesdienste lieber auf der Gassen und Spiel-Plätzen herum.",
+      "III. Das Kind JEsus konnte im zwölften Jahre schon mit den Lehrern in Jerusalem disputiren.\nViele Kinder können im zwölften Jahre noch nicht einmal den Catechismum, oder die Haupt-Stücke der Christlichen Religion."
+    ],
+    "reflection": "An Alter und zugleich an Weisheit und an Gnade\nBey Menschen und bey GOtt nahm JEsus Christus zu.\nNun geht es zwar nicht an / daß in so hohem Grade\nIch als ein blosser Mensch es Christo gleiche thu:\nDoch diesem ungeacht will ich mich doch bemühen /\nDaß man an mir auch Ehr und Freude soll erziehen.",
+    "latin": "JESU quotidie sapientia, gratia & ætas,\nCrescit & augetur, codice teste sacro.\nHujus ad exemplum si me componere vellem,\nFrustra, deterius dicere nolo, forem.\nHoc tamen efficiam, de me præsumta parentum\nUt ne spes voto præcipitata ruat.",
+    "pages": [
+      365,
+      366,
+      367,
+      368
+    ],
+    "printed": "213–216",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    }
   }
 };
