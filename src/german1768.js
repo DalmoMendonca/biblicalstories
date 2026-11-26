@@ -4579,5 +4579,60 @@ export const german1768 = {
       "questions": 17,
       "teachings": 3
     }
+  },
+  "92": {
+    "title": "Vom jüngsten Gericht.",
+    "reference": "Matth. XXVI. Capitel.",
+    "pages": [
+      486,
+      489,
+      490,
+      491,
+      492
+    ],
+    "printed": "280–284",
+    "narrative": "1. Wenn des Menschen Sohn kommen wird in seiner Herrlichkeit, 2. und alle heilige Engel mit ihm. 3. Denn wird er sitzen auf dem Stuhle seiner Herrlichkeit, 4. und werden vor ihm alle Völker versammlet werden, und er wird sie von einander scheiden, 5. gleich als ein Hirt die Schafe von den Böcken scheidet. 6. Und wird die Schafe zu seiner Rechten stellen, 7. und die Böcke zu seiner Linken. 8. Da wird denn der König sagen zu denen zu seiner Rechten: Kommet her, ihr Gesegneten meines Vaters, ererbet das Reich, das euch bereitet ist von Anbeginn der Welt. 9. Denn ich bin hungrig gewesen, und ihr habt mich gespeiset. 10. Ich bin durstig gewesen, und ihr habet mich getränket. 11. Ich bin ein Gast gewesen, und ihr habet mich beherberget. 12. Ich bin nacket gewesen, und ihr habet mich bekleidet. 13. Ich bin krank gewesen, und ihr habet mich besucht. 14. Ich bin gefangen gewesen, und ihr seyd zu mir kommen. 15. Da werden ihm die Gerechten antworten und sagen: HErr, wenn haben wir dich hungrich gesehen und haben dich gespeiset? oder durstig und haben dich getränket? Wenn haben wir dich einen Gast gesehen, und beherberget? oder nacket, und haben dich bekleidet? Wenn haben wir dich krank oder gefangen gesehen, und sind zu dir kommen? 16. Und der König wird Antworten und sagen zu ihnen: Warlich, ich sage euch, was ihr gethan habt einem unter diesen meinen geringsten Brüdern, das habt ihr mir gethan. 17. Denn wird er auch sagen zu denen zu seiner Linken, gehet hin von mir, ihr Verfluchten, in das ewige Feuer, das bereitet ist dem Teufel und seinen Engeln. 18. Ich bin hungrig gewesen, und ihr habet mich nicht gespeiset. 19. Ich bin durstig gewesen, und ihr habt mich nicht getränket. 20. Ich bin ein Gast gewesen, und ihr habt mich nicht beherberget. 21. Ich bin nacket gewesen, und ihr habt mich nicht bekleidet. 22. Ich bin krank und gefangen gewesen, und ihr habt mich nicht besuchet. 23. Da werden sie ihm auch antworten und sagen: HErr, wenn haben wir dich gesehen hungrig oder durstig, oder gefangen, &c. und haben dir nicht gedienet? 24. Denn wird er ihnen antworten und sagen: Warlich, ich sage euch, was ihr nicht gethan habt einem unter diesen Geringsten, das habt ihr mir auch nicht gethan. 25. Und sie werden in die ewige Pein gehen; 26. aber die Gerechten in das ewige Leben.",
+    "questions": [
+      "Wer wird sich am Ende der Welt sehen lassen?",
+      "Wer wird denn mit ihm kommen?",
+      "Worauf wird des Menschen Sohn sitzen?",
+      "Wer wird denn vor ihm erscheinen müssen?",
+      "Wie wird er die Menschen von einander scheiden?",
+      "Wo wird er die Schafe hinstellen?",
+      "Wohin aber die Böcke?",
+      "Wie wird Christus zu denen zur Rechten sagen?",
+      "Wenn sollen sie ihn denn gespeiset haben?",
+      "Wenn haben sie ihn getränket?",
+      "Wenn haben sie ihn beherberget?",
+      "Wenn haben sie ihn gekleidet?",
+      "Wenn haben sie ihn besucht?",
+      "Und wenn sollen sie zu ihm kommen seyn?",
+      "Was werden die Gerechten dagegen einwenden?",
+      "Was wird ihnen aber der König antworten,",
+      "Wie wird der König zu denen zur Linken sprechen?",
+      "Was haben sie ihm gethan, wie er ist hungrig gewesen?",
+      "Wie er ist durstig gewesen?",
+      "Wie er ist ein Gast gewesen?",
+      "Wie er ist nacket gewesen?",
+      "Wie er ist krank und gefangen gewesen?",
+      "Was werden die zur Linken dagegen einwenden?",
+      "Was wird ihnen der König antworten?",
+      "Wo werden die Gottlosen bleiben?",
+      "Wo werden aber die Gerechten hingehen?"
+    ],
+    "teachings": [
+      "Es sind in dieser Erzehlung drey nachdenkliche Worte, die der Richter am jüngsten Tag im Munde führen wird.\nI. Das erste merkwürdige Wort ist dieses: Kommt her, ihr Gesegneten meines Vaters.\nAch wenn doch dieses alle Betrübten zu ihrem Troste merken wollten. Haben sie hier in dieser Welt nicht viel zeitlichen Segen; genug, daß sie dermaleins dort die Gesegneten des himmlischen Vaters seyn sollen.",
+      "II. Das andre merkwürdige Wort ist dieses: Gehet hin von mir, ihr Verfluchten, in das ewige Feuer.\nAch wenn doch dieses in der Ohren aller ruchlosen Welt-Kinder erschallte, damit sie bey einem jedweden brennenden Lichte, und bey einer jeden glüenden Kohle, sich des ewigen Feuers erinnern möchten.",
+      "III. Das dritte merkwürdige Wort ist dieses: Das habt ihr mir gethan.\nAch wenn doch dieses alle reiche Leute zu Herzen nehmen wollten, welche so schöne Gelegenheit in Händen haben, die Hungrigen zu speisen, die Durstigen zu tränken, die Nackenden zu kleiden, die Fremden zu beherbergen, die Kranken zu besuchen, und die Gefangenen zu trösten."
+    ],
+    "reflection": "Das habt ihr mir gethan: so wird der Heyland sprechen /\nWenn einsten alle Welt wird vor Gerichte stehn.\nAch selig! welche hier das Brod den Armen brechen!\nWie frölich werden sie aus ihren Gräbern gehn!\nIhr Armen freuet euch / ihr sollet reiche Gaben /\nWenn mich GOtt segnen wird / aus meinen Händen haben.",
+    "latin": "Hoc MIHI FECISTIS: Judex his vocibus olim\nUtetur Christus, cum rediturus erit.\nQuam læti surgent! qui duro tempore larga\nPauperibus panem distribuere manu.\nSi mihi divitiæ contingent, nullus egenus\nA foribus tristis debet abire meis.",
+    "editorial_notes": "Heading prints Matthew XXVI, though marginal references and narrative are Matthew 25:31–46. Printed page 282 is misnumbered 292; sequential range 280–284. Initial narrative marker 1 supplied to correspond to printed question 1.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    }
   }
 };

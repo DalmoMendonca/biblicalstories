@@ -4677,5 +4677,61 @@ export const englishFromGerman = {
       "questions": 17,
       "teachings": 3
     }
+  },
+  "92": {
+    "title": "On the Last Judgment",
+    "reference": "Matthew XXVI (printed heading; Matthew 25:31–46)",
+    "pages": [
+      486,
+      489,
+      490,
+      491,
+      492
+    ],
+    "printed": "280–284",
+    "narrative": "1. When the Son of Man comes in his glory, 2. and all the holy angels with him, 3. then he will sit upon the throne of his glory, 4. and all nations will be gathered before him, and he will separate them from one another, 5. just as a shepherd separates the sheep from the goats. 6. And he will place the sheep at his right hand, 7. and the goats at his left. 8. Then the King will say to those at his right: Come here, you blessed of my Father, inherit the kingdom prepared for you from the beginning of the world. 9. For I was hungry, and you fed me. 10. I was thirsty, and you gave me drink. 11. I was a guest, and you gave me lodging. 12. I was naked, and you clothed me. 13. I was sick, and you visited me. 14. I was imprisoned, and you came to me. 15. Then the righteous will answer him and say: Lord, when did we see you hungry and feed you? Or thirsty and give you drink? When did we see you a guest and give you lodging? Or naked and clothe you? When did we see you sick or imprisoned and come to you? 16. And the King will answer and say to them: Truly, I tell you, what you did to one of these least brothers of mine, you did to me. 17. Then he will also say to those at his left: Depart from me, you cursed, into the eternal fire prepared for the devil and his angels. 18. I was hungry, and you did not feed me. 19. I was thirsty, and you did not give me drink. 20. I was a guest, and you did not give me lodging. 21. I was naked, and you did not clothe me. 22. I was sick and imprisoned, and you did not visit me. 23. Then they too will answer him and say: Lord, when did we see you hungry or thirsty or imprisoned, etc., and not serve you? 24. Then he will answer them and say: Truly, I tell you, what you did not do to one of these least ones, you did not do to me either. 25. And they will go into eternal torment; 26. but the righteous into eternal life.",
+    "questions": [
+      "Who will appear at the end of the world?",
+      "Who will come with him?",
+      "Upon what will the Son of Man sit?",
+      "Who will have to appear before him?",
+      "How will he separate people from one another?",
+      "Where will he place the sheep?",
+      "But where the goats?",
+      "What will Christ say to those at his right?",
+      "When are they supposed to have fed him?",
+      "When did they give him drink?",
+      "When did they give him lodging?",
+      "When did they clothe him?",
+      "When did they visit him?",
+      "And when are they supposed to have come to him?",
+      "What will the righteous object in reply?",
+      "But what will the King answer them?",
+      "What will the King say to those at his left?",
+      "What did they do for him when he was hungry?",
+      "When he was thirsty?",
+      "When he was a guest?",
+      "When he was naked?",
+      "When he was sick and imprisoned?",
+      "What will those at the left object in reply?",
+      "What will the King answer them?",
+      "Where will the godless remain?",
+      "But where will the righteous go?"
+    ],
+    "teachings": [
+      "In this account are three words worthy of reflection which the Judge will have on his lips at the Last Day.\nI. The first noteworthy word is this: Come here, you blessed of my Father.\nOh, if only all the afflicted would remember this for their comfort. If they have little temporal blessing here in this world, it is enough that one day there they shall be the blessed of the heavenly Father.",
+      "II. The other noteworthy word is this: Depart from me, you cursed, into the eternal fire.\nOh, if only this would resound in the ears of all wicked children of the world, so that at every burning light and every glowing coal they might remember the eternal fire.",
+      "III. The third noteworthy word is this: You did it to me.\nOh, if only all rich people would take this to heart, who have such a fine opportunity in their hands to feed the hungry, give drink to the thirsty, clothe the naked, lodge strangers, visit the sick, and comfort prisoners."
+    ],
+    "reflection": "You did it to me: thus the Savior will speak,\nWhen one day all the world stands before judgment.\nOh blessed are those who break bread for the poor here!\nHow joyfully they will go forth from their graves!\nRejoice, you poor; you shall have rich gifts,\nWhen God blesses me, from my hands.",
+    "latin": "Hoc MIHI FECISTIS: Judex his vocibus olim\nUtetur Christus, cum rediturus erit.\nQuam læti surgent! qui duro tempore larga\nPauperibus panem distribuere manu.\nSi mihi divitiæ contingent, nullus egenus\nA foribus tristis debet abire meis.",
+    "kind": "new-translation-from-transcribed-german",
+    "editorial_notes": "Heading prints Matthew XXVI, though marginal references and narrative are Matthew 25:31–46. Printed page 282 is misnumbered 292; sequential range 280–284. Initial narrative marker 1 supplied to correspond to printed question 1.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    }
   }
 };
