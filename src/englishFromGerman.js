@@ -3677,5 +3677,44 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "70": {
+    "title": "Of the Pool of Bethesda.",
+    "reference": "John, chapter 5.",
+    "pages": [
+      391,
+      392,
+      395
+    ],
+    "printed": "227–229",
+    "narrative": "1. At Jerusalem there was a pool called Bethesda. 2. At the pool there were five porches for the sick. 3. Thus the blind, the lame, the withered, and other crippled people lay therein. 4. But at a certain time an angel came from heaven and stirred the water. 5. Whoever then sprang into the water first became well, whatever disease he might have. 6. But there was a man there who had lain beside this pool for thirty-eight years. 7. When Jesus saw him and learned that he had lain there so long, Jesus asked whether he wished to become well. 8. The sick man said that he had no one to let him down into the pool, and when the water was stirred, another stepped in. 9. Jesus said to him: Rise, take up thy bed, and go thy way. 10. Immediately the man became well, took up his bed, and went away. 11. Some time afterward Jesus found this man in the temple, 12. and said to him: Behold, thou art made well; sin no more henceforth, lest something worse befall thee.",
+    "questions": [
+      "What pool was there at Jerusalem?",
+      "How many porches were beside it?",
+      "What sorts of people lay in the porches?",
+      "What happened at the pool?",
+      "But who became well through it?",
+      "How long had a certain patient lain beside this pool?",
+      "What did Christ say to this man?",
+      "How did the sick man describe his condition?",
+      "What powerful word did Jesus speak to him?",
+      "Did this also help the patient?",
+      "Where did Christ find this man again?",
+      "What warning did the Savior give him?"
+    ],
+    "teachings": [
+      "I. A man had lain sick for thirty-eight years.\nAll those who have not had even a finger ache in many years should look diligently upon this man, so that they might learn to value the noble gift of health all the more highly.",
+      "II. The Lord Christ afterward found the man whom he had made well in the temple.\nThat is right; in days of health one should diligently visit the house of God; when one is afterward sick, one cannot do so, however gladly one would.",
+      "III. Christ says: Sin no more henceforth, lest something worse befall thee.\nThis is a lesson also for spiritual patients who have been sick in soul: namely, after repentance one must not begin again where one left off."
+    ],
+    "reflection": "Ye sick, who would leap out of your very skin\nWhen God will not help at once upon the first day;\nConsider what the man in thirty-eight years\nHad to endure, who lay beside Bethesda!\nIt truly is not for us to prescribe hours to God;\nGod comes at the right time, and will not fail to come.",
+    "latin": "Sicubi speratam non fert medicina salutem,\nÆgrotas tantum non Acheronta movet.\nLonge nos alios mores piscina Bethesda,\nExemplo nobis quam decet esse, docet.\nPræscriptas temere Dominus non respicit horas,\nPro lubitu faciens tempore quæque suo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

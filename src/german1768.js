@@ -3601,5 +3601,43 @@ export const german1768 = {
       "questions": 9,
       "teachings": 3
     }
+  },
+  "70": {
+    "title": "Vom Teiche Bethesda.",
+    "reference": "Joh. V. Capitel.",
+    "pages": [
+      391,
+      392,
+      395
+    ],
+    "printed": "227–229",
+    "narrative": "1. Zu Jerusalem war ein Teich, der hieß Bethesda. 2. An dem Teiche waren fünff Hallen vor die Krancken. 3. Es lagen also Blinde, Lahme, Dürre und andere Kröpel darinnen. 4. Zu gewisser Zeit aber kam ein Engel vom Himmel und bewegte das Wasser. 5. Wer nun am ersten in das Wasser sprang, der ward gesund, er mochte vor eine Kranckheit haben, was er wolte. 6. Es war aber ein Mensch daselbst, der hatte acht und dreysig Jahr an diesem Teiche gelegen. 7. Wie JEsus denselben sahe, und vernahm daß er so lange gelegen hatte, so fragte JEsus, ob er wolte gesund werden? 8. Der Krancke sagte, er hätte keinen Menschen, der ihn in den Teich ließe, und wenn das Wasser beweget würde, so stiege ein anderer hinein. 9. JEsus sprach zu ihm: Stehe auf, nimm dein Bette und gehe hin. 10. Alsobald ward der Mensch gesund, und nahm sein Bette, und gieng hin. 11. Einige Zeit darnach fand JEsus diesen Mann im Tempel, 12. und sprach zu ihm: Siehe zu, du bist gesund worden, sündige hinfort nicht mehr, auf daß dir nicht etwas ärgers wiederfahre.",
+    "questions": [
+      "Was war zu Jerusalem vor ein Teich?",
+      "Wie viel waren Hallen daran?",
+      "Was vor Leute lagen in den Hallen?",
+      "Was trug sich denn mit dem Teiche zu?",
+      "Wer ward aber davon gesund?",
+      "Wie lange hatte ein gewisser Patiente an diesem Teiche gelegen?",
+      "Was sagte Christus zu diesem Menschen?",
+      "Wie beschrieb der Krancke seinen Zustand?",
+      "Was sagte JEsus vor ein kräfftiges Wort zu ihm?",
+      "Half dieses auch dem Patienten was?",
+      "Wo fand Christus diesen Mann wieder?",
+      "Was gab ihm der Heiland vor eine Warnung?"
+    ],
+    "teachings": [
+      "I. Ein Mensch hatte acht und dreysig Jahr kranck gelegen.\nDiesen Mann möchten wohl alle diejenigen fein fleißig ansehen, denen in vielen Jahren kein Finger wehe gethan hat; damit sie die edle Gabe der Gesundheit desto höher schätzen lernten.",
+      "II. Der HErr Christus fand den Mann, den er gesund gemacht hatte, nach diesem in dem Tempel.\nDas ist recht, bey gesunden Tagen soll man das GOttes-Hauß fleißig besuchen; wenn man darnach kranck ist, so kan mans nicht thun, wenn man gleich gerne wolte.",
+      "III. Christus saget: Sündige hinfort nicht mehr, auf daß dir nicht etwas ärgers widerfahre.\nDas ist eine Lection auch vor die geistlichen Patienten, die an der Seele kranck gewesen sind: Nemlich nach der Busse muß mans nicht wieder anfangen, wo mans gelassen hat."
+    ],
+    "reflection": "Ihr Krancken / die ihr gleich aus eurer Haut wolt fahren /\nWenn GOtt nicht helffen will flugs auf den ersten Tag;\nBedencket / was der Mann in acht und dreysig Jahren\nNicht ausgestanden hat / der bey Bethesda lag!\nUns kömmt fürwahr nicht zu / GOtt Stunden vorzuschreiben /\nGOtt kömmt zu rechter Zeit / und wird nicht aussen bleiben.",
+    "latin": "Sicubi speratam non fert medicina salutem,\nÆgrotas tantum non Acheronta movet.\nLonge nos alios mores piscina Bethesda,\nExemplo nobis quam decet esse, docet.\nPræscriptas temere Dominus non respicit horas,\nPro lubitu faciens tempore quæque suo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    }
   }
 };
