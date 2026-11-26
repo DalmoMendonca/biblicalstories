@@ -3510,5 +3510,43 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "66": {
+    "title": "How Jesus Was Baptized.",
+    "reference": "Matthew 3; Mark 1; Luke 3; and John 1.",
+    "pages": [
+      372,
+      375,
+      376
+    ],
+    "printed": "218–220",
+    "narrative": "1. While John was baptizing at the Jordan, the Lord Jesus came to him and wished to be baptized. 2. John forbade the Lord Jesus and said: I indeed have need to be baptized by thee. 3. But the Lord Jesus said: Suffer it to be so, for thus it befits us to fulfill all righteousness; and thereupon he permitted him. 4. When Jesus was baptized, he immediately came up out of the water, and behold, heaven opened above him. 5. And the Holy Spirit descended like a dove and remained upon the Lord Jesus. 6. Finally a voice resounded from heaven, saying: This is my beloved Son, in whom I am well pleased. 7. Thereby John was sufficiently convinced that this was the Savior of the world. 8. For God had told John: He upon whom he should see the Spirit descend and remain would be the one. 9. John also bore witness to him before all the people when he came to him again the next day, saying: Behold, this is the Lamb of God, which bears the sin of the world. 10. Jesus was then entering the thirtieth year of his age. 11. But he was regarded by the people as a son of Joseph of Nazareth.",
+    "questions": [
+      "By whom did Jesus wish to be baptized?",
+      "How did John excuse himself?",
+      "But what answer did Jesus give?",
+      "What happened at the baptism?",
+      "Who came down from heaven?",
+      "What voice resounded from heaven?",
+      "Of what was John thereby convinced?",
+      "What particular sign had God given him?",
+      "What did John say to the people when he saw Jesus?",
+      "How old was the Lord Jesus then?",
+      "As what was Christ regarded in the state of humiliation?"
+    ],
+    "teachings": [
+      "I. The Lord Jesus stood in the river Jordan when he was baptized by John.\nThereby Jesus sanctified all baptismal water, which even now is sprinkled upon the children of Christians at baptism.",
+      "II. John pointed with his fingers at Jesus and said: Behold, this is the Lamb of God, which bears the sin of the world.\nYou and I also belong to the world: thus the Lamb of God has borne my sin and yours as well.",
+      "III. At the Jordan the entire most blessed Trinity revealed itself.\nFor God the Son stood in the water; God the Holy Spirit hovered in the air; and God the Father called down from heaven."
+    ],
+    "reflection": "The Father's voice resounds in heaven high above;\nBut on earth Jesus Christ stands in the Jordan,\nAnd God the Holy Spirit hovers above like a little dove:\nNow I believe with full certainty that God is triune;\nAnd if reason should seek to contradict me,\nI shall immediately go only to the Jordan.",
+    "latin": "Vox distincta PATRIS cœlo delabitur alto:\nEt stans ad fluvium FILIUS almus adest:\nSPIRITUS & Sanctus comparet more columbæ:\nQuis jam non TRINUM crederet esse Deum?\nHinc regeram, si quis dubitaverit, hæc tria verba:\nVade ad Jordanum; prætereaque nihil.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

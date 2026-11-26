@@ -3438,5 +3438,42 @@ export const german1768 = {
       "questions": 13,
       "teachings": 3
     }
+  },
+  "66": {
+    "title": "Wie JEsus ist getaufft worden.",
+    "reference": "Matth. III. Marc. I. Luc. III. und Joh. I. Cap.",
+    "pages": [
+      372,
+      375,
+      376
+    ],
+    "printed": "218–220",
+    "narrative": "1. Wie Johannes am Jordan taufte, so kam der HErr JEsus zu ihm, und wolte sich tauffen lassen. 2. Johannes wehrte dem HErrn JEsu und sagte: Ich bedarff wohl, daß ich von dir getauffet würde. 3. Der HErr JEsus aber sprach: Laß es also seyn, also gebühret es uns alle Gerechtigkeit zu erfüllen; und damit ließ ers ihm zu. 4. Da nun JEsus getauffet war, stieg er bald herauf aus dem Wasser, und siehe, da that sich der Himmel über ihm auf. 5. Und der Heilige Geist fuhr wie eine Taube herab, und blieb auf dem HErrn JEsu. 6. Endlich schallte eine Stimme vom Himmel herab, die sprach: Das ist mein lieber Sohn, an welchem ich Wohlgefallen habe. 7. Dadurch wurde Johannes gnugsam überzeuget, daß dieses der Heiland der Welt wäre. 8. Denn GOtt hatte zu Johanne gesaget: Ueber welchem er würde sehen den Geist herab fahren, und auf ihm bleiben, der würde es seyn. 9. Johannes zeugte auch vor allem Volke von ihm, als er des andern Tages wieder zu ihm kam, und sagte: Siehe, das ist GOttes Lamm, welches der Welt Sünde trägt. 10. Damals gieng JEsus in das dreyßigste Jahr seines Alters. 11. Er ward aber von dem Volke gehalten vor einen Sohn Josephs von Nazareth.",
+    "questions": [
+      "Von wem wolte sich JEsus tauffen lassen?",
+      "Wie entschuldigte sich Johannes?",
+      "Aber was gab JEsus zur Antwort?",
+      "Was trug sich denn bey der Tauffe zu?",
+      "Wer kam denn vom Himmel herab gefahren?",
+      "Was vor eine Stimme erschallte vom Himmel?",
+      "Was wurde Johannes dadurch überzeuget?",
+      "Was hatte ihm GOtt sonderlich vor ein Zeichen gegeben?",
+      "Wie sagte Johannes zu dem Volke, als er JEsum sahe?",
+      "Wie alt war damals der HErr JEsus?",
+      "Wovor ward Christus im Stande der Erniedrigung angesehen?"
+    ],
+    "teachings": [
+      "I. Der HErr JEsus stund in dem Flusse Jordan, als er sich von Johanne tauffen ließ.\nDadurch hat JEsus alles Tauff-Wasser geheiliget, welches noch jetzo über die Kinder der Christen bey der Tauffe gesprenget wird.",
+      "II. Johannes wies mit fingern auf JEsum, und sagte: Siehe, das ist GOttes Lamm, welches der Welt Sünde trägt.\nIch und du gehören auch mit zur Welt: Also hat das Lamm GOttes auch meine und deine Sünde getragen.",
+      "III. Am Jordan offenbahrte sich die ganze hochgelobte Dreyeinigkeit.\nDenn GOtt der Sohn stund im Wasser; GOtt der Heilige Geist schwebte in der Lufft; und GOtt der Vater rief vom Himmel herab."
+    ],
+    "reflection": "Des Vaters Stimm erschallt im hohen Himmel droben;\nAuf Erden aber steht im Jordan JEsus Christ /\nUnd GOtt der Heilige Geist schwebt als ein Täublein oben:\nNun glaub ich ganz gewiß / daß GOtt dreyeinig ist:\nUnd wenn mir die Vernunft wird wollen widerstehen /\nSo will ich alsobald nur an den Jordan gehen.",
+    "latin": "Vox distincta PATRIS cœlo delabitur alto:\nEt stans ad fluvium FILIUS almus adest:\nSPIRITUS & Sanctus comparet more columbæ:\nQuis jam non TRINUM crederet esse Deum?\nHinc regeram, si quis dubitaverit, hæc tria verba:\nVade ad Jordanum; prætereaque nihil.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 11,
+      "teachings": 3
+    }
   }
 };
