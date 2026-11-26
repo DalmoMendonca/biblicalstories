@@ -4634,5 +4634,50 @@ export const german1768 = {
       "questions": 26,
       "teachings": 3
     }
+  },
+  "93": {
+    "title": "Vom Advent oder Einzuge Christi zu Jerusalem.",
+    "reference": "Matth. XXI. Marc. XI. Luc. XIX. und Joh. XII. Cap.",
+    "pages": [
+      492,
+      495,
+      496
+    ],
+    "printed": "284–286",
+    "narrative": "1. Da JEsus nahe bey Jerusalem kam, sandte er seiner Jünger zween, 2. und sprach zu ihnen: Gehet hin in den Flecken, der vor euch lieget, 3. und bald werdet ihr eine Eselin finden angebunden, und ein Füllen bey ihr, 4. löset sie auf, und führet sie zu mir. 5. Und so euch jemand etwas wird sagen, so sprecht: der HErr bedarff ihr: so bald wird er sie euch lassen. 6. Das geschah aber alles, auf daß erfüllet würde, was gesagt ist durch den Propheten Zachariam, der da spricht: 7. Saget der Tochter Zion: Siehe, dein König kommt zu dir sanftmüthig, reitet auf einem Esel, und auf einem Füllen der lastbaren Eselin. 8. Die Jünger giengen hin, und thaten wie ihnen JEsus befohlen hatte, 9. und sie brachten die Eselin und das Füllen, 10. und legten ihre Kleider darauf, 11. Und satzten den HErrn JEsum darauf. 12. Aber viel Volk breitete die Kleider auf den Weg. 13. Die andern hieben Zweige von den Bäumen, und streueten sie auf den Weg. 14. Das Volk aber, das vorgieng, und nachfolget, schrey und sprach: Hosianna dem Sohne David, gelobet sey, der da kömmt im Namen des HErrn. 15. Etliche der Pharisäer im Volke sprachen: Meister, strafe doch deine Jünger darum. 16. Er antwortet aber und sprach zu ihnen: Wo diese würden schweigen, so würden die Steine schreyen. 17. Wie er nun in die Stadt einzog, so erregte sich die ganze Stadt und sprach: Wer ist der? 18. Das Volk aber sprach: Das ist JEsus der Prophet von Nazareth aus Galilea. 19. Und wie JEsus in dem Tempel zu Jerusalem kam, so schreyen auch die Kinder: Hosianna dem Sohne David.",
+    "questions": [
+      "Was that JEsus, wie er nahe bey Jerusalem kam?",
+      "Wo solten die zween Jünger hingehen?",
+      "Was würden sie daselbst finden?",
+      "Was solten sie mit den Thieren machen?",
+      "Wie aber, wenn jemand was darwider zu sagen hätte?",
+      "Warum wolte Christus auf einem Esel einreiten?",
+      "Wie heißt der Spruch Zachariä?",
+      "Wie führten sich die zween Jünger auf?",
+      "Was brachten sie zu Christo?",
+      "Was legten sie auf die Esel?",
+      "Wen satzten sie darauf?",
+      "Was breiteten sie auf den Weg?",
+      "Was thaten die andern?",
+      "Was machte das Volk vor ein Geschrey?",
+      "Wer beschwerte sich bey Christo darüber?",
+      "Was gab JEsus den Pharisäern zur Antwort?",
+      "Was trug sich denn beym Einzuge in die Stadt zu?",
+      "Was gab das Volk zur Antwort?",
+      "Was gieng mit den Kindern im Tempel vor?"
+    ],
+    "teachings": [
+      "I. Die Prophezeiung Zachariä von der Ankunfft Christi fängt sich also an: Saget der Tochter Zion, siehe dein König kömmt zu dir.\nZion war ein Berg, darauf das oberste Theil von der Stadt Jerusalem gebauet war. Durch die Tochter Zion werden also die Einwohner zu Jerusalem, und zugleich die ganze Israelitische Kirche verstanden.",
+      "II. Bey dem Einzuge Christi sang das Volk: Hosianna dem Sohne David, gelobet sey der da kömmt im Namen des HErrn! Hosianna in der Höhe.\nDas Wort Hosianna ist Hebräisch, und heißt auf Deutsch: Ach HErr hilff! Es ist aber dieses Liedlein genommen aus dem hundert und achtzehenden Psalm, da stehen diese Worte: Ach HErr hilff; Ach HErr laß wohl gelingen! Gelobet sey, der da kömmt im Namen des HErrn.",
+      "III. Wie die Alten sungen, so stimmten die Kinder im Tempel auch ihr Hosianna an.\nDie Jüden lehrten ihren Kindern dieses Sprüchlein, damit sie es singen könnten, wenn der Meßias kommen würde. Wie nun die Kinder hörten, daß JEsus der Prophet von Nazareth in die Stadt kommen wäre, so hielten sie ihn vor den Meßiam, und empfiengen ihn also mit ihrem Hosianna."
+    ],
+    "reflection": "In Kirchen wird gelehrt von dreyerley Advente:\nErst nach Jerusalem / zum Leiden und zur Pein:\nDrauf in des Menschen Herz / durchs Wort und Sacramente;\nUnd letztens wenn der Tag wird zum Gerichte seyn.\nDer erste ist vorbey; der letzte noch zu hoffen;\nZum andern stehet dir mein Herz / HErr JEsu / offen.",
+    "latin": "Adventus Christi triplex est: primus in urbem,\nIn qua pro nobis mors patienda fuit:\nIn cor fit per verbum & per Sacramenta secundus:\nTertius extremi tempore iudicii.\nPrimus præteritus; postremus vero futurus;\nQui superest, ad eum pectora nostra patent.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 19,
+      "teachings": 3
+    }
   }
 };

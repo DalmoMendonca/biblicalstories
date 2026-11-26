@@ -4733,5 +4733,51 @@ export const englishFromGerman = {
       "questions": 26,
       "teachings": 3
     }
+  },
+  "93": {
+    "title": "On the Advent or Entry of Christ into Jerusalem",
+    "reference": "Matthew XXI; Mark XI; Luke XIX; John XII",
+    "pages": [
+      492,
+      495,
+      496
+    ],
+    "printed": "284–286",
+    "narrative": "1. When Jesus came near Jerusalem, he sent two of his disciples, 2. and said to them: Go into the village lying before you, 3. and you will soon find a she-ass tied, and a colt with her; 4. untie them and bring them to me. 5. And if anyone says anything to you, say: The Lord has need of them; immediately he will let you have them. 6. But all this happened so that what was spoken through the prophet Zechariah might be fulfilled, who says: 7. Tell the daughter of Zion: Behold, your King comes to you meekly, riding upon an ass and upon a colt of a beast of burden. 8. The disciples went and did as Jesus had commanded them, 9. and brought the she-ass and the colt, 10. and laid their garments upon them, 11. and set the Lord Jesus upon them. 12. But many people spread their garments on the road. 13. The others cut branches from the trees and scattered them on the road. 14. But the people who went before and followed after cried out and said: Hosanna to the Son of David, blessed be he who comes in the name of the Lord. 15. Some of the Pharisees among the people said: Master, rebuke your disciples for this. 16. But he answered and said to them: If these were silent, the stones would cry out. 17. Now when he entered the city, the whole city was stirred and said: Who is this? 18. But the people said: This is Jesus the prophet from Nazareth in Galilee. 19. And when Jesus came into the temple at Jerusalem, the children also cried: Hosanna to the Son of David.",
+    "questions": [
+      "What did Jesus do when he came near Jerusalem?",
+      "Where were the two disciples to go?",
+      "What would they find there?",
+      "What were they to do with the animals?",
+      "But what if anyone had something to say against it?",
+      "Why did Christ wish to ride in upon an ass?",
+      "What does the saying of Zechariah say?",
+      "How did the two disciples conduct themselves?",
+      "What did they bring to Christ?",
+      "What did they lay upon the asses?",
+      "Whom did they set upon them?",
+      "What did they spread on the road?",
+      "What did the others do?",
+      "What cry did the people raise?",
+      "Who complained to Christ about it?",
+      "What answer did Jesus give the Pharisees?",
+      "What happened at the entry into the city?",
+      "What answer did the people give?",
+      "What took place with the children in the temple?"
+    ],
+    "teachings": [
+      "I. Zechariah's prophecy of the coming of Christ begins thus: Tell the daughter of Zion, behold, your King comes to you.\nZion was a mountain upon which the upper part of the city of Jerusalem was built. By the daughter of Zion, therefore, are understood the inhabitants of Jerusalem and at the same time the whole Israelite Church.",
+      "II. At Christ's entry the people sang: Hosanna to the Son of David, blessed be he who comes in the name of the Lord! Hosanna in the highest.\nThe word Hosanna is Hebrew, and means in German: Oh Lord, help! This little song is taken from the hundred and eighteenth Psalm, where these words stand: Oh Lord, help; oh Lord, grant success! Blessed be he who comes in the name of the Lord.",
+      "III. As the elders sang, so the children in the temple joined in with their Hosanna.\nThe Jews taught their children this little saying so that they could sing it when the Messiah came. When the children heard that Jesus the prophet from Nazareth had come into the city, they regarded him as the Messiah, and thus received him with their Hosanna."
+    ],
+    "reflection": "In churches a threefold Advent is taught:\nFirst to Jerusalem, to suffering and torment;\nThen into the human heart through Word and Sacraments;\nAnd lastly when the day of judgment shall come.\nThe first is past; the last is yet to be hoped for;\nFor the second my heart stands open to you, Lord Jesus.",
+    "latin": "Adventus Christi triplex est: primus in urbem,\nIn qua pro nobis mors patienda fuit:\nIn cor fit per verbum & per Sacramenta secundus:\nTertius extremi tempore iudicii.\nPrimus præteritus; postremus vero futurus;\nQui superest, ad eum pectora nostra patent.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 19,
+      "teachings": 3
+    }
   }
 };
