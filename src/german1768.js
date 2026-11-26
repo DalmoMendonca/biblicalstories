@@ -3911,5 +3911,56 @@ export const german1768 = {
       "questions": 19,
       "teachings": 3
     }
+  },
+  "77": {
+    "title": "Wie JEsus fünf tausend Mann gespeiset hat.",
+    "reference": "Matth. XIV. Marc. VI. und Joh. VI. Capitel.",
+    "pages": [
+      420,
+      423,
+      424
+    ],
+    "printed": "244–246",
+    "narrative": "1. JEsus fuhr über das Meer an der Stadt Tiberias. 2. Und es zog ihm viel Volcks nach, 3. darum, daß sie die Zeichen sahen, die er an den Krancken that. 4. JEsus aber gieng hinauf auf einen Berg, und setzte sich daselbst mit seinen Jüngern. 5. Wie nun JEsus das grosse Volck sahe, so jammerte ihn desselben, 6. denn sie waren wie Schafe, die keinen Hirten hatten. 7. Darauf hielte er dem Volcke eine lange Predigt. 8. Gegen abend sagten die Jünger, er solte doch das Volck von sich lassen, damit sie sich in den Dörffern und Märckten Speise kauffen könnten. 9. JEsus aber sprach zu den Jüngern: sie solten dem Volcke zu essen geben. 10. Insonderheit sprach er zu Philippo: Wo kauffen wir Brodt, daß diese essen? 11. Das sagte er aber ihn zu versuchen; denn er wuste wohl, was er thun wolte. 12. Philippus sagte zu ihm: Zwey hundert Pfennige werth Brodts ist nicht genug unter sie, daß ein jeglicher ein wenig nehme. 13. Darauf fragte JEsus, wie viel sie Brodte hätten? 14. Andreas sagte: Es ist ein Knabe hier, der hat fünf Gersten-Brodt, und zween Fische; aber was ist das unter so viele? 15. JEsus sprach: Schaffet, daß sich das Volck lagere. 16. Da lagerten sie sich auf das grüne Gras, welches daselbst war. 17. Sie lagerten sich aber Schichten-weise bey hunderten und bey funfzigen. 18. Da nahm JEsus die Brodte, dankte und gab sie den Jüngern: 19. Die Jünger aber gaben sie denen, die sich gelagert hatten. 20. Desselbigen gleichen auch von den Fischen, wie viel er wolte. 21. Und sie assen und wurden alle satt. 22. Da sprach JEsus: Sammlet die übrigen Brocken, daß nichts umkomme. 23. Da sammleten sie, und füllten zwölff Körbe mit Brocken, von den fünf Gersten-Brodten, und von den Fischen. 24. Und ihrer waren bey fünf tausend Mann, die da gessen hatten, ohne die Weiber und Kinder. 25. Da nun die Menschen das Zeichen sahen, das JEsus that, sprachen sie: Das ist warlich der Prophet, der in die Welt kommen soll.",
+    "questions": [
+      "Wo fuhr JEsus hin?",
+      "Wer zog ihm nach?",
+      "Warum thaten sie das?",
+      "Wo satzte sich JEsus nieder?",
+      "Wie war JEsu bey dem vielen Volck zu muthe?",
+      "Wie sahe das grosse Volck aus?",
+      "Was redte JEsus mit dem Volcke?",
+      "Was sagten die Jünger gegen Abend?",
+      "Was befahl JEsus den Jüngern?",
+      "Was redte er insonderheit mit Philippo?",
+      "Warum sagte JEsus das?",
+      "Was gab Philippus zur Antwort?",
+      "Wornach fragte JEsus?",
+      "Was gab Andreas zur Antwort?",
+      "Was befahl JEsus?",
+      "Wo lagerte sich das Volck hin?",
+      "In was vor einer Ordnung?",
+      "Was that JEsus mit den Brodten?",
+      "Was machten die Jünger damit?",
+      "Was machten sie mit den Fischen?",
+      "Langte denn so ein wenig Vorrath zu?",
+      "Was verordnete JEsus wegen der Brocken?",
+      "Wie viel Körbe wurden von den Brocken voll?",
+      "Wie viel waren derer, die gespeiset hatten?",
+      "Was sagten die Leute zu diesem Wunder-Wercke?"
+    ],
+    "teachings": [
+      "I. Man soll an einen jedweden Brod-Korb schreiben: An GOttes Segen ist alles gelegen.\nAndreas sagte: Was ist das unter so viele? Aber wie der Segen GOttes darzu kam, so wurden fünf tausend Menschen satt davon.",
+      "II. Wenn man essen will, so muß man das Gebet darbey nicht vergessen.\nDas lehret uns JEsus mit seinem Exempel, der nahm die Brodte und dankte zuvor seinem himmlischen Vater, ehe er dieselben austheilen ließ.",
+      "III. Was von GOttes Gaben übrig bleibt, das soll man nicht lassen umkommen.\nDeswegen befahl der HErr JEsus, daß seine Jünger die übrigen Brocken in Körbe sammlen solten."
+    ],
+    "reflection": "Das Volck versorgte sich zuerst mit Seelen-Speise /\nDrauf sorgte JEsus selbst vor ihre Leibes-Noth:\nWir suchen insgemein / ganz umgekehrter Weise.\nErst Futter vor den Bauch / dann erst das Himmels-Brod.\nIch will zuerst nach GOtt und seinem Reiche streben /\nZu essen wird mir GOtt schon von sich selber geben.",
+    "latin": "Turba cibos animæ populi tum ceperat ante,\nCorpora tum demum tu quoque, CHRISTE, cibas.\nOrdine perverso corpus plerique saginant,\nTum demum mentes exsatiare volunt.\nPrima mihi regnum cœlorum quærere cura est;\nCorpus curabit provida cura Dei.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    }
   }
 };

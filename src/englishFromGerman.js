@@ -3994,5 +3994,57 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "77": {
+    "title": "How Jesus Fed Five Thousand Men.",
+    "reference": "Matthew 14; Mark 6; John 6.",
+    "pages": [
+      420,
+      423,
+      424
+    ],
+    "printed": "244–246",
+    "narrative": "1. Jesus sailed across the sea by the city of Tiberias. 2. And much people followed him, 3. because they saw the signs which he performed upon the sick. 4. But Jesus went up upon a mountain and sat there with his disciples. 5. When Jesus saw the great multitude, he had compassion on them, 6. for they were like sheep without a shepherd. 7. Thereupon he delivered a long sermon to the people. 8. Toward evening the disciples said that he should dismiss the people so that they could buy food in the villages and market towns. 9. But Jesus said to the disciples that they should give the people something to eat. 10. In particular he said to Philip: Where shall we buy bread that these may eat? 11. But he said this to try him; for he knew well what he would do. 12. Philip said to him: Two hundred pennyworth of bread is not enough among them for each to receive a little. 13. Thereupon Jesus asked how many loaves they had. 14. Andrew said: There is a boy here who has five barley loaves and two fishes; but what is that among so many? 15. Jesus said: Make the people sit down. 16. Then they sat down upon the green grass that was there. 17. They sat down in companies by hundreds and by fifties. 18. Then Jesus took the loaves, gave thanks, and gave them to the disciples; 19. and the disciples gave them to those who had sat down. 20. Likewise also of the fishes, as much as each wanted. 21. And they ate and were all satisfied. 22. Then Jesus said: Gather the remaining fragments, that nothing be lost. 23. So they gathered them and filled twelve baskets with fragments from the five barley loaves and the fishes. 24. And there were about five thousand men who had eaten, besides the women and children. 25. When the people saw the sign which Jesus performed, they said: This is truly the prophet who is to come into the world.",
+    "questions": [
+      "Whither did Jesus sail?",
+      "Who followed him?",
+      "Why did they do this?",
+      "Where did Jesus sit down?",
+      "How did Jesus feel at the sight of so many people?",
+      "What was the great multitude like?",
+      "What did Jesus say to the people?",
+      "What did the disciples say toward evening?",
+      "What did Jesus command the disciples?",
+      "What did he say in particular to Philip?",
+      "Why did Jesus say this?",
+      "What answer did Philip give?",
+      "What did Jesus ask?",
+      "What answer did Andrew give?",
+      "What did Jesus command?",
+      "Where did the people sit down?",
+      "In what order?",
+      "What did Jesus do with the loaves?",
+      "What did the disciples do with them?",
+      "What did they do with the fishes?",
+      "Did so little provision suffice?",
+      "What did Jesus direct concerning the fragments?",
+      "How many baskets were filled with the fragments?",
+      "How many were there who had eaten?",
+      "What did the people say about this miraculous work?"
+    ],
+    "teachings": [
+      "I. On every bread basket one should write: Everything depends upon God's blessing.\nAndrew said: What is that among so many? But when God's blessing was added, five thousand people were satisfied thereby.",
+      "II. When one wishes to eat, one must not forget prayer.\nJesus teaches us this by his example, for he took the loaves and first gave thanks to his heavenly Father before he had them distributed.",
+      "III. Whatever remains of God's gifts should not be allowed to perish.\nTherefore the Lord Jesus commanded his disciples to gather the remaining fragments into baskets."
+    ],
+    "reflection": "The people first provided themselves with food for the soul;\nThen Jesus himself cared for their bodily need.\nWe commonly seek in just the opposite fashion:\nFirst food for the belly, and only then the bread of heaven.\nI will first strive after God and his kingdom;\nGod himself will surely give me food to eat.",
+    "latin": "Turba cibos animæ populi tum ceperat ante,\nCorpora tum demum tu quoque, CHRISTE, cibas.\nOrdine perverso corpus plerique saginant,\nTum demum mentes exsatiare volunt.\nPrima mihi regnum cœlorum quærere cura est;\nCorpus curabit provida cura Dei.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 25,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
