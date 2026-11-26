@@ -5220,5 +5220,61 @@ export const englishFromGerman = {
       "questions": 49,
       "teachings": 3
     }
+  },
+  "101": {
+    "title": "On the Twelve Apostles",
+    "reference": "Matthew X and XXVIII, Mark XVI, Luke VI, and John XX.",
+    "pages": [
+      538,
+      541,
+      542,
+      545
+    ],
+    "printed": "314–317",
+    "narrative": "1. Soon after the baptism the Lord Jesus took twelve disciples and apostles. 2. These were not distinguished and learned people, but fishermen, tax collectors, and the like. 3. The first was called Simon Peter; 4. the second was Andrew his brother; 5. the third James, a son of Zebedee; 6. the fourth was John his brother; 7. the fifth was named Philip; 8. the sixth Bartholomew; 9. the seventh Thomas; 10. the eighth Matthew; 11. the ninth James the son of Alphaeus; 12. the tenth Simon Zelotes; 13. the eleventh Judas Thaddaeus; 14. the twelfth Judas Iscariot, who betrayed him; 15. in his place Matthias was subsequently chosen. 16. To these disciples Jesus said early on: Whoever hears you hears me, and whoever despises you despises me. 17. After his resurrection Jesus said to these disciples: Peace be with you! As the Father has sent me, so I send you. 18. Thereupon he gave them the office of the keys, or the power to forgive sin. 19. For he breathed upon them and said: Receive the Holy Spirit; whosoever's sins you remit, they are remitted, and whosoever's sins you retain, they are retained. 20. Shortly before the ascension Jesus gathered his disciples on a mountain in Galilee. 21. There he gave them especially the command to teach and baptize. 22. For he said to them: All power in heaven and on earth is given to me; therefore go and teach all nations and baptize them in the name of the Father, the Son, and the Holy Spirit. 23. In this he gave them the beautiful consolation: Behold, I am with you every day until the end of the world. 24. Finally, when the eleven sat at table, Jesus repeated once more the institution of the preaching office. 25. For he said to his disciples: Go into all the world and teach the gospel to all creatures. 26. He also repeated the institution of holy baptism with these words: Whoever believes and is baptized shall be saved, but whoever does not believe shall be condemned. 27. And at the last he once more gave them the power to perform miracles. 28. For he said that in his name they would cast out devils, speak with new tongues, drive away serpents, and if they drank anything deadly it would do them no harm; they would lay hands on the sick, and they would get better.",
+    "questions": [
+      "When did Jesus take his twelve disciples?",
+      "What sort of people were they?",
+      "What was the first apostle called?",
+      "What was the second called?",
+      "Who was the third?",
+      "What was the fourth called?",
+      "What was the fifth called?",
+      "Who was the sixth?",
+      "What was the seventh called?",
+      "What was the eighth called?",
+      "Who was the ninth?",
+      "What was the tenth called?",
+      "What was the eleventh called?",
+      "Who was the twelfth?",
+      "Who took the traitor's place?",
+      "What did Jesus say to his disciples early on?",
+      "What did Jesus say to them after his resurrection?",
+      "What did he entrust to these twelve disciples?",
+      "What happened at that time?",
+      "Where did Jesus gather his disciples after this?",
+      "What command did he give them there?",
+      "What words did Jesus use at that time?",
+      "What assurance did he give them?",
+      "What did Jesus do at the last gathering?",
+      "What words did Jesus use about the preaching office?",
+      "What words concerning baptism?",
+      "With what did Jesus endow his disciples at the last?",
+      "With what miracles were the disciples to confirm their teaching?"
+    ],
+    "teachings": [
+      "I. Jesus said to his disciples: Whosoever's sins you remit, they are remitted, and whosoever's sins you retain, they are retained.\nThis authority is called the office of the keys in the catechism. There are two of these, namely the loosing key and the binding key. When they forgive sin they use the loosing key; when they retain sin they use the binding key.",
+      "II. Jesus gave his disciples this consolation: Behold, I am with you every day until the end of the world.\nJesus wills to be with his disciples until the end of the world. But the twelve apostles have long been dead and did not live to see the end of the world. It is therefore clear that by his disciples Christ understood also all their successors until the last day.",
+      "III. Jesus gave his disciples the power to perform miracles.\nThis was necessary in the beginning, when the Christian church was yet to be planted; but now that it has already been planted, miraculous works are no longer necessary."
+    ],
+    "reflection": "Whoever hears you hears me: thus run Christ's words,\nWhich he spoke to his disciples in this world.\nLet everyone mark this well in his own place,\nAnd now ponder this saying further with me!\nThus, when God's servants teach us the Word,\nJesus himself lets his voice be heard from our pulpits.",
+    "latin": "Si quis vos audit, vobiscum me simul audit,\nDiscipulis quodam tempore Christus ait.\nVerba hæc cumprimis memori sunt mente tenenda,\nIngredimur quoties templa sacrata Dei.\nScilicet e specula suggesti dogmata sacra\nCum spargit præco, vox tua, Christe! sonat.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    }
   }
 };

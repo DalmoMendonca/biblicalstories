@@ -5113,5 +5113,60 @@ export const german1768 = {
       "questions": 49,
       "teachings": 3
     }
+  },
+  "101": {
+    "title": "Von den zwölf Aposteln.",
+    "reference": "Matth. X. und XXVIII. Marc. XVI. Luc. VI. und Joh. XX. Capitel.",
+    "pages": [
+      538,
+      541,
+      542,
+      545
+    ],
+    "printed": "314–317",
+    "narrative": "1. Bald nach der Tauffe nahm der HErr JEsus zwölf Jünger und Apostel an. 2. Das waren keine vornehme und gelehrte Leute, sondern Fischer, Zöllner, und dergleichen. 3. Der erste hieß Simon Petrus: 4. Der andre war Andreas sein Bruder: 5. Der dritte Jacobus, ein Sohn Zebedäi: 6. Der vierte war Johannes sein Bruder: 7. der fünfte hieß Philippus: 8. Der sechste Bartholomäus: 9. Der siebende Thomas: 10. Der achte Matthäus: 11. Der neunte Jacobus Alphäi Sohn. 12. Der zehnte Simon Zelotes: 13. Der eilfte Judas Thaddäus: 14. Der zwölfte Judas Ischarioth, der ihn verrieth: 15. An dessen Stelle nachgehends Matthias ist erwehlet worden. 16. Zu diesen Jüngern sagte JEsus bald anfangs: Wer euch höret, der höret mich, und wer euch verachtet, der verachtet mich. 17. Nach seiner Auferstehung sagte JEsus zu diesen Jüngern: Friede sey mit euch! gleichwie mich der Vater gesandt hat, so sende ich euch. 18. Darauf gab er ihnen das Amt der Schlüssel, oder die Macht Sünde zu vergeben. 19. Denn er bließ sie an, und sprach: Nehmet hin den Heiligen Geist, welchen ihr die Sünde erlasset, denen sind sie erlassen, und welchen ihr sie behaltet, denen sind sie behalten. 20. Kurz vor der Himmelfahrt versammlete JEsus seine Jünger auf einen Berg in Galiläa. 21. Da gab er ihnen insonderheit den Befehl zu lehren und zu tauffen. 22. Denn er sprach zu ihnen: Mir ist gegeben alle Gewalt im Himmel und auf Erden, darum gehet hin, und lehret alle Völker und tauffet sie im Namen des Vaters, des Sohnes, und des Heiligen Geistes. 23. Darbey gab er ihnen den schönen Trost: Siehe, ich bin bey euch alle Tage, bis an der Welt Ende. 24. Zuletzt, da die Eilffe zu Tische sassen, wiederholte JEsus die Einsetzung des Predigt-Amts nochmals 25. Denn er sprach zu seinen Jüngern: Gehet hin in alle Welt, und lehret das Evangelium allen Creaturen. 26. Er wiederholte auch die Einsetzung der heiligen Tauffe mit diesen Worten: Wer da glaubet und getaufft wird, der wird selig werden, wer aber nicht glaubet, der wird verdammet werden. 27. Und auf die letzt gab er ihnen nochmals die Krafft Wunder zu thun. 28. Denn er sagte: Sie würden in seinem Namen Teufel austreiben; mit neuen Zungen reden; Schlangen vertreiben, und so sie etwas tödtliches würden trincken, so würde es ihnen nichts schaden; auf die Krancken würden sie die Hände legen, so würde es besser mit ihnen werden.",
+    "questions": [
+      "Wenn nahm JEsus seine zwölf Jünger an?",
+      "Was waren das vor Leute?",
+      "Wie hieß der erste Apostel?",
+      "Wie der andere?",
+      "Wer war der dritte?",
+      "Wie hieß der vierte?",
+      "Wie denn der fünfte?",
+      "Welches war der sechste?",
+      "Wie hieß der siebende?",
+      "Wie denn der achte?",
+      "Wer war der neunte?",
+      "Wie hieß der zehnte?",
+      "Wie denn der eilfte?",
+      "Wer war der zwölfte?",
+      "Wer kam an die Stelle des Verräthers?",
+      "Was sagte JEsus bald anfangs zu seinen Jüngern?",
+      "Was sagte JEsus zu ihnen nach seiner Auferstehung?",
+      "Was trug er diesen zwölf Jüngern auf?",
+      "Was gieng darbey vor?",
+      "Wo versammlete JEsus seine Jünger nach diesem?",
+      "Was gab er ihnen da vor Befehl?",
+      "Was brauchte JEsus vor Worte darbey?",
+      "Was gab er ihnen vor eine Versicherung?",
+      "Was that JEsus bey der letzten Versammlung?",
+      "Was brauchte JEsus vor Worte vom Predig-Amte?",
+      "Was aber vor Worte wegen der Tauffe?",
+      "Womit beschenckte JEsus seine Jünger auf die letzte?",
+      "Mit was vor Wundern solten die Jünger ihre Lehre bestätigen?"
+    ],
+    "teachings": [
+      "I. JEsus sprach zu seinen Jüngern: Welchen ihr die Sünden erlasset, denen sind sie erlassen, und welchen ihr sie behaltet, denen sind sie behalten.\nDiese Vollmacht wird im Catechismo das Amt der Schlüssel genannt. Es sind aber derselben zwey; nemlich der Löse-Schlüssel und der Binde-Schlüssel. Wenn sie die Sünde vergeben, so brauchen sie den Löse-Schlüssel; und wenn sie die Sünde behalten, so brauchen sie den Binde-Schlüssel.",
+      "II. JEsus gab seinen Jüngern diesen Trost: Siehe ich bin bey euch alle Tage, bis an der Welt Ende.\nJEsus will bey seinen Jüngern seyn, bis an das Ende der Welt. Die zwölf Apostel aber sind längst gestorben, und haben das Ende der Welt nicht erlebet: Also ist klar, daß Christus unter seinen Jüngern zugleich alle ihre Nachfolger bis an den jüngsten Tag verstanden hat.",
+      "III. JEsus gab seinen Jüngern die Krafft Wunder zu thun.\nDas war im Anfang nöthig, da die Christliche Kirche noch solte gepflanzet werden: Nun aber, da sie schon gepflanzet ist, so sind auch keine Wunderwercke mehr nöthig."
+    ],
+    "reflection": "Wer euch hört / der hört mich: So lauten Christi Worte /\nDie er auf dieser Welt zu seinen Jüngern sprach.\nEin jeder mercke sich das wohl an seinem Orte /\nUnd denck jetzund mit mir dem Spruche weiter nach!\nSo ists / wenn uns das Wort die Diener Gottes lehren /\nSo läßt sich JEsus selbst von unsern Canzeln hören.",
+    "latin": "Si quis vos audit, vobiscum me simul audit,\nDiscipulis quodam tempore Christus ait.\nVerba hæc cumprimis memori sunt mente tenenda,\nIngredimur quoties templa sacrata Dei.\nScilicet e specula suggesti dogmata sacra\nCum spargit præco, vox tua, Christe! sonat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 28,
+      "teachings": 3
+    }
   }
 };
