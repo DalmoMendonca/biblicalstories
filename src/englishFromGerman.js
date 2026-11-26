@@ -4359,5 +4359,53 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "85": {
+    "title": "On the Rich Man",
+    "reference": "Luke, chapter XVI.",
+    "narrative": "1. There was a rich man, 2. who clothed himself in purple and fine linen, 3. and lived splendidly and joyfully every day. 4. But there was a poor man, 5. named Lazarus, 6. who lay before his door full of sores. 7. And he desired to satisfy himself with the crumbs that fell from the rich man's table. 8. Yet the dogs came and licked his sores. 9. And it came to pass that the poor man died 10. and was carried by the angels into Abraham's bosom. 11. The rich man also died and was buried. 12. Now when he was in hell and in torment, 13. he lifted up his eyes and saw Abraham afar off, 14. and Lazarus in his bosom. 15. Then he cried out and said: Father Abraham, have mercy on me! 16. And send Lazarus, that he may dip the tip of his finger in water and cool my tongue, 17. for I suffer pain in this flame. 18. But Abraham said: Remember, son, that you received your good things in your life, 19. whereas Lazarus received evil things. 20. But now he is comforted, and you are tormented. 21. And besides all this, between us and you a great gulf is fixed, 22. so that those who would go down from here to you cannot, nor can they cross from there to us. 23. Then he said: So I beg you, father, to send him to my father's house. 24. For I still have five brothers, that he may testify to them, lest they also come to this place of torment. 25. Abraham said to him: They have Moses and the prophets; let them hear them. 26. But he said: No, father Abraham, but if someone went to them from the dead, they would repent. 27. But Abraham said: If they do not hear Moses and the prophets, neither will they believe if someone rises from the dead.",
+    "questions": [
+      "Of what kind of man does Jesus speak?",
+      "In what was this rich man clothed?",
+      "What otherwise was his way of life?",
+      "Who lay before his door?",
+      "What was the poor man's name?",
+      "What did the poor man look like?",
+      "What did the poor man wish to have?",
+      "What kindness did the dogs do him?",
+      "What happened to the poor man?",
+      "Where was his soul carried?",
+      "What became of the rich man?",
+      "Where then did he go?",
+      "What did the rich man see from hell?",
+      "Who lay in Abraham's bosom?",
+      "How did the rich man cry out?",
+      "What then was Abraham to do for him as a favor?",
+      "Why did he desire cold water?",
+      "What comfort did Abraham give him?",
+      "What, on the other hand, did he say of Lazarus?",
+      "What comparison did he make between them?",
+      "What difference is there between heaven and hell?",
+      "Can the blessed and the damned not come together?",
+      "What new request did the rich man have?",
+      "What business did he have to attend to in the world?",
+      "What answer did Abraham give to this?",
+      "What objection did the rich man have to this?",
+      "But how was he finally refused by Abraham?"
+    ],
+    "teachings": [
+      "I. We learn from this where the souls of the pious go when they have died.\nNamely, they are carried by the angels into Abraham's bosom, where they are comforted with Lazarus.",
+      "II. We learn from this where the souls of the godless go after their death.\nNamely, into hell and torment, where they cry out with the rich man: I suffer pain in this flame.",
+      "III. Finally, we learn that there is no deliverance from hell.\nFor between heaven and hell a gulf is fixed, so that neither can reach the other."
+    ],
+    "reflection": "Suppose I were rich; should I not live splendidly?\nAnd is it not enough if I can pay for it?\nYes, dear friend, let two rules be given you in this matter;\nThe rich man teaches them to you and me:\nFirst, do not live in pleasures every day;\nThen do not let Lazarus suffer hunger meanwhile.",
+    "latin": "Ut mihi non liceat genio indulgere, quid obstat?\nCum mihi contigerit res satis ampla domi.\nHeus, bone vir! vitam, sibi quæ placeat, belluo dives\nNon nisi sub gemina conditione probat:\nConvivas habeas: non autem quotidianos:\nEt cave, ne esuriat Lazarus ante fores.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 27,
+      "teachings": 3
+    }
   }
 };

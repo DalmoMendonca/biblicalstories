@@ -4268,5 +4268,59 @@ export const german1768 = {
       "questions": 26,
       "teachings": 3
     }
+  },
+  "85": {
+    "title": "Vom reichen Manne.",
+    "reference": "Luc. XVI. Capitel.",
+    "pages": [
+      457,
+      458,
+      459,
+      460
+    ],
+    "printed": "263–266",
+    "narrative": "1. Es war ein reicher Mann, 2. der kleidete sich mit Purpur und köstlichem Leinwand, 3. und lebte alle Tage herrlich und in Freuden. 4. Es war aber ein Armer, 5. mit Namen Lazarus, 6. der lag vor seiner Thüre voller Schwären. 7. Und er begehrte sich zu sättigen von den Brosamen, die von des reichen Mannes Tische fielen. 8. Doch kamen die Hunde und leckten ihm seine Schwären. 9. Es begab sich aber, daß der Arme starb 10. und ward getragen von den Engeln in Abrahams Schoos. 11. Der Reiche aber starb auch, und ward begraben 12. Als er nun in der Hölle und in der Quaal war, 13. hub er seine Augen auf, und sahe Abraham von ferne, 14. und Lazarum in seinem Schoos. 15. Da rieff er und sprach: Vater Abraham, erbarme dich mein! 16. und sende Lazarum, daß er das äusserste seines Fingers ins Wasser tauche, und kühle meine Zunge, 17. denn ich leide Pein in dieser Flammen. 18. Abraham aber sprach: Gedenke Sohn, daß du dein Gutes empfangen hast in deinem Leben, 19. und Lazarus dargegen hat Böses empfangen. 20. Nun aber wird er getröstet, und du wirst gepeiniget. 21. Und über das alles ist zwischen uns und euch eine grosse Klufft befestiget, 22. daß, die da wolten von hinnen hinab fahren zu euch, können nicht, und auch nicht von dannen zu uns herüber fahren. 23. Da sprach er: So bitte ich dich, Vater, daß du ihn sendest in meines Vaters Haus. 24. Denn ich habe noch fünf Brüder, daß er ihnen bezeuge, auf daß sie nicht auch kommen an diesen Ort der Quaal 25. Abraham sprach zu ihm: Sie haben Mosen und die Propheten, laß sie dieselben hören. 26. Er aber sprach: Nein, Vater Abraham, sondern wenn einer von den Todten zu ihnen gienge, so würden sie Busse thun. 27. Abraham aber sprach: Hören sie Mosen und die Propheten nicht, so werden sie auch nicht glauben, ob jemand von den Todten auferstünde.",
+    "questions": [
+      "Von was vor einem Manne redet JEsus?",
+      "Worein ward dieser reiche Mann gekleidet?",
+      "Wie war sonst seine Lebens-Art?",
+      "Wer lag denn vor seiner Thüre?",
+      "Wie hieß der arme Mann?",
+      "Wie sahe der Arme aus?",
+      "Was wolte der Arme gerne haben?",
+      "Was thaten ihm die Hunde zu gute?",
+      "Was trug sich mit dem Armen zu?",
+      "Wo ward seine Seele hingetragen?",
+      "Wo blieb der Reiche?",
+      "Wo fuhr er denn hin?",
+      "Was sahe der Reiche aus der Hölle?",
+      "Wer lag dem Abraham in seinem Schooß?",
+      "Wie rief der reiche Mann aus?",
+      "Was solte ihm denn Abraham zu Liebe thun?",
+      "Warum verlangte er denn kalt Wasser?",
+      "Was gab ihm Abraham vor einen Trost?",
+      "Was sagte er hingegen von Lazaro?",
+      "Was machte er vor eine Vergleichung unter ihnen?",
+      "Was ist denn vor ein Unterschied zwischen Himmel und Hölle?",
+      "Können denn die Seligen und Verdammten nicht zusammen kommen?",
+      "Was hatte der reiche Mann vor ein neues Anliegen?",
+      "Was hatte er denn auf der Welt zu bestellen?",
+      "Was gab Abraham zur Antwort darauf?",
+      "Was hatte der reiche Mann darwider einzuwenden?",
+      "Aber wie ward er endlich von Abraham abgewiesen?"
+    ],
+    "teachings": [
+      "I. Wir lernen daraus, wo denn die Seelen der frommen hinkommen, wenn sie gestorben sind.\nNemlich sie werden von den Engeln getragen in Abrahams Schooß, allwo sie mit Lazaro getröstet werden.",
+      "II. Wir lernen daraus, wo die Seelen der Gottlosen nach ihrem Tode hinfahren.\nNemlich in die Hölle und in die Quaal, allwo sie mit dem reichen Manne ausruffen: Ich leide Pein in dieser Flamme.",
+      "III. Wir lernen endlich, daß aus der Hölle keine Erlösung sey.\nDenn zwischen dem Himmel und der Hölle ist eine Klufft befestiget, daß keins zum andern kan."
+    ],
+    "reflection": "Gesetzt / ich wäre reich; solt ich nicht herrlich leben?\nUnd ist das nicht genug / wenn ichs bezahlen kan:\nJa / lieber Freund / laß dir darbey zwey Regeln geben /\nDieselben lehret dich und mich der reiche Mann:\nVors erste lebe du nicht alle Tag in Freuden /\nDarnach laß Lazarum darbey nicht Hunger leiden.",
+    "latin": "Ut mihi non liceat genio indulgere, quid obstat?\nCum mihi contigerit res satis ampla domi.\nHeus, bone vir! vitam, sibi quæ placeat, belluo dives\nNon nisi sub gemina conditione probat:\nConvivas habeas: non autem quotidianos:\nEt cave, ne esuriat Lazarus ante fores.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 27,
+      "teachings": 3
+    }
   }
 };
