@@ -26,7 +26,10 @@
       "printed_start": 4,
       "scan_start": 10,
       "scan_start_candidate": 9,
-      "scan_end_candidate": 12
+      "scan_end_candidate": 12,
+      "scan_start_verified": 10,
+      "scan_end_verified": 12,
+      "printed_verified": "4–6"
     },
     {
       "id": 55,

@@ -2955,5 +2955,43 @@ export const german1768 = {
       "III. Die frommen Leute sind bisweilen auch schwach im Glauben.\nDer Priester Zacharias wolte dem Engel nicht eher Glauben zustellen, bis er ihm ein Zeichen gab."
     ],
     "reflection": "Sie waren beyde fromm: Diß Zeugniß legt die Bibel\nDem Zacharia bey / und der Elisabeth.\nAch da geräth ja wohl der Ehestand nicht übel /\nWenn Mann und Weib zugleich auf GOttes Wegen geht.\nSoll ich mich / liebster GOtt! auch dermahleinst vermählen /\nSo gib / daß fromm und fromm einander mag erwählen."
+  },
+  "54": {
+    "pages": [
+      323,
+      324,
+      327
+    ],
+    "printed": "191–193",
+    "latin": "Attonitæ similis trepidavit sancta Maria,\nCum Gabriel dixit: Mater eris DOMINI.\nSed fide mox plena exclamat: Sum serva JEHOVÆ,\nDicere dum pergit: Grata, Maria! Deo es.\nO utinam, timido mihi diceret Angelus idem:\nNe diffide! Dei gratia certa tibi est.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    },
+    "title": "Von der Verkündigung Mariä.",
+    "reference": "Luc. I. Capitel.",
+    "narrative": "1. Im sechsten Monath, seit dem die alte Elisabeth schwanger ging, ward der Engel Gabriel zur Jungfer Maria gesandt. 2. Dieselbe wohnte im Lande Galiläa in der Stadt Nazareth. 3. Wie nun der Engel zu ihr hinein kam, so grüßte er sie mit diesen Worten: Gegrüsset seyst du, Holdselige, der HErr ist mit dir du Gebenedeyte unter den Weibern. 4. Darüber erschrack die gute Jungfer nicht wenig, und sagte voller Bestürzung: Welch ein Gruß ist das? 5. Der Engel aber sprach ihr freundlich zu, und sagte: Fürchte dich nicht, Maria du hast Gnade bey GOtt funden. 6. Darauf gab ihr der Engel Nachricht, daß sie GOtt zur Mutter seines Sohnes erkohren hätte. 7. Denn er sagte zu ihr: Du wirst schwanger werden im Leibe, und einen Sohn gebähren, deß Namen solt du JEsus heissen. 8. Die Jungfer Maria wuste nicht, wie das gemeynet war, darum sagte sie zum Engel: Wie soll das zugehen? sintemal ich von keinem Manne weiß. 9. Der Engel aber erklärte seinen Vortrag mit diesen Worten: Der Heilige Geist wird über dich kommen, und die Krafft des Höchsten wird dich überschatten: Darum auch das Heilige, das von dir gebohren wird, wird GOttes Sohn genennet werden. 10. Er stärkte darauf ihren Glauben mit dem Exempel ihrer Gefreundtin Elisabeth, die auch schwanger wäre mit einem Sohne in ihrem Alter, da sie doch im Geschrey wäre, daß sie unfruchtbar sey. 11. Den Beschluß machte der Engel mit dem schönen Spruche: Bey GOtt ist kein Ding unmöglich. 12. Und Maria ließ GOtt dem HErrn gleichsam zur Antwort sagen: Siehe, ich bin des HErrn Magd, mir geschehe, wie du gesaget hast.",
+    "questions": [
+      "Wenn ward der Engel Gabriel zur Jungfer Maria gesandt?",
+      "Wo wohnte die Jungfer Maria?",
+      "Wie lautet der Englische Gruß?",
+      "Was antwortete Maria auf diesen Gruß?",
+      "Was gab ihr der Engel vor einen Trost?",
+      "Aber was war denn des Engels Anbringen?",
+      "Wie lauten eigentlich seine Worte?",
+      "Was sagte Maria zu dieser unvermutheten Botschafft?",
+      "Wie erklärte der Engel seinen Vortrag?",
+      "Womit stärkte der Engel ihren Glauben?",
+      "Mit was vor einem Spruch beschloß der Engel seine Botschafft?",
+      "Was ließ Maria dem lieben GOtt gleichsam zur Antwort sagen."
+    ],
+    "teachings": [
+      "I. Die erste Tugend ist die Keuschheit.\nAn der Jungfrauen Maria kan das Frauenzimmer drey schöne Tugenden lernen.\nDenn Maria konnte mit Wahrheit sagen, daß sie von keinem Manne wuste.",
+      "II. Die andere Tugend ist die Demuth.\nDenn Maria sagte: Ich bin des HErrn Magd.",
+      "III. Die dritte Tugend ist die Gott-Gelassenheit.\nDenn Maria sprach: Mir geschehe, wie du gesaget hast."
+    ],
+    "reflection": "Maria Glauben war zuerst mit Furcht verbunden /\nAls ihr ward die Geburt des Herren angesagt;\nDer Engel aber sprach: Du hast Gnade funden.\nDrauf sagte sie getrost: ich bin des Herren Magd.\nMein GOtt / ich fürchte mich auch wegen meiner Sünden!\nAch! sprich doch auch zu mir: Du sollst Gnade finden."
   }
 };

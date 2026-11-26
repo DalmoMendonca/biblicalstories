@@ -3015,5 +3015,44 @@ export const englishFromGerman = {
       "III. Godly people too are sometimes weak in faith.\nThe priest Zacharias would not give credence to the angel until he gave him a sign."
     ],
     "reflection": "They were both godly: the Bible bears this testimony\nTo Zacharias and to Elisabeth.\nAh, surely marriage does not turn out badly\nWhen husband and wife walk together in God's ways.\nShould I too, dearest God, one day be married,\nGrant that godly and godly may choose one another."
+  },
+  "54": {
+    "pages": [
+      323,
+      324,
+      327
+    ],
+    "printed": "191–193",
+    "latin": "Attonitæ similis trepidavit sancta Maria,\nCum Gabriel dixit: Mater eris DOMINI.\nSed fide mox plena exclamat: Sum serva JEHOVÆ,\nDicere dum pergit: Grata, Maria! Deo es.\nO utinam, timido mihi diceret Angelus idem:\nNe diffide! Dei gratia certa tibi est.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Annunciation to Mary.",
+    "reference": "Luke, chapter I.",
+    "narrative": "1. In the sixth month since the elder Elisabeth became pregnant, the angel Gabriel was sent to the Virgin Mary. 2. She lived in the land of Galilee, in the city of Nazareth. 3. Now when the angel came in to her, he greeted her with these words: Hail, gracious one, the Lord is with you, you blessed among women. 4. The good virgin was not a little alarmed at this and said in great dismay: What kind of greeting is this? 5. But the angel spoke kindly to her and said: Fear not, Mary, you have found grace with God. 6. Thereupon the angel gave her news that God had chosen her as the mother of his Son. 7. For he said to her: You will conceive in your womb and bear a son, whose name you shall call Jesus. 8. The Virgin Mary did not know how this was meant, so she said to the angel: How shall this come to pass, since I know no man? 9. But the angel explained his message with these words: The Holy Spirit will come upon you, and the power of the Highest will overshadow you; therefore the holy thing born of you will also be called the Son of God. 10. He then strengthened her faith by the example of her kinswoman Elisabeth, who was also pregnant with a son in her old age, though she was reputed to be barren. 11. The angel concluded with the beautiful saying: With God nothing is impossible. 12. And Mary, as it were, sent this answer to the Lord God: Behold, I am the handmaid of the Lord; let it be done to me as you have said.",
+    "questions": [
+      "When was the angel Gabriel sent to the Virgin Mary?",
+      "Where did the Virgin Mary live?",
+      "What are the words of the angelic greeting?",
+      "What did Mary answer to this greeting?",
+      "What comfort did the angel give her?",
+      "But what was the angel's message?",
+      "What exactly were his words?",
+      "What did Mary say to this unexpected message?",
+      "How did the angel explain his message?",
+      "With what did the angel strengthen her faith?",
+      "With what saying did the angel conclude his message?",
+      "What answer, as it were, did Mary send to the dear God?"
+    ],
+    "teachings": [
+      "I. The first virtue is chastity.\nWomen can learn three beautiful virtues from the Virgin Mary.\nFor Mary could truthfully say that she knew no man.",
+      "II. The second virtue is humility.\nFor Mary said: I am the handmaid of the Lord.",
+      "III. The third virtue is resignation to God.\nFor Mary said: Let it be done to me as you have said."
+    ],
+    "reflection": "Mary's faith was at first mingled with fear,\nWhen the birth of the Lord was announced to her;\nBut the angel said: You have found grace.\nThen she said confidently: I am the Lord's handmaid.\nMy God, I too am afraid on account of my sins!\nAh! Say also to me: You shall find grace."
   }
 };
