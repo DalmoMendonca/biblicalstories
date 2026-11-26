@@ -3731,5 +3731,48 @@ export const german1768 = {
       "questions": 26,
       "teachings": 3
     }
+  },
+  "73": {
+    "title": "Von den Gergesenern.",
+    "reference": "Matth. VIII. Marc. V. und Luc. VIII. Capitel.",
+    "pages": [
+      402,
+      405,
+      406
+    ],
+    "printed": "234–236",
+    "narrative": "1. Der HErr JEsus kam jenseit des Meeres in der Gegend der Gergesener und Gadarener. 2. Da kamen ihm zwey Besessene entgegen, die waren sehr grimmig. 3. Einer darunter war so mächtig, daß er alle Fessel und Ketten zerreissen konnte. 4. Sie wohnten in den Todten-Gräbern, und in den wüsten Oertern. 5. Sie thaten auch den Leuten Schaden, daß fast niemand dieselbe Strasse reissen konnte. 6. Wie sie den Herrn Christum sahen, so schrien sie: Ach JEsu du Sohn GOttes, was haben wir mit dir zu thun? bist du herkommen uns zu quälen, ehe denn es Zeit ist? 7. Den einen Teufel fragte JEsus: Wie heissest du? 8. Er gab zur Antwort: ich heisse Legion, denn unser ist viel. 9. Da befahl JEsus diesen bösen Geistern, daß sie ausfahren solten. 10. Sie baten aber, daß er sie doch nicht möchte aus derselben Gegend vertreiben: 11. Sondern, weil eine grosse Heerde Säue an dem Berge in der Weide giengen, 12. so solte er ihnen doch erlauben, daß sie in die Heerde Schweine fahren dürfften. 13. Wie nun JEsus darauf zur Antwort gab: Fahret hin 14. So fuhren die bösen Geister in die Heerde, und stürzten sie mit einem Sturm in das Meer, daß sie alle ersoffen. 15. Es waren ihrer aber bey zwey tausend. 16. Die Hirten flohen, und sagten das in der Stadt was mit den Besessenen und mit den Schweinen passiret wäre. 17. Da gieng die ganze Stadt hinaus, und baten JEsum, daß er doch von ihrer Gränze weichen wolte.",
+    "questions": [
+      "In was vor eine Gegend kam der HErr JEsus?",
+      "Wer kam ihm da entgegen?",
+      "Waren sie denn nicht angeschlossen?",
+      "Wo hielten sich die Besessenen auf?",
+      "Thaten sie denn jemand Schaden?",
+      "Wie schrien sie, da Christus kam?",
+      "Wornach fragte JEsus?",
+      "Was gab der Satan zur Antwort?",
+      "Was befahl JEsus den bösen Geistern?",
+      "Was baten die Teufel?",
+      "Was war in derselben Gegend?",
+      "Was solte Christus den Geistern erlauben?",
+      "Was sagte JEsus darauf?",
+      "Wo blieben die Schweine?",
+      "Wie viel waren ihrer?",
+      "Wo flohen die Hirten hin?",
+      "Was sagten die Gergesener darzu?"
+    ],
+    "teachings": [
+      "I. Der eine Teufel sagte zu Christo, sie hiessen Legion, denn ihrer wären viele.\nEine Legion ist vier bis sechs tausend, und also können viel tausend Teufel zugleich in einem Menschen wohnen.",
+      "II. Hier stehet ausdrücklich, daß die Besessenen in den wüsten Oertern gewohnet, und den Leuten Schaden zugefüget haben.\nWas wollen denn diejenigen hierwider sagen, die weder Gespenster noch Teufel glauben wollen?",
+      "III. Diese ganze Legion böser Geister mußte gleichwohl vor dem HErrn Christo weichen.\nWeil dieser nun unser König ist, so können wir mit starkem Glauben singen: Und wenn die Welt voll Teufel wär, und wolten uns verschlingen, so fürchten wir uns nicht so sehr, es muß uns doch gelingen."
+    ],
+    "reflection": "Es wolten JEsum nicht die Gergesener leiden /\nAls in die Schweine fuhr der Teufel Legion:\nWas liebten sie demnach am meisten unter beyden?\nDie Säuen oder dich du wahrer GOttes-Sohn?\nWir aber bitten dich / du wollst doch bey uns bleiben /\nUnd durch dein kräfftig Wort die Teufel von uns treiben!",
+    "latin": "Cum Gadarenorum porcos bis mille necasset\nDæmon, cognomen cui Legionis erat,\nOcyus, ecce! suis ut finibus exeat, orant\nChristum, cui porcos antetulere suos.\nVerbo, CHRISTE, tuo tenebrarum destrue regnum,\nEt sic nobiscum tempus in omne mane.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 17,
+      "teachings": 3
+    }
   }
 };

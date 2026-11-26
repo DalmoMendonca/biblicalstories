@@ -3810,5 +3810,49 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "73": {
+    "title": "Of the Gergesenes.",
+    "reference": "Matthew 8; Mark 5; Luke 8.",
+    "pages": [
+      402,
+      405,
+      406
+    ],
+    "printed": "234–236",
+    "narrative": "1. The Lord Jesus came to the other side of the sea, into the region of the Gergesenes and Gadarenes. 2. There two possessed men met him, who were very fierce. 3. One of them was so powerful that he could tear apart every fetter and chain. 4. They dwelt in the tombs and in desolate places. 5. They also harmed people, so that scarcely anyone could travel that road. 6. When they saw the Lord Christ, they cried: Ah Jesus, thou Son of God, what have we to do with thee? Hast thou come here to torment us before the time? 7. Jesus asked one devil: What is thy name? 8. He answered: My name is Legion, for we are many. 9. Then Jesus commanded these evil spirits to come out. 10. But they begged him not to drive them out of that region. 11. Rather, since a great herd of swine was grazing upon the mountain, 12. they begged him to permit them to enter the herd of swine. 13. When Jesus answered: Go ye hence, 14. the evil spirits entered the herd and drove them in a rush into the sea, so that they all drowned. 15. Now there were about two thousand of them. 16. The herdsmen fled and told in the city what had happened to the possessed men and to the swine. 17. Then the whole city came out and begged Jesus to depart from their borders.",
+    "questions": [
+      "Into what region did the Lord Jesus come?",
+      "Who met him there?",
+      "Were they not chained up?",
+      "Where did the possessed men dwell?",
+      "Did they harm anyone?",
+      "How did they cry when Christ came?",
+      "What did Jesus ask?",
+      "What answer did Satan give?",
+      "What did Jesus command the evil spirits?",
+      "What did the devils beg?",
+      "What was in that region?",
+      "What was Christ to allow the spirits to do?",
+      "What did Jesus say in reply?",
+      "What became of the swine?",
+      "How many were there?",
+      "Whither did the herdsmen flee?",
+      "What did the Gergesenes say to this?"
+    ],
+    "teachings": [
+      "I. One devil told Christ that they were called Legion, because there were many of them.\nA legion numbers four to six thousand, and thus many thousands of devils can dwell in one man at the same time.",
+      "II. It is expressly stated here that the possessed men dwelt in desolate places and did harm to people.\nWhat then will those say against this who will believe in neither apparitions nor devils?",
+      "III. Yet this whole legion of evil spirits had to give way before the Lord Christ.\nSince he is our King, we can sing with strong faith: And though the world were full of devils, and would devour us, we fear not so greatly; we must nevertheless prevail."
+    ],
+    "reflection": "The Gergesenes would not endure Jesus,\nWhen the legion of devils entered the swine:\nWhich of the two, then, did they love most?\nThe swine, or thee, thou true Son of God?\nBut we beseech thee to remain with us,\nAnd by thy mighty word drive the devils away from us!",
+    "latin": "Cum Gadarenorum porcos bis mille necasset\nDæmon, cognomen cui Legionis erat,\nOcyus, ecce! suis ut finibus exeat, orant\nChristum, cui porcos antetulere suos.\nVerbo, CHRISTE, tuo tenebrarum destrue regnum,\nEt sic nobiscum tempus in omne mane.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 17,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
