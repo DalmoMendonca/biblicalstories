@@ -5205,5 +5205,45 @@ export const german1768 = {
       "questions": 11,
       "teachings": 3
     }
+  },
+  "103": {
+    "title": "Von der Sendung des Heiligen Geistes.",
+    "reference": "Apostel-Geschichte am II. Capitel.",
+    "pages": [
+      549,
+      550,
+      553
+    ],
+    "printed": "319–321",
+    "narrative": "1. Neun Tage nach der Himmelfahrt Christi war das Pfingst-Fest: 2. An demselben war der Heilige Geist über die Jünger JEsu ausgegossen. 3. Denn als der Tag der Pfingsten erfüllet war, da waren die zwölf Jünger einmüthig bey einander. 4. Und es geschahe schnell ein Brausen vom Himmel, als eines gewaltigen Windes, und erfüllte das ganze Haus, da sie sassen. 5. Und man sahe an ihnen die Zungen zertheilet, als wären sie feurig, 6. und der Heilige Geist satzte sich auf einen jeglichen unter ihnen. 7. Und sie wurden alle voll des Heiligen Geistes: und fiengen an zu predigen mit andern Zungen, nachdem ihnen der Geist gab auszusprechen. 8. Es waren aber Jüden zu Jerusalem wohnend, die waren gottsfürchtige Männer aus allerley Volck, das unter dem Himmel ist. 9. Da nun diese Stimme geschah, kam die Menge zusammen, und wurden verstürtzt; 10. denn es hörte ein jeglicher, daß sie mit seiner Sprache redten. 11. Sie entsetzten sich aber alle, verwunderten sich, und sprachen unter einander: Siehe, sind nicht diese alle die da reden, aus Galiläa? 12. Wie hören wir denn ein jeglicher seine Sprache, darinnen wir gebohren sind, 13. Sie entsetzten sich alle, und wurden irre, und sprachen unter einander: Was will daraus werden? 14. Die andern aber hattens ihren Spott, und sprachen: Sie sind voll süsses Weins.",
+    "questions": [
+      "Wenn war das Pfingst-Fest?",
+      "Was trug sich an diesem Feste zu?",
+      "Was machten die Jünger an diesem Feste?",
+      "Was trug sich in dem Hause zu, da sie waren?",
+      "Was war an den Aposteln zu sehen?",
+      "Was that der Heilige Geist?",
+      "Was wiederfuhr hierauf den Aposteln?",
+      "Was waren zu Jerusalem vor Leute?",
+      "Was trug sich mit diesen frommen Jüden zu?",
+      "Was hörten sie denn?",
+      "Was sagten sie darzu?",
+      "Worüber verwunderten sie sich am meisten?",
+      "Wie sprachen sie unter einander?",
+      "Was urtheilten einige andre von der Sache?"
+    ],
+    "teachings": [
+      "I. Wie der Heilige Geist über die Jünger ausgegossen ward, so waren sie einmüthig bey einander.\nAlso lasset uns auch gleich gesinnet / mitleidig / brüderlich barmhertzig, und freundlich seyn, damit der Geist des Friedens auch zu uns kommen möge.",
+      "II. Der Heilige Geist satzte sich auf die Jünger in der sichtbaren Gestalt einer feurigen Zungen.\nDas Feuer führet allezeit Licht und Wärme bey sich / und so erleuchtet der heilige Geist den finstern Verstand mit seiner Wahrheit / und erwärmet die kaltgesinnten Hertzen der Menschen mit seiner Liebe.",
+      "III. Als die Jünger JEsu voll Heiligen Geistes waren, so sagten etliche, sie wären voll süsses Weins.\nDaraus siehet man / wie die Wirkungen des Heiligen Geistes können gelästert werden / wenn man in schweren Fällen sich mit seinem Urtheile übereilet."
+    ],
+    "reflection": "Den Jüngern, die du hast / mein JEsu / selbst gelehret /\nDenselben hast du auch geschenkt den Heilgen Geist.\nWohlan / ich habe dir auch fleißig zugehöret /\nWenn du mich durch dein Wort bisher hast unterweißt:\nAch schencke mir doch auch nunmehr den Geist der Liebe /\nDaß ich auch in der That / was ich gelernet / übe!",
+    "latin": "Discipulis Christi, in terris quos ipse docebas,\nEst quoque donatus Spiritus ille sacer.\nMens mea, Christe, tibi patulas quoque præbuit aures;\nTempla ubi doctrina personuere tua.\nO utinam repleat mea pectora Spiritus idem,\nUt fructus etiam semina sancta ferant.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    }
   }
 };

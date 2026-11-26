@@ -5314,5 +5314,46 @@ export const englishFromGerman = {
       "questions": 11,
       "teachings": 3
     }
+  },
+  "103": {
+    "title": "On the Sending of the Holy Spirit",
+    "reference": "Acts II.",
+    "pages": [
+      549,
+      550,
+      553
+    ],
+    "printed": "319–321",
+    "narrative": "1. Nine days after Christ's ascension was the feast of Pentecost. 2. On that day the Holy Spirit was poured out upon Jesus' disciples. 3. For when the day of Pentecost was fulfilled, the twelve disciples were together with one accord. 4. And suddenly there came a rushing sound from heaven, as of a mighty wind, and it filled the whole house where they sat. 5. And divided tongues appeared upon them as though they were fiery, 6. and the Holy Spirit settled upon each of them. 7. And they were all filled with the Holy Spirit and began to preach in other tongues, as the Spirit gave them utterance. 8. Now there were Jews dwelling at Jerusalem, God-fearing men from every people under heaven. 9. When this sound occurred, the multitude came together and were confounded; 10. for each heard them speaking in his own language. 11. And they were all astonished, marveled and said to one another: Behold, are not all these who speak from Galilee? 12. How then do we each hear our own language in which we were born? 13. They were all astonished and perplexed and said to one another: What will come of this? 14. But the others mocked them and said: They are full of sweet wine.",
+    "questions": [
+      "When was the feast of Pentecost?",
+      "What happened at this feast?",
+      "What did the disciples do at this feast?",
+      "What happened in the house where they were?",
+      "What could be seen upon the apostles?",
+      "What did the Holy Spirit do?",
+      "What then happened to the apostles?",
+      "What sort of people were in Jerusalem?",
+      "What happened to these pious Jews?",
+      "What did they hear?",
+      "What did they say about it?",
+      "At what did they marvel most?",
+      "What did they say to one another?",
+      "What judgment did some others make about the matter?"
+    ],
+    "teachings": [
+      "I. When the Holy Spirit was poured out upon the disciples, they were together with one accord.\nLet us therefore also be of one mind, compassionate, brotherly, merciful and friendly, so that the Spirit of peace may come to us also.",
+      "II. The Holy Spirit settled upon the disciples in the visible form of a fiery tongue.\nFire always carries light and warmth with it; and thus the Holy Spirit illuminates the dark understanding with his truth and warms the cold hearts of men with his love.",
+      "III. When Jesus' disciples were full of the Holy Spirit, some said that they were full of sweet wine.\nFrom this we see how the workings of the Holy Spirit can be blasphemed when one hastens to judgment in difficult cases."
+    ],
+    "reflection": "The disciples whom thou thyself hast taught, my Jesus,\nTo them thou hast also given the Holy Spirit.\nWell then, I too have diligently listened to thee,\nWhen thou hast hitherto instructed me through thy Word.\nAh, grant me now also the Spirit of love,\nThat I may put into practice what I have learned!",
+    "latin": "Discipulis Christi, in terris quos ipse docebas,\nEst quoque donatus Spiritus ille sacer.\nMens mea, Christe, tibi patulas quoque præbuit aures;\nTempla ubi doctrina personuere tua.\nO utinam repleat mea pectora Spiritus idem,\nUt fructus etiam semina sancta ferant.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 14,
+      "teachings": 3
+    }
   }
 };
