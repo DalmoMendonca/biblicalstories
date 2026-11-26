@@ -3156,5 +3156,47 @@ export const german1768 = {
       "III. Joseph reisete von Nazareth nach Bethlehem.\nDiese beyden Städte haben ohngefehr zwölf Deutsche Meilweges von einander gelegen."
     ],
     "reflection": "Mein JESU / solt ich dich im Stalle liegen sehen /\nIch aber sollte ruhn auf meinem Bettelein?\nO Heyland aller Welt! das laß ich nicht geschehen /\nKomm! JESU, komm! mein Herz soll deine Wiege seyn.\nWo dich auch mein Gebet nicht kan darzu bewegen /\nSo will ich mich zu dir in deiner Krippe legen."
+  },
+  "59": {
+    "pages": [
+      342,
+      345,
+      346
+    ],
+    "printed": "202–204",
+    "latin": "Nasceris, ignaris Herodi & Cæsare, JESU!\nSoli pastores nuncia læta sciunt.\nAngelicos cœtus forsan deceperit error?\nAbsit! sed talis mos solet esse Dei.\nNempe quod in terris humile est, extollit in altum,\nEt vicibus versis deprimit alta Deus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 16,
+      "teachings": 3
+    },
+    "title": "Von den Hirten zu Bethlehem.",
+    "reference": "Luc. II. Capitel.",
+    "narrative": "1. Die Geburt des HErrn JEsu ward zum ersten den armen Hirten kund gethan. 2. Dieselben waren in der Gegend zu Bethlehem, und hüteten des Nachts ihrer Heerde. 3. Wie nun Christus zu Bethlehem im Stalle war gebohren worden, so trat der Engel des HErrn zu diesen Hirten. 4. Als sie nun von der Klarheit des HErrn umleuchtet wurden, so furchten sie sich sehr. 5. Aber der Engel sprach zu ihnen: Fürchtet euch nicht! siehe, ich verkündige euch grosse Freude, die allem Volcke wiederfahren soll. 6. Denn euch ist heute der Heyland gebohren, welcher ist Christus, der HErr in der Stadt David. 7. Und das habet zum Zeichen, ihr werdet finden das Kind in Windeln gewickelt, und in einer Krippen liegen. 8. Und alsobald war bey dem Engel die Menge der himmlischen Heerscharen, die lobten GOtt und sprachen: 9. Ehre sey GOtt in der Höhe, Friede auf Erden, und den Menschen ein Wohlgefallen. 10. Da nun die Engel von ihnen gen Himmel fuhren, da sprachen die Hirten unter einander: 11. Lasset uns gen Bethlehem gehen, und die Geschichte sehen, die da geschehen ist, die uns der HErr kund gethan hat. 12. Und sie kamen eilend, und funden beyde Mariam und Joseph, darzu das Kind in der Krippe liegen. 13. Da sie es aber gesehen hatten, breiteten sie das Wort aus, welches zu ihnen von diesem Kinde gesaget war. 14. Und alle, vor die es kam, wunderten sich der Rede, die ihnen die Hirten gesaget hatten. 15. Maria aber behielt alle diese Worte, und bewegete sie in ihrem Herzen. 16. Und die Hirten kehrten wieder um, preiseten und lobten GOtt.",
+    "questions": [
+      "Wer erfuhr es zuerst, daß Christus gebohren wäre?",
+      "Wo waren dieselben Hirten?",
+      "Wer brachte ihnen die Post?",
+      "Wie war den Hirten dabey zu muthe?",
+      "Was sprach ihnen der Engel vor Trost zu?",
+      "Worinnen bestund die fröliche Botschafft?",
+      "Was gab ihnen der Engel vor ein Zeichen?",
+      "War der Engel ganz alleine?",
+      "Was musicirten denn die Engel?",
+      "Wo blieben zuletzt die Engel?",
+      "Was thaten hierauf die Hirten?",
+      "Wie funden sie es zu Bethlehem?",
+      "Wie giengen sie mit der neuen Zeitung um?",
+      "Was sagten denn die Leute darzu?",
+      "Was gedachte Maria darbey?",
+      "Wo blieben endlich die Hirten?"
+    ],
+    "teachings": [
+      "I. Der Engel sagte zu den Hirten: Euch ist heute der Heyland gebohren.\nDas ist ja wohl die allerwichtigste Zeitung gewesen, weil die Welt gestanden hat.",
+      "II. Die Menge der himmlischen Heerschaaren sungen: Ehre sey GOtt in der Höhe, Friede auf Erden, und den Menschen ein Wohlgefallen.\nDas ist ja wohl die allerschönste Abend-Music gewesen, die man jemals gehöret hat.",
+      "III. Wie die Hirten nach Bethlehem kamen, so sahen sie das neu-gebohrne JEsus-Kindlein.\nDas ist ja wohl der allerlieblichste Anblick auf der Welt gewesen."
+    ],
+    "reflection": "Den Hirten wird die Post von Christo erst erzehlet:\nWarum Augusto nicht? warum Herodi nicht?\nDer Engel hat vielleicht den rechten Ort verfehlet?\nAch nein! GOtt hat sein Reich ganz anders eingericht:\nWas klug ist vor der Welt / das muß zurücke stehen;\nWas aber thöricht ist / das pflegt voran zu gehen."
   }
 };

@@ -3221,5 +3221,48 @@ export const englishFromGerman = {
     ],
     "reflection": "My Jesus, should I see thee lying in the stable,\nWhile I myself should rest upon my little bed?\nO Savior of all the world! I will not let this happen;\nCome, Jesus, come! My heart shall be thy cradle.\nIf even my prayer cannot move thee to this,\nThen I will lay myself beside thee in thy manger.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "59": {
+    "pages": [
+      342,
+      345,
+      346
+    ],
+    "printed": "202–204",
+    "latin": "Nasceris, ignaris Herodi & Cæsare, JESU!\nSoli pastores nuncia læta sciunt.\nAngelicos cœtus forsan deceperit error?\nAbsit! sed talis mos solet esse Dei.\nNempe quod in terris humile est, extollit in altum,\nEt vicibus versis deprimit alta Deus.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 16,
+      "teachings": 3
+    },
+    "title": "Of the Shepherds at Bethlehem.",
+    "reference": "Luke, chapter 2.",
+    "narrative": "1. The birth of the Lord Jesus was first made known to the poor shepherds. 2. They were in the region of Bethlehem and watched over their flock by night. 3. When Christ had been born in the stable at Bethlehem, the angel of the Lord came to these shepherds. 4. When the glory of the Lord shone around them, they were sore afraid. 5. But the angel said to them: Fear not! Behold, I bring you tidings of great joy, which shall come to all people. 6. For unto you is born this day the Savior, who is Christ the Lord, in the city of David. 7. And this shall be a sign unto you: ye shall find the child wrapped in swaddling clothes and lying in a manger. 8. And immediately there was with the angel a multitude of the heavenly host, praising God and saying: 9. Glory to God in the highest, peace on earth, and goodwill toward men. 10. When the angels had departed from them into heaven, the shepherds said one to another: 11. Let us go to Bethlehem and see this thing that has happened, which the Lord has made known to us. 12. And they came in haste and found both Mary and Joseph, and also the child lying in the manger. 13. When they had seen it, they spread abroad the word that had been spoken to them concerning this child. 14. And all to whom it came wondered at the words the shepherds had told them. 15. But Mary kept all these words and pondered them in her heart. 16. And the shepherds returned, glorifying and praising God.",
+    "questions": [
+      "Who first learned that Christ had been born?",
+      "Where were these shepherds?",
+      "Who brought them the news?",
+      "How did the shepherds feel at this?",
+      "What comfort did the angel speak to them?",
+      "In what did the joyful message consist?",
+      "What sign did the angel give them?",
+      "Was the angel entirely alone?",
+      "What music did the angels make?",
+      "Where did the angels finally go?",
+      "What did the shepherds do thereafter?",
+      "What did they find at Bethlehem?",
+      "How did they deal with the new tidings?",
+      "What did the people say to this?",
+      "What did Mary think of it?",
+      "Where did the shepherds finally go?"
+    ],
+    "teachings": [
+      "I. The angel said to the shepherds: Unto you is born this day the Savior.\nSurely this was the most important news since the world began.",
+      "II. The multitude of the heavenly host sang: Glory to God in the highest, peace on earth, and goodwill toward men.\nSurely this was the most beautiful evening music that anyone has ever heard.",
+      "III. When the shepherds came to Bethlehem, they saw the newborn infant Jesus.\nSurely this was the loveliest sight in the world."
+    ],
+    "reflection": "The shepherds are first told the tidings of Christ:\nWhy not Augustus? Why not Herod?\nHas the angel perhaps missed the proper place?\nAh no! God has ordered his kingdom quite differently:\nWhat is wise before the world must stand behind;\nBut what is foolish is wont to go before.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };
