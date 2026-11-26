@@ -3591,5 +3591,56 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "68": {
+    "title": "Of the Samaritan Woman.",
+    "reference": "John, chapter 4.",
+    "pages": [
+      383,
+      384,
+      385
+    ],
+    "printed": "223–225",
+    "narrative": "1. Not far from the city of Sychar in the region of Samaria there was a well. 2. Beside this well Jesus sat down, being weary from the journey. 3. Then a woman of Sychar came to the well to draw water. 4. To this woman Jesus said: Give me to drink. 5. The woman said: How dost thou ask me for a drink, since thou art a Jew and I a Samaritan woman? 6. For the Jews have no fellowship with the Samaritans. 7. After they had spoken with one another for a while concerning the water of life, 8. Jesus said: Go, call thy husband, and come hither. 9. The woman answered: I have no husband. 10. Jesus says to her: Thou hast said rightly, I have no husband; thou hast had five husbands, and he whom thou now hast is not thy husband. 11. Then the woman said: Lord, I perceive that thou art a prophet. 12. Soon afterward Jesus said this beautiful saying to her: God is a Spirit, and those who call upon him must call upon him in spirit and in truth. 13. The woman then said: I know that Messiah is coming, who is called Christ; he will declare all things to us. 14. Jesus says to her: I am he who speaks with thee. 15. Then the woman left her pitcher standing, ran into the city, and said to the people: 16. Come and see a man who has told me all that I have done; might not this be Christ? 17. Then they went out of the city and came to Jesus. 18. And many Samaritans believed in the Lord Jesus, many because of the woman's words, 19. but more because of his word. 20. And they begged him to remain with them: 21. And Jesus stayed with them two days.",
+    "questions": [
+      "What was near Sychar in Samaria?",
+      "Who sat beside this well?",
+      "Who came there to draw water?",
+      "What did Jesus say to the Samaritan woman?",
+      "What answer did the woman give him?",
+      "Why did she speak in this manner?",
+      "Of what did Jesus take occasion to speak?",
+      "Whom was the woman to call out of the city?",
+      "How did the woman excuse herself?",
+      "What did Jesus say of her husbands?",
+      "What did the woman say to that?",
+      "What beautiful saying about prayer did Jesus utter?",
+      "But what did the woman begin to say about Messiah?",
+      "What answer did Jesus give her?",
+      "What did the woman do thereafter?",
+      "What did she say to the people in the city?",
+      "What did the citizens of the city do?",
+      "What benefit did the good people derive from it?",
+      "Why did they believe in Jesus?",
+      "What did they ask of Jesus?",
+      "How long did Jesus stay in Samaria?"
+    ],
+    "teachings": [
+      "I. The Jews and the Samaritans were mortal enemies of one another.\nFor the Jews had their temple at Jerusalem, and the Samaritans formerly also had a temple in Samaria: over this the priests could not agree with one another.",
+      "II. Jesus held a conversation beside the well about the water of life.\nSo we too should take occasions that happen to arise to speak of something good: for example, beside a field, of the seed of the divine Word; under a tree, of the fruits of repentance; beside a light, of the smoldering wick of faith.",
+      "III. The Samaritan woman led the whole city to Christ.\nThus we too should make the salvation and conversion of our neighbor our concern."
+    ],
+    "reflection": "Man is permitted to approach God's throne,\nFor through prayer the great God is honored:\nYet one must pray in spirit and in truth,\nAs Jesus taught the woman there beside the well.\nSo I too will speak with God in spirit and truth;\nThen his fatherly heart will break toward me.",
+    "latin": "Ad Christum accessus non tempore clauditur ullo,\nFlecti se patitur supplice voce Deus:\nVeridico debet sed Spiritus ore precari,\nHoc Christus, quærit dum Samaritis, ait.\nSi me componam tendens ad sidera palmas:\nAudiet in cœlis sic mea vota Pater.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 21,
+      "teachings": 3
+    },
+    "editorial_notes": [
+      "Printed question following 18 is numbered 16 on p. 224; restored to 19 in the sequential question list."
+    ],
+    "kind": "new-translation-from-transcribed-german"
   }
 };

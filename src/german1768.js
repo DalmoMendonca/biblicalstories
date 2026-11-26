@@ -3517,5 +3517,55 @@ export const german1768 = {
       "questions": 15,
       "teachings": 3
     }
+  },
+  "68": {
+    "title": "Von der Samariterin.",
+    "reference": "Joh. IV. Capitel.",
+    "pages": [
+      383,
+      384,
+      385
+    ],
+    "printed": "223–225",
+    "narrative": "1. Nicht weit von der Stad Sichar in der Landschafft Samaria war ein Brunnen. 2. Bey demselben Brunnen satzte sich JEsus nieder, als er müde von der Reise war. 3. Da kam ein Weib von Sichar zu dem Brunnen, Wasser zu schöpffen. 4. Zu diesem Weibe sagte JEsus: Gib mir zu trinken. 5. Das Weib sagte: Wie bittest du von mir zu trinken, da du ein Jüde bist, und ich ein Samaritisch Weib? 6. Denn die Jüden haben keine Gemeinschafft mit den Samaritern. 7. Nachdem sie eine Weile von dem Wasser des Lebens mit einander geredet hatten, 8. so sagte JEsus: Gehe hin und ruffe deinen Mann, und komme her. 9. Das Weib gab zur Antwort: Ich habe keinen Mann. 10. JEsus spricht zu ihr: Du hast recht gesagt: ich habe keinen Mann; fünf Männer hast du gehabt, und den du nun hast, der ist nicht dein Mann. 11. Da sprach das Weib: HErr, ich sehe, daß du ein Prophet bist. 12. Bald darauf sagte JEsus den schönen Spruch zu ihr: GOtt ist ein Geist, und die ihn anruffen, die müssen ihn im Geiste und in der Wahrheit anruffen. 13. Das Weib sagte darauf: Ich weiß, daß Meßias kömmt, der da heisset Christus, der wird uns alles verkündigen. 14. JEsus spricht zu ihr: Ich bins, der mit dir redet. 15. Da ließ das Weib ihren Krug stehen, und lieff in die Stadt, und sagte zu den Leuten: 16. Kommt und sehet einen Menschen, der mir gesagt hat, alles, was ich gethan habe, ob der nicht Christus sey? 17. Da giengen sie aus der Stadt, und kamen zu JEsu. 18. Und es glaubten viele Samariter an den HErrn JEsum, viel um des Weibes Rede willen; 19. mehr aber um seines Wortes willen. 20. Und sie baten ihn, daß er bey ihnen bliebe: 21. Und JEsus blieb zwey Tage bey ihnen.",
+    "questions": [
+      "Was war unweit Sichar in Samaria?",
+      "Wer satzte sich bey diesem Brunnen?",
+      "Wer kam dahin Wasser zu schöpffen?",
+      "Was sagte JEsus zu der Samariterin?",
+      "Was gab ihm das Weib zur Antwort?",
+      "Warum führte sie solche Reden?",
+      "Von was nahm JEsus Gelegenheit zu reden?",
+      "Wen solte das Weib aus der Stadt rufen?",
+      "Wie entschuldigte sich das Weib?",
+      "Was sagte JEsus von ihren Männern?",
+      "Was sagte das Weib darzu?",
+      "Was führte JEsus vor einen schönen Spruch vom Gebete im Munde?",
+      "Was fieng aber das Weib von dem Meßia an zu reden?",
+      "Was gab ihr JEsus vor Bescheid?",
+      "Was that das Weib hierauf?",
+      "Was sagte sie zu den Leuten in der Stadt?",
+      "Was thaten die Bürger in der Stadt?",
+      "Was half es die guten Leute?",
+      "Warum glaubten sie an JEsum?",
+      "Was baten sie von JEsu?",
+      "Wie lange blieb JEsus zu Samaria?"
+    ],
+    "teachings": [
+      "I. Die Jüden und die Samariter waren einander todt feind.\nDenn die Jüden hatten ihren Tempel zu Jerusalem; und die Samariter hatten weilend auch einen Tempel zu Samaria: Darüber konnten sich die Priester nicht mit einander vertragen.",
+      "II. JEsus führte bey dem Brunnen ein Gespräche von dem Wasser des Lebens.\nSo sollen wir auch zufällige Gelegenheit nehmen von etwas gutes zu reden: Z. E. bey einem Acker von dem Saamen des göttlichen Wortes; unter einem Baume von den Früchten der Busse; bey einem Lichte von dem glimmenden Tochte des Glaubens.",
+      "III. Das Samaritische Weib führte die ganze Stadt zu Christo.\nAlso sollen wir uns auch das Heil und Bekehrung unsers Nächsten angelegen seyn lassen."
+    ],
+    "reflection": "Dem Menschen ist vergönnt vor GOttes Thron zu treten /\nDenn durch das Beten wird der grosse GOtt geehrt:\nAllein man muß im Geist und in der Wahrheit beten /\nWie JEsus dort das Weib beym Brunnen hat gelehrt.\nSo will ich auch mit GOtt im Geist und Wahrheit sprechen;\nAlßdenn wird gegen mich sein Vater-Herze brechen.",
+    "latin": "Ad Christum accessus non tempore clauditur ullo,\nFlecti se patitur supplice voce Deus:\nVeridico debet sed Spiritus ore precari,\nHoc Christus, quærit dum Samaritis, ait.\nSi me componam tendens ad sidera palmas:\nAudiet in cœlis sic mea vota Pater.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 21,
+      "teachings": 3
+    },
+    "editorial_notes": [
+      "Printed question following 18 is numbered 16 on p. 224; restored to 19 in the sequential question list."
+    ]
   }
 };
