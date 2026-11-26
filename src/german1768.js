@@ -4087,5 +4087,50 @@ export const german1768 = {
       "questions": 15,
       "teachings": 3
     }
+  },
+  "81": {
+    "title": "Von dem Mondsüchtigen.",
+    "reference": "Matth. XVII. Marc. IX. und Luc. IX. Capitel.",
+    "pages": [
+      439,
+      440,
+      441
+    ],
+    "printed": "253–255",
+    "narrative": "1. Ein Mann hatte einen einzigen Sohn, der war mondsüchtig. 2. Der Geist, der ihn besessen hatte, war sprachlose. 3. Er riß aber den armen Menschen abscheulich, daß er schäumete, mit den Zähnen knirschte, und verdorrte. 4. Ingleichen warf ihn der Teufel oft ins Feuer und ins Wasser, daß er ihn umbrächte. 5. Diesen armen Menschen hatte der Vater zu den Jüngern des HErrn JEsu gebracht, sie hatten ihn aber nicht heilen können. 6. Endlich kam er zu JEsu selber, und bat ihn auf den Knien, daß er doch diesen seinen Sohn besehen wolte. 7. Wie der Sohn herzu kam, und der Geist den HErrn JEsum sahe, so riß er den Knaben, daß er sich erbärmlich auf der Erde herum wälzte. 8. JEsus fragte den Vater, ob er lange so gewesen wäre? Und bekam zur Antwort: 9. Er wäre von Kind auf damit behaftet gewesen. 10. Der Vater sagte hierauf zu dem HErrn JEsu ganz kläglich: Kanst du was, so erbarme dich unser, und hilf uns. 11. JEsus sprach zu dem Manne: Wenn du könntest gläuben; alle Dinge sind möglich dem, der da gläubet. 12. Alsobald schrie des Kindes Vater mit Thränen, und sprach: Ich gläube, lieber HErr! hilf meinem Unglauben! 13. Da bedräuete JEsus den unsaubern Geist, er solte ausfahren, und nicht wieder kommen. 14. Da schrie er, und riß ihn sehr, und fuhr aus. 15. Der Sohn war wie todt, und die Leute sagten auch, er ist todt. 16. Aber JEsus ergriff ihn bey der Hand, und richtete ihn auf, und er stund auf. 17. Zu Hause fragten ihn seine Jünger besonders, warum sie ihn nicht hätten können austreiben? 18. JEsus sagte erstlich überhaupt: Ihr Unglaube wäre Schuld daran; denn wenn sie Glauben hätten als ein Senf-Korn, so würden sie Berge versetzen können. 19. Doch sagte JEsus auch insonderheit von diesem Geiste, daß diese Art nicht ausfährt, denn durch Fasten und Beten.",
+    "questions": [
+      "Was hatte ein Mann vor ein Unglück mit seinem Sohne?",
+      "Was vor ein Geist hatte diesen Knaben besessen?",
+      "Was sahe der Vater vor Herzeleid an diesem Kinde?",
+      "Welches war die allergröste Noth?",
+      "Wo hatte dieser Mann Hülfe gesuchet?",
+      "Wo gieng er denn nun hin?",
+      "Was trug sich mit dem Sohne zu, als er zu JEsu kam?",
+      "Wornach fragte JEsus?",
+      "Was bekam er zur Antwort?",
+      "Was verlangte der Vater von JEsu?",
+      "Und was verlangte JEsus vom Vater?",
+      "Womit bezeugte der Vater seinen Glauben?",
+      "Was nahm JEsus mit dem Geiste vor?",
+      "Wie lief es ab?",
+      "Wie befand sich der Knabe?",
+      "Wer brachte ihn vollends zu rechte?",
+      "Was fragten die Jünger zu Hause?",
+      "Wem gab JEsus die Schuld?",
+      "Aber was hatte es mit diesem Geiste vor eine sonderbare Bewandtniß?"
+    ],
+    "teachings": [
+      "Aus dieser Erzehlung kan man lernen:\nI. Was der Teufel vor eine Macht habe.\nDenn er hat den Mondsüchtigen ins Feuer und ins Wasser geworffen.",
+      "II. Was der HErr Christus vor eine Macht habe.\nDenn auf sein Wort muste der Geist ausfahren, und durfte nicht wieder kommen.",
+      "III. Was der Glaube vor eine Macht habe.\nDenn Christus spricht: Alle Dinge sind möglich dem, der da gläubet."
+    ],
+    "reflection": "Dem Menschen / der da gläubt / sind alle Dinge möglich;\nDas ist ein theures Wort / das JEsus selber sagt:\nDa nun der Vater gläubt / so hilft er unverzüglich /\nUnd treibt den Teufel aus / der seinen Sohn geplagt.\nDen Glauben hab ich auch / den soll mir niemand rauben /\nIch gläube! lieber HErr! hilf meinem schwachen Glauben!",
+    "latin": "Nil impossibile est vere credentibus, inquit\nChristus, & exemplo mox sua dicta probat.\nQuum pater exclamat, CREDO; fugit illico Dæmon,\nFilius & poterat salvus abire domum.\nSi tantas vires habet unica vocula CREDO,\nTessera, CREDO, mei cordis & oris erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 19,
+      "teachings": 3
+    }
   }
 };

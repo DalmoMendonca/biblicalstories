@@ -4174,5 +4174,51 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "81": {
+    "title": "Of the Lunatic.",
+    "reference": "Matthew XVII, Mark IX and Luke IX.",
+    "pages": [
+      439,
+      440,
+      441
+    ],
+    "printed": "253–255",
+    "narrative": "1. A man had an only son who was a lunatic. 2. The spirit that possessed him was mute. 3. But it tore the poor man horribly, so that he foamed, gnashed his teeth and wasted away. 4. Likewise the devil often threw him into the fire and into the water to destroy him. 5. The father had brought this poor man to the disciples of the Lord Jesus, but they had been unable to heal him. 6. At last he came to Jesus himself and begged him on his knees to look upon this son of his. 7. When the son came near and the spirit saw the Lord Jesus, it tore the boy so that he rolled miserably about on the ground. 8. Jesus asked the father whether he had long been thus. And received the answer: 9. He had been afflicted with it from childhood. 10. Thereupon the father said very plaintively to the Lord Jesus: If you can do anything, have mercy upon us and help us. 11. Jesus said to the man: If you can believe; all things are possible to him who believes. 12. Immediately the child's father cried out with tears and said: I believe, dear Lord! Help my unbelief! 13. Then Jesus rebuked the unclean spirit, bidding it depart and never return. 14. It cried out and tore him severely and went out. 15. The son was as if dead, and the people also said he was dead. 16. But Jesus took him by the hand and lifted him up, and he stood up. 17. At home his disciples asked him privately why they had been unable to cast it out. 18. Jesus said first, in general, that their unbelief was to blame; for if they had faith like a mustard seed, they could move mountains. 19. But Jesus also said particularly of this spirit that this kind does not come out except by fasting and prayer.",
+    "questions": [
+      "What misfortune had a man with his son?",
+      "What kind of spirit possessed this boy?",
+      "What heartache did the father witness in this child?",
+      "What was the greatest distress of all?",
+      "Where had this man sought help?",
+      "Where did he then go?",
+      "What happened to the son when he came to Jesus?",
+      "What did Jesus ask?",
+      "What answer did he receive?",
+      "What did the father desire of Jesus?",
+      "And what did Jesus desire of the father?",
+      "How did the father testify to his faith?",
+      "What did Jesus undertake with the spirit?",
+      "How did it end?",
+      "How was the boy?",
+      "Who restored him completely?",
+      "What did the disciples ask at home?",
+      "Whom did Jesus blame?",
+      "But what was peculiar about this spirit?"
+    ],
+    "teachings": [
+      "From this account we can learn:\nI. What power the devil has.\nFor he threw the lunatic into fire and water.",
+      "II. What power the Lord Christ has.\nFor at his word the spirit had to depart and was not permitted to return.",
+      "III. What power faith has.\nFor Christ says: All things are possible to him who believes."
+    ],
+    "reflection": "To the person who believes, all things are possible;\nThis is a precious word that Jesus himself says:\nNow when the father believes, he helps without delay,\nAnd casts out the devil who tormented his son.\nI too have faith; no one shall rob me of it;\nI believe, dear Lord! Help my weak faith!",
+    "latin": "Nil impossibile est vere credentibus, inquit\nChristus, & exemplo mox sua dicta probat.\nQuum pater exclamat, CREDO; fugit illico Dæmon,\nFilius & poterat salvus abire domum.\nSi tantas vires habet unica vocula CREDO,\nTessera, CREDO, mei cordis & oris erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 19,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
