@@ -2799,5 +2799,64 @@ export const german1768 = {
       "III. Tobias und Sara fingen ihren Ehestand mit dem lieben Gebät an.\nAch! wenn das alle Verlobten thäten, so würde in vielen Häusern mehr Segen, Gedeyen und Vergnügen seyn."
     ],
     "reflection": "Tobias kriegt ein Weib / das hat ein schön Vermögen /\nHingegen Sara kriegt auch einen frommen Mann!\nDemnach ist Gottesfurcht dem Reichthum nicht entgegen.\nMan trifft auch Haab und Gut bey frommen Leuten an.\nWohlan ich will vor mich auf diß Exempel trauen /\nUnd auch auf Gottesfurcht mein ganzes Glücke bauen."
+  },
+  "51": {
+    "pages": [
+      304,
+      307,
+      308,
+      309,
+      310
+    ],
+    "printed": "180–184",
+    "latin": "Tobias cœcus non spe desertus ab omni est.\nConsilio præsto est auxilioque Deus,\nIpsi non opus est medicus, qui lumina reddat:\nRestituit visum filius ipse patri.\nFilius o felix! o fausto sidere natus!\nCui datur has grates reddere posse patri.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 30,
+      "teachings": 3
+    },
+    "editorial_note": "The second moral teaching is printed III; restored to II.",
+    "title": "Von des jungen Tobiä Wiederkunfft.",
+    "reference": "Tob. X. XI. XII. XIII. und XIV. Capitel.",
+    "narrative": "1. Der alte Tobias wartete unterdessen mit grossem Verlangen auf die Wiederkunfft seines Sohnes. 2. Und wie er zu bestimmter Zeit nicht kam, so fing er an zu sorgen, ob etwan sein Schuldner Gabel möchte gestorben seyn. 3. Die Mutter machte es noch ärger, und wolte sich gar nicht trösten lassen; 4. sondern sie lief alle Tage hinaus auf die Strassen, da er herkommen solte, ob sie ihn etwan von weiten sehen möchte. 5. Wie sie nun am Wege saß, so kam das Hündlein voran gelauffen, welches ihr Sohn mit auf die Reise genommen hatte, das wedelte mit dem Schwanze, sprang und stellte sich frölich. 6. Und drauf kam erstlich der Sohn, und der Engel mit einander. 7. Der blinde Vater wolte dem Sohne entgegen gehen, stieß sich aber auf dem Wege, und muste sich von einem Knechte führen lassen. 8. Wie nun der Sohn in das Haus getreten war, so küßten sie einander, und weinten allerseits vor Freuden. 9. Da sie ein wenig beysammen gesessen hatten, so zog der junge Tobias die Galle vom Fische hervor, und salbte dem Vater die Augen damit. 10. Wie er solches ohngefehr eine halbe Stunde gelitten hatte, so gieng ihm der Staar von den Augen, wie ein Häutlein von einem Ey, und ward wieder sehend. 11. Vor diese Güte dankte GOtt dem HErrn, nicht nur Tobias und die Seinigen, sondern auch alle, die es hörten. 12. Sieben Tage darnach kam auch die junge Frau, und brachte einen grossen Seegen GOttes mit. 13. Da kamen alle seine Verwandten zu ihm, und legten ihren Glücks-Wunsch ab. 14. Sie blieben auch sieben Tage beysammen, und assen und trunken mit einander in Fröhligkeit. 15. Der alte Tobias überlegte hierauf mit seinem Sohne, was sie doch nunmehr dem Reise-Gefährten vor seine Mühe geben solten? 16. Der Sohn erzehlte dem Vater, wie viel Guts ihm dieser Mann unterwegens erwiesen hätte, und gab den Rath, man solte ihm die Helfte seiner Güter anbieten, die er mit sich gebracht hätte. 17. Der Engel aber wolte nichts annehmen, sondern sagte: Sie solten nur GOtt den HErrn dafür loben und preisen. 18. Endlich gab er sich zu erkennen, und sagte: Ich bin Raphael, einer von den sieben Engeln, die vor dem HErrn stehen. 19. Wie sie das hörten, so erschracken sie, und fielen auf ihre Angesichter nieder. 20. Der Engel aber sprach zu ihnen: Fürchtet euch nicht, denn GOtt hat es so haben wollen. 21. Zum Abzuge sagte der Engel diesen Spruch zu dem alten Tobia: Weil du GOtt lieb warest, so muste es so seyn, ohne Anfechtung mustest du nicht bleiben, auf daß du bewähret würdest. 22. Hierauf verschwand der Engel vor ihren Augen, und ward weiter nicht gesehen. 23. Sie fielen darauf drey Stunden nieder, und dankten GOtt, und verkündigten seine Wunder. 24. Nach diesem lebte der alte Tobias noch zwey und vierzig Jahr, 25. und wie er starb so befahl er seinem Sohne noch, daß er von Ninive wegziehen solte. 26. Denn er sagte: Ich sehe, daß die Sünde Ninive mit ihr ein Ende machen wird. 27. Also zog der junge Tobias zu seinen Schwieger-Eltern. 28. Denselben that er alles Gutes bis an ihren Tod, und wie sie sturben, so drückte er ihnen noch die Augen zu. 29. Er erbte hierauf alles, was Raguel hinterlassen hatte. 30. Er sahe Kinder und Kindes-Kinder, und sein Geschlecht blieb in einem heiligen Leben und Wandel, und waren angenehm bey GOtt im Himmel, und bey den Leuten, die im Lande wohneten.",
+    "questions": [
+      "Was machte der alte Tobias zu Hause?",
+      "Worinnen bestunden seine Sorgen?",
+      "Wie führte sich denn die Mutter auf?",
+      "Wo gieng die gute Frau täglich hin?",
+      "Welches war denn der Vorbote?",
+      "Wer folgte gleich darauf?",
+      "Was begegnete dem Vater?",
+      "Wie empfiengen sie einander?",
+      "Was nahm der junge Tobias mit dem Vater vor?",
+      "Wie lief die Cur ab?",
+      "Wer dankte denn GOtt davor?",
+      "Wenn kam die junge Frau nach?",
+      "Wie führten sich denn die Anverwandten auf?",
+      "Wie lange blieben sie beysammen?",
+      "Was überlegte Tobias mit seinem Sohne?",
+      "Was brachte der Sohn in Vorschlag?",
+      "Was sagte der Engel darzu?",
+      "Gab sich der Engel nicht endlich zu erkennen?",
+      "Wie war den Leuten darbey zu muthe?",
+      "Wie redte ihnen der Engel zu?",
+      "Was sagte der Engel vor einen schönen Spruch zum alten Tobia?",
+      "Wo blieb der Engel auf die letzt?",
+      "Was thaten die guten Leute?",
+      "Wie lange lebte Tobias noch?",
+      "Was befahl er seinem Sohne noch vor dem Ende?",
+      "Warum solten sie nicht zu Ninive bleiben?",
+      "Wo zog der junge Tobias hin?",
+      "Wie ging er mit seinen Schwieger-Eltern um?",
+      "Was erbte Tobias von seinen Schwieger-Eltern?",
+      "Wie gings seinen Nachkommen?"
+    ],
+    "teachings": [
+      "I. Wie der junge Tobias glücklich wiederkommen war, so dankten seine Anverwandten erstlich GOtt; und darnach waren sie frölich mit einander.\nSo muß es auch seyn: Mit guten Freunden mag man wohl essen; aber man muß GOttes des HErrn darbey nicht vergessen.",
+      "II. Tobias wolte dem Engel, der seinen Sohn so wohl in acht genommen hatte, die Helfte von dem mitgebrachten Heyraths-Gute geben.\nGetreue Lehrmeister sind solche Schutz-Engel der Kinder; aber sie werden gar offte mit Undanke belohnet.",
+      "III. Der Engel sagte beym Abschiede zum alten Tobia: weil du GOTT lieb warest, so muste es so seyn, ohne Anfechtung mustest du nicht bleiben.\nAch freylich ist das liebe Creutz nichts anders als eine väterliche Ruthe, die sollen alle Kinder küssen, und darbey ausruffen: Ach du liebe Ruthe! was thust du mir zu gute!"
+    ],
+    "reflection": "Ein blinder Mann ist wohl der ärmste Mann auf Erden!\nTobiä gieng es so; doch half ihm GOTT davon.\nWer aber muste denn an ihm zum Doctor werden?\nHört mit Verwunderung! Es war sein eigner Sohn.\nO selig ist ein Kind in dieser Welt zu preisen /\nDas solche Dankbarkeit den Eltern kan erweisen."
   }
 };

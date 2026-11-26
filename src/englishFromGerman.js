@@ -2856,5 +2856,65 @@ export const englishFromGerman = {
       "III. Tobias and Sarah began their married state with dear prayer.\nAh! If all betrothed couples did this, there would be more blessing, prosperity and contentment in many houses."
     ],
     "reflection": "Tobias receives a wife who has a fine fortune;\nSarah in turn receives a godly husband!\nThus the fear of God is not opposed to riches.\nOne finds possessions and goods among godly people too.\nWell then, for my part I will trust this example,\nAnd build my entire happiness upon the fear of God."
+  },
+  "51": {
+    "pages": [
+      304,
+      307,
+      308,
+      309,
+      310
+    ],
+    "printed": "180–184",
+    "latin": "Tobias cœcus non spe desertus ab omni est.\nConsilio præsto est auxilioque Deus,\nIpsi non opus est medicus, qui lumina reddat:\nRestituit visum filius ipse patri.\nFilius o felix! o fausto sidere natus!\nCui datur has grates reddere posse patri.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 30,
+      "teachings": 3
+    },
+    "editorial_note": "The second moral teaching is printed III; restored to II.",
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Return of the Young Tobias.",
+    "reference": "Tobit, chapters X, XI, XII, XIII and XIV.",
+    "narrative": "1. Meanwhile the elder Tobias waited with great longing for the return of his son. 2. And when he did not come at the appointed time, he began to worry whether his debtor Gabel might perhaps have died. 3. The mother behaved still worse and would not be comforted at all; 4. instead she ran out every day onto the roads by which he was to come, to see whether she might catch sight of him from afar. 5. Now as she sat by the road, the little dog which her son had taken on the journey came running ahead; it wagged its tail, leapt, and showed itself cheerful. 6. And immediately afterwards came the son and the angel together. 7. The blind father wished to go to meet his son, but stumbled on the way and had to let a servant lead him. 8. When the son had entered the house, they kissed one another and all wept for joy. 9. After they had sat together a little while, the young Tobias drew forth the gall of the fish and anointed his father's eyes with it. 10. When he had endured this for about half an hour, the cataract came off his eyes like a little skin from an egg, and he could see again. 11. For this goodness not only Tobias and his family thanked the Lord God, but also all who heard of it. 12. Seven days later the young wife also came, bringing a great blessing of God with her. 13. Then all his relatives came to him and offered their congratulations. 14. They also remained together seven days and ate and drank together in gladness. 15. The elder Tobias then considered with his son what they should now give the traveling companion for his trouble. 16. The son related to his father how much good this man had done him on the way and advised that they offer him half of the goods he had brought with him. 17. But the angel would accept nothing, saying that they should only praise and extol the Lord God for it. 18. At last he made himself known and said: I am Raphael, one of the seven angels who stand before the Lord. 19. When they heard this, they were frightened and fell upon their faces. 20. But the angel said to them: Do not be afraid, for God has willed it so. 21. At his departure the angel spoke this saying to the elder Tobias: Because you were dear to God, it had to be so; you could not remain without trial, so that you might be proved. 22. Thereupon the angel vanished before their eyes and was seen no more. 23. They then fell down for three hours, thanked God, and proclaimed his wonders. 24. After this the elder Tobias lived another forty-two years, 25. and when he died he further commanded his son to move away from Nineveh. 26. For he said: I see that Nineveh's sin will make an end of her. 27. Thus the young Tobias moved to his parents-in-law. 28. He did them every good thing until their death, and when they died he closed their eyes. 29. He then inherited everything Raguel had left behind. 30. He saw children and grandchildren, and his descendants remained in a holy life and conduct, and were pleasing to God in heaven and to the people who dwelt in the land.",
+    "questions": [
+      "What did the elder Tobias do at home?",
+      "What did his worries consist in?",
+      "How did the mother conduct herself?",
+      "Where did the good woman go daily?",
+      "Who then was the forerunner?",
+      "Who followed immediately afterwards?",
+      "What happened to the father?",
+      "How did they receive one another?",
+      "What did the young Tobias undertake with his father?",
+      "How did the cure turn out?",
+      "Who thanked God for it?",
+      "When did the young wife arrive afterwards?",
+      "How did the relatives conduct themselves?",
+      "How long did they remain together?",
+      "What did Tobias consider with his son?",
+      "What did the son propose?",
+      "What did the angel say to that?",
+      "Did the angel not finally make himself known?",
+      "How did the people feel at this?",
+      "How did the angel speak to them?",
+      "What beautiful saying did the angel speak to the elder Tobias?",
+      "Where did the angel go at last?",
+      "What did the good people do?",
+      "How much longer did Tobias live?",
+      "What else did he command his son before the end?",
+      "Why were they not to remain at Nineveh?",
+      "Where did the young Tobias move?",
+      "How did he treat his parents-in-law?",
+      "What did Tobias inherit from his parents-in-law?",
+      "How did his descendants fare?"
+    ],
+    "teachings": [
+      "I. When the young Tobias had returned safely, his relatives first thanked God and afterwards rejoiced together.\nSo it must be too: one may indeed eat with good friends, but one must not forget the Lord God in doing so.",
+      "II. Tobias wished to give the angel, who had taken such good care of his son, half of the marriage goods he had brought back.\nFaithful teachers are such guardian angels of children; but they are very often rewarded with ingratitude.",
+      "III. At his departure the angel said to the elder Tobias: Because you were dear to God, it had to be so; you could not remain without trial.\nAh, truly the dear cross is nothing other than a fatherly rod, which all children ought to kiss, crying: Ah, dear rod! What good you do me!"
+    ],
+    "reflection": "A blind man is surely the poorest man on earth!\nSo it was with Tobias; yet God delivered him from it.\nBut who then had to become his doctor?\nHear with wonder! It was his own son.\nOh, blessed is a child to be praised in this world,\nWho can show such gratitude to his parents."
   }
 };
