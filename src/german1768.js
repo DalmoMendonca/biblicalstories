@@ -3075,5 +3075,46 @@ export const german1768 = {
       "III. Was der Name Emanuel vor eine Bedeutung habe.\nNemlich so viel, als GOtt mit uns, das ist, so viel als ein Mittler oder Versöhner zwischen GOtt und den Menschen."
     ],
     "reflection": "Was heißt Emanuel? der Engel soll dirs sagen:\nEs heisse GOtt mit uns! Ach nimm das ja recht ein!\nWenn du das recht verstehst / so darfst du nicht verzagen;\nIst GOtt mit dir / wer kan dir denn zuwider seyn?\nMit GOtt kanst du die Welt: Mit GOtt kanst du die Sünden:\nMit GOtt kanst du den Tod und Teufel überwinden."
+  },
+  "57": {
+    "pages": [
+      334,
+      337,
+      338
+    ],
+    "printed": "198–200",
+    "latin": "Corporis ac animi capit incrementa Johannes,\nEx utero vatem quem vocat ipse Deus.\nSic est, sic pueri non fallunt vota parentum,\nDucit eos manibus si Deus ipse suis.\nO Deus! ex alto sanctas mihi porrige palmas,\nUt duce te pergam, qua decet, ire via.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    },
+    "title": "Von der Geburt Johannis des Täuffers.",
+    "reference": "Luc. I. Capitel.",
+    "narrative": "1. Und Elisabeth kam ihre Zeit, daß sie gebähren solte, 2. und sie gebahr einen Sohn. 3. Und ihre Nachbarn und Gefreundten hörten, daß der HErr grosse Barmherzigkeit an ihr gethan hatte, und freueten sich mit ihr. 4. Am achten Tage aber kamen sie zu beschneiden das Kindlein. 5. Und sie hiessen ihn nach seinem Vater Zacharias. 6. Aber die Mutter des Kindes sagte: Mit nichten, sondern er soll Johannes heissen. 7. Sie sprachen zu ihr: Ist doch niemand in deiner Freundschaft, der also heisse. 8. Damit winkten sie seinem stummen Vater Zacharia, wie er ihn wolte heissen lassen. 9. Derselbe foderte erstlich ein Täflein, und wolte den Namen Johannes darauf schreiben; 10. Denn der Engel hatte ihm ausdrücklich befohlen, daß er Johannes heissen solte. 11. Indem er aber schreiben wolte, so bekam er seine Sprache wieder, und rufte laut: Er heisset Johannes. 12. Darüber verwunderten sich alle, die es hörten, und es kam eine grosse Furcht über alle Nachbarn. 13. Und alle, die es hörten, nahmen es zu Herzen, und sprachen: Was meynest du will aus dem Kindlein werden? 14. Denn die Hand des HErrn war mit ihm. 15. Und sein Vater ward des Heiligen Geistes voll, und machte den schönen Lob-Gesang: Gelobet sey der HErr der GOtt Israel.",
+    "questions": [
+      "Was trug sich mit der alten Elisabeth zu?",
+      "Was brachte sie denn zur Welt?",
+      "Wer freute sich denn mit ihr?",
+      "Wann wurde das Kindlein beschnitten?",
+      "Was gaben sie dem Kindlein vor einen Namen?",
+      "Was sagte die Mutter darzu?",
+      "Was hatten die Leute darwider einzuwenden?",
+      "Wer solte diesen Streit entscheiden?",
+      "Was wolte Zacharias auf ein Täflein schreiben?",
+      "Warum den Namen Johannes?",
+      "Was trug sich vor ein Wunder darbey zu?",
+      "Was sagten die Anwesenden dazu?",
+      "Was prophezeiten die Leute von diesem Kinde?",
+      "Wie ließ sich das Kind an?",
+      "Was sang Zacharias dem HErrn vor einen Lob-Gesang?"
+    ],
+    "teachings": [
+      "I. Wie Elisabeth glücklich war entbunden worden, so freueten sich ihre Nachbarn und Gefreundten darüber\nAlso sollen auch wir uns freuen, wenn es unsern Freunden und Nachbarn wohl gehet.",
+      "II. Das neu-gebohrne Kind bekam den Namen Johannes, der heist so viel, als gnadenreich.\nSollen auch Christen ihren Kindern solche Namen beylegen lassen, die etwas bedeuten, und darbey sich die Kinder, wenn sie zum Verstande kommen, etwas Gutes erinnern können.",
+      "III. Bey der Geburt Johannis ward der HErr gelobet und gepreiset, daß er solche Barmherzigkeit an Mutter und Kinder gethan hatte.\nAlso sollen auch die Christen bey ihren Kind-Tauffen nicht auf Pracht und Wohlleben, sondern zuvörderst auf das Lob GOttes bedacht seyn."
+    ],
+    "reflection": "Das Kind Johannis wuchs / und wurde stark im Geiste /\nDie Hand des HErren war in allem / was er that.\nAch ja darauf beruht beym Kinderziehn das meiste /\nOb sie der liebe GOtt in seinen Händen hat.\nGOtt / reiche mir doch auch die Hand aus deiner Höhe /\nDamit ich als ein Kind den Weg zur Tugend gehe."
   }
 };

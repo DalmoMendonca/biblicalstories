@@ -3138,5 +3138,47 @@ export const englishFromGerman = {
       "III. What significance the name Emmanuel has.\nNamely, God with us; that is, a mediator or reconciler between God and mankind."
     ],
     "reflection": "What does Emmanuel mean? The angel shall tell thee:\nIt means God with us! Ah, take that truly to heart!\nIf thou understandest this aright, thou needest not despair;\nIf God is with thee, who then can be against thee?\nWith God thou canst overcome the world; with God, thy sins;\nWith God thou canst overcome death and the devil."
+  },
+  "57": {
+    "pages": [
+      334,
+      337,
+      338
+    ],
+    "printed": "198–200",
+    "latin": "Corporis ac animi capit incrementa Johannes,\nEx utero vatem quem vocat ipse Deus.\nSic est, sic pueri non fallunt vota parentum,\nDucit eos manibus si Deus ipse suis.\nO Deus! ex alto sanctas mihi porrige palmas,\nUt duce te pergam, qua decet, ire via.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    },
+    "title": "Of the Birth of John the Baptist.",
+    "reference": "Luke, chapter 1.",
+    "narrative": "1. And Elizabeth's time came that she should give birth, 2. and she bore a son. 3. Her neighbors and relatives heard that the Lord had shown her great mercy, and rejoiced with her. 4. On the eighth day they came to circumcise the infant. 5. And they called him after his father Zacharias. 6. But the child's mother said: Not so; he shall be called John. 7. They said to her: There is none among thy kindred who is so called. 8. Then they made signs to his mute father Zacharias, asking what he would have him called. 9. He first requested a tablet and intended to write the name John upon it; 10. for the angel had expressly commanded him that he should be called John. 11. But as he was about to write, he regained his speech and cried aloud: His name is John. 12. All who heard it marveled, and great fear came upon all the neighbors. 13. And all who heard it laid it to heart and said: What thinkest thou this infant will become? 14. For the hand of the Lord was with him. 15. And his father was filled with the Holy Spirit and composed the beautiful song of praise: Blessed be the Lord God of Israel.",
+    "questions": [
+      "What happened to the aged Elizabeth?",
+      "What then did she bring into the world?",
+      "Who rejoiced with her?",
+      "When was the infant circumcised?",
+      "What name did they give the infant?",
+      "What did the mother say to this?",
+      "What objection did the people make?",
+      "Who was to settle this dispute?",
+      "What did Zacharias intend to write on a tablet?",
+      "Why the name John?",
+      "What miracle occurred at that time?",
+      "What did those present say to this?",
+      "What did the people prophesy concerning this child?",
+      "What promise did the child show?",
+      "What song of praise did Zacharias sing to the Lord?"
+    ],
+    "teachings": [
+      "I. When Elizabeth had safely given birth, her neighbors and relatives rejoiced over it.\nThus we too should rejoice when our friends and neighbors prosper.",
+      "II. The newborn child received the name John, which means as much as rich in grace.\nChristians likewise ought to have such names given to their children as signify something, and by which the children, when they come to understanding, may remember something good.",
+      "III. At John's birth the Lord was praised and glorified for having shown such mercy to mother and children.\nThus Christians at the baptism of their children should be concerned not with pomp and luxurious living, but above all with the praise of God."
+    ],
+    "reflection": "The child John grew and became strong in spirit;\nThe hand of the Lord was in all that he did.\nAh yes, on this most depends in rearing children:\nWhether our dear God holds them in his hands.\nO God, extend thy hand to me also from on high,\nThat as a child I may walk the path of virtue.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };
