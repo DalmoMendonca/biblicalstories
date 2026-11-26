@@ -4355,5 +4355,42 @@ export const german1768 = {
       "questions": 7,
       "teachings": 3
     }
+  },
+  "87": {
+    "title": "Vom Zachäo auf dem Maulbeer-Baum.",
+    "reference": "Luc. XIX. Capitel.",
+    "pages": [
+      464,
+      467
+    ],
+    "printed": "268–269",
+    "narrative": "1. Wie JEsus durch die Stadt Jericho zog, so war daselbst ein Mann mit Namen Zachäus, 2. der war ein Oberster der Zöllner, und war reich. 3. Und begehrte JEsum zu sehen, wer er wäre: 4. Konte aber nicht vor dem Volke, denn er war klein von Person. 5. Und er lief voran, und stieg auf einen Maulber-Baum, auf daß er ihn sähe, weil er da durchkommen solte. 6. Als nun JEsus an dieselbe Stätte kam, sahe er auf und ward sein gewahr, und sprach zu ihm: 7. Zachäe, steig eilend hernieder, denn ich muß heute zu deinem Hause einkehren. 8. Und er stieg eilend hernieder, und nahm ihn auf mit Freuden. 9. Da sie das sahen, murreten sie alle, daß er bey einem Sünder einkehrte. 10. Zachäus aber trat zum HErrn, und sprach: Siehe, HErr, die Helfte meiner Güter gebe ich den Armen, und so ich jemand betrogen habe, das gebe ich vierfältig wieder. 11. JEsus aber sprach zu ihm: Heute ist diesem Hause Heil wiederfahren: sintemal er auch Abrahams Sohn ist. 12. Denn des Menschen Sohn ist kommen zu suchen, und selig zu machen, das verlohren ist.",
+    "questions": [
+      "Was war vor ein Mann zu Jericho?",
+      "Was war sein Thun?",
+      "Was war sein Verlangen?",
+      "Was hinderte ihn daran?",
+      "Wie fieng er die Sache an?",
+      "Ward JEsus solches inne?",
+      "Wie sagte JEsus zu Zachäo auf dem Baume?",
+      "Was that Zachäus?",
+      "Was urtheilten die Leute davon?",
+      "Womit bezeigte Zachäus seine Busse?",
+      "Was sagte Christus von seinem Hause?",
+      "Was aber von des Menschen Sohne?"
+    ],
+    "teachings": [
+      "I. Zachäus stieg auf einen Maulbeer-Baum, damit er nur Christum konnte zu sehen kriegen.\nUnd viele, die sich vor Christen ausgeben, gehen dem HErrn Christo zu Ehren nicht einmal gerne aus ihrem Hause, bis zur Kirche.",
+      "II. Zachäus war ein reicher Mann, und Christus ließ doch seinem Hause Heil wiederfahren.\nDa siehet man, daß auch reiche Leute können selig werden, wenn sie wollen, ob sie gleich insgemein mehr Verhinderung haben, als die Armen.",
+      "III. Zachäus sagte, er wolte das gestohlne Gut vierfältig wieder geben.\nDaraus kan man sehen, daß ihm seine begangene Sünden recht herzlich leid müssen gewesen seyn, welches allemal der Anfang zu einer wahren Bekehrung ist."
+    ],
+    "reflection": "Zachäus war ein Mann / bekannt durch seine Sünden /\nUnd Christus kehrte doch in seine Wohnung ein!\nDarüber murrt das Volk / und kann sich nicht drein finden;\nDa doch Messias soll der Sünder Heiland seyn.\nGOtt lob! daß JEsus hat die Sünder angenommen /\nDenn also hoff ich auch / daß er zu mir wird kommen.",
+    "latin": "Zachæum alloquitur peccatis insimulatum,\nEjus nec dubitat CHRISTUS inire domum.\nImprobat hoc populus, quasi non venisset in orbem\nChristus, peccator salvus ut esse queat:\nZachæi exemplum mea consolatio magna est,\nIntrabis nostras sic quoque, CHRISTE, casas.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    }
   }
 };

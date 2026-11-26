@@ -4435,5 +4435,38 @@ export const englishFromGerman = {
       "questions": 7,
       "teachings": 3
     }
+  },
+  "87": {
+    "title": "On Zacchaeus in the Mulberry Tree",
+    "reference": "Luke, chapter XIX.",
+    "narrative": "1. As Jesus passed through the city of Jericho, there was a man there named Zacchaeus, 2. who was a chief of the tax collectors and was rich. 3. And he desired to see Jesus, who he was; 4. but could not because of the crowd, for he was small in stature. 5. And he ran ahead and climbed a mulberry tree that he might see him, because he was to pass that way. 6. Now when Jesus came to that place, he looked up and noticed him, and said to him: 7. Zacchaeus, come down quickly, for today I must lodge at your house. 8. And he came down quickly and received him with joy. 9. When they saw this, they all murmured that he had lodged with a sinner. 10. But Zacchaeus came to the Lord and said: Behold, Lord, half my possessions I give to the poor, and if I have defrauded anyone, I give it back fourfold. 11. But Jesus said to him: Today salvation has come to this house, since he too is a son of Abraham. 12. For the Son of Man has come to seek and to save that which is lost.",
+    "questions": [
+      "What man was in Jericho?",
+      "What was his occupation?",
+      "What was his desire?",
+      "What hindered him in this?",
+      "How did he go about it?",
+      "Did Jesus become aware of this?",
+      "What did Jesus say to Zacchaeus in the tree?",
+      "What did Zacchaeus do?",
+      "What did the people think of this?",
+      "How did Zacchaeus demonstrate his repentance?",
+      "What did Christ say of his house?",
+      "But what of the Son of Man?"
+    ],
+    "teachings": [
+      "I. Zacchaeus climbed a mulberry tree merely so that he might get to see Christ.\nAnd many who profess to be Christians do not even willingly go from their house to church in honor of the Lord Christ.",
+      "II. Zacchaeus was a rich man, and yet Christ caused salvation to come to his house.\nHere one sees that rich people too can be saved if they will, although they generally have more obstacles than the poor.",
+      "III. Zacchaeus said that he would give back the stolen goods fourfold.\nFrom this one can see that he must have been heartily sorry for the sins he had committed, which is always the beginning of true conversion."
+    ],
+    "reflection": "Zacchaeus was a man known for his sins,\nAnd yet Christ entered his dwelling!\nThe people murmur at this and cannot reconcile themselves to it;\nYet the Messiah is to be the Savior of sinners.\nPraise God that Jesus has received sinners,\nFor thus I too hope that he will come to me.",
+    "latin": "Zachæum alloquitur peccatis insimulatum,\nEjus nec dubitat CHRISTUS inire domum.\nImprobat hoc populus, quasi non venisset in orbem\nChristus, peccator salvus ut esse queat:\nZachæi exemplum mea consolatio magna est,\nIntrabis nostras sic quoque, CHRISTE, casas.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    }
   }
 };
