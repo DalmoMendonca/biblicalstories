@@ -4889,5 +4889,57 @@ export const englishFromGerman = {
       "questions": 37,
       "teachings": 3
     }
+  },
+  "96": {
+    "title": "On Peter's Denial",
+    "reference": "Matthew XXVI; Mark XIV; Luke XXXII (printed; XXII intended); John XVIII",
+    "pages": [
+      509,
+      510,
+      511,
+      512
+    ],
+    "printed": "293–296",
+    "narrative": "1. After supper Jesus said to his disciples: This night you will all take offense at me. 2. Simon Peter answered: Even if they all take offense at you, I would nevertheless not take offense. 3. Then Jesus said especially to Peter: Simon! Satan has desired you all, but I have prayed for you, that your faith may not cease. 4. But Peter said in reply: Lord, I am ready to go with you into prison and into death. 5. Jesus said again to Peter: Truly I tell you, today in this night, before the cock crows twice, you will deny me three times. 6. Peter then became still more presumptuous and said: Yes, even if I had to die with you, I would not deny you. 7. All the other disciples said likewise. 8. But when Judas had betrayed the Lord Christ, all the disciples forsook him and fled. 9. Peter, however, followed the Lord Jesus from afar right into the high priest's palace. 10. In that palace the servants and attendants had made a charcoal fire and were warming themselves. 11. Peter also came to this fire and warmed himself, so that he might see how it would end. 12. Soon afterwards the doorkeeper said to him: Are you not also one of this man's disciples? 13. But Peter said: I do not know him, nor do I know what you are saying. 14. And he went out into the courtyard, and the cock crowed for the first time. 15. Not long afterwards another maid came after the first and said: This man too was with Jesus of Nazareth. 16. But Peter denied it again and swore besides: I do not know the man. 17. About an hour afterwards the people said to him: Truly, you are one of them, for your speech betrays you. 18. And a relative of the man whose ear Peter had cut off said to his face: Did I not see you in the garden with him? 19. Then Peter began to curse himself and swear: I do not know the man of whom you speak. 20. While he was still speaking, the cock crowed a second time. 21. And the Lord Jesus turned around and looked at Peter. 22. Then Peter remembered the word Jesus had spoken to him: Before the cock crows twice, you will deny me three times. 23. And Peter went out and wept bitterly.",
+    "questions": [
+      "What did Jesus say to his disciples after supper?",
+      "What presumptuous answer did Peter give him?",
+      "How did Jesus warn Peter in particular?",
+      "What did Peter say in reply?",
+      "But what did Jesus prophesy to good Peter?",
+      "What firm resolution did Peter then make?",
+      "What did the other disciples say?",
+      "But did the disciples keep their word when Jesus had been betrayed?",
+      "Did Peter also take to flight?",
+      "What was to be seen in the high priest's palace?",
+      "What did Peter do by the fire?",
+      "What did the doorkeeper say to Peter?",
+      "What answer did Peter give her?",
+      "What happened when Peter went out into the courtyard after this first denial?",
+      "What did another maid say soon afterwards?",
+      "Did Peter now acknowledge Jesus?",
+      "What did all the people finally say to Peter?",
+      "What in particular did the relative of the man whose ear Peter had cut off say?",
+      "How did Peter conduct himself in this third temptation?",
+      "What happened after this third denial?",
+      "Who looked at Peter at that very moment?",
+      "What did Peter remember when the Lord looked at him?",
+      "What did Peter do when he came to recognize his grievous sins?"
+    ],
+    "teachings": [
+      "I. Presumption is folly.\nPeter experienced this, who wished to go into death with Christ, and afterwards feared a maid so greatly that on her account he denied Christ.",
+      "II. The servants of God are in great danger.\nFor just as the devil lay in wait for the apostle Peter, so even today he seeks to bring all successors of the apostles to a fall.",
+      "III. Christians should diligently pray for one another.\nJesus himself has gone before them with his example and prayed for Peter that his faith might not cease."
+    ],
+    "reflection": "Saint Peter had scarcely committed the grievous fall,\nWhen he went straight out and wept bitterly:\nOh, should Satan ever catch me in such a way,\n(From that may God graciously preserve me!)\nThen I will immediately grieve from my heart,\nAnd will not put off my repentance.",
+    "latin": "Lapsum CHRISTE! Petrum quamprimum respiciebas.\nUberibus lacrymis protinus ora madent.\nSi me, quod vereor! similis deceperit error,\nNon ego commissum dissimulabo scelus:\nQuin imitaturus deflentem crimina Petrum,\nCulpam contrito corde dolebo statim.",
+    "kind": "new-translation-from-transcribed-german",
+    "editorial_notes": "Question 19 printed 18 on page 295; corrected. Heading prints Luke XXXII; marginal citations indicate Luke XXII. Repeated sich in narrative 2 retained.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    }
   }
 };

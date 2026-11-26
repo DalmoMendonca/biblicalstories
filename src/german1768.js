@@ -4787,5 +4787,56 @@ export const german1768 = {
       "questions": 37,
       "teachings": 3
     }
+  },
+  "96": {
+    "title": "Von der Verleugnung Petri.",
+    "reference": "Matth. XXVI. Marc. XIV. Luc. XXXII. Joh. XVIII. Capitel.",
+    "pages": [
+      509,
+      510,
+      511,
+      512
+    ],
+    "printed": "293–296",
+    "narrative": "1. Nach dem Abendmahl sagte JEsus zu seinen Jüngern: In dieser Nacht werdet ihr euch alle an mir ärgern. 2. Simon Petrus gab zur Antwort: Wenn sie sich auch alle an dir sich ärgerten, so wolte ich mich doch nicht ärgern. 3. Da sagte JEsus insonderheit zu Petro: Simon! der Satan hat euer begehret, ich aber habe für dich gebeten, daß dein Glaube nicht aufhöre. 4. Petrus aber sagte darauf: HErr ich bin bereit mit dir ins Gefängniß und in den Tod zu gehen. 5. JEsus sprach nochmals zu Petro: Warlich, ich sage dir, heute in dieser Nacht, ehe denn der Hahn zweymal krehet, wirst du mich dreymal verleugnen. 6. Darauf ward Petrus noch vermessener und sagte: Ja, wenn ich auch mit dir sterben müste, wolte ich dich nicht verleugnen. 7. Desselben gleichen sagten auch alle die andern Jünger. 8. Aber als Judas den HErrn Christum verrathen hatte, da verliessen ihn alle Jünger und flohen. 9. Petrus aber folgte dem HErrn JEsu von ferne bis hinein in des Hohenpriesters Pallast. 10. In demselben Pallaste hatten die Knechte und Diener ein Kohl-Feuer gemacht, und wärmten sich. 11. Zu diesem Feuer trat Petrus auch, und wärmte sich, auf daß er sehe, wo es hinaus wolte. 12. Bald darauf sagte die Thür-Hüterin zu ihm: Bist du nicht auch dieses Menschen Jünger einer? 13. Petrus aber sprach: Ich kenne ihn nicht, weiß auch nicht, was du sagest. 14. Und er gieng hinaus in den Vorhof, und der Hahn krehete zum ersten mal. 15. Nicht lange darnach kam eine Magd nach der andern, und sagte: Dieser war auch mit dem JEsu von Nazareth. 16. Petrus aber leugnete abermal, und schwur darzu: Ich kenne des Menschen nicht. 17. Etwan eine Stunde darnach sagten die Leute zu ihm: Warlich, du bist einer von denen, denn deine Sprache verräth dich. 18. Und ein Gefreundter des, dem Petrus das Ohr abgehauen hatte, sagte ihm ins Gesichte: Sahe ich dich nicht im Garten bey ihm? 19. Da hub Petrus an, sich zu verfluchen und zu schwören; ich kenne des Menschen nicht, von dem ihr saget. 20. Da er noch redete, krehete der Hahn zum andern male. 21. Und der HErr JEsus wandte sich um, und sahe Petrum an. 22. Da gedachte Petrus an das Wort, das JEsus zu ihm gesaget hatte: Ehe der Hahn zweymal krehet, wirst du mich dreymal verleugnen. 23. Und Petrus gieng hinaus, und weinte bitterlich.",
+    "questions": [
+      "Was sagte JEsus nach dem Abendmahle zu seinen Jüngern?",
+      "Was gab denn Petrus vor eine vermessene Antwort darauf?",
+      "Wie warnete JEsus Petrum insonderheit?",
+      "Was sagte Petrus darauf?",
+      "Aber was prophezeyte JEsus dem guten Petro?",
+      "Was faßte sich Petrus darauf vor einen festen Vorsatz?",
+      "Was sagten die andern Jünger darzu?",
+      "Aber hielten die Jünger auch ihr Wort, wie JEsus nunmehr verrathen war?",
+      "Begab sich denn Petrus auch mit auf die Flucht?",
+      "Was war denn im Pallaste des Hohenpriesters zu sehen?",
+      "Was machte Petrus bey dem Feuer?",
+      "Was sagte denn die Thür-Hüterin zu Petro?",
+      "Was gab ihr Petrus zur Antwort?",
+      "Was trug sich denn zu, wie Petrus nach dieser ersten Verleugnung hinaus in den Vorhof gieng?",
+      "Was sagte bald darauf eine andere Magd?",
+      "Bekannte sich denn Petrus nunmehr zu JEsu?",
+      "Was sagten endlich alle Leute zu Petro?",
+      "Was sagte insonderheit der Gefreundte deß, dem Petrus das Ohr abgehauen hatte?",
+      "Wie hielt sich denn Petrus in dieser dritten Versuchung?",
+      "Was trug sich nach dieser dritten Verleugnung zu?",
+      "Wer sahe denn eben damals Petrum an?",
+      "Woran gedachte Petrus, als ihn der HErr ansahe?",
+      "Was that Petrus, als er zum Erkenntniß seiner schweren Sünden kam?"
+    ],
+    "teachings": [
+      "I. Vermessenheit ist Thorheit.\nDas erfuhr Petrus, der wolte mit Christo in den Tod gehen, und furchte sich darnach vor einer Magd so sehr, daß er Christum darüber verleugnete.",
+      "II. Die Diener GOttes sind in grosser Gefahr.\nDenn wie der Teufel dem Apostel Petro nachgestellet hat, also suchet er auch noch heutiges Tages alle Nachfolger der Apostel zu Falle zu bringen.",
+      "III. Die Christen sollen fleißig vor einander beten.\nIst ihnen doch JEsus mit seinem Exempel vorgegangen, und hat vor Petrum gebeten, daß sein Glaube nicht aufhören möchte."
+    ],
+    "reflection": "Sanct Petrus hatte kaum den schweren Fall begangen /\nSo gieng er gleich hinaus / und weinte bitterlich:\nAch! solte mich einmal der Satan auch so fangen /\n(Davor behüte mich zwar GOtt genädiglich!)\nSo will ich alsobald von Herzen mich betrüben,\nUnd auf die lange Bank nicht meine Busse schieben.",
+    "latin": "Lapsum CHRISTE! Petrum quamprimum respiciebas.\nUberibus lacrymis protinus ora madent.\nSi me, quod vereor! similis deceperit error,\nNon ego commissum dissimulabo scelus:\nQuin imitaturus deflentem crimina Petrum,\nCulpam contrito corde dolebo statim.",
+    "editorial_notes": "Question 19 printed 18 on page 295; corrected. Heading prints Luke XXXII; marginal citations indicate Luke XXII. Repeated sich in narrative 2 retained.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    }
   }
 };
