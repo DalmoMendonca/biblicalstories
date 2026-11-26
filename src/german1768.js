@@ -3198,5 +3198,33 @@ export const german1768 = {
       "III. Wie die Hirten nach Bethlehem kamen, so sahen sie das neu-gebohrne JEsus-Kindlein.\nDas ist ja wohl der allerlieblichste Anblick auf der Welt gewesen."
     ],
     "reflection": "Den Hirten wird die Post von Christo erst erzehlet:\nWarum Augusto nicht? warum Herodi nicht?\nDer Engel hat vielleicht den rechten Ort verfehlet?\nAch nein! GOtt hat sein Reich ganz anders eingericht:\nWas klug ist vor der Welt / das muß zurücke stehen;\nWas aber thöricht ist / das pflegt voran zu gehen."
+  },
+  "60": {
+    "pages": [
+      349,
+      350
+    ],
+    "printed": "205–206",
+    "latin": "JESUS Salvator mundi est idiomate Græco,\nQuod, quæso! nomen dulcius esse potest!\nJure vocatus est, proprio qui sanguine fuso\nDebebat populum salvificare suum,\nHoc erit infixum, dum vivam, in pectore nomen:\nCum moriar, repetam nomen id ore meo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 3,
+      "teachings": 3
+    },
+    "title": "Von der Beschneidung Christi.",
+    "reference": "Luc. II. Capitel.",
+    "narrative": "1. Und da acht Tage um waren, daß das Kind beschnitten würde, 2. da ward sein Name genennet JEsus, 3. welcher genennet war von dem Engel, ehe denn er im Mutter-Leibe empfangen war.",
+    "questions": [
+      "Wenn wurde das Kindlein JEsus beschnitten?",
+      "Was ward ihm bey der Beschneidung vor ein Name gegeben?",
+      "Warum wurde diesem Kinde der Name JEsus gegeben?"
+    ],
+    "teachings": [
+      "I. Das Kindlein hat sich nach dem Gesetze beschneiden lassen.\nDas sind die ersten Bluts-Tropffen gewesen, die JEsus vor uns vergossen hat. Denn vor sich selbst hatte das Kind-JEsus die Beschneidung nicht nöthig; weil es gar nicht, wie andere Kinder, in Sünden war empfangen und gebohren worden.",
+      "II. JEsus ward in der Kindheit am achten Tage beschnitten.\nDas hatte GOtt im Alten Testamente so verordnet, und deswegen thun auch die Christen recht, daß sie ihre Kindlein alsobald nach ihrer leiblichen Geburt tauffen lassen.",
+      "III. Der Name des neu-gebohrnen Sohnes GOttes ward JEsus genannt.\nDiesen theuren Namen haben die gottseligen Alten den Kindern in nachfolgenden Zeilen erkläret:\nIn Einem Stehet Unsere Seligkeit?\nSolche Unsere Seligkeit Erwirbet JEsus."
+    ],
+    "reflection": "Kein Name ist so schön / als meines JESU Namen /\nWeil er auf Teutsch so viel als Seligmacher heist:\nEs ist auch dieses Kind der rechte Weibes-Saamen /\nDer uns allein den Weg zum ewgen Leben weist.\nDen Namen will ich mir tief in mein Herze graben /\nUnd in der letzten Noth in meinem Munde haben."
   }
 };

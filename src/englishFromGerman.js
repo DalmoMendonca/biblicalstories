@@ -3264,5 +3264,34 @@ export const englishFromGerman = {
     ],
     "reflection": "The shepherds are first told the tidings of Christ:\nWhy not Augustus? Why not Herod?\nHas the angel perhaps missed the proper place?\nAh no! God has ordered his kingdom quite differently:\nWhat is wise before the world must stand behind;\nBut what is foolish is wont to go before.",
     "kind": "new-translation-from-transcribed-german"
+  },
+  "60": {
+    "pages": [
+      349,
+      350
+    ],
+    "printed": "205–206",
+    "latin": "JESUS Salvator mundi est idiomate Græco,\nQuod, quæso! nomen dulcius esse potest!\nJure vocatus est, proprio qui sanguine fuso\nDebebat populum salvificare suum,\nHoc erit infixum, dum vivam, in pectore nomen:\nCum moriar, repetam nomen id ore meo.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 3,
+      "teachings": 3
+    },
+    "title": "Of the Circumcision of Christ.",
+    "reference": "Luke, chapter 2.",
+    "narrative": "1. And when eight days were fulfilled for the circumcision of the child, 2. his name was called Jesus, 3. which had been named by the angel before he was conceived in his mother's womb.",
+    "questions": [
+      "When was the infant Jesus circumcised?",
+      "What name was given him at his circumcision?",
+      "Why was the name Jesus given to this child?"
+    ],
+    "teachings": [
+      "I. The infant submitted to circumcision according to the law.\nThese were the first drops of blood that Jesus shed for us. For the infant Jesus had no need of circumcision for himself, since he had not, like other children, been conceived and born in sins.",
+      "II. Jesus was circumcised in infancy on the eighth day.\nGod had so ordained it in the Old Testament, and therefore Christians also do right in having their infants baptized immediately after their bodily birth.",
+      "III. The name of the newborn Son of God was called Jesus.\nThe godly ancients explained this precious name to children in the following lines:\nIn One stands our salvation?\nSuch salvation of ours Jesus obtains."
+    ],
+    "reflection": "No name is so beautiful as my Jesus' name,\nFor in German it means as much as Savior;\nThis child is also the true seed of the woman,\nWho alone shows us the way to eternal life.\nI will engrave this name deep in my heart,\nAnd have it in my mouth in my final distress.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };
