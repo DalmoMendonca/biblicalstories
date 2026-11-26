@@ -4132,5 +4132,55 @@ export const german1768 = {
       "questions": 19,
       "teachings": 3
     }
+  },
+  "82": {
+    "title": "Von einem Blindgebohrnen.",
+    "reference": "Joh. IX. Capitel.",
+    "pages": [
+      442,
+      445,
+      446
+    ],
+    "printed": "256–258",
+    "narrative": "1. JEsus gieng vorüber, und sahe einen Blindgebohrnen. 2. Da fragten ihn seine Jünger, ob dieser Mensch, oder ob seine Eltern gesündiget hätten, daß er wäre blind gebohren worden? 3. JEsus antwortete: Es hätte weder dieser gesündiget, noch seine Eltern, sondern daß die Werke GOttes offenbar würden an ihm. 4. Bald darauf spützete JEsus auf die Erden, und machte einen Koth aus dem Speichel, und schmierete den Koth auf des Blinden Augen. 5. Und sprach zu ihm: Gehe hin, und wasche dich in dem Teiche Siloha. 6. Wie das der Blinde that, und sich wusch, so ward er sehend. 7. Die Nachbarn sagten: Ist dieser nicht, der da saß und bettelte? 8. Etliche sprachen, er ist es: etliche aber sagten, er ist ihm ähnlich. 9. Er selbst aber sagte: Ich bins. 10. Da führten sie diesen Bettler zu den Pharisäern, denen muste er erzehlen, was ihm begegnet war. 11. Es war aber an einem Sabbathe gewesen, da ihn JEsus geheilet hatte. 12. Da sagten etliche, der HErr JEsus wäre nicht von GOtt, weil er den Sabbath nicht hielte. 13. Die andern aber sagten: Wie kan ein Mensch solche Zeichen thun? 14. Der Blindgewesene sagte vor sich: Der Mann ist ein Prophet. 15. Da rufften die Jüden seine Eltern, und fragten, ob das ihr Sohn wäre? 16. Die Eltern sagten: Wir wissen, daß dieses unser Sohn ist, und daß er blind gebohren ist. 17. Sie fragten weiter, wie er denn wäre sehend worden? 18. Die Eltern sprachen, ihr Sohn wäre alt genug, sie solten ihn nur selber fragen. 19. Das sagten sie aber darum, weil sie sich fürchten, die Jüden möchten sie in den Bann thun. 20. Die Jüden sagten darauf, sie wüsten nicht, von wannen dieser JEsus wäre? 21. Der Blindgewesene aber sprach: Wenn er nicht von GOtt wäre, so könnte er auch die Zeichen nicht thun. 22. Darbey führte der Mann diesen Spruch an: Wir wissen daß GOtt die Sünder nicht höret, sondern so jemand gottesfürchtig ist, und thut seinen Willen, den höret er. 23. Darüber wurden die Jüden böse, und stiessen ihn hinaus.",
+    "questions": [
+      "Wen sahe JEsus im Vorbeygehen?",
+      "Was fragten ihn seine Jünger wegen dieses blindgebohrnen Menschen?",
+      "Was gab JEsus den Jüngern vor Nachricht?",
+      "Womit heilte JEsus diesen blinden Mann?",
+      "Wo hieß er den Blinden hingehen?",
+      "Was half ihm das Waschen?",
+      "Was sagten die Nachbarn?",
+      "Was gabs vor unterschiedene Meynungen?",
+      "Was sagte denn der Blinde darzu?",
+      "Wo führten sie diesen Bettler hin?",
+      "An was vor einem Tage war er sehend worden?",
+      "Was sagten die Pharisäer von JEsu?",
+      "Was sagten andere darzu?",
+      "Aber was sagte der Bettler von JEsu?",
+      "Wen liessen die Jüden ruffen?",
+      "Was gaben die Eltern zur Antwort?",
+      "Was fragten die Jüden weiter?",
+      "Was gaben die Eltern hierauf zur Antwort?",
+      "Warum wolten sie mit der Sprache nicht recht heraus?",
+      "Was urtheilten die Jüden von JEsu?",
+      "Aber was hielt der Bettler von ihm?",
+      "Was sagte der Bettler vor einen schönen Spruch?",
+      "Was bekam er vor einen Abschied?"
+    ],
+    "teachings": [
+      "I. Wir hören, daß einer blind ist gebohren worden.\nO, ein blinder Mann ist ja wohl ein armer Mann! Ach lasset uns GOtt danken, der uns das Gesicht gegeben, und bis auf die Stunde erhalten hat.",
+      "II. Die Jünger meynten, entweder der Bettler oder seine Eltern müsten gesündiget haben; aber Christus entschuldigte sie beyde.\nAlso müssen wir nicht allemal sagen, wenns einem übel gehet: Der Gottlose hat viel Plage; sondern wir müssen auch an den andern Spruch gedenken: Der Gerechte muß viel leiden.",
+      "III. Der Blinde sprach: Wir wissen, daß GOtt die Sünder nicht höret.\nSo lasset uns denn GOtt fürchten, und seinen Willen thun, damit wir uns gewisser Erhörung trösten können."
+    ],
+    "reflection": "Der blindgebohrne Mann wusch sich in einem Teiche /\nDrauf wurden ihm so bald die Augen aufgethan.\nIch bin im Geistlichen dem blinden Manne gleiche;\nWo treff ich denn vor mich ein heilsam Wasser an?\nIch will das rothe Blut aus JEsu Wunden saugen /\nDas wird ein Mittel seyn vor meine blöde Augen.",
+    "latin": "Restituit visum cæco piscina Siloha,\nEius quamprimum lumina tingit aqua.\nCæca est & mea mens in spiritualibus, eheu!\nQuæ facit ut videam, quis mihi monstrat aquam?\nEst quoque, CHRISTE! meis oculis medicina parata,\nQuos aperire tui sanguinis unda potest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    },
+    "editorial_notes": "Final question is misprinted 22 on printed page 258; restored to 23 to match narrative."
   }
 };

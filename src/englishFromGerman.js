@@ -4220,5 +4220,56 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "82": {
+    "title": "Of a Man Born Blind.",
+    "reference": "John IX.",
+    "pages": [
+      442,
+      445,
+      446
+    ],
+    "printed": "256–258",
+    "narrative": "1. Jesus passed by and saw a man born blind. 2. His disciples asked him whether this man or his parents had sinned, that he was born blind. 3. Jesus answered: Neither this man nor his parents had sinned, but that the works of God might be made manifest in him. 4. Soon afterward Jesus spat on the ground, made clay from the spittle and smeared the clay upon the blind man's eyes. 5. And said to him: Go and wash in the pool of Siloha. 6. When the blind man did this and washed himself, he received his sight. 7. The neighbors said: Is this not he who sat and begged? 8. Some said it was he; others said he resembled him. 9. But he himself said: It is I. 10. Then they took this beggar to the Pharisees, to whom he had to relate what had happened to him. 11. It had been on a Sabbath that Jesus healed him. 12. Some said the Lord Jesus was not from God, because he did not keep the Sabbath. 13. But the others said: How can a man perform such signs? 14. The formerly blind man said for himself: The man is a prophet. 15. Then the Jews called his parents and asked whether this was their son. 16. The parents said: We know this is our son and that he was born blind. 17. They asked further how he had received his sight. 18. The parents said their son was old enough; they should ask him himself. 19. But they said this because they feared the Jews might excommunicate them. 20. The Jews then said they did not know whence this Jesus came. 21. But the formerly blind man said: If he were not from God, he could not perform these signs. 22. The man also cited this saying: We know that God does not hear sinners, but if anyone fears God and does his will, him he hears. 23. At this the Jews became angry and cast him out.",
+    "questions": [
+      "Whom did Jesus see in passing?",
+      "What did his disciples ask about this man born blind?",
+      "What information did Jesus give the disciples?",
+      "With what did Jesus heal this blind man?",
+      "Where did he bid the blind man go?",
+      "What benefit did washing bring him?",
+      "What did the neighbors say?",
+      "What differing opinions were there?",
+      "What did the blind man himself say to this?",
+      "Where did they take this beggar?",
+      "On what day did he receive his sight?",
+      "What did the Pharisees say of Jesus?",
+      "What did others say in response?",
+      "But what did the beggar say of Jesus?",
+      "Whom did the Jews summon?",
+      "What answer did the parents give?",
+      "What further question did the Jews ask?",
+      "What answer did the parents give to this?",
+      "Why were they unwilling to speak plainly?",
+      "What judgment did the Jews make of Jesus?",
+      "But what did the beggar think of him?",
+      "What beautiful saying did the beggar utter?",
+      "What dismissal did he receive?"
+    ],
+    "teachings": [
+      "I. We hear that someone was born blind.\nO, a blind man is indeed a poor man! Ah, let us thank God, who gave us our sight and has preserved it until this hour.",
+      "II. The disciples thought that either the beggar or his parents must have sinned; but Christ absolved them both.\nThus we must not always say when someone fares badly: The ungodly has many afflictions; rather, we must also remember the other saying: The righteous must suffer much.",
+      "III. The blind man said: We know that God does not hear sinners.\nLet us therefore fear God and do his will, so that we may take comfort in the certainty of being heard."
+    ],
+    "reflection": "The man born blind washed himself in a pool;\nThereupon his eyes were immediately opened.\nIn spiritual things I am like the blind man;\nWhere then shall I find healing water for myself?\nI will draw the red blood from Jesus' wounds;\nThat shall be a remedy for my weak eyes.",
+    "latin": "Restituit visum cæco piscina Siloha,\nEius quamprimum lumina tingit aqua.\nCæca est & mea mens in spiritualibus, eheu!\nQuæ facit ut videam, quis mihi monstrat aquam?\nEst quoque, CHRISTE! meis oculis medicina parata,\nQuos aperire tui sanguinis unda potest.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 23,
+      "teachings": 3
+    },
+    "editorial_notes": "Final question is misprinted 22 on printed page 258; restored to 23 to match narrative.",
+    "kind": "new-translation-from-transcribed-german"
   }
 };
