@@ -3033,5 +3033,47 @@ export const german1768 = {
       "III. Die Music stehet auch den Frauens-Personen nicht übel an.\nSie können sich dißfalls auf die Mutter GOttes beruffen, die selber einen schönen Lob-Gesang angestimmet hat."
     ],
     "reflection": "Recht heilig kan man ja wohl das Gespräche heissen /\nDas die Elisabeth mit der Maria hält:\nDergleichen solten sich die Christen auch befleissen /\nWenn man in Compagnie zusammen sich gesellt:\nEin jeder rede das / damit er kan bestehen /\nAus meinem Munde soll kein faul Geschwätze gehen."
+  },
+  "56": {
+    "pages": [
+      330,
+      333,
+      334
+    ],
+    "printed": "196–198",
+    "latin": "Dicitur EMMANUEL quo sensu scire volenti,\nNobiscum DEUS est, Angelus almus ait\nVocula, parva quidem, solatia maxima præbet!\nSi Deus est tecum, nemo nocere potest:\nNil in te mundus, nil lex rigidissima Mosis,\nNil Satanas, nil mors pallida juris habet.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 16,
+      "teachings": 3
+    },
+    "title": "Von Joseph und Maria.",
+    "reference": "Matthäi I. Capitel.",
+    "narrative": "1. Die Jungfrau Maria hatte einen Bräutigam, der hieß Joseph, und war ein Zimmermann. 2. Dieser Joseph wolte nunmehro seine Braut heimholen, und Hochzeit mit ihr halten. 3. Ehe aber dieses geschehen konnte, so befand sich die Jungfrau Maria schwanger vom Heiligen Geiste. 4. Nun war Joseph zwar fromm, und wolte sie nicht rügen, oder vor den Leuten zu schanden machen; 5. er hatte sich aber doch vorgesetzt, sie heimlich zu verlassen. 6. Indem er aber mit diesen Gedancken umgieng, so erschien ihm der Engel des HErrn im Traum, und sagte zu ihm: 7. Joseph, du Sohn Davids, fürchte dich nicht, Mariam dein Gemahl zu dir zu nehmen. 8. Er sagte ferner zu seiner Nachricht: Das Heilige, das in ihr gebohren ist, das ist von dem Heiligen Geiste. 9. Und die letzten Worte des Engels waren diese: Sie wird einen Sohn gebähren, deß Namen solt du JEsus heissen, denn er wird sein Volk selig machen von ihren Sünden. 10. Als Joseph vom Schlaf erwachte, so that er, wie der Engel befohlen hatte, und nahm sein Gemahl zu sich. 11. Also ist Maria zwar eine Jungfrau geblieben, damit die Schrifft erfüllet würde. 12. Denn lange zuvor hat der Prophet Esaias diesen Spruch aufgeschrieben: 13. Siehe, eine Jungfrau ist schwanger, und wird einen Sohn gebähren, und sie werden seinen Namen heissen Emanuel, das ist verdolmetschet, GOtt mit uns. 14. Aber Maria ist nicht eine ganz ledige Person gewesen, sondern sie hat ihren verlobten Mann gehabt, 15. Welches vermuthlich darum geschehen ist, damit Maria einen Beschützer, und das JEsus-Kindlein einen Pflege-Vater haben möchte. 16. Im übrigen ist zu merken, daß sowohl Joseph als Maria aus dem Königlichen Geblüte Davids entsprossen gewesen sind.",
+    "questions": [
+      "Was hatte die Jungfrau Maria vor einen Bräutigam?",
+      "Worauf war Joseph nunmehro bedacht?",
+      "Aber wodurch ward solches verhindert?",
+      "Zeigte denn Joseph solches nicht der Obrigkeit an?",
+      "Was war aber sonst sein Vorsatz?",
+      "Aber was hatte Joseph vor eine Erscheinung?",
+      "Wie sagte der Engel zu Joseph?",
+      "Was gab ihm der Engel weiter vor Nachricht?",
+      "Und welches waren des Engels letzten Worte?",
+      "Was that Joseph wie er aufwachte?",
+      "Warum ist aber Maria eine Jungfrau blieben?",
+      "Was vor ein Prophet hat denn davon geschrieben?",
+      "Wie heisset der Spruch beym Esaia?",
+      "Aber ist denn Maria eine ganz ledige Person geblieben?",
+      "Warum mag es doch GOtt also geschickt haben?",
+      "Von was Herkunfft war sonst Joseph und Maria?"
+    ],
+    "teachings": [
+      "Aus dieser Erzehlung hat man sonderlich zu lernen:\nI. Was die Mutter JEsu eigentlich gewesen sey.\nNemlich eine verlobte Jungfrau, aber keine Ehefrau, deswegen die Alten gesagt haben: Das Kindlein JEsus hätte nach der menschlichen Natur auf Erden keinen Vater, nach der göttlichen Natur im Himmel keine Mutter.",
+      "II. Was der Name JESUS eigentlich heisse.\nNemlich so viel, als ein Heyland oder Seligmacher des gefallenen menschlichen Geschlechtes.",
+      "III. Was der Name Emanuel vor eine Bedeutung habe.\nNemlich so viel, als GOtt mit uns, das ist, so viel als ein Mittler oder Versöhner zwischen GOtt und den Menschen."
+    ],
+    "reflection": "Was heißt Emanuel? der Engel soll dirs sagen:\nEs heisse GOtt mit uns! Ach nimm das ja recht ein!\nWenn du das recht verstehst / so darfst du nicht verzagen;\nIst GOtt mit dir / wer kan dir denn zuwider seyn?\nMit GOtt kanst du die Welt: Mit GOtt kanst du die Sünden:\nMit GOtt kanst du den Tod und Teufel überwinden."
   }
 };

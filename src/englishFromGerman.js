@@ -3095,5 +3095,48 @@ export const englishFromGerman = {
       "III. Music is also quite becoming to women.\nIn this respect they may appeal to the mother of God, who herself sang a beautiful song of praise."
     ],
     "reflection": "Truly holy may one call the conversation\nThat Elisabeth holds with Mary:\nChristians should likewise apply themselves to such things\nWhen they gather together in company:\nLet each speak that for which he can stand answerable;\nNo corrupt chatter shall issue from my mouth."
+  },
+  "56": {
+    "pages": [
+      330,
+      333,
+      334
+    ],
+    "printed": "196–198",
+    "latin": "Dicitur EMMANUEL quo sensu scire volenti,\nNobiscum DEUS est, Angelus almus ait\nVocula, parva quidem, solatia maxima præbet!\nSi Deus est tecum, nemo nocere potest:\nNil in te mundus, nil lex rigidissima Mosis,\nNil Satanas, nil mors pallida juris habet.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 16,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of Joseph and Mary.",
+    "reference": "Matthew, chapter 1.",
+    "narrative": "1. The Virgin Mary had a betrothed man named Joseph, who was a carpenter. 2. Joseph now intended to bring his bride home and celebrate his wedding with her. 3. But before this could take place, the Virgin Mary was found to be with child by the Holy Spirit. 4. Joseph was devout and did not wish to accuse her or expose her to shame before the people; 5. yet he had resolved to leave her secretly. 6. While he was occupied with these thoughts, the angel of the Lord appeared to him in a dream and said to him: 7. Joseph, thou son of David, fear not to take Mary thy spouse unto thee. 8. He further informed him: That holy thing which is begotten in her is of the Holy Spirit. 9. And the last words of the angel were these: She shall bear a son, and thou shalt call his name Jesus, for he shall save his people from their sins. 10. When Joseph awoke from sleep, he did as the angel had commanded and took his spouse unto himself. 11. Thus Mary remained a virgin, that Scripture might be fulfilled. 12. For long before, the prophet Isaiah had written down this saying: 13. Behold, a virgin is with child and shall bear a son, and they shall call his name Emmanuel, which being interpreted is God with us. 14. But Mary was not an entirely unmarried person, for she had her betrothed husband, 15. which presumably came about so that Mary might have a protector and the infant Jesus a foster father. 16. Furthermore, it should be noted that both Joseph and Mary were descended from the royal blood of David.",
+    "questions": [
+      "What sort of man was betrothed to the Virgin Mary?",
+      "What was Joseph now intending to do?",
+      "But by what was this prevented?",
+      "Did Joseph not report this to the authorities?",
+      "What otherwise was his intention?",
+      "But what apparition did Joseph have?",
+      "What did the angel say to Joseph?",
+      "What further information did the angel give him?",
+      "And what were the angel's last words?",
+      "What did Joseph do when he awoke?",
+      "But why did Mary remain a virgin?",
+      "What prophet had written about this?",
+      "What are the words of the saying in Isaiah?",
+      "But did Mary remain an entirely unmarried person?",
+      "Why might God have ordained it thus?",
+      "Of what descent were Joseph and Mary?"
+    ],
+    "teachings": [
+      "From this narrative one is especially to learn:\nI. What the mother of Jesus actually was.\nNamely, a betrothed virgin, but not a wife; for this reason the ancients said that the infant Jesus, according to his human nature, had no father on earth, and according to his divine nature had no mother in heaven.",
+      "II. What the name JESUS actually means.\nNamely, a Savior or deliverer of the fallen human race.",
+      "III. What significance the name Emmanuel has.\nNamely, God with us; that is, a mediator or reconciler between God and mankind."
+    ],
+    "reflection": "What does Emmanuel mean? The angel shall tell thee:\nIt means God with us! Ah, take that truly to heart!\nIf thou understandest this aright, thou needest not despair;\nIf God is with thee, who then can be against thee?\nWith God thou canst overcome the world; with God, thy sins;\nWith God thou canst overcome death and the devil."
   }
 };
