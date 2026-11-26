@@ -4305,5 +4305,59 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "84": {
+    "title": "Of the Prodigal Son.",
+    "reference": "Luke XV.",
+    "pages": [
+      450,
+      453,
+      454,
+      457
+    ],
+    "printed": "260–263",
+    "narrative": "1. A man had two sons. 2. The younger of them demanded his inheritance during his father's lifetime. 3. Then the father divided the property and gave the younger son what belonged to him. 4. With this inheritance he went into a foreign land and squandered his property in riotous living. 5. When he had spent everything, a great famine came upon the land, and he began to suffer want. 6. Then he attached himself to a citizen of that country, who sent him into his field to tend his swine. 7. And he desired to fill his belly with the husks that the swine ate, and no one gave them to him. 8. Then he came to himself and said: How many hired laborers does my father have who have bread in abundance, and I perish with hunger? 9. I will arise and go to my father and say to him: Father, I have sinned against heaven and before you, and am henceforth not worthy to be called your son; make me one of your hired laborers! 10. And he arose and came to his father. 11. And while he was still far away, his father saw him and had compassion on him, ran and fell upon his neck and kissed him. 12. Then the son said: Father, I have sinned against heaven and before you, and am henceforth not worthy to be called your son. 13. But the father said to his servants: Bring forth the best garment and put it on him, and give him a ring upon his hand and shoes upon his feet. 14. And bring a fatted calf and slaughter it, and let us be merry. 15. For this my son was dead and has come to life again; he was lost and has been found. 16. Now while they were merry, the elder son came from the field and heard the singing and dancing in his father's house. 17. Then he called one of the servants to him and asked what this meant. 18. The servant told him that his brother had come, and therefore the father had slaughtered a fatted calf, because he had him back in good health. 19. Then the elder son became angry at this and would not go into the house. 20. Thereupon the father went out to him and begged him to come in. 21. But the son said to the father: Behold, so many years have I served you, and have never transgressed your commandment. 22. And you have never given me a goat, that I might be merry with my friends. 23. But now that this son of yours has come, who devoured his property with prostitutes, you have slaughtered a fatted calf for him. 24. But he said to him: My son, you are always with me, and all that is mine is yours. 25. But you ought to be merry and of good cheer: 26. For this brother of yours was dead and has come to life again; he was lost and has been found again.",
+    "questions": [
+      "What sons did a man have?",
+      "What did the younger demand?",
+      "Did the father give him his inheritance?",
+      "How did the son deal with it?",
+      "But what times came upon the land?",
+      "To whom did this son hire himself out?",
+      "How did he fare among the swine?",
+      "What did the prodigal son think to himself?",
+      "What did he resolve to do?",
+      "Did he abide by this good resolution?",
+      "How did his father receive him?",
+      "What did the prodigal son say to his father?",
+      "What garments did the father give him?",
+      "And what did the father have slaughtered for him?",
+      "What did the father say in his joy?",
+      "Where meanwhile was the elder son?",
+      "What did the elder son ask?",
+      "What answer did the servant give him?",
+      "How did this please the elder son?",
+      "How did the father conduct himself toward him?",
+      "What did the elder son say to the father?",
+      "What did he reproach the father with?",
+      "And what did he have to remark concerning his brother?",
+      "What comfort did the father give him?",
+      "And at the same time what admonition?",
+      "Why then should he be merry?"
+    ],
+    "teachings": [
+      "I. Sin plunges man into the greatest misfortune.\nThis is seen in the prodigal son, with whom matters went so far that he could not even get swine's husks to eat.",
+      "II. When one has allowed sin to lead one astray, one must turn back again and repent.\nAnd this according to the example of the prodigal son, who came back to his father and said: Father, I have sinned against heaven and before you.",
+      "III. Whoever sincerely repents will also be received back into grace.\nFor by the father of this prodigal son none other is signified than the merciful God and Father in heaven and on earth."
+    ],
+    "reflection": "The wayward son must finally eat husks,\nAfter squandering his possessions with prostitutes:\nSo it ends with children who forget the commandment\nWhich God established in honor of parents.\nAh God, how I will guard myself against this sin,\nThat I need not ask to be a guest among swine.",
+    "latin": "Vesci vult siliquis acolastus, quando paternas\nCum scortis blandis dilapidavit opes.\nDegeneres pueros, qui non violare verentur\nQuartum præceptum, talia fata manent!\nEt patrem & matrem reverenter habebo, necesse\nNe sit porcorum pellere more famem.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };

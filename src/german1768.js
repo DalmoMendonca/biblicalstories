@@ -4215,5 +4215,58 @@ export const german1768 = {
       "questions": 8,
       "teachings": 3
     }
+  },
+  "84": {
+    "title": "Vom verlohrnen Sohne.",
+    "reference": "Luc. XV. Capitel.",
+    "pages": [
+      450,
+      453,
+      454,
+      457
+    ],
+    "printed": "260–263",
+    "narrative": "1. Ein Mann hatte zween Söhne. 2. Der jüngste davon forderte sein Erbtheil bey Lebzeiten des Vaters. 3. Da theilte der Vater das Gut, und gab dem jüngsten Sohne, was ihm gehörte. 4. Mit diesem Erbtheile zog er in ein fremdes Land, und brachte sein Gut durch mit Prassen. 5. Wie er nun alles verzehret hatte, so kam eine grosse Theurung in das Land, und er fieng an zu darben. 6. Da hieng er sich an einen Bürger desselben Landes, der schickte ihn auf seinen Acker, daß er ihm die Säue hüten muste. 7. Und begehrte seinen Bauch zu füllen mit Trebern, die die Säue assen, und niemand gab sie ihm. 8. Da schlug er in sich, und sprach: wie viel Tagelöhner hat mein Vater, die Brods die Fülle haben, und ich verderbe im Hunger? 9. Ich will mich aufmachen, und zu meinem Vater gehen, und zu ihm sagen: Vater, ich habe gesündiget in dem Himmel, und vor dir, und bin hinfort nicht werth, daß ich dein Sohn heisse; mache mich zu einem deiner Tagelöhner! 10. Und er machte sich auf, und kam zu seinem Vater. 11. Und da er noch ferne von dannen war, sahe ihn sein Vater, und jammerte ihn, lief und fiel ihm um den Hals, und küßte ihn. 12. Da sagte der Sohn: Vater ich habe gesündiget in den Himmel und vor dir, und bin hinfort nicht werth, daß ich dein Sohn heisse. 13. Aber der Vater sprach zu seinen Knechten: bringet das beste Kleid hervor und thut ihn an, und gebt ihm einen Finger-Ring an seine Hand, und Schuhe an seine Füsse. 14. Und bringet ein gemästet Kalb her, und schlachtet es und lasset uns frölich seyn. 15. Denn dieser mein Sohn war todt, und ist wieder lebendig worden; er war verlohren, und ist funden worden. 16. Wie sie nun frölich waren, so kam der älteste Sohn vom Felde, und hörte das Singen und Springen in seines Vaters Hause. 17. Da rieff er einen von den Knechten zu sich, und fragte, was das wäre? 18. Der Knecht sagte ihm, sein Bruder wäre kommen, deswegen hätte der Vater ein gemästet Kalb geschlachtet, daß er ihn gesund wieder hätte. 19. Da ward der älteste Sohn zornig darüber, und wolte nicht ins Haus gehen. 20. Damit gieng der Vater zu ihm heraus, und bat ihn, daß er doch hinein kommen möchte. 21. Aber der Sohn sprach zum Vater: Siehe, so viel Jahre diene ich dir, und habe dein Gebot noch nie übertreten. 22. Und du hast mir nie einen Bock gegeben, daß ich mit meinen Freunden frölich wäre. 23. Nun aber dieser dein Sohn kommen ist, der sein Gut mit Huren verschlungen hat, so hast du ihm ein gemästet Kalb geschlachtet. 24. Er aber sprach zu ihm: Mein Sohn, du bist allezeit bey mir, und alles, was mein ist, das ist dein. 25. Du soltest aber frölich und gutes Muthes seyn: 26. Denn dieser dein Bruder war todt, und ist wieder lebendig worden, er war verlohren, und ist wieder funden.",
+    "questions": [
+      "Was hatte ein Mann vor Söhne?",
+      "Was forderte der jüngste?",
+      "Gab ihm der Vater sein Erbtheil?",
+      "Wie gieng der Sohn damit um?",
+      "Aber was kamen vor Zeiten ins Land?",
+      "Zu wem verdunge sich dieser Sohn?",
+      "Wie giengs ihm bey den Schweinen?",
+      "Was dachte der verlohrne Sohn bey sich selber?",
+      "Was nahm er sich vor?",
+      "Blieb er auch bey diesem guten Vorsatze?",
+      "Wie empfieng ihn der Vater?",
+      "Was sagte der verlohrne Sohn zu seinem Vater?",
+      "Was gab ihm der Vater vor Kleider?",
+      "Und was ließ der Vater seinetwegen schlachten?",
+      "Wie sagte der Vater vor Freuden?",
+      "Wo war denn unterdessen der älteste Sohn?",
+      "Wornach fragte der älteste Sohn?",
+      "Was gab ihm der Knecht zur Antwort?",
+      "Wie gefiel das dem ältesten Sohne?",
+      "Wie bezeigte sich der Vater gegen ihn?",
+      "Was sagte der älteste Sohn zum Vater?",
+      "Was warf er dem Vater vor?",
+      "Und was hatte er wegen seines Bruders zu erinnern?",
+      "Was gab ihm der Vater vor einen Trost?",
+      "Und was zugleich vor eine Vermahnung?",
+      "Warum solte er denn frölich seyn?"
+    ],
+    "teachings": [
+      "I. Die Sünde stürzet den Menschen ins gröste Unglück.\nDas siehet man an dem verlohrnen Sohne, mit demselben kam es so weit, daß er nicht einmal Sau-Treber zu fressen kriegte.",
+      "II. Wenn man sich die Sünde hat verleiten lassen, so muß man wieder umkehren und Busse thun.\nUnd solches nach dem Exempel des verlohrnen Sohns, welcher wieder zu seinem Vater kam, und sagte: Vater, ich habe gesündiget in den Himmel und für dir.",
+      "III. Wer ernste Busse thut, der wird auch wieder zu Gnaden angenommen.\nDenn durch den Vater dieses verlohrnen Sohnes ist niemand anders angedeutet, als der barmherzige GOtt und Vater im Himmel und auf Erden."
+    ],
+    "reflection": "Der ungerathne Sohn muß endlich Treber fressen /\nNachdem er Hab und Gut mit Huren hat verpraßt:\nSo läuffts mit Kindern ab / die das Gebot vergessen /\nDas GOtt den Eltern hat zur Ehren abgefaßt.\nAch GOtt wie will ich mich vor dieser Sünde hüten /\nDaß ich bey Schweinen mich nicht darf zu Gaste bitten.",
+    "latin": "Vesci vult siliquis acolastus, quando paternas\nCum scortis blandis dilapidavit opes.\nDegeneres pueros, qui non violare verentur\nQuartum præceptum, talia fata manent!\nEt patrem & matrem reverenter habebo, necesse\nNe sit porcorum pellere more famem.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 26,
+      "teachings": 3
+    }
   }
 };
