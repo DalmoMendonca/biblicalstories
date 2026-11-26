@@ -4322,5 +4322,38 @@ export const german1768 = {
       "questions": 27,
       "teachings": 3
     }
+  },
+  "86": {
+    "title": "Wie JEsus die kleinen Kinder gesegnet hat.",
+    "reference": "Matth. XIX. Marc. X. und Luc. XVIII. Capitel.",
+    "pages": [
+      460,
+      463,
+      464
+    ],
+    "printed": "266–268",
+    "narrative": "1. Und sie brachten Kindlein zu JEsu, 2. daß er sie anrühren solte. 3. Die Jünger aber fuhren die an, die sie trugen. 4. Da JEsus solches sahe, ward er unwillig, und sprach zu ihnen: 5. Lasset die Kindlein zu mir kommen, und wehret ihnen nicht, denn solcher ist das Reich GOttes. 6. Warlich ich sage euch, wer das Reich GOttes nicht empfähet, als ein Kindlein, der wird nicht hinein kommen. 7. Und er herzte sie, und legte die Hände auf sie, und segnete sie.",
+    "questions": [
+      "Was brachten sie zu JEsu?",
+      "Was solte JEsus mit den Kindern machen?",
+      "Was thaten die Jünger?",
+      "Ließ JEsus die Leute so anfahren?",
+      "Was gab er seinen Jüngern vor einen Verweis?",
+      "Was sagte JEsus vor einen Spruch von den Kindern?",
+      "Wie gieng JEsus mit den Kindern um?"
+    ],
+    "teachings": [
+      "I. Die Eltern brachten ihre Kinder zu JEsu, daß er sie anrühren solte.\nDas thun noch heutiges Tages alle Christliche Eltern, die ihre Kinder in die Schule schicken, allwo Christus seine Diener hat, welche die Kinder in seinem Namen aufnehmen.",
+      "II. Der HErr JEsus sagte: Lasset die Kindlein zu mir kommen, denn solcher ist das Reich GOttes.\nDaraus kan man versichert seyn, daß der Heilige Geist auch in den Kindern den Glauben würket; weil sie ohne denselben kein Theil am Reiche GOttes haben könnten.",
+      "III. Der HErr JEsus herzte die Kinder, und legte die Hände auf sie, und segnete sie.\nDas ist eine Ehre und ein Trost vor alle Lehrer, die sich mit kleinen Kindern plagen müssen; der HErr JEsus hat sich der kleinen Kinder auch nicht geschämet."
+    ],
+    "reflection": "Mein JEsus läßt für sich nicht nur die alten Sünder /\nUnd nimmt sie willig auf in sein Gnaden-Reich;\nEr herzt und küsset auch die unerzognen Kinder /\nEr legt die Hand auf sie / und segnet sie zugleich.\nIhr Kinder! lasset uns zu JEsu gleichfalls eilen /\nEr wird uns allerseits den Segen auch ertheilen.",
+    "latin": "Non tantum facilem semper peccator adultus\nAccessum ad Christum, si resipiscat, habet:\nSed teneris etiam pusillis oscula figit,\nUlnisque exceptis fausta precatur eis.\nO pueri! ad Christum fas est properemus ut omnes;\nQui facit hoc, felix & benedictus erit.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 7,
+      "teachings": 3
+    }
   }
 };

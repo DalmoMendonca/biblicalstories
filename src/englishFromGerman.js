@@ -4407,5 +4407,33 @@ export const englishFromGerman = {
       "questions": 27,
       "teachings": 3
     }
+  },
+  "86": {
+    "title": "How Jesus Blessed the Little Children",
+    "reference": "Matthew XIX, Mark X, and Luke XVIII.",
+    "narrative": "1. And they brought little children to Jesus, 2. that he should touch them. 3. But the disciples rebuked those who carried them. 4. When Jesus saw this, he was indignant and said to them: 5. Let the little children come to me, and do not hinder them, for of such is the kingdom of God. 6. Truly I say to you, whoever does not receive the kingdom of God as a little child will not enter into it. 7. And he embraced them, laid his hands on them, and blessed them.",
+    "questions": [
+      "What did they bring to Jesus?",
+      "What was Jesus to do with the children?",
+      "What did the disciples do?",
+      "Did Jesus allow the people to be rebuked thus?",
+      "What reproof did he give his disciples?",
+      "What saying did Jesus utter concerning children?",
+      "How did Jesus deal with the children?"
+    ],
+    "teachings": [
+      "I. The parents brought their children to Jesus that he should touch them.\nAll Christian parents still do this today who send their children to school, where Christ has his servants who receive the children in his name.",
+      "II. The Lord Jesus said: Let the little children come to me, for of such is the kingdom of God.\nFrom this one can be assured that the Holy Spirit also works faith in children, since without it they could have no part in the kingdom of God.",
+      "III. The Lord Jesus embraced the children, laid his hands on them, and blessed them.\nThis is an honor and a comfort for all teachers who must toil with little children; the Lord Jesus too was not ashamed of little children."
+    ],
+    "reflection": "My Jesus admits before him not only grown sinners,\nAnd willingly receives them into his kingdom of grace;\nHe also embraces and kisses the untaught children,\nHe lays his hand upon them and blesses them at once.\nYou children! Let us likewise hasten to Jesus;\nHe will bestow the blessing upon us all as well.",
+    "latin": "Non tantum facilem semper peccator adultus\nAccessum ad Christum, si resipiscat, habet:\nSed teneris etiam pusillis oscula figit,\nUlnisque exceptis fausta precatur eis.\nO pueri! ad Christum fas est properemus ut omnes;\nQui facit hoc, felix & benedictus erit.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 7,
+      "teachings": 3
+    }
   }
 };
