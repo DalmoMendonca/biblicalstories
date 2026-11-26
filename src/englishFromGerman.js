@@ -2789,5 +2789,72 @@ export const englishFromGerman = {
       "III. The blind Tobias said: What joy shall I have, who must sit in darkness?\nWe should consider this, and thank God daily that he has given us eyes and ears, reason and all our senses, and still preserves them."
     ],
     "reflection": "The angels keep company with such children of men\nAs are godly and God-fearing like Tobias;\nBut whoever gladly sits among scoffers and sinners,\nThe devil joins his company.\nTherefore I will walk in God's ways all my life,\nSo that the angels too may always stand beside me."
+  },
+  "50": {
+    "pages": [
+      298,
+      301,
+      302,
+      303,
+      304
+    ],
+    "printed": "176–180",
+    "latin": "Laute dotata Tobias conjuge gaudet,\nContigit & Saræ vir pietatis amans.\nDivitiæ & pietatis igitur contraria non sunt:\nSæpe probis etiam multiplicantur opes.\nArtibus ergo malis non utar, sed mihi sola\nFortunæ PIETAS spes erit atque basis.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 38,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Marriage of the Young Tobias.",
+    "reference": "Tobit, chapters VII, VIII, IX, X and XI.",
+    "narrative": "1. When Tobias came to the city of Rages, he took lodging with Raguel, who was his relative. 2. The latter received him kindly, 3. and said secretly to his wife: How like our kinsman the young fellow looks! 4. Thereupon the host asked whence they came. 5. They answered: We are of the captives at Nineveh. 6. When Raguel heard this, he immediately asked how the elder Tobias was faring. 7. Then the angel said: The man after whom you inquire is this young man's father. 8. Thereupon Raguel fell upon the young Tobias's neck and said: O my dear son, blessed be you, for you are the son of a godly man. 9. But his wife and his daughter Sarah both wept for joy. 10. Raguel immediately had a wether slaughtered and wished to entertain his guests. 11. But Tobias would not sit down to table until Raguel had granted him a request. 12. The request consisted in his giving him his daughter Sarah as a wife. 13. Raguel was not a little frightened at this, for he thought that the same thing would happen to him as to the other seven men. 14. But the angel encouraged him and said that his daughter was destined to be his wife; for because he feared God, his daughter could have become no other's. 15. When the father heard this, he took his daughter's hand and placed it in Tobias's hand, saying: 16. May the God of Abraham, the God of Isaac, and the God of Jacob be with you, help you together, and give you his blessing abundantly! 17. When Tobias afterwards came into the bridal chamber for the first time, he drove away the evil spirit Asmodeus before all else. 18. For he placed a piece of the fish's liver upon glowing coals; 19. thereby the angel Raphael took the spirit captive and banished him to a wilderness in Egypt. 20. Afterwards the newly married couple prayed together that God would preserve them in their married state, and they did this for three days in succession. 21. For Tobias said to his bride: We are children of the saints; it does not befit us to begin such a state as the heathen do, who despise God. 22. Meanwhile the bride's father had a grave prepared at midnight. 23. For he thought that the evil spirit would have killed the young Tobias also. 24. He therefore sent a maid into the chamber to see whether the bridegroom was still alive. 25. Since she found both the bridegroom and the bride healthy and well, 26. Raguel and his wife thanked the dear God heartily, 27. and had the grave filled in again before daybreak. 28. Meanwhile the angel traveled to Gabel with the written acknowledgment, 29. and not only brought back the money duly, but Gabel himself came to the wedding and helped praise and extol the Lord God. 30. After the wedding Raguel gave his daughter half of his goods, 31. and made a written agreement that after his death the other half should also become hers. 32. His goods consisted of servants, maidservants, livestock, camels, cattle and much money. 33. At their departure the parents kissed their daughter once more and gave her four good admonitions for the journey. 34. Namely, she should honor her husband's parents as her own parents; 35. she should love her husband heartily; 36. she should diligently govern the household servants; 37. and she herself should conduct herself chastely. 38. On the way Tobias traveled ahead with the angel, and they let the young wife follow with the cattle and servants.",
+    "questions": [
+      "Where did the young Tobias take lodging?",
+      "How was he received by Raguel?",
+      "What did Raguel say to his wife?",
+      "What did Raguel ask?",
+      "What answer did he receive?",
+      "What did Raguel wish to know?",
+      "What answer did the angel give?",
+      "How did Raguel conduct himself toward his kinsman?",
+      "What did his wife and daughter do?",
+      "What honor did Raguel show these guests?",
+      "What did Tobias have to put forward?",
+      "What did his request consist in?",
+      "What did Raguel think about it?",
+      "What did the angel say in reply?",
+      "What did Raguel do in the matter?",
+      "What words did Raguel use?",
+      "What did the bridegroom do?",
+      "With what did he drive away the spirit?",
+      "What did the angel do with the spirit?",
+      "How did the betrothed begin their married state?",
+      "Why did they do this?",
+      "What did the bride's father have prepared meanwhile?",
+      "What was the grave for?",
+      "What was the maid to look for?",
+      "What news did the maid bring?",
+      "What did Raguel do upon this good news?",
+      "What purpose did the grave now serve?",
+      "Where did the angel travel meanwhile?",
+      "Did the angel also receive the money?",
+      "What did Raguel give his daughter?",
+      "And what was she to have after his death?",
+      "What did his wealth consist in?",
+      "What did the parents give their daughter for the journey?",
+      "What was the first admonition?",
+      "What did the second consist in?",
+      "What did the third consist in?",
+      "And finally, what did the fourth consist in?",
+      "How did they arrange the journey home?"
+    ],
+    "teachings": [
+      "I. The angel said that Sarah was destined for the young Tobias because of his fear of God.\nThus the ancients were quite right in saying that marriages are consummated on earth but concluded in heaven.",
+      "II. Raguel said to the young Tobias: You are the son of a godly man.\nThis sounds better than when one hears it said: There is not much good in the father and mother; the apple will scarcely fall far from the trunk.",
+      "III. Tobias and Sarah began their married state with dear prayer.\nAh! If all betrothed couples did this, there would be more blessing, prosperity and contentment in many houses."
+    ],
+    "reflection": "Tobias receives a wife who has a fine fortune;\nSarah in turn receives a godly husband!\nThus the fear of God is not opposed to riches.\nOne finds possessions and goods among godly people too.\nWell then, for my part I will trust this example,\nAnd build my entire happiness upon the fear of God."
   }
 };

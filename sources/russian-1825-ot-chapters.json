@@ -552,7 +552,10 @@
       "printed_start": 230,
       "scan_start": 242,
       "scan_end_candidate": 248,
-      "scan_start_candidate": 241
+      "scan_start_candidate": 241,
+      "scan_start_verified": 242,
+      "scan_end_verified": 248,
+      "printed_verified": "230–236"
     },
     {
       "id": 51,

@@ -2733,5 +2733,71 @@ export const german1768 = {
       "III. Der blinde Tobias sagte, was soll ich vor Freude haben, der ich im Finstern sitzen muß?\nDieses sollen wir bedencken, und GOtt täglich danken, daß er uns Augen und Ohren, Vernunfft und alle Sinne gegeben hat, und noch erhält."
     ],
     "reflection": "Die Engel halten sich zu solchen Menschen Kindern /\nDie wie Tobias fromm und gottesfürchtig seyn:\nWer aber gerne sitzt bey Spöttern und bey Sündern /\nZu dessen Compagnie stellt sich der Teufel ein.\nDrum will ich Lebenslang auf GOttes Wegen gehen /\nAuf daß die Engel auch mir stets zur Seite stehen."
+  },
+  "50": {
+    "pages": [
+      298,
+      301,
+      302,
+      303,
+      304
+    ],
+    "printed": "176–180",
+    "latin": "Laute dotata Tobias conjuge gaudet,\nContigit & Saræ vir pietatis amans.\nDivitiæ & pietatis igitur contraria non sunt:\nSæpe probis etiam multiplicantur opes.\nArtibus ergo malis non utar, sed mihi sola\nFortunæ PIETAS spes erit atque basis.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 38,
+      "teachings": 3
+    },
+    "title": "Von der Vermählung des jungen Tobiä.",
+    "reference": "Tob. VII. VIII. IX. X. und XI. Capitel.",
+    "narrative": "1. Wie Tobias in die Stadt Rages kam, so nahm er sein Quartier bey Raguel, der sein Verwandter war. 2. Derselbe empfieng ihn freundlich, 3. und sagte heimlich zu seiner Frauen: Wie ähnlich siehet der junge Geselle unserm Vetter! 4. Darauf fragte der Wirth, von wannen sie wären? 5. Sie gaben zur Antwort: Wir sind von den Gefangenen zu Ninive. 6. Wie Raguel das hörte, so fragte er alsobald, was der alte Tobias guts machte? 7. Da sagte der Engel: Der Mann, nach dem du fragest, ist dieses Jünglings Vater. 8. Da fiel Raguel dem jungen Tobiä um den Hals, und sagte: O mein lieber Sohn, gesegnet seyst du! denn du bist eines frommen Mannes Sohn. 9. Sein Weib aber, und seine Tochter Sara, weinten beyde vor Freuden. 10. Raguel ließ alsobald einen Schöps schlachten, und wolte seine Gäste tractiren. 11. Aber Tobias wolte sich nicht eher zu Tische setzen, bis ihm Raguel eine Bitte gewähret hätte. 12. Die bitte aber bestund darinnen, daß er ihm seine Tochter Sara zum Weibe geben solte. 13. Raguel erschrack nicht wenig darüber; denn er dachte, es würde ihm auch so gehen, als wie den andern sieben Männern. 14. Aber der Engel redete ihm zu, und sagte: Seine Tochter wäre ihm bescheret zum Weibe; denn weil er GOtt fürchtete, so hätte seine Tochter keinem andern werden mögen. 15. Wie der Vater das hörte, so nahm er die Hand der Tochter, und schlug sie in Tobiä Hand, und sprach: 16. Der GOtt Abraham, der GOtt Isaac, und der GOtt Jacob sey mit euch, und helffe euch zusammen, und gebe seinen Segen reichlich über euch! 17. Als darnach Tobias zum erstenmal in die Braut-Kammer kam, so vertrieb er vor allen Dingen den bösen Geist Asmodi. 18. Denn er legte ein Stück von der Leber des Fisches auf glüende Kohlen; 19. Damit nahm der Engel Raphael den Geist gefangen, und verbannte denselben nach Egypten in eine Wüsten. 20. Darnach bätheten die neuen Eheleute mit einander, daß sie GOtt in ihrem Ehestande behüten wolte, und das thaten sie drey Tage nach einander. 21. Denn Tobias sagte zu seiner Braut: Wir sind Kinder der Heiligen, uns gebühret nicht solchen Stand anzufangen wie die Heyden, die GOtt verachten. 22. Der Braut Vater ließ unterdessen um Mitternacht ein Grab zurechte machen. 23. Denn er dachte, der böse Geist würde den jungen Tobias auch umgebracht haben. 24. Er schickte deswegen eine Magd in die Kammer, daß sie sehen solte, ob der Bräutigam noch am Leben wäre? 25. Weil nun dieselbe sowohl den Bräutigam als die Braut gesund und frisch antraf; 26. so dankte Raguel und seine Frau dem lieben GOtt herzlich, 27. und liessen das Grab wieder zumachen, ehe denn der Tag anbrach. 28. Der Engel reisete unterdessen zu Gabeln mit der Handschrift, 29. und brachte nicht allein das Geld richtig, sondern Gabel kam selber mit zur Hochzeit, und half GOtt den HErrn loben und preisen. 30. Nach der Hochzeit gab Raguel seiner Tochter die Helfte von seinen Gütern, 31. und machte eine Verschreibung, daß ihr nach seinem Tode die andere Helfte auch werden solte. 32. Es bestunden aber seine Güter in Knechten, Mägden, Viehe, Cameelen, Rinder und vielem Gelde. 33. Beym Abschiede küßten die Eltern ihre Tochter nochmals, und gaben derselben vier gute Vermahnungen noch auf den Weg. 34. Nemlich ihres Mannes Eltern solte sie ehren als ihre eigene Eltern: 35. Ihren Mann solte sie herzlich lieben; 36. Das Gesinde solte sie fleißig regieren; 37. und sie selber solte sich züchtiglich halten. 38. Unterwegens reisete Tobias mit dem Engel voran, und die junge Frau mit dem Viehe und Gesinde liessen sie nachfolgen.",
+    "questions": [
+      "Wo nahm der junge Tobias sein Quartier?",
+      "Wie ward er von Raguel empfangen?",
+      "Wie sagte Raguel zu seiner Frauen?",
+      "Wornach fragte Raguel?",
+      "Was bekam er zur Antwort?",
+      "Was wolte Raguel wissen?",
+      "Was gab der Engel zur Antwort?",
+      "Wie bezeugte sich Raguel gegen seinen Vetter?",
+      "Was that seine Frau und seine Tochter?",
+      "Was that Raguel diesen Gästen vor Ehre an?",
+      "Was hatte Tobias vorzutragen?",
+      "Worinnen bestund seine Bitte?",
+      "Was dachte Raguel darbey?",
+      "Was sagte der Engel dagegen?",
+      "Was that Raguel bey der Sache?",
+      "Was brauchte Raguel vor Worte?",
+      "Was that der Bräutigam?",
+      "Mit was vertrieb er den Geist?",
+      "Was nahm der Engel mit dem Geiste vor?",
+      "Wie fingen die Verlobten ihren Ehestand an?",
+      "Warum thaten sie dieses?",
+      "Was ließ unterdessen der Braut Vater zurechte machen?",
+      "Worzu solte das Grab?",
+      "Wornach muste die Magd sehen?",
+      "Was brachte die Magd vor Nachricht?",
+      "Was that Raguel auf diese gute Nachricht?",
+      "Worzu dienet nunmehro das Grab?",
+      "Wo reisete unterdessen der Engel hin?",
+      "Bekam der Engel auch das Geld?",
+      "Was gab Raguel seiner Tochter mit?",
+      "Und was solte sie nach seinem Tode haben?",
+      "Worinnen bestund sein Vermögen?",
+      "Was gaben die Eltern ihrer Tochter mit auf den Weg?",
+      "Welches war die erste Vermahnung?",
+      "Worinnen bestund die andre?",
+      "Worinnen die dritte?",
+      "Und worinnen endlich die vierte?",
+      "Wie stellten sie die Heimfahrt an?"
+    ],
+    "teachings": [
+      "I. Der Engel sagte, die Sara wäre dem jungen Tobiä wegen seiner Gottesfurcht bescheret.\nAlso haben die Alten gar recht gesagt: Die Ehen würden auf Erden vollzogen, aber im Himmel geschlossen.",
+      "II. Raguel sagte zum jungen Tobia: Du bist eines frommen Mannes Sohn.\nDas klingt besser, als wenn man sagen hört: Es ist am Vater und Mutter nicht viel gutes, der Apffel wird wohl nicht weit vom Stamme fallen.",
+      "III. Tobias und Sara fingen ihren Ehestand mit dem lieben Gebät an.\nAch! wenn das alle Verlobten thäten, so würde in vielen Häusern mehr Segen, Gedeyen und Vergnügen seyn."
+    ],
+    "reflection": "Tobias kriegt ein Weib / das hat ein schön Vermögen /\nHingegen Sara kriegt auch einen frommen Mann!\nDemnach ist Gottesfurcht dem Reichthum nicht entgegen.\nMan trifft auch Haab und Gut bey frommen Leuten an.\nWohlan ich will vor mich auf diß Exempel trauen /\nUnd auch auf Gottesfurcht mein ganzes Glücke bauen."
   }
 };
