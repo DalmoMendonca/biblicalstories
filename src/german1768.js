@@ -4505,5 +4505,36 @@ export const german1768 = {
       "questions": 8,
       "teachings": 3
     }
+  },
+  "90": {
+    "title": "Vom Gottes-Kasten zu Jerusalem.",
+    "reference": "Marc. XII. und Luc. XXI. Capitel.",
+    "pages": [
+      478,
+      481,
+      482
+    ],
+    "printed": "276–278",
+    "narrative": "1. JEsus satzte sich gegen den Gottes-Kasten, und schauete, wie das Volk Geld einlegte in den Gottes-Kasten. 2. Und viele Reiche legten viel ein. 3. Er sahe aber auch eine arme Wittwe, die legte zwey Scherflein ein, die machen einen Heller. 4. Und er rief seine Jünger zu sich, und sprach zu ihnen: Warlich, ich sage euch, diese arme Wittwe hat mehr in den Gottes-Kasten geleget, denn alle, die eingelegt haben. 5. Denn sie haben alle von ihrem übrigen eingelegt, diese aber hat von ihrem Armuth alles, was sie hat, ihre ganze Nahrung, eingelegt.",
+    "questions": [
+      "Was machte JEsus bey dem GOttes-Kasten?",
+      "Brachten sie denn was zum Opffer?",
+      "Was brachte denn eine arme Wittwe?",
+      "Was urtheilte JEsus von dem Scherflein dieser armen Wittwe?",
+      "Wie erklärte denn JEsus seine Worte?"
+    ],
+    "teachings": [
+      "I. Im Tempel zu Jerusalem war ein Gottes-Kasten, darein legten die Leute ihr Opffer-Geld.\nAlso ist es nicht unrecht, daß zu Erhaltung Kirchen und Schulen, wie auch zu Versorgung der Armen, auch in Christlichen Gemeinden etwas gesammlet wird.",
+      "II. Ein solcher Kasten wird ein Gottes-Kasten genennet.\nUnd das mit allem Rechte: Denn wer etwas hinein thut, der leihet solches gleichsam GOtt dem HErrn; und wer etwas davon entwendet, der bestiehlet auch GOtt den HErrn.",
+      "III. Der HErr JEsus satzte sich dem GOttes-Kasten gegen über, und sahe zu, was die Leute einlegten.\nDas thut der HErr JEsus noch auf diesen Tag und siehet genau zu, was ein jeder giebet, wenn etwas zur Ehre GOttes gesammlet wird."
+    ],
+    "reflection": "Sprich nicht / ich gebe nichts / dieweil ich nicht viel habe:\nGOtt siehet nur das Herz / nicht das Allmosen an.\nDer Heiland rühmt und preist der Wittwe ihre Gabe /\nDie doch nicht mehr / als nur zwey Scherflein geben kan.\nEin jeder gebe nur / so viel er kan entrathen /\nEin Heller gilt bey GOtt so viel als ein Ducaten.",
+    "latin": "Nulli eleemosynam, quia pauper es ipse, negato!\nMunera non spectat, sed modo corda Deus.\nIn templo Christus viduam laudabat egenam,\nQuanquam vix obolos obtulit illa duos.\nDa quantum patitur tua sors, & crede, quod auri\nMajus momentum pondere nummus habet.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 5,
+      "teachings": 3
+    }
   }
 };

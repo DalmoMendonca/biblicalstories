@@ -4601,5 +4601,37 @@ export const englishFromGerman = {
       "questions": 8,
       "teachings": 3
     }
+  },
+  "90": {
+    "title": "On the Temple Treasury at Jerusalem",
+    "reference": "Mark XII and Luke XXI.",
+    "pages": [
+      478,
+      481,
+      482
+    ],
+    "printed": "276–278",
+    "narrative": "1. Jesus sat opposite the temple treasury and watched how the people put money into the treasury. 2. And many rich people put in much. 3. But he also saw a poor widow who put in two mites, which make one farthing. 4. And he called his disciples to himself and said to them: Truly, I say to you, this poor widow has put more into the treasury than all who have put in anything. 5. For they all put in from their surplus, but she out of her poverty put in all that she has, her whole livelihood.",
+    "questions": [
+      "What did Jesus do by the temple treasury?",
+      "Did they then bring anything as an offering?",
+      "What did a poor widow bring?",
+      "What did Jesus think of the mite of this poor widow?",
+      "How then did Jesus explain his words?"
+    ],
+    "teachings": [
+      "I. In the temple at Jerusalem there was a treasury of God, into which the people put their offering money.\nThus it is not wrong that something should be collected in Christian congregations for the maintenance of churches and schools, as well as for the support of the poor.",
+      "II. Such a chest is called a treasury of God.\nAnd with every right: for whoever puts something into it, as it were lends it to God the Lord; and whoever takes something away from it also steals from God the Lord.",
+      "III. The Lord Jesus sat opposite the treasury of God and watched what the people put into it.\nThe Lord Jesus still does this to this day and observes closely what each person gives when something is collected to the glory of God."
+    ],
+    "reflection": "Do not say, I give nothing because I do not have much:\nGod looks only at the heart, not at the alms.\nThe Savior commends and praises the widow's gift,\nThough she can give no more than two mites.\nLet each give only as much as he can spare;\nA farthing is worth as much to God as a ducat.",
+    "latin": "Nulli eleemosynam, quia pauper es ipse, negato!\nMunera non spectat, sed modo corda Deus.\nIn templo Christus viduam laudabat egenam,\nQuanquam vix obolos obtulit illa duos.\nDa quantum patitur tua sors, & crede, quod auri\nMajus momentum pondere nummus habet.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 5,
+      "teachings": 3
+    }
   }
 };
