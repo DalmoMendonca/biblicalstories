@@ -4941,5 +4941,78 @@ export const englishFromGerman = {
       "questions": 23,
       "teachings": 3
     }
+  },
+  "97": {
+    "title": "How Jesus Was Condemned",
+    "reference": "Matth. XXVI. XXVII. Marc. XIV. XV. Luc. XXII. XXIII. Joh. XVIII. XIX. Capitel.",
+    "pages": [
+      512,
+      515,
+      516,
+      517,
+      518,
+      521
+    ],
+    "printed": "296–301",
+    "kind": "new-translation-from-transcribed-german",
+    "narrative": "1. The Lord Jesus was first condemned by the chief priests at Jerusalem. 2. They brought forward all kinds of false witnesses against him. 3. But their testimony would not agree. 4. At last the high priest said: I adjure thee by the living God to tell us whether thou art Christ, the Son of the living God. 5. Jesus said to him: Thou sayest it; I am he. 6. Then the high priest tore his clothes and said: He has blasphemed God; what further testimony do we need? 7. All the other priests and scribes likewise said: He is worthy of death. 8. As soon as it was day, they brought Jesus before the whole council. 9. Then they all asked him: Art thou then the Son of God? 10. Jesus answered again: Ye say it, for I am he. 11. Then they all said: What further testimony do we need? We have heard it ourselves from his mouth. 12. Immediately thereafter they delivered Jesus to the Roman governor Pontius Pilate. 13. For since the Romans ruled the country, the Jews were not permitted to put anyone to death. 14. Pilate insisted on knowing what this Jesus had done. 15. The Jews said: He had claimed to be a king and was therefore an agitator of the people against Caesar. 16. Pilate asked Jesus whether he was a king of the Jews. 17. Jesus answered him: Thou sayest it; I am he. 18. Thereupon Pilate sent the Lord Jesus to King Herod. 19. For he had heard that he belonged under Herod's jurisdiction. 20. Herod was glad of this because he had long wished to see Jesus. 21. But Jesus gave King Herod no answer, whatever he might ask. 22. He was therefore immediately brought back to Pilate in the judgment hall. 23. And on that same day Pilate and Herod became friends with one another. 24. Pilate then summoned all the estates together. 25. Now it was a custom at Jerusalem that the governor must release a prisoner to the people at the feast. 26. At that very time a murderer named Barabbas was imprisoned. 27. Then Pilate asked the Jews whether they wished Jesus or Barabbas released. 28. The whole people cried: Away with Jesus! Release Barabbas to us. 29. Pilate asked further what he should do with Jesus. 30. Then the whole crowd cried: Crucify him, crucify him! 31. Meanwhile Pilate's wife sent word to him that he should have nothing to do with this righteous man. 32. For she had suffered much in a dream on his account the preceding night. 33. Then Pilate commanded them to scourge Jesus and put a crown of thorns upon his head. 34. In such a pitiable condition Pilate brought the Lord Jesus once more before the people and said to them: Behold the man. 35. But the Jews persisted: They had a law, and according to that law he must die, because he had made himself the Son of God. 36. Pilate made another attempt to release Jesus. 37. But the Jews cried: If thou release this man, thou art not Caesar's friend. 38. His final question was this: Shall I crucify your king? 39. But the chief priests answered: We have no king but Caesar. 40. Then Pilate took water, washed his hands and said: I am innocent of the blood of this righteous man; see ye to it. 41. The whole people answered: His blood be upon us and our children. 42. Thereupon Barabbas was released, and Jesus was delivered up to be crucified.",
+    "questions": [
+      "By whom was Jesus first condemned?",
+      "How did the chief priests begin the matter?",
+      "But how did things turn out with the false witnesses?",
+      "What question did the high priest put to the Lord Jesus?",
+      "What answer did Jesus give on this point?",
+      "What did the high priest say thereupon?",
+      "Were the others of the same opinion?",
+      "Where was Jesus condemned a second time?",
+      "And what was Jesus asked before the whole council?",
+      "What answer did he give?",
+      "What conclusion was drawn thereupon?",
+      "To whom was Jesus afterwards delivered?",
+      "Could the Jews not put him to death themselves?",
+      "What did the governor Pilate wish to know?",
+      "Of what did the Jews accuse the Lord Jesus?",
+      "What did Pilate ask Jesus?",
+      "What answer did Jesus give him?",
+      "Where did Pilate send Jesus?",
+      "Why to Herod?",
+      "What did Herod say to this?",
+      "What did Jesus say to Herod?",
+      "Did Jesus remain long with Herod?",
+      "What happened that day between Herod and Pilate?",
+      "What arrangements did Pilate then make?",
+      "What custom was there at Jerusalem concerning prisoners?",
+      "What other prisoner did Pilate have?",
+      "What proposal did Pilate make to the people?",
+      "What answer did the people give?",
+      "What did Pilate ask further?",
+      "What outcry arose in response?",
+      "What message did Pilate's wife send him?",
+      "What reason did she give?",
+      "How did they meanwhile deal with the Lord Jesus?",
+      "What did Pilate do with Jesus after he had been scourged?",
+      "Were the Jews not thereby moved to compassion?",
+      "What was Pilate's actual intention concerning Jesus?",
+      "But did the Jews allow it?",
+      "What was Pilate's final question to the people?",
+      "And what answer did the Jews give?",
+      "How did Pilate demonstrate his innocence?",
+      "Who took the guilt upon themselves?",
+      "How did things finally turn out for the two prisoners?"
+    ],
+    "teachings": [
+      "I. Jesus was led from one place to another during the night.\nLet all night-roamers take note of this and consider that by their nocturnal revelry they have caused the Lord Jesus so restless a night.",
+      "II. When Pilate asked what he should do with Jesus, the people cried at the top of their voices: Crucify him, crucify him.\nHere one sees the fickleness of the common rabble: on Palm Sunday the people sang a Hosanna; but on Good Friday the song is in an entirely different key.",
+      "III. Barabbas is released, and Jesus is nailed to the cross.\nThat was indeed an unjust judgment! Barabbas had killed people, and for this his life was granted him; and Jesus had restored the dead to life, and for this death was adjudged to him."
+    ],
+    "reflection": "Ah, behold the man! Such was Pilate's voice,\nWhen Jesus was bloody after his scourging:\nYet the hardened people continued in their fury,\nAnd pressed without ceasing for the crucifixion.\nO Jesus! Let me behold thee in that form,\nWhen death shall one day close my eyes!",
+    "latin": "ECCE HOMO! Pilati vox est, ubi mille cruentis\nVulneribus Christus conspiciendus erat:\nNon tamen hoc dicto plebs indurata movetur,\nContinuo repetit sed crucifige suum.\nO utinam effigies appareat ista cruenta\nAnte meos oculos, cum moriturus ero!",
+    "editorial_notes": "Narrative marker 32 omitted in print; supplied before Denn sie hätte to correspond to printed question 32.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 42,
+      "teachings": 3
+    }
   }
 };

@@ -4838,5 +4838,77 @@ export const german1768 = {
       "questions": 23,
       "teachings": 3
     }
+  },
+  "97": {
+    "title": "Wie JEsus ist verurtheilet worden.",
+    "reference": "Matth. XXVI. XXVII. Marc. XIV. XV. Luc. XXII. XXIII. Joh. XVIII. XIX. Capitel.",
+    "pages": [
+      512,
+      515,
+      516,
+      517,
+      518,
+      521
+    ],
+    "printed": "296–301",
+    "narrative": "1. Der HErr JEsus war zum ersten von den Hohenpriestern zu Jerusalem verurtheilet. 2. Dieselben stellten allerhand falsche Zeugen wieder ihn auf: 3. Aber ihr Zeugniß wolte nicht mit einander übereinstimmen. 4. Endlich sagte der Hohepriester: Ich beschwere dich bey dem lebendigen GOtt, daß du sagest, ob du seyst Christus, des lebendigen GOttes Sohn? 5. JEsus sprach zu ihm: Du sagsts; ich bins. 6. Da zerriß der Hohepriester seine Kleider und sprach: Er hat GOtt gelästert, was dürffen wir weiter Zeugniß? 7. Die andern Priester und Schrifft-Gelehrten sagten gleichfalls alle: Er ist des Todes schuldig. 8. So bald es Tag war, so führten sie JEsum vor den ganzen Rath. 9. Da fragten sie ihn alle: Bist du denn GOttes Sohn? 10. JEsus antwortete abermal: Ihr sagts, denn ich bins. 11. Da sagten sie alle: Was dürffen wir weiter Zeugniß? wir haben es selbst gehört aus seinem Munde. 12. Gleich darauf überantworteten sie JEsum dem Römischen Land-Pfleger Pontio Pilato. 13. Denn da die Römer im Lande herrschten, so durfften die Jüden niemand tödten. 14. Pilatus wolte durchaus wissen, was dieser JEsus gethan hätte? 15. Die Jüden sagten: Er hätte sich vor einen König ausgegeben, und wäre also ein Aufrührer des Volkes wider den Kayser. 16. Pilatus fragte JEsum: Ob er denn ein König der Jüden wäre? 17. JEsus gab ihm zur Antwort: Du sagsts, ich bins. 18. Hierauf schickte Pilatus den HErrn JEsum zum Könige Herodes: 19. Denn er hatte vernommen, daß er unter Herodes Obrigkeit gehörte. 20. Herodes ward froh darüber, weil er JEsum lange gerne gesehen hätte. 21. Aber JEsus gab dem Könige Herodi keine Antwort, er mochte fragen, was er wolte. 22. Er ward deswegen also bald wieder zu Pilato in das Richthaus gebracht. 23. Und auf denselben Tag wurden Pilatus und Herodes Freunde mit einander. 24. Pilatus ließ darauf alle Stände zusammen kommen. 25. Es war aber eine Gewohnheit zu Jerusalem, daß der Land-Pfleger auf das Fest dem Volke einen Gefangenen losgeben muste. 26. Nun saß eben damals ein Mörder gefangen, mit Namen Barrabas. 27. Da fragte Pilatus die Jüden, ob sie JEsum oder Barrabam los haben wolten? 28. Da schrie das ganze Volk: Hinweg mit JEsu! und gieb uns Barrabam los. 29. Pilatus fragte weiter, was er denn mit JEsu machen solte? 30. Da schrie der ganze Hauffe: Creutzige ihn, creutzige ihn! 31. Unterdessen schickte seine Frau zu Pilato, und ließ ihm sagen: Er solte nichts zu thun haben mit diesem Gerechten: 32. Denn sie hätte in der vergangenen Nacht seinetwegen viel im Traum erlitten. 33. Darauf befahl Pilatus, daß sie JEsum geisseln, und eine Krone von Dornen auf sein Haupt setzen solten. 34. In solcher erbärmlichen Gestalt führte Pilatus den HErrn JEsum nochmals vor das Volk, und sagte zu ihnen: Sehet, welch ein Mensch. 35. Die Jüden aber blieben darbey: Sie hätten ein Gesetz, und nach dem Gesetz müste er sterben, denn er hätte sich selbst zu GOttes Sohn gemacht. 36. Pilatus that nochmals einen Versuch, ob er JEsum loslassen könte. 37. Aber die Jüden schrien: Lässest du diesen los, so bist du des Kaysers Freund nicht. 38. Seine letzte Frage war endlich diese: Soll ich euren König creutzigen? 39. Aber die Hohenpriester antworteten: Wir haben keinen König, denn den Kayser. 40. Da nahm Pilatus Wasser, wusch seine Hände und sprach: Ich bin unschuldig an dem Blute dieses Gerechten, sehet ihr zu. 41. Da antwortete das ganze Volk: Sein Blut komme über uns und unsere Kinder. 42. Darauf kam Barrabas los, und JEsus ward übergeben, daß er gecreutziget würde.",
+    "questions": [
+      "Von wem wurde JEsus zum ersten verurtheilet?",
+      "Wie fingen die Hohenpriester die Sache an?",
+      "Aber wie lief es mit den falschen Zeugen ab?",
+      "Was leget der Hohepriester dem HErrn JEsu vor eine Frage vor?",
+      "Was gab JEsus auf diesen Articul zur Antwort?",
+      "Was sagte der Hohepriester hierauf?",
+      "Waren die andern auch der Meynung?",
+      "Wo wurde JEsus zum andern male verurtheilet?",
+      "Und was wurde JEsus vor dem ganzen Rath gefraget?",
+      "Was gab er darauf zur Antwort?",
+      "Was wurde hierauf vor ein Schluß gemacht?",
+      "Wem wurde JEsus darnach überantwortet?",
+      "Konten ihn die Jüden nicht selber tödten?",
+      "Was wolte der Land-Pfleger Pilatus wissen?",
+      "Was gaben die Jüden dem HErrn JEsu Schuld?",
+      "Was fragte Pilatus JEsum?",
+      "Was gab ihm JEsus zur Antwort?",
+      "Wo sandte Pilatus JEsum hin?",
+      "Warum denn zu Herode?",
+      "Was sagte Herodes darzu?",
+      "Was redte JEsus mit Herode?",
+      "Hielt sich JEsus lange bey Herode auf?",
+      "Was trug sich auf selbigem Tag mit Herode und Pilato zu?",
+      "Was machte darauf Pilatus vor Anstalt?",
+      "Was war zu Jerusalem vor eine Gewohnheit wegen der Gefangenen?",
+      "Was hatte Pilatus vor einen andern Gefangenen?",
+      "Was that Pilatus dem Volke vor einen Vorschlag?",
+      "Was gab das Volk zur Antwort?",
+      "Was fragte Pilatus weiter?",
+      "Was erhub sich vor ein Geschrey darauf?",
+      "Was ließ Pilato seine Frau sagen?",
+      "Was ließ sie vor eine Ursache dabey melden?",
+      "Wie giengen sie unterdessen mit dem HErrn JEsu zu Wercke?",
+      "Was that Pilatus mit JEsu, als er gegeisselt war?",
+      "Wurden denn die Jüden dadurch nicht zum Mitleiden bewogen?",
+      "Was war denn Pilati eigentliches Absehen mit JEsu?",
+      "Aber liessen es die Jüden geschehen?",
+      "Was war Pilati letzte Frage an das Volk?",
+      "Und was gaben die Jüden zur Antwort?",
+      "Wie bezeigte Pilatus seine Unschuld?",
+      "Wer nahm denn die Schuld auf sich?",
+      "Wie lief es endlich mit den beyden Gefangenen ab?"
+    ],
+    "teachings": [
+      "I. JEsus ward in der Nacht von einem Orte zum andern geführet.\nDas mögen sich alle Nacht-Raben merken, und dabey bedenken, daß sie mit ihrer Nacht-Schwärmerey dem HErrn JEsu eine so unruhige Nacht verursachet haben.",
+      "II. Wie Pilatus fragte: was er mit JEsu machen solte, so rief das Volk mit vollem Halse: Creutzige ihn, creutzige ihn.\nDa siehet man die Wankelmüthigkeit des gemeinen Pöbels: Am Palm-Sonntage sang das Volk ein Hosianna; am guten Freytage aber gehet das Lied aus einem ganz andern Tone.",
+      "III. Barrabas wird losgegeben; und JEsus wird ans Creutz geschlagen.\nDas war ja wohl ein ungerechtes Urtheil! Barrabas hatte Leute todt geschlagen, davor ward ihm das Leben geschenket: und JEsus hatte Todten lebendig gemacht, davor ward ihm der Tod zuerkannt."
+    ],
+    "reflection": "Ach seht doch / welch ein Mensch! das war Pilati Stimme /\nAls JEsus blutig war nach seiner Geisselung:\nDoch das verstockte Volk fuhr fort in seinem Grimme /\nUnd drang ohn Unterlaß nur auf die Creutzigung.\nO JEsu! laß mich dich in der Gestalt erblicken /\nWenn mir der Tod einmal die Augen wird zudrücken!",
+    "latin": "ECCE HOMO! Pilati vox est, ubi mille cruentis\nVulneribus Christus conspiciendus erat:\nNon tamen hoc dicto plebs indurata movetur,\nContinuo repetit sed crucifige suum.\nO utinam effigies appareat ista cruenta\nAnte meos oculos, cum moriturus ero!",
+    "editorial_notes": "Narrative marker 32 omitted in print; supplied before Denn sie hätte to correspond to printed question 32.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 42,
+      "teachings": 3
+    }
   }
 };
