@@ -3865,5 +3865,51 @@ export const german1768 = {
       "questions": 24,
       "teachings": 3
     }
+  },
+  "76": {
+    "title": "Von der Enthauptung Johannis des Täufers.",
+    "reference": "Matth. XIV. und Marc. VI. Capitel.",
+    "pages": [
+      417,
+      418,
+      419,
+      420
+    ],
+    "printed": "241–244",
+    "narrative": "1. Der König Herodes hielt Johannem den Täuffer vor einen frommen und heiligen Mann. 2. Deswegen furchte er sich vor ihm, hörte ihn gerne, und gehorchte ihm in vielen Stücken. 3. Es hatte aber Herodes eine Gemahlin, die hieß Herodias, und die war seines Bruders Philippi Weib gewesen. 4. Da sagte nun Johannes zu Herode: Es ist nicht recht, daß du deines Bruders Weib hast. 5. Die Königin warf deswegen eine grosse Ungnade auf ihn, und wolte ihn durchaus todt haben. 6. Sie brachte es auch bey dem Könige dahin, daß er Johannem greiffen, und ins Gefängniß bringen ließ. 7. Ja Herodes hätte ihn seiner Gemahlin zu gefallen gar tödten lassen, wenn er sich nicht vor dem Volke gefürchtet hätte, welches ihn vor einen Propheten hielt. 8. Endlich begieng Herodes seinen Jahres-Tag, und gab ein grosses Abendmal. 9. Da tanzte die Tochter des Herodias vor dem Könige. 10. Das gefiel sowohl Herodi, als denen die zu Tische sassen, aus der massen wohl. 11. Da sprach der König zu dem Mägdlein: Bitte von mir, was du wilt, ich will dirs geben. 12. Er schwur auch darzu, daß er ihre Bitte erfüllen wolte, und wenns auch die Helfte seines Königreichs beträffe. 13. Sie gieng hierauf zu ihrer Mutter hinaus, und fragte, was sie bitten solte. 14. Bittet das Haupt Johannis des Täuffers. 15. Das Mägdlein kam wieder, und sagte: Herodes solte ihr gleich jetzo das Haupt Johannis des Täuffers auf einer Schüssel geben. 16. Der König ward zwar darüber betrübet, aber um des Eides willen, und um derer willen, die zu Tische sassen, wolte er sie nicht lassen eine Fehl-Bitte thun. 17. Also gieng der Henker hin, und enthauptete Johannem im Gefängniß, und brachte das Haupt auf einer Schüssel. 18. Das Mägdlein nahm das Haupt Johannis, und brachte es ihrer Mutter. 19. Die Jünger Johannis aber begruben seinen Cörper.",
+    "questions": [
+      "Was hielt Herodes vom Johanne dem Täuffer?",
+      "Aber that Herodes auch nach Johannis seiner Lehre?",
+      "In was vor Blut-Schande lebte Herodes?",
+      "Schwieg denn Johannes darzu stille?",
+      "Wie nahm solches die Königin Herodias auf?",
+      "Worzu brachte sie den König Herodes?",
+      "Ließ Herodes Johannem nicht alsobald tödten?",
+      "Was ward denn vor ein groß Fest bey Hofe gehalten?",
+      "Wer tanzte vor den Gästen?",
+      "Wie gefiel es den Zuschauern?",
+      "Was that Herodes dem Mägdlein vor eine Gnade?",
+      "Was that der König zugleich vor einen Schwur?",
+      "Wen fragte das Mägdlein um Rath?",
+      "Was gab ihr die Mutter vor einen Anschlag?",
+      "Warum bat also das Mägdlein?",
+      "Was sagte Herodes zu dieser Bitte?",
+      "Wie giengs also Johanni dem Täuffer?",
+      "Wo blieb das Haupt Johannis?",
+      "Wo blieb aber sein Cörper?"
+    ],
+    "teachings": [
+      "I. Grosse Herrn können GOttes Gebot nicht aufheben.\nHerodes war ein König; deswegen blieb es gleichwohl unrecht, daß er seines Bruders Gemahlin zur Ehe genommen hatte.",
+      "II. Die Diener GOttes müssen die Wahrheit sagen, es mag auch kosten was es will.\nDas that Johannes der Täuffer, welcher seinen Kopff gar wohl hätte behalten können, wenn er den Mantel nach dem Winde hätte hängen wollen.",
+      "III. Sirach hat wohl recht gesagt: Wer offte schwöret, der sündiget offte.\nDurch einen Schwur kam Herodes in einen schweren Stand, daß er entweder einen Meineid, oder einen Mord begehen mußte."
+    ],
+    "reflection": "Johannes predigt scharf; Herodes hört ihn gerne /\nUnd vieles was er sagt / das thut er in der That:\nIndessen bleibt er doch vom Reiche GOttes ferne.\nWie kömmts denn / daß er nicht an GOtt geglaubet hat?\nDas machts / Herodes war aus GOtt nicht neu gebohren /\nDeswegen war an ihm auch Hopf und Malz verlohren.",
+    "latin": "Herodes audit patienter verba Johannis,\nEt servat sancti dogmata sæpe viri.\nSed cur Christus eum compellat nomine vulpis?\nEt cur non veram concipit ille fidem?\nIn promptu causa est: quia noluit esse renatus,\nErgo spes etiam nulla salutis erat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 19,
+      "teachings": 3
+    }
   }
 };

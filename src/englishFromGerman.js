@@ -3947,5 +3947,52 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "76": {
+    "title": "Of the Beheading of John the Baptist.",
+    "reference": "Matthew 14; Mark 6.",
+    "pages": [
+      417,
+      418,
+      419,
+      420
+    ],
+    "printed": "241–244",
+    "narrative": "1. King Herod regarded John the Baptist as a godly and holy man. 2. Therefore he feared him, heard him gladly, and obeyed him in many matters. 3. But Herod had a wife called Herodias, who had been the wife of his brother Philip. 4. Now John said to Herod: It is not right that thou hast thy brother's wife. 5. On this account the queen conceived great displeasure against him and was determined to have him dead. 6. She also prevailed upon the king to have John seized and brought into prison. 7. Indeed, Herod would even have had him killed to please his wife, had he not feared the people, who held him to be a prophet. 8. At last Herod celebrated his birthday and gave a great supper. 9. Then the daughter of Herodias danced before the king. 10. This pleased both Herod and those seated at table exceedingly well. 11. Then the king said to the maiden: Ask of me what thou wilt, and I will give it thee. 12. He also swore that he would fulfill her request, even if it concerned half his kingdom. 13. Thereupon she went out to her mother and asked what she should request. 14. Ask for the head of John the Baptist. 15. The maiden returned and said that Herod should give her at once the head of John the Baptist upon a platter. 16. The king was indeed grieved at this, but for the sake of the oath and of those seated at table, he would not let her request be refused. 17. So the executioner went and beheaded John in prison and brought the head upon a platter. 18. The maiden took John's head and brought it to her mother. 19. But John's disciples buried his body.",
+    "questions": [
+      "What did Herod think of John the Baptist?",
+      "But did Herod also act according to John's teaching?",
+      "In what incestuous relationship did Herod live?",
+      "Did John then remain silent about it?",
+      "How did Queen Herodias receive this?",
+      "What did she induce King Herod to do?",
+      "Did Herod not have John killed at once?",
+      "What great feast was held at court?",
+      "Who danced before the guests?",
+      "How did the spectators like it?",
+      "What favor did Herod grant the maiden?",
+      "What oath did the king also swear?",
+      "Whom did the maiden ask for counsel?",
+      "What plan did her mother suggest?",
+      "For what then did the maiden ask?",
+      "What did Herod say to this request?",
+      "What thus befell John the Baptist?",
+      "What became of John's head?",
+      "But what became of his body?"
+    ],
+    "teachings": [
+      "I. Great lords cannot annul God's commandment.\nHerod was a king; nevertheless it remained wrong that he had taken his brother's wife in marriage.",
+      "II. God's servants must speak the truth, whatever it may cost.\nJohn the Baptist did this, though he could very well have kept his head had he been willing to trim his sails to the wind.",
+      "III. Sirach rightly said: He who swears often sins often.\nThrough an oath Herod came into a difficult position, in which he had to commit either perjury or murder."
+    ],
+    "reflection": "John preaches sternly; Herod hears him gladly,\nAnd much of what he says Herod actually does;\nYet he remains far from the kingdom of God.\nHow then is it that he did not believe in God?\nThe reason is that Herod was not born anew of God;\nTherefore all effort on him was wasted.",
+    "latin": "Herodes audit patienter verba Johannis,\nEt servat sancti dogmata sæpe viri.\nSed cur Christus eum compellat nomine vulpis?\nEt cur non veram concipit ille fidem?\nIn promptu causa est: quia noluit esse renatus,\nErgo spes etiam nulla salutis erat.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 19,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
