@@ -4468,5 +4468,66 @@ export const englishFromGerman = {
       "questions": 12,
       "teachings": 3
     }
+  },
+  "88": {
+    "title": "How Jesus Raised Lazarus from the Dead",
+    "reference": "John, chapter XI.",
+    "narrative": "1. At Bethany there lay a sick man named Lazarus. 2. He had two sisters, one called Mary and the other Martha. 3. The Lord Jesus knew the three siblings and loved them. 4. Then his sisters sent to Jesus and had him told: Lord, he whom you love is sick. 5. Jesus said: The sickness is not unto death, but for the glory of God, that the Son of God may thereby be glorified. 6. But he did not go there, but remained two more days in the place where he was. 7. Not long thereafter Jesus said to his disciples: Lazarus our friend sleeps. 8. Then the disciples said: Lord, if he sleeps, he will get better. 9. But Jesus told them plainly: Lazarus has died; let us go to him. 10. When Jesus came to Bethany, Lazarus had already lain four days in the grave. 11. But many Jews had come to Mary and Martha, who comforted them concerning their brother. 12. Now when Jesus came, Martha went to meet him, but Mary remained sitting at home. 13. Then Martha said to Jesus: Lord, had you been here, my brother would not have died. 14. But I still know that whatever you ask of God will be given you. 15. Jesus says to her: Your brother shall rise again. 16. Martha said: I know well that he will rise again on the last day. 17. Then Jesus uttered the beautiful saying: I am the resurrection and the life; whoever believes in me shall live, though he die; for whoever lives and believes in me shall never die. 18. When Christ had spoken this, he said to Martha: Do you believe this? 19. Martha answered: Yes, Lord, I believe that you are Christ, the Son of God, who has come into the world. 20. And when she had said this, she went and called her sister Mary secretly and said: The Master is here and calls you. 21. When she heard this, she rose quickly and came to Jesus. 22. The Jews who had come to comfort her followed her, for they thought she would go to the grave and weep there. 23. When Mary saw Jesus, she fell at his feet and said: Lord, had you been here, my brother would not have died. 24. Now when Jesus saw that she wept and the other people also wept, he was deeply moved in spirit and troubled himself. 25. Thereupon Jesus asked: Where have you laid him? 26. They answered: Come and see. 27. And the Lord Jesus' eyes overflowed. 28. Then the Jews said: See how he loved him! 29. But some said: Could not he who opened the blind man's eyes also have brought it about that this man should not die? 30. When he came to the grave, he ordered the stone to be lifted away. 31. Then Martha said: Lord, he already stinks, for he has lain there four days. 32. But Jesus said to Martha: Have I not told you that if you could believe, you should see the glory of God? 33. When the stone had been rolled away, the Lord Jesus first offered his prayer to his heavenly Father. 34. When this had been done, he cried out in a loud voice: Lazarus, come forth. 35. And the dead man came forth, bound with grave cloths on hands and feet, and his face covered with a cloth. 36. Jesus said: Unbind him and let him go. 37. Now many of the Jews who saw this believed in the Lord Jesus. 38. But some went to the Pharisees and told them what Jesus had done. 39. From that day on the Pharisees deliberated how they might kill Jesus. 40. When they also heard that everyone wanted to see the risen Lazarus, they resolved to kill Lazarus too.",
+    "questions": [
+      "Who lay sick at Bethany?",
+      "What were his sisters called?",
+      "Did the Lord Jesus know them?",
+      "What did the two sisters have him told?",
+      "What did Jesus judge concerning the sickness?",
+      "Did he then go immediately to Bethany?",
+      "What did Jesus meanwhile say to his disciples about Lazarus?",
+      "What did the disciples think of it?",
+      "But how did Jesus explain the sleep?",
+      "When did the Savior finally come to Bethany?",
+      "Who was with the two sisters?",
+      "How did the sisters receive him?",
+      "What did Martha say to Jesus?",
+      "What did Martha believe besides?",
+      "What did Jesus say to Martha?",
+      "What did Martha answer concerning the resurrection?",
+      "What beautiful saying concerning the resurrection did Jesus then utter?",
+      "What did Jesus wish to know from Martha?",
+      "What confession did Martha make?",
+      "What did Martha say secretly to her sister Mary?",
+      "What did Mary do then?",
+      "What did the people think of this?",
+      "What did Mary say when she saw Jesus?",
+      "How did Jesus behave when he saw and heard the weeping?",
+      "What did Jesus ask about?",
+      "What answer did they give him?",
+      "How did the Lord Jesus feel at this?",
+      "What did the Jews conclude from the tears of the Lord Jesus?",
+      "What did others think of the matter?",
+      "What did he command at the grave?",
+      "What did Martha say of the corpse?",
+      "How did Jesus strengthen her in her faith?",
+      "What did Jesus do when the grave was opened?",
+      "How did he finally call to the dead man?",
+      "What happened to the dead man?",
+      "What did Jesus command?",
+      "What fruit did this bear among the Jews?",
+      "But what did the others do?",
+      "What did the Pharisees deliberate about this?",
+      "And what did they intend to do with Lazarus?"
+    ],
+    "teachings": [
+      "I. The Lord Christ loved the three siblings, Lazarus, Mary, and Martha.\nIt follows that they must have lived peaceably and agreeably with one another, which is otherwise something rare among siblings.",
+      "II. The Lord Christ said: Lazarus our friend sleeps, although he was already dead.\nAh, indeed, death for the pious is only a gentle sleep from which they will soon awaken to eternal life.",
+      "III. The Lord Christ asked Martha about her faith and received a correct answer from her.\nThus we too should be ready to answer anyone who demands a reason for our Christianity."
+    ],
+    "reflection": "Four days had passed since Lazarus was buried,\nYet when Jesus calls him, he must rise.\nAh! If there are still people who have a doubt,\nMay they go with me to this grave!\nFor me at least no scruple shall remain,\nFor Lazarus teaches me to believe in the resurrection.",
+    "latin": "Lazarus ad vitam, Christo revocante, resurgit,\nEtsi quatriduo jam putrefactus erat.\nAccedat quivis mortalis ad hocce sepulchrum,\nSi quis defunctos surgere posse negat.\nUt dubitent omnes, ego non dubitabo, sed aures\nVox semper feriet, LAZARE SVRGE, meas.",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 40,
+      "teachings": 3
+    }
   }
 };

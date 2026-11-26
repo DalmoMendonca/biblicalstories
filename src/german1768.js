@@ -4392,5 +4392,73 @@ export const german1768 = {
       "questions": 12,
       "teachings": 3
     }
+  },
+  "88": {
+    "title": "Wie JEsus Lazarum von den Todten auferwecket hat.",
+    "reference": "Joh. XI. Capitel.",
+    "pages": [
+      468,
+      471,
+      472,
+      473,
+      474
+    ],
+    "printed": "270–274",
+    "narrative": "1. Zu Bethania lag einer krank, mit Namen Lazarus. 2. Dieser hatte zwey Schwestern, eine hieß Maria, und die andere Martha. 3. Die drey Geschwister kannte der HErr JEsus, und hatte sie lieb. 4. Da sandten seine Schwestern hin zu JEsu, und liessen ihm sagen: HErr, den du lieb hast, der ist krank. 5. JEsus sagte: Die Krankheit ist nicht zum Tode, sondern zur Ehre GOttes, auf daß der Sohn GOttes dadurch geehret werde. 6. Er zog aber nicht hin, sondern blieb noch zwey Tage an dem Orte, da er war. 7. Es währet nicht lange, so sagte JEsus zu seinen Jüngern: Lazarus unser Freund schläft. 8. Da sagten die Jünger: HErr, wenn er schläft, so wird es besser mit ihm. 9. JEsus aber sagte es ihnen frey heraus: Lazarus ist gestorben, laßt uns zu ihm ziehen. 10. Wie JEsus nach Bethanien kam, so hatte Lazarus schon vier Tage im Grabe gelegen. 11. Es waren aber viele Jüden zu Maria und Marta kommen, welche sie trösteten über ihren Bruder. 12. Wie nun JEsus kam, so gieng ihm Martha entgegen; Maria aber blieb zu Hause sitzen. 13. Da sprach Martha zu JEsu: HErr, wärest du hie gewesen, mein Bruder wäre nicht gestorben. 14. Aber ich weiß auch noch, daß, was du bittest von GOtt, das wird dir gegeben. 15. JEsus spricht zu ihr: Dein Bruder soll auferstehen. 16. Martha sprach: Ich weiß wohl, daß er auferstehen wird am jüngsten Tage. 17. Da sagte JEsus den schönen Spruch: Ich bin die Auferstehung und das Leben, wer an mich gläubet, der wird leben, wenn er gleich stürbe: denn wer da lebet und gläubet an mich, der wird nimmermehr sterben. 18. Wie Christus das geredet hatte, so sprach er zu Martha: Gläubest du das? 19. Martha gab zur Antwort: Ja, HErr, ich glaube: daß du bist Christus, der Sohn GOttes, der in die Welt kommen ist. 20. Und da sie das gesagt hatte, gieng sie hin, und rief ihrer Schwester Maria heimlich, und sprach: Der Meister ist da, und ruffet dir. 21. Dieselbe, da sie das hörte, stund sie eilend auf, und kam zu JEsu. 22. Die Jüden, die sie zu trösten kommen waren, folgeten ihr nach: denn sie dachten, sie würde zum Grabe gehen, und daselbst weinen. 23. Wie Maria JEsum sahe, so fiel sie ihm zu den Füssen, und sprach: HErr, wärest du hie gewesen, mein Bruder wäre nicht gestorben. 24. Als JEsus nun sahe, daß sie weinte, und die andern Leute auch weinten, so ergrimmete er im Geiste, und betrübte sich selbst. 25. Darauf fragte JEsus: Wo habt ihr ihn hingelegt? 26. Sie gaben zur Antwort: Komm, und siehe es. 27. Und dem HErrn JEsu giengen die Augen über: 28. Da sagten die Jüden: Siehe, wie hat er ihn so lieb gehabt! 29. Etliche aber sagten: Kunte der, der dem Blinden die Augen aufthat, nicht auch verschaffen, daß dieser nicht stürbe? 30. Wie er nun zum Grabe kam, so hieß er den Stein abheben. 31. Da sagte Martha: HErr, er stinket schon, denn er ist vier Tage gelegen. 32. JEsus aber sprach zu Martha: Habe ich dir nicht gesaget, so du gläuben könntest, du soltest die Herrlichkeit GOttes sehen. 33. Wie der Stein abgewälzet war, so that der HErr JEsus erst sein Gebet zu seinem himmlischen Vater. 34. Wie das geschehen war, so rieff er mit lauter Stimme: Lazare, komm heraus. 35. Und der Todte kam heraus, gebunden mit Grab-Tüchern an Händen und Füssen, und sein Angesicht verhüllet mit einem Schweiß-Tuche. 36. JEsus sprach: Löset ihn auf, und lasset ihn gehen. 37. Viel nun von den Jüden, die das sahen, gläubten an den HErrn JEsum. 38. Etliche aber giengen hin zu den Pharisäern, und sagten ihnen, was JEsus gethan hatte. 39. Von dem Tage an rathschlagten die Pharisäer, wie sie JEsum tödten möchten. 40. Wie sie auch hörten, daß jederman den auferweckten Lazarum sehen wolte, so beschlossen sie auch Lazarum zu tödten.",
+    "questions": [
+      "Wer lag zu Bethania krank?",
+      "Wie hiessen seine Schwestern?",
+      "Kannte sie der HErr JEsus?",
+      "Was liessen ihm die beyden Schwestern sagen?",
+      "Was urtheilte JEsus von der Krankheit?",
+      "Zog er dann gleich hin nach Bethanien?",
+      "Was sagte JEsus unterdessen zu seinen Jüngern von Lazaro?",
+      "Was urtheilten denn die Jünger davon?",
+      "Aber wie erklärte JEsus den Schlaf?",
+      "Wenn kam der Heiland endlich nach Bethanien?",
+      "Wer war bey den beyden Schwestern?",
+      "Wie empfiengen ihn die Schwestern?",
+      "Wie sagte Martha zu JEsu?",
+      "Was gläubte Martha darbey?",
+      "Was sagte JEsus zur Martha?",
+      "Was antwortete Martha wegen der Auferstehung?",
+      "Was sagte JEsus darauf vor einen schönen Spruch von der Auferstehung?",
+      "Was wolte JEsus von der Martha wissen?",
+      "Was legte Martha vor ein Bekänntniß ab?",
+      "Was sagte Martha heimlich zu ihrer Schwester Maria?",
+      "Was that Maria darauf?",
+      "Was gedachte das Volk darbey?",
+      "Was sagte Maria, wie sie JEsum sahe?",
+      "Wie stellte sich JEsus an, als er das Weinen sahe und hörte?",
+      "Wornach fragte JEsus?",
+      "Was gaben sie ihm zur Antwort?",
+      "Wie war dem HErrn JEsu darbey zu muthe?",
+      "Was schlossen die Jüden aus den Thränen des HErrn JEsu?",
+      "Was urtheilten andre von der Sache?",
+      "Was befahl er bey dem Grabe?",
+      "Was sagte Martha von der Leiche?",
+      "Wie stärkte sie JEsus in ihrem Glauben?",
+      "Was that JEsus, wie das Grab geöffnet war?",
+      "Wie rief er endlich dem Todten?",
+      "Was gieng mit dem Todten vor?",
+      "Was befahl JEsus?",
+      "Was fruchtete solches bey den Jüden?",
+      "Aber was thaten die andern?",
+      "Was berathschlageten die Pharisäer hierüber?",
+      "Und was wolten sie mit Lazaro vornehmen?"
+    ],
+    "teachings": [
+      "I. Der HErr Christus hat die drey Geschwister Lazarum, Maria und Martha, lieb gehabt.\nDaraus folget, daß sie friedlich und verträglich mit einander müssen gelebt haben, welches sonsten unter Geschwistern was seltsames ist.",
+      "II. Der HErr Christus sagte: Lazarus unser Freund schläfft; da er doch schon gestorben war.\nAch freylich ist der Tod vor die Frommen nur ein sanfter Schlaf, daraus sie bald zum ewigen Leben auferwachen werden.",
+      "III. Der HErr Christus fragte die Martha um ihren Glauben, und bekam von ihr eine richtige Antwort.\nAlso sollen wir auch bereit seyn zur Verantwortung gegen jedermann, der Grund fordert von unserm Christenthum."
+    ],
+    "reflection": "Vier Tage waren weg / seit Lazarus begraben /\nDoch wie ihm JEsus ruft / so muß er auferstehn.\nAch! wo noch Leute sind / die einen Zweifel haben /\nDie möchten doch mit mir zu diesem Grabe gehn!\nMir soll zum wenigsten kein Scrupel übrig bleiben /\nDenn Lazarus lehrt mich die Auferstehung gläuben /",
+    "latin": "Lazarus ad vitam, Christo revocante, resurgit,\nEtsi quatriduo jam putrefactus erat.\nAccedat quivis mortalis ad hocce sepulchrum,\nSi quis defunctos surgere posse negat.\nUt dubitent omnes, ego non dubitabo, sed aures\nVox semper feriet, LAZARE SVRGE, meas.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 40,
+      "teachings": 3
+    }
   }
 };
