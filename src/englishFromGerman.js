@@ -4406,7 +4406,14 @@ export const englishFromGerman = {
     "expected": {
       "questions": 27,
       "teachings": 3
-    }
+    },
+    "pages": [
+      457,
+      458,
+      459,
+      460
+    ],
+    "printed": "263–266"
   },
   "86": {
     "title": "How Jesus Blessed the Little Children",
@@ -4434,7 +4441,13 @@ export const englishFromGerman = {
     "expected": {
       "questions": 7,
       "teachings": 3
-    }
+    },
+    "pages": [
+      460,
+      463,
+      464
+    ],
+    "printed": "266–268"
   },
   "87": {
     "title": "On Zacchaeus in the Mulberry Tree",
@@ -4467,7 +4480,12 @@ export const englishFromGerman = {
     "expected": {
       "questions": 12,
       "teachings": 3
-    }
+    },
+    "pages": [
+      464,
+      467
+    ],
+    "printed": "268–269"
   },
   "88": {
     "title": "How Jesus Raised Lazarus from the Dead",
@@ -4528,6 +4546,14 @@ export const englishFromGerman = {
     "expected": {
       "questions": 40,
       "teachings": 3
-    }
+    },
+    "pages": [
+      468,
+      471,
+      472,
+      473,
+      474
+    ],
+    "printed": "270–274"
   }
 };
