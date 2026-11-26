@@ -2976,5 +2976,44 @@ export const englishFromGerman = {
       "III. Good advocates are very useful people in the commonwealth.\nHad Daniel not defended the chaste Susanna before the court, she would have been executed innocently."
     ],
     "reflection": "Susanna was indeed sentenced to lose her life,\nWhen a cursed pair bore false witness;\nYet such injustice was avenged through Daniel,\nAnd in the end it went badly with these witnesses.\nAh God! May your eighth commandment stand before my eyes,\nAnd may no lie proceed from my mouth."
+  },
+  "53": {
+    "pages": [
+      319,
+      320,
+      323
+    ],
+    "printed": "189–191",
+    "latin": "Zacharias, testante Deo, pietatis amator,\nImpia nec conjux Elisabetha fuit.\nConjugium felix, omnique ex parte beatum,\nCum conjux vitam ducit uterque piam.\nSancte Deus! quondam mihi si ducenda sit uxor,\nConjux, quæso! viro sit pia juncta pio.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german",
+    "title": "Of the Priest Zacharias.",
+    "reference": "Luke, chapter I.",
+    "narrative": "1. Shortly before the birth of Christ there lived an old priest named Zacharias. 2. His wife was named Elisabeth, of the priestly family of Aaron. 3. Both these people were godly before God and walked blamelessly in all the commandments and ordinances of the Lord. 4. But their household cross consisted in this, that they had no children. 5. Since they were both advanced in age, they had naturally none to hope for. 6. Now when this Zacharias once offered sacrifice in the temple, the angel Gabriel appeared to him. 7. Zacharias was so alarmed at this that great fear came upon him. 8. But the angel said to him: Fear not, Zacharias, your prayer is heard. 9. And your wife Elisabeth will bear you a son, whose name you shall call John. 10. Zacharias said: By what shall I know this? For I am old, and my wife is advanced in age. 11. The angel said to him: You shall become mute and not speak until the day on which this shall come to pass. 12. He did indeed go out of the temple mute and did not regain his speech until his son John was born to him.",
+    "questions": [
+      "When did the priest Zacharias live?",
+      "What sort of wife had he?",
+      "How did these two people live together?",
+      "But what did their household cross consist in?",
+      "Had they no hope of having children?",
+      "What apparition did Zacharias have meanwhile?",
+      "How did the man feel at this?",
+      "What comfort did the angel give him?",
+      "And what assurance did he give him?",
+      "What did Zacharias say to this?",
+      "What sign did the angel give him?",
+      "Did this sign also come to pass?"
+    ],
+    "teachings": [
+      "I. A godly priest and a godly priest's wife are indeed very well suited to each other.\nZacharias and Elisabeth present such a beautiful couple to our eyes; both were godly before God.",
+      "II. Godly spouses are not readily without a household cross.\nThus Zacharias and Elisabeth had no children together and therefore sent many a sigh to God in heaven.",
+      "III. Godly people too are sometimes weak in faith.\nThe priest Zacharias would not give credence to the angel until he gave him a sign."
+    ],
+    "reflection": "They were both godly: the Bible bears this testimony\nTo Zacharias and to Elisabeth.\nAh, surely marriage does not turn out badly\nWhen husband and wife walk together in God's ways.\nShould I too, dearest God, one day be married,\nGrant that godly and godly may choose one another."
   }
 };

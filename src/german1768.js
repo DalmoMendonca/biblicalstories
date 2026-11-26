@@ -2917,5 +2917,43 @@ export const german1768 = {
       "III. Gute Advocaten sind sehr nützliche Leute im gemeinen Wesen.\nHätte Daniel nicht die keusche Susanna vor Gerichte vertheidiget, so wäre sie unschuldiger Weise hingerichtet worden."
     ],
     "reflection": "Es ward Susannen zwar das Leben abgesprochen /\nAls ein verfluchtes Paar ein falsches Zeugniß gab:\nAllein solches Unrecht ward durch Daniel gerochen /\nUnd endlich lief es schlecht mit diesen Zeugen ab.\nAch GOTT! dein acht Gebot soll mir vor Augen stehen /\nUnd keine Lügen soll aus meinem Munde gehen."
+  },
+  "53": {
+    "pages": [
+      319,
+      320,
+      323
+    ],
+    "printed": "189–191",
+    "latin": "Zacharias, testante Deo, pietatis amator,\nImpia nec conjux Elisabetha fuit.\nConjugium felix, omnique ex parte beatum,\nCum conjux vitam ducit uterque piam.\nSancte Deus! quondam mihi si ducenda sit uxor,\nConjux, quæso! viro sit pia juncta pio.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 12,
+      "teachings": 3
+    },
+    "title": "Vom Priester Zacharia",
+    "reference": "Luc. I. Capitel.",
+    "narrative": "1. Kurz vor der Geburt Christi lebte ein alter Priester, mit Namen Zacharias. 2. Dessen Frau hieß Elisabeth, aus dem priesterlichen Geschlechte Aarons. 3. Diese Leute waren beyde fromm vor GOtt, und giengen in allen Geboten und Satzungen des HErrn untadelich. 4. Ihr Haus-Creutz aber bestund darinnen, daß sie keine Kinder hatten. 5. Weil sie auch beyde betaget waren, so hatten sie natürlicher Weise keine zu hoffen. 6. Wie nun dieser Zacharias einst im Tempel opfferte, so erschien demselben der Engel Gabriel. 7. Darüber erschrack Zacharias, daß ihm eine grosse Furcht ankam. 8. Der Engel aber sprach zu ihm: Fürchte dich nicht, Zacharia, dein Gebet ist erhöret. 9. Und dein Weib Elisabeth wird dir einen Sohn gebähren, deß Namen solt du Johannes heissen. 10. Zacharias sagte: Worbey soll ich das erkennen? denn ich bin alt, und mein Weib ist betaget. 11. Der Engel sprach zu ihm: Du solt verstummen, und nicht reden, bis auf den Tag, da solches geschehen wird. 12. Er gieng auch stumm aus dem Tempel, und bekam die Sprache nicht eher, bis ihm sein Sohn Johannes gebohren ward.",
+    "questions": [
+      "Wenn lebte der Priester Zacharias?",
+      "Was hatte derselbe vor eine Frau?",
+      "Wie lebten diese zwey Leute mit einander?",
+      "Aber worinnen bestund ihr Haus-Creutz?",
+      "Hatten sie keine Hoffnung Kinder zu kriegen?",
+      "Was hatte Zacharias unterdessen vor eine Erscheinung?",
+      "Wie war dem Manne darbey zu muthe?",
+      "Was gab ihm der Engel vor einen Trost?",
+      "Und was gab er ihm vor eine Versicherung?",
+      "Was sagte Zacharias darzu?",
+      "Was gab ihm der Engel vor ein Zeichen?",
+      "Hat dieses Zeichen auch eingetroffen?"
+    ],
+    "teachings": [
+      "I. Ein frommer Priester, und eine fromme Priester-Frau schicken sich doch gar wohl zusammen.\nEin solch schönes Paar stellet uns Zacharias und Elisabeth vor die Augen, die waren beyde fromm vor GOtt.",
+      "II. Fromme Ehe-Gatten sind nicht leichtlich ohne Haus-Creutz.\nAlso hatten Zacharias und Elisabeth keine Kinder mit einander, und schickten deswegen manchen Seuffzer zu GOtt gen Himmel.",
+      "III. Die frommen Leute sind bisweilen auch schwach im Glauben.\nDer Priester Zacharias wolte dem Engel nicht eher Glauben zustellen, bis er ihm ein Zeichen gab."
+    ],
+    "reflection": "Sie waren beyde fromm: Diß Zeugniß legt die Bibel\nDem Zacharia bey / und der Elisabeth.\nAch da geräth ja wohl der Ehestand nicht übel /\nWenn Mann und Weib zugleich auf GOttes Wegen geht.\nSoll ich mich / liebster GOtt! auch dermahleinst vermählen /\nSo gib / daß fromm und fromm einander mag erwählen."
   }
 };
