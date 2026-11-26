@@ -4046,5 +4046,46 @@ export const german1768 = {
       "questions": 14,
       "teachings": 3
     }
+  },
+  "80": {
+    "title": "Von der Verklärung Christi auf dem Berge Thabor.",
+    "reference": "Matth. XVII. Marc. IX. und Luc. IX. Capitel.",
+    "pages": [
+      435,
+      436,
+      439
+    ],
+    "printed": "251–253",
+    "narrative": "1. Der HErr JEsus gieng auf einen hohen Berg und betete. 2. Er nahm aber zu sich Petrum, Jacobum und Johannem. 3. Da nun JEsus betete, so ward die Gestalt seines Angesichtes ganz anders. 4. Denn sein Angesicht leuchtete wie die Sonne, 5. und seine Kleider wurden so weiß als ein Licht, daß sie kein Färber auf Erden so weiß machen könnte. 6. Und siehe, da erschienen Moses und Elias mit Klarheit. 7. Und sie redten mit JEsu von dem Ausgange, welchen er solte erfüllen zu Jerusalem. 8. Petrus aber, und die mit ihm waren, die waren voll Schlafs. 9. Da sie aber aufwachten, sahen sie die Klarheit des HErrn JEsu. 10. Und Petrus sprach: HErr, hier ist gut seyn wilt du, so wollen wir drey Hütten machen, dir eine, Mosi eine, und Eliä eine; und wuste nicht, was er redte. 11. Da er noch also redet, da überschattete sie eine lichte Wolke. 12. Und siehe eine Stimme erschallte aus der Wolken, die sprach: Diß ist mein lieber Sohn, an welchem ich Wohlgefallen habe, den solt ihr hören. 13. Da das die Jünger hörten, fielen sie auf ihr Angesicht, und erschracken sehr. 14. JEsus aber trat zu ihnen, rührte sie an, und sprach: Stehet auf, und fürchtet euch nicht. 15. Da sie aber ihre Augen aufhuben, sahen sie niemand, den JEsum alleine.",
+    "questions": [
+      "Wo gieng JEsus hin zu beten?",
+      "Wie viel Jünger nahm er mit sich?",
+      "Was trug sich unter dem Gebete zu?",
+      "Wie sahe denn sein Angesicht aus?",
+      "Und was hatten seine Kleider vor eine Farbe?",
+      "Was liessen sich vor zwey Männer sehen?",
+      "Was redte Moses und Elias mit JEsu?",
+      "Was machten die Jünger unterdessen?",
+      "Was sahen sie, wie sie aufwachten?",
+      "Was sagte der schlaf-trunkene Petrus?",
+      "Womit wurden sie überschattet?",
+      "Was ließ sich vor eine Stimme hören?",
+      "Wie war den Jüngern darbey zu muthe?",
+      "Wer tröstete die Jünger?",
+      "Wie liefs endlich mit der Verklärung ab?"
+    ],
+    "teachings": [
+      "I. Bey der Verklärung Christi waren Moses und Elias zugegen.\nSo muß denn gewiß nach diesem Leben noch ein ander Leben seyn, weil diese beyden Männer noch lebten, die doch seit viel hundert Jahren nicht auf Erden gewesen waren.",
+      "II. Petrus kannte Mosen und Eliam, ob er sie gleich vorhero nie gesehen hatte.\nDaraus folget mit grosser Wahrscheinlichkeit, daß die Auserwählten im ewigen Leben einander ganz eigentlich kennen werden.",
+      "III. Dieser Moses und Elias erschienen in Klarheit.\nAlso wird GOtt auch dermaleins unsern nichtigen Leib verklären, daß er ähnlich werde seinem verklärten Leibe."
+    ],
+    "reflection": "Als wie der Sonnen-Glanz / so glänzt dein Angesichte /\nWie du / mein Heiland / dich verkläret sehen läßt:\nSo offt ich meinen Sinn zum Berge Thabor richte /\nSo denk ich / wärest du doch auch darbey gewest!\nAuf Erden wird mir wohl die Gnade nicht geschehen /\nDort aber will ich dich in deiner Klarheit sehen.",
+    "latin": "Sicut sol, facies JESU splendebat in alto\nMonte Thabor, quando glorificatus erat.\nO utinam mihi tum licuisset cernere JESUM,\nVeste coruscantem candidiore nive!\nSed cernam certe post hujus tempora vitæ,\nQuando cum Christo clarificatus ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    }
   }
 };

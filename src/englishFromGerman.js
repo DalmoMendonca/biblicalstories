@@ -4132,5 +4132,47 @@ export const englishFromGerman = {
       "teachings": 3
     },
     "kind": "new-translation-from-transcribed-german"
+  },
+  "80": {
+    "title": "Of the Transfiguration of Christ on Mount Tabor.",
+    "reference": "Matthew XVII, Mark IX and Luke IX.",
+    "pages": [
+      435,
+      436,
+      439
+    ],
+    "printed": "251–253",
+    "narrative": "1. The Lord Jesus went up a high mountain and prayed. 2. But he took Peter, James and John with him. 3. Now as Jesus prayed, the appearance of his face became altogether different. 4. For his face shone like the sun, 5. and his garments became as white as light, so that no dyer on earth could make them so white. 6. And behold, Moses and Elijah appeared in glory. 7. And they spoke with Jesus of the departure which he was to accomplish at Jerusalem. 8. But Peter and those with him were heavy with sleep. 9. When they awoke, they saw the glory of the Lord Jesus. 10. And Peter said: Lord, it is good to be here; if you wish, we will make three tabernacles, one for you, one for Moses and one for Elijah; and he did not know what he was saying. 11. While he was still speaking thus, a bright cloud overshadowed them. 12. And behold, a voice sounded out of the cloud, saying: This is my beloved Son, in whom I am well pleased; you shall hear him. 13. When the disciples heard this, they fell upon their faces and were greatly afraid. 14. But Jesus came to them, touched them and said: Rise, and do not fear. 15. But when they lifted up their eyes, they saw no one but Jesus alone.",
+    "questions": [
+      "Where did Jesus go to pray?",
+      "How many disciples did he take with him?",
+      "What happened during the prayer?",
+      "What did his face look like?",
+      "And what color were his garments?",
+      "What two men appeared?",
+      "What did Moses and Elijah discuss with Jesus?",
+      "What were the disciples doing meanwhile?",
+      "What did they see when they awoke?",
+      "What did the sleep-befuddled Peter say?",
+      "With what were they overshadowed?",
+      "What voice was heard?",
+      "How did the disciples feel at this?",
+      "Who comforted the disciples?",
+      "How did the transfiguration finally end?"
+    ],
+    "teachings": [
+      "I. Moses and Elijah were present at the transfiguration of Christ.\nThus there must certainly be another life after this life, since these two men were still alive, although they had not been upon earth for many hundreds of years.",
+      "II. Peter recognized Moses and Elijah although he had never seen them before.\nFrom this it follows with great probability that the elect in eternal life will know one another quite distinctly.",
+      "III. This Moses and Elijah appeared in glory.\nThus God will also one day transfigure our lowly body, that it may become like his glorified body."
+    ],
+    "reflection": "Like the splendor of the sun, so shines your countenance,\nAs you, my Savior, let yourself be seen transfigured:\nAs often as I turn my mind toward Mount Tabor,\nI think: If only you too had been there!\nOn earth this grace will probably not be granted me;\nBut there I shall see you in your glory.",
+    "latin": "Sicut sol, facies JESU splendebat in alto\nMonte Thabor, quando glorificatus erat.\nO utinam mihi tum licuisset cernere JESUM,\nVeste coruscantem candidiore nive!\nSed cernam certe post hujus tempora vitæ,\nQuando cum Christo clarificatus ero.",
+    "source_compared": true,
+    "independent_review": false,
+    "expected": {
+      "questions": 15,
+      "teachings": 3
+    },
+    "kind": "new-translation-from-transcribed-german"
   }
 };
