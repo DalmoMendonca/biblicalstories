@@ -27,7 +27,7 @@ try{
  await desktop.goto(base+"/",{waitUntil:"domcontentloaded"});
  await desktop.locator(".plate").first().waitFor();
  assert.equal(await desktop.locator(".plate").count(),104);
- assert.equal(await desktop.locator(".plate img").first().getAttribute("src"),"/engravings/thumb/001.webp");
+ assert.equal(await desktop.locator(".plate img").first().getAttribute("src"),"/engravings/thumb/001.webp?v=rectified-2");
  await desktop.locator(".plate img").first().evaluate(i=>i.decode());
  await desktop.screenshot({path:"qa/new-index-desktop.jpg",type:"jpeg",quality:82});
  await desktop.locator('[data-filter="new"]').click();

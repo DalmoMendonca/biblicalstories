@@ -73,7 +73,7 @@ function setLanguage(lang) {
   render();
 }
 function imageURL(id,thumb=false) {
-  return siteBase+"/engravings/"+(thumb?"thumb/":"")+number(id)+".webp";
+  return siteBase+"/engravings/"+(thumb?"thumb/":"")+number(id)+".webp?v=rectified-2";
 }
 function caption(id) {
   return `<span class="plate-number">${number(id)}</span><span class="plate-title">${esc(title(id))}</span>`;
@@ -227,7 +227,7 @@ function render(){
   const description=w?name+". "+w.reference+{en:" Read Johann Hübner’s illustrated biblical history with comprehension questions, teachings and devotional reflection.",de:" Biblische Historie mit Originalkupferstich, Fragen, Lehren und gottseligen Gedanken.",ru:" Библейская история с гравюрой, вопросами, нравоучениями и размышлениями."}[lang]:intro[lang];
   const path=v==="story"?storyPath(lang,id):v==="about"?editionPath(lang):collectionPath(lang);
   const canonical=origin+path.slice(siteBase.length);
-  const image=origin+"/social/"+lang+"/"+(id?number(id):"cover")+".jpg";
+  const image=origin+"/social/"+lang+"/"+(id?number(id):"cover")+".jpg?v=rectified-2";
   document.title=fullTitle;
   for(const [key,val] of Object.entries({"description":description,"og:title":fullTitle,"og:description":description,"og:url":canonical,"og:image":image,"og:image:alt":name,"og:type":id?"article":"website","og:locale":{en:"en_US",de:"de_DE",ru:"ru_RU"}[lang],"twitter:title":fullTitle,"twitter:description":description,"twitter:image":image,"twitter:image:alt":name})){
     const node=document.querySelector('meta[name="'+key+'"],meta[property="'+key+'"]');if(node)node.content=val;

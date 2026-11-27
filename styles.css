@@ -43,9 +43,9 @@ img{display:block;max-width:100%}
 .plates{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.7vw,43px) clamp(14px,2.5vw,38px);padding:34px 0 105px}
 .plate{min-width:0;margin:0;position:relative}
 .plate-link{display:block;outline-offset:5px}
-.plate-image{width:100%;aspect-ratio:.74;display:block;overflow:hidden;background:#e6e0d4}
-.plate-image img{width:100%;height:100%;object-fit:cover;object-position:center;filter:contrast(1.09) sepia(.08);transition:filter .25s,transform .35s cubic-bezier(.2,.7,.2,1)}
-.plate-link:hover .plate-image img{filter:contrast(1.16) sepia(.02);transform:scale(1.028)}
+.plate-image{width:100%;aspect-ratio:.66;display:block;overflow:hidden;background:transparent}
+.plate-image img{width:100%;height:100%;object-fit:contain;object-position:center;transition:opacity .2s}
+.plate-link:hover .plate-image img{opacity:.88}
 .plate figcaption{display:grid;grid-template-columns:35px 1fr;gap:10px;align-items:baseline;margin-top:13px}
 .plate-number{font:500 11px var(--sans);color:var(--accent);font-variant-numeric:tabular-nums}
 .plate-title{font:450 clamp(16px,1.55vw,24px)/1.18 var(--serif);letter-spacing:-.012em}

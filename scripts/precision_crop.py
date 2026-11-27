@@ -4,7 +4,7 @@ Fit the four OUTER printed frame edges to ink/paper contrast, then locate the
 picture/caption boundary after projective rectification. No guessed rotation
 from scene content, no generated pixels, no forced plate aspect ratio.
 """
-import json, math, hashlib
+import json, math, hashlib, argparse
 from pathlib import Path
 import cv2
 import numpy as np
@@ -82,6 +82,7 @@ def rectify(raw,i):
     # Caption lies below the art and has white paper between the lines of text.
     # Score the actual transverse rule, not a constant width/height ratio.
     inner=gray[:,int(width*.055):int(width*.945)]
+    if i==44:cutoff=.8995  # visually verified transverse rule, not the title lettering
     if cutoff is None:
         candidates=range(round(height*.852),round(height*.948))
         scores=[]
@@ -103,21 +104,28 @@ def rectify(raw,i):
       "full_frame_size":[width,height],"scene_rect":[inset,inset,width-inset,y],
       "method":"visually-anchored-perspective" if i in MANUAL else "outer-ink-paper-frame-perspective",
       "edge_support":{k:round(v[4],3) for k,v in edges.items()},
-      "confidence":round(confidence,3),"manual_coordinates":i in MANUAL,
+      "confidence":round(confidence,3),"manual_coordinates":i in MANUAL,"manual_caption_boundary":i==44 or i in MANUAL,
       "width":scene.shape[1],"height":scene.shape[0],
       "source_original":f"/art/{i:03d}.webp"}
 def main():
     OUT.mkdir(exist_ok=True);(OUT/"thumb").mkdir(exist_ok=True);QA.mkdir(parents=True,exist_ok=True)
-    ledger={};panels=[]
+    parser=argparse.ArgumentParser();parser.add_argument("--only",nargs="+",type=int);args=parser.parse_args()
+    selected=set(args.only or range(1,105))
+    ledger=json.loads((ROOT/"public/data/crop-provenance.json").read_text())["plates"] if args.only else {}
+    panels=[]
     for i in range(1,105):
         name=f"{i:03d}";p=SOURCE/(name+".webp")
         with Image.open(p) as im:raw=np.array(ImageOps.exif_transpose(im).convert("RGB"))
-        scene,rec=rectify(raw,i)
-        pic=Image.fromarray(scene);pic.save(OUT/(name+".webp"),"WEBP",quality=94,method=4)
-        thumb=pic.copy();thumb.thumbnail((600,1000),Image.Resampling.LANCZOS);thumb.save(OUT/"thumb"/(name+".webp"),"WEBP",quality=88,method=4)
-        rec["source_sha256"]=hashlib.sha256(p.read_bytes()).hexdigest()
-        rec["crop_sha256"]=hashlib.sha256((OUT/(name+".webp")).read_bytes()).hexdigest()
-        ledger[str(i)]=rec
+        if i in selected:
+            scene,rec=rectify(raw,i)
+            pic=Image.fromarray(scene);pic.save(OUT/(name+".webp"),"WEBP",quality=94,method=4)
+            thumb=pic.copy();thumb.thumbnail((600,1000),Image.Resampling.LANCZOS);thumb.save(OUT/"thumb"/(name+".webp"),"WEBP",quality=88,method=4)
+            rec["source_sha256"]=hashlib.sha256(p.read_bytes()).hexdigest()
+            rec["crop_sha256"]=hashlib.sha256((OUT/(name+".webp")).read_bytes()).hexdigest()
+            ledger[str(i)]=rec
+        else:
+            rec=ledger[str(i)]
+            with Image.open(OUT/(name+".webp")) as f:pic=f.convert("RGB")
         # Source geometry overlay and the corresponding crop side-by-side.
         rawview=Image.fromarray(raw);d=ImageDraw.Draw(rawview)
         pts=[tuple(v) for v in rec["source_corners"]];d.line(pts+[pts[0]],fill="#e24a30",width=5)

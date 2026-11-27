@@ -58,9 +58,9 @@ def card(l,i=None):
         for line in ls:d.text((x,y),line,font=f,fill=INK);y+=int(f.size*1.06)
         d.text((x,515),"Johann Hübner",font=font(28,True),fill=MUTED)
     else:
-        plate(im,13,(515,44,309,542));plate(im,100,(840,44,309,542))
+        plate(im,13,(495,65,329,500));plate(im,100,(839,65,329,500))
         d.text((x,83),"Johann Hübner",font=font(30,True),fill=MUTED);d.text((x,141),"104",font=font(116),fill=RED)
-        f,ls=fit(d,{"en":"Biblical Histories","de":"Biblische Historien","ru":"Священные истории"}[l],425,2,75);y=270
+        f,ls=fit(d,{"en":"Biblical Histories","de":"Biblische Historien","ru":"Священные истории"}[l],400,2,72);y=270
         for line in ls:d.text((x,y),line,font=f,fill=INK);y+=int(f.size*1.02)
         d.line((x,469,x+60,469),fill=RED,width=3)
         d.text((x,495),{"en":"Original engravings · 1768","de":"Originalkupferstiche · 1768","ru":"Гравюры · 1768"}[l],font=font(25),fill=MUTED)
@@ -78,7 +78,7 @@ def story_body(l,i):
     folios="".join(f'<button type="button" class="folio-btn" data-folio="{i}:{j}" aria-label="Page {e(v["label"])}"><img src="{e(BASE+v["image"])}" alt="Printed German page {e(v["label"])}" loading="lazy" width="500"></button>' for j,v in enumerate(archive[i-1].get("folios",[])))
     prev=f'<a href="{href(l,i-1)}" data-story="{i-1}" aria-label="Previous">←</a>' if i>1 else '<a aria-disabled="true">←</a>'
     nxt=f'<a href="{href(l,i+1)}" data-story="{i+1}" aria-label="Next">→</a>' if i<104 else '<a aria-disabled="true">→</a>'
-    b=f'<div class="story-shell container"><nav class="story-toolbar" aria-label="Story navigation"><a class="back-link" href="{href(l)}" data-route="collection">← {ls[4]}</a><span class="story-progress">{i:03d} / 104</span><div class="story-nav">{prev}{nxt}</div></nav><article class="reader"><div class="reader-art"><figure class="figure-art"><button type="button" class="figure-enlarge" data-zoom="{i}" aria-label="Enlarge engraving"><img src="{BASE}/engravings/{i:03d}.webp" alt="{e(name)}" width="740" height="1130"></button></figure></div><div class="reader-text"><h1 class="chapter-title">{e(name)}</h1><div class="source-content" id="source-content"><div id="story-prose"><div class="edition-prose" lang="{l}"><p class="scripture-reference">{e(w["reference"])}</p><div class="chapter-narrative">{paras(w["narrative"])}</div><section class="reading-section"><h2>{ls[0]}</h2><ol>{q}</ol></section><section class="reading-section"><h2>{ls[1]}</h2>{paras(w.get("teaching_preamble"))}'+''.join("<p>"+verse(t)+"</p>" for t in w["teachings"])+'</section>'
+    b=f'<div class="story-shell container"><nav class="story-toolbar" aria-label="Story navigation"><a class="back-link" href="{href(l)}" data-route="collection">← {ls[4]}</a><span class="story-progress">{i:03d} / 104</span><div class="story-nav">{prev}{nxt}</div></nav><article class="reader"><div class="reader-art"><figure class="figure-art"><button type="button" class="figure-enlarge" data-zoom="{i}" aria-label="Enlarge engraving"><img src="{BASE}/engravings/{i:03d}.webp?v=rectified-2" alt="{e(name)}" width="740" height="1130"></button></figure></div><div class="reader-text"><h1 class="chapter-title">{e(name)}</h1><div class="source-content" id="source-content"><div id="story-prose"><div class="edition-prose" lang="{l}"><p class="scripture-reference">{e(w["reference"])}</p><div class="chapter-narrative">{paras(w["narrative"])}</div><section class="reading-section"><h2>{ls[0]}</h2><ol>{q}</ol></section><section class="reading-section"><h2>{ls[1]}</h2>{paras(w.get("teaching_preamble"))}'+''.join("<p>"+verse(t)+"</p>" for t in w["teachings"])+'</section>'
     b+=f'<section class="reading-section"><h2>{ls[2]}</h2>'+(paras(w["reflection"]) if l=="ru" else '<p class="verse">'+verse(w["reflection"])+'</p>')+'</section>'
     if latin:b+=f'<section class="reading-section"><h2>{e(lt)}</h2><p class="verse" lang="la">{verse(latin)}</p></section>'
     b+='</div></div>'
@@ -88,13 +88,13 @@ def story_body(l,i):
         if 1<=other<=104:b+=f'<span><a href="{href(l,other)}" data-story="{other}">{e(rows[other-1][LANGS.index(l)])}</a></span>'
     return b+'</nav></div>'
 def collection(l):
-    plates="".join(f'<figure class="plate"><a class="plate-link" href="{href(l,i)}" data-story="{i}"><span class="plate-image"><img src="{BASE}/engravings/thumb/{i:03d}.webp" alt="{e(row[LANGS.index(l)])}" loading="{"eager" if i<9 else "lazy"}" width="370" height="585"></span><figcaption><span class="plate-number">{i:03d}</span><span class="plate-title">{e(row[LANGS.index(l)])}</span></figcaption></a></figure>' for i,row in enumerate(rows,1))
+    plates="".join(f'<figure class="plate"><a class="plate-link" href="{href(l,i)}" data-story="{i}"><span class="plate-image"><img src="{BASE}/engravings/thumb/{i:03d}.webp?v=rectified-2" alt="{e(row[LANGS.index(l)])}" loading="{"eager" if i<9 else "lazy"}" width="370" height="585"></span><figcaption><span class="plate-number">{i:03d}</span><span class="plate-title">{e(row[LANGS.index(l)])}</span></figcaption></a></figure>' for i,row in enumerate(rows,1))
     return f'<section class="container catalogue"><div class="catalogue-head"><div><h1 class="catalogue-heading">104 Biblische Historien</h1><p class="catalogue-date">Johann Hübner · 1714</p></div></div><div class="plates" id="plates">{plates}</div></section>'
 def render(l,i=None,edition=False):
     w=records[l].get(str(i));name=rows[i-1][LANGS.index(l)] if i else LABELS[l][5] if edition else NAMES[l]
     title=name+" — Johann Hübner"
     description=name+". "+w["reference"]+{"en":" Read Johann Hübner’s illustrated biblical history with comprehension questions, teachings and devotional reflection.","de":" Biblische Historie mit Originalkupferstich, Fragen, Lehren und gottseligen Gedanken.","ru":" Библейская история с гравюрой, вопросами, нравоучениями и размышлениями."}[l] if i else INTRO[l]
-    canonical=ORIGIN+route(l,i,edition);image=ORIGIN+f"/social/{l}/"+(f"{i:03d}.jpg" if i else "cover.jpg")
+    canonical=ORIGIN+route(l,i,edition);image=ORIGIN+f"/social/{l}/"+(f"{i:03d}.jpg" if i else "cover.jpg")+"?v=rectified-2"
     body=story_body(l,i) if i else f'<section class="container about-page"><h1>Biblische Historien</h1><p>Johann Hübner · 1714</p><p>{e(INTRO[l])}</p><p>Gießen 1768 · Moscow 1825 · Basel 1768</p><a href="{href(l)}">{LABELS[l][4]}</a></section>' if edition else collection(l)
     result=template.replace('<html lang="en">',f'<html lang="{l}">').replace('<main id="main" tabindex="-1"></main>',f'<main id="main" tabindex="-1">{body}</main>')
     result=re.sub(r"<title>.*?</title>","<title>"+e(title)+"</title>",result)
