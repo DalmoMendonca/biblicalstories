@@ -37,7 +37,7 @@ try{
  await desktop.locator("#plate-search").fill("Job");
  assert.equal(await desktop.locator(".plate").count(),1);
  await desktop.locator(".plate-link").first().click();
- assert.match(desktop.url(),/id=43/);
+ assert.match(desktop.url(),/stories\/043\//);
  await desktop.locator(".figure-art img").evaluate(i=>i.decode());
  assert.ok((await desktop.locator(".figure-art img").getAttribute("src")).startsWith("/engravings/"));
  await desktop.locator('[data-lang="de"]').click();
@@ -50,9 +50,9 @@ try{
  await desktop.locator("#lightbox-close").click();
  await desktop.locator('[data-lang="ru"]').click();
  assert.match(await desktop.locator(".chapter-title").textContent(),/Иов/);
- assert.match(desktop.url(),/id=43/);
+ assert.match(desktop.url(),/stories\/043\//);
  await desktop.locator('[data-story="44"]').first().click();
- assert.match(desktop.url(),/id=44/);
+ assert.match(desktop.url(),/stories\/044\//);
  assert.equal(errors.length,0,errors.join("; "));
  console.log("DESKTOP PASSED: 104 original-only images; filters; search; source photographs; 3-language navigation; enlargement; sequential reading.");
 
@@ -127,16 +127,16 @@ try{
      assert.equal(await chapter.locator(".reader a[href^='http']").count(),0,"Reader must not contain outbound source links");
      assert.equal(await chapter.locator(".chapter-title").count(),1);
      assert.ok(await chapter.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),"Reader overflow");
-     assert.ok(chapter.url().includes("id="+id),"Language changed story");
+     assert.ok(chapter.url().includes("/stories/"+String(id).padStart(3,"0")+"/"),"Language changed story");
      console.log("EDITORIAL INTEGRITY PASS",id,lang);
    }
  }
  await chapter.locator("#about-link").click();
- assert.match(chapter.url(),/view=about&id=104/);
+ assert.match(chapter.url(),/edition\/\?id=104/);
  assert.match(await chapter.locator(".edition-record").innerText(),/Basel 1768/);
  assert.ok(await chapter.locator(".edition-record a[href^='http']").count()>0,"Archival links must remain available in Edition");
  await chapter.locator(".edition-record .back-link").click();
- assert.match(chapter.url(),/view=story&id=104/);
+ assert.match(chapter.url(),/stories\/104\//);
  await chapter.close();
 
 }finally{await browser.close();}

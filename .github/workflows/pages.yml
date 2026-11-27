@@ -25,6 +25,7 @@ jobs:
           python-version: '3.11'
       - name: Build independently hosted preview from complete source archive
         run: |
+          python3 -m pip install -r requirements.txt
           BASE_PATH=/biblicalstories python3 scripts/build.py
           python3 - <<'PY'
           import json, pathlib

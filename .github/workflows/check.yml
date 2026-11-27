@@ -8,6 +8,8 @@ on:
       - 'styles.css'
       - 'tests/**'
       - 'scripts/build.py'
+      - 'scripts/seo.py'
+      - 'requirements.txt'
       - 'public/data/archive.json'
       - 'public/folios/**'
       - 'public/texts/**'
@@ -32,6 +34,7 @@ jobs:
       - name: Validate immutable original art and build
         if: hashFiles('public/data/archive.json') != ''
         run: |
+          python3 -m pip install -r requirements.txt
           python3 scripts/build.py
           test -f dist/index.html
           test -f dist/art/001.webp

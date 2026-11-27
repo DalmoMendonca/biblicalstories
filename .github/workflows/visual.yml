@@ -5,6 +5,9 @@ on:
     paths:
       - '.github/workflows/visual.yml'
       - 'scripts/visual.mjs'
+      - 'scripts/seo.py'
+      - 'scripts/build.py'
+      - 'requirements.txt'
       - 'index.html'
       - 'styles.css'
       - 'src/**'
@@ -31,7 +34,11 @@ jobs:
       - name: Verify and build site
         run: |
           npm run check
+          python3 -m pip install -r requirements.txt
           npm run build
+          mkdir -p qa
+          cp dist/social/en/cover.jpg qa/social-cover.jpg
+          cp dist/social/en/100.jpg qa/social-story.jpg
       - name: Install actual Chromium browser
         run: |
           npm install --no-save playwright@1.56.1

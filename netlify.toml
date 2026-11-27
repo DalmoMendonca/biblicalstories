@@ -1,5 +1,5 @@
 [build]
-  command = "python3 scripts/build.py"
+  command = "python3 -m pip install -r requirements.txt && python3 scripts/build.py"
   publish = "dist"
 
 [[headers]]
@@ -31,3 +31,8 @@
 
 [build.environment]
   PYTHON_VERSION = "3.11"
+
+[[headers]]
+  for = "/social/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

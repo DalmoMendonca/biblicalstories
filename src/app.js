@@ -8,6 +8,18 @@ const main = document.querySelector("#main");
 const lightbox = document.querySelector("#lightbox");
 const lightboxImage = document.querySelector("#lightbox-image");
 const languages = ["en","de","ru"];
+const siteBase=new URL("../",import.meta.url).pathname.replace(/\/$/,"");
+const origin="https://biblicalstories.dalmo.ai";
+function route(){
+ const p=location.pathname.slice(siteBase.length).replace(/^\/+|\/+$/g,"").split("/");
+ const q=new URLSearchParams(location.search);
+ if(!p[0]&&q.has("view"))return {view:q.get("view"),lang:null,id:Number(q.get("id"))||null};
+ if(languages.includes(p[0]))return {view:p[1]==="stories"?"story":p[1]==="edition"?"about":"collection",lang:p[0],id:p[1]==="stories"?Number(p[2]):Number(q.get("id"))||null};
+ return {view:"collection",lang:"en",id:null};
+}
+const collectionPath=lang=>siteBase+(lang==="en"?"/":"/"+lang+"/");
+const storyPath=(lang,id)=>siteBase+"/"+lang+"/stories/"+String(id).padStart(3,"0")+"/";
+const editionPath=(lang,id=null)=>siteBase+"/"+lang+"/edition/"+(id?"?id="+id:"");
 const text = {
   en:{all:"All 104",old:"Old Testament",new:"New Testament",search:"Search",back:"All stories",folio:"German source pages · 1768",none:"The historical English text for this story has not yet been transcribed.",edition:"English · Hamburg, 1765",book:"1765 historical edition",original:"Original scan",about:"Edition"},
   de:{all:"Alle 104",old:"Altes Testament",new:"Neues Testament",search:"Suchen",back:"Alle Historien",folio:"Originalseiten",none:"Der historische Text ist noch nicht geprüft und transkribiert.",edition:"Deutsch · Gießen, 1768 · unkorrigierte OCR",book:"Originalausgabe",original:"Originalscan",about:"Edition"},
@@ -23,7 +35,7 @@ const sourceGerman = "https://digi.ub.uni-heidelberg.de/diglit/huebner1768";
 const stored = (key, fallback) => { try{return localStorage.getItem(key) ?? fallback;}catch{return fallback;} };
 const save = (key, value) => { try{localStorage.setItem(key,value);}catch{} };
 const s = {
-  lang: languages.includes(stored("huebner-language","en")) ? stored("huebner-language","en") : "en",
+  lang: route().lang||(languages.includes(stored("huebner-language","en")) ? stored("huebner-language","en") : "en"),
   filter: "all", search: "", plates: [], byId: new Map()
 };
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -32,33 +44,36 @@ const story = id => stories[id-1];
 const title = id => story(id)?.[s.lang] || "";
 const messages = () => text[s.lang];
 const number = n => String(n).padStart(3,"0");
-const url = id => "/?view=story&id="+id;
-const view = () => new URLSearchParams(location.search).get("view") || "collection";
-const idParam = () => Math.min(104,Math.max(1,Number(new URLSearchParams(location.search).get("id"))||1));
+const url = id => storyPath(s.lang,id);
+const view = () => route().view;
+const idParam = () => Math.min(104,Math.max(1,route().id||1));
 
 function updateLanguage(){
   document.documentElement.lang=s.lang;
   document.querySelectorAll("[data-lang]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.lang===s.lang)));
   const about=document.querySelector("#about-link");
   about.textContent=messages().about;
-  const current=view()==="story"||view()==="about"&&new URLSearchParams(location.search).has("id");
-  about.href="/?view=about"+(current?"&id="+idParam():"");
+  const current=view()==="story"||view()==="about"&&route().id;
+  about.href=editionPath(s.lang,current?idParam():null);
+  document.querySelector(".identity").href=collectionPath(s.lang);
   if(current)about.dataset.editionStory=idParam();else delete about.dataset.editionStory;
 }
 function navigate(dest,id=null){
-  const path=dest==="story"?url(id??1):dest==="about"?"/?view=about"+(id?"&id="+id:""):"/";
+  const path=dest==="story"?url(id??1):dest==="about"?editionPath(s.lang,id):collectionPath(s.lang);
   history.pushState({},"",path);
   render();
   scrollTo({top:0,behavior:"instant"});
 }
 function setLanguage(lang) {
   if(!languages.includes(lang)) return;
+  const current=route();
   s.lang=lang;
   save("huebner-language",lang);
+  history.pushState({},"",current.view==="story"?storyPath(lang,idParam()):current.view==="about"?editionPath(lang,current.id):collectionPath(lang));
   render();
 }
 function imageURL(id,thumb=false) {
-  return "/engravings/"+(thumb?"thumb/":"")+number(id)+".webp";
+  return siteBase+"/engravings/"+(thumb?"thumb/":"")+number(id)+".webp";
 }
 function caption(id) {
   return `<span class="plate-number">${number(id)}</span><span class="plate-title">${esc(title(id))}</span>`;
@@ -159,7 +174,7 @@ function renderStory(id){
   const prev=id>1?id-1:null,next=id<104?id+1:null;
   main.innerHTML=`<div class="story-shell container">
     <nav class="story-toolbar" aria-label="Story navigation">
-     <a class="back-link" href="/" data-route="collection"><span aria-hidden="true">←</span>${esc(m.back)}</a>
+     <a class="back-link" href="${collectionPath(s.lang)}" data-route="collection"><span aria-hidden="true">←</span>${esc(m.back)}</a>
      <span class="story-progress">${number(id)} / 104</span>
      <div class="story-nav">
       ${prev?`<a href="${url(prev)}" data-story="${prev}" aria-label="Previous">←</a>`:`<a aria-disabled="true">←</a>`}
@@ -185,7 +200,7 @@ function renderAbout() {
   main.innerHTML=`<section class="container about-page">
   <h1>Biblische Historien</h1>
   <p>Johann Hübner, <em>Zweymal zwey und fünfzig auserlesene Biblische Historien aus dem Alten und Neuen Testamente.</em> First published 1714.</p>
-  ${new URLSearchParams(location.search).has("id")?storyEditionNotes(idParam()):""}
+  ${route().id?storyEditionNotes(idParam()):""}
   <h2>Text witnesses</h2>
   <ul>
   <li><strong>Deutsch</strong><span>Gießen, 1768. Original printed pages and 104 engraved plates. <a href="https://digi.ub.uni-heidelberg.de/diglit/huebner1768" target="_blank" rel="noopener">Universitätsbibliothek Heidelberg ↗</a></span></li>
@@ -203,7 +218,28 @@ function render(){
   if(v==="story")renderStory(idParam());
   else if(v==="about")renderAbout();
   else renderIndex();
-  document.title=(v==="story"?title(idParam())+" · ":"")+"Biblische Historien — Johann Hübner";
+  const lang=s.lang,id=v==="story"?idParam():null;
+  const names={en:"104 Biblical Histories",de:"104 Biblische Historien",ru:"104 Священные истории"};
+  const intro={en:"Read Johann Hübner’s 104 illustrated Bible stories in English, German and Russian, with original 1768 engravings, questions, teachings and devotional reflections.",de:"Johann Hübners 104 biblische Historien mit Originalkupferstichen von 1768, Fragen, Lehren und gottseligen Gedanken. Deutsch, Englisch und Russisch.",ru:"104 библейские истории Иоганна Гюбнера на русском, немецком и английском языках с гравюрами 1768 года, вопросами, нравоучениями и размышлениями."};
+  const w=id?editions[lang][id]:null;
+  const name=id?title(id):v==="about"?messages().about:names[lang];
+  const fullTitle=name+" — Johann Hübner";
+  const description=w?name+". "+w.reference+{en:" Read Johann Hübner’s illustrated biblical history with comprehension questions, teachings and devotional reflection.",de:" Biblische Historie mit Originalkupferstich, Fragen, Lehren und gottseligen Gedanken.",ru:" Библейская история с гравюрой, вопросами, нравоучениями и размышлениями."}[lang]:intro[lang];
+  const path=v==="story"?storyPath(lang,id):v==="about"?editionPath(lang):collectionPath(lang);
+  const canonical=origin+path.slice(siteBase.length);
+  const image=origin+"/social/"+lang+"/"+(id?number(id):"cover")+".jpg";
+  document.title=fullTitle;
+  for(const [key,val] of Object.entries({"description":description,"og:title":fullTitle,"og:description":description,"og:url":canonical,"og:image":image,"og:image:alt":name,"og:type":id?"article":"website","og:locale":{en:"en_US",de:"de_DE",ru:"ru_RU"}[lang],"twitter:title":fullTitle,"twitter:description":description,"twitter:image":image,"twitter:image:alt":name})){
+    const node=document.querySelector('meta[name="'+key+'"],meta[property="'+key+'"]');if(node)node.content=val;
+  }
+  const link=document.querySelector('link[rel="canonical"]');if(link)link.href=canonical;
+  for(const code of [...languages,"x-default"]){
+    const target=code==="x-default"?"en":code;
+    const a=document.querySelector('link[hreflang="'+code+'"]');
+    if(a)a.href=origin+(id?storyPath(target,id):v==="about"?editionPath(target):collectionPath(target)).slice(siteBase.length);
+  }
+  const schema=document.querySelector("#structured-data");
+  if(schema)schema.textContent=JSON.stringify({"@context":"https://schema.org","@type":id?"Chapter":v==="about"?"AboutPage":"CollectionPage","name":name,"url":canonical,"inLanguage":lang,"description":description,"image":image,...(id?{position:id,author:{"@type":"Person",name:"Johann Hübner"},isPartOf:{"@type":"Book",name:"Biblische Historien",author:{"@type":"Person",name:"Johann Hübner"},datePublished:"1714",url:origin+"/"}}:{mainEntity:{"@type":"Book",name:"Biblische Historien",author:{"@type":"Person",name:"Johann Hübner"},datePublished:"1714",inLanguage:languages}})});
 }
 function openImage(src,alt){
   lightboxImage.src=src;
@@ -234,7 +270,7 @@ document.addEventListener("click",e=>{
 document.addEventListener("input",e=>{
   if(e.target.id==="plate-search"){s.search=e.target.value;renderPlateGrid()}
 });
-window.addEventListener("popstate",render);
+window.addEventListener("popstate",()=>{s.lang=route().lang||s.lang;render()});
 document.querySelector("#lightbox-close").addEventListener("click",()=>lightbox.close());
 lightbox.addEventListener("click",e=>{if(e.target===lightbox)lightbox.close()});
 document.addEventListener("keydown",e=>{
@@ -252,6 +288,9 @@ async function init(){
     if(!Array.isArray(data.images)||data.images.length!==104)throw Error("Incomplete historical sequence");
     for(let i=0;i<104;i++)if(data.images[i].id!==i+1)throw Error("Plate sequence mismatch");
     s.plates=data.images;s.byId=new Map(data.images.map(p=>[p.id,p]));
+    const current=route();
+    if(!current.lang&&current.view==="story")history.replaceState({},"",storyPath(s.lang,idParam()));
+    else if(!current.lang&&current.view==="about")history.replaceState({},"",editionPath(s.lang,current.id));
     render();
   }catch(err){
     main.innerHTML=`<div class="container error-view"><h1>Archive unavailable</h1><p>The historical image archive could not be loaded.</p><a href="${sourceGerman}">Heidelberg source ↗</a></div>`;

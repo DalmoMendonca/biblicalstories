@@ -85,6 +85,8 @@ if BASE_PATH:
     (DIST / ".nojekyll").touch()
     print(f"GitHub Pages preview under {BASE_PATH}/")
 
+subprocess.run(["python3",str(ROOT/"scripts"/"seo.py")],cwd=ROOT,check=True)
+
 print(
     f"Built {DIST} with 104 original engravings and "
     f"{sum(len(s.get('folios', [])) for s in archive['images'])} "
