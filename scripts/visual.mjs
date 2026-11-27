@@ -14,7 +14,7 @@ const headings={
 };
 // Select the original-page panel by its contents, not the optional OCR or
 // historical narrative disclosure panels which share its CSS class.
-const originalPanel=page=>page.locator("details.source-facsimile").filter({has:page.locator(".folio-btn")});
+const originalPanel=page=>page.locator("details.source-facsimile").filter({has:page.locator('p.source-heading a[href^="https://digi.ub.uni-heidelberg.de/diglit/huebner1768/"]')});
 
 
 const base=process.env.SITE_BASE || "http://127.0.0.1:8123";
@@ -116,7 +116,8 @@ try{
        await prose.locator(".source-absence").waitFor({timeout:20000});
        assert.equal(await prose.locator(".edition-prose").count(),0,`Unverified OCR displayed as primary ${lang} text for story ${id}`);
      }
-     assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
+     if(id===69) assert.match(await originalPanel(chapter).locator(".source-absence").textContent(),/Heidelberg/,"Chapter 69 requires an explicit archival collation warning");
+     else assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
      assert.equal(await originalPanel(chapter).count(),1,"Original folio panel should be unique");
      assert.ok(await originalPanel(chapter).evaluate(el=>el.open),"Original facsimiles must open by default");
      if(lang==="de"){
