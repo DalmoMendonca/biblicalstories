@@ -45,3 +45,6 @@ Only the image viewer transition, restrained and reduced-motion aware. Do not an
 
 ## Source/provenance
 Public-domain 1768 Giessen 104 engravings via Heidelberg IIIF, cropped without synthesis from the photographic originals. Keep original full page and digital source URLs for every plate, plus crop coordinates in the machine-readable provenance file.
+
+## Reader refinement — November 2026
+One persistent language control in the masthead. The story reader presents the engraving, a single navigation title, biblical reference, and the four required sections plus Latin. Original printed titles, per-chapter source details, editorial notes and alternate witnesses remain in the contextual Edition page and source data; no scan links, redundant captions or OCR disclosures interrupt the reading flow. Original German folio images remain directly visible after the text and open in the image viewer without captions or outbound links. No change to corpus content or original image assets.

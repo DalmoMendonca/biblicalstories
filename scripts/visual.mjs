@@ -14,7 +14,7 @@ const headings={
 };
 // Select the original-page panel by its contents, not the optional OCR or
 // historical narrative disclosure panels which share its CSS class.
-const originalPanel=page=>page.locator("details.source-facsimile").filter({has:page.locator('p.source-heading a[href^="https://digi.ub.uni-heidelberg.de/diglit/huebner1768/"]')});
+const originalPanel=page=>page.locator(".original-pages");
 
 
 const base=process.env.SITE_BASE || "http://127.0.0.1:8123";
@@ -40,15 +40,15 @@ try{
  assert.match(desktop.url(),/id=43/);
  await desktop.locator(".figure-art img").evaluate(i=>i.decode());
  assert.ok((await desktop.locator(".figure-art img").getAttribute("src")).startsWith("/engravings/"));
- await desktop.locator('[data-reader-lang="de"]').click();
+ await desktop.locator('[data-lang="de"]').click();
  assert.equal(await desktop.locator(".folio-btn").count(),6);
- assert.ok(await originalPanel(desktop).evaluate(el=>el.open),"original pages should be visible by default");
+ assert.ok(await originalPanel(desktop).isVisible(),"original pages should be visible by default");
  await desktop.locator(".folio-btn img").first().evaluate(i=>i.decode());
  await desktop.screenshot({path:"qa/new-reader-desktop.jpg",type:"jpeg",quality:82});
  await desktop.locator(".folio-btn").first().click();
  assert.ok(await desktop.locator("#lightbox").evaluate(el=>el.open));
  await desktop.locator("#lightbox-close").click();
- await desktop.locator('[data-reader-lang="ru"]').click();
+ await desktop.locator('[data-lang="ru"]').click();
  assert.match(await desktop.locator(".chapter-title").textContent(),/Иов/);
  assert.match(desktop.url(),/id=43/);
  await desktop.locator('[data-story="44"]').first().click();
@@ -72,9 +72,9 @@ try{
  const txt=await mobile.locator(".reader-text").boundingBox();
  assert.ok(art.y < txt.y,"mobile original engraving must precede story text");
  await mobile.screenshot({path:"qa/new-reader-mobile.jpg",type:"jpeg",quality:84,fullPage:true});
- await mobile.locator('[data-reader-lang="de"]').click();
+ await mobile.locator('[data-lang="de"]').click();
  assert.ok(await mobile.locator(".folio-btn").count()>=1);
- assert.ok(await originalPanel(mobile).evaluate(el=>el.open),"original pages should be visible on mobile");
+ assert.ok(await originalPanel(mobile).isVisible(),"original pages should be visible on mobile");
  await mobile.locator('[data-zoom="104"]').click();
  assert.ok(await mobile.locator("#lightbox").evaluate(el=>el.open));
  await mobile.locator("#lightbox-close").click();
@@ -86,7 +86,7 @@ try{
  for(const id of [1,3,69,71,87,104]){
    await chapter.goto(base+"/?view=story&id="+id,{waitUntil:"domcontentloaded"});
    for(const lang of ["de","en","ru"]){
-     await chapter.locator('[data-reader-lang="'+lang+'"]').click();
+     await chapter.locator('[data-lang="'+lang+'"]').click();
      const prose=chapter.locator("#story-prose");
      const expected=editions[lang][id];
      if(expected){
@@ -95,7 +95,8 @@ try{
        assert.equal(await article.count(),1,"One primary edition must render");
        assert.equal(await prose.locator(".source-absence").count(),0);
        assert.equal(await article.getAttribute("lang"),lang);
-       assert.equal(await article.locator("p em").first().textContent(),expected.title);
+       assert.equal(await article.locator(".scripture-reference").textContent(),expected.reference);
+       assert.equal(await article.locator(".chapter-narrative").innerText(),expected.narrative.replace(/\n/g," "));
        assert.deepEqual(await article.locator("ol > li").allTextContents(),expected.questions);
        if(expected.question_numbers){
          assert.deepEqual(await article.locator("ol > li").evaluateAll(nodes=>nodes.map(n=>Number(n.getAttribute("value")))),expected.question_numbers);
@@ -107,7 +108,7 @@ try{
        for(const teaching of expected.teachings) assert.ok(normalized(plain).includes(normalized(teaching)),`Missing teaching ${id}/${lang}`);
        assert.ok(normalized(plain).includes(normalized(expected.reflection)),`Missing reflection ${id}/${lang}`);
        if(expected.latin) assert.equal(normalized(await article.locator('p[lang="la"]').innerText()),normalized(expected.latin));
-       assert.ok(await prose.locator("a[href^='http']").count()>=1,"Missing edition-specific source references");
+       assert.equal(await prose.locator("a[href^='http']").count(),0,"Source links must not interrupt reading");
      }else if(lang==="en"&&english1765[id]){
        await prose.locator(".edition-prose").waitFor({timeout:20000});
        assert.match(await prose.innerText(),/omits the questions and reflections/i);
@@ -116,21 +117,26 @@ try{
        await prose.locator(".source-absence").waitFor({timeout:20000});
        assert.equal(await prose.locator(".edition-prose").count(),0,`Unverified OCR displayed as primary ${lang} text for story ${id}`);
      }
-     if(id===69) assert.match(await originalPanel(chapter).locator(".source-absence").textContent(),/Heidelberg/,"Chapter 69 requires an explicit archival collation warning");
-     else assert.ok(await chapter.locator(".folio-btn").count()>=1,"Original Giessen pages should remain available");
-     assert.equal(await originalPanel(chapter).count(),1,"Original folio panel should be unique");
-     assert.ok(await originalPanel(chapter).evaluate(el=>el.open),"Original facsimiles must open by default");
-     if(lang==="de"){
-       const ocr=chapter.locator("details.source-facsimile").filter({has:chapter.locator("#zurich-source-text")});
-       assert.equal(await ocr.count(),1);
-       assert.match(await ocr.textContent(),/Unkorrigierter Bibliotheks-OCR-Text/);
-       assert.equal(await ocr.evaluate(el=>el.open),false,"Unreviewed OCR must be a separate disclosure");
+     if(id===69) assert.equal(await originalPanel(chapter).count(),0,"Do not invent absent facsimiles");
+     else{
+       assert.equal(await originalPanel(chapter).count(),1);
+       assert.ok(await originalPanel(chapter).isVisible(),"Original pages must remain directly visible");
+       assert.ok(await chapter.locator(".folio-btn").count()>=1);
      }
-     if(lang!=="de") assert.ok(await chapter.locator('#source-content a[href^="http"]').count()>=2,"Historic edition/source links missing");
+     assert.equal(await chapter.locator("[data-lang]").count(),3,"Exactly one language selector");
+     assert.equal(await chapter.locator(".reader a[href^='http']").count(),0,"Reader must not contain outbound source links");
+     assert.equal(await chapter.locator(".chapter-title").count(),1);
+     assert.ok(await chapter.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),"Reader overflow");
      assert.ok(chapter.url().includes("id="+id),"Language changed story");
      console.log("EDITORIAL INTEGRITY PASS",id,lang);
    }
  }
+ await chapter.locator("#about-link").click();
+ assert.match(chapter.url(),/view=about&id=104/);
+ assert.match(await chapter.locator(".edition-record").innerText(),/Basel 1768/);
+ assert.ok(await chapter.locator(".edition-record a[href^='http']").count()>0,"Archival links must remain available in Edition");
+ await chapter.locator(".edition-record .back-link").click();
+ assert.match(chapter.url(),/view=story&id=104/);
  await chapter.close();
 
 }finally{await browser.close();}
