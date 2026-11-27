@@ -2097,7 +2097,7 @@
         7,
         7,
         731,
-        1233
+        1187
       ],
       "method": "outer-ink-paper-frame-perspective",
       "edge_support": {
@@ -2108,11 +2108,12 @@
       },
       "confidence": 1.0,
       "manual_coordinates": false,
+      "manual_caption_boundary": true,
       "width": 724,
-      "height": 1226,
+      "height": 1180,
       "source_original": "/art/044.webp",
       "source_sha256": "5f10f6229204f3320d4cf3c46e053c1d9408427ca79e91c4409449225a19a7c8",
-      "crop_sha256": "3459bdb4b5684f053ac96173e086077c9733c9dae4eab719b5285ba7fe64c180"
+      "crop_sha256": "c5a92e036334c0f0c3e2664a899f6f63cec8660a06cb031d828a50aa99406e75"
     },
     "45": {
       "source_corners": [
