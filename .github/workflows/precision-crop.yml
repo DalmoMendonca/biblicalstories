@@ -1,0 +1,32 @@
+name: Precision engraving recrop
+on:
+  push:
+    branches: [engraving-rework]
+    paths: ['scripts/precision_crop.py', '.github/workflows/precision-crop.yml']
+permissions:
+  contents: write
+jobs:
+  recrop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python3 -m pip install -r requirements.txt opencv-python-headless==4.11.0.86
+      - run: python3 scripts/precision_crop.py
+      - run: python3 scripts/build.py
+      - name: Commit corrected assets and review sheets to staging branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          cp dist/social/en/cover.jpg qa/precision/cover.jpg
+          git add public/engravings public/data/crop-provenance.json
+          git add -f qa/precision/*.jpg
+          git commit -m 'Re-extract 104 engraving candidates and regenerate sharing cover'
+          git push origin HEAD:engraving-rework
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: precision-crop-review
+          path: qa/precision/
