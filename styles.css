@@ -43,8 +43,9 @@ img{display:block;max-width:100%}
 .plates{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.7vw,43px) clamp(14px,2.5vw,38px);padding:34px 0 105px}
 .plate{min-width:0;margin:0;position:relative}
 .plate-link{display:block;outline-offset:5px}
-.plate-image{width:100%;aspect-ratio:.66;display:block;overflow:hidden;background:transparent}
-.plate-image img{width:100%;height:100%;object-fit:contain;object-position:center;transition:opacity .2s}
+/* Fixed catalogue mounts: uniform visible bounds, never crop or stretch historic scenes. */
+.plate-image{width:100%;aspect-ratio:2/3;display:block;position:relative;overflow:hidden;background:#ddd7ca;outline:1px solid #c7bfb0;outline-offset:-1px}
+.plate-image img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:contain;object-position:center;transition:opacity .2s}
 .plate-link:hover .plate-image img{opacity:.88}
 .plate figcaption{display:grid;grid-template-columns:35px 1fr;gap:10px;align-items:baseline;margin-top:13px}
 .plate-number{font:500 11px var(--sans);color:var(--accent);font-variant-numeric:tabular-nums}
