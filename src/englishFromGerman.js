@@ -5355,5 +5355,83 @@ export const englishFromGerman = {
       "questions": 14,
       "teachings": 3
     }
+  },
+  "104": {
+    "title": "The Conversion of Paul",
+    "reference": "Acts 7, 8, 9",
+    "kind": "new-translation-from-transcribed-german",
+    "source_compared": true,
+    "independent_review": false,
+    "pages": [
+      553,
+      554,
+      555,
+      556
+    ],
+    "printed": "321–324",
+    "narrative": "1. The first martyr after Christ's ascension was Saint Stephen. 2. He was stoned at Jerusalem on account of the testimony of Jesus. 3. He was full of the Holy Spirit, and saw heaven opened and Jesus standing at the right hand of God. 4. No one took more pleasure in the death of this holy man than Saul. 5. He was a Pharisee, and persecuted the Christians wherever he knew of them and could do so. 6. For he ravaged the congregation, went from house to house, dragged out men and women, and delivered them to prison. 7. In particular Saul breathed threats and murder against the disciples of the Lord, 8. and went to the high priest and asked him for letters to the synagogues at Damascus, 9. so that if he found any of this Way, men or women, he might lead them bound to Jerusalem. 10. Now as he was on the way and came near Damascus, suddenly a light from heaven shone around him. 11. And he fell to the earth and heard a voice saying to him: Saul, Saul, why do you persecute me? 12. But he said: Lord, who are you? 13. The Lord said: I am Jesus, whom you persecute; it will be hard for you to kick against the goad. 14. And Saul said, trembling and terrified: Lord, what do you wish me to do? 15. The Lord said to him: Rise and go into the city, and there you will be told what you should do. 16. But the men who were his companions stood speechless with astonishment. 17. For they heard a voice and saw no one. 18. Saul rose from the ground, and when he opened his eyes he saw no one. 19. But they took him by the hand and led him to Damascus. 20. And for three days he could not see, and neither ate nor drank. 21. Now there was a disciple at Damascus named Ananias, 22. to whom the Lord spoke in a vision: Ananias! 23. And he said: Here I am, Lord. 24. The Lord said to him: Rise and go into the street called Straight, 25. and inquire in the house of Judas for Saul by name, from Tarsus; for behold, he is praying. 26. And he has seen in a vision a man named Ananias coming in to him and laying his hand upon him, that he might see again. 27. But Ananias answered: Lord, I have heard from many about this man, how much evil he has done to the saints at Jerusalem, 28. and here he has authority from the chief priests to bind all who call upon your name. 29. But the Lord said to him: Go, for this man is a chosen instrument of mine. 30. And Ananias went and entered the house, laid his hands upon him, and said: 31. Dear brother Saul, the Lord who appeared to you on the way by which you came has sent me, 32. so that you might see again and be filled with the Holy Spirit. 33. And immediately something like scales fell from his eyes, and he could see again. 34. Then he arose and was baptized, took food, and strengthened himself. 35. This Saul thereafter became a great apostle of the Lord, and was called Paul.",
+    "questions": [
+      "Who was the first martyr after Christ's ascension?",
+      "Why was this Stephen stoned?",
+      "What did Stephen see before his end?",
+      "Who took pleasure in Stephen's death?",
+      "What sort of man was this Saul?",
+      "What did this Saul do?",
+      "How did Saul behave especially toward the apostles?",
+      "What did he request from the chief priests?",
+      "What purpose were the letters to serve for him?",
+      "What happened to Saul on the road to Damascus?",
+      "What voice did Saul hear?",
+      "What did Saul say?",
+      "What answer did he receive?",
+      "What did Saul say to Jesus?",
+      "What answer did Jesus give him?",
+      "What did his companions say to this?",
+      "Why were his companions so astonished?",
+      "How was Saul after this apparition?",
+      "What did his companions do with him?",
+      "How was he at Damascus?",
+      "What was there at Damascus?",
+      "What vision did Ananias have?",
+      "What answer did Ananias give?",
+      "What did the Lord command Ananias?",
+      "For whom was Ananias to inquire?",
+      "What had Saul meanwhile seen in a vision?",
+      "What objection did Ananias make?",
+      "What authority did Saul have with him?",
+      "What did the Lord Jesus say in reply?",
+      "What did Ananias do after this?",
+      "What did Ananias say when he came to Saul?",
+      "What good tidings did he bring Saul?",
+      "What happened to Saul?",
+      "What did Saul do thereafter?",
+      "How did things finally turn out for this Saul?"
+    ],
+    "teachings": [
+      "I. From the threatening Saul came a meek Paul.\nHere one sees how God can take the stony heart out of a person and give him a heart of flesh in its place.",
+      "II. When Saul heard the voice of the Lord Jesus, he said at once: Lord, what do you wish me to do?\nWhenever we also notice that God is working on our souls, let us likewise submit to God's will with obedience and humility.",
+      "III. God converted the apostle Paul by an extraordinary apparition.\nWe others must not wait for anything of the kind; rather, we have Moses and the prophets, whom we may hear."
+    ],
+    "reflection": "Saul, why do you persecute me? Thus I hear Jesus speak:\nYet Jesus was no longer to be seen on earth;\nSo it is when one would take vengeance on Christ's servants:\nHe takes it as though it had been done to him.\nOh no! Whomever Jesus appoints in his place,\nI will esteem worthy of all honor and love.",
+    "latin": "Christus dicebat: Saul! Saul! quid persequeris me?\nEt tamen in terris nullibi Christus erat.\nNimirum Christi quæ fit injuria membris,\nNon aliter fert, quam si sibi facta foret.\nAbsit! nam Christo qui dignus munere sacro,\nEst quoque jure suo dignus amore meo.",
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "editorial_notes": "New translation from the source-compared Gießen narrative, questions and teachings, and Basel 1768 p. 512 reflection; original Latin retained from Basel. Narrative marker 21 normalized in German source.",
+    "supplemental_witness": {
+      "edition": "Basel: Joh. Conrad und Joh. Jacob von Mechel, 1768",
+      "institution": "Universitätsbibliothek Basel, UBH Rb 2386",
+      "printed_page": 512,
+      "scan": 548,
+      "doi": "https://doi.org/10.3931/e-rara-112889",
+      "url": "https://www.e-rara.ch/bau_1/content/zoom/29074687",
+      "image": "https://www.e-rara.ch/bau_1/download/webcache/0/29074687",
+      "sections": [
+        "reflection",
+        "latin"
+      ],
+      "method": "Direct visual transcription of printed page; independently unreviewed; no assertion of exact Gießen variant."
+    }
   }
 };

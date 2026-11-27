@@ -5245,5 +5245,82 @@ export const german1768 = {
       "questions": 14,
       "teachings": 3
     }
+  },
+  "104": {
+    "title": "Von Pauli Bekehrung.",
+    "reference": "Apostel-Geschichte VII. VIII. IX. Capitel.",
+    "pages": [
+      553,
+      554,
+      555,
+      556
+    ],
+    "printed": "321–324",
+    "source_compared": true,
+    "independent_review": false,
+    "narrative": "1. Der erste Märtyrer nach Christi Himmelfahrt war der heilige Stephanus. 2. Derselbe war um des Zeugnisses JEsu willen zu Jerusalem gesteiniget. 3. Er war voll des Heiligen Geistes, und sahe den Himmel offen, und JEsum stehen zur Rechten GOttes. 4. An dem Tode dieses heiligen Mannes hatte niemand mehr Gefallen, als Saulus. 5. Derselbe war ein Pharisäer, und verfolgte die Christen, wo er wuste und konte. 6. Denn er zerstörte die Gemeine, gieng hin und her in die Häuser, und zog hervor Mann und Weib, und überantwortete sie ins Gefängniß. 7. Insonderheit schnaubte Saulus mit Dräuen und Morden wider die Jünger des HErrn. 8. und gieng hin zum Hohenpriester, und bat ihn um Briefe gen Damascon an die Schulen, 9. auf daß, so er etliche dieses Weges fände, Männer und Weiber, er sie gebunden führte gen Jerusalem. 10. Da er nun auf dem Wege war, und nahe bey Damascon kam, umleuchtete ihn plötzlich ein Licht vom Himmel. 11. Und er fiel auf die Erden, und hörte eine Stimme, die sprach zu ihm: Saul, Saul, was verfolgest du mich? 12. Aber er sprach: HErr, wer bist du? 13. Der HErr sprach: Ich bin JEsus, den du verfolgest, es wird dir schwer werden, wider den Stachel zu lecken. 14. Und Saulus sprach mit Zittern und Zagen: HErr, was wilt du, daß ich thun soll? 15. Der HErr sprach zu ihm: Stehe auf, und gehe in die Stadt, da wird man dir sagen, was du thun solt. 16. Die Männer aber, die seine Gefährten waren, stunden und waren erstarret. 17. Denn sie hörten eine Stimme, und sahen niemand. 18. Saulus aber richtete sich auf von der Erden, und als er seine Augen aufthat, sahe er niemand. 19. Sie nahmen ihn aber bey der Hand, und führten ihn gen Damascon. 20. Und er war drey Tage nicht sehen, und aß nicht, und tranck nicht. 21. Es war aber ein Jünger zu Damascon, mit Namen Ananias, 22. zu dem sprach der HErr im Gesichte: Anania! 23. Und er sprach: Hie bin ich HErr. 24. Der HErr sprach zu ihm: Stehe auf, und gehe in die Gasse, die da heist die richtige, 25. und frage in dem Hause Juda nach Saulo, mit Namen von Tarsen; denn siehe, er betet. 26. Und hat gesehen im Gesichte einen Mann, mit Namen Ananias, zu ihm hinein kommen, und die Hand auf ihn legen, daß er wieder sehend werde. 27. Ananias aber antwortete: HErr, ich habe von vielen gehöret von diesem Manne, wie viel Ubels er den Heiligen gethan hat zu Jerusalem, 28. und er hat allhie Macht von den Hohenpriestern, zu binden alle, die deinen Namen anruffen. 29. Der HErr aber sprach zu ihm: Gehe hin, denn dieser ist mir ein auserwehltes Rüst-Zeug. 30. Und Ananias gieng hin, und kam in das Haus, und legte die Hände auf ihn, und sprach: 31. Lieber Bruder Saul, der HErr hat mich gesandt, der dir erschienen ist auf dem Wege, da du herkamest, 32. daß du wieder sehend, und mit dem Heiligen Geist erfüllet werdest. 33. Und alsobald fiel es von seinen Augen wie schuppen, und war wieder sehend. 34. Damit stund er auf, und ließ sich taufen, und nahm Speise zu sich, und stärckte sich. 35. Dieser Saulus ward darauf ein grosser Apostel des HErrn, und ward Paulus genannt.",
+    "questions": [
+      "Wer war der erste Märtyrer nach Christi Himmelfahrt?",
+      "Warum ward dieser Stephanus gesteiniget?",
+      "Was sahe Stephanus noch vor seinem Ende?",
+      "Wer hatte denn Gefallen an Stephani Tode?",
+      "Was war dieser Saulus vor ein Mann?",
+      "Was that dieser Saulus?",
+      "Wie bezeigte sich Saulus insonderheit gegen die Apostel?",
+      "Was bat er sich bey den Hohenpriestern aus?",
+      "Worzu solten ihm die Briefe dienen?",
+      "Was begegnete diesem Saulo auf dem Wege nach Damascon?",
+      "Was hörte Saulus vor eine Stimme?",
+      "Was sagte Saulus?",
+      "Was bekam er zur Antwort?",
+      "Was sagte Saulus zu JEsu?",
+      "Was gab ihm JEsus vor eine Antwort?",
+      "Was sagten seine Gefährten darzu?",
+      "Warum waren die Gefährten so erstarret?",
+      "Wie befand sich denn Saulus nach dieser Erscheinung?",
+      "Was machten die Gefährten mit ihm?",
+      "Wie befand er sich denn zu Damascon?",
+      "Was war denn zu Damascon?",
+      "Was hatte Ananias vor ein Gesicht?",
+      "Was gab Ananias zur Antwort?",
+      "Was befahl der HErr diesem Anania?",
+      "Nach wem solte Ananias fragen?",
+      "Was hatte denn Saulus unterdessen im Gesichte gesehen?",
+      "Was hatte Ananias darwider einzuwenden?",
+      "Was hatte Saulus vor eine Vollmacht bey sich?",
+      "Was sagte der HErr JEsus dargegen?",
+      "Was that hierauf Ananias?",
+      "Was sagte Ananias wie er zu Saulo kam?",
+      "Was brachte er Saulo vor eine gute Botschafft?",
+      "Was trug sich mit Saulo zu?",
+      "Was that Saulus hierauf?",
+      "Wie lief es endlich mit diesem Saulo ab?"
+    ],
+    "teachings": [
+      "I. Aus dem schnaubenden Saulo ward ein sanftmüthiger Paulus.\nDa siehet man / wie GOtt das steinerne Herz aus einem Menschen heraus nehmen / und ihm davor ein fleischern Herz geben kan.",
+      "II. Wie Saulus die Stimme des HErrn JEsu hörte, sprach er gleich: HErr, was wilt du, daß ich thun soll.\nWenn wir auch mercken / daß GOtt an unsern Seelen arbeitet / so lasset uns doch auch dem Willen GOttes mit Gehorsam und Demuth unterwerffen.",
+      "III. Den Apostel Paulum hat GOtt durch eine ausserordentliche Erscheinung bekehret.\nWir andre dürffen auf dergleichen nicht warten / sondern wir haben Mosen und die Propheten / die dürffen wir hören."
+    ],
+    "reflection": "Saul, was verfolgst du mich? so hör ich JEsum sprechen:\nUnd JEsus war doch nicht auf Erden mehr zu sehn;\nSo gehts, wenn man sich will an Christi Dienern rächen,\nSo nimmt er solches auf, als wär es ihm geschehn.\nO nein! wen JEsus wird an seine Stelle setzen,\nDen will ich aller Ehr und Liebe würdig schätzen.",
+    "latin": "Christus dicebat: Saul! Saul! quid persequeris me?\nEt tamen in terris nullibi Christus erat.\nNimirum Christi quæ fit injuria membris,\nNon aliter fert, quam si sibi facta foret.\nAbsit! nam Christo qui dignus munere sacro,\nEst quoque jure suo dignus amore meo.",
+    "editorial_notes": "Narrative 21 printed as 22; corrected to agree with question 21. Gießen 1768 pp. 321–324 visually compared; its p. 325 (scan 0557) is unavailable. The complete German reflection and Latin verses are supplied verbatim from Basel 1768 p. 512 (scan 548), visually compared; this is an explicitly identified alternate witness.",
+    "expected": {
+      "questions": 35,
+      "teachings": 3
+    },
+    "supplemental_witness": {
+      "edition": "Basel: Joh. Conrad und Joh. Jacob von Mechel, 1768",
+      "institution": "Universitätsbibliothek Basel, UBH Rb 2386",
+      "printed_page": 512,
+      "scan": 548,
+      "doi": "https://doi.org/10.3931/e-rara-112889",
+      "url": "https://www.e-rara.ch/bau_1/content/zoom/29074687",
+      "image": "https://www.e-rara.ch/bau_1/download/webcache/0/29074687",
+      "sections": [
+        "reflection",
+        "latin"
+      ],
+      "method": "Direct visual transcription of printed page; independently unreviewed; no assertion of exact Gießen variant."
+    }
   }
 };

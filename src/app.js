@@ -118,13 +118,19 @@ function textParagraphs(value){
 function questionList(w){
   return '<ol>'+w.questions.map((q,i)=>'<li'+(w.question_numbers?' value="'+esc(w.question_numbers[i])+'"':'')+'>'+esc(q)+'</li>').join("")+'</ol>';
 }
+function supplementalWitness(w,lang){
+  const s=w?.supplemental_witness;
+  if(!s)return "";
+  const label=lang==="de"?"Ergänzung: Gottselige Gedancken und Lateinisch":lang==="ru"?"Латинскіе стихи изъ дополнительнаго изданія":"Supplement: devotional reflection and Latin verses";
+  return '<p class="source-heading">'+esc(label)+' · Basel 1768 · p. '+esc(s.printed_page)+' · <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.institution)+' ↗</a> · <a href="'+esc(s.doi)+'" target="_blank" rel="noopener">DOI ↗</a></p>';
+}
 function chapterContent(p){
   const lang=s.lang;
   const german=lang==="de" ? german1768[p.id] : null;
   if(german){
     const links=german.pages.map(n=>'<a href="'+sourceGerman+'/'+String(n).padStart(4,"0")+'" target="_blank" rel="noopener">↗ '+String(n).padStart(4,"0")+'</a>').join(" · ");
     const verses=v=>esc(v).replace(/\n/g,"<br>");
-    return '<p class="source-heading">Gießen 1768 · S. '+esc(german.printed)+' · '+links+'</p>'
+    return '<p class="source-heading">Gießen 1768 · S. '+esc(german.printed)+' · '+links+'</p>'+supplementalWitness(german,lang)
       +'<div class="edition-prose" lang="de"><p><em>'+esc(german.title)+'</em></p><p>'+esc(german.reference)+'</p>'
       +textParagraphs(german.narrative)
       +'<h2>Deutliche Fragen</h2>'+questionList(german)
@@ -138,7 +144,7 @@ function chapterContent(p){
     const links=translated.pages.map(n=>'<a href="'+sourceGerman+'/'+String(n).padStart(4,"0")+'" target="_blank" rel="noopener">↗ '+String(n).padStart(4,"0")+'</a>').join(" · ");
     const verses=v=>esc(v).replace(/\n/g,"<br>");
     const historical=english1765[p.id];
-    return '<p class="source-heading">New English translation · from Gießen 1768 · pp. '+esc(translated.printed)+' · '+links+'</p>'
+    return '<p class="source-heading">New English translation · from Gießen 1768 · pp. '+esc(translated.printed)+' · '+links+'</p>'+supplementalWitness(translated,lang)
       +'<div class="edition-prose" lang="en"><p><em>'+esc(translated.title)+'</em></p><p>'+esc(translated.reference)+'</p>'
       +textParagraphs(translated.narrative)
       +'<h2>Comprehension Questions</h2>'+questionList(translated)
@@ -152,14 +158,15 @@ function chapterContent(p){
   if(russian){
     const links=russian.source_pages.map(n=>'<a href="https://kp.rusneb.ru/attachments_new/attachment/'+esc(russian.document_id)+'/preview-page-'+n+'.jpg" target="_blank" rel="noopener">↗ '+n+'</a>').join(" · ");
     const verses=v=>esc(v).replace(/\n/g,"<br>");
-    const originalLatin=german1768[p.id]?.latin;
+    const germanSource=german1768[p.id];
+    const originalLatin=germanSource?.latin;
     return '<p class="source-heading">'+esc(russian.edition)+' · с. '+esc(russian.printed)+' · '+links+'</p>'
       +'<div class="edition-prose" lang="ru"><p><em>'+esc(russian.title)+'</em></p><p>'+esc(russian.reference)+'</p>'
       +textParagraphs(russian.narrative)
       +'<h2>Вопросы</h2>'+questionList(russian)
       +'<h2>Полезныя нравоученія</h2>'+textParagraphs(russian.teaching_preamble)+russian.teachings.map(t=>'<p>'+verses(t)+'</p>').join("")
       +'<h2>Благочестивыя размышленія</h2>'+textParagraphs(russian.reflection)
-      +(russian.latin?'<h2>Латинскій текстъ</h2><p lang="la">'+verses(russian.latin)+'</p>':originalLatin?'<h2>Latin · Gießen 1768</h2><p lang="la">'+verses(originalLatin)+'</p>':'')+'</div>'
+      +(russian.latin?'<h2>Латинскій текстъ</h2><p lang="la">'+verses(russian.latin)+'</p>':originalLatin?'<h2>Latin · '+(germanSource.supplemental_witness?'Basel 1768':'Gießen 1768')+'</h2><p lang="la">'+verses(originalLatin)+'</p>'+supplementalWitness(germanSource,lang):'')+'</div>'
       +'<p class="source-heading">Текстъ историческаго русскаго изданія; независимая корректура ещё не проведена.</p>';
   }
   const historical=lang==="en" ? english1765[p.id] : null;
